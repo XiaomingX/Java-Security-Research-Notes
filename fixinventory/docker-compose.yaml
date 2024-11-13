@@ -1,0 +1,115 @@
+services:
+  graphdb-upgrade:
+    image: arangodb:3.10.1
+    container_name: graphdb-upgrade
+    environment:
+      - ARANGO_ROOT_PASSWORD=
+    ports:
+      - "8529:8529"
+    volumes:
+      - fixinventory_graphdb_data:/var/lib/arangodb3
+    command:
+      - --database.auto-upgrade
+  graphdb:
+    image: arangodb:3.10.1
+    depends_on:
+      graphdb-upgrade:
+        condition: service_completed_successfully
+    container_name: graphdb
+    environment:
+      - ARANGO_ROOT_PASSWORD=
+    ports:
+      - "8529:8529"
+    volumes:
+      - fixinventory_graphdb_data:/var/lib/arangodb3
+    ulimits:
+      nofile:
+        soft: 65535
+        hard: 65535
+  tsdb:
+    image: prom/prometheus:v2.33.4
+    container_name: tsdb
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./dockerV2/prometheus.yml:/etc/prometheus/prometheus.yml
+      - fixinventory_tsdb_data:/prometheus
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.retention.time=730d
+      - --web.console.libraries=/usr/share/prometheus/console_libraries
+      - --web.console.templates=/usr/share/prometheus/consoles
+  fixcore:
+    image: somecr.io/someengineering/fixcore:edge
+    container_name: fixcore
+    depends_on:
+      - graphdb
+    ports:
+      - "8900:8900"
+    environment:
+      - PSK
+      - FIX_VERBOSE
+      - FIX_LOG_TEXT
+      - FIXCORE_ANALYTICS_OPT_OUT
+      - FIXCORE_GRAPHDB_SERVER=http://graphdb:8529
+      # Fix Inventory will create a new database and user with this password using the root account
+      - FIXCORE_GRAPHDB_PASSWORD=changeme
+    command:
+      - --override
+      - fixcore.api.web_hosts=fixcore
+      - fixcore.api.host_certificate.common_name=fixcore
+      - fixcore.api.host_certificate.san_dns_names=fixcore
+      - fixcore.api.tsdb_proxy_url=http://tsdb:9090
+      - fixcore.runtime.start_collect_on_subscriber_connect=true
+    restart: always
+    stop_grace_period: 2m
+  fixworker:
+    image: somecr.io/someengineering/fixworker:edge
+    container_name: fixworker
+    depends_on:
+      - fixcore
+    ports:
+      - 9956:9956
+    environment:
+      - PSK
+      - FIX_VERBOSE
+      - FIX_LOG_TEXT
+      # Pass temporary AWS credentials if provided
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
+      # Define the fixcore URI to connect to
+      - FIXWORKER_FIXCORE_URI=https://fixcore:8900
+    restart: always
+    stop_grace_period: 2m
+  fixmetrics:
+    image: somecr.io/someengineering/fixmetrics:edge
+    container_name: fixmetrics
+    depends_on:
+      - fixcore
+    ports:
+      - 9955:9955
+    environment:
+      - PSK
+      - FIX_VERBOSE
+      - FIX_LOG_TEXT
+      - FIXMETRICS_FIXCORE_URI=https://fixcore:8900
+    restart: always
+    stop_grace_period: 2m
+  fixshell:
+    image: somecr.io/someengineering/fixshell:edge
+    container_name: fixshell
+    depends_on:
+      - fixcore
+    environment:
+      - PSK
+      - FIXSHELL_FIXCORE_URI=https://fixcore:8900
+    volumes:
+      - ~/fixinventory-downloads:/home/fixinventory/downloads
+    command:
+      - --wait
+    restart: always
+    stop_grace_period: 2m
+volumes:
+  fixinventory_graphdb_data:
+  fixinventory_tsdb_data:

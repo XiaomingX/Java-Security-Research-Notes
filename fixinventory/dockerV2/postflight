@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+. /usr/local/etc/fixinventory/common
+
+info "Running postflight checks"
+. /usr/local/fix-venv-python3/bin/activate
+export FIXCORE_ANALYTICS_OPT_OUT=true
+for prg in fix{core,worker,metrics}; do
+    info "Checking $prg in CPython"
+    "$prg" --help > /dev/null
+done
+info "Checking resh in CPython"
+fixsh --help > /dev/null
+info "All checks passed"

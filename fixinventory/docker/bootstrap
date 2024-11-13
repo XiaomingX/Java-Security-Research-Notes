@@ -1,0 +1,166 @@
+#!/bin/bash
+# Bootstraps runit config
+set -euo pipefail
+
+# Include defaults
+. /usr/local/etc/fix/defaults
+. /usr/local/etc/fix/common
+. /usr/local/fix-venv-python3/bin/activate
+
+
+main() {
+    apply_permissions
+    configure_timezone
+    setup_etc_hosts || true
+    setup_dnsmasq
+    setup_graphdb
+    setup_tsdb
+    setup_fixcore "$@"
+    setup_fixworker "$@"
+    setup_fixmetrics "$@"
+    setup_runit
+    exec /sbin/my_init
+}
+
+
+# Apply user id and group id
+apply_permissions() {
+    info "Setting uid:gid of fix to $PUID:$PGID"
+    groupmod -g "${PGID}" -o fix
+    #usermod -u "${PUID}" -o -g fix fix
+    sed -i -E "s/^(fix:x):[0-9]+:[0-9]+:(.*)/\\1:$PUID:$PGID:\\2/" /etc/passwd
+
+    mkdir -p \
+        "$TSDB_DATABASE_DIRECTORY" \
+        "$GRAPHDB_DATABASE_DIRECTORY"
+
+    chown fix:fix \
+        /home/fix
+    chown -R fix:fix \
+        "$TSDB_DATABASE_DIRECTORY" \
+        "$GRAPHDB_DATABASE_DIRECTORY"
+}
+
+
+# Configure timezone
+configure_timezone() {
+    export TZ
+    if [ ! -f "/usr/share/zoneinfo/$TZ" ]; then
+        warn "Unknown timezone $TZ - defaulting to Etc/UTC"
+        TZ="Etc/UTC"
+    fi
+    ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime
+    echo "$TZ" > /etc/timezone
+    info "Setting timezone $TZ"
+}
+
+
+# Enable/disable IP protocols in /etc/hosts
+setup_etc_hosts() {
+    local temp_hosts
+    temp_hosts="$(mktemp)"
+    cat /etc/hosts > "$temp_hosts"
+
+    if ipv4_enabled; then
+        sed -i -E "s/^#(127\.0\.0\.1.*)/\1/" "$temp_hosts"
+    else
+        sed -i -E "s/^(127\.0\.0\.1.*)/#\1/" "$temp_hosts"
+    fi
+
+    if ipv6_enabled; then
+        sed -i -E "s/^#(::1.*)/\1/" "$temp_hosts"
+    else
+        sed -i -E "s/^(::1.*)/#\1/" "$temp_hosts"
+    fi
+
+    # /etc/hosts is singularly mounted into the container.
+    # sed -i is not really working in-place but instead
+    # creates a temp file and then moves it. So would fail
+    # on /etc/hosts. Instead of atomically moving
+    # we cat the temp file into the destination.
+    cat "$temp_hosts" > /etc/hosts
+    rm -f "$temp_hosts"
+}
+
+setup_runit() {
+    chmod +x /etc/service/*/run
+}
+
+setup_dnsmasq() {
+    rm -f "$runit_dnsmasq_rundir/run"
+    if [ "$START_DNSMASQ" = true ]; then
+        info "dnsmasq activated"
+        mkdir -p "$runit_dnsmasq_rundir"
+        cp "$runit_dnsmasq_conf_in" "$runit_dnsmasq_rundir/run"
+        cp /etc/resolv.conf /etc/resolv.dnsmasq
+        if [ "${LOG_DNS_QUERIES-}" = true ]; then
+            echo "log-queries=extra" >> /etc/dnsmasq.d/fix.conf
+        fi
+        echo "nameserver 127.0.0.1" > /etc/resolv.conf
+    fi
+}
+
+setup_graphdb() {
+    rm -f "$runit_graphdb_rundir/run"
+    rm -f "$runit_graphdb_bootstrap_rundir/run"
+    if [ "$START_GRAPHDB" = true ]; then
+        info "Graph database activated"
+        mkdir -p "$runit_graphdb_rundir"
+        mkdir -p "$runit_graphdb_bootstrap_rundir"
+        sed -e "s#@GRAPHDB_SERVER_ENDPOINT@#$GRAPHDB_SERVER_ENDPOINT#" \
+            -e "s#@GRAPHDB_ROOT_PASSWORD@#$GRAPHDB_ROOT_PASSWORD#" \
+            -e "s#@GRAPHDB_DATABASE_DIRECTORY@#$GRAPHDB_DATABASE_DIRECTORY#" \
+            "$runit_graphdb_conf_in" > "$runit_graphdb_rundir/run"
+        cp "$runit_graphdb_bootstrap_conf_in" "$runit_graphdb_bootstrap_rundir/run"
+    fi
+}
+
+setup_tsdb() {
+    rm -f "$runit_tsdb_rundir/run"
+    if [ "$START_TSDB" = true ]; then
+        info "Time series database activated"
+        mkdir -p "$runit_tsdb_rundir"
+        sed -e "s#@TSDB_DATABASE_DIRECTORY@#$TSDB_DATABASE_DIRECTORY#" \
+            -e "s#@TSDB_CONFIG_FILE@#$TSDB_CONFIG_FILE#" \
+            -e "s#@TSDB_RETENTION_TIME@#$TSDB_RETENTION_TIME#" \
+            "$runit_tsdb_conf_in" > "$runit_tsdb_rundir/run"
+    fi
+}
+
+setup_fixcore() {
+    rm -f "$runit_fixcore_rundir/run"
+    if [ "$START_FIXCORE" = true ]; then
+        info "fixcore activated"
+        mkdir -p "$runit_fixcore_rundir"
+        argsdispatcher fixcore "$runit_fixcore_conf_in" "$@" > "$runit_fixcore_rundir/run"
+        export FIXCORE_GRAPHDB_SERVER
+        export FIXCORE_GRAPHDB_DATABASE
+        export FIXCORE_GRAPHDB_USERNAME
+        export FIXCORE_GRAPHDB_PASSWORD
+        export FIXCORE_PSK
+    fi
+}
+
+setup_fixworker() {
+    rm -f "$runit_fixworker_rundir/run"
+    if [ "$START_FIXWORKER" = true ]; then
+        info "fixworker activated"
+        mkdir -p "$runit_fixworker_rundir"
+        argsdispatcher fixworker "$runit_fixworker_conf_in" "$@" > "$runit_fixworker_rundir/run"
+        export FIXWORKER_FIXCORE_URI
+        export FIXWORKER_PSK
+    fi
+}
+
+setup_fixmetrics() {
+    rm -f "$runit_fixmetrics_rundir/run"
+    if [ "$START_FIXMETRICS" = true ]; then
+        info "fixmetrics activated"
+        mkdir -p "$runit_fixmetrics_rundir"
+        argsdispatcher fixmetrics "$runit_fixmetrics_conf_in" "$@" > "$runit_fixmetrics_rundir/run"
+        export FIXMETRICS_FIXCORE_URI
+        export FIXMETRICS_PSK
+    fi
+}
+
+main "$@"

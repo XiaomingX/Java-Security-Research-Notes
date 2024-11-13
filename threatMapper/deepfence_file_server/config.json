@@ -1,0 +1,26 @@
+{
+  "identities": [
+    {
+        "name": "anonymous",
+        "actions": [
+            "Read:database"
+        ]
+    },
+    {
+      "name": "admin",
+      "credentials": [
+        {
+          "accessKey": "$FILE_SERVER_ROOT_USER",
+          "secretKey": "$FILE_SERVER_ROOT_PASSWORD"
+        }
+      ],
+      "actions": [
+        "Admin",
+        "Read",
+        "List",
+        "Tagging",
+        "Write"
+      ]
+    }
+  ]
+}

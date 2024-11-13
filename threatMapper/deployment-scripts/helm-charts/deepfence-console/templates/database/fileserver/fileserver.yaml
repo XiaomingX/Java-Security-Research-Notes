@@ -1,0 +1,116 @@
+{{- if .Values.fileserver.create }}
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-file-server
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-file-server
+spec:
+  serviceName: {{ include "deepfence-console.fullname" . }}-file-server
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "deepfence-console.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-console.fullname" . }}-file-server
+  template:
+    metadata:
+      {{- with .Values.fileserver.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "deepfence-console.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-console.fullname" . }}-file-server
+        {{- with .Values.fileserver.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      serviceAccountName: {{ include "deepfence-console.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.fileserver.podSecurityContext | nindent 8 }}
+      containers:
+        - name: fileserver
+          securityContext:
+            {{- toYaml .Values.fileserver.securityContext | nindent 12 }}
+          image: "{{ .Values.global.imageRepoPrefix }}/{{ .Values.fileserver.image.repository }}:{{ default .Values.global.imageTag .Values.fileserver.image.tag }}"
+          imagePullPolicy: {{ .Values.fileserver.image.pullPolicy }}
+          envFrom:
+            - secretRef:
+                name: {{ include "deepfence-console.fullname" . }}-file-server-secret
+          ports:
+            - name: http
+              containerPort: 9000
+              protocol: TCP
+            - name: ui
+              containerPort: 9090
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /status
+              port: http
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
+          readinessProbe:
+            httpGet:
+              path: /status
+              port: http
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
+          resources:
+            {{- toYaml .Values.fileserver.resources | nindent 12 }}
+          volumeMounts:
+            - mountPath: /data
+              name: "file-server"
+      {{- with .Values.fileserver.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.fileserver.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.fileserver.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+  volumeClaimTemplates:
+    - metadata:
+        name: "file-server"
+      spec:
+        accessModes:
+          - "ReadWriteOnce"
+        resources:
+          requests:
+            storage: "{{ .Values.fileserver.volumeSize }}"
+        storageClassName: {{ default .Values.global.storageClass .Values.fileserver.storageClass }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-file-server
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-file-server
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 9000
+      targetPort: http
+      protocol: TCP
+    - name: ui
+      port: 9090
+      targetPort: ui
+      protocol: TCP
+  selector:
+    {{- include "deepfence-console.selectorLabels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-file-server
+{{- end }}

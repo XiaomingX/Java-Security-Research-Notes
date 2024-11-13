@@ -1,0 +1,6 @@
+{
+    "QueueUrls": [
+        "queue.amazonaws.com/test/SomeName"
+    ],
+    "NextToken": "string"
+}

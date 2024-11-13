@@ -1,0 +1,31 @@
+{
+    "TrailARN": "arn:aws:cloudtrail:us-east-1:test:trail/management-events",
+    "AdvancedEventSelectors": [
+        {
+            "Name": "Management events selector",
+            "FieldSelectors": [
+                {
+                    "Field": "eventCategory",
+                    "Equals": [
+                        "Management"
+                    ]
+                }
+            ]
+        }
+    ],
+    "EventSelectors": [
+        {
+            "ReadWriteType": "All",
+            "IncludeManagementEvents": false,
+            "DataResources": [
+                {
+                    "Type": "AWS::Lambda::Function",
+                    "Values": [
+                        "arn:aws:lambda"
+                    ]
+                }
+            ],
+            "ExcludeManagementEventSources": []
+        }
+    ]
+}

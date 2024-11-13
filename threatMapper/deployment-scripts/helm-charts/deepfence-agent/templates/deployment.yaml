@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "deepfence-agent.fullname" . }}-cluster
+  labels:
+    {{- include "deepfence-agent.labels" . | nindent 4 }}
+    name: {{ include "deepfence-agent.fullname" . }}-cluster
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  strategy:
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      {{- include "deepfence-agent.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-agent.fullname" . }}-cluster
+  template:
+    metadata:
+      labels:
+        {{- include "deepfence-agent.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-agent.fullname" . }}-cluster
+        {{- with .Values.cluster_agent.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      serviceAccountName: {{ include "deepfence-agent.serviceAccountName" . }}
+      {{- if .Values.priorityClassName }}
+      priorityClassName: {{ .Values.priorityClassName | quote }}
+      {{- end }}
+      containers:
+        - name: deepfence-cluster-agent
+          image: "{{ .Values.cluster_agent.image.name }}:{{ default .Values.global.imageTag .Values.cluster_agent.image.tag }}"
+          imagePullPolicy: {{ .Values.cluster_agent.image.pullPolicy }}
+          securityContext:
+            runAsUser: 0
+            runAsGroup: 0
+          env:
+            - name: MGMT_CONSOLE_URL
+              value: "{{ required "managementConsoleUrl is required" .Values.managementConsoleUrl }}"
+            - name: MGMT_CONSOLE_PORT
+              value: "{{ required "managementConsolePort is required" .Values.managementConsolePort }}"
+            - name: DEEPFENCE_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "deepfence-agent.fullname" . }}-key
+                  key: "deepfence-key"
+            - name: DF_CLUSTER_NAME
+              value: "{{ .Values.clusterName }}"
+            - name: AGENT_HOSTNAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: http_proxy
+              value: "{{ .Values.managementConsoleProxy.http_proxy }}"
+            - name: https_proxy
+              value: "{{ .Values.managementConsoleProxy.https_proxy }}"
+            - name: no_proxy
+              value: "{{ .Values.managementConsoleProxy.no_proxy }}"
+
+            {{- if .Values.clusterName }}
+            - name: SCOPE_HOSTNAME
+              value: "{{ .Values.clusterName }}-$(AGENT_HOSTNAME)"
+            {{- else }}
+            - name: SCOPE_HOSTNAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            {{- end }}
+            - name: DF_LOG_LEVEL
+              value: "{{ .Values.logLevel }}"
+            - name: AGENT_POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: AGENT_POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+          resources:
+            {{- toYaml .Values.cluster_agent.resources | nindent 12 }}
+      {{- with .Values.cluster_agent.nodeSelector }}
+      nodeSelector:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.cluster_agent.affinity }}
+      affinity:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.cluster_agent.tolerations }}
+      tolerations:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}

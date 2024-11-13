@@ -1,0 +1,26 @@
+# The following are default values.
+# They can be overridden by supplying the -e VAR=value option to the containerizer.
+
+# The timezone this container is running in
+TZ=${TZ:-Etc/UTC}
+
+# User and group id for the user running valheim-server
+PUID=${PUID:-0}
+PGID=${PGID:-0}
+
+# Pre-shared key to use between components
+PSK=${PSK-changeme}
+
+FIXCORE_URI=${FIXCORE_URI:-https://127.0.0.1:8900}
+FIXCORE_PSK=${FIXCORE_PSK-$PSK}
+
+# fixworker settings
+FIXWORKER_FIXCORE_URI=${FIXWORKER_FIXCORE_URI:-$FIXCORE_URI}
+FIXWORKER_PSK=${FIXWORKER_PSK-$PSK}
+
+# fixmetrics settings
+FIXMETRICS_FIXCORE_URI=${FIXMETRICS_FIXCORE_URI:-$FIXCORE_URI}
+FIXMETRICS_PSK=${FIXMETRICS_PSK-$PSK}
+
+# fixsh settings
+FIXSHELL_PSK=${FIXSHELL_PSK-$PSK}

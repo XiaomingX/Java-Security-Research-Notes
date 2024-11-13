@@ -1,0 +1,8 @@
+{
+    "DataCatalogsSummary": [
+        {
+            "CatalogName": "fix-catalog",
+            "Type": "LAMBDA"
+        }
+    ]
+}

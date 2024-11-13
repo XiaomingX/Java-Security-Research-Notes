@@ -1,0 +1,26 @@
+#!/bin/bash
+set -euo pipefail
+. /usr/local/etc/fix/defaults
+. /usr/local/etc/fix/common
+
+is_up=false
+
+while [ $is_up = false ]; do
+    echo "Waiting for GraphDB to start up"
+    sleep 1
+    if arangosh \
+        --console.history false \
+        --server.password "$GRAPHDB_ROOT_PASSWORD" \
+        --javascript.execute-string "db._version()" > /dev/null 2>&1
+    then
+        is_up=true
+    fi
+done
+
+echo "Creating $FIXCORE_GRAPHDB_USERNAME user and $FIXCORE_GRAPHDB_DATABASE database if they do not yet exist."
+cat <<EOF | arangosh --console.history false --server.password "$GRAPHDB_ROOT_PASSWORD" > /dev/null 2>&1
+const users = require('@arangodb/users');
+users.save('$FIXCORE_GRAPHDB_USERNAME', '$FIXCORE_GRAPHDB_PASSWORD');
+db._createDatabase('$FIXCORE_GRAPHDB_DATABASE');
+users.grantDatabase('$FIXCORE_GRAPHDB_USERNAME', '$FIXCORE_GRAPHDB_DATABASE', 'rw');
+EOF

@@ -1,0 +1,196 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: {{ include "deepfence-agent.fullname" . }}
+  labels:
+    {{- include "deepfence-agent.labels" . | nindent 4 }}
+    name: {{ include "deepfence-agent.fullname" . }}
+spec:
+  selector:
+    matchLabels:
+      {{- include "deepfence-agent.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-agent.fullname" . }}
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        {{- include "deepfence-agent.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-agent.fullname" . }}
+        {{- with .Values.agent.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      {{- if .Values.priorityClassName }}
+      priorityClassName: {{ .Values.priorityClassName | quote }}
+      {{- end }}
+      hostPID: true
+      hostNetwork: true
+      serviceAccountName: {{ include "deepfence-agent.serviceAccountName" . }}
+      dnsPolicy: ClusterFirstWithHostNet
+      volumes:
+        {{- if .Values.mountContainerRuntimeSocket.dockerSock }}
+        - name: docker-sock
+          hostPath:
+            path: {{ .Values.mountContainerRuntimeSocket.dockerSockPath }}
+            type: Socket
+        {{- end }}
+        {{- if .Values.mountContainerRuntimeSocket.containerdSock }}
+        - name: containerd-sock
+          hostPath:
+            path: {{ .Values.mountContainerRuntimeSocket.containerdSockPath }}
+            type: Socket
+        {{- end }}
+        {{- if .Values.mountContainerRuntimeSocket.crioSock }}
+        - name: crio-sock
+          hostPath:
+            path: {{ .Values.mountContainerRuntimeSocket.crioSockPath }}
+            type: Socket
+        - hostPath:
+            path: /var/lib/containers
+            type: Directory
+          name: containers
+        {{- end }}
+        {{- if .Values.mountContainerRuntimeSocket.podmanSock }}
+        - name: podman-sock
+          hostPath:
+            path: {{ .Values.mountContainerRuntimeSocket.podmanSockPath }}
+            type: Socket
+        - name: systemd
+          hostPath:
+            path: /run/systemd
+            type: Directory
+        {{- end }}
+        - name: kernel-sys
+          hostPath:
+            path: /sys/kernel/debug
+            type: Directory
+        - name: host-fs
+          hostPath:
+            path: /
+            type: Directory
+        - name: fenced-path
+          emptyDir: {}
+        - name: fenced-path-compliance
+          emptyDir: {}
+        - name: fenced-path-compliance-scan-logs
+          emptyDir: {}
+      containers:
+        - name: deepfence-agent
+          image: "{{ .Values.agent.image.name }}:{{ default .Values.global.imageTag .Values.agent.image.tag }}"
+          imagePullPolicy: {{ .Values.agent.image.pullPolicy }}
+          securityContext:
+            privileged: true
+          resources:
+            {{- toYaml .Values.agent.resources | nindent 12 }}
+          env:
+            - name: DEEPFENCE_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "deepfence-agent.fullname" . }}-key
+                  key: "deepfence-key"
+            - name: USER_DEFINED_TAGS
+              value: {{ .Values.userDefinedTags }}
+            - name: DF_ENABLE_PROCESS_REPORT
+              value: "{{ .Values.enableGraphReport }}"
+            - name: DF_ENABLE_CONNECTIONS_REPORT
+              value: "{{ .Values.enableGraphReport }}"
+            - name: MGMT_CONSOLE_URL
+              value: "{{ required "managementConsoleUrl is required" .Values.managementConsoleUrl }}"
+            - name: MGMT_CONSOLE_PORT
+              value: "{{ required "managementConsolePort is required" .Values.managementConsolePort }}"
+            - name: DF_KUBERNETES_ON
+              value: "Y"
+            - name: INSTANCE_ID_SUFFIX
+              value: "{{ .Values.instanceIdSuffix }}"
+            - name: DF_CLUSTER_NAME
+              value: "{{ required "clusterName is required" .Values.clusterName }}"
+            - name: AGENT_HOSTNAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: http_proxy
+              value: "{{ .Values.managementConsoleProxy.http_proxy }}"
+            - name: https_proxy
+              value: "{{ .Values.managementConsoleProxy.https_proxy }}"
+            - name: no_proxy
+              value: "{{ .Values.managementConsoleProxy.no_proxy }}"
+            {{- if .Values.clusterName }}
+            - name: SCOPE_HOSTNAME
+              value: "{{ .Values.clusterName }}-$(AGENT_HOSTNAME)"
+            {{- else }}
+            - name: SCOPE_HOSTNAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            {{- end }}
+            - name: DF_LOG_LEVEL
+              value: "{{ .Values.logLevel }}"
+            - name: AGENT_POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: AGENT_POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            {{- if .Values.mountContainerRuntimeSocket.dockerSock }}
+            - name: DOCKER_SOCKET_PATH
+              value: "{{ .Values.mountContainerRuntimeSocket.dockerSockPath }}"
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.containerdSock }}
+            - name: CONTAINERD_SOCKET_PATH
+              value: "{{ .Values.mountContainerRuntimeSocket.containerdSockPath }}"
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.crioSock }}
+            - name: CRIO_SOCKET_PATH
+              value: "{{ .Values.mountContainerRuntimeSocket.crioSockPath }}"
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.podmanSock }}
+            - name: PODMAN_SOCKET_PATH
+              value: "{{ .Values.mountContainerRuntimeSocket.podmanSockPath }}"
+            {{ end }}
+          volumeMounts:
+            {{- if .Values.mountContainerRuntimeSocket.dockerSock }}
+            - mountPath: {{ .Values.mountContainerRuntimeSocket.dockerSockPath }}
+              name: docker-sock
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.containerdSock }}
+            - mountPath: {{ .Values.mountContainerRuntimeSocket.containerdSockPath }}
+              name: containerd-sock
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.crioSock }}
+            - mountPath: {{ .Values.mountContainerRuntimeSocket.crioSockPath }}
+              name: crio-sock
+            - mountPath: /var/lib/containers
+              name: containers
+            {{ end }}
+            {{- if .Values.mountContainerRuntimeSocket.podmanSock }}
+            - mountPath: {{ .Values.mountContainerRuntimeSocket.podmanSockPath }}
+              name: podman-sock
+            - mountPath: /run/systemd
+              name: systemd
+            {{ end }}
+            - mountPath: /sys/kernel/debug
+              name: kernel-sys
+            - mountPath: /fenced/mnt/host
+              name: host-fs
+              readOnly: true
+            - mountPath: /var/log/fenced
+              name: fenced-path
+            - mountPath: /var/log/fenced/compliance
+              name: fenced-path-compliance
+            - mountPath: /var/log/fenced/compliance-scan-logs
+              name: fenced-path-compliance-scan-logs
+      {{- with .Values.agent.nodeSelector }}
+      nodeSelector:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.agent.affinity }}
+      affinity:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.agent.tolerations }}
+      tolerations:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}

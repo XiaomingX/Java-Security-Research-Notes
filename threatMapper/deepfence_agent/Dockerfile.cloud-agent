@@ -1,0 +1,88 @@
+ARG STEAMPIPE_IMG_TAG=0.23.x
+ARG IMAGE_REPOSITORY=quay.io/deepfenceio
+FROM $IMAGE_REPOSITORY/steampipe:$STEAMPIPE_IMG_TAG AS steampipe
+
+FROM debian:bookworm-slim
+ARG VERSION
+MAINTAINER Deepfence Inc
+LABEL deepfence.role=system
+
+ENV CHECKPOINT_DISABLE=true \
+    DF_TLS_ON="1" \
+    MGMT_CONSOLE_PORT=443 \
+    MGMT_CONSOLE_URL_SCHEMA=https \
+    DEEPFENCE_KEY="" \
+    DF_ENABLE_CLOUD_NODE="true" \
+    HOME_DIR="/home/deepfence" \
+    STEAMPIPE_INSTALL_DIR="/home/deepfence/.steampipe" \
+    COMPLIANCE_MOD_PATH="/home/deepfence/steampipe" \
+    VERSION=$VERSION
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends bash ca-certificates nano logrotate sudo supervisor \
+    && useradd -rm -d /home/deepfence -s /bin/bash -g root -G sudo -u 1001 deepfence \
+    && mkdir -p /home/deepfence/steampipe
+
+RUN mkdir -p /var/log/fenced/cloud-scanner /var/log/fenced/cloud-scanner-log/ \
+    && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER deepfence
+
+ENV DF_INSTALL_DIR=/home/deepfence \
+    STEAMPIPE_AWS_PLUGIN_VERSION=0.144.0 \
+    STEAMPIPE_GCP_PLUGIN_VERSION=0.54.1 \
+    STEAMPIPE_AZURE_PLUGIN_VERSION=0.61.0 \
+    STEAMPIPE_AZURE_AD_PLUGIN_VERSION=0.16.0
+
+COPY supervisord-cloud.conf /home/deepfence/supervisord.conf
+COPY --from=steampipe /usr/local/bin/steampipe /usr/local/bin/steampipe
+
+RUN steampipe service start \
+    && steampipe plugin install steampipe \
+    # plugin version should be in sync with Deepfence fork https://github.com/deepfence/steampipe-plugin-aws
+    && steampipe plugin install aws@${STEAMPIPE_AWS_PLUGIN_VERSION} gcp@${STEAMPIPE_GCP_PLUGIN_VERSION} azure@${STEAMPIPE_AZURE_PLUGIN_VERSION} azuread@${STEAMPIPE_AZURE_AD_PLUGIN_VERSION} \
+    && steampipe service stop
+
+#Copy shipper
+COPY plugins/etc/run_shipper.sh /home/deepfence/
+COPY plugins/deepfence_shipper/deepfence_shipper /home/deepfence/bin/shipper
+COPY plugins/deepfence_shipper/routes_cloudscanner.yaml /home/deepfence/routes.yaml
+
+#Copy deepfenced
+COPY deepfenced /bin/deepfenced
+
+ENV PUBLISH_CLOUD_RESOURCES_INTERVAL_MINUTES=5 \
+    FETCH_CLOUD_RESOURCES_INTERVAL_HOURS=12
+
+EXPOSE 8080
+
+COPY --from=steampipe /usr/local/bin/steampipe-plugin-aws.plugin /home/deepfence/.steampipe/plugins/hub.steampipe.io/plugins/turbot/aws@${STEAMPIPE_AWS_PLUGIN_VERSION}/steampipe-plugin-aws.plugin
+COPY --from=steampipe /usr/local/bin/steampipe-plugin-gcp.plugin /home/deepfence/.steampipe/plugins/hub.steampipe.io/plugins/turbot/gcp@${STEAMPIPE_GCP_PLUGIN_VERSION}/steampipe-plugin-gcp.plugin
+COPY --from=steampipe /usr/local/bin/steampipe-plugin-azure.plugin /home/deepfence/.steampipe/plugins/hub.steampipe.io/plugins/turbot/azure@${STEAMPIPE_AZURE_PLUGIN_VERSION}/steampipe-plugin-azure.plugin
+COPY --from=steampipe /usr/local/bin/steampipe-plugin-azuread.plugin /home/deepfence/.steampipe/plugins/hub.steampipe.io/plugins/turbot/azuread@${STEAMPIPE_AZURE_AD_PLUGIN_VERSION}/steampipe-plugin-azuread.plugin
+
+COPY plugins/cloud-scanner/cloud_scanner /home/deepfence/bin/cloud_scanner
+
+
+USER root
+
+COPY etc/fenced_logrotate.conf /etc/logrotate.d/fenced_logrotate.conf
+COPY start_cloud_agent.sh /usr/local/bin/start_agent
+
+RUN chmod 600 /etc/logrotate.d/fenced_logrotate.conf \
+    && chmod +x /usr/local/bin/start_agent \
+    && mkdir -p $DF_INSTALL_DIR/var/log/supervisor $DF_INSTALL_DIR/var/log/deepfenced \
+    && mkdir -p $DF_INSTALL_DIR/var/log/fenced/cloud-scanner $DF_INSTALL_DIR/var/log/fenced/cloud-scanner-log/ \
+    && chmod 700 /home/deepfence/run_shipper.sh \
+    && chown -R deepfence: /home/deepfence \
+    && chown -R deepfence: /home/deepfence/bin/ \
+    && chown deepfence /usr/bin \
+    && chown deepfence /bin \
+    && chown -R deepfence /home/deepfence /var/log/fenced /var/run/ \
+    && ln -s /usr/local/bin/start_agent /usr/local/bin/start_cloud_agent
+
+RUN apt-get -y remove ca-certificates
+
+WORKDIR /home/deepfence
+
+ENTRYPOINT ["/usr/local/bin/start_cloud_agent"]

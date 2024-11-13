@@ -1,0 +1,113 @@
+{{- if .Values.postgres.create }}
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-postgres
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-postgres
+spec:
+  serviceName: {{ include "deepfence-console.fullname" . }}-postgres
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "deepfence-console.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-console.fullname" . }}-postgres
+  template:
+    metadata:
+      {{- with .Values.postgres.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "deepfence-console.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-console.fullname" . }}-postgres
+        {{- with .Values.postgres.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      serviceAccountName: {{ include "deepfence-console.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.postgres.podSecurityContext | nindent 8 }}
+      containers:
+        - name: postgres
+          securityContext:
+            {{- toYaml .Values.postgres.securityContext | nindent 12 }}
+          image: "{{ .Values.global.imageRepoPrefix }}/{{ .Values.postgres.image.repository }}:{{ default .Values.global.imageTag .Values.postgres.image.tag }}"
+          imagePullPolicy: {{ .Values.postgres.image.pullPolicy }}
+          envFrom:
+            - secretRef:
+                name: {{ include "deepfence-console.fullname" . }}-postgres-secret
+          ports:
+            - name: tcp
+              containerPort: 5432
+              protocol: TCP
+          livenessProbe:
+            exec:
+              command:
+              - /bin/sh
+              - -c
+              - exec pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}
+            initialDelaySeconds: 60
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
+          readinessProbe:
+            exec:
+              command:
+              - /bin/sh
+              - -c
+              - exec pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}
+            initialDelaySeconds: 60
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
+          resources:
+            {{- toYaml .Values.postgres.resources | nindent 12 }}
+          volumeMounts:
+            - mountPath: /data
+              name: "postgres"
+      {{- with .Values.postgres.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.postgres.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.postgres.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+  volumeClaimTemplates:
+    - metadata:
+        name: "postgres"
+      spec:
+        accessModes:
+          - "ReadWriteOnce"
+        resources:
+          requests:
+            storage: "{{ .Values.postgres.volumeSize }}"
+        storageClassName: {{ default .Values.global.storageClass .Values.postgres.storageClass }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-postgres
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-postgres
+spec:
+  type: ClusterIP
+  ports:
+    - name: tcp
+      port: 5432
+      targetPort: tcp
+      protocol: TCP
+  selector:
+    {{- include "deepfence-console.selectorLabels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-postgres
+{{- end }}

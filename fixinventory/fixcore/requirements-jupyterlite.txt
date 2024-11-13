@@ -1,0 +1,4 @@
+jupyterlab==4.0.11
+jupyterlite==0.2.2
+plotly==5.18.0
+

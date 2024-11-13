@@ -1,0 +1,13 @@
+{{- if .Values.kafka.create }}
+---
+apiVersion: v1
+kind: Secret
+type: Opaque
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-secrets-kafka
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    component: kafka
+stringData:
+  DEEPFENCE_KAFKA_BROKERS: "{{ include "deepfence-console.fullname" . }}-kafka-broker.{{ .Release.Namespace }}.svc.{{ .Values.global.cluster_domain }}:9092"
+{{- end }}

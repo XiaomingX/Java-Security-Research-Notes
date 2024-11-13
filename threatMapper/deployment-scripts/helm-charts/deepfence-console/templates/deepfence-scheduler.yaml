@@ -1,0 +1,118 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-scheduler
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-scheduler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "deepfence-console.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-console.fullname" . }}-scheduler
+  template:
+    metadata:
+      {{- with .Values.scheduler.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "deepfence-console.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-console.fullname" . }}-scheduler
+        {{- with .Values.scheduler.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      serviceAccountName: {{ include "deepfence-console.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.scheduler.podSecurityContext | nindent 8 }}
+      containers:
+        - name: scheduler
+          securityContext:
+            {{- toYaml .Values.scheduler.securityContext | nindent 12 }}
+          image: "{{ .Values.global.imageRepoPrefix }}/{{ .Values.scheduler.image.repository }}:{{ default .Values.global.imageTag .Values.scheduler.image.tag }}"
+          imagePullPolicy: {{ .Values.scheduler.image.pullPolicy }}
+          env:
+            - name: DEEPFENCE_MODE
+              value: scheduler
+          envFrom:
+            - configMapRef:
+                name: "{{ include "deepfence-console.fullname" . }}-config"
+            - secretRef:
+                {{- if .Values.redis.create }}
+                name: "{{ include "deepfence-console.fullname" . }}-secrets-redis"
+                {{- else }}
+                name: {{ .Values.redis.secretName }}
+                {{- end }}
+            - secretRef:
+                {{- if or .Values.fileserver.create .Values.aws_s3_buckets.create }}
+                name: "{{ include "deepfence-console.fullname" . }}-secrets-fileserver"
+                {{- else if .Values.fileserver.secretName }}
+                name: {{ .Values.fileserver.secretName }}
+                {{- else if .Values.aws_s3_buckets.secretName }}
+                name: {{ .Values.aws_s3_buckets.secretName }}
+                {{- end }}
+            - secretRef:
+                {{- if .Values.kafka.create }}
+                name: "{{ include "deepfence-console.fullname" . }}-secrets-kafka"
+                {{- else }}
+                name: {{ .Values.kafka.secretName }}
+                {{- end }}
+            - secretRef:
+                {{- if .Values.postgres.create }}
+                name: "{{ include "deepfence-console.fullname" . }}-secrets-postgres"
+                {{- else }}
+                name: {{ .Values.postgres.secretName }}
+                {{- end }}
+            - secretRef:
+                {{- if .Values.neo4j.create }}
+                name: "{{ include "deepfence-console.fullname" . }}-secrets-neo4j"
+                {{- else }}
+                name: {{ .Values.neo4j.secretName }}
+                {{- end }}
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          # livenessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
+          # readinessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
+          resources:
+            {{- toYaml .Values.scheduler.resources | nindent 12 }}
+      {{- with .Values.scheduler.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.scheduler.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.scheduler.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-scheduler
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-scheduler
+spec:
+  type: {{ .Values.scheduler.service.type }}
+  ports:
+    - port: {{ .Values.scheduler.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "deepfence-console.selectorLabels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-scheduler
+

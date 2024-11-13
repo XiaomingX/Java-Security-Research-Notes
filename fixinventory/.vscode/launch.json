@@ -1,0 +1,108 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "purpose": [
+                "debug-test"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        },
+        {
+            "name": "fixcore",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./fixcore/fixcore/__main__.py",
+            "args": [
+                "--psk",
+                "changeme",
+                "-o",
+                "fixcore.api.web_hosts=0.0.0.0",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "FIXCORE_ANALYTICS_OPT_OUT": "True",
+            },
+            "autoReload": {
+                "enable": true
+            }
+        },
+        {
+            "name": "fixworker",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./fixworker/fixworker/__main__.py",
+            "args": [
+                "--psk",
+                "changeme",
+                "--fixcore-uri",
+                "https://localhost:8900",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "FIXCORE_ANALYTICS_OPT_OUT": "True",
+            },
+            "autoReload": {
+                "enable": false
+            },
+            "pythonArgs": [
+                "-Xfrozen_modules=off"
+            ]
+        },
+        {
+            "name": "fixshell",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./fixshell/fixshell/__main__.py",
+            "args": [
+                "--psk",
+                "changeme",
+                "--fixcore-uri",
+                "https://localhost:8900",
+                "--fixcore-wait",
+                "30",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "FIXCORE_ANALYTICS_OPT_OUT": "True"
+            },
+            "autoReload": {
+                "enable": true
+            }
+        },
+    ],
+    "compounds": [
+        {
+            "name": "fix - all components",
+            "configurations": [
+                "fixcore",
+                "fixworker",
+                "fixshell"
+            ],
+            "stopAll": true,
+            "presentation": {
+                "hidden": false,
+                "group": "",
+                "order": 1
+            }
+        }
+    ]
+}

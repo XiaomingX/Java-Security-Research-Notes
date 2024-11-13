@@ -1,0 +1,114 @@
+from __future__ import annotations
+
+import csv
+import subprocess
+import sys
+from collections import namedtuple, defaultdict
+from datetime import datetime
+from typing import Dict, List
+
+import re
+
+Commit = namedtuple(
+    "Commit",
+    ["commit_hash", "author", "component", "group", "message", "pr", "timestamp"],
+)
+
+group_names = {
+    "feat": "Features",
+    "fix": "Fixes",
+    "docs": "Documentation",
+    "chore": "Chores",
+}
+rewrite_component = {"api-docs": "docs", "README": "docs"}
+rewrite_group = {"bug": "fix"}
+
+
+def git_commits(from_tag: str, to_tag: str):
+    return subprocess.run(
+        [
+            "git",
+            "--no-pager",
+            "log",
+            "--pretty=format:%h§%aN§%s§%at",
+            f"{from_tag}..{to_tag}",
+        ],
+        capture_output=True,
+        text=True,
+    ).stdout.splitlines()
+
+
+def group_by(f, iterable):
+    v = defaultdict(list)
+    for item in iterable:
+        key = f(item)
+        v[key].append(item)
+    return v
+
+
+def parse_commit(row: list[str]) -> Commit:
+    commit_hash, author, msg, time = row
+
+    brackets = re.findall("\\[([^]]+)]", msg)
+    if len(brackets) == 2:
+        component, group = brackets
+        if rewrite_group.get(group, group) not in group_names and rewrite_group.get(component, component) in group_names:
+            group, component = brackets
+    elif len(brackets) == 1:
+        if rewrite_group.get(brackets[0], brackets[0]) in group_names:
+            component, group = "", brackets[0]
+        else:
+            component, group = brackets[0], "feat"
+    else:
+        component, group = "", "fix"
+
+    msg_pr = re.fullmatch("(?:\\[[^]]+]\\s*){0,2}(.*)(\\(#(\\d+)\\))?", msg)
+    if len(msg_pr.groups()) == 2:
+        message, pr = msg_pr.groups() if msg_pr else (msg, "")
+    else:
+        message, pr = msg_pr.groups()[0], None
+
+    return Commit(
+        commit_hash,
+        author,
+        re.sub("^(?:fix)?(?:inventory)?", "", rewrite_component.get(component, component)),
+        rewrite_group.get(group, group) if 'readme' not in message.lower() else 'docs',
+        message,
+        pr,
+        time,
+    )
+
+
+def show_log(from_tag: str, to_tag: str):
+    grouped: Dict[str, List[Commit]] = group_by(
+        lambda c: c.group,
+        [parse_commit(row) for row in csv.reader(git_commits(from_tag, to_tag), delimiter="§")],
+    )
+
+    print(f"---\ndate: {datetime.now().strftime('%Y-%m-%d')}\n---")
+
+    print(f"\n# {to_tag}")
+
+    print("\n## What's Changed")
+    # define sort order for groups: order of group names and then the rest
+    group_weights = defaultdict(lambda: 100, {a: num for num, a in enumerate(group_names)})
+    for group, commits in sorted(grouped.items(), key=lambda x: group_weights[x[0]]):
+        print(f"\n### {group_names.get(group, group)}\n")
+        for commit in commits:
+            print(
+                f"- [`{commit.commit_hash}`](https://github.com/someengineering/fixinventory/commit/{commit.commit_hash}) "
+                f"{f'<span class={chr(34)}badge badge--secondary{chr(34)}>{commit.component}</span> ' if commit.component else ''}"
+                f'{commit.message}'
+                f"{f' ([#{commit.pr}](https://github.com/someengineering/fixinventory/pull/{commit.pr}))' if commit.pr else ''}"
+            )
+
+    print("\n{/* truncate */}")
+    print("\n## Docker Images\n")
+    for image in ["fixcore", "fixworker", "fixshell", "fixmetrics"]:
+        print(f"- `somecr.io/someengineering/{image}:{to_tag}`")
+
+
+if len(sys.argv) != 3:
+    print(f"Usage: {sys.argv[0]} <from_tag> <to_tag>")
+else:
+    show_log(sys.argv[1], sys.argv[2])

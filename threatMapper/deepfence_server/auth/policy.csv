@@ -1,0 +1,94 @@
+p, admin, user, delete
+p, admin, user, write
+p, admin, user, read
+p, standard-user, user, write
+p, standard-user, user, read
+p, read-only-user, user, read
+
+p, admin, all-users, delete
+p, admin, all-users, write
+p, admin, all-users, read
+p, standard-user, all-users, read
+
+p, admin, scan, start
+p, admin, scan, stop
+p, admin, scan, read
+p, standard-user, scan, start
+p, standard-user, scan, stop
+p, standard-user, scan, read
+p, read-only-user, scan, read
+
+p, admin, scan-report, delete
+p, admin, scan-report, write
+p, admin, scan-report, ingest
+p, admin, scan-report, read
+p, standard-user, scan-report, write
+p, standard-user, scan-report, ingest
+p, standard-user, scan-report, read
+p, read-only-user, scan-report, read
+
+p, admin, agent-report, ingest
+p, standard-user, agent-report, ingest
+
+p, admin, cloud-report, ingest
+p, standard-user, cloud-report, ingest
+
+p, admin, cloud-node, register
+p, admin, cloud-node, write
+p, admin, cloud-node, read
+p, admin, cloud-node, update
+p, admin, cloud-node, delete
+p, standard-user, cloud-node, register
+p, standard-user, cloud-node, write
+p, standard-user, cloud-node, read
+p, read-only-user, cloud-node, read
+
+p, admin, diagnosis, generate
+p, standard-user, diagnosis, generate
+p, admin, diagnosis, read
+p, standard-user, diagnosis, read
+
+p, admin, report, generate
+p, standard-user, report, generate
+p, admin, report, read
+p, standard-user, report, read
+p, read-only-user, report, read
+p, admin, report, delete
+p, standard-user, report, delete
+
+p, admin, container-registry, start
+p, admin, container-registry, stop
+p, admin, container-registry, read
+p, admin, container-registry, write
+p, admin, container-registry, delete
+p, standard-user, container-registry, start
+p, standard-user, container-registry, stop
+p, standard-user, container-registry, read
+p, read-only-user, container-registry, read
+
+p, admin, integration, write
+p, admin, integration, update
+p, admin, integration, read
+p, admin, integration, delete
+p, standard-user, integration, write
+p, standard-user, integration, update
+p, standard-user, integration, read
+p, read-only-user, integration, read
+
+p, admin, report, generate
+p, admin, report, download
+p, admin, report, delete
+p, standard-user, report, generate
+p, standard-user, report, download
+p, read-only-user, report, download
+
+p, admin, settings, read
+p, admin, settings, write
+p, admin, settings, delete
+p, standard-user, settings, read
+p, standard-user, settings, write
+
+p, admin, license, read
+p, admin, license, write
+p, admin, license, delete
+p, standard-user, license, read

@@ -1,0 +1,126 @@
+{{- if .Values.neo4j.create }}
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-neo4j
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-neo4j
+spec:
+  serviceName: {{ include "deepfence-console.fullname" . }}-neo4j
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "deepfence-console.selectorLabels" . | nindent 6 }}
+      name: {{ include "deepfence-console.fullname" . }}-neo4j
+  template:
+    metadata:
+      {{- with .Values.neo4j.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "deepfence-console.selectorLabels" . | nindent 8 }}
+        name: {{ include "deepfence-console.fullname" . }}-neo4j
+        {{- with .Values.neo4j.podLabels }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    spec:
+      serviceAccountName: {{ include "deepfence-console.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.neo4j.podSecurityContext | nindent 8 }}
+      containers:
+        - name: neo4j
+          securityContext:
+            {{- toYaml .Values.neo4j.securityContext | nindent 12 }}
+          image: "{{ .Values.global.imageRepoPrefix }}/{{ .Values.neo4j.image.repository }}:{{ default .Values.global.imageTag .Values.neo4j.image.tag }}"
+          imagePullPolicy: {{ .Values.neo4j.image.pullPolicy }}
+          envFrom:
+            - secretRef:
+                name: {{ include "deepfence-console.fullname" . }}-neo4j-secret
+            - configMapRef:
+                name: {{ include "deepfence-console.fullname" . }}-neo4j-config
+          env:
+            - name: OFFLINE_MAINTENANCE_MODE_ENABLED
+              value: {{ .Values.neo4j.offlineMaintenanceModeEnabled | quote }}
+          ports:
+            - name: ui
+              containerPort: 7474
+              protocol: TCP
+            - name: http
+              containerPort: 7687
+              protocol: TCP
+          {{- if not .Values.neo4j.offlineMaintenanceModeEnabled }}
+          livenessProbe:
+            exec:
+              command:
+              - /bin/bash
+              - /startup/health-check.sh
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          readinessProbe:
+            exec:
+              command:
+              - /bin/bash
+              - /startup/health-check.sh
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          {{- end }}
+          resources:
+            {{- toYaml .Values.neo4j.resources | nindent 12 }}
+          volumeMounts:
+            - name: "neo4j"
+              mountPath: /data
+              subPath: "data"
+            - name: "neo4j"
+              mountPath: /logs
+              subPath: "logs"
+            - name: "neo4j"
+              mountPath: /backups
+              subPath: "backups"
+      {{- with .Values.neo4j.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.neo4j.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.neo4j.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+  volumeClaimTemplates:
+    - metadata:
+        name: "neo4j"
+      spec:
+        accessModes:
+          - "ReadWriteOnce"
+        resources:
+          requests:
+            storage: "{{ .Values.neo4j.volumeSize }}"
+        storageClassName: {{ default .Values.global.storageClass .Values.neo4j.storageClass }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "deepfence-console.fullname" . }}-neo4j
+  labels:
+    {{- include "deepfence-console.labels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-neo4j
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 7687
+      targetPort: 7687
+      protocol: TCP
+    - name: ui
+      port: 7474
+      targetPort: 7474
+      protocol: TCP
+  selector:
+    {{- include "deepfence-console.selectorLabels" . | nindent 4 }}
+    name: {{ include "deepfence-console.fullname" . }}-neo4j
+{{- end }}
