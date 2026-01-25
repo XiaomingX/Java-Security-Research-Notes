@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AzureFunctionsVersion>V4</AzureFunctionsVersion>
+        <UserSecretsId>8c3c8f6d-8b04-4301-8a50-e5c720227855</UserSecretsId>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+        <PackageReference Include="Azure.AI.FormRecognizer" Version="4.1.0-beta.1" />
+        <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.5" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.16.0" />
+        <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+        <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.14.1" />
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.DurableTask" Version="2.9.4" />
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage.Blobs" Version="5.1.2" />
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.1.2" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CognitiveSearch\CognitiveSearch.csproj" />
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+        <ProjectReference Include="..\Redis\Redis.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="host.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="local.settings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+        </None>
+    </ItemGroup>
+</Project>

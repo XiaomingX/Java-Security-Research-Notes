@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84EDFF2B-A8E9-4BF7-97E3-CB4D2AC3BA2D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerativeAi.Functions", "GenerativeAi.Functions\GenerativeAi.Functions.csproj", "{EBCA8AD3-55A9-453A-BB8F-16B2BB348298}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerativeAi.Functions.Tests", "GenerativeAi.Functions.Tests\GenerativeAi.Functions.Tests.csproj", "{5D3E7CE2-3F09-4110-B04F-19D3BB18E3BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis", "Redis\Redis.csproj", "{6D366CD7-4FD6-4EF7-9849-6CEC4F8434C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{67A4D642-51B5-413A-A50E-7DB7ED9CADC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CognitiveSearch", "CognitiveSearch\CognitiveSearch.csproj", "{4EE771D1-A046-44FB-9CD9-8649AFA27D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCA8AD3-55A9-453A-BB8F-16B2BB348298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCA8AD3-55A9-453A-BB8F-16B2BB348298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCA8AD3-55A9-453A-BB8F-16B2BB348298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCA8AD3-55A9-453A-BB8F-16B2BB348298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3E7CE2-3F09-4110-B04F-19D3BB18E3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3E7CE2-3F09-4110-B04F-19D3BB18E3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3E7CE2-3F09-4110-B04F-19D3BB18E3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3E7CE2-3F09-4110-B04F-19D3BB18E3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D366CD7-4FD6-4EF7-9849-6CEC4F8434C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D366CD7-4FD6-4EF7-9849-6CEC4F8434C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D366CD7-4FD6-4EF7-9849-6CEC4F8434C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D366CD7-4FD6-4EF7-9849-6CEC4F8434C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A4D642-51B5-413A-A50E-7DB7ED9CADC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A4D642-51B5-413A-A50E-7DB7ED9CADC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A4D642-51B5-413A-A50E-7DB7ED9CADC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A4D642-51B5-413A-A50E-7DB7ED9CADC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE771D1-A046-44FB-9CD9-8649AFA27D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE771D1-A046-44FB-9CD9-8649AFA27D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE771D1-A046-44FB-9CD9-8649AFA27D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE771D1-A046-44FB-9CD9-8649AFA27D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {948DE185-DC2C-43BB-ABD6-15750DCBD6B9}
+	EndGlobalSection
+EndGlobal

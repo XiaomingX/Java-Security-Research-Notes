@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GenerativeAi.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7073",
+      "launchBrowser": false
+    }
+  }
+}

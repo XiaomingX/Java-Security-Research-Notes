@@ -1,0 +1,33 @@
+{
+	"name": "Generative-AI-PoC",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+    
+	"features": {
+        "azure-cli": "latest",
+        "ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {},
+        "ghcr.io/devcontainers/features/terraform:1": {}
+    },
+	"customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "GitHub.copilot",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-azurefunctions",
+                "hashicorp.terraform",
+                "github.vscode-github-actions",
+                "azurite.azurite"
+            ],
+            "settings": {
+                "python.testing.pytestArgs": [
+                    "."
+                ],
+                "python.testing.unittestEnabled": false,
+                "python.testing.pytestEnabled": true,
+                "python.formatting.provider": "black",
+                "python.linting.mypyEnabled": true,
+                "python.linting.enabled": true
+            }
+        }
+    }
+}

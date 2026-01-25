@@ -1,0 +1,20 @@
+@hostname=localhost
+@port=7073
+
+### Ingest Document
+
+POST http://{{hostname}}:{{port}}/api/Document
+Content-Type: application/json
+
+{
+     "Name": "apexxnar-epar-product-information_nl.pdf"
+}
+
+### Ask question
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Wat zijn de bijwerkingen van Apexxnar"
+}
