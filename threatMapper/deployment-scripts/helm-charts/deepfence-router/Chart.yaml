@@ -1,6 +1,0 @@
-apiVersion: v2
-description: Deepfence Router - Helm chart for Kubernetes
-name: deepfence-router
-type: application
-appVersion: 2.4.0
-version: 2.4.0
