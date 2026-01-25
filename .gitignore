@@ -3,3 +3,4 @@
 target
 cas/**/overlays
 cas/**/lib
+.prompt/

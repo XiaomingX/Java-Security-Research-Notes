@@ -1,3 +1,7 @@
+/*
+ * [业务问题]: 简单的内存 LDAP 服务器，用于研究 JNDI 注入攻击链。
+ * [实现逻辑]: 利用 UnboundID LDAP SDK 启动一个监听服务，并通过自定义的 OperationInterceptor 在搜索请求时返回恶意的 Reference 对象（如指向外部 HTTP 服务器的恶意 class）。
+ */
 import com.unboundid.ldap.listener.InMemoryDirectoryServer;
 import com.unboundid.ldap.listener.InMemoryDirectoryServerConfig;
 import com.unboundid.ldap.listener.InMemoryListenerConfig;
@@ -17,7 +21,7 @@ import javax.net.SocketFactory;
 import javax.net.ssl.SSLSocketFactory;
 
 /**
- * LDAP server
+ * LDAP 恶意服务端实现。
  */
 public class LdapServer {
 

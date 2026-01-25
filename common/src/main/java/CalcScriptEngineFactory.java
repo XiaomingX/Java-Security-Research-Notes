@@ -3,7 +3,6 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineFactory;
 
 /**
- * @author threedr3am
  */
 public class CalcScriptEngineFactory implements ScriptEngineFactory {
 

@@ -7,7 +7,6 @@ import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
 /**
  * 基于tomcat的半通用回显
  *
- * @author threedr3am
  */
 public class TomcatEchoInject  extends AbstractTranslet {
 

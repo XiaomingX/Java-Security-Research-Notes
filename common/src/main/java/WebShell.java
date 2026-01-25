@@ -6,7 +6,6 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 
 /**
- * @author threedr3am
  */
 public class WebShell {
 

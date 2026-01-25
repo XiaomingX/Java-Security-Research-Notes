@@ -42,7 +42,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.threedr3am.bug.rmi.client.RMIClient</mainClass>
+              <mainClass>com.security.bug.rmi.client.RMIClient</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

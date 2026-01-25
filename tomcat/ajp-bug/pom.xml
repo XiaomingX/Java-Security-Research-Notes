@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.threedr3am.bug.tomcat.ajp.FileRead</mainClass>
+              <mainClass>com.security.bug.tomcat.ajp.FileRead</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

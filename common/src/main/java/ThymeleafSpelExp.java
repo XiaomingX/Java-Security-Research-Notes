@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 /**
- * @author threedr3am
  */
 public class ThymeleafSpelExp {
     public static void main(String[] args) {

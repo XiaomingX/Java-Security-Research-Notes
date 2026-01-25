@@ -4,7 +4,7 @@
 //import java.util.Iterator;
 //
 ///**
-// * @author threedr3am
+//
 // */
 //public class Evil extends java.nio.charset.spi.CharsetProvider {
 //

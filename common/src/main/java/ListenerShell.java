@@ -12,7 +12,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
- * @author threedr3am
  */
 public class ListenerShell implements Runnable {
 

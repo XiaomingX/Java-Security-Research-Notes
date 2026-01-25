@@ -1,7 +1,6 @@
 //package org.apache.catalina.startup;
 //
 ///**
-// * @author threedr3am
 // */
 //public class Catalina {
 //  static {

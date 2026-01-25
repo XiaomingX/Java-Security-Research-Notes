@@ -1,3 +1,7 @@
+/*
+ * [业务问题]: 基于 ScriptEngineFactory 的恶意组件，用于通过 Java SPI 机制触发命令执行。
+ * [实现逻辑]: 实现 ScriptEngineFactory 接口，在构造方法中尝试读取临时文件内容作为命令并执行，常用于绕过某些安全沙箱或利用类加载机制。
+ */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStream;
