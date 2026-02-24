@@ -1,82 +1,246 @@
-# 生成式AI原型（PoC v1）：基于向量检索的文档智能问答方案
+# AI POC - 生成式 AI 原型验证项目
 
+## 项目概述
 
-## 一、快速启动开发环境
-点击下方按钮，可**一键在VS Code远程容器中启动完整开发环境**（含依赖包、配置模板等），无需本地手动安装Python、向量库等工具，直接开始开发。
+本项目是一个综合性的生成式 AI 原型验证（Proof of Concept）项目，专注于探索和实现基于大语言模型（LLM）的文档智能问答系统。项目采用 RAG（检索增强生成）架构，结合向量检索和语义搜索技术，实现对大规模文档的智能查询和问答。
 
-[![远程容器中打开](https://img.shields.io/static/v1?label=远程容器&message=打开&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/XpiritBV/Generative-AI-PoC)
+## 核心技术栈
 
+### Python 生态
+- **OpenAI API** (0.27.6) - GPT 模型调用
+- **LangChain** (0.0.158) - LLM 应用开发框架
+- **ChromaDB** (0.3.21) - 向量数据库
+- **Haystack** - 文档检索和问答框架
+- **FAISS** - Facebook AI 相似性搜索库
 
-## 二、关键术语通俗解释
-先理清几个核心概念，帮你快速理解方案逻辑：
+### .NET 生态
+- **Azure Functions** - 无服务器计算
+- **Azure Cognitive Search** - 企业级搜索服务
+- **Redis** - 缓存和数据存储
 
-- **聪明（Smart）**  
-  指AI仅能「记住和检索知识」，但缺乏「理解与应用能力」。比如能背下整本书的内容，却答不出“这个理论怎么解决实际问题”。
+### 开发环境
+- **Jupyter Notebook** - 交互式开发和实验
+- **VS Code Dev Container** - 容器化开发环境
 
-- **智慧（Wise）**  
-  指AI不仅懂知识，还能「结合上下文推理、用经验解决问题」。比如能先找到“某理论”的相关内容，再整合案例说明“如何落地应用”。
+## 项目结构
 
-- **“Ctrl+F模型”（机械检索）**  
-  仅具备“聪明”特质的简化AI方案，类似文档里的“关键词搜索”。比如用户问“机器学习的过拟合怎么解决”，它只会找出含“过拟合”的句子，不会整合“解决方法”的逻辑；而我们的PoC要突破这种机械性。
+```
+ai-poc/
+├── LangChain/              # LangChain 框架实验
+│   ├── agent.ipynb         # Agent 代理实现
+│   ├── agent_custom_tool.ipynb  # 自定义工具集成
+│   ├── chains.ipynb        # 链式调用示例
+│   └── Single_Source.ipynb # 单一数据源问答
+├── Haystack/               # Haystack 框架实验
+│   └── QA-Demo/            # 问答系统演示
+├── Microsoft/              # Azure 服务集成
+│   └── Untitled.ipynb      # Azure OpenAI 实验
+├── dotnet/                 # .NET 实现
+│   ├── CognitiveSearch/    # Azure 认知搜索
+│   ├── Domain/             # 领域模型
+│   ├── GenerativeAi.Functions/  # Azure Functions
+│   └── Redis/              # Redis 集成
+├── src/                    # 核心实现
+│   ├── ingestion.ipynb     # 数据摄取流程
+│   └── question.ipynb      # 问答实现
+├── Understanding-Python/   # Python 学习资源
+├── doc/                    # 项目文档
+├── requirements.txt        # Python 依赖
+└── README.md              # 本文件
+```
 
+## 核心功能
 
-## 三、PoC v1 核心范围：做什么？不做什么？
-### 目标
-搭建一个「智能检索+LLM问答」的原型，**解决传统“Ctrl+F”只能匹配关键词、不懂语义的痛点**。具体来说：  
-以单本纯文本PDF书籍为数据集，通过“文本嵌入+向量检索”精准定位相关内容，再传给大语言模型（LLM）生成“有逻辑、懂上下文”的回答。
+### 1. RAG（检索增强生成）架构
 
-### 暂不包含的内容
-- 不做复杂数据预处理：比如不支持扫描版PDF的OCR识别（需手动转为纯文本）、不处理多语言混合文档、不做数据降噪（默认PDF内容清晰无乱码）。
-- 不涉及高并发优化：暂为单用户演示原型，不考虑千级用户同时访问的性能问题。
+**数据摄取流程（Ingestion）：**
+1. 文档解析：将 PDF/Word 等文档转换为纯文本
+2. 文本分块：按章节、段落或语义单元分割
+3. 向量化：使用 Embedding 模型生成向量表示
+4. 存储：将向量和元数据存入向量数据库
 
+**问答流程（Question Answering）：**
+1. 问题向量化：将用户问题转换为向量
+2. 相似度检索：从向量数据库中检索最相关的文本块
+3. 上下文构建：将检索结果组装为 LLM 的上下文
+4. 答案生成：LLM 基于上下文生成准确答案
 
-## 四、技术方案详解
-### 核心流程示意图
-下图清晰展示了从“文本处理”到“回答问题”的全链路（红框为PoC v1的实现重点）：
-![嵌入式数据库示意图](https://user-images.githubusercontent.com/7449547/235882195-766d157f-90e7-4f1f-abaa-08131b36cef4.jpg)  
-[图片来源](https://bdtechtalks.com/2023/05/01/customize-chatgpt-llm-embeddings/)
+### 2. 多框架对比实验
 
-### 技术栈选择（Azure生态为主）
-我们优先采用Azure服务，原因是“开箱即用、无需自建基础设施”，具体包括：
-- **嵌入模型**：Azure OpenAI Service 的 `text-embedding-ada-002`（行业主流，性价比高）。
-- **LLM模型**：Azure OpenAI Service 的 GPT-3.5-turbo 或 GPT-4（负责生成自然语言回答）。
-- **向量数据库**：可选 Azure 原生方案（如 Azure Cognitive Search 内置向量检索，适合快速集成；或 Azure Cosmos DB with Vector Search，支持大规模扩展）。
+- **LangChain**：灵活的 LLM 应用开发框架，支持 Agent、Chain、Memory 等高级特性
+- **Haystack**：专注于文档检索和问答的端到端框架
+- **Azure Cognitive Search**：企业级云原生搜索解决方案
 
+### 3. 向量数据库集成
 
-## 五、实际应用场景：这东西能用来干嘛？
-PoC v1的核心价值是“让大文档的知识检索更‘懂人’”，具体场景举例：
-1. **专业书籍答疑**：比如计算机领域的《深度学习》教材，用户问“CNN的池化层有什么作用？”，传统“Ctrl+F”会跳出所有含“池化层”的段落；而我们的原型会定位到“池化层功能”的核心章节，再让LLM总结为“降维、抗干扰、提取全局特征”等清晰结论。
-2. **企业内部文档查询**：如公司《员工手册》，HR或员工问“年假未休怎么折算工资？”，原型能精准匹配“年假折算条款”，并整理出“折算比例、申请流程、截止时间”等关键信息，无需手动翻几百页文档。
-3. **学术论文要点提取**：比如一篇100页的硕士论文，用户问“作者用了什么数据集验证模型？”，原型能直接定位“实验数据”章节，给出数据集名称、规模、来源等细节。
+- **ChromaDB**：轻量级向量数据库，适合快速原型验证
+- **FAISS**：高性能向量相似度搜索库
+- **Azure Cognitive Search**：支持向量检索的云服务
 
+## 快速开始
 
-## 六、关键注意事项（避坑指南）
-1. **语言支持**：Azure OpenAI Service 目前对多语言（含中文、英文、日语等）的支持已较成熟，但 `text-embedding-ada-002` 对英文语义的捕捉略优于小语种，若处理中文文档，建议分块时保留短句结构（避免长句拆分导致语义丢失）。
-2. **Token 限制与计算**：
-   - 嵌入模型 `text-embedding-ada-002` 单次调用上限为8191个token（原2048token为早期限制，已更新），1个token约等于4个英文字符或2个中文字符（一页PDF约500-800中文字符，即250-400token）。
-   - 分块建议：单块文本控制在2000-4000token（约5-10页PDF），既能保证语义完整，又避免超出限制。
-3. **数据格式规范**：分块时需将PDF中的换行、空行替换为空格（避免嵌入模型误判“换行”为语义分割），但要保留段落间的逻辑分界（比如按“章节→小节→段落”分块，而非强行切割句子）。
+### 环境要求
 
+- Python 3.8+
+- .NET 6.0+ (可选，用于 Azure Functions)
+- Azure 订阅 (可选，用于云服务)
 
-## 七、核心实现逻辑：从“文本”到“回答”的全流程
-以一本PDF书籍为例，方案分为“数据预处理”和“问答交互”两大阶段，逻辑如下：
+### 安装依赖
 
-### 阶段1：数据预处理（离线执行）
-1. **文本分块**：按“章节”拆分书籍，再将每章拆分为2000-4000token的小文本块（确保每个块的语义完整，比如不拆分一个完整的“理论解释”或“实验步骤”）。
-2. **生成嵌入向量**：用 `text-embedding-ada-002` 模型，将每个文本块转化为1536维的嵌入向量（语义相似的文本，向量距离更近）。
-3. **向量存储**：将“文本块内容+嵌入向量+章节编号”一起存入向量数据库（推荐Azure Cognitive Search，无需额外配置，直接对接Azure OpenAI）。
+⚠️ **注意**：当前 `requirements.txt` 中的依赖版本已过时，建议升级到最新版本。
 
-### 阶段2：问答交互（实时响应）
-当用户提出问题时，系统按以下4步给出答案：
-1. **问题向量化**：用同一个 `text-embedding-ada-002` 模型，将用户的问题（如“池化层作用”）转化为嵌入向量。
-2. **相似度检索**：向量数据库计算“问题向量”与“存储的文本块向量”的距离，取Top3-5个最相似的文本块（确保覆盖所有相关信息，避免遗漏）。
-3. **上下文拼接**：将检索到的3-5个文本块拼接为“上下文”，再加上用户的问题，组成LLM能理解的提示词（Prompt），比如：“根据以下上下文回答问题：[检索到的文本块] 问题：CNN的池化层有什么作用？”。
-4. **LLM生成回答**：将Prompt传给GPT-3.5/4，生成自然、准确的回答（由于有精准上下文，回答不会“瞎编”，且符合书籍中的知识）。
+```bash
+# 使用 pip（不推荐，依赖版本过时）
+pip install -r requirements.txt
 
+# 推荐：使用 uv 管理依赖（需先创建 pyproject.toml）
+# 参考 .prompt/technical_architecture.md 中的迁移指南
+```
 
-## 八、总结：方案的核心价值
-我们的PoC v1通过“**文本分块→嵌入向量→向量检索→LLM问答**”的闭环，解决了两个核心问题：  
-1. 突破LLM的token限制：无需让LLM“吞掉”整本书（动辄几十万token），只需传入检索到的几千token上下文，大幅降低成本和响应时间。  
-2. 超越传统检索的“机械性”：用“语义相似”替代“关键词匹配”，让AI真正“看懂”用户需求，从大文档中精准提取有价值的信息并转化为易懂的回答。  
+### 配置 API 密钥
 
-简单说：传统“Ctrl+F”是“找文字”，我们的原型是“找知识”。
+创建 `.env` 文件并配置以下环境变量：
+
+```bash
+# OpenAI API
+OPENAI_API_KEY=your_openai_api_key
+
+# Azure OpenAI (可选)
+AZURE_OPENAI_API_KEY=your_azure_openai_key
+AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
+
+# Google Search (可选)
+SERPAPI_API_KEY=your_serpapi_key
+```
+
+### 运行示例
+
+#### 1. LangChain 单一数据源问答
+
+```bash
+jupyter notebook LangChain/Single_Source.ipynb
+```
+
+#### 2. 数据摄取流程
+
+```bash
+jupyter notebook src/ingestion.ipynb
+```
+
+#### 3. 问答系统
+
+```bash
+jupyter notebook src/question.ipynb
+```
+
+## 技术亮点
+
+### 1. 智能文档检索
+
+突破传统关键词搜索（Ctrl+F）的局限，通过语义理解实现：
+- 同义词识别
+- 上下文理解
+- 跨段落推理
+
+### 2. 上下文窗口优化
+
+解决 LLM token 限制问题：
+- 动态文本分块
+- 相关性排序
+- 上下文压缩
+
+### 3. 多模态支持
+
+- PDF 文档解析
+- 表格数据提取
+- 图片 OCR（通过 Azure Form Recognizer）
+
+## 应用场景
+
+### 1. 企业知识库问答
+- 员工手册查询
+- 技术文档检索
+- 政策法规解读
+
+### 2. 医疗领域
+- 药品说明书查询
+- 临床指南检索
+- 病例分析辅助
+
+### 3. 法律合规
+- 合同条款检索
+- 法律法规查询
+- 案例分析
+
+### 4. 学术研究
+- 论文文献检索
+- 研究方法查询
+- 数据集发现
+
+## 已知问题与改进计划
+
+### 高优先级（Critical）
+
+- [ ] **依赖版本过时**：OpenAI 0.27.6 → 1.x，LangChain 0.0.158 → 0.3.x
+  - 参考：`.prompt/technical_architecture.md` 中的迁移方案
+  - 预计工作量：2-3 天
+
+- [ ] **缺少依赖管理**：未使用 `pyproject.toml` + `uv`
+  - 违反全局工程标准
+  - 需要创建 `pyproject.toml` 并迁移依赖
+
+### 中优先级
+
+- [ ] **技术栈定位不清**：Python 和 .NET 实现并存，缺乏说明
+- [ ] **缺少单元测试**：所有代码均为 Notebook，无自动化测试
+- [ ] **文档不完整**：缺少 API 文档和使用指南
+
+### 低优先级
+
+- [ ] **性能优化**：向量检索速度、批处理优化
+- [ ] **UI 界面**：开发 Web 界面替代 Notebook
+- [ ] **多语言支持**：增强中文语义理解能力
+
+## 学习资源
+
+详见 [resources.md](resources.md) 和 [knowledge_share.md](knowledge_share.md)，包含：
+
+- Azure OpenAI 教程
+- 向量数据库原理
+- Transformer 模型解析
+- RAG 架构最佳实践
+- Prompt Engineering 技巧
+
+## 安全与隐私
+
+⚠️ **重要提示**：
+
+1. **数据隐私**：不要将敏感数据上传到公共 LLM API
+2. **答案准确性**：LLM 可能产生幻觉（Hallucination），答案需人工验证
+3. **API 密钥**：不要将 API 密钥提交到版本控制
+4. **成本控制**：注意 API 调用成本，设置使用限额
+
+## 贡献指南
+
+欢迎提交 Issue 和 Pull Request。贡献时请遵循：
+
+1. 代码需符合 PEP 8 规范（Python）或 .NET 编码规范
+2. 添加必要的注释和文档
+3. 更新相关的 Notebook 示例
+4. 测试代码在本地环境可正常运行
+
+## 许可证
+
+本项目采用 [LICENSE](LICENSE) 中指定的许可证。
+
+## 联系方式
+
+- 项目维护者：参考 Git 提交历史
+- 问题反馈：通过 GitHub Issues
+- 技术讨论：参考 `knowledge_share.md` 中的 Slack 频道
+
+---
+
+**最后更新**：2026-02-24  
+**项目状态**：原型验证阶段（POC）  
+**下一步计划**：依赖升级 → 生产化改造 → 性能优化
