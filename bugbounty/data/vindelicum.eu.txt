@@ -1,0 +1,5 @@
+mows.vindelicum.eu
+hub.vindelicum.eu
+mx.vindelicum.eu
+mammoth.vindelicum.eu
+git.vindelicum.eu

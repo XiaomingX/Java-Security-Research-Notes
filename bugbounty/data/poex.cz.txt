@@ -1,0 +1,11 @@
+mail.poex.cz
+vpn.poex.cz
+autodiscover.poex.cz
+firma.poex.cz
+dochazka.poex.cz
+monitoring.poex.cz
+eshop.poex.cz
+smtp.poex.cz
+mail2.poex.cz
+ip3.poex.cz
+mail1.poex.cz

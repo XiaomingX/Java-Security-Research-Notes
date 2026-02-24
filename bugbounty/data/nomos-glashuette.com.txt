@@ -1,0 +1,2 @@
+pim.nomos-glashuette.com
+cdn.nomos-glashuette.com

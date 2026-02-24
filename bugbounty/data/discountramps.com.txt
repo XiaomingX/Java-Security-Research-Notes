@@ -1,0 +1,13 @@
+kaliotest.discountramps.com
+monitor.discountramps.com
+n980.discountramps.com
+bounce.discountramps.com
+cpanel.discountramps.com
+email.discountramps.com
+enews.discountramps.com
+h430.discountramps.com
+mail.discountramps.com
+media.discountramps.com
+search.discountramps.com
+webdisk.discountramps.com
+whm.discountramps.com

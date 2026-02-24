@@ -1,0 +1,5 @@
+gw.atkm.cz
+testeshop.atkm.cz
+otrs.atkm.cz
+atkm-rds01.ad.atkm.cz
+otrssmtp.atkm.cz

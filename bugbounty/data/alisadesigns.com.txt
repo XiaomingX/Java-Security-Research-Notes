@@ -1,0 +1,10 @@
+ftp.alisadesigns.com
+old.alisadesigns.com
+mail.alisadesigns.com
+ipv6.alisadesigns.com
+webmail.alisadesigns.com
+webdisk.alisadesigns.com
+cpanel.alisadesigns.com
+cpcontacts.alisadesigns.com
+cpcalendars.alisadesigns.com
+autodiscover.alisadesigns.com

@@ -1,0 +1,17 @@
+phishing-test.cyannetworks.com
+sugar.cyannetworks.com
+tech.cyannetworks.com
+binaries.cyannetworks.com
+partnerarea.cyannetworks.com
+jabber.cyannetworks.com
+partnerarea.devel.cyannetworks.com
+tech.devel.cyannetworks.com
+vpn.cyannetworks.com
+appliance.cyannetworks.com
+redmine.cyannetworks.com
+service.cyannetworks.com
+party-tfvericudevel.cyannetworks.com
+deb.cyannetworks.com
+devel.cyannetworks.com
+appliance-old.cyannetworks.com
+tmobile.cyannetworks.com

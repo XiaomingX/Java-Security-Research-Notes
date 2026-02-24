@@ -1,0 +1,2 @@
+mail.corvinarendezvenyhaz.hu
+mta-sts.mail.corvinarendezvenyhaz.hu

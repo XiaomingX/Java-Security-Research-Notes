@@ -1,0 +1,6 @@
+support.logitech-channel-marketing.com
+ftp.logitech-channel-marketing.com
+release.logitech-channel-marketing.com
+webmail.logitech-channel-marketing.com
+mail.logitech-channel-marketing.com
+test.logitech-channel-marketing.com

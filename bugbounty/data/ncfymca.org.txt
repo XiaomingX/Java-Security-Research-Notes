@@ -1,0 +1,8 @@
+autodiscover.ncfymca.org
+beta.ncfymca.org
+cpanel.ncfymca.org
+cpcalendars.ncfymca.org
+cpcontacts.ncfymca.org
+mail.ncfymca.org
+webdisk.ncfymca.org
+webmail.ncfymca.org

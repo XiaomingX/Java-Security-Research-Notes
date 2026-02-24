@@ -1,8 +1,8 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import clojure.inspector.proxy$javax.swing.table.AbstractTableModel$ff19274a;
 import clojure.lang.PersistentArrayMap;
-import ysoserial.Strings;
+import ysoserial.util.Strings;
 import ysoserial.payloads.annotation.Authors;
 import ysoserial.payloads.annotation.Dependencies;
 import ysoserial.payloads.util.PayloadRunner;

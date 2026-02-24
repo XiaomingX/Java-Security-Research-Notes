@@ -1,0 +1,12 @@
+agilisconnect.agilisco.com
+agilisportal.agilisco.com
+agiapps.agilisco.com
+agiintranet.agilisco.com
+agisql19.agilisco.com
+imagearchive.agilisco.com
+mail.agilisco.com
+mitelmbg.agilisco.com
+portal.agilisco.com
+secure.agilisco.com
+twofactor.agilisco.com
+vmas.agilisco.com

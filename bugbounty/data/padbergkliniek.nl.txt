@@ -1,0 +1,3 @@
+webmail.padbergkliniek.nl
+autodiscover.padbergkliniek.nl
+mail.padbergkliniek.nl

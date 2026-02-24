@@ -1,0 +1,9 @@
+dialin.joore.nl
+mail.joore.nl
+cms.joore.nl
+adfs.joore.nl
+delen.joore.nl
+fw.db.joore.nl
+fwjoore.joore.nl
+gateway.joore.nl
+nas.joore.nl

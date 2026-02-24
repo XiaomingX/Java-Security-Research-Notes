@@ -1,0 +1,10 @@
+console.skipso.com
+success.api.skipso.com
+toyotac-hrcloud.eu-staging.skipso.com
+toyotac-hrcloud.skipso.com
+success.skipso.com
+labs.skipso.com
+innomakers4health.skipso.com
+gcca.skipso.com
+solutions.skipso.com
+beta.skipso.com

@@ -1,0 +1,5 @@
+autodiscover.crynode.com
+cpanel.crynode.com
+mail.crynode.com
+webdisk.crynode.com
+webmail.crynode.com

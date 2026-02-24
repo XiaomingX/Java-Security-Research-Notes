@@ -1,0 +1,5 @@
+webdisk.ohjelma-viisari.fi
+webmail.ohjelma-viisari.fi
+cpcalendars.ohjelma-viisari.fi
+cpcontacts.ohjelma-viisari.fi
+cpanel.ohjelma-viisari.fi

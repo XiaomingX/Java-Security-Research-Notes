@@ -1,0 +1,7 @@
+data.discoverpassenger.com
+ssh.discoverpassenger.com
+flanwednesday.discoverpassenger.com
+help.discoverpassenger.com
+podcast.discoverpassenger.com
+careers.discoverpassenger.com
+staging.discoverpassenger.com

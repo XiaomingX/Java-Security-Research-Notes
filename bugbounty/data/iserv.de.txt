@@ -1,0 +1,17 @@
+customer-services.iserv.de
+doku.iserv.de
+csat.iserv.de
+iserv.csat.iserv.de
+open0.iserv.de
+packages0.iserv.de
+demo-kita.iserv.de
+doku0.iserv.de
+iserv.ad.demo-kita.iserv.de
+ad.demo-kita.iserv.de
+new.www0.iserv.de
+www0.iserv.de
+event.iserv.de
+web.iserv.de
+lanparty.iserv.de
+packages.iserv.de
+edv.iserv.de

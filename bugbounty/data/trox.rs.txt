@@ -1,0 +1,3 @@
+smtp.trox.rs
+sip.trox.rs
+mail.trox.rs

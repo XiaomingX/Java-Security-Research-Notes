@@ -1,0 +1,2 @@
+loopiagroup.compass.mongodb.com
+downloads.compass.mongodb.com

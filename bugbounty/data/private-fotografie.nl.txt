@@ -1,0 +1,2 @@
+mail.private-fotografie.nl
+mta-sts.mail.private-fotografie.nl

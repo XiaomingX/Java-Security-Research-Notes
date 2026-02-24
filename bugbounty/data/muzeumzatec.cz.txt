@@ -1,0 +1,2 @@
+smtp.muzeumzatec.cz
+mail.muzeumzatec.cz

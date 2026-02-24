@@ -1,0 +1,7 @@
+cpcontacts.kloots.nl
+cpcalendars.kloots.nl
+mail.kloots.nl
+cpanel.kloots.nl
+webdisk.kloots.nl
+webmail.kloots.nl
+mail2.kloots.nl

@@ -1,0 +1,2 @@
+clinic.avicenna.co.uk
+mailserver.avicenna.co.uk

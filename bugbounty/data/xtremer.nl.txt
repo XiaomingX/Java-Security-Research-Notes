@@ -1,0 +1,7 @@
+mail.xtremer.nl
+cloud.xtremer.nl
+fotoalbum.xtremer.nl
+webmail.xtremer.nl
+new.xtremer.nl
+stack.xtremer.nl
+domoticz-test.xtremer.nl

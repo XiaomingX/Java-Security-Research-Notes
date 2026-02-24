@@ -1,0 +1,4 @@
+ftp.uav.com.pl
+poczta.uav.com.pl
+repos.uav.com.pl
+support.uav.com.pl

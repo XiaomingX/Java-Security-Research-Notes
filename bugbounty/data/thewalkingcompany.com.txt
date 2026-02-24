@@ -1,0 +1,14 @@
+account.thewalkingcompany.com
+autodiscover.thewalkingcompany.com
+images.thewalkingcompany.com
+kiosk.thewalkingcompany.com
+performance.thewalkingcompany.com
+refer.thewalkingcompany.com
+sftp.thewalkingcompany.com
+webmail.thewalkingcompany.com
+b2b.thewalkingcompany.com
+connect.thewalkingcompany.com
+img.thewalkingcompany.com
+media.thewalkingcompany.com
+pop.thewalkingcompany.com
+storeemail.thewalkingcompany.com

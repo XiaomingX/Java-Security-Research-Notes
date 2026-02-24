@@ -1,0 +1,14 @@
+checkout.glossybox.no
+sgtm.glossybox.no
+campaigns.glossybox.no
+gslb.glossybox.no
+newsletter.glossybox.no
+horizon-api.www.glossybox.no
+links.n.glossybox.no
+cdn.glossybox.no
+experience.glossybox.no
+m.glossybox.no
+links.t.glossybox.no
+track.glossybox.no
+dev.glossybox.no
+test.glossybox.no

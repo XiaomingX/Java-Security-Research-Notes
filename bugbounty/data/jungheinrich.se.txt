@@ -1,0 +1,7 @@
+parts.jungheinrich.se
+admin.parts.jungheinrich.se
+shop.jungheinrich.se
+admin.shop.jungheinrich.se
+news.jungheinrich.se
+transfer.jungheinrich.se
+ica.jungheinrich.se

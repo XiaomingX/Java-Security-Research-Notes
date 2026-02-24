@@ -1,0 +1,6 @@
+docs.greenlight-is.com
+hello.greenlight-is.com
+solutions.greenlight-is.com
+mta-sts.greenlight-is.com
+demos.greenlight-is.com
+mail.greenlight-is.com

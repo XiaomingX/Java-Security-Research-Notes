@@ -1,0 +1,9 @@
+adventure-valued.scholarfund.io
+app.scholarfund.io
+portals.scholarfund.io
+tideswell.scholarfund.io
+pgadmin.scholarfund.io
+portals-dev.scholarfund.io
+portals-prod.scholarfund.io
+lx.scholarfund.io
+tideswell-dev.scholarfund.io

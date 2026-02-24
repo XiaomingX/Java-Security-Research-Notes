@@ -1,0 +1,13 @@
+origin.bmw-motorrad.fi
+teaser.bmw-motorrad.fi
+configurator.bmw-motorrad.fi
+webform.bmw-motorrad.fi
+kayttoauto.bmw-motorrad.fi
+biketeam-raisio.bmw-motorrad.fi
+rmheino.bmw-motorrad.fi
+my.bmw-motorrad.fi
+biketeam-vantaa.bmw-motorrad.fi
+emc24.bmw-motorrad.fi
+configurator-int.bmw-motorrad.fi
+configurator-test.bmw-motorrad.fi
+my-test.bmw-motorrad.fi

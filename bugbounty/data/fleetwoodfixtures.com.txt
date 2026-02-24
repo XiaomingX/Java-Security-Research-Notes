@@ -1,0 +1,9 @@
+autodiscover.fleetwoodfixtures.com
+connect.fleetwoodfixtures.com
+exchange.fleetwoodfixtures.com
+fg.fleetwoodfixtures.com
+fwimail01.fleetwoodfixtures.com
+mail.fleetwoodfixtures.com
+remote.fleetwoodfixtures.com
+sslvpn.fleetwoodfixtures.com
+vpn.fleetwoodfixtures.com

@@ -1,0 +1,7 @@
+gs-sapdev.gi-de.com
+cp-ecom-dev.gi-de.com
+cp-ecom-pat.gi-de.com
+cp-ecom-admin-pat.gi-de.com
+cp-ecom.gi-de.com
+cp-ecom-admin.gi-de.com
+cp-ecom-admin-dev.gi-de.com

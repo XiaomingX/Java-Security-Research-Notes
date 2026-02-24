@@ -1,0 +1,2 @@
+home-assistant.nextcloud.pics
+onlyoffice.nextcloud.pics

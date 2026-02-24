@@ -1,0 +1,7 @@
+migratie.functiegebouwrijksoverheid.nl
+csotest.functiegebouwrijksoverheid.nl
+odc.functiegebouwrijksoverheid.nl
+sandbox.functiegebouwrijksoverheid.nl
+csoacct.functiegebouwrijksoverheid.nl
+test1.www.functiegebouwrijksoverheid.nl
+acceptatie1.www.functiegebouwrijksoverheid.nl

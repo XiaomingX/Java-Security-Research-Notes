@@ -1,0 +1,4 @@
+remote.woodwardhines.org
+sip.woodwardhines.org
+autodiscover.woodwardhines.org
+enterpriseregistration.woodwardhines.org

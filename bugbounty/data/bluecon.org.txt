@@ -1,0 +1,4 @@
+ip.bluecon.org
+homeassistant.bluecon.org
+stats.bluecon.org
+typo.bluecon.org

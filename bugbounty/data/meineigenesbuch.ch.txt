@@ -1,0 +1,4 @@
+mta-sts.meineigenesbuch.ch
+indago.meineigenesbuch.ch
+dev.meineigenesbuch.ch
+tags.meineigenesbuch.ch

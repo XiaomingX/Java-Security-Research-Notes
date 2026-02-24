@@ -1,0 +1,6 @@
+hottub.backyardleisure.com
+service-portal.backyardleisure.com
+cpanel.backyardleisure.com
+mail.backyardleisure.com
+webdisk.backyardleisure.com
+webmail.backyardleisure.com

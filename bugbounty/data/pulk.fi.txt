@@ -1,0 +1,2 @@
+git.pulk.fi
+smtp.pulk.fi

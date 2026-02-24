@@ -1,0 +1,15 @@
+stage-internet.zeiss.ca
+portal-test.zeiss.ca
+development-internet.zeiss.ca
+test3-internet.zeiss.ca
+test1-internet.zeiss.ca
+datapipeline.zeiss.ca
+portal-stage.zeiss.ca
+stocklenses.zeiss.ca
+preprod-internet.zeiss.ca
+med-shop.zeiss.ca
+visu360.zeiss.ca
+test2-internet.zeiss.ca
+portal.zeiss.ca
+partnerprogram.zeiss.ca
+lenswipes.zeiss.ca

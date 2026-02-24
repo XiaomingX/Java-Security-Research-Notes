@@ -1,0 +1,6 @@
+crm.specialt.net
+email.lc.specialt.net
+promo.specialt.net
+unsubscribe.specialt.net
+vpn.specialt.net
+syspro.specialt.net

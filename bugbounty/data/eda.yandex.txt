@@ -1,0 +1,12 @@
+lb-education.eda.yandex
+education.eda.yandex
+openkitchen.eda.yandex
+courier.eda.yandex
+kg.go.eda.yandex
+ctt.eda.yandex
+sup.eda.yandex
+ultima.eda.yandex
+reg.eda.yandex
+uf.sup.eda.yandex
+adjust-provider.eda.yandex
+vendor.eda.yandex

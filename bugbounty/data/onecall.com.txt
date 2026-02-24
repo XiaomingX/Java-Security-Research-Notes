@@ -1,0 +1,8 @@
+adfs.onecall.com
+api-huppins.onecall.com
+api-onecall.onecall.com
+gw.onecall.com
+media.onecall.com
+netsuite.onecall.com
+origin-media.onecall.com
+products.onecall.com

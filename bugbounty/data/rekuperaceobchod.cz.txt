@@ -1,0 +1,3 @@
+smtp.rekuperaceobchod.cz
+admin.rekuperaceobchod.cz
+mysql.rekuperaceobchod.cz

@@ -1,0 +1,15 @@
+magazinesintern.english.programmasociaaldomein.nl
+feeds.programmasociaaldomein.nl
+english.programmasociaaldomein.nl
+mail.programmasociaaldomein.nl
+opendata.english.programmasociaaldomein.nl
+opendata.programmasociaaldomein.nl
+feeds.english.programmasociaaldomein.nl
+magazines.english.programmasociaaldomein.nl
+magazinesintern.programmasociaaldomein.nl
+magazines.programmasociaaldomein.nl
+autodiscover.programmasociaaldomein.nl
+k1._domainkey.programmasociaaldomein.nl
+a-opendata.programmasociaaldomein.nl
+a-www.programmasociaaldomein.nl
+a-feeds.programmasociaaldomein.nl

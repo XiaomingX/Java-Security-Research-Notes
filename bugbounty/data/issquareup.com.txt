@@ -1,0 +1,6 @@
+ca.issquareup.com
+jp.issquareup.com
+uk.issquareup.com
+ie.issquareup.com
+au.issquareup.com
+fr.issquareup.com

@@ -1,0 +1,8 @@
+my.wpshealth.com
+members.wpshealth.com
+asocrm.wpshealth.com
+test-groups.wpshealth.com
+groups.wpshealth.com
+test-members.wpshealth.com
+test-asocrm.wpshealth.com
+my-app.wpshealth.com

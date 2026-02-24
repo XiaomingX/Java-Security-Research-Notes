@@ -1,0 +1,4 @@
+bot.kikimora.io
+get.kikimora.io
+health.kikimora.io
+mail.kikimora.io

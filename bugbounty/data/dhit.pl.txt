@@ -1,0 +1,16 @@
+legacy.dhit.pl
+legacycdn.dhit.pl
+cdn3.dhit.pl
+dev.dhit.pl
+www3.dhit.pl
+serwis.dhit.pl
+info.dhit.pl
+mail.www3.dhit.pl
+hostmaster.dhit.pl
+mail.cdn3.dhit.pl
+mail.dev.dhit.pl
+mail.dhit.pl
+www2.dhit.pl
+mail.serwis.dhit.pl
+mail.info.dhit.pl
+cdn.dhit.pl

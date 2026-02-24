@@ -1,0 +1,11 @@
+blog.foliofirst.com
+eapidentity.foliofirst.com
+eapoauth.foliofirst.com
+eapverification.foliofirst.com
+identity.foliofirst.com
+info.foliofirst.com
+oauth.foliofirst.com
+prodaws.foliofirst.com
+verification.foliofirst.com
+api.prodaws.foliofirst.com
+dapaws.foliofirst.com

@@ -1,0 +1,3 @@
+ha.schmitts.cloud
+filament-buddy.schmitts.cloud
+checkmk.schmitts.cloud

@@ -1,0 +1,12 @@
+accounts.sonoj.org
+arch.sonoj.org
+chat.sonoj.org
+doc.sonoj.org
+forum.sonoj.org
+push.sonoj.org
+rooms.sonoj.org
+test.sonoj.org
+upload.sonoj.org
+xmpp.sonoj.org
+conference.sonoj.org
+m.sonoj.org

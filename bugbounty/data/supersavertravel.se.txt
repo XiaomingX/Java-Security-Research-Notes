@@ -1,0 +1,5 @@
+campaign.supersavertravel.se
+hotell.supersavertravel.se
+pin.supersavertravel.se
+flyg-hotell.supersavertravel.se
+ssl-hotell.supersavertravel.se

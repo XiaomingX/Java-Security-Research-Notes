@@ -1,0 +1,4 @@
+mail.cbre.com.tr
+uat.propertysearch.cbre.com.tr
+uat-www.cbre.com.tr
+propertysearch.cbre.com.tr

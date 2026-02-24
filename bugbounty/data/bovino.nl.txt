@@ -1,0 +1,6 @@
+exch.bovino.nl
+clicks.bovino.nl
+load.sst.bovino.nl
+sst.bovino.nl
+load.sgtm.bovino.nl
+sgtm.bovino.nl

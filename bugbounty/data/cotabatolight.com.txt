@@ -1,0 +1,3 @@
+agate.cotabatolight.com
+support.cotabatolight.com
+_dmarc.cotabatolight.com

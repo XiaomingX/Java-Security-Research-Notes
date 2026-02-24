@@ -1,0 +1,2 @@
+shop.pressbooks.de
+book.pressbooks.de

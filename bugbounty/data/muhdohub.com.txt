@@ -1,0 +1,2 @@
+app.muhdohub.com
+docs.muhdohub.com

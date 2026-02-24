@@ -1,0 +1,7 @@
+mail.customsware.com
+autodiscover.customsware.com
+cpanel.customsware.com
+webdisk.customsware.com
+webmail.customsware.com
+cpcalendars.customsware.com
+cpcontacts.customsware.com

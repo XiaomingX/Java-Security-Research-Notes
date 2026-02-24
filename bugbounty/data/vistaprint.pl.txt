@@ -1,0 +1,4 @@
+secure.vistaprint.pl
+moov-origin.vistaprint.pl
+gallery.vistaprint.pl
+next.vistaprint.pl

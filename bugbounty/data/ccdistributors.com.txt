@@ -1,0 +1,4 @@
+autodiscover.ccdistributors.com
+exchange.ccdistributors.com
+ad.ccdistributors.com
+ccd-exch-01.ad.ccdistributors.com

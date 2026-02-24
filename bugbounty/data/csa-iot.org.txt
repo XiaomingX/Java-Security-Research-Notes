@@ -1,0 +1,12 @@
+hkibbzuftcrx5253.csa-iot.org
+community.csa-iot.org
+on.dcl.csa-iot.org
+webui.dcl.csa-iot.org
+picstool.csa-iot.org
+connect.csa-iot.org
+on.test-net.dcl.csa-iot.org
+groups.csa-iot.org
+verified.csa-iot.org
+code.csa-iot.org
+dev.csa-iot.org
+on.dcltest.csa-iot.org

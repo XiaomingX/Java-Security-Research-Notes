@@ -1,0 +1,7 @@
+kentekencheck.opwegnaarzes.nl
+staging.opwegnaarzes.nl
+check.opwegnaarzes.nl
+autodiscover.opwegnaarzes.nl
+enterpriseenrollment.opwegnaarzes.nl
+enterpriseregistration.opwegnaarzes.nl
+pm-bounces.opwegnaarzes.nl

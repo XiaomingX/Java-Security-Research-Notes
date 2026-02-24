@@ -1,0 +1,8 @@
+smtp.renorm.it
+fad.renorm.it
+fad-de.renorm.it
+mx.renorm.it
+webmail.renorm.it
+ftp.renorm.it
+pop.renorm.it
+mail.renorm.it

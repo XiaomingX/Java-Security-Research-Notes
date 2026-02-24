@@ -1,0 +1,5 @@
+autodiscover.pblchefs.co.uk
+sip.pblchefs.co.uk
+lyncdiscover.pblchefs.co.uk
+msoid.pblchefs.co.uk
+email.pblchefs.co.uk

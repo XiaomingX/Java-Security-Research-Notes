@@ -1,0 +1,5 @@
+mail.udrumi.cz
+ns2.udrumi.cz
+old.udrumi.cz
+ns1.udrumi.cz
+server.udrumi.cz

@@ -1,0 +1,10 @@
+cdn.glybe.nl
+api.glybe.nl
+imgproxy.glybe.nl
+ha.glybe.nl
+blob.glybe.nl
+new.glybe.nl
+techstatus.glybe.nl
+dev.glybe.nl
+ns2.glybe.nl
+ns1.glybe.nl

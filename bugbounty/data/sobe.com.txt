@@ -1,0 +1,10 @@
+origin-www.sobe.com
+policy.sobe.com
+account.sobe.com
+signup.sobe.com
+e.sobe.com
+email.sobe.com
+shop.sobe.com
+assets.sobe.com
+secure.sobe.com
+social.sobe.com

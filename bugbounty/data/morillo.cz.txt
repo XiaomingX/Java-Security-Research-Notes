@@ -1,0 +1,5 @@
+test.morillo.cz
+shop.morillo.cz
+_dmarc.morillo.cz
+mta-sts.morillo.cz
+_mta-sts.morillo.cz

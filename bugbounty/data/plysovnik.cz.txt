@@ -1,0 +1,5 @@
+api.plysovnik.cz
+admin.plysovnik.cz
+test.plysovnik.cz
+platba.plysovnik.cz
+ww.plysovnik.cz

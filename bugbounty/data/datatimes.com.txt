@@ -1,0 +1,4 @@
+pubsrv.datatimes.com
+zeus.datatimes.com
+dtol.datatimes.com
+geneva.datatimes.com

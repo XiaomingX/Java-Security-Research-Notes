@@ -1,0 +1,13 @@
+autodiscover.world-vu.net
+discourse.world-vu.net
+chat.world-vu.net
+confluence.world-vu.net
+gitlabee.world-vu.net
+halo.world-vu.net
+hipchat.world-vu.net
+jira.world-vu.net
+m.world-vu.net
+mail.world-vu.net
+mattermost.world-vu.net
+ras.world-vu.net
+sip.world-vu.net

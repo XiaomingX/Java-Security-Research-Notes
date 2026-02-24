@@ -1,0 +1,7 @@
+updates.gotmls.net
+safe-load.gotmls.net
+geoip.gotmls.net
+mx.gotmls.net
+secure197.gotmls.net
+secure128.www.gotmls.net
+wp-login.gotmls.net

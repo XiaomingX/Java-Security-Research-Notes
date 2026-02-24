@@ -1,0 +1,7 @@
+ecms.techaccesspak.com
+esms.techaccesspak.com
+ess.techaccesspak.com
+rta.techaccesspak.com
+sms.techaccesspak.com
+mail.ecms.techaccesspak.com
+mail.esms.techaccesspak.com

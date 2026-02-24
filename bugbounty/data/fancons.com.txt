@@ -1,0 +1,10 @@
+forums.fancons.com
+beta.fancons.com
+webmail.fancons.com
+autoconfig.fancons.com
+ftp.fancons.com
+mail.fancons.com
+fantasy.fancons.com
+gaming.fancons.com
+comic.fancons.com
+toy.fancons.com

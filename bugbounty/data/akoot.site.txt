@@ -1,0 +1,9 @@
+cpcontacts.akoot.site
+webmail.akoot.site
+mail.akoot.site
+cpanel.akoot.site
+webdisk.akoot.site
+ww12.akoot.site
+cpcalendars.akoot.site
+pix.akoot.site
+blog.akoot.site

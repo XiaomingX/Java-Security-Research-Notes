@@ -1,0 +1,7 @@
+www2.jungheinrich.ie
+news.jungheinrich.ie
+admin.parts.jungheinrich.ie
+transfer.jungheinrich.ie
+parts.jungheinrich.ie
+autodiscover.jungheinrich.ie
+qa.staging.jungheinrich.ie

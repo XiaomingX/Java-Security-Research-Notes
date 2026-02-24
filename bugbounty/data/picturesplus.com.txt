@@ -1,0 +1,6 @@
+config.picturesplus.com
+dev.picturesplus.com
+link.picturesplus.com
+shop.picturesplus.com
+trak.picturesplus.com
+vpn.picturesplus.com

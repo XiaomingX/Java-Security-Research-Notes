@@ -1,0 +1,15 @@
+staging.studeersnel.nl
+blog.studeersnel.nl
+mail.studeersnel.nl
+california.staging.studeersnel.nl
+master1a.studeersnel.nl
+dev.studeersnel.nl
+sourcewww.studeersnel.nl
+cdn.studeersnel.nl
+fr.studeersnel.nl
+en.studeersnel.nl
+help.studeersnel.nl
+nl.studeersnel.nl
+test.studeersnel.nl
+de.studeersnel.nl
+email.studeersnel.nl

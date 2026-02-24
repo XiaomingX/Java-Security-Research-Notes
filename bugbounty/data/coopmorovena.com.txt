@@ -1,0 +1,4 @@
+ftp.coopmorovena.com
+mail.coopmorovena.com
+remoto.coopmorovena.com
+autodiscover.coopmorovena.com

@@ -1,0 +1,2 @@
+dev.navahoo.sk
+test.navahoo.sk

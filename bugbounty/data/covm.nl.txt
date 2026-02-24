@@ -1,0 +1,14 @@
+a-opendata.covm.nl
+feeds.covm.nl
+opendata.covm.nl
+a-www.covm.nl
+english.covm.nl
+feeds.english.covm.nl
+magazines.covm.nl
+magazines.english.covm.nl
+magazinesintern.covm.nl
+magazinesintern.english.covm.nl
+magazynkgazines.english.covm.nl
+opendata.english.covm.nl
+autoconfig.covm.nl
+autodiscover.covm.nl

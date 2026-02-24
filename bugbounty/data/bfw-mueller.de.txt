@@ -1,0 +1,15 @@
+autoconfig.bfw-mueller.de
+vnc.bfw-mueller.de
+mail.bfw-mueller.de
+fw.bfw-mueller.de
+server1.bfw-mueller.de
+deploy.bfw-mueller.de
+cloud.bfw-mueller.de
+azs1.bfw-mueller.de
+_dmarc.bfw-mueller.de
+calendar.bfw-mueller.de
+smtp.bfw-mueller.de
+autodiscover.bfw-mueller.de
+chat.bfw-mueller.de
+imap.bfw-mueller.de
+caldav.bfw-mueller.de

@@ -1,0 +1,2 @@
+mail.graphicsign.nl
+serverams.graphicsign.nl

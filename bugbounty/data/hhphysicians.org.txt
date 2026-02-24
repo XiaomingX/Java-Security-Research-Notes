@@ -1,0 +1,4 @@
+secure.hhphysicians.org
+reset.hhphysicians.org
+webmail.hhphysicians.org
+autodiscover.hhphysicians.org

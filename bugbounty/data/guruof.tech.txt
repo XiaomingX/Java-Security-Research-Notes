@@ -1,0 +1,4 @@
+mail.guruof.tech
+smtp.guruof.tech
+bitwarden.guruof.tech
+bw.guruof.tech

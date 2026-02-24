@@ -1,0 +1,4 @@
+mdaemon.foutsandmorgan.com
+pop3.foutsandmorgan.com
+payroll.foutsandmorgan.com
+pm.foutsandmorgan.com

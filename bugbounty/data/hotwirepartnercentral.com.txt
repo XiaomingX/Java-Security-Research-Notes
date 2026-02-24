@@ -1,0 +1,4 @@
+login.hotwirepartnercentral.com
+qa.hotwirepartnercentral.com
+www-origin.qa.hotwirepartnercentral.com
+www-origin.hotwirepartnercentral.com

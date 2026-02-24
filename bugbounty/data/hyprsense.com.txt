@@ -1,0 +1,2 @@
+docs.hyprsense.com
+portal.hyprsense.com

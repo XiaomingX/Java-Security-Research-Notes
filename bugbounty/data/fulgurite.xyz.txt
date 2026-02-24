@@ -1,0 +1,5 @@
+sitemaps.fulgurite.xyz
+mesh.fulgurite.xyz
+crafty.fulgurite.xyz
+amid.fulgurite.xyz
+bmi.fulgurite.xyz

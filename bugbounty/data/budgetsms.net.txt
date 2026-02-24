@@ -1,0 +1,7 @@
+otp.budgetsms.net
+otp.staging.budgetsms.net
+apiv2.budgetsms.net
+staging.budgetsms.net
+api.budgetsms.net
+ctrl.budgetsms.net
+dashboard.budgetsms.net

@@ -1,0 +1,2 @@
+images.enable.hp.com
+app.enable.hp.com

@@ -1,0 +1,5 @@
+imap.numborn.de
+smtp.numborn.de
+autodiscover.numborn.de
+style-by-steil.numborn.de
+mail.numborn.de

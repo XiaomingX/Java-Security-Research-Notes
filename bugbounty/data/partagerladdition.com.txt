@@ -1,0 +1,3 @@
+dev.partagerladdition.com
+preprod.partagerladdition.com
+homologation.partagerladdition.com

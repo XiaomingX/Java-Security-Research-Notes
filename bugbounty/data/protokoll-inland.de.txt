@@ -1,0 +1,3 @@
+mail.protokoll-inland.de
+mx1.protokoll-inland.de
+mx2.protokoll-inland.de

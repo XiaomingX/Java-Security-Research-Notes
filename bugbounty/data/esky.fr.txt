@@ -1,0 +1,13 @@
+wizzair.esky.fr
+etm.esky.fr
+www2.esky.fr
+secure.esky.fr
+www2.secure.esky.fr
+app.esky.fr
+go.esky.fr
+voitures.esky.fr
+tuifly.esky.fr
+laudamotion.esky.fr
+laudaair.esky.fr
+ryanair.esky.fr
+airfrance.esky.fr

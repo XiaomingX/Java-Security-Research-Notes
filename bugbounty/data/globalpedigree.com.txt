@@ -1,0 +1,5 @@
+webdisk.globalpedigree.com
+beta.globalpedigree.com
+demo.globalpedigree.com
+mail.globalpedigree.com
+testing.globalpedigree.com

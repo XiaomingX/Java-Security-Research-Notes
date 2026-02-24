@@ -1,0 +1,5 @@
+ca.ensec.ch
+st.ensec.ch
+feedback.ensec.ch
+be-aware.ensec.ch
+st01.ensec.ch

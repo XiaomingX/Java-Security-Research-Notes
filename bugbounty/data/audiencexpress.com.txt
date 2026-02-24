@@ -1,0 +1,15 @@
+autodiscover.audiencexpress.com
+resources.audiencexpress.com
+webmail.audiencexpress.com
+brd.audiencexpress.com
+ftp.audiencexpress.com
+go.audiencexpress.com
+info.audiencexpress.com
+stg.audiencexpress.com
+blog.audiencexpress.com
+dev.audiencexpress.com
+mail.audiencexpress.com
+console.audiencexpress.com
+audiencexpresssalesforcedkimalt._domainkey.audiencexpress.com
+k3._domainkey.audiencexpress.com
+sftp.audiencexpress.com

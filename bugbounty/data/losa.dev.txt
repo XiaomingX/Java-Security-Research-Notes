@@ -1,0 +1,14 @@
+baslat.losa.dev
+go.losa.dev
+in.losa.dev
+panel.losa.dev
+portal.losa.dev
+tps.losa.dev
+wast-map.losa.dev
+wast.losa.dev
+cyber.losa.dev
+fastdl.losa.dev
+map.losa.dev
+node.losa.dev
+node12.losa.dev
+stats.losa.dev

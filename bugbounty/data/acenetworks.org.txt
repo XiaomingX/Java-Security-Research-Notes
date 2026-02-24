@@ -1,0 +1,13 @@
+srv.acenetworks.org
+linux.acenetworks.org
+mailsrv.acenetworks.org
+m.acenetworks.org
+alligator.acenetworks.org
+namesrv.acenetworks.org
+srv02.acenetworks.org
+finster.acenetworks.org
+journal.acenetworks.org
+acenet.acenetworks.org
+t.acenetworks.org
+dns1.acenetworks.org
+komodo.acenetworks.org

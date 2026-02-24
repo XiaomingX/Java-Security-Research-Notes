@@ -1,0 +1,8 @@
+webmail.alacris.ca
+inspire.alacris.ca
+autodiscover.alacris.ca
+mail.alacris.ca
+webdisk.alacris.ca
+cpcalendars.alacris.ca
+cpcontacts.alacris.ca
+cpanel.alacris.ca

@@ -1,0 +1,12 @@
+api.appcenter.ms
+file.appcenter.ms
+install.appcenter.ms
+status.appcenter.ms
+api2.appcenter.ms
+firstpartyint.portal.appcenter.ms
+firstpartyprod.accounts-management.appcenter.ms
+firstpartyprod.azure-subscription.appcenter.ms
+firstpartyprod.portal.appcenter.ms
+install.int.appcenter.ms
+install.integration.appcenter.ms
+test.onecert.appcenter.ms

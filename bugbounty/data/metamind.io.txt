@@ -1,0 +1,16 @@
+api.metamind.io
+api-service.metamind.io
+staging.metamind.io
+sfdc-provisioning-api-service.metamind.io
+prod.metamind.io
+research.metamind.io
+api.stg.metamind.io
+api-service.stg.metamind.io
+docs.metamind.io
+api-blue.metamind.io
+prod.w2.metamind.io
+stg.metamind.io
+dev.metamind.io
+aws-eu-w1.metamind.io
+api.dev.metamind.io
+jenkins.dev.metamind.io

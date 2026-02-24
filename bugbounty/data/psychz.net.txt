@@ -1,0 +1,2 @@
+sobject.uswest1.psychz.net
+mrtg-lax.psychz.net

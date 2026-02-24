@@ -1,0 +1,2 @@
+pages.oskarhuber.com
+staging.oskarhuber.com

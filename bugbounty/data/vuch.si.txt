@@ -1,0 +1,8 @@
+mail.vuch.si
+cpcontacts.vuch.si
+autodiscover.vuch.si
+cpanel.vuch.si
+lh.vuch.si
+webdisk.vuch.si
+cpcalendars.vuch.si
+webmail.vuch.si

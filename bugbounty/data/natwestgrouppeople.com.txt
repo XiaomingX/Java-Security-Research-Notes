@@ -1,0 +1,4 @@
+intranet.natwestgrouppeople.com
+events.natwestgrouppeople.com
+starsofremembrance.natwestgrouppeople.com
+_dmarc.natwestgrouppeople.com

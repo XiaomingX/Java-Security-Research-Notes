@@ -1,0 +1,6 @@
+cpanel.stephenpym.com
+webmail.stephenpym.com
+mail.stephenpym.com
+webdisk.stephenpym.com
+cpcontacts.stephenpym.com
+cpcalendars.stephenpym.com

@@ -1,0 +1,4 @@
+reports.splendidjob.cz
+survey.splendidjob.cz
+status.splendidjob.cz
+wpbeta.splendidjob.cz

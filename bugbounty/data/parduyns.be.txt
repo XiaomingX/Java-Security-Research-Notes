@@ -1,0 +1,10 @@
+blog.parduyns.be
+shop.parduyns.be
+dev.parduyns.be
+nl.parduyns.be
+mail.parduyns.be
+eshop.parduyns.be
+autodiscover.parduyns.be
+lp.parduyns.be
+email.parduyns.be
+remote.parduyns.be

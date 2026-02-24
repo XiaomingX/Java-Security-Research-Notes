@@ -1,0 +1,3 @@
+ct-prod.tastyrewards.com
+shop.tastyrewards.com
+ct-sand.tastyrewards.com

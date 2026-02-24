@@ -1,0 +1,5 @@
+m.myvitamins.cn
+horizon-api.www.myvitamins.cn
+checkout.myvitamins.cn
+sgtm.myvitamins.cn
+gslb.myvitamins.cn

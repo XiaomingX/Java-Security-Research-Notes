@@ -1,0 +1,7 @@
+filter13.premiumantispam.nl
+cluster1.premiumantispam.nl
+login.premiumantispam.nl
+cluster02.premiumantispam.nl
+filter.se.premiumantispam.nl
+mail.premiumantispam.nl
+filter.cluster02.premiumantispam.nl

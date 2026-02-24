@@ -1,0 +1,7 @@
+api.tomonet.co.id
+cdn.tomonet.co.id
+dev.tomonet.co.id
+mail.tomonet.co.id
+cpanel.tomonet.co.id
+webdisk.tomonet.co.id
+webmail.tomonet.co.id

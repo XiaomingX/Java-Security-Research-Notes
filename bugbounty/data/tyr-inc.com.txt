@@ -1,0 +1,3 @@
+backend.yggdrasil.tyr-inc.com
+et.tyr-inc.com
+ot.tyr-inc.com

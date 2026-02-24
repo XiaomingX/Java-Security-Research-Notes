@@ -1,0 +1,9 @@
+12-1-23-103.static.broadbandsolutions.coil.emvantage.com
+ns2.emvantage.com
+mail.emvantage.com
+host.emvantage.com
+ns1.emvantage.com
+secure.emvantage.com
+test.emvantage.com
+demo.emvantage.com
+www.emvantage.com

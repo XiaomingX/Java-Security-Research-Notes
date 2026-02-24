@@ -1,0 +1,9 @@
+m.blablacar.hu
+booking.blablacar.hu
+auth.blablacar.hu
+edge.blablacar.hu
+cmkt.blablacar.hu
+blog.blablacar.hu
+booking-demo.blablacar.hu
+api.blablacar.hu
+news.blablacar.hu

@@ -1,0 +1,5 @@
+pro.getmailflow.com
+services.getmailflow.com
+api.getmailflow.com
+notify.getmailflow.com
+app.getmailflow.com

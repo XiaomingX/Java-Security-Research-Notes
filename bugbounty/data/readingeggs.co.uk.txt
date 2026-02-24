@@ -1,0 +1,3 @@
+web.readingeggs.co.uk
+staging.readingeggs.co.uk
+w.readingeggs.co.uk

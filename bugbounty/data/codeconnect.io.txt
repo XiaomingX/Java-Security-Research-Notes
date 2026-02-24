@@ -1,0 +1,6 @@
+api.codeconnect.io
+blog.codeconnect.io
+mailgw.codeconnect.io
+mx1.codeconnect.io
+smtpseguro.codeconnect.io
+relay2.codeconnect.io

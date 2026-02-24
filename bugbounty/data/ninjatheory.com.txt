@@ -1,0 +1,12 @@
+mailhost.ninjatheory.com
+admin.ninjatheory.com
+admin-staging.ninjatheory.com
+api.ninjatheory.com
+admin.staging.ninjatheory.com
+staging.ninjatheory.com
+home.ninjatheory.com
+api-staging.ninjatheory.com
+store.ninjatheory.com
+phobos.ninjatheory.com
+webmail.ninjatheory.com
+api.staging.ninjatheory.com

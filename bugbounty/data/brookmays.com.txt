@@ -1,0 +1,5 @@
+bmpbx.brookmays.com
+mcprod.brookmays.com
+mcprod2.brookmays.com
+mcstaging.brookmays.com
+mx1.brookmays.com

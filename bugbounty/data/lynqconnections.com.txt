@@ -1,0 +1,2 @@
+login.lynqconnections.com
+api.lynqconnections.com

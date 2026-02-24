@@ -1,0 +1,5 @@
+autodiscover.pinpointmerch.com
+blanks.pinpointmerch.com
+dragonslair.pinpointmerch.com
+reporting.pinpointmerch.com
+remote.pinpointmerch.com

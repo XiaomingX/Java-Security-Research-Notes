@@ -1,0 +1,11 @@
+onderzoeksplatform.internetspiegel.nl
+dwhbzk.internetspiegel.nl
+dwhaps-postkantoor.internetspiegel.nl
+dwhaps-exporttool.internetspiegel.nl
+veldwerk.internetspiegel.nl
+onderzoeksplatform-acceptatie.internetspiegel.nl
+accept.internetspiegel.nl
+dwhaps-procesapplicatie.internetspiegel.nl
+test.internetspiegel.nl
+ftp.internetspiegel.nl
+localhost.internetspiegel.nl

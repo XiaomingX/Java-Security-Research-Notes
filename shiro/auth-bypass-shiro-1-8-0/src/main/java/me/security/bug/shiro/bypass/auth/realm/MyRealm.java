@@ -1,4 +1,4 @@
-package me.threedr3am.bug.shiro.bypass.auth.realm;
+package me.security.bug.shiro.bypass.auth.realm;
 
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

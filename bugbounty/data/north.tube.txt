@@ -1,0 +1,11 @@
+webmail.north.tube
+sitemap.north.tube
+ftp.north.tube
+cpanel.north.tube
+cpcontacts.north.tube
+mail.north.tube
+cpcalendars.north.tube
+webdisk.north.tube
+autodiscover.north.tube
+www.north.tube
+mgmt.north.tube

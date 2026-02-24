@@ -1,0 +1,7 @@
+cpcalendars.patentresources.org
+cpcontacts.patentresources.org
+webdisk.patentresources.org
+mail.patentresources.org
+cpanel.patentresources.org
+webmail.patentresources.org
+autodiscover.patentresources.org

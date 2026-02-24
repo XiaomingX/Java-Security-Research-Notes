@@ -1,0 +1,5 @@
+mta-sts.wolfgangaldag.de
+test.www.wolfgangaldag.de
+lists.wolfgangaldag.de
+mta-sts.lists.wolfgangaldag.de
+test.wolfgangaldag.de

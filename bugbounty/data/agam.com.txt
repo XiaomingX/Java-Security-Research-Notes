@@ -1,0 +1,11 @@
+autodiscover.agam.com
+connect.agam.com
+customsystems.agam.com
+blog.agam.com
+cpanel.agam.com
+cpcalendars.agam.com
+cpcontacts.agam.com
+mail.agam.com
+vpn.agam.com
+webdisk.agam.com
+webmail.agam.com

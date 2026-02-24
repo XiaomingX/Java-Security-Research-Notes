@@ -1,0 +1,9 @@
+portaal.digikoppeling.nl
+acc.dart.digikoppeling.nl
+preprod.portaal.digikoppeling.nl
+dart.digikoppeling.nl
+test.portaal.digikoppeling.nl
+acc.register.digikoppeling.nl
+acc.portaal.digikoppeling.nl
+open.digikoppeling.nl
+register.digikoppeling.nl

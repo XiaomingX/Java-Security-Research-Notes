@@ -1,0 +1,4 @@
+docs.venn.build
+explorer.staging.venn.build
+kinto.validators.venn.build
+signer2.testnet.venn.build

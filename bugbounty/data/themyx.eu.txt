@@ -1,0 +1,5 @@
+mta-sts.themyx.eu
+conference.themyx.eu
+pubsub.themyx.eu
+ns1.themyx.eu
+ns2.themyx.eu

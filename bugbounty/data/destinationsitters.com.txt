@@ -1,0 +1,4 @@
+beta.coordinator.destinationsitters.com
+beta.destinationsitters.com
+beta.myportal.destinationsitters.com
+beta.www.destinationsitters.com

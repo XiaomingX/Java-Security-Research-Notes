@@ -1,0 +1,10 @@
+www-dev.pumascan.com
+api-dev.pumascan.com
+downloads.pumascan.com
+portal.pumascan.com
+portal-dev.pumascan.com
+cdn-dev.pumascan.com
+api.pumascan.com
+dev.pumascan.com
+admin.pumascan.com
+cdn.pumascan.com

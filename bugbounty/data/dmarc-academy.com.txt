@@ -1,0 +1,2 @@
+courses.dev.dmarc-academy.com
+dev.dmarc-academy.com

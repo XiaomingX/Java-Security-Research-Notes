@@ -1,0 +1,11 @@
+webdisk.earthealthygis.com
+kfnextcloud.earthealthygis.com
+cpanel.earthealthygis.com
+office2301.earthealthygis.com
+cpcalendars.earthealthygis.com
+linuxcloudkfamily.earthealthygis.com
+mapping.earthealthygis.com
+mail.earthealthygis.com
+knextcloud.earthealthygis.com
+webmail.earthealthygis.com
+cpcontacts.earthealthygis.com

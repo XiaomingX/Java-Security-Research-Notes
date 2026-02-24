@@ -1,0 +1,4 @@
+click.email.ondecksports.com
+cloud.email.ondecksports.com
+image.email.ondecksports.com
+view.email.ondecksports.com

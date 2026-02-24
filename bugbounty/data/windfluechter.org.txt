@@ -1,0 +1,10 @@
+autoconfig.windfluechter.org
+autodiscover.windfluechter.org
+webmail.windfluechter.org
+office.windfluechter.org
+files.windfluechter.org
+video.windfluechter.org
+chat.windfluechter.org
+echo.windfluechter.org
+pubsub.windfluechter.org
+proxy.windfluechter.org

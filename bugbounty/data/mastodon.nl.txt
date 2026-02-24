@@ -1,0 +1,8 @@
+mammoth.mastodon.nl
+info.mastodon.nl
+hub.mastodon.nl
+blog.mastodon.nl
+test.mastodon.nl
+relay.mastodon.nl
+status.mastodon.nl
+woolly.mastodon.nl

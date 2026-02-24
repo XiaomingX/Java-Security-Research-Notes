@@ -1,0 +1,3 @@
+staging.palacioswind.com
+test.palacioswind.com
+team1.test.palacioswind.com

@@ -1,0 +1,9 @@
+mail.fbref.com
+lebron.fbref.com
+nick.fbref.com
+aws.fbref.com
+b.fbref.com
+static.fbref.com
+blog.fbref.com
+info.fbref.com
+email.fbref.com

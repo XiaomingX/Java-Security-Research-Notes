@@ -1,0 +1,7 @@
+helpdesk.acg-pa.com
+support.acg-pa.com
+support-test.acg-pa.com
+remotely.acg-pa.com
+portal.acg-pa.com
+test.acg-pa.com
+npm.acg-pa.com

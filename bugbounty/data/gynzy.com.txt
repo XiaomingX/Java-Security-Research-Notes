@@ -1,0 +1,10 @@
+generative-ai-api.gynzy.com
+files.gynzy.com
+admin.gynzy.com
+webview-teacher.gynzy.com
+responses-api.gynzy.com
+answer-states-api.gynzy.com
+accounts.gynzy.com
+account.gynzy.com
+manager.gynzy.com
+imago.gynzy.com

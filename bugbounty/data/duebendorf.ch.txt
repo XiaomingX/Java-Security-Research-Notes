@@ -1,0 +1,10 @@
+mobile.duebendorf.ch
+svd.duebendorf.ch
+intra.duebendorf.ch
+ns.duebendorf.ch
+portal.duebendorf.ch
+maps.duebendorf.ch
+bussen.duebendorf.ch
+link.duebendorf.ch
+da.duebendorf.ch
+mail.duebendorf.ch

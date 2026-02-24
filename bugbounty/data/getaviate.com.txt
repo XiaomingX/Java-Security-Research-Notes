@@ -1,0 +1,16 @@
+sentry.getaviate.com
+fax.getaviate.com
+mail.getaviate.com
+api.getaviate.com
+blog.getaviate.com
+support.getaviate.com
+ftp.getaviate.com
+mobilemail.getaviate.com
+graphite.getaviate.com
+files.getaviate.com
+calendar.getaviate.com
+email.getaviate.com
+dev.getaviate.com
+smtp.getaviate.com
+pop.getaviate.com
+imap.getaviate.com

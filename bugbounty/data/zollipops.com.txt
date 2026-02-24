@@ -1,0 +1,3 @@
+shop.zollipops.com
+staging3.zollipops.com
+staging7.zollipops.com

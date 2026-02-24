@@ -1,0 +1,6 @@
+cpanel.markaz.id
+cpcalendars.markaz.id
+cpcontacts.markaz.id
+mail.markaz.id
+webdisk.markaz.id
+webmail.markaz.id

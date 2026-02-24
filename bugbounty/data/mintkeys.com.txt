@@ -1,0 +1,6 @@
+assets.mintkeys.com
+dev.mintkeys.com
+assets-cf.dev.mintkeys.com
+assets-cf.mintkeys.com
+test.mintkeys.com
+z.mintkeys.com

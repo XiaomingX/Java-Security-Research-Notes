@@ -1,0 +1,4 @@
+legacy.generalfloor.com
+link.generalfloor.com
+mail.generalfloor.com
+autodiscovery.generalfloor.com

@@ -1,0 +1,17 @@
+valuation.simplesellable.com
+vrs-api.simplesellable.com
+wisp.simplesellable.com
+wisp-controllers.simplesellable.com
+billing.simplesellable.com
+escrow.simplesellable.com
+analytics.simplesellable.com
+sms.simplesellable.com
+getemail.simplesellable.com
+qrcontact.simplesellable.com
+pss.simplesellable.com
+safeair.simplesellable.com
+accounts.simplesellable.com
+pabx.simplesellable.com
+pabx-demo.simplesellable.com
+paygate.simplesellable.com
+digipath.simplesellable.com

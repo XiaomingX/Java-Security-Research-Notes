@@ -1,0 +1,4 @@
+en.studienwahl.de
+fr.studienwahl.de
+cdn.studienwahl.de
+www-en.studienwahl.de

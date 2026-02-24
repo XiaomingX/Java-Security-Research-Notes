@@ -1,0 +1,2 @@
+crm.soloict.nl
+git.soloict.nl

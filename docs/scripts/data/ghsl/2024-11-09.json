@@ -1,0 +1,712 @@
+[
+  {
+    "searchParameters": {
+      "q": "GHSL inurl:https://securitylab.github.com/advisories/",
+      "type": "search",
+      "num": 100,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Advisories | GitHub Security Lab",
+        "link": "https://securitylab.github.com/advisories/",
+        "snippet": "GHSL-2024-207: Pull requests write permission in k3s via Poisoned Pipeline Execution (PPE). The k3s repository is vulnerable to Poisoned Pipeline Execution (PPE) ...",
+        "position": 1
+      },
+      {
+        "title": "GHSL-2024-297_GHSL-2024-298: Remote Code Execution in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-297_GHSL-2024-298_plenti/",
+        "snippet": "This server is vulnerable to arbitrary file write and arbitrary file deletion, which may lead to remote code execution. Project. plenti. Tested ...",
+        "date": "Oct 25, 2024",
+        "position": 2
+      },
+      {
+        "title": "GHSL-2023-232_GHSL-2023-234: Path injection, Cross-Site ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-232_GHSL-2023-234_Flowise/",
+        "snippet": "2024-06-27: Maintainers informed that advisories will be released on June 28, 2024. Summary. Flowise is vulnerable to path injection, cross site ...",
+        "date": "Jun 28, 2024",
+        "position": 3
+      },
+      {
+        "title": "GHSL-2024-011: Arbitrary javascript execution in Edge and Firefox ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-011_smartup/",
+        "snippet": "GHSL-2024-011: Arbitrary javascript execution in Edge and Firefox via a universal Cross-Site Scripting (UXSS) in smartup - CVE-2024-49378.",
+        "date": "Oct 25, 2024",
+        "position": 4
+      },
+      {
+        "title": "GHSL-2023-136: Remote Code Execution (RCE) in Samson",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-136_Samson/",
+        "snippet": "Samson's Kubernetes::RoleVerificationsController deserializes user-controllable data leading to Remote Code Execution (RCE).",
+        "date": "Aug 14, 2024",
+        "position": 5
+      },
+      {
+        "title": "GHSL-2023-220: Reflected Cross-Site Scripting (XSS) vulnerability ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-220_Alist/",
+        "snippet": "A reflected Cross-Site Scripting (XSS) vulnerability exists in Alist that may allow unauthenticated users to steal the JWT token of users ...",
+        "date": "Sep 27, 2024",
+        "position": 6
+      },
+      {
+        "title": "GHSL-2024-127_GHSL-2024-129: Remote Code Execution (RCE ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-127_GHSL-2024-129_OpenC3_COSMOS/",
+        "snippet": "Several vulnerabilities were found in OpenC3 COSMOS, a web application that is used to control satellites and test equipment.",
+        "date": "Oct 17, 2024",
+        "position": 7
+      },
+      {
+        "title": "GHSL-2023-238_GHSL-2023-244: unauthenticated remote code ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-238_GHSL-2023-244_ngrinder/",
+        "snippet": "Two of the vulnerabilities were unauthenticated remote code execution (RCE) vulnerabilities, others were due to improper access controls.",
+        "date": "Jul 17, 2024",
+        "position": 8
+      },
+      {
+        "title": "GHSL-2024-167: Poisoned Pipeline Execution through Code ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-167_monkeytype/",
+        "snippet": "Monkeytype is vulnerable to Poisoned Pipeline Execution through Code Injection in its ci-failure-comment.yml GitHub Workflow, enabling attackers ...",
+        "date": "Aug 1, 2024",
+        "position": 9
+      },
+      {
+        "title": "GHSL-2023-250: Unauthenticated limited file write in DocsGPT",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-250_DocsGPT/",
+        "snippet": "DocsGPT is vulnerable to unauthenticated limited file write.",
+        "date": "Apr 18, 2024",
+        "position": 10
+      },
+      {
+        "title": "GHSL-2024-090: Path traversal in yt-dlp leading to RCE",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-090_yt-dlp/",
+        "snippet": "yt-dlp doesn't validate the subtitle extension name, which makes its Windows users vulnerable to path traversal and allows for arbitrary binary file overwrite.",
+        "date": "Jul 1, 2024",
+        "position": 11
+      },
+      {
+        "title": "GHSL-2024-045_GHSL-2024-047: Command Injection and Limited ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-045_GHSL-2024-047_fishaudio_Bert-VITS2/",
+        "snippet": "fishaudio/Bert-VITS2 v2.3 is vulnerable to command injections and limited file write vulnerabilties.",
+        "date": "Jul 17, 2024",
+        "position": 12
+      },
+      {
+        "title": "GHSL-2023-154_GHSL-2023-156: Server-Side Request Forgery ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-154_GHSL-2023-156_memos/",
+        "snippet": "Multiple SSRF vulnerabilities exist in the memos API service that allow unauthenticated and authenticated users to enumerate and read from ...",
+        "date": "Apr 18, 2024",
+        "position": 13
+      },
+      {
+        "title": "GHSL-2024-019_GHSL-2024-024: Multiple command injections ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-019_GHSL-2024-024_kohya_ss/",
+        "snippet": "The gradio_basic_caption_gui_tab function in basic_caption_gui.py takes multiple user input, images_dir among others, and uses it as an argument in a command.",
+        "date": "Apr 18, 2024",
+        "position": 14
+      },
+      {
+        "title": "GHSL-2023-253: Cross-Site Scripting (XSS) in openrasp",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-253_openrasp/",
+        "snippet": "A reflected XSS vulnerability exists in the openrasp cloud interface that allows an unauthenticated attacker to gain the session of users.",
+        "date": "Apr 18, 2024",
+        "position": 15
+      },
+      {
+        "title": "GHSL-2023-277: Arbitrary File Deletion (AFD) in Owncast",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-277_Owncast/",
+        "snippet": "Owncast in version 0.1.2 allows remote attackers with administrator privileges to delete arbitrary files by making a malicious POST request ...",
+        "date": "Apr 12, 2024",
+        "position": 16
+      },
+      {
+        "title": "GHSL-2022-085: Java deserialization leading to RCE in pac4j-core",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-085_pac4j/",
+        "snippet": "pac4j-core prior to version 4 is affected by a Java deserialization vulnerability leading to remote code execution.",
+        "date": "Oct 10, 2024",
+        "position": 17
+      },
+      {
+        "title": "GHSL-2024-013_GHSL-2024-014: SQL injection vulnerability in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-013_GHSL-2024-014_Meshery/",
+        "snippet": "A SQL injection vulnerability in Meshery up to v0.7.22 allows a remote attacker to obtain sensitive information, alter database registries, ...",
+        "date": "May 23, 2024",
+        "position": 18
+      },
+      {
+        "title": "GHSL-2023-249: SQL injection vulnerability in Meshery - CVE-2024 ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-249_Meshery/",
+        "snippet": "A SQL injection vulnerability in Meshery up to v0.6.181 allows a remote attacker to obtain sensitive information via the order parameter of ...",
+        "date": "Mar 21, 2024",
+        "position": 19
+      },
+      {
+        "title": "GHSL-2023-186_GHSL-2023-189: Server-Side Request Forgery ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search/",
+        "snippet": "Whoogle-search is vulnerable to Server-Side Request Forgery (SSRFs), Cross-Site Scripting (XSS) and a limited file write vulnerability.",
+        "date": "Jan 18, 2024",
+        "position": 20
+      },
+      {
+        "title": "GHSL-2023-190: Several vulnerabilities in Frigate",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-190_Frigate/",
+        "snippet": "Reflected XSS through /<camera_name> API endpoints ( GHSL-2023-195 ). There is a reflected XSS vulnerability in any API endpoints reliant on the ...",
+        "date": "Dec 12, 2023",
+        "position": 21
+      },
+      {
+        "title": "Server-Side Request Forgery (SSRF) and Denial of Service (DoS) in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-225_GHSL-2023-226_Mealie/",
+        "snippet": "GHSL-2023-225, GHSL-2023-226, GHSL-2023-227, and GHSL-2023-228: Server-Side Request Forgery (SSRF) and Denial of Service (DoS) in Mealie ...",
+        "date": "Apr 12, 2024",
+        "position": 22
+      },
+      {
+        "title": "Pre-authentication RCE in OpenMetadata - CVE-2024-28253, CVE ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-235_GHSL-2023-237_Open_Metadata/",
+        "snippet": "Details. Issue 1: SpEL Injection in GET /api/v1/events/subscriptions/validation/condition/<expr> ( GHSL ...",
+        "date": "Mar 20, 2024",
+        "position": 23
+      },
+      {
+        "title": "GHSL-2023-192_GHSL-2023-194: Several vulnerabilities in bazarr",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-192_GHSL-2023-194_bazarr/",
+        "snippet": "Bazarr is vulnerable to unauthenticated arbitrary file reads in two endpoints and a blind server-side request forgery (SSRF).",
+        "date": "Dec 14, 2023",
+        "position": 24
+      },
+      {
+        "title": "GHSL-2024-027_GHSL-2024-028: API abuse in codeium-chrome",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-027_GHSL-2024-028_codeium-chrome/",
+        "snippet": "The service worker of the codeium-chrome extension doesn't check the sender when receiving an external message. This allows an attacker to ...",
+        "date": "Mar 11, 2024",
+        "position": 25
+      },
+      {
+        "title": "Buffer Overflows in Notepad++ - CVE-2023 ... - GitHub Security Lab",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/",
+        "snippet": "Coordinated Disclosure Timeline. 2023-04-28: Reported GHSL-2023-092 with a fix suggestion to don.h at free.fr .",
+        "date": "Aug 21, 2023",
+        "position": 26
+      },
+      {
+        "title": "GHSL-2023-185: Server-Side Request Forgery (SSRF) in Posthog",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-185_posthog_posthog/",
+        "snippet": "A server-side request forgery (SSRF), which can only be exploited by authenticated users, was found in Posthog.",
+        "date": "Dec 1, 2023",
+        "position": 27
+      },
+      {
+        "title": "GHSL-2022-018: Arbitrary Code Execution in Apache Commons Text",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-018_Apache_Commons_Text/",
+        "snippet": "The StringSubstitutor default interpolators may lead to unsafe script evaluation and arbitrary code execution.",
+        "date": "Oct 17, 2022",
+        "position": 28
+      },
+      {
+        "title": "GHSL-2023-121: SAML authentication bypass vulnerability in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-121_go-saml__archived_/",
+        "snippet": "A SAML authentication bypass vulnerability was found in the RobotsAndPencils/go-saml library. This issue may lead to authentication bypasses ...",
+        "date": "Mar 1, 2024",
+        "position": 29
+      },
+      {
+        "title": "GHSL-2023-028: Remote Code Execution in jellyfin",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-028_jellyfin/",
+        "snippet": "A user with administrator permissions is able to run arbitrary code on the jellyfin server via the /System/MediaEncoder/Path endpoint.",
+        "date": "Dec 13, 2023",
+        "position": 30
+      },
+      {
+        "title": "Several memory access violations in stb_image and stb_vorbis",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-145_GHSL-2023-151_stb_image_h/",
+        "snippet": "Multi-byte read heap buffer overflow in stbi__vertical_flip ( GHSL-2023-146 ). Disclosure of uninitialized memory in stbi__tga_load ( GHSL-2023- ...",
+        "date": "Oct 19, 2023",
+        "position": 31
+      },
+      {
+        "title": "GHSL-2023-203_GHSL-2023-204: Several vulnerabilities in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-203_GHSL-2023-204_audiobookshelf/",
+        "snippet": "Audiobookshelf is vulnerable to server-side request forgery (SSRF), arbitrary file read (AFR) and arbitrary file deletion (AFD) depending on ...",
+        "date": "Dec 13, 2023",
+        "position": 32
+      },
+      {
+        "title": "GHSL-2022-100: Path traversal vulnerability and remote code ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-100_Autolab/",
+        "snippet": "Two vulnerabilities were found in Autolab: File disclosure due to path traversal (GHSL-2022-100) and Authenticated Remote Code Execution ...",
+        "date": "Dec 7, 2023",
+        "position": 33
+      },
+      {
+        "title": "GHSL-2023-004: Arbitrary file upload and download in act",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-004_act/",
+        "snippet": "The artifact server that stores artifacts from GitHub Action runs does not sanitize path inputs. This allows an attacker to download and ...",
+        "date": "Jan 20, 2023",
+        "position": 34
+      },
+      {
+        "title": "GHSL-2022-094: Remote Code Execution in discordrb - CVE-2023 ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-094_discordrb/",
+        "snippet": "The encode_file method may lead to remote code execution if invoked with untrusted user-controlled data.",
+        "date": "Mar 23, 2023",
+        "position": 35
+      },
+      {
+        "title": "GHSL-2023-139: Use After Free (UAF) in accountsservice - CVE ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-139_accountsservice/",
+        "snippet": "An unprivileged local attacker can trigger a use-after-free vulnerability in accountsservice by sending a D-Bus message to the ...",
+        "date": "Jun 29, 2023",
+        "position": 36
+      },
+      {
+        "title": "GHSL-2022-054: Use-after-free (UAF) in the Arm Mali Kernel driver",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-054_Arm_Mali/",
+        "snippet": "2022-07-14: Exploit for arbitrary kernel code execution and rooting of Pixel 6 from untrusted app shared with Android Security Team. 2022-07-15: ...",
+        "date": "Jan 20, 2023",
+        "position": 37
+      },
+      {
+        "title": "GHSL-2022-028: Copy/paste cross-site scripting (XSS) in codex-team",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-028_codex-team_editor_js/",
+        "snippet": "codex-team/editor.js is vulnerable to XSS attacks when copy/pasting specially crafted input into the editor.",
+        "date": "Dec 9, 2022",
+        "position": 38
+      },
+      {
+        "title": "GHSL-2023-218_GHSL-2023-219: Cross-Site Scripting (XSS) in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-218_GHSL-2023-219_scrypted/",
+        "snippet": "Two reflected Cross-Site Scripting (XSS) vulnerabilities exist in scrypted that may allow an attacker to impersonate any user who clicks on ...",
+        "date": "Dec 13, 2023",
+        "position": 39
+      },
+      {
+        "title": "GHSL-2023-081_GHSL-2023-082: Tar Slip vulnerabilities in Autolab",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-081_GHSL-2023-082_Autolab/",
+        "snippet": "Details. Issue 1: Tar slip in Install Assessment functionality ( GHSL-2023-081 ). A Tar slip vulnerability was found in the ...",
+        "date": "Dec 7, 2023",
+        "position": 40
+      },
+      {
+        "title": "GHSL-2021-1044: Cross-Site Scripting (XSS) in iziModal",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-1044_iziModal/",
+        "snippet": "GHSL-2021-1044: Cross-Site Scripting (XSS) in iziModal - CVE-2021-32860. GitHub Security Lab. Coordinated Disclosure Timeline.",
+        "date": "Jun 17, 2022",
+        "position": 41
+      },
+      {
+        "title": "GHSL-2021-104: Cross-Site Scripting in countly-server",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-104-countly-server/",
+        "snippet": "2021-09-04: Maintainers respond that a fix was made, but they are reviewing the code for similar vulnerabilities. 2021-11-10: v21.11 with the ...",
+        "date": "Feb 1, 2022",
+        "position": 42
+      },
+      {
+        "title": "GHSL-2021-1012: Poor random number generation in keypair",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-1012-keypair/",
+        "snippet": "keypair implements a lot of cryptographic primitives on its own or by borrowing from other libraries where possible, including node-forge.",
+        "date": "Oct 11, 2021",
+        "position": 43
+      },
+      {
+        "title": "GHSL-2022-048: Double free in jsonxx - CVE-2022-23459",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-048_Jsonxx/",
+        "snippet": "GHSL-2022-048: Double free in jsonxx - CVE-2022-23459. Jaroslav Lobacevski. Coordinated Disclosure Timeline. 2022-07-18: Report sent to the ...",
+        "date": "Sep 9, 2022",
+        "position": 44
+      },
+      {
+        "title": "GHSL-2022-138: open redirect in lorawan stack - CVE-2023-26494",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-138_lorawan-stack/",
+        "snippet": "An open redirect exists on the login page of the lorawan stack server, allowing an attacker to supply a user controlled redirect upon sign ...",
+        "date": "Apr 13, 2023",
+        "position": 45
+      },
+      {
+        "title": "GHSL-2022-119: Arbitrary command execution in CasaOS",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-119_CasaOS/",
+        "snippet": "If an authenticated user using CasaOS is able to successfully connect to a controlled SMB server, they are able to execute arbitrary ...",
+        "date": "Aug 21, 2023",
+        "position": 46
+      },
+      {
+        "title": "GHSL-2021-020: File disclosure in hbs - CVE-2021-32822",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-020-pillarjs-hbs/",
+        "snippet": "By allowing template engine configuration options to be passed through the Express render API directly, downstream users of an Express ...",
+        "date": "May 27, 2021",
+        "position": 47
+      },
+      {
+        "title": "GHSL-2022-061: Bearer token disclosure in ghinstallation",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-061_ghinstallation/",
+        "snippet": "Coordinated Disclosure Timeline · 2022-07-28: Issue reported to brad AT teambrad.net . · 2022-09-06: A draft GitHub Security Advisory is opened to ...",
+        "date": "Dec 22, 2022",
+        "position": 48
+      },
+      {
+        "title": "GHSL-2020-258: ZipSlip vulnerability in bblfshd - CVE-2021-32825",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-258-zipslip-bblfshd/",
+        "snippet": "The unsafe handling of symbolic links in an unpacking routine may enable attackers to read and/or write to arbitrary locations outside the ...",
+        "date": "Jul 21, 2021",
+        "position": 49
+      },
+      {
+        "title": "Multiple vulnerabilities in SANE Backends (DoS, RCE)",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-075-libsane/",
+        "snippet": "Issue 1 ( GHSL-2020-075 , CVE-2020-12867 ): null pointer dereference in sanei_epson_net_read. The function sanei_epson_net_read has buggy code ...",
+        "date": "Jun 17, 2020",
+        "position": 50
+      },
+      {
+        "title": "GHSL-2021-103: Cross-Site Scripting (XSS) in Erxes",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-103-erxes/",
+        "snippet": "Template tag in widgets.ejs is vulnerable to code injection.",
+        "date": "Feb 1, 2022",
+        "position": 51
+      },
+      {
+        "title": "GHSL-2021-066: DoS and RCE in totaljs | GitHub Security Lab",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-066-totaljs-totaljs/",
+        "snippet": "Calling the utils.set function with user-controlled values leads to code-injection. Impact. An attacker can execute abitrary javascript code in ...",
+        "date": "Jul 21, 2021",
+        "position": 52
+      },
+      {
+        "title": "GHSL-2021-1042: XSS in Baremetrics - CVE-2021-32859",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-1042_Baremetrics_Date_Range_Picker/",
+        "snippet": "Baremetrics Date Range Picker is prone to Cross-site scripting (XSS) when handling untrusted placeholder entries.",
+        "date": "May 18, 2022",
+        "position": 53
+      },
+      {
+        "title": "GHSL-2022-009: HTML content sanitization bypass allowing to ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-009_ckeditor4/",
+        "snippet": "The HTML content sanitization in ckeditor4 can be bypassed, enabling Javascript code to be executed in the browser.",
+        "date": "Mar 31, 2022",
+        "position": 54
+      },
+      {
+        "title": "GHSL-2021-054_057: Code execution outside the virtualized guest ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-054_057-moby-hyperkit/",
+        "snippet": "A malicious guest can trigger vulnerabilities in the host by abusing certain drivers that may lead to code execution outside the virtualized ...",
+        "date": "Oct 5, 2021",
+        "position": 55
+      },
+      {
+        "title": "GHSL-2020-096: Missing hostname validation in tweetstream",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-096-tweetstream-tweetstream/",
+        "snippet": "Missing hostname validation allows an attacker to perform a monster in the middle attack against users of tweetstream.",
+        "date": "Sep 22, 2020",
+        "position": 56
+      },
+      {
+        "title": "Command injection in @diez/generation - CVE-2021-32830",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-061-diez-generation-cmd-injection/",
+        "snippet": "GHSL-2021-061: Command injection in @diez/generation - CVE-2021-32830. Author avatar Alvaro Munoz. Coordinated Disclosure Timeline.",
+        "date": "Jul 21, 2021",
+        "position": 57
+      },
+      {
+        "title": "GHSL-2021-1010: Authentication bypass in Alpine - CVE-2022-23554",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-1010-Alpine/",
+        "snippet": "Details. Issue: AuthenticationFilter bypass ( GHSL-2021-1010 ). The AuthenticationFilter relies on the request URI to evaluate if the user is ...",
+        "date": "Dec 22, 2022",
+        "position": 58
+      },
+      {
+        "title": "GHSL-2021-1047: Cross-Site Scripting (XSS) in Mind-elixir",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-1047_Mind-elixir/",
+        "snippet": "GHSL-2021-1047: Cross-Site Scripting (XSS) in Mind-elixir - CVE-2021-32851 · Coordinated Disclosure Timeline · Summary · Product · Tested Version.",
+        "date": "Dec 15, 2021",
+        "position": 59
+      },
+      {
+        "title": "GHSL-2020-235: Arbitrary command injection in wayou/turn-issues ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-235-wayou-turn-issues-to-posts-action/",
+        "snippet": "The turn-issues-to-posts action is vulnerable to arbitrary command injection.",
+        "date": "Mar 25, 2021",
+        "position": 60
+      },
+      {
+        "title": "GHSL-2022-008: Path traversal in the OWASP Enterprise Security ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-008_The_OWASP_Enterprise_Security_API/",
+        "snippet": "Function getValidDirectoryPath incorrectly treats sibling of a root directory as a child.",
+        "date": "Apr 20, 2022",
+        "position": 61
+      },
+      {
+        "title": "GHSL-2020-254: Arbitrary file read and/or write in dotmesh",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-254-zipslip-dotmesh/",
+        "snippet": "The unsafe handling of symbolic links in an unpacking routine may enable attackers to read and/or write to arbitrary locations outside the ...",
+        "date": "Jul 13, 2021",
+        "position": 62
+      },
+      {
+        "title": "GHSL-2022-031_GHSL-2022-032: Type confusion in Nokogiri leads ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2022-031_GHSL-2022-032_Nokogiri/",
+        "snippet": "Two type confusion issues while processing malicious data can be used to leak the contents of memory or cause a denial-of-service.",
+        "date": "May 18, 2022",
+        "position": 63
+      },
+      {
+        "title": "GHSL-2024-096: DNS rebinding in Homepage, leading to private ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-096_homepage/",
+        "snippet": "The default setup of homepage is vulnerable to DNS rebinding which may allow an attacker website to read the private information of the ...",
+        "date": "Aug 23, 2024",
+        "position": 64
+      },
+      {
+        "title": "GHSL-2021-058: Disclosure of the host memory into the virtualized ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-058-moby-hyperkit/",
+        "snippet": "A malicious guest can trigger a vulnerability in the host by abusing the disk driver that may lead to disclosure of the host memory into the ...",
+        "date": "Oct 5, 2021",
+        "position": 65
+      },
+      {
+        "title": "Remote code execution (RCE) in UI for Apache Kafka - CVE-2023 ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-229_GHSL-2023-230_kafka-ui/",
+        "snippet": "2 of Kafka UI. 2024-04-10 (approximate): GitHub Security Lab team became aware that one of the reported vulnerabilities (GHSL-2023-229) was also ...",
+        "date": "Jun 19, 2024",
+        "position": 66
+      },
+      {
+        "title": "GHSL-2023-205_GHSL-2023-206: Cross-site scripting (XSS) and ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-205_GHSL-2023-207_go2rtc/",
+        "snippet": "GHSL-2023-205_GHSL-2023-206: Cross-site scripting (XSS) and arbitrary command execution vulnerability in go2rtc - CVE-2024-29191, ...",
+        "date": "Apr 3, 2024",
+        "position": 67
+      },
+      {
+        "title": "RCE and blind SSRF in Streamlit-geospatial - CVE-2024-41112 ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-100_GHSL-2024-108_streamlit-geospatial/",
+        "snippet": "Issue 2: Remote code execution in pages/1_ _Timelapse.py Any Earth Engine ImageCollection option vis_params ( GHSL-2024-101 ). The vis_params ...",
+        "date": "Jul 25, 2024",
+        "position": 68
+      },
+      {
+        "title": "GHSL-2024-089: Path traversal in youtube-dl leading to RCE",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-089_youtube-dl/",
+        "snippet": "youtube-dl doesn't validate the subtitle extension name, which makes its Windows users vulnerable to path traversal and allows for arbitrary ...",
+        "date": "Jul 3, 2024",
+        "position": 69
+      },
+      {
+        "title": "GHSL-2024-030: Potential secrets exfiltration from a Pull Request in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-030_dotnet_docfx/",
+        "snippet": "Insecure usage of pull_request_target makes docfx repository vulnerable to secrets exfiltration.",
+        "date": "Jul 17, 2024",
+        "position": 70
+      },
+      {
+        "title": "GHSL-2024-029: Denial of Service (DoS) in Zammad",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-029_Zammad/",
+        "snippet": "A denial of service (DoS) vulnerability was found in the helpdesk software Zammad. An authenticated attacker could have prevented the web ...",
+        "date": "May 31, 2024",
+        "position": 71
+      },
+      {
+        "title": "GHSL-2021-118: ReDoS (Regular Expression Denial of Service) in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2021-118-zulip-zulip/",
+        "snippet": "GHSL-2021-118: ReDoS (Regular Expression Denial of Service) in Zulip - CVE-2021-41115. GitHub Security Lab ...",
+        "date": "Oct 8, 2021",
+        "position": 72
+      },
+      {
+        "title": "GHSL-2020-305: Regular Expression Denial of Service (ReDoS) in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-305-redos-Pure-JavaScript-HTML5-Parser/",
+        "snippet": "GHSL-2020-305: Regular Expression Denial of Service (ReDoS) in Pure JavaScript HTML5 Parser - CVE-2020-26310.",
+        "date": "Jul 13, 2021",
+        "position": 73
+      },
+      {
+        "title": "GHSL-2024-069: Unsafe YAML Deserialization in ngrinder",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-069_ngrinder/",
+        "snippet": "A retest of GHSL-2023-239/CVE-2024-28212 uncovered that the endpoint /script/api/github/validate of ngrinder remained susceptible to unsafe ...",
+        "date": "Jul 17, 2024",
+        "position": 74
+      },
+      {
+        "title": "GHSL-2024-070: Remote Code Execution (RCE) in Chromium",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-070_Chromium/",
+        "snippet": "Opening a malicious website in affected versions of Chrome can lead to object corruption that can be exploited to gain code execution in ...",
+        "date": "Jul 3, 2024",
+        "position": 75
+      },
+      {
+        "title": "GHSL-2024-001_GHSL-2024-003: Remote DoS and potential ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-001_GHSL-2024-003_rubygems_org/",
+        "snippet": "A Remote DoS vulnerability and potential authentication bypasses were found in RubyGems.org, the project powering the Ruby community's gem ...",
+        "date": "Jun 14, 2024",
+        "position": 76
+      },
+      {
+        "title": "GHSL-2023-257: Server-Side Request Forgery (SSRF) in Plane",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-257_makeplane_plane/",
+        "snippet": "Plane v0.13-dev is vulnerable to authenticated blind server-side request forgery vulnerability.",
+        "date": "Apr 18, 2024",
+        "position": 77
+      },
+      {
+        "title": "GHSL-2023-261: Cross origin request in Owncast allows for ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-261_Owncast/",
+        "snippet": "A lenient CORS policy allows attackers to make a cross origin request, reading privileged information. This can be used to leak the admin ...",
+        "date": "Mar 20, 2024",
+        "position": 78
+      },
+      {
+        "title": "GHSL-2024-145: Actions expression injection in Discord.js",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-145_Discord_js/",
+        "snippet": "Discord.js is vulnerable to Actions expression injection allowing an attacker to take over the repository and steal secrets.",
+        "date": "Jul 17, 2024",
+        "position": 79
+      },
+      {
+        "title": "GHSL-2020-029: Server-Side template injection in Apache Syncope ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-029-apache-syncope/",
+        "snippet": "The GitHub Security Labs team has identified a Server-Side template injection vulnerability in Apache Syncope, which leads to RCE.",
+        "date": "May 11, 2020",
+        "position": 80
+      },
+      {
+        "title": "GHSL-2024-051: GitHub Actions expression injection in Misskey",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-051_Misskey/",
+        "snippet": "Misskey is vulnerable to Actions expression injection allowing an attacker to take over the repository and steal secrets.",
+        "date": "May 14, 2024",
+        "position": 81
+      },
+      {
+        "title": "GHSL-2020-142: Heap memory corruption in png-img",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-142-gemini-png-img/",
+        "snippet": "The NAN bindings provided by png-img for libpng are vulnerable to an integer overflow which results in an underallocation of heap memory and ...",
+        "date": "Nov 17, 2020",
+        "position": 82
+      },
+      {
+        "title": "GHSL-2023-009: Credentials leaks for LDAP authentication in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-009_Apereo_CAS/",
+        "snippet": "When CAS is configured to use X509 certificate authentication with LDAP directory, an unauthenticated user can leak the credentials for LDAP ...",
+        "date": "Jun 27, 2023",
+        "position": 83
+      },
+      {
+        "title": "GHSL-2024-025_GHSL-2024-026: Potential secret exfiltration from ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-025_GHSL-2024-026_AutoGen/",
+        "snippet": "Several GitHub workflow may leak secret API Keys (OpenAI, Azure, Bing, etc.) when triggered by any Pull Request.",
+        "date": "Jul 17, 2024",
+        "position": 84
+      },
+      {
+        "title": "GHSL-2024-071: Memory corruption in Chromium - CVE-2024-3832",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-071_Chromium/",
+        "snippet": "Opening a malicious website in affected versions of Chrome can lead to object corruption in the Chrome renderer.",
+        "date": "Jul 3, 2024",
+        "position": 85
+      },
+      {
+        "title": "GHSL-2020-131: Remote Code Execution in mongo-express",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-131-mongo-express/",
+        "snippet": "Mongo-express uses safer-eval to validate user supplied javascript. Unfortunately safer-eval sandboxing capabilities are easily bypassed ...",
+        "date": "Apr 1, 2021",
+        "position": 86
+      },
+      {
+        "title": "GHSL-2024-040: Cross-Site Scripting (XSS) in the sign-in page of ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-040_typebot_io/",
+        "snippet": "A reflected cross-site scripting (XSS) in the sign-in page of typebot.io may allow an attacker to hijack a user's account.",
+        "date": "May 23, 2024",
+        "position": 87
+      },
+      {
+        "title": "GHSL-2024-037: GitHub Actions expression injection in BioDrop",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-037_BioDrop/",
+        "snippet": "BioDrop is vulnerable to Actions expression injection allowing an attacker to manipulate repository issues.",
+        "date": "Jun 19, 2024",
+        "position": 88
+      },
+      {
+        "title": "GHSL-2020-228: Weak JSON Web Token (JWT) signing secret in YApi",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-228-YMFE-yapi/",
+        "snippet": "Weak random number generator is used to sign JSON Web Token (JWT).",
+        "date": "Feb 24, 2021",
+        "position": 89
+      },
+      {
+        "title": "GHSL-2024-044: GitHub Actions expression injection in Simple Icons",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-044_Simple_Icons/",
+        "snippet": "Simple Icons is vulnerable to an Actions expression injection, allowing an attacker to take over the repository and steal secrets.",
+        "date": "May 14, 2024",
+        "position": 90
+      },
+      {
+        "title": "GHSL-2024-033: Server-Side Request Forgery (SSRF) in open-webui",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-033_open-webui/",
+        "snippet": "Blind SSRF in backend/apps/web/routers/utils.py ( GHSL-2024-033 ). The download endpoint accepts user input in the url GET parameter, which is ...",
+        "date": "Apr 18, 2024",
+        "position": 91
+      },
+      {
+        "title": "GHSL-2024-016: Insufficient markdown sanitization in nuget.org",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-016_NuGetGallery/",
+        "snippet": "NuGetGallery powers https://nuget.org/ - the main public source for dotnet packages. Readme files in markdown format associated with NuGet ...",
+        "date": "Jun 19, 2024",
+        "position": 92
+      },
+      {
+        "title": "GHSL-2024-010: Limited file write in Stable-diffusion-webui",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-010_stable-diffusion-webui/",
+        "snippet": "Stable-diffusion-webui 1.7.0 is vulnerable to a limited file write affecting Windows systems.",
+        "date": "Apr 12, 2024",
+        "position": 93
+      },
+      {
+        "title": "Freed GPU memory access in Arm Mali GPU driver - CVE-2023-6241",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-224_Arm_Mali/",
+        "snippet": "Freed GPU memory can be accessed ( GHSL-2023-224 ). This vulnerability exists with the MALI_USE_CSF configuration. It is similar to one that I ...",
+        "date": "Mar 21, 2024",
+        "position": 94
+      },
+      {
+        "title": "GHSL-2020-109: Command injection in codecov | GitHub Security Lab",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-109-codecov/",
+        "snippet": "The upload method has a command injection vulnerability. Clients of the codecov-node library are unlikely to be aware of this, so they might ...",
+        "date": "Aug 31, 2020",
+        "position": 95
+      },
+      {
+        "title": "GHSL-2023-221: Path traversal vulnerability in digdag - CVE-2024 ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2023-221_digdag/",
+        "snippet": "Treasure Data's digdag workload automation system was susceptible to a path traversal vulnerability if it's configured to store log files ...",
+        "date": "Mar 1, 2024",
+        "position": 96
+      },
+      {
+        "title": "GHSL-2024-015: Cross-Site Request Forgery (CSRF) in the ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-015_livemarks/",
+        "snippet": "The livemarks browser extension is vulnerable to a CSRF attack. A malicious website may be able to coerce the extension to send an ...",
+        "date": "May 23, 2024",
+        "position": 97
+      },
+      {
+        "title": "GHSL-2020-028: Server-Side Template Injection in Netflix Titus",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-028-netflix-titus/",
+        "snippet": "A Server-Side Template Injection was identified in Netflix Titus enabling attackers to inject arbitrary Java EL expressions, ...",
+        "date": "Mar 25, 2020",
+        "position": 98
+      },
+      {
+        "title": "GHSL-2020-295: ReDoS (Regular Expression Denial of service) in ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2020-295-redos-is.js/",
+        "snippet": "The project contains one or more regular expressions that are vulnerable to ReDoS (Regular Expression Denial of Service)",
+        "date": "Dec 22, 2022",
+        "position": 99
+      },
+      {
+        "title": "GHSL-2024-041_GHSL-2024-042: GitHub Actions expression ...",
+        "link": "https://securitylab.github.com/advisories/GHSL-2024-041_GHSL-2024-042_KubeBlocks/",
+        "snippet": "KubeBlocks is vulnerable to Actions expression injection allowing an attacker to take over the repository and steal secrets.",
+        "date": "May 14, 2024",
+        "position": 100
+      }
+    ],
+    "credits": 2
+  }
+]

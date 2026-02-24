@@ -1,0 +1,3 @@
+tf-staging.iu-mystudium.de
+staging.iu-mystudium.de
+sgtm.iu-mystudium.de

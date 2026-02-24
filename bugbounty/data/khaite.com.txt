@@ -1,0 +1,4 @@
+private.khaite.com
+shop.khaite.com
+sos.khaite.com
+returns.khaite.com

@@ -1,0 +1,4 @@
+portal.hlibprom.com.ua
+ext.hlibprom.com.ua
+ns.hlibprom.com.ua
+owa.hlibprom.com.ua

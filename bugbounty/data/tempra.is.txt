@@ -1,0 +1,3 @@
+lyncdiscover.tempra.is
+sip.tempra.is
+autodiscover.tempra.is

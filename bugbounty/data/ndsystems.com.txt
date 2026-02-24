@@ -1,0 +1,3 @@
+lyncdiscover.ndsystems.com
+sharepoint.ndsystems.com
+sip.ndsystems.com

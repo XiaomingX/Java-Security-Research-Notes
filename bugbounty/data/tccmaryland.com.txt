@@ -1,0 +1,8 @@
+autodiscover.tccmaryland.com
+demo.tccmaryland.com
+events-c.internalcomms.tccmaryland.com
+chat.tccmaryland.com
+lyncdiscover.tccmaryland.com
+sip.tccmaryland.com
+staff.tccmaryland.com
+training.tccmaryland.com

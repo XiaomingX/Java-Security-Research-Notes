@@ -1,0 +1,2 @@
+tickets.paysera.de
+bank.paysera.de

@@ -1,0 +1,6 @@
+app-dev.luijtenvvz.nl
+app.luijtenvvz.nl
+apimanager.luijtenvvz.nl
+mail.luijtenvvz.nl
+shop.luijtenvvz.nl
+stagingshop.luijtenvvz.nl

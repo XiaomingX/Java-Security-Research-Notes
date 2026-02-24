@@ -1,0 +1,10 @@
+ar5-syr.ipcc.ch
+www1.ipcc.ch
+autodiscover.ipcc.ch
+interactive-atlas.ipcc.ch
+report.ipcc.ch
+apps.ipcc.ch
+wg1.ipcc.ch
+archive.ipcc.ch
+click.ipcc.ch
+sip.ipcc.ch

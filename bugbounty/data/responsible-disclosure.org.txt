@@ -1,0 +1,2 @@
+hostmaster.responsible-disclosure.org
+mail.responsible-disclosure.org

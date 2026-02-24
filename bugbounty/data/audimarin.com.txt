@@ -1,0 +1,7 @@
+parts.audimarin.com
+news.audimarin.com
+direct.audimarin.com
+service.audimarin.com
+httpx3ax2fx2fwww.audimarin.com
+news1.audimarin.com
+autodiscover.audimarin.com

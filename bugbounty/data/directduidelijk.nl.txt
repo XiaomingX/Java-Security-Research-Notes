@@ -1,0 +1,7 @@
+dev.directduidelijk.nl
+mail.directduidelijk.nl
+autoconfig.directduidelijk.nl
+pop.directduidelijk.nl
+ftp.directduidelijk.nl
+autodiscover.directduidelijk.nl
+smtp.directduidelijk.nl

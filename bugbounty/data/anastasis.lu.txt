@@ -1,0 +1,9 @@
+bugs.anastasis.lu
+docs.anastasis.lu
+uptimekuma.anastasis.lu
+v1.anastasis.lu
+webui.anastasis.lu
+smtp.anastasis.lu
+imap.anastasis.lu
+kudos.demo.anastasis.lu
+eur.production.anastasis.lu

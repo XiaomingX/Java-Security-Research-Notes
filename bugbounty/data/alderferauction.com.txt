@@ -1,0 +1,4 @@
+autodiscover.alderferauction.com
+bid.alderferauction.com
+email.alderferauction.com
+owa.alderferauction.com

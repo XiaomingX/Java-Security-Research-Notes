@@ -1,0 +1,3 @@
+test.backend.bmwlat.com
+backend.bmwlat.com
+sip.bmwlat.com

@@ -1,0 +1,13 @@
+test1-internet.zeiss.com.tw
+test2-internet.zeiss.com.tw
+preprod-internet.zeiss.com.tw
+portal.zeiss.com.tw
+portal-test.zeiss.com.tw
+stage-internet.zeiss.com.tw
+datapipeline.zeiss.com.tw
+development-internet.zeiss.com.tw
+portal-stage.zeiss.com.tw
+qa.myoconsult.zeiss.com.tw
+test3-internet.zeiss.com.tw
+stage.myoconsult.zeiss.com.tw
+api-stage.myoconsult.zeiss.com.tw

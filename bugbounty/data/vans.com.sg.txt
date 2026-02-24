@@ -1,0 +1,4 @@
+autodiscover.vans.com.sg
+custom-culture.vans.com.sg
+diyshoes.vans.com.sg
+email.vans.com.sg

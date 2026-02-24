@@ -1,0 +1,6 @@
+repo.wittycommerce.com
+sonar.wittycommerce.com
+ido-qa.wittycommerce.com
+ido-test.wittycommerce.com
+ido-devtest.wittycommerce.com
+yapp.wittycommerce.com

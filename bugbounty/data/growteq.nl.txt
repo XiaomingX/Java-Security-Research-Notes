@@ -1,0 +1,4 @@
+vpn.growteq.nl
+auth.growteq.nl
+payt.growteq.nl
+mijn.growteq.nl

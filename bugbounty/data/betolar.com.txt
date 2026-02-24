@@ -1,0 +1,9 @@
+mail.betolar.com
+geoprime.betolar.com
+wp.betolar.com
+rock-staging.betolar.com
+lt01.betolar.com
+career.betolar.com
+lt02.betolar.com
+rock.betolar.com
+rock-old.betolar.com

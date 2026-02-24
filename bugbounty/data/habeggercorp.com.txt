@@ -1,0 +1,8 @@
+alabama.habeggercorp.com
+devportal.habeggercorp.com
+kentucky.habeggercorp.com
+portal.habeggercorp.com
+sdp.habeggercorp.com
+stageportal.habeggercorp.com
+tennessee.habeggercorp.com
+webstore.habeggercorp.com

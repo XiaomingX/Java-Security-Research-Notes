@@ -1,0 +1,14 @@
+workday.gevernova.com
+impactawards.gevernova.com
+stg-mdmswind.onshore.gevernova.com
+thewatt.gevernova.com
+mytech.gevernova.com
+api.mytech.gevernova.com
+assistant.mytech.gevernova.com
+dev-api.mytech.gevernova.com
+dev-assistant.mytech.gevernova.com
+dev.mytech.gevernova.com
+qa-api.mytech.gevernova.com
+qa-assistant.mytech.gevernova.com
+qa.mytech.gevernova.com
+st-fieldtime-steam.gevernova.com

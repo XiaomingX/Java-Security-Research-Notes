@@ -1,0 +1,6 @@
+media.earfolds.com
+home.earfolds.com
+phppgsql.earfolds.com
+bbs.earfolds.com
+forum.earfolds.com
+tpb.earfolds.com

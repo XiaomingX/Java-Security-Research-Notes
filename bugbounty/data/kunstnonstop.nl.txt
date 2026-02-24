@@ -1,0 +1,3 @@
+staging.kunstnonstop.nl
+phpmyadmin.kunstnonstop.nl
+mail.kunstnonstop.nl

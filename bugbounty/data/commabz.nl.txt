@@ -1,0 +1,6 @@
+develop.commabz.nl
+relayaccept.commabz.nl
+test.commabz.nl
+playground.commabz.nl
+relayprod.commabz.nl
+accept.commabz.nl

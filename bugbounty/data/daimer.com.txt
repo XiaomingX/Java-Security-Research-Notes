@@ -1,0 +1,3 @@
+server.daimer.com
+proxy.daimer.com
+wwv.daimer.com

@@ -1,0 +1,6 @@
+australia.fitovers.com
+canada.fitovers.com
+newzealand.fitovers.com
+temp-aus.fitovers.com
+temp-ca.fitovers.com
+temp-nz.fitovers.com

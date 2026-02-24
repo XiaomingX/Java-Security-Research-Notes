@@ -1,0 +1,11 @@
+about.datamagik.com
+chat.datamagik.com
+img.datamagik.com
+weather.datamagik.com
+guestbook.datamagik.com
+newsguy.datamagik.com
+images.datamagik.com
+jumpline.datamagik.com
+easydns.datamagik.com
+forum.datamagik.com
+ip.datamagik.com

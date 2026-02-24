@@ -1,0 +1,5 @@
+db.andreaswaigand.de
+family.andreaswaigand.de
+buchclub.andreaswaigand.de
+otpwa.andreaswaigand.de
+blog.andreaswaigand.de

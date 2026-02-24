@@ -1,0 +1,9 @@
+mail.firedupsoftware.com
+ns1.firedupsoftware.com
+ops.firedupsoftware.com
+new.firedupsoftware.com
+e4c3a5ed.firedupsoftware.com
+sql.firedupsoftware.com
+ops2d93ba3e.firedupsoftware.com
+ns2.firedupsoftware.com
+ops2ac3j8kv.firedupsoftware.com

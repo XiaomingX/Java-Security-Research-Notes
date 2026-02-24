@@ -1,0 +1,3 @@
+mail.nenko.nl
+mx.nenko.nl
+autodiscover.nenko.nl

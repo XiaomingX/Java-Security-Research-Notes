@@ -1,0 +1,3 @@
+blog.lawnmower.io
+docs.lawnmower.io
+mail.lawnmower.io

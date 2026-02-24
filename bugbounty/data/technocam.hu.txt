@@ -1,0 +1,8 @@
+webmail.technocam.hu
+cpanel.technocam.hu
+webdisk.technocam.hu
+cpcalendars.technocam.hu
+mail.technocam.hu
+autodiscover.technocam.hu
+cpcontacts.technocam.hu
+e-portal-eon.technocam.hu

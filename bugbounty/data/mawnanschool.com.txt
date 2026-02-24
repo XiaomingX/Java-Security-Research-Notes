@@ -1,0 +1,6 @@
+network.mawnanschool.com
+cpcalendars.mawnanschool.com
+cpanel.mawnanschool.com
+webmail.mawnanschool.com
+webdisk.mawnanschool.com
+cpcontacts.mawnanschool.com

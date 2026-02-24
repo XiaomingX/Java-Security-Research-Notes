@@ -1,0 +1,6 @@
+pollux.ipay.com.bd
+dev.ipay.com.bd
+admin.ipay.com.bd
+app.ipay.com.bd
+demo.ipay.com.bd
+mail.ipay.com.bd

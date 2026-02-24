@@ -1,0 +1,4 @@
+job.cippoint.com
+mail.cippoint.com
+reserve.cippoint.com
+webmail.cippoint.com

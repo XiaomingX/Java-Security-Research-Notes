@@ -1,0 +1,4 @@
+eshop.cyberteam.biz
+test.cyberteam.biz
+staging2.cyberteam.biz
+staging4.cyberteam.biz

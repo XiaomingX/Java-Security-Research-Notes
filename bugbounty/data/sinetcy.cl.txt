@@ -1,0 +1,7 @@
+tienda.sinetcy.cl
+autoconfig.sinetcy.cl
+erp.sinetcy.cl
+panel.sinetcy.cl
+in.sinetcy.cl
+autodiscover.mail.sinetcy.cl
+mail.sinetcy.cl

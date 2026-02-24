@@ -1,0 +1,3 @@
+mta-sts.cyrating.net
+blog.cyrating.net
+redirect.cyrating.net

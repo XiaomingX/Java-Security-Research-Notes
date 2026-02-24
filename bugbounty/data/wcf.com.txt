@@ -1,0 +1,11 @@
+kautomate.wcf.com
+mta-sts.wcf.com
+secure.wcf.com
+smart.wcf.com
+speedtest-cmcst.wcf.com
+speedtest-ext.wcf.com
+static-secure.wcf.com
+ces.wcf.com
+pam.wcf.com
+view.wcf.com
+xancert.wcf.com

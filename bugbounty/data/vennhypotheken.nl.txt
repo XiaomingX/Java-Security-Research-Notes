@@ -1,0 +1,9 @@
+mail._domainkey.vennhypotheken.nl
+autodiscover.vennhypotheken.nl
+dev.vennhypotheken.nl
+scripts.vennhypotheken.nl
+communicatie.vennhypotheken.nl
+_dmarc.vennhypotheken.nl
+overrules.vennhypotheken.nl
+_sip._tls.vennhypotheken.nl
+sftp.vennhypotheken.nl

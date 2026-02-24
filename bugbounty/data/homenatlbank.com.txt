@@ -1,0 +1,14 @@
+webmail.homenatlbank.com
+test.homenatlbank.com
+stat.homenatlbank.com
+autodiscover.homenatlbank.com
+bankwww.homenatlbank.com
+cpcontacts.homenatlbank.com
+cpcalendars.homenatlbank.com
+mailserver.homenatlbank.com
+mail.homenatlbank.com
+webdisk.homenatlbank.com
+mailservice.homenatlbank.com
+mailsvr.homenatlbank.com
+cpanel.homenatlbank.com
+mail.mailserver.homenatlbank.com

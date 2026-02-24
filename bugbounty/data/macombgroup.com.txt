@@ -1,0 +1,7 @@
+adfs.macombgroup.com
+autodiscover.macombgroup.com
+blog.macombgroup.com
+mail.macombgroup.com
+password.macombgroup.com
+vpn.macombgroup.com
+ise.macombgroup.com

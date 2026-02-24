@@ -1,0 +1,5 @@
+test.www.diegruenen-scheessel.de
+test.diegruenen-scheessel.de
+lists.diegruenen-scheessel.de
+mta-sts.diegruenen-scheessel.de
+mta-sts.lists.diegruenen-scheessel.de

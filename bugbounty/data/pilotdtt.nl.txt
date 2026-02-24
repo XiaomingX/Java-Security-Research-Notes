@@ -1,0 +1,9 @@
+magazinesintern.pilotdtt.nl
+magazines.english.pilotdtt.nl
+feeds.english.pilotdtt.nl
+opendata.pilotdtt.nl
+opendata.english.pilotdtt.nl
+feeds.pilotdtt.nl
+english.pilotdtt.nl
+magazines.pilotdtt.nl
+magazinesintern.english.pilotdtt.nl

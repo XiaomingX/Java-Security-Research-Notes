@@ -1,0 +1,7 @@
+status.cuckoopalace.es
+link.cuckoopalace.es
+nl.cuckoopalace.es
+review.cuckoopalace.es
+dt.cuckoopalace.es
+pay.cuckoopalace.es
+dev.cuckoopalace.es

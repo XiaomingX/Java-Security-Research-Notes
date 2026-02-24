@@ -1,0 +1,17 @@
+blog.webhostingmagic.com
+cpanel.webhostingmagic.com
+ipv6.webhostingmagic.com
+whm.webhostingmagic.com
+status.webhostingmagic.com
+autodiscover.webhostingmagic.com
+dashboard.webhostingmagic.com
+cpcalendars.webhostingmagic.com
+cpcontacts.webhostingmagic.com
+mail.webhostingmagic.com
+links.alerts.webhostingmagic.com
+link.webhostingmagic.com
+manage.webhostingmagic.com
+webmail.webhostingmagic.com
+webdisk.webhostingmagic.com
+cdn.webhostingmagic.com
+schedulewith.webhostingmagic.com

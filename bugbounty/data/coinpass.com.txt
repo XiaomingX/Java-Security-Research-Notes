@@ -1,0 +1,15 @@
+www-stg.coinpass.com
+trade.coinpass.com
+cp40.coinpass.com
+pre-prod.accounts.coinpass.com
+uat.accounts.coinpass.com
+accounts.coinpass.com
+uat-accounts.coinpass.com
+business.coinpass.com
+blog2.coinpass.com
+blog.coinpass.com
+staging.coinpass.com
+cpanel.coinpass.com
+mail.coinpass.com
+webdisk.coinpass.com
+webmail.coinpass.com

@@ -1,0 +1,4 @@
+autodiscover.brpro.com
+ex1.brpro.com
+remote.brpro.com
+remoteapp.brpro.com

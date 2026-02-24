@@ -1,0 +1,13 @@
+3jms.vistawinespirits.com
+files.vistawinespirits.com
+support.vistawinespirits.com
+tracker.3jms.vistawinespirits.com
+tracker.vistawinespirits.com
+autodiscover.vistawinespirits.com
+cpanel.vistawinespirits.com
+cpcalendars.vistawinespirits.com
+cpcontacts.vistawinespirits.com
+mail.vistawinespirits.com
+picklist.vistawinespirits.com
+webdisk.vistawinespirits.com
+webmail.vistawinespirits.com

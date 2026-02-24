@@ -1,0 +1,3 @@
+app.agencytool.io
+clerk.agencytool.io
+accounts.agencytool.io

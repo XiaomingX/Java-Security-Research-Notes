@@ -1,0 +1,4 @@
+checkout.prev.def-shop.cz
+prev.def-shop.cz
+checkout.def-shop.cz
+dev-www.def-shop.cz

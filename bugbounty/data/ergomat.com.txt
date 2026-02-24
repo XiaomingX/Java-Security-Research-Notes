@@ -1,0 +1,17 @@
+global.ergomat.com
+mail.vps.ergomat.com
+staging.ergomat.com
+vps.ergomat.com
+intl.ergomat.com
+kiaergomat.ergomat.com
+tinbyinc.ergomat.com
+autoconfig.vps.ergomat.com
+autodiscover.vps.ergomat.com
+cpanel.vps.ergomat.com
+cpcalendars.vps.ergomat.com
+cpcontacts.vps.ergomat.com
+ipv6.vps.ergomat.com
+webdisk.vps.ergomat.com
+webmail.vps.ergomat.com
+whm.vps.ergomat.com
+mail.ergomat.com

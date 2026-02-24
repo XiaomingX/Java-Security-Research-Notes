@@ -1,0 +1,4 @@
+ftp.marcocompany.com
+helpdesk.marcocompany.com
+phones.marcocompany.com
+vpn.marcocompany.com

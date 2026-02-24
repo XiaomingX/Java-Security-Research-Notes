@@ -1,0 +1,12 @@
+www-new.ctan.org
+dante.ctan.org
+mirror.ctan.org
+ftp.ctan.org
+smtp.ctan.org
+rsync.dante.ctan.org
+texcatalogue.ctan.org
+tug.ctan.org
+mail.ctan.org
+imap.ctan.org
+mirrors.ctan.org
+new.ctan.org

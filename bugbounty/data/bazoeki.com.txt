@@ -1,0 +1,5 @@
+dashboard.bazoeki.com
+assets.bazoeki.com
+staging.bazoeki.com
+quiz.bazoeki.com
+fokker.bazoeki.com

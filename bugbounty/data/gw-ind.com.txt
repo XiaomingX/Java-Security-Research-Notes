@@ -1,0 +1,2 @@
+autodiscover.gw-ind.com
+mail.gw-ind.com

@@ -1,0 +1,8 @@
+my.castralabs.com
+wpms-cluster-01.castralabs.com
+castralabs-com.staging.castralabs.com
+trust.castralabs.com
+help.castralabs.com
+next.castralabs.com
+launchpad.castralabs.com
+console.castralabs.com

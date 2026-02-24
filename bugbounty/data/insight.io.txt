@@ -1,0 +1,10 @@
+omega.insight.io
+test.insight.io
+blog.insight.io
+gitlab-9-4.insight.io
+gitlab.insight.io
+operator.insight.io
+alpha.insight.io
+_operator.insight.io
+gitlab-9-0.insight.io
+docs.insight.io

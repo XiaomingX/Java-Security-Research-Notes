@@ -1,0 +1,10 @@
+secure2.jellychat.com
+blog.jellychat.com
+secure.jellychat.com
+secure-v2.jellychat.com
+int.jellychat.com
+legacysecure.jellychat.com
+int-secure.jellychat.com
+smtp.jellychat.com
+mail.jellychat.com
+sta-secure.jellychat.com

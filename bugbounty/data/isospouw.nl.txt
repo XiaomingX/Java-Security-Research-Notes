@@ -1,0 +1,8 @@
+mail.isospouw.nl
+webdisk.isospouw.nl
+webmail.isospouw.nl
+ipv6.isospouw.nl
+cpcontacts.isospouw.nl
+autodiscover.isospouw.nl
+cpcalendars.isospouw.nl
+cpanel.isospouw.nl

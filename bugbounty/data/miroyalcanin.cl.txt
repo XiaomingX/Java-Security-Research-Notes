@@ -1,0 +1,8 @@
+canalespecializado-test.miroyalcanin.cl
+canalespecializado.miroyalcanin.cl
+canalprofesional.miroyalcanin.cl
+ftp.miroyalcanin.cl
+test.miroyalcanin.cl
+localhost.miroyalcanin.cl
+mail.miroyalcanin.cl
+canalprofesional-test.miroyalcanin.cl

@@ -1,0 +1,5 @@
+api.cindra.web.id
+installer.cindra.web.id
+raw.cindra.web.id
+pkg.cindra.web.id
+tiktok.cindra.web.id

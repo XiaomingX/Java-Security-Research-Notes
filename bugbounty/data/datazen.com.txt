@@ -1,0 +1,10 @@
+demo-server.datazen.com
+mail01.datazen.com
+stage.datazen.com
+mobile.datazen.com
+demo.datazen.com
+cloud.datazen.com
+owa.datazen.com
+echdweb01.datazen.com
+m.datazen.com
+demos.datazen.com

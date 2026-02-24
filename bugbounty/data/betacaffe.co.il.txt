@@ -1,0 +1,2 @@
+mul.betacaffe.co.il
+events.betacaffe.co.il

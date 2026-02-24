@@ -1,0 +1,10 @@
+admin.akvarellmuseet.org
+autoconfig.akvarellmuseet.org
+autodiscover.akvarellmuseet.org
+mail.akvarellmuseet.org
+press.akvarellmuseet.org
+remote.akvarellmuseet.org
+skiss.akvarellmuseet.org
+stage.akvarellmuseet.org
+test.akvarellmuseet.org
+verktyg.akvarellmuseet.org

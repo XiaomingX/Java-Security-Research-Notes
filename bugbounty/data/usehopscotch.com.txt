@@ -1,0 +1,7 @@
+blog.usehopscotch.com
+cpanel.usehopscotch.com
+pay.usehopscotch.com
+mail.usehopscotch.com
+pop.usehopscotch.com
+smtp.usehopscotch.com
+ftp.usehopscotch.com

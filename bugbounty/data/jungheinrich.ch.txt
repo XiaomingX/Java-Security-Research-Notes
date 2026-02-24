@@ -1,0 +1,13 @@
+contact.jungheinrich.ch
+bewerbung.jungheinrich.ch
+parts.jungheinrich.ch
+admin.parts.jungheinrich.ch
+shop.jungheinrich.ch
+admin.shop.jungheinrich.ch
+news.jungheinrich.ch
+transfer.jungheinrich.ch
+newsletter.jungheinrich.ch
+autodiscover.jungheinrich.ch
+qa.staging.jungheinrich.ch
+il.jungheinrich.ch
+www2.jungheinrich.ch

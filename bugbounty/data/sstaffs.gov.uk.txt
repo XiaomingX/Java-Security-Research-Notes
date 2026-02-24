@@ -1,0 +1,14 @@
+licensing.sstaffs.gov.uk
+dwp-cis.sstaffs.gov.uk
+payments.sstaffs.gov.uk
+sscvexchcas01.sstaffs.gov.uk
+sscefinboxi01.sstaffs.gov.uk
+sscefinlive01.sstaffs.gov.uk
+services.sstaffs.gov.uk
+sscmobile.sstaffs.gov.uk
+bookings.sstaffs.gov.uk
+gateway.sstaffs.gov.uk
+planning.sstaffs.gov.uk
+sscportal.sstaffs.gov.uk
+legacy.sstaffs.gov.uk
+autodiscover.sstaffs.gov.uk

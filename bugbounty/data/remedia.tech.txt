@@ -1,0 +1,2 @@
+cdn.remedia.tech
+cloudflare-resolve-to.remedia.tech

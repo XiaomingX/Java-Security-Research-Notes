@@ -1,0 +1,5 @@
+upload.westermo.co.uk
+response.westermo.co.uk
+mail2.westermo.co.uk
+ftp.westermo.co.uk
+mail.westermo.co.uk

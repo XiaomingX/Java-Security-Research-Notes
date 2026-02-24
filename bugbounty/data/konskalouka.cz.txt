@@ -1,0 +1,2 @@
+mail.konskalouka.cz
+smtp.konskalouka.cz

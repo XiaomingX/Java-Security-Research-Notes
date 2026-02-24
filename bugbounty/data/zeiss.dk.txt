@@ -1,0 +1,12 @@
+portal-test.zeiss.dk
+datapipeline.zeiss.dk
+se-bedre.zeiss.dk
+vision.zeiss.dk
+med-shop.zeiss.dk
+preprod-internet.zeiss.dk
+test1-internet.zeiss.dk
+stage-internet.zeiss.dk
+test3-internet.zeiss.dk
+development-internet.zeiss.dk
+shop.metrology.zeiss.dk
+test2-internet.zeiss.dk

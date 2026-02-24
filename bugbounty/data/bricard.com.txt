@@ -1,0 +1,11 @@
+mcdev.macle.bricard.com
+macle-uat.bricard.com
+mcstaging.achatenligne.bricard.com
+mcdev.achatenligne.bricard.com
+macle-dev2.bricard.com
+achatenligne.bricard.com
+macle-dev1.bricard.com
+mcprod.macle.bricard.com
+macle.bricard.com
+mcstaging.macle.bricard.com
+macleadmin.bricard.com

@@ -1,0 +1,5 @@
+cdn.kvinna.fo
+services.kvinna.fo
+shop.kvinna.fo
+gavukalendarin.kvinna.fo
+handil.kvinna.fo

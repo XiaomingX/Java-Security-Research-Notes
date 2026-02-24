@@ -1,0 +1,6 @@
+authentication.sri-hq.com
+autodiscover.sri-hq.com
+exchange.sri-hq.com
+smart.sri-hq.com
+vpn.sri-hq.com
+mail.sri-hq.com

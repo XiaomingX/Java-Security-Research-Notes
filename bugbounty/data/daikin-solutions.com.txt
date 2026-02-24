@@ -1,0 +1,2 @@
+host.daikin-solutions.com
+mail.daikin-solutions.com

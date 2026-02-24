@@ -1,0 +1,8 @@
+staging.atrapalo.pe
+staging-k8s.atrapalo.pe
+preprod.atrapalo.pe
+soporte.atrapalo.pe
+sg.emailhall.atrapalo.pe
+sg.emailnews.atrapalo.pe
+extranet.atrapalo.pe
+campanas.atrapalo.pe

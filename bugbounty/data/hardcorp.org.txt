@@ -1,0 +1,9 @@
+mail.hardcorp.org
+uberwald.hardcorp.org
+lists.hardcorp.org
+radio.hardcorp.org
+mta-sts.hardcorp.org
+uu.hardcorp.org
+dave.hardcorp.org
+somerset.hardcorp.org
+ramtops.hardcorp.org

@@ -1,0 +1,7 @@
+perf.maktoob.yahoo.com
+pilot1.maktoob.yahoo.com
+alpha1.maktoob.yahoo.com
+qa5.maktoob.yahoo.com
+load.maktoob.yahoo.com
+alpha2.maktoob.yahoo.com
+en.maktoob.yahoo.com

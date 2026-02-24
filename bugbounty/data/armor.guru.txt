@@ -1,0 +1,5 @@
+www.api.armor.guru
+mail.armor.guru
+api.armor.guru
+open.armor.guru
+sitemap.armor.guru

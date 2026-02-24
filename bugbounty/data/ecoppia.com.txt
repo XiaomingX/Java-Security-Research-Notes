@@ -1,0 +1,10 @@
+analytics.ecoppia.com
+es.ecoppia.com
+realtime.ecoppia.com
+legacy.ecoppia.com
+testing.ecoppia.com
+cloud.ecoppia.com
+ir.ecoppia.com
+cdn.ecoppia.com
+licensing.ecoppia.com
+staging.ecoppia.com

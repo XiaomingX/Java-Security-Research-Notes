@@ -1,0 +1,16 @@
+prod-service.bmw.com.sg
+configure-previous.bmw.com.sg
+configure-next.bmw.com.sg
+service.bmw.com.sg
+cdn.financing.bmw.com.sg
+bethefirst.bmw.com.sg
+testservice.bmw.com.sg
+financing.bmw.com.sg
+maps.bmw.com.sg
+configure.bmw.com.sg
+rsvp.bmw.com.sg
+service-appointment.bmw.com.sg
+events.bmw.com.sg
+int.events.bmw.com.sg
+shop.bmw.com.sg
+core.bmw.com.sg

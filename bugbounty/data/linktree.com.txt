@@ -1,0 +1,7 @@
+production.linktree.com
+qa.linktree.com
+wwww.linktree.com
+app.linktree.com
+u003ewww.linktree.com
+_dmarc.linktree.com
+open.linktree.com

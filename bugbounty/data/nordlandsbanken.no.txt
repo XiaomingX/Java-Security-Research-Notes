@@ -1,0 +1,8 @@
+nettbank.nordlandsbanken.no
+w.nordlandsbanken.no
+wap.nordlandsbanken.no
+lyncdiscover.nordlandsbanken.no
+sip.nordlandsbanken.no
+meet.nordlandsbanken.no
+lyncdiscoverinternal.nordlandsbanken.no
+autodiscover.nordlandsbanken.no

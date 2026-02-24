@@ -1,0 +1,4 @@
+dev.usbgear.com
+m.usbgear.com
+secure.usbgear.com
+maintenance.usbgear.com

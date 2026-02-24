@@ -1,0 +1,4 @@
+webmail.dirktschanz.ch
+cpanel.dirktschanz.ch
+ftp.dirktschanz.ch
+mail.dirktschanz.ch

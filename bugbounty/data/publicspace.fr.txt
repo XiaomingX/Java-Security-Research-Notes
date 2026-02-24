@@ -1,0 +1,2 @@
+mirrors.publicspace.fr
+hostmaster.publicspace.fr

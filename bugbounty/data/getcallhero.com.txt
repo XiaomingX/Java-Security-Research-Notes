@@ -1,0 +1,10 @@
+api.getcallhero.com
+get.getcallhero.com
+land.getcallhero.com
+support.getcallhero.com
+ftp.getcallhero.com
+cdn.getcallhero.com
+ssh.getcallhero.com
+sip.getcallhero.com
+mail.getcallhero.com
+mysql.getcallhero.com

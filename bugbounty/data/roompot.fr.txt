@@ -1,0 +1,8 @@
+demo.roompot.fr
+reserver.roompot.fr
+partner.roompot.fr
+mon.roompot.fr
+reserver2.roompot.fr
+news.roompot.fr
+park.roompot.fr
+collect.roompot.fr

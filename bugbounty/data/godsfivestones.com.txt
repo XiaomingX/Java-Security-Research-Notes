@@ -1,0 +1,12 @@
+cpanel.test.godsfivestones.com
+cpanel.webmail.godsfivestones.com
+mail.godsfivestones.com
+mail.test.godsfivestones.com
+mail.webmail.godsfivestones.com
+test.godsfivestones.com
+webdisk.test.godsfivestones.com
+webdisk.webmail.godsfivestones.com
+webmail.godsfivestones.com
+cpanel.godsfivestones.com
+old.godsfivestones.com
+webdisk.godsfivestones.com

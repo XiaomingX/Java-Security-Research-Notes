@@ -1,0 +1,5 @@
+ftp.moncepeninsula.fr
+imap.moncepeninsula.fr
+mail.moncepeninsula.fr
+pop3.moncepeninsula.fr
+admin.moncepeninsula.fr

@@ -1,0 +1,5 @@
+cpanel.loghill.com
+mail.loghill.com
+webdisk.loghill.com
+webmail.loghill.com
+lists.loghill.com

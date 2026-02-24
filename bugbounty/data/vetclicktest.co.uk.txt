@@ -1,0 +1,7 @@
+cpcalendars.vetclicktest.co.uk
+cpanel.vetclicktest.co.uk
+autodiscover.vetclicktest.co.uk
+mail.vetclicktest.co.uk
+cpcontacts.vetclicktest.co.uk
+webmail.vetclicktest.co.uk
+webdisk.vetclicktest.co.uk

@@ -1,0 +1,10 @@
+ap.pracbiz.com
+as2prod.pracbiz.com
+as2test.pracbiz.com
+b2bhub.pracbiz.com
+b2bportal.pracbiz.com
+lp.pracbiz.com
+pbx.pracbiz.com
+pbxorder.pracbiz.com
+scf.pracbiz.com
+svn2.pracbiz.com

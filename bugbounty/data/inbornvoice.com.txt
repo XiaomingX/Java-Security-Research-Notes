@@ -1,0 +1,2 @@
+cdn.inbornvoice.com
+usa.inbornvoice.com

@@ -1,0 +1,5 @@
+greenroom.disneyauditions.com
+checkin.disneyauditions.com
+profile.disneyauditions.com
+kiosk.disneyauditions.com
+cdn.media.disneyauditions.com

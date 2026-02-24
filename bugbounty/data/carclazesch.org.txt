@@ -1,0 +1,16 @@
+schoolwww.carclazesch.org
+poczta.carclazesch.org
+antispam.carclazesch.org
+smtp2.carclazesch.org
+mail12.carclazesch.org
+mailrelay.carclazesch.org
+spam.carclazesch.org
+server2.carclazesch.org
+vmail.carclazesch.org
+out.carclazesch.org
+mail.carclazesch.org
+mail3.carclazesch.org
+mx2.carclazesch.org
+mailx.carclazesch.org
+email.carclazesch.org
+gateway.carclazesch.org

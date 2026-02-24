@@ -1,0 +1,2 @@
+server.atemit.cz
+_sipfederationtls._tcp.atemit.cz

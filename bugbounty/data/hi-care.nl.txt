@@ -1,0 +1,9 @@
+portal.hi-care.nl
+v3.portal.hi-care.nl
+gateway.debeer.hi-care.nl
+app.hi-care.nl
+v2.portal.hi-care.nl
+staging.portal.hi-care.nl
+gateway.cleijenborch.hi-care.nl
+ipo.cleijenborch.hi-care.nl
+gateway.colijnbv.hi-care.nl

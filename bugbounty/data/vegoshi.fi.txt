@@ -1,0 +1,6 @@
+cpcalendars.vegoshi.fi
+cpcontacts.vegoshi.fi
+cpanel.vegoshi.fi
+webdisk.vegoshi.fi
+mail.vegoshi.fi
+webmail.vegoshi.fi

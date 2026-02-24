@@ -1,0 +1,14 @@
+twc.ucontrol.com
+208.87.85.202.ucontrol.com
+blog.ucontrol.com
+httpwww.ucontrol.com
+fileshare.ucontrol.com
+demo.ucontrol.com
+trial.ucontrol.com
+order.ucontrol.com
+wwww.ucontrol.com
+ww01.ucontrol.com
+activity.ucontrol.com
+example.ucontrol.com
+widgets.ucontrol.com
+xmlns.ucontrol.com

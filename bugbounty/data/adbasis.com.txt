@@ -1,0 +1,2 @@
+api-lb.adbasis.com
+base.adbasis.com

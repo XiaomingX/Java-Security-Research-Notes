@@ -1,0 +1,2 @@
+api.dsho.no
+forseti.dsho.no

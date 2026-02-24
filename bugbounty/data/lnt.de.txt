@@ -1,0 +1,6 @@
+lms.lnt.de
+idc.lnt.de
+lit.lnt.de
+lmk.lnt.de
+ldue.lnt.de
+mobile.lms.lnt.de

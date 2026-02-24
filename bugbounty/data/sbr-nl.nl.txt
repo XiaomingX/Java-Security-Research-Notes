@@ -1,0 +1,6 @@
+acc-dictu.sbr-nl.nl
+mail.sbr-nl.nl
+test-dictu.sbr-nl.nl
+prod-dictu.sbr-nl.nl
+mx.sbr-nl.nl
+omschrijving.4www.sbr-nl.nl

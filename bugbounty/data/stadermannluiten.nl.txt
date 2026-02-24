@@ -1,0 +1,8 @@
+router.stadermannluiten.nl
+adfs.stadermannluiten.nl
+mail2.stadermannluiten.nl
+slsrv3.sl.stadermannluiten.nl
+slsrv2.sl.stadermannluiten.nl
+mail.stadermannluiten.nl
+admin.stadermannluiten.nl
+autodiscover.stadermannluiten.nl

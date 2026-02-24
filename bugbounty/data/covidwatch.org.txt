@@ -1,0 +1,5 @@
+blog.covidwatch.org
+info.covidwatch.org
+verification.covidwatch.org
+vs.covidwatch.org
+portal.covidwatch.org

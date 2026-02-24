@@ -1,0 +1,3 @@
+pop.leesdame.nl
+smtp.leesdame.nl
+webmail.leesdame.nl

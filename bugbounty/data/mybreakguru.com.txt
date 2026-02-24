@@ -1,0 +1,7 @@
+admin.mybreakguru.com
+cpanel.mybreakguru.com
+webmail.mybreakguru.com
+email.mybreakguru.com
+autodiscover.mybreakguru.com
+mail.mybreakguru.com
+webdisk.mybreakguru.com

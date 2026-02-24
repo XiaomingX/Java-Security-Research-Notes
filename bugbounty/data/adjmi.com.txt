@@ -1,0 +1,8 @@
+autodiscover.adjmi.com
+guestportal.adjmi.com
+vpn.adjmi.com
+deviceportal.adjmi.com
+hqise01.adjmi.com
+hqise02.adjmi.com
+hybrid.adjmi.com
+mail.adjmi.com

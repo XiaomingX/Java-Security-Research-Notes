@@ -1,0 +1,2 @@
+autodiscover.memphisrocknsoul.org
+oauth.memphisrocknsoul.org

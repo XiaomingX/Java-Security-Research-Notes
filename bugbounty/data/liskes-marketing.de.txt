@@ -1,0 +1,2 @@
+autodiscover.liskes-marketing.de
+autoconfig.liskes-marketing.de

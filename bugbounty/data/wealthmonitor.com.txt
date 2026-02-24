@@ -1,0 +1,5 @@
+info.wealthmonitor.com
+aslive-info.wealthmonitor.com
+alpha.wealthmonitor.com
+notifications.wealthmonitor.com
+app.wealthmonitor.com

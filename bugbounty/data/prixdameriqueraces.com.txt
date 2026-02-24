@@ -1,0 +1,3 @@
+dev.prixdameriqueraces.com
+fantasy.prixdameriqueraces.com
+rec.prixdameriqueraces.com

@@ -1,0 +1,17 @@
+blog.primaryarms.com
+checkout.primaryarms.com
+commercecategory.primaryarms.com
+events.primaryarms.com
+image.primaryarms.com
+images.primaryarms.com
+media.primaryarms.com
+news.primaryarms.com
+pr.primaryarms.com
+preprod.primaryarms.com
+prod.primaryarms.com
+sandbox.primaryarms.com
+staging.primaryarms.com
+track.primaryarms.com
+vanila.primaryarms.com
+release.primaryarms.com
+st.primaryarms.com

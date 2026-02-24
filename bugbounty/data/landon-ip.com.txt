@@ -1,0 +1,17 @@
+connect.landon-ip.com
+mail.landon-ip.com
+consulting.landon-ip.com
+dev.landon-ip.com
+mail2.landon-ip.com
+remote.landon-ip.com
+secure.landon-ip.com
+cn.landon-ip.com
+training.landon-ip.com
+jp.landon-ip.com
+remote-mi.landon-ip.com
+autodiscover.landon-ip.com
+legacy.landon-ip.com
+ww.landon-ip.com
+help.landon-ip.com
+test.landon-ip.com
+web-wrappers.landon-ip.com

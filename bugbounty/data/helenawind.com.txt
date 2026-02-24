@@ -1,0 +1,2 @@
+staging.helenawind.com
+team1.test.helenawind.com

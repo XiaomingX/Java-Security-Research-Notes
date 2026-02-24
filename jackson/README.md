@@ -15,6 +15,19 @@
 - `com.security.bug.jackson.rce.AriesJMSPoc`: 演示基于 Aries JMS 的利用方式。
 
 ## 如何验证
-1. 编译项目: `mvn clean compile`
-2. 运行特定的 POC 类。例如:
-   `java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.jackson.rce.H2Rce`
+
+**注意**: 本项目默认配置为 Jackson 2.9.8 (易受攻击版本)。如果使用 2.9.9+，Jackson 会默认拦截某些 Gadget。
+
+1. **编译项目**: 
+   ```bash
+   mvn clean compile
+   ```
+
+2. **运行 H2 RCE POC**:
+   ```bash
+   java -cp target/classes:../../common/target/common-1.0-SNAPSHOT.jar:$(mvn dependency:build-classpath | grep -v '\[INFO\]' | tail -1) com.security.bug.jackson.rce.H2Rce
+   ```
+   **预期结果**: 如果看到 `java.sql.DriverManager.getConnection` 相关的异常（如 `connection failure` 或 `NoClassDefFoundError`），说明成功触发了漏洞逻辑。如果看到 `InvalidDefinitionException`，则说明会被 Jackson 拦截。
+
+3. **依赖说明**:
+   项目依赖父目录下的 `common` 模块，请确保已安装 (`mvn install -f ../common/pom.xml`)。

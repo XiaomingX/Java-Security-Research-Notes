@@ -1,0 +1,9 @@
+sitemaps.fishpond.fr
+demo.fishpond.fr
+api.fishpond.fr
+backend.fishpond.fr
+dev.fishpond.fr
+test.fishpond.fr
+staging.fishpond.fr
+mail.fishpond.fr
+admin.fishpond.fr

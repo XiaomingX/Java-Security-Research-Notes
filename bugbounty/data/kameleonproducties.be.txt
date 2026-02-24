@@ -1,0 +1,6 @@
+cpanel.kameleonproducties.be
+webmail.kameleonproducties.be
+mail.kameleonproducties.be
+cpcalendars.kameleonproducties.be
+webdisk.kameleonproducties.be
+cpcontacts.kameleonproducties.be

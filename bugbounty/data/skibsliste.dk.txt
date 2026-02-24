@@ -1,0 +1,2 @@
+mail.skibsliste.dk
+smtp.skibsliste.dk

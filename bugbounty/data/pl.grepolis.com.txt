@@ -1,0 +1,2 @@
+forum.pl.grepolis.com
+wiki.pl.grepolis.com

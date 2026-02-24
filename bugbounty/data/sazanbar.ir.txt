@@ -1,0 +1,6 @@
+api.sazanbar.ir
+market.sazanbar.ir
+dev.sazanbar.ir
+admin.sazanbar.ir
+mail.sazanbar.ir
+latest.sazanbar.ir

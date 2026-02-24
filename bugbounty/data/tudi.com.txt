@@ -1,0 +1,11 @@
+autodiscover.tudi.com
+email.tudi.com
+helpdesk.tudi.com
+helpdesk.tudi.com.tudi.com
+info.tudi.com
+link.tudi.com
+sales.tudi.com
+servman.tudi.com
+citrix.tudi.com
+remote.tudi.com
+webmail.tudi.com

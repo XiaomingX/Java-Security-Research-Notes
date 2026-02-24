@@ -1,0 +1,4 @@
+blog.bestprice.gr
+dev.bestprice.gr
+gp.bestprice.gr
+local.bestprice.gr

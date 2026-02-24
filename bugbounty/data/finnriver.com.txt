@@ -1,0 +1,15 @@
+autodiscover.finnriver.com
+chimacumcenter.finnriver.com
+cpanel.finnriver.com
+cpcalendars.finnriver.com
+cpcontacts.finnriver.com
+farmwarestore.finnriver.com
+finnriverfarm.finnriver.com
+finnrivergrainery.finnriver.com
+mail.finnriver.com
+old.finnriver.com
+shop.finnriver.com
+webdisk.finnriver.com
+webmail.finnriver.com
+farmware.finnriver.com
+new.finnriver.com

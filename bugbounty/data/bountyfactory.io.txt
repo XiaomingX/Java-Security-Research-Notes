@@ -1,0 +1,5 @@
+bbdemo.bountyfactory.io
+cdn.bountyfactory.io
+bug.bountyfactory.io
+event.bountyfactory.io
+beta.bountyfactory.io

@@ -1,0 +1,13 @@
+dev.yournbs.com
+email.yournbs.com
+events.yournbs.com
+info.yournbs.com
+vpn.yournbs.com
+cpanel.yournbs.com
+guestwifi.yournbs.com
+helpdesk.yournbs.com
+mail.yournbs.com
+new.yournbs.com
+test.yournbs.com
+vpn2.yournbs.com
+webdisk.yournbs.com

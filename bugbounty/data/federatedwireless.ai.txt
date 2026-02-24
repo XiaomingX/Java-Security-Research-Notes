@@ -1,0 +1,2 @@
+auth.federatedwireless.ai
+pay.federatedwireless.ai

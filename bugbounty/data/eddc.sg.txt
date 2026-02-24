@@ -1,0 +1,2 @@
+eddcsgtest.eddc.sg
+collab-edge.eddc.sg

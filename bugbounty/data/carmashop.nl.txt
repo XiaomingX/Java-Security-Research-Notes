@@ -1,0 +1,11 @@
+mail.carmashop.nl
+cpcontacts.carmashop.nl
+autodiscover.carmashop.nl
+webdisk.carmashop.nl
+cpcalendars.carmashop.nl
+webmail.carmashop.nl
+test.carmashop.nl
+wordpress.carmashop.nl
+server.carmashop.nl
+cpanel.carmashop.nl
+whm.carmashop.nl

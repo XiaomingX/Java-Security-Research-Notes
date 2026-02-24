@@ -1,0 +1,5 @@
+webmail.primotek-bg.com
+mail.primotek-bg.com
+mail1.primotek-bg.com
+view.primotek-bg.com
+sen3.primotek-bg.com

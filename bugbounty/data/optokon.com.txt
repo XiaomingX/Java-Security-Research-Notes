@@ -1,0 +1,10 @@
+australia.optokon.com
+autodiscover.optokon.com
+edms.optokon.com
+gitlab.optokon.com
+intra.optokon.com
+mail.optokon.com
+nextcloud.optokon.com
+pacific.optokon.com
+plt.optokon.com
+sa.optokon.com

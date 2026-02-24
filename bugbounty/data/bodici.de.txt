@@ -1,0 +1,6 @@
+cloud.bodici.de
+rspamd.bodici.de
+mta-sts.bodici.de
+elias.bodici.de
+reports.bodici.de
+srv48.bodici.de

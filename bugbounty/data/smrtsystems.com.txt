@@ -1,0 +1,6 @@
+blog.smrtsystems.com
+storybook.smrtsystems.com
+staging.smrtsystems.com
+shop.smrtsystems.com
+status.smrtsystems.com
+support.smrtsystems.com

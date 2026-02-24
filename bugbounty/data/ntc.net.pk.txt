@@ -1,0 +1,14 @@
+email.ntc.net.pk
+helpdesk.ntc.net.pk
+mail.ntc.net.pk
+sms.ntc.net.pk
+smsapi.ntc.net.pk
+spam.ntc.net.pk
+helpdesk1.ntc.net.pk
+mail.test.ntc.net.pk
+register.ntc.net.pk
+sms.api.ntc.net.pk
+tech.ntc.net.pk
+test2.ntc.net.pk
+webemail.ntc.net.pk
+webmail.ntc.net.pk

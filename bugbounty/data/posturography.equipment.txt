@@ -1,0 +1,8 @@
+webmail.posturography.equipment
+autodiscover.posturography.equipment
+imap.posturography.equipment
+mail.posturography.equipment
+mta-sts.posturography.equipment
+autoconfig.posturography.equipment
+pop3.posturography.equipment
+smtp.posturography.equipment

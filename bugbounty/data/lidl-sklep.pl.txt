@@ -1,0 +1,4 @@
+fr2.lidl-sklep.pl
+test.lidl-sklep.pl
+dev.lidl-sklep.pl
+qa.lidl-sklep.pl

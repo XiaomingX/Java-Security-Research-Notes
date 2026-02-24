@@ -1,0 +1,2 @@
+links.memoapp.pro
+cdn.memoapp.pro

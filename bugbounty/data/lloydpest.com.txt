@@ -1,0 +1,8 @@
+clypboard-staging.lloydpest.com
+clypboard.lloydpest.com
+dev.lloydpest.com
+get.lloydpest.com
+info.lloydpest.com
+staging.lloydpest.com
+clypboard-connect.lloydpest.com
+myaccount.lloydpest.com

@@ -1,0 +1,3 @@
+cloud.doerlam.eu
+server.doerlam.eu
+mail.doerlam.eu

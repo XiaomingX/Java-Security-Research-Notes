@@ -1,0 +1,12 @@
+checkout.certorsports.com
+returns.certorsports.com
+schutt.certorsports.com
+tucci.certorsports.com
+vicis.certorsports.com
+vpn.certorsports.com
+vpnmfa.certorsports.com
+astragalus.certorsports.com
+ftp.certorsports.com
+relay.certorsports.com
+secure.certorsports.com
+secured.certorsports.com

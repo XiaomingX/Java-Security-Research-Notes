@@ -1,0 +1,4 @@
+cn.greenplum.org
+docs.greenplum.org
+bgn.greenplum.org
+docs-cn.greenplum.org

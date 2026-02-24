@@ -1,0 +1,3 @@
+docs.jotformers.com
+jotcosts.jotformers.com
+ops.jotformers.com

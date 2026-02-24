@@ -1,0 +1,3 @@
+api.fonic-mobile.de
+kuendigung.fonic-mobile.de
+shop.fonic-mobile.de

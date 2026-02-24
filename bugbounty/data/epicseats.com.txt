@@ -1,0 +1,2 @@
+partner.epicseats.com
+dashboard.epicseats.com

@@ -1,0 +1,13 @@
+showroom.interflex.de
+development.interflex.de
+ftpservice.interflex.de
+dhn-sv-mdm02.interflex.de
+training.interflex.de
+dns.interflex.de
+jenkins.interflex.de
+dhn-sv-mdm01.interflex.de
+autodiscover.interflex.de
+msoid.interflex.de
+service.interflex.de
+ftpservice2.interflex.de
+test.interflex.de

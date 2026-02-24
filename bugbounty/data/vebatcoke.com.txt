@@ -1,0 +1,4 @@
+preview.staging.vebatcoke.com
+preview.vebatcoke.com
+staging.vebatcoke.com
+w.vebatcoke.com

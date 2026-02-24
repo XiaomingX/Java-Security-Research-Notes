@@ -1,0 +1,4 @@
+dedicated-15.ropharmacy.com
+pha-staging.ropharmacy.com
+comercializadoratreex.ropharmacy.com
+api-staging.ropharmacy.com

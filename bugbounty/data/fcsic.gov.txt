@@ -1,0 +1,7 @@
+mail2.fcsic.gov
+mail.fcsic.gov
+staging.fcsic.gov
+test.fcsic.gov
+mail3.fcsic.gov
+autodiscover.fcsic.gov
+_dmarc.fcsic.gov

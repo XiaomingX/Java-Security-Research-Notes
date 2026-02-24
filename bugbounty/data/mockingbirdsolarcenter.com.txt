@@ -1,0 +1,2 @@
+test.mockingbirdsolarcenter.com
+staging.mockingbirdsolarcenter.com

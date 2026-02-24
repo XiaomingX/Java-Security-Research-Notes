@@ -1,0 +1,2 @@
+feeds.english.ndw.nu
+opendata.english.ndw.nu

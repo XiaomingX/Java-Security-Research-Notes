@@ -1,0 +1,4 @@
+foundersportal.emcap.com
+talent.emcap.com
+documentation.emcap.com
+playbook.emcap.com

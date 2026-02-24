@@ -1,0 +1,2 @@
+smtp.ridestep.ru
+mail.ridestep.ru

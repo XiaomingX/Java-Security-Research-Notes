@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import bsh.Interpreter;
 import bsh.XThis;
 
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-import ysoserial.Strings;
+import ysoserial.util.Strings;
 import ysoserial.payloads.annotation.Authors;
 import ysoserial.payloads.util.Reflections;
 import ysoserial.payloads.annotation.Dependencies;

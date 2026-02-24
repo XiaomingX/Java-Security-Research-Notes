@@ -1,0 +1,9 @@
+autodiscover.cpsdistributors.com
+ftp.cpsdistributors.com
+inte.cpsdistributors.com
+prep.cpsdistributors.com
+prod.cpsdistributors.com
+rd.cpsdistributors.com
+shop.cpsdistributors.com
+webmail.cpsdistributors.com
+ldaps.cpsdistributors.com

@@ -1,0 +1,8 @@
+cpanel.ptsi.sch.id
+cpcalendars.ptsi.sch.id
+cpcontacts.ptsi.sch.id
+gurujagoan.ptsi.sch.id
+mail.ptsi.sch.id
+psb.ptsi.sch.id
+webdisk.ptsi.sch.id
+webmail.ptsi.sch.id

@@ -1,0 +1,3 @@
+docs.lsdh.ch
+wp.lsdh.ch
+clap.lsdh.ch

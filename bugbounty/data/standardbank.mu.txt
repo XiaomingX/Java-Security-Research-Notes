@@ -1,0 +1,15 @@
+conference.standardbank.mu
+digiaud.standardbank.mu
+ebanking.standardbank.mu
+lyncdiscover.standardbank.mu
+meet.standardbank.mu
+owa.standardbank.mu
+ras.standardbank.mu
+ras.dr.standardbank.mu
+rdcaccess.standardbank.mu
+sdcaccess.standardbank.mu
+sip.standardbank.mu
+stbg.standardbank.mu
+uat-digiaud.standardbank.mu
+encrypt.standardbank.mu
+w.encrypt.standardbank.mu

@@ -1,0 +1,2 @@
+pre.yara.com.pa
+int.yara.com.pa

@@ -1,0 +1,10 @@
+dev.estoesreal.tv
+clientes.estoesreal.tv
+altoslaspataguas.estoesreal.tv
+cdn.estoesreal.tv
+cpanel.estoesreal.tv
+cpcalendars.estoesreal.tv
+cpcontacts.estoesreal.tv
+mail.estoesreal.tv
+webdisk.estoesreal.tv
+webmail.estoesreal.tv

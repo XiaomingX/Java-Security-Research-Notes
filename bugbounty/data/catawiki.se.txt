@@ -1,0 +1,5 @@
+fejkjt.catawiki.se
+staging13.catawiki.se
+forum.catawiki.se
+auction.catawiki.se
+auktion.catawiki.se

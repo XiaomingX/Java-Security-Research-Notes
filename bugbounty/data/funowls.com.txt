@@ -1,0 +1,14 @@
+dev.funowls.com
+staging.funowls.com
+preprod2.funowls.com
+preprod.funowls.com
+webdisk.funowls.com
+magento.funowls.com
+autodiscover.funowls.com
+cpanel.funowls.com
+link.funowls.com
+cpcalendars.funowls.com
+cpcontacts.funowls.com
+mail.funowls.com
+webmail.funowls.com
+_dc-mx.d08d8bca1c1e.funowls.com

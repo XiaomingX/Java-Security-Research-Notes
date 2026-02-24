@@ -1,0 +1,4 @@
+stage.desk-apps.com
+stowaway.desk-apps.com
+cpcalendars.desk-apps.com
+cpcontacts.desk-apps.com

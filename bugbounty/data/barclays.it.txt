@@ -1,0 +1,9 @@
+remote.barclays.it
+soapservices.barclays.it
+keys.barclays.it
+interactivefactoring.barclays.it
+corebanking.barclays.it
+workathome.barclays.it
+collection.barclays.it
+homebanking.barclays.it
+myworkspace-it.barclays.it

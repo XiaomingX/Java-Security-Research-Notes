@@ -1,0 +1,2 @@
+app.mojtrh.online
+app-backend.mojtrh.online

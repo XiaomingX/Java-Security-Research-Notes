@@ -1,0 +1,4 @@
+horizon-api.www.probikekit.de
+gslb.probikekit.de
+m.probikekit.de
+checkout.probikekit.de

@@ -1,0 +1,14 @@
+traefik.stag.cyrus-security.com
+pgadmin.prod.cyrus-security.com
+pgadmin.stag.cyrus-security.com
+portainer.dev.cyrus-security.com
+portainer.stag.cyrus-security.com
+flower.dev.cyrus-security.com
+flower.stag.cyrus-security.com
+stag.cyrus-security.com
+traefik.dev.cyrus-security.com
+dev.cyrus-security.com
+flower.prod.cyrus-security.com
+prod.cyrus-security.com
+pgadmin.dev.cyrus-security.com
+portainer.prod.cyrus-security.com

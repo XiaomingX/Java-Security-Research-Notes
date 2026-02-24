@@ -1,0 +1,3 @@
+userfiles.liberapay.org
+serverfiles.liberapay.org
+tests.liberapay.org

@@ -1,0 +1,13 @@
+mail1.dynoplex.com
+mail2.dynoplex.com
+app.dynoplex.com
+fwww.dynoplex.com
+test.dynoplex.com
+tools.dynoplex.com
+clients.dynoplex.com
+m.dynoplex.com
+forum.dynoplex.com
+alt3.dynoplex.com
+alt4.dynoplex.com
+spb.dynoplex.com
+wap.dynoplex.com

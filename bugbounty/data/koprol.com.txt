@@ -1,0 +1,16 @@
+assets0.koprol.com
+secure.koprol.com
+3g.koprol.com
+touch.koprol.com
+new.koprol.com
+assets1.koprol.com
+blog.koprol.com
+staging.koprol.com
+mail.koprol.com
+m.koprol.com
+api.koprol.com
+stage.koprol.com
+m.staging.koprol.com
+assets2.koprol.com
+login.koprol.com
+now.koprol.com

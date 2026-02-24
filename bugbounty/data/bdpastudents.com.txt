@@ -1,0 +1,6 @@
+la.bdpastudents.com
+dallas.bdpastudents.com
+ns2.bdpastudents.com
+ns1.bdpastudents.com
+detroit.bdpastudents.com
+vps.bdpastudents.com

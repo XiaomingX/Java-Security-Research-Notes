@@ -1,0 +1,11 @@
+monitor.prod.talko.com
+monitor.dev.talko.com
+lb.prod.talko.com
+web.dev.talko.com
+email.talko.com
+help.talko.com
+lb.dev.talko.com
+web.talko.com
+int.talko.com
+o1.email.talko.com
+wwww.talko.com

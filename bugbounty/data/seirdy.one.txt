@@ -1,0 +1,7 @@
+collector.seirdy.one
+libravatar.seirdy.one
+matrix.seirdy.one
+mta-sts.seirdy.one
+staging.seirdy.one
+fedi.seirdy.one
+bnc.seirdy.one

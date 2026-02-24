@@ -1,0 +1,10 @@
+autodiscover.lncurtis.com
+bcintegration.lncurtis.com
+curtistedge.lncurtis.com
+edge.lncurtis.com
+help.lncurtis.com
+ideas.lncurtis.com
+marketing.lncurtis.com
+pbx.lncurtis.com
+secure.lncurtis.com
+webmail.lncurtis.com

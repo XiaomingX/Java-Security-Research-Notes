@@ -1,0 +1,4 @@
+corporate.bme.co.th
+event.bme.co.th
+landing.bme.co.th
+shop-t.bme.co.th

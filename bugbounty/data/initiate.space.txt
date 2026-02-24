@@ -1,0 +1,4 @@
+boards.initiate.space
+chat.initiate.space
+element.initiate.space
+matrix.initiate.space

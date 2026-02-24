@@ -1,0 +1,3 @@
+mail.bsv.nu
+key.covercard.okp.bsv.nu
+key.covercard.vvg.bsv.nu

@@ -1,0 +1,16 @@
+shop-search-cdn-qa.trustedshops.nl
+business.trustedshops.nl
+exchange.trustedshops.nl
+shoplogos-qa.trustedshops.nl
+14business.trustedshops.nl
+shop-search-cdn.trustedshops.nl
+shoplogos.trustedshops.nl
+shop-search-cdn-integr.trustedshops.nl
+1514business.trustedshops.nl
+vrt.trustedshops.nl
+loc.trustedshops.nl
+integr.trustedshops.nl
+demoshop.trustedshops.nl
+hubspot-sandbox.trustedshops.nl
+inside.trustedshops.nl
+qa.trustedshops.nl

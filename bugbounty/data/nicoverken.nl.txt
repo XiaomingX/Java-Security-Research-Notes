@@ -1,0 +1,7 @@
+remote.nicoverken.nl
+mail.nicoverken.nl
+autodiscover.nicoverken.nl
+portal.nicoverken.nl
+rds.nicoverken.nl
+email.nicoverken.nl
+smtp.nicoverken.nl

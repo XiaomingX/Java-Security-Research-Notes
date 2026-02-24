@@ -1,0 +1,3 @@
+staging.southforkwind.com
+test.southforkwind.com
+team1.test.southforkwind.com

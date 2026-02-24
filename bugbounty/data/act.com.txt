@@ -1,0 +1,3 @@
+thepoint.act.com
+status.act.com
+help.act.com

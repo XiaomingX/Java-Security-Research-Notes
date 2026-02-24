@@ -1,0 +1,3 @@
+insite.platoo.nl
+indialoog.platoo.nl
+staging.platoo.nl

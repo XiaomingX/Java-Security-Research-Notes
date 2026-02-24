@@ -1,0 +1,4 @@
+cdn.vo.neumax.cz
+cdn.neumax.cz
+vo.neumax.cz
+m.neumax.cz

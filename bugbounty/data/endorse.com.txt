@@ -1,0 +1,7 @@
+blog.endorse.com
+img.endorse.com
+o1.email.endorse.com
+w.endorse.com
+api.endorse.com
+ocr2.endorse.com
+io.soracom.endorse.com

@@ -1,0 +1,9 @@
+discover.isif.asia
+application.isif.asia
+origin.isif.asia
+dev.isif.asia
+discover.staging.isif.asia
+application.staging.isif.asia
+staging.isif.asia
+mta-sts.isif.asia
+stg.isif.asia

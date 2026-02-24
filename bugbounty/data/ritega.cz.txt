@@ -1,0 +1,2 @@
+autoconfig.ritega.cz
+autodiscover.ritega.cz

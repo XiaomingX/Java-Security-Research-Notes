@@ -1,0 +1,3 @@
+mail.dinastiy.ru
+autodiscover.dinastiy.ru
+owa.dinastiy.ru

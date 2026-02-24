@@ -1,0 +1,8 @@
+as400.schottnyc.com
+jack.schottnyc.com
+nolkjt.schottnyc.com
+secure.schottnyc.com
+sma.schottnyc.com
+staging.schottnyc.com
+remotevpn.schottnyc.com
+shopfloor.schottnyc.com

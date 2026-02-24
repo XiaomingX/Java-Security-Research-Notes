@@ -1,0 +1,5 @@
+rds.tvz-verlag.ch
+owa.tvz-verlag.ch
+preview.tvz-verlag.ch
+ftp.tvz-verlag.ch
+autodiscover.tvz-verlag.ch

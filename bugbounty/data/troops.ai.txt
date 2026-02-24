@@ -1,0 +1,10 @@
+help.troops.ai
+info.troops.ai
+app.troops.ai
+blog.troops.ai
+dr.troops.ai
+qa-mvp.troops.ai
+qa.troops.ai
+vpn.troops.ai
+app.dr.troops.ai
+prod.troops.ai

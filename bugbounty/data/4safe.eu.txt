@@ -1,0 +1,2 @@
+webmail.4safe.eu
+autodiscover.4safe.eu

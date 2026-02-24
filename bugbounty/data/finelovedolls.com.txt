@@ -1,0 +1,5 @@
+staging3.finelovedolls.com
+mta-sts.finelovedolls.com
+staging2.finelovedolls.com
+staging1.finelovedolls.com
+staging4.finelovedolls.com

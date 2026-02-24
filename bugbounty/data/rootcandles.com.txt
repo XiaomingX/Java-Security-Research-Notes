@@ -1,0 +1,4 @@
+e21mobile.rootcandles.com
+email.rootcandles.com
+fgvpn.rootcandles.com
+autodiscover.rootcandles.com

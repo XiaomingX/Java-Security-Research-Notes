@@ -1,0 +1,11 @@
+news.jungheinrich.hu
+parts.jungheinrich.hu
+autodiscover.jungheinrich.hu
+shop.jungheinrich.hu
+admin.parts.jungheinrich.hu
+transfer.jungheinrich.hu
+gw.jungheinrich.hu
+www2.jungheinrich.hu
+hirlevel.jungheinrich.hu
+admin.shop.jungheinrich.hu
+qa.staging.jungheinrich.hu

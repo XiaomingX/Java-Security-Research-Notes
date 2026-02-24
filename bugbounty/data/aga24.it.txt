@@ -1,0 +1,6 @@
+mail.aga24.it
+mailrelay.aga24.it
+imap1.aga24.it
+blog.aga24.it
+mailserver.aga24.it
+mailhost.aga24.it

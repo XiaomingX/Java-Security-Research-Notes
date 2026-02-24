@@ -1,0 +1,15 @@
+pgsonline.pgs.org.uk
+portal.pgs.org.uk
+calendar.pgs.org.uk
+music.pgs.org.uk
+senior.pgs.org.uk
+junior.pgs.org.uk
+staff.pgs.org.uk
+horizons.pgs.org.uk
+connect.pgs.org.uk
+mypgs.pgs.org.uk
+givingday.pgs.org.uk
+pgscloud.pgs.org.uk
+clickview.pgs.org.uk
+sbo.pgs.org.uk
+gateway.pgs.org.uk

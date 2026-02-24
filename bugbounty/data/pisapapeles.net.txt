@@ -1,0 +1,8 @@
+static.pisapapeles.net
+whm.pisapapeles.net
+cpcontacts.pisapapeles.net
+cpcalendars.pisapapeles.net
+bandas.pisapapeles.net
+imagen.pisapapeles.net
+horarios.pisapapeles.net
+media.pisapapeles.net

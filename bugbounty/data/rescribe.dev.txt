@@ -1,0 +1,9 @@
+status.rescribe.dev
+static.rescribe.dev
+prerender.rescribe.dev
+api.rescribe.dev
+cli.rescribe.dev
+vscode.rescribe.dev
+docs.rescribe.dev
+elastic.rescribe.dev
+github.rescribe.dev

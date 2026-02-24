@@ -1,0 +1,5 @@
+test.gruene-alveslohe.de
+test.www.gruene-alveslohe.de
+lists.gruene-alveslohe.de
+mta-sts.gruene-alveslohe.de
+mta-sts.lists.gruene-alveslohe.de

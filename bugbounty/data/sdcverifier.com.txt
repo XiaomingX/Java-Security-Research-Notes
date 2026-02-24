@@ -1,0 +1,8 @@
+lviv.sdcverifier.com
+mail.sdcverifier.com
+help.sdcverifier.com
+cp.sdcverifier.com
+old.sdcverifier.com
+new.sdcverifier.com
+floating.sdcverifier.com
+backupfloating.sdcverifier.com

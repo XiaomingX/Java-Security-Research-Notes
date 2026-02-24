@@ -1,0 +1,6 @@
+lists.gruene-hainburg.de
+mta-sts.lists.gruene-hainburg.de
+mta-sts.gruene-hainburg.de
+test.www.gruene-hainburg.de
+test.gruene-hainburg.de
+mail.gruene-hainburg.de

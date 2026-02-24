@@ -1,0 +1,4 @@
+horizon-api.www.lookfantastic.dk
+m.lookfantastic.dk
+gslb.lookfantastic.dk
+checkout.lookfantastic.dk

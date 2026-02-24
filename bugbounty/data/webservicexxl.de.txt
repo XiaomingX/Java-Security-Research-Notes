@@ -1,0 +1,4 @@
+cp.webservicexxl.de
+apps.webservicexxl.de
+api.webservicexxl.de
+shop.webservicexxl.de

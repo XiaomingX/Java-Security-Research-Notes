@@ -1,0 +1,6 @@
+autoconfig.mhhbot.net
+autodiscover.mhhbot.net
+mta-sts.mhhbot.net
+docs.mhhbot.net
+test.mhhbot.net
+office.mhhbot.net

@@ -1,0 +1,6 @@
+dev.getshortcut.co
+link.getshortcut.co
+links.getshortcut.co
+parse.getshortcut.co
+test.getshortcut.co
+www-preview.getshortcut.co

@@ -1,0 +1,4 @@
+get.slatenyc.com
+trax.use.slatenyc.com
+use.slatenyc.com
+app.slatenyc.com

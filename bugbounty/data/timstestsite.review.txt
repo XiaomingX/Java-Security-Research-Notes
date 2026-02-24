@@ -1,0 +1,14 @@
+paytest.timstestsite.review
+bookshelftest.timstestsite.review
+innercircle.timstestsite.review
+info.timstestsite.review
+life-and-health.timstestsite.review
+newsletter.timstestsite.review
+cpcalendars.timstestsite.review
+cpcontacts.timstestsite.review
+cpcontacts.life-and-health.timstestsite.review
+cpcalendars.life-and-health.timstestsite.review
+cpcontacts.info.timstestsite.review
+cpcalendars.info.timstestsite.review
+cpcontacts.innercircle.timstestsite.review
+cpcalendars.innercircle.timstestsite.review

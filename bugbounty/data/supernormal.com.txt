@@ -1,0 +1,16 @@
+assets-dev.supernormal.com
+app.supernormal.com
+app.staging.supernormal.com
+help.supernormal.com
+staging.supernormal.com
+blog.supernormal.com
+assets.supernormal.com
+status.supernormal.com
+o1.ptr3305.supernormal.com
+data.supernormal.com
+exp.supernormal.com
+zoom.supernormal.com
+download.supernormal.com
+agents.supernormal.com
+inference.supernormal.com
+api.supernormal.com

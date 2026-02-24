@@ -1,0 +1,16 @@
+toegang.tesorion.nl
+qmanage.tesorion.nl
+synergy.tesorion.nl
+bi.tesorion.nl
+portal.tesorion.nl
+synergytest.tesorion.nl
+support.tesorion.nl
+app005.tesorion.nl
+demokoffer-it.tesorion.nl
+app004.tesorion.nl
+euc002.tesorion.nl
+adfs.tesorion.nl
+solliciteren.tesorion.nl
+staging.tesorion.nl
+activationcode.toegang.tesorion.nl
+immunity.toegang.tesorion.nl

@@ -1,0 +1,8 @@
+import-v3.guildi.com
+unsoir-unraid.guildi.com
+moogle.guildi.com
+v4.guildi.com
+pinkfamilly.guildi.com
+guilde-gaia.guildi.com
+myst.guildi.com
+drakkar.guildi.com

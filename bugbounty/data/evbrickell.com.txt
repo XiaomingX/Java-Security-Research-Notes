@@ -1,0 +1,8 @@
+ftp.evbrickell.com
+calendar.evbrickell.com
+mail.evbrickell.com
+m.evbrickell.com
+imap.evbrickell.com
+pop.evbrickell.com
+files.evbrickell.com
+email.evbrickell.com

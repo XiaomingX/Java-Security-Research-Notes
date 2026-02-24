@@ -1,0 +1,5 @@
+speedtest.kdn8.futureweb.at
+beinkleid.futureweb.at
+crawler.futureweb.at
+domreg.futureweb.at
+fgtbackup.futureweb.at

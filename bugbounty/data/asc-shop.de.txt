@@ -1,0 +1,4 @@
+wms.asc-shop.de
+piwik.asc-shop.de
+keycdn.asc-shop.de
+w.asc-shop.de

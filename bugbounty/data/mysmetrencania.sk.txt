@@ -1,0 +1,6 @@
+track.mysmetrencania.sk
+test.mysmetrencania.sk
+alfa.mysmetrencania.sk
+swan.mysmetrencania.sk
+swantest.mysmetrencania.sk
+beta.mysmetrencania.sk

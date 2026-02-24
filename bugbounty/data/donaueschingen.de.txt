@@ -1,0 +1,4 @@
+intranet.donaueschingen.de
+service.donaueschingen.de
+ratsinfo.donaueschingen.de
+media.donaueschingen.de

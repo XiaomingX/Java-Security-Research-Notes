@@ -1,0 +1,2 @@
+web.quickx.io
+stage.quickx.io

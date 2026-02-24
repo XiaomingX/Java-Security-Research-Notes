@@ -1,0 +1,5 @@
+auth.appliedbiomath.com
+blog.appliedbiomath.com
+info.appliedbiomath.com
+qspedia.appliedbiomath.com
+wiki.appliedbiomath.com

@@ -1,0 +1,10 @@
+design.friedmanshome.com
+link2.friedmanshome.com
+prelive.friedmanshome.com
+shop.friedmanshome.com
+team.friedmanshome.com
+test.friedmanshome.com
+webstore.friedmanshome.com
+archive.friedmanshome.com
+dev.friedmanshome.com
+old-dev.friedmanshome.com

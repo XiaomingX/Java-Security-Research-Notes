@@ -1,0 +1,7 @@
+autodiscover.resmed.fr
+eudev-www.resmed.fr
+gpvpnfr1.resmed.fr
+mail.resmed.fr
+partners.resmed.fr
+sslvpn.resmed.fr
+origin.resmed.fr

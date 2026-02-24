@@ -1,0 +1,8 @@
+cpanel.pubg.pk
+cpcalendars.pubg.pk
+cpcontacts.pubg.pk
+mail.pubg.pk
+webdisk.pubg.pk
+webmail.pubg.pk
+autodiscover.pubg.pk
+season18.pubg.pk

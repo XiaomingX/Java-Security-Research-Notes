@@ -1,0 +1,8 @@
+autodiscover.noc.ly
+libnoc.noc.ly
+mail.noc.ly
+miav.noc.ly
+new.noc.ly
+newadministrator.noc.ly
+oilspill.noc.ly
+registration.noc.ly

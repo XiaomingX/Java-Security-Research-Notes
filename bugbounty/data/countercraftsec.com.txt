@@ -1,0 +1,10 @@
+ws.countercraftsec.com
+filedrop.countercraftsec.com
+cloud.countercraftsec.com
+ccservicesstg.countercraftsec.com
+academy.countercraftsec.com
+support.countercraftsec.com
+ccservices.countercraftsec.com
+cctis.countercraftsec.com
+wsstg.countercraftsec.com
+wwwstaging.countercraftsec.com

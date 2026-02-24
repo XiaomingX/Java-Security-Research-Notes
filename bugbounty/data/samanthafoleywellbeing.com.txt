@@ -1,0 +1,6 @@
+webmail.samanthafoleywellbeing.com
+cpanel.samanthafoleywellbeing.com
+mail.samanthafoleywellbeing.com
+webdisk.samanthafoleywellbeing.com
+cpcontacts.samanthafoleywellbeing.com
+cpcalendars.samanthafoleywellbeing.com

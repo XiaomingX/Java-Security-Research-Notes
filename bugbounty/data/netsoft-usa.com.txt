@@ -1,0 +1,8 @@
+ftp.netsoft-usa.com
+_dmarc.netsoft-usa.com
+mail.netsoft-usa.com
+teladoc.netsoft-usa.com
+tfs.netsoft-usa.com
+portal.netsoft-usa.com
+crm.netsoft-usa.com
+netsoftusainc.netsoft-usa.com

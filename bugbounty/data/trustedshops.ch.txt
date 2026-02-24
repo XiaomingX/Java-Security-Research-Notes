@@ -1,0 +1,10 @@
+shop-search-cdn-integr.trustedshops.ch
+checkout.trustedshops.ch
+my.trustedshops.ch
+shoplogos.trustedshops.ch
+order.trustedshops.ch
+integr.trustedshops.ch
+qa.trustedshops.ch
+shoplogos-qa.trustedshops.ch
+hubspot-sandbox.trustedshops.ch
+business.trustedshops.ch

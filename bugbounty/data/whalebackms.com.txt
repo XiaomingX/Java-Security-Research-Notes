@@ -1,0 +1,15 @@
+psmvpn.whalebackms.com
+anyconnect.whalebackms.com
+reports.whalebackms.com
+mail.whalebackms.com
+bosvpn.whalebackms.com
+iadvpn.whalebackms.com
+imap.whalebackms.com
+email.whalebackms.com
+fax.whalebackms.com
+ftp.whalebackms.com
+pop.whalebackms.com
+files.whalebackms.com
+mobilemail.whalebackms.com
+calendar.whalebackms.com
+smtp.whalebackms.com

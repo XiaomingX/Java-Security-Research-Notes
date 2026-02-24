@@ -1,0 +1,4 @@
+obchod.edulik.sk
+test.edulik.sk
+mailin2.edulik.sk
+mailin1.edulik.sk

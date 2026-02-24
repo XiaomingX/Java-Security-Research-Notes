@@ -1,0 +1,4 @@
+l.ucs.ru
+rk7cloud.ucs.ru
+srv05.rkcloud.ucs.ru
+wl-delivery.ucs.ru

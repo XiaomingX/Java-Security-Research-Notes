@@ -1,0 +1,5 @@
+autodiscover.kjarnafaedi.is
+skanni.kjarnafaedi.is
+vpn.kjarnafaedi.is
+fjar.kjarnafaedi.is
+postur.kjarnafaedi.is

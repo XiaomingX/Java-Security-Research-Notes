@@ -25,7 +25,7 @@ public class Analyzer {
     Pattern pattern;
     int maxLength;
 
-    boolean possible_vulnerability;
+    boolean isVulnerable;
 
     ArrayList<ArrayList<Node>> loopInLoop;
     ArrayList<ArrayList<Node>> branchInLoop;
@@ -1150,9 +1150,9 @@ public class Analyzer {
                     break;
             }
             if (result != Existance.NOT_EXIST) {
-                if (!possible_vulnerability) {
+                if (!isVulnerable) {
                     outVul.write(regex + "\n");
-                    possible_vulnerability = true;
+                    isVulnerable = true;
                 }
                 if (result == Existance.EXIST)
                     printVul(outVul, index, prefix.toString(), pump.toString(), suffix.toString(), complexType);
@@ -1170,10 +1170,6 @@ public class Analyzer {
         }
     }
 
-    public enum Existance {
-        EXIST, NOT_EXIST, NOT_SURE
-    }
-
     public Analyzer(Pattern regexPattern, int max_length) {
         pattern = regexPattern;
         maxLength = max_length;
@@ -1182,13 +1178,6 @@ public class Analyzer {
         removeInvalidLoop();
     }
 
-    public enum VulType {
-        LOOP_IN_LOOP, BRANCH_IN_LOOP, LOOP_AFTER_LOOP
-    }
-
-    public enum CurState {
-        SATISFIED, UNSATISFIED, ONLEAVE
-    }
 
     public void doDynamicAnalysis(BufferedWriter outVul, int index, double threshold) throws IOException {
         possibleVuls = new ArrayList<VulStructure>();
@@ -1284,34 +1273,53 @@ public class Analyzer {
         return a == b;
     }
 
+    /**
+     * Conducts static analysis on the regex pattern to find dangerous structures.
+     * This is the first stage of the hybrid analysis.
+     */
     public void doStaticAnalysis() {
+        detectSequentialLoops();
+        findNestedVulnerabilityStructures();
+    }
+
+    /**
+     * Detects loops that follow each other directly, which can lead to polynomial ReDoS.
+     */
+    private void detectSequentialLoops() {
         ArrayList<Node> loopNodeList = new ArrayList<Node>(loopNodes);
         for (int i = 0; i < loopNodeList.size() - 1; i++) {
             for (int j = i + 1; j < loopNodeList.size(); j++) {
                 Node a = loopNodeList.get(i);
                 Node b = loopNodeList.get(j);
-                Node pA = pattern.getDirectParent(a);
-                Node pB = pattern.getDirectParent(b);
-                if (onDirectNext(pA, pB) || pA.self == "|" && pA == pB) {
-                    ArrayList<Node> nPath = new ArrayList<Node>();
-                    nPath.add(a);
-                    nPath.add(b);
-                    loopAfterLoop.add(nPath);
-                } else if (onDirectNext(pB, pA)) {
-                    ArrayList<Node> nPath = new ArrayList<Node>();
-                    nPath.add(b);
-                    nPath.add(a);
-                    loopAfterLoop.add(nPath);
-                }
+                handleSequentialLoopPair(a, b);
             }
         }
+    }
+
+    private void handleSequentialLoopPair(Node a, Node b) {
+        Node pA = pattern.getDirectParent(a);
+        Node pB = pattern.getDirectParent(b);
+        if (onDirectNext(pA, pB) || (pA.self != null && pA.self.equals("|") && pA == pB)) {
+            loopAfterLoop.add(new ArrayList<>(Arrays.asList(a, b)));
+        } else if (onDirectNext(pB, pA)) {
+            loopAfterLoop.add(new ArrayList<>(Arrays.asList(b, a)));
+        }
+    }
+
+    /**
+     * Traverses the compiled regex tree looking for nested loops and branches
+     * that can cause exponential backtracking.
+     */
+    private void findNestedVulnerabilityStructures() {
         for (Node node : loopNodes) {
-            ArrayList<Node> path = new ArrayList<Node>();
+            ArrayList<Node> path = new ArrayList<>();
             path.add(node);
-            if (node.direct_next != null)
+            if (node.direct_next != null) {
                 getPathFromLoop(node.direct_next, path, true);
-            if (node.sub_next != null)
+            }
+            if (node.sub_next != null) {
                 getPathFromLoop(node.sub_next, path, false);
+            }
         }
     }
 
@@ -1412,7 +1420,7 @@ public class Analyzer {
     }
 
     public boolean isVulnerable() {
-        return possible_vulnerability;
+        return isVulnerable;
     }
 
     private void getPathFromLoop(Node node, ArrayList<Node> prev_path, boolean direct) {
@@ -1453,7 +1461,7 @@ public class Analyzer {
     }
 
     private void initialize() {
-        possible_vulnerability = false;
+        isVulnerable = false;
 
         loopNodes = new HashSet<Node>();
         loopInLoop = new ArrayList<ArrayList<Node>>();

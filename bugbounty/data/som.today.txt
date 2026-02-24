@@ -1,0 +1,13 @@
+production.som.today
+servicedesk-leerling.som.today
+trainingen.som.today
+staging.som.today
+csmtraining.som.today
+sftp.som.today
+servicedesk-beheer.som.today
+servicedesk-medewerker.som.today
+cmstraining.som.today
+mail2.som.today
+servicedesk.som.today
+mail.som.today
+sd.som.today

@@ -1,0 +1,10 @@
+admin.parts.jungheinrich.nl
+www2.jungheinrich.nl
+admin.shop.jungheinrich.nl
+shop.jungheinrich.nl
+news.jungheinrich.nl
+automatisering.jungheinrich.nl
+nieuwsbrief.jungheinrich.nl
+transfer.jungheinrich.nl
+mail.jungheinrich.nl
+parts.jungheinrich.nl

@@ -1,0 +1,17 @@
+ds.heroku.telescopecasual.com
+ds.telescopecasual.com
+go.telescopecasual.com
+heroku.telescopecasual.com
+news.telescopecasual.com
+odoo.telescopecasual.com
+roomplanner.telescopecasual.com
+stores.telescopecasual.com
+teamwork.telescopecasual.com
+debug.telescopecasual.com
+beta.telescopecasual.com
+catalog-sandbox.telescopecasual.com
+ccutm.telescopecasual.com
+dev-odoo.telescopecasual.com
+odoo-web-sandbox.telescopecasual.com
+odoo-web.telescopecasual.com
+unificontroller.telescopecasual.com

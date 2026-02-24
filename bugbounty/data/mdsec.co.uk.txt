@@ -1,0 +1,5 @@
+blog.mdsec.co.uk
+labs.mdsec.co.uk
+jabber.mdsec.co.uk
+staging.mdsec.co.uk
+autodiscover.mdsec.co.uk

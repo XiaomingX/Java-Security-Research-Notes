@@ -1,0 +1,7 @@
+autodiscover.burnspestelimination.com
+clypboard-staging.burnspestelimination.com
+clypboard.burnspestelimination.com
+pay.burnspestelimination.com
+portal.burnspestelimination.com
+exch2010.burnspestelimination.com
+mail.burnspestelimination.com

@@ -1,0 +1,5 @@
+autodiscover.stablecraftbrewing.com
+cpanel.stablecraftbrewing.com
+mail.stablecraftbrewing.com
+webdisk.stablecraftbrewing.com
+webmail.stablecraftbrewing.com

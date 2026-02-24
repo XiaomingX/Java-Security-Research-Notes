@@ -1,0 +1,3 @@
+portal.flane.fr
+content.flane.fr
+autodiscover.flane.fr

@@ -1,0 +1,4 @@
+ds.smoothtransitions.com
+dumpsters.smoothtransitions.com
+sockets.smoothtransitions.com
+tools.smoothtransitions.com

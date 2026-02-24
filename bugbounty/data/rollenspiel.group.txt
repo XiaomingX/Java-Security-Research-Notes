@@ -1,0 +1,2 @@
+autoconfig.rollenspiel.group
+autodiscover.rollenspiel.group

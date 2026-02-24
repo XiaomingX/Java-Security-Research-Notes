@@ -1,0 +1,5 @@
+webmail.solarsteijns.com
+mta-sts.solarsteijns.com
+ofs.solarsteijns.com
+_mta-sts.solarsteijns.com
+www-test.solarsteijns.com

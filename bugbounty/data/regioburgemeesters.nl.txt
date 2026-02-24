@@ -1,0 +1,7 @@
+lyncdiscover.regioburgemeesters.nl
+conf.regioburgemeesters.nl
+sip.regioburgemeesters.nl
+webservices.regioburgemeesters.nl
+meet.regioburgemeesters.nl
+access.regioburgemeesters.nl
+dialin.regioburgemeesters.nl

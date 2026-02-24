@@ -1,0 +1,8 @@
+accounts.pyrus.com
+cdn.pyrus.com
+devyabots.pyrus.com
+yabots.pyrus.com
+go.pyrus.com
+blog.pyrus.com
+vpn.pyrus.com
+www3.pyrus.com

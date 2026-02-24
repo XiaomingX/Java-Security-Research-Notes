@@ -1,0 +1,3 @@
+laden.segor.de
+logistik.segor.de
+cgi.segor.de

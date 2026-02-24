@@ -1,0 +1,2 @@
+cpanel.bnix.ca
+mail.bnix.ca

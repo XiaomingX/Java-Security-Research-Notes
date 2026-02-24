@@ -1,0 +1,6 @@
+magazines.riec.nl
+mdm.zwb.riec.nl
+feeds.riec.nl
+opendata.riec.nl
+zwb.riec.nl
+apothekerskast.riec.nl

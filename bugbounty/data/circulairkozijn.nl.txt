@@ -1,0 +1,4 @@
+smtp.circulairkozijn.nl
+ftp.circulairkozijn.nl
+mail.circulairkozijn.nl
+pop.circulairkozijn.nl

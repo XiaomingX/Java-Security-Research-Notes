@@ -1,0 +1,5 @@
+smtps.jspmotoparts.sk
+mail1.jspmotoparts.sk
+mail.jspmotoparts.sk
+cz.jspmotoparts.sk
+host2.monix.cz.jspmotoparts.sk

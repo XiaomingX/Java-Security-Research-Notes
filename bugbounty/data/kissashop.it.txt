@@ -1,0 +1,17 @@
+vcontent-k123h.kissashop.it
+backoffice-food.kissashop.it
+backoffice-comics.kissashop.it
+food.kissashop.it
+comics.kissashop.it
+b2b.kissashop.it
+backoffice.kissashop.it
+dev.kissashop.it
+b2b-dev.kissashop.it
+food-dev.kissashop.it
+comics-dev.kissashop.it
+b2b-admin.kissashop.it
+admin.kissashop.it
+btc.kissashop.it
+whm.kissashop.it
+cpcalendars.kissashop.it
+cpcontacts.kissashop.it

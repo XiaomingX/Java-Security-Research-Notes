@@ -1,0 +1,10 @@
+723781-db1.vinfolio.com
+blog.vinfolio.com
+link.vinfolio.com
+livex-staging.vinfolio.com
+livex.vinfolio.com
+mcprod.vinfolio.com
+mcstaging.vinfolio.com
+vincellar.vinfolio.com
+vincellar-ci.vinfolio.com
+vincellar-staging.vinfolio.com

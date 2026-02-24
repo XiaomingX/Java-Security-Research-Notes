@@ -1,0 +1,5 @@
+mlan.marasign.one
+mail.marasign.one
+piwigo.marasign.one
+lychee.marasign.one
+home.marasign.one

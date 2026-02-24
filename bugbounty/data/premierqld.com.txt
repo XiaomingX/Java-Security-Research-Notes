@@ -1,0 +1,10 @@
+portal.premierqld.com
+remote.premierqld.com
+images.premierqld.com
+workshop.premierqld.com
+cpcontacts.images.premierqld.com
+cpcalendars.images.premierqld.com
+cpanel.images.premierqld.com
+mail.images.premierqld.com
+webmail.images.premierqld.com
+webdisk.images.premierqld.com

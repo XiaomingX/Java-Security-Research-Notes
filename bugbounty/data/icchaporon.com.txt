@@ -1,0 +1,10 @@
+admin.icchaporon.com
+merchant.icchaporon.com
+server.icchaporon.com
+api.icchaporon.com
+dap.icchaporon.com
+invapi.icchaporon.com
+invoice-server.icchaporon.com
+invoice.icchaporon.com
+servr.icchaporon.com
+test.icchaporon.com

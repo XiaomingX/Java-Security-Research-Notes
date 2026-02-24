@@ -1,0 +1,4 @@
+webmail.dagcorp.com
+ns.dagcorp.com
+ftp.dagcorp.com
+mail.dagcorp.com

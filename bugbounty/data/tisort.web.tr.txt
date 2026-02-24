@@ -1,0 +1,5 @@
+webdisk.tisort.web.tr
+mail.tisort.web.tr
+webmail.tisort.web.tr
+cpanel.tisort.web.tr
+mx01.tisort.web.tr

@@ -1,0 +1,9 @@
+api.poppyflowers.com
+customers.poppyflowers.com
+go.poppyflowers.com
+insight.poppyflowers.com
+payments.poppyflowers.com
+quiz.poppyflowers.com
+recipe-builder.poppyflowers.com
+shop.poppyflowers.com
+ss.poppyflowers.com

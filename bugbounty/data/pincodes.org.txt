@@ -1,0 +1,8 @@
+gdist.pincodes.org
+statuslive.pincodes.org
+status.pincodes.org
+sitemaps.pincodes.org
+githubs.pincodes.org
+li.pincodes.org
+test.pincodes.org
+imageassets.pincodes.org

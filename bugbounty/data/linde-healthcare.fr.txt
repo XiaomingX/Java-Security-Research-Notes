@@ -1,0 +1,6 @@
+shop.linde-healthcare.fr
+static.shop.linde-healthcare.fr
+origin.shop.linde-healthcare.fr
+accura.linde-healthcare.fr
+dm.linde-healthcare.fr
+argus.linde-healthcare.fr

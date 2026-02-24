@@ -1,0 +1,2 @@
+developers.seamly.ai
+api.seamly.ai

@@ -1,0 +1,9 @@
+www-t.psynet.nl
+www-s.psynet.nl
+www-a.psynet.nl
+mail.psynet.nl
+maintenance.psynet.nl
+edit-a.psynet.nl
+wiz.psynet.nl
+edit.psynet.nl
+onderzoek.psynet.nl

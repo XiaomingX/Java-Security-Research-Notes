@@ -1,0 +1,12 @@
+zeus.zoll-portal.de
+zgr-online.zoll-portal.de
+ipk.zoll-portal.de
+eori.zoll-portal.de
+ifg.zoll-portal.de
+kraftst.zoll-portal.de
+ozg-zoll.zoll-portal.de
+enstransv.zoll-portal.de
+ivva.zoll-portal.de
+help.zoll-portal.de
+cas.help.zoll-portal.de
+idp.zoll-portal.de

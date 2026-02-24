@@ -1,0 +1,3 @@
+manage.tansec.fi
+prodtest-tansec.tansec.fi
+devng-tansec.tansec.fi

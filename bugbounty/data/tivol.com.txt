@@ -1,0 +1,4 @@
+autodiscover.tivol.com
+exchange.tivol.com
+meet.tivol.com
+owa.tivol.com

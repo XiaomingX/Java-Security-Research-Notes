@@ -1,0 +1,7 @@
+vpn.jdcpowersystems.com
+cpanel.jdcpowersystems.com
+cpcalendars.jdcpowersystems.com
+cpcontacts.jdcpowersystems.com
+dev1.jdcpowersystems.com
+webdisk.jdcpowersystems.com
+webmail.jdcpowersystems.com

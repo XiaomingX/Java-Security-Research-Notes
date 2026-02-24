@@ -1,0 +1,4 @@
+dev.zapsac.com
+multi.zapsac.com
+ofc.zapsac.com
+painel.zapsac.com

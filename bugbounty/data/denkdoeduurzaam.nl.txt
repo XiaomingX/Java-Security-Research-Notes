@@ -1,0 +1,9 @@
+magazinesintern.denkdoeduurzaam.nl
+feeds.denkdoeduurzaam.nl
+feeds.english.denkdoeduurzaam.nl
+magazines.denkdoeduurzaam.nl
+opendata.english.denkdoeduurzaam.nl
+magazines.english.denkdoeduurzaam.nl
+magazinesintern.english.denkdoeduurzaam.nl
+opendata.denkdoeduurzaam.nl
+english.denkdoeduurzaam.nl

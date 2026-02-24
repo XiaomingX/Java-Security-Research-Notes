@@ -1,0 +1,6 @@
+mail.self.go.tz
+cpanel.self.go.tz
+cpcalendars.self.go.tz
+cpcontacts.self.go.tz
+webdisk.self.go.tz
+webmail.self.go.tz

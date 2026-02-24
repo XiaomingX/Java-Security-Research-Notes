@@ -1,0 +1,7 @@
+vpn.envitech.eu
+senzor.envitech.eu
+software.envitech.eu
+aerosol.envitech.eu
+sw.envitech.eu
+portal.envitech.eu
+m.envitech.eu

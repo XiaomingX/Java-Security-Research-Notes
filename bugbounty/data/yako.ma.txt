@@ -1,0 +1,7 @@
+autodiscover.yako.ma
+cpanel.yako.ma
+cpcalendars.yako.ma
+cpcontacts.yako.ma
+mail.yako.ma
+webdisk.yako.ma
+webmail.yako.ma

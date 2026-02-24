@@ -1,0 +1,8 @@
+apps.ussupply.com
+autodiscover.ussupply.com
+exchange.ussupply.com
+link.ussupply.com
+virtualcounter.ussupply.com
+webmail.ussupply.com
+mcprod.ussupply.com
+store.ussupply.com

@@ -1,0 +1,11 @@
+webmail.cookies-app.com
+cpanel.cookies-app.com
+pwtalk.cookies-app.com
+ww1.cookies-app.com
+cpcontacts.cookies-app.com
+cpcalendars.cookies-app.com
+staging.cookies-app.com
+web.cookies-app.com
+mail.cookies-app.com
+webdisk.cookies-app.com
+staging-web.cookies-app.com

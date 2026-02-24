@@ -1,0 +1,9 @@
+qo.wilfa.com
+media.wilfa.com
+de.wilfa.com
+dk.wilfa.com
+no.wilfa.com
+qi.wilfa.com
+geo.wilfa.com
+support.wilfa.com
+app-api.wilfa.com

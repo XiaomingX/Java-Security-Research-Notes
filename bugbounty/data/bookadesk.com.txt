@@ -1,0 +1,4 @@
+autodiscover.bookadesk.com
+autoconfig.bookadesk.com
+messagerie.bookadesk.com
+prep.bookadesk.com

@@ -1,0 +1,9 @@
+chat.ffrn.net
+fw.ffrn.net
+fw-test.ffrn.net
+wiki.ffrn.net
+map.ffrn.net
+ns1.ffrn.net
+hastebin.ffrn.net
+register.ffrn.net
+cloud.ffrn.net

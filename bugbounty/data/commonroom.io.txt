@@ -1,0 +1,13 @@
+app.commonroom.io
+new.commonroom.io
+www-test.commonroom.io
+feature-gates.commonroom.io
+api.commonroom.io
+docs.commonroom.io
+studio.commonroom.io
+login.commonroom.io
+launch.commonroom.io
+metabase.commonroom.io
+stage.commonroom.io
+candidate.commonroom.io
+images.commonroom.io

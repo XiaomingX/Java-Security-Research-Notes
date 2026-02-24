@@ -1,0 +1,2 @@
+chat.pubcrawl.team
+support.pubcrawl.team

@@ -1,0 +1,5 @@
+delivery.tonysfreshmarket.com
+locations.tonysfreshmarket.com
+pay.tonysfreshmarket.com
+portal.tonysfreshmarket.com
+rewards.tonysfreshmarket.com

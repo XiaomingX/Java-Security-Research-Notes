@@ -1,0 +1,3 @@
+remote.firetron.com
+staging.firetron.com
+staging2.firetron.com

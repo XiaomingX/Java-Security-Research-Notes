@@ -1,0 +1,12 @@
+autodiscover.thestowcompany.com
+hdscn.thestowcompany.com
+mail.thestowcompany.com
+media.thestowcompany.com
+o365.thestowcompany.com
+qa.hdscn.thestowcompany.com
+qa.tcsdesign.thestowcompany.com
+rabbitmq.thestowcompany.com
+vhst1dclcc01.sap.thestowcompany.com
+sap.thestowcompany.com
+studiovm.thestowcompany.com
+tcsdesign.thestowcompany.com

@@ -1,0 +1,11 @@
+demo.roompot.be
+collect.roompot.be
+jobs.roompot.be
+news.roompot.be
+boeken.roompot.be
+reserver.roompot.be
+boeken2.roompot.be
+reserver2.roompot.be
+feeds.roompot.be
+iwww.roompot.be
+ls.roompot.be

@@ -1,0 +1,9 @@
+vps7.bsm.nl
+mail.bsm.nl
+mx.bsm.nl
+vpn.bsm.nl
+bedrijfsrecherche.bsm.nl
+detective.bsm.nl
+ipv6-only.bsm.nl
+ipv4-only.bsm.nl
+filetransfer.bsm.nl

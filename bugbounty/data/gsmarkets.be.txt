@@ -1,0 +1,2 @@
+beta.gsmarkets.be
+qa.gsmarkets.be

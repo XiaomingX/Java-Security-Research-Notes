@@ -1,0 +1,2 @@
+pre.yara.co.zm
+int.yara.co.zm

@@ -1,0 +1,3 @@
+portal.canonfoundation.org
+register.canonfoundation.org
+forms.canonfoundation.org

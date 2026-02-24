@@ -1,0 +1,10 @@
+gtmss.accounts2.opleidingsgroep.nl
+image.opleidingsgroep.nl
+int.opleidingsgroep.nl
+lrsxapi.opleidingsgroep.nl
+s3.opleidingsgroep.nl
+uca.opleidingsgroep.nl
+engineering-integrationuwv.opleidingsgroep.nl
+id.opleidingsgroep.nl
+imme.opleidingsgroep.nl
+integrationuwv.opleidingsgroep.nl

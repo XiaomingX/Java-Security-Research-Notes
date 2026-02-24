@@ -1,0 +1,3 @@
+ipv6.fvbussel.nl
+cpcontacts.fvbussel.nl
+cpcalendars.fvbussel.nl

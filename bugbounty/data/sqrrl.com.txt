@@ -1,0 +1,8 @@
+portal.sqrrl.com
+jenkins.sqrrl.com
+_dmarc.sqrrl.com
+partners.sqrrl.com
+staging.sqrrl.com
+blog.sqrrl.com
+info.sqrrl.com
+download.sqrrl.com

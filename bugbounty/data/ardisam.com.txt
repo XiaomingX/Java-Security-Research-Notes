@@ -1,0 +1,6 @@
+autodiscover.ardisam.com
+dealer.ardisam.com
+dev.ardisam.com
+portal.ardisam.com
+mail.ardisam.com
+remote.ardisam.com

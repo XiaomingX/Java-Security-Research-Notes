@@ -1,0 +1,2 @@
+mta-sts.toucantango.com
+mail.toucantango.com

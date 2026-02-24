@@ -1,0 +1,6 @@
+joe-staging.hmiadvantage.com
+joe.hmiadvantage.com
+link.hmiadvantage.com
+mapp.hmiadvantage.com
+rms.hmiadvantage.com
+staging.hmiadvantage.com

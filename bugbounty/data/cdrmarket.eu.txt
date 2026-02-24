@@ -1,0 +1,4 @@
+ns.cdrmarket.eu
+mx.cdrmarket.eu
+smtp2.cdrmarket.eu
+mailgate.cdrmarket.eu

@@ -1,0 +1,13 @@
+news.schiphol.com
+beta.schiphol.com
+s.c.beta.schiphol.com
+c.beta.schiphol.com
+h-kqjx9ij-development-03muao.schiphol.com
+ipv4-c017-mci001-ix.schiphol.com
+marketing.schiphol.com
+mycoach.schiphol.com
+qp-mongo-textmaster.schiphol.com
+wkskekx.schiphol.com
+wsg-jfk-06p.schiphol.com
+kqjx9ij-development-03muao.schiphol.com
+api.schiphol.com

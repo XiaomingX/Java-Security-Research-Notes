@@ -1,0 +1,4 @@
+test.deltabuild.de
+web.deltabuild.de
+amp.deltabuild.de
+test.wwk.deltabuild.de

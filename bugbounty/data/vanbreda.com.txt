@@ -1,0 +1,9 @@
+mta-sts.vanbreda.com
+mail.vanbreda.com
+survey.vanbreda.com
+w.marine.vanbreda.com
+mta-sts.mail.vanbreda.com
+int.vanbreda.com
+marine.vanbreda.com
+secure.resources.vanbreda.com
+resources.vanbreda.com

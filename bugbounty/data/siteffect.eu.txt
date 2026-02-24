@@ -1,0 +1,5 @@
+commande.siteffect.eu
+lath.siteffect.eu
+members.siteffect.eu
+demo.siteffect.eu
+webbuilder.siteffect.eu

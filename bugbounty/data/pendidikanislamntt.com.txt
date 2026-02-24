@@ -1,0 +1,6 @@
+datapendisntt.pendidikanislamntt.com
+kegiatanpendisntt.pendidikanislamntt.com
+pustakapendisntt.pendidikanislamntt.com
+gtk-punk.pendidikanislamntt.com
+gtksip.pendidikanislamntt.com
+gtpunk.pendidikanislamntt.com

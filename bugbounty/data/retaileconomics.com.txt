@@ -1,0 +1,5 @@
+webmail.retaileconomics.com
+mail.retaileconomics.com
+cpcalendars.retaileconomics.com
+webdisk.retaileconomics.com
+cpcontacts.retaileconomics.com

@@ -1,0 +1,5 @@
+autodiscover.johnson-electric.com
+mail.johnson-electric.com
+pod.johnson-electric.com
+vpn.johnson-electric.com
+webmail.johnson-electric.com

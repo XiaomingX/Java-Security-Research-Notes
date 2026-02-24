@@ -1,0 +1,5 @@
+ns.abcb.pl
+tescior.abcb.pl
+mail.abcb.pl
+poczta.abcb.pl
+chmurka.abcb.pl

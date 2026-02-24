@@ -1,0 +1,12 @@
+ourstory.animallogic.com
+storetest.animallogic.com
+prod.animallogic.com
+autodiscover.animallogic.com
+email.animallogic.com
+mailbkup.animallogic.com
+cdn.animallogic.com
+staging.animallogic.com
+ww.animallogic.com
+backup.animallogic.com
+ftp.animallogic.com
+shop.animallogic.com

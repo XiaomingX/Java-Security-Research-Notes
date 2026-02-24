@@ -1,0 +1,17 @@
+monitor.teratorium.hu
+autoconfig.email.teratorium.hu
+mta-sts.teratorium.hu
+saturnus.teratorium.hu
+abuse.teratorium.hu
+mars.teratorium.hu
+merkur.teratorium.hu
+merkur05.teratorium.hu
+email.teratorium.hu
+imapsync.teratorium.hu
+ipam.teratorium.hu
+autodiscover.email.teratorium.hu
+zabbix.teratorium.hu
+mta-sts.email.teratorium.hu
+ns1.teratorium.hu
+merkur04.teratorium.hu
+ns2.teratorium.hu

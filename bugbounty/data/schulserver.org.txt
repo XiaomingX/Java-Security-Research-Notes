@@ -1,0 +1,2 @@
+_mta-sts.schulserver.org
+_dmarc.schulserver.org

@@ -1,0 +1,11 @@
+transpect.suhrkamp.de
+data.suhrkamp.de
+svhevs4.suhrkamp.de
+podcast.suhrkamp.de
+shop.suhrkamp.de
+svtk07.suhrkamp.de
+mailing.suhrkamp.de
+matomo.suhrkamp.de
+newsletter.suhrkamp.de
+media.suhrkamp.de
+indigo.suhrkamp.de

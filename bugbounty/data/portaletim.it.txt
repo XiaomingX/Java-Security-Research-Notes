@@ -1,0 +1,5 @@
+mondo.portaletim.it
+sbt.portaletim.it
+wuiproxy.portaletim.it
+promo.portaletim.it
+appfarm.portaletim.it

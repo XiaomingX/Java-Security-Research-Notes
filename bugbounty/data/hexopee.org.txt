@@ -1,0 +1,4 @@
+rec.hexopee.org
+prep.hexopee.org
+img.mail-server.hexopee.org
+r.mail-server.hexopee.org

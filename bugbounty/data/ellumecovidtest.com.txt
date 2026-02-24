@@ -1,0 +1,2 @@
+buy.ellumecovidtest.com
+staging.ellumecovidtest.com

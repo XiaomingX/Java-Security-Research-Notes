@@ -1,0 +1,5 @@
+smtpmail.hazan.eu
+sniper.hazan.eu
+mailx.hazan.eu
+post.hazan.eu
+smtps.hazan.eu

@@ -1,0 +1,3 @@
+apidocs.decosoftware.com
+beta.decosoftware.com
+com.decosoftware.com

@@ -1,0 +1,2 @@
+autoconfig.testzentrum-ahlen.de
+autodiscover.testzentrum-ahlen.de

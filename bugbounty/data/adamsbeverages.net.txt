@@ -1,0 +1,5 @@
+autodiscover.adamsbeverages.net
+pay.adamsbeverages.net
+staging.adamsbeverages.net
+abmas1.adamsbeverages.net
+exchange.adamsbeverages.net

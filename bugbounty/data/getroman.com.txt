@@ -1,0 +1,15 @@
+app.getroman.com
+care.getroman.com
+ci.getroman.com
+design.getroman.com
+gw.getroman.com
+health.getroman.com
+imp.getroman.com
+impatient-static.getroman.com
+quit.getroman.com
+quitsmoking.getroman.com
+start.getroman.com
+try.getroman.com
+delivery.getroman.com
+em.getroman.com
+static.getroman.com

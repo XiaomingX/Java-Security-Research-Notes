@@ -1,0 +1,4 @@
+cps.cpl.thalesgroup.com
+partnerrewards.cpl.thalesgroup.com
+china-cps.cpl.thalesgroup.com
+accessmanagement.cpl.thalesgroup.com

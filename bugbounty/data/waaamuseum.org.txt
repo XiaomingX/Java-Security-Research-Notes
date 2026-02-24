@@ -1,0 +1,12 @@
+cpcalendars.waaamuseum.org
+cpcontacts.waaamuseum.org
+newsite.waaamuseum.org
+test.waaamuseum.org
+old.waaamuseum.org
+mail.waaamuseum.org
+autoconfig.waaamuseum.org
+ftp.waaamuseum.org
+webdisk.waaamuseum.org
+webmail.waaamuseum.org
+cpanel.waaamuseum.org
+autodiscover.waaamuseum.org

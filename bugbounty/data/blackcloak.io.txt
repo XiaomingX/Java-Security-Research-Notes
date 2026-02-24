@@ -1,0 +1,9 @@
+go.blackcloak.io
+kb.blackcloak.io
+pay.blackcloak.io
+riskassessment.blackcloak.io
+email.blackcloak.io
+security.blackcloak.io
+sl.blackcloak.io
+bc.blackcloak.io
+portal.blackcloak.io

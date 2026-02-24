@@ -1,0 +1,9 @@
+hiltrup.schick.cloud
+monitor.schick.cloud
+bbb.schick.cloud
+map.schick.cloud
+webmail.schick.cloud
+rosenhaeger.schick.cloud
+krz.schick.cloud
+wiki.schick.cloud
+ticket.schick.cloud

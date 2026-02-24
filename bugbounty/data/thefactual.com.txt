@@ -1,0 +1,16 @@
+store.thefactual.com
+pay.thefactual.com
+login.thefactual.com
+logo.thefactual.com
+redirect.thefactual.com
+story.thefactual.com
+blog.thefactual.com
+email.thefactual.com
+newsletter.thefactual.com
+club.thefactual.com
+hs2._domainkey.thefactual.com
+bounce.thefactual.com
+ftp.thefactual.com
+hs1._domainkey.thefactual.com
+em2245.thefactual.com
+_dmarc.thefactual.com

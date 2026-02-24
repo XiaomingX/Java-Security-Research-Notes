@@ -1,0 +1,11 @@
+pay.dftest.eu
+ticketing.dftest.eu
+optout.dftest.eu
+order.dftest.eu
+sso.dftest.eu
+ww2.dftest.eu
+hostmaster.dftest.eu
+admin-dev05.dftest.eu
+dnsauth.dftest.eu
+account.dftest.eu
+my.dftest.eu

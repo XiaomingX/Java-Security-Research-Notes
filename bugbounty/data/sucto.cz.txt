@@ -1,0 +1,6 @@
+m1.sucto.cz
+inbox.sucto.cz
+registrace.sucto.cz
+moje.sucto.cz
+beta.sucto.cz
+dev.sucto.cz

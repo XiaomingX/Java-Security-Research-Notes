@@ -1,0 +1,3 @@
+sos.field.li
+sos-dev.field.li
+avrae-test.field.li

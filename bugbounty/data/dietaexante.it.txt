@@ -1,0 +1,4 @@
+m.dietaexante.it
+gslb.dietaexante.it
+horizon-api.www.dietaexante.it
+checkout.dietaexante.it

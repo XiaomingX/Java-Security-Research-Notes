@@ -1,0 +1,3 @@
+staging.frtr.gov
+solaris.frtr.gov
+_dmarc.frtr.gov

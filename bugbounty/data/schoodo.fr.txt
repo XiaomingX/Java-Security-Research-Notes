@@ -1,0 +1,4 @@
+preprod.schoodo.fr
+app.schoodo.fr
+dev.schoodo.fr
+prof.schoodo.fr

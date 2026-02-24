@@ -1,0 +1,4 @@
+vaultwarden.salig.email
+webmail.salig.email
+passbolt.salig.email
+bitwarden.salig.email

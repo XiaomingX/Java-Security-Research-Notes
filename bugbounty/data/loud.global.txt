@@ -1,0 +1,2 @@
+custom.loud.global
+shop.loud.global

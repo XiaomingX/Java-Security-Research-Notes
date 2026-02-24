@@ -1,0 +1,7 @@
+benefits.avondale.com
+cdk.avondale.com
+clientportal.avondale.com
+email.retention.avondale.com
+payments.avondale.com
+portal.avondale.com
+vpn.avondale.com

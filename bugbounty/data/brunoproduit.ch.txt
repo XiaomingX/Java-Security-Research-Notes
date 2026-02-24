@@ -1,0 +1,8 @@
+nuage.brunoproduit.ch
+social.brunoproduit.ch
+cloud.brunoproduit.ch
+matrix.brunoproduit.ch
+kibana.brunoproduit.ch
+mariage.brunoproduit.ch
+git.brunoproduit.ch
+llm.brunoproduit.ch

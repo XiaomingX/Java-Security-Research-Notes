@@ -1,0 +1,13 @@
+secondary.mitro.co
+co.mitro.co
+www-internal.mitro.co
+dev.mitro.co
+sync.mitro.co
+w.mitro.co
+foo.mitro.co
+venues.labs.mitro.co
+mail.mitro.co
+selenium.mitro.co
+test.mitro.co
+blog.mitro.co
+labs.mitro.co

@@ -1,0 +1,5 @@
+b4b.zzmotors.az
+cdn.zzmotors.az
+mail.zzmotors.az
+web.zzmotors.az
+ipv6.zzmotors.az

@@ -1,0 +1,7 @@
+cpcontacts.bryggaognaustet.no
+cpcalendars.bryggaognaustet.no
+cpanel.bryggaognaustet.no
+webmail.bryggaognaustet.no
+autodiscover.bryggaognaustet.no
+webdisk.bryggaognaustet.no
+mail.bryggaognaustet.no

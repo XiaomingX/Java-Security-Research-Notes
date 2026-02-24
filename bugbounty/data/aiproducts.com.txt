@@ -1,0 +1,7 @@
+webdr.aiproducts.com
+crm.aiproducts.com
+crmhost.aiproducts.com
+devapps.aiproducts.com
+apps.aiproducts.com
+admin.devapps.aiproducts.com
+admin.apps.aiproducts.com

@@ -1,0 +1,5 @@
+journal.alabamachanin.com
+shop.alabamachanin.com
+shopstaging.alabamachanin.com
+staging.alabamachanin.com
+dev.alabamachanin.com

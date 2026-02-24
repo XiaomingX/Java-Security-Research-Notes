@@ -1,0 +1,2 @@
+ebaypaymentmismatchdetailstype.zoompso.com
+dev.zoompso.com

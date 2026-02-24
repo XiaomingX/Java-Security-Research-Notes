@@ -1,0 +1,5 @@
+earn.palmonas.com
+email.send.palmonas.com
+global.palmonas.com
+info.palmonas.com
+tracking.mailer.palmonas.com

@@ -1,0 +1,4 @@
+mail.aidwatch.de
+autodiscover.aidwatch.de
+autoconfig.aidwatch.de
+webmail.aidwatch.de

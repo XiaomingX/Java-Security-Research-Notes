@@ -1,0 +1,2 @@
+smtp.ayi.fyi
+mail.ayi.fyi

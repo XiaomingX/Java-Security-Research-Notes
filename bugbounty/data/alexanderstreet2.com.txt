@@ -1,0 +1,2 @@
+redirect.alexanderstreet2.com
+basecamp.alexanderstreet2.com

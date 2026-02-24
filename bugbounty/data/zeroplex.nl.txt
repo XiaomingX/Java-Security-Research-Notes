@@ -1,0 +1,8 @@
+admin.alex.zeroplex.nl
+phished.zeroplex.nl
+legaldocs.zeroplex.nl
+stag.alex.zeroplex.nl
+weboffice.zeroplex.nl
+autodns.zeroplex.nl
+alex.zeroplex.nl
+stag.admin.alex.zeroplex.nl

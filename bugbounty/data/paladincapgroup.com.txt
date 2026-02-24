@@ -1,0 +1,7 @@
+adfs.paladincapgroup.com
+autodiscover.paladincapgroup.com
+investorday.paladincapgroup.com
+legacy.paladincapgroup.com
+sea.paladincapgroup.com
+sstp.paladincapgroup.com
+webmail.paladincapgroup.com

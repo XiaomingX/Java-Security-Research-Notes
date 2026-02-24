@@ -1,0 +1,4 @@
+imap.patater.net
+mail.patater.net
+sftp.patater.net
+irc.patater.net

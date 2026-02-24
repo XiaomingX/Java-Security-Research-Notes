@@ -1,0 +1,7 @@
+api.americangemsociety.org
+archive.americangemsociety.org
+conclave2021.americangemsociety.org
+dev.americangemsociety.org
+io.americangemsociety.org
+members.americangemsociety.org
+memberstore.americangemsociety.org

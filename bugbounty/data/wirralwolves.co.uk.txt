@@ -1,0 +1,4 @@
+cpanel.wirralwolves.co.uk
+webmail.wirralwolves.co.uk
+webdisk.wirralwolves.co.uk
+mail.wirralwolves.co.uk

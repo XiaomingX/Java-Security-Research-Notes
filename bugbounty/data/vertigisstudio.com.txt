@@ -1,0 +1,13 @@
+developers.vertigisstudio.com
+docs.vertigisstudio.com
+apps.vertigisstudio.com
+dan.vertigisstudio.com
+apps-staging.vertigisstudio.com
+demo.vertigisstudio.com
+start.vertigisstudio.com
+success.vertigisstudio.com
+scpgis.apps.vertigisstudio.com
+dos.apps.vertigisstudio.com
+yoursubdomain.apps.vertigisstudio.com
+gmct.apps.vertigisstudio.com
+yoursubdomian.apps.vertigisstudio.com

@@ -1,0 +1,6 @@
+cgpmail.mcesi.com
+email.mcesi.com
+secure.mcesi.com
+stats.mcesi.com
+sxe.mcesi.com
+unms.mcesi.com

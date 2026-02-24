@@ -1,0 +1,2 @@
+email.oneprofile.app
+cdn.oneprofile.app

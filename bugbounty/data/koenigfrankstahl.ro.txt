@@ -1,0 +1,7 @@
+cpcalendars.koenigfrankstahl.ro
+cpcontacts.koenigfrankstahl.ro
+remote.koenigfrankstahl.ro
+webdisk.koenigfrankstahl.ro
+webmail.koenigfrankstahl.ro
+cpanel.koenigfrankstahl.ro
+mail.koenigfrankstahl.ro

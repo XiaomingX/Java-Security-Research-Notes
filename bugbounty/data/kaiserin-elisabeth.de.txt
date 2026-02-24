@@ -1,0 +1,2 @@
+rdpgw.kaiserin-elisabeth.de
+autodiscover.kaiserin-elisabeth.de

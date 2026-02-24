@@ -1,0 +1,12 @@
+autodiscover.serwer.cz
+imap.serwer.cz
+webmail.serwer.cz
+autoconfig.serwer.cz
+admin.serwer.cz
+amail.serwer.cz
+nas.serwer.cz
+own.serwer.cz
+pop3.serwer.cz
+smtp.serwer.cz
+mail.serwer.cz
+vps.serwer.cz

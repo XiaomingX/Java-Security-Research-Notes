@@ -1,0 +1,11 @@
+autodiscover.lexington.com
+exchange.lexington.com
+lhbspam.lexington.com
+lx98ex3.lexington.com
+mbg.lexington.com
+microd.lexington.com
+uc.lexington.com
+vpn.lexington.com
+vpnras.lexington.com
+adfsfarm.lexington.com
+inforscim.lexington.com

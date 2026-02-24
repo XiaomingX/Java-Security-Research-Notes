@@ -1,0 +1,5 @@
+miko.vodoskolin.cz
+autodiscover.vodoskolin.cz
+mail.vodoskolin.cz
+vportal.vodoskolin.cz
+postak.vodoskolin.cz

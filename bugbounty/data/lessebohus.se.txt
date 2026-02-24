@@ -1,0 +1,7 @@
+bostad.lessebohus.se
+hyresweb.lessebohus.se
+meet.lessebohus.se
+lyncdiscover.lessebohus.se
+sip.lessebohus.se
+outlook.lessebohus.se
+autodiscover.lessebohus.se

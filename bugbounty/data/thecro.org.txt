@@ -1,0 +1,5 @@
+autodiscover.thecro.org
+cpanel.thecro.org
+mail.thecro.org
+webdisk.thecro.org
+webmail.thecro.org

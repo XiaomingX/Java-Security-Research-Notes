@@ -1,0 +1,4 @@
+whp.pirard.fr
+memoirealban.pirard.fr
+autoconfig.pirard.fr
+autodiscover.pirard.fr

@@ -1,0 +1,13 @@
+autaprov-testes.sonaecenter.pt
+autaprov.sonaecenter.pt
+autaprovdev.sonaecenter.pt
+autaprovpp.sonaecenter.pt
+federation.sonaecenter.pt
+federationmfa.sonaecenter.pt
+federationpp.sonaecenter.pt
+federationppmfa.sonaecenter.pt
+acesso.sonaecenter.pt
+ppreview.sonaecenter.pt
+review.sonaecenter.pt
+sd.sonaecenter.pt
+servicedeskssi.sonaecenter.pt

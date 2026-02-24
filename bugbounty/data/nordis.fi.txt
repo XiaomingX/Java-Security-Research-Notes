@@ -1,0 +1,7 @@
+n-extra.nordis.fi
+autodiscover.nordis.fi
+webdisk.nordis.fi
+webmail.nordis.fi
+reklamaatiot.nordis.fi
+cpanel.nordis.fi
+mail.nordis.fi

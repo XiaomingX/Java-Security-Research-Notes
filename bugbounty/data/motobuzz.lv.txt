@@ -1,0 +1,7 @@
+cpanel.motobuzz.lv
+webdisk.motobuzz.lv
+mail.motobuzz.lv
+cpcontacts.motobuzz.lv
+cpcalendars.motobuzz.lv
+webmail.motobuzz.lv
+ftp.motobuzz.lv

@@ -1,0 +1,2 @@
+mta-sts.eubach.net
+_mta-sts.eubach.net

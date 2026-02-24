@@ -1,0 +1,8 @@
+go.jqjl.ca
+portail.jqjl.ca
+clients.jqjl.ca
+landing.jqjl.ca
+staging8.jqjl.ca
+groupe.jqjl.ca
+show.jqjl.ca
+staging4.jqjl.ca

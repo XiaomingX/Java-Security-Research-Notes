@@ -1,0 +1,2 @@
+developers.openprovider.com
+docs.openprovider.com

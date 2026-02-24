@@ -1,0 +1,3 @@
+sgtm.ameliorate.it
+horizon-api.www.ameliorate.it
+checkout.ameliorate.it

@@ -1,0 +1,4 @@
+intranet.marqeta.com
+comcred-credit.marqeta.com
+merchant-m-credit.marqeta.com
+test-brand-credit.marqeta.com

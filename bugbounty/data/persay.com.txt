@@ -1,0 +1,4 @@
+autodiscover.persay.com
+outlook.persay.com
+owa.persay.com
+mail1.persay.com

@@ -1,0 +1,3 @@
+staging.troxapo.com
+mail.troxapo.com
+sip.troxapo.com

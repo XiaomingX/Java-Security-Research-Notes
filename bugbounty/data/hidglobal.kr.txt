@@ -1,0 +1,7 @@
+dev.hidglobal.kr
+test.hidglobal.kr
+rs-dev.hidglobal.kr
+rs-stage1.hidglobal.kr
+rs-stage2.hidglobal.kr
+rs-test.hidglobal.kr
+w.hidglobal.kr

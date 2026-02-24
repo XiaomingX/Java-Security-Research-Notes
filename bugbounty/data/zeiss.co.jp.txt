@@ -1,0 +1,14 @@
+microimaging.zeiss.co.jp
+datapipeline.zeiss.co.jp
+stage-internet.zeiss.co.jp
+vision.zeiss.co.jp
+development-internet.zeiss.co.jp
+meditec.zeiss.co.jp
+test1-internet.zeiss.co.jp
+cdn.zeiss.co.jp
+better-vision.zeiss.co.jp
+test3-internet.zeiss.co.jp
+people.zeiss.co.jp
+test2-internet.zeiss.co.jp
+preprod-internet.zeiss.co.jp
+portal.zeiss.co.jp

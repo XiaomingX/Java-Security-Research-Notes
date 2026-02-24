@@ -1,0 +1,6 @@
+configure-previous.mini.com.mt
+testservice.mini.com.mt
+service.mini.com.mt
+forms.mini.com.mt
+configure-next.mini.com.mt
+configure.mini.com.mt

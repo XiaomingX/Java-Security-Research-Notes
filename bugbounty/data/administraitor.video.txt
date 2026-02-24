@@ -1,0 +1,2 @@
+ns1.administraitor.video
+ns2.administraitor.video

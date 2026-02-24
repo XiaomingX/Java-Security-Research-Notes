@@ -1,0 +1,10 @@
+autodiscover.cayuseholdings.com
+yourvoice.cayuseholdings.com
+helpdesk.cayuseholdings.com
+mail.cayuseholdings.com
+penmail01.cayuseholdings.com
+penmail02.cayuseholdings.com
+penmail03.cayuseholdings.com
+sharepoint.cayuseholdings.com
+training.cayuseholdings.com
+was.cayuseholdings.com

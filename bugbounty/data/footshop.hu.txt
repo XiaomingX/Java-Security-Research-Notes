@@ -1,0 +1,16 @@
+shop.footshop.hu
+files.footshop.hu
+static.footshop.hu
+static.lab.footshop.hu
+lab.footshop.hu
+files.lab.footshop.hu
+shop.lab.footshop.hu
+shop-presta.beta.footshop.hu
+presta.beta.footshop.hu
+shop.beta.footshop.hu
+beta.footshop.hu
+releases.footshop.hu
+shop.staging.footshop.hu
+sitemaps.footshop.hu
+sitemaps-lab.footshop.hu
+staging.footshop.hu

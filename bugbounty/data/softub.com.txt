@@ -1,0 +1,3 @@
+pos.softub.com
+shop.softub.com
+staging.softub.com

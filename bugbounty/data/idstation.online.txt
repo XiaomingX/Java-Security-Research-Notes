@@ -1,0 +1,3 @@
+photomatic.idstation.online
+mail.idstation.online
+test.idstation.online

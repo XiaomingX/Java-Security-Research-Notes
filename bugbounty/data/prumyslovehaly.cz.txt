@@ -1,0 +1,3 @@
+web.prumyslovehaly.cz
+mail.prumyslovehaly.cz
+sec.prumyslovehaly.cz

@@ -1,0 +1,5 @@
+fapi.seznamdiskuze.cz
+login.seznamdiskuze.cz
+admin.seznamdiskuze.cz
+api.seznamdiskuze.cz
+embed.seznamdiskuze.cz

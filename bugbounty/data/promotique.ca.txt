@@ -1,0 +1,2 @@
+url.t.promotique.ca
+next.promotique.ca

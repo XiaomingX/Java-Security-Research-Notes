@@ -1,0 +1,6 @@
+chat.lunda.be
+files.lunda.be
+jitsi.lunda.be
+matrix.lunda.be
+nextcloud.lunda.be
+t.lunda.be

@@ -1,0 +1,2 @@
+vault.lavahost.org
+headscale.lavahost.org

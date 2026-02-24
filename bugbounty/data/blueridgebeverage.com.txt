@@ -1,0 +1,2 @@
+portal.blueridgebeverage.com
+remote.blueridgebeverage.com

@@ -1,0 +1,6 @@
+device.gowoof.io
+api.gowoof.io
+extra.gowoof.io
+firmware.gowoof.io
+update.gowoof.io
+mail.gowoof.io

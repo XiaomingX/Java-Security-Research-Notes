@@ -1,0 +1,17 @@
+au.gloomis.com
+autodiscover.gloomis.com
+de.gloomis.com
+es.gloomis.com
+flyfishing.gloomis.com
+fr.gloomis.com
+gb.gloomis.com
+it.gloomis.com
+jp.gloomis.com
+mail.gloomis.com
+nl.gloomis.com
+pl.gloomis.com
+returns.gloomis.com
+saltwater.gloomis.com
+shop.gloomis.com
+spincast.gloomis.com
+chinook.gloomis.com

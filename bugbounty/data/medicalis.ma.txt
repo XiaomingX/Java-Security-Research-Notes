@@ -1,0 +1,4 @@
+business-center.medicalis.ma
+erdv.medicalis.ma
+adserver.medicalis.ma
+dev.medicalis.ma

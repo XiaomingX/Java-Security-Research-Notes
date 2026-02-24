@@ -1,0 +1,2 @@
+admin.rific.gov.au
+auth.rific.gov.au

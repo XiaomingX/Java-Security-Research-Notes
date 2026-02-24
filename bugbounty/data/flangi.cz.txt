@@ -1,0 +1,2 @@
+remote.flangi.cz
+api.flangi.cz

@@ -1,0 +1,15 @@
+attendance.brega.ly
+autodiscover.brega.ly
+cpanel.brega.ly
+cpcalendars.brega.ly
+cpcontacts.brega.ly
+cvrc.brega.ly
+en.brega.ly
+ex.brega.ly
+m.brega.ly
+mail.brega.ly
+mobileapp.brega.ly
+srs.brega.ly
+webdisk.brega.ly
+webmail.brega.ly
+ipv6.brega.ly

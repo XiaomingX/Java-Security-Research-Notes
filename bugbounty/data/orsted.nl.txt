@@ -1,0 +1,2 @@
+staging.orsted.nl
+go.orsted.nl

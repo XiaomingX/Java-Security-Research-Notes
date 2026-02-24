@@ -1,0 +1,3 @@
+blog.fondy.ru
+mail.fondy.ru
+cdn.fondy.ru

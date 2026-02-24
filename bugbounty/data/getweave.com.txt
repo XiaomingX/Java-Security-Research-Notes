@@ -1,0 +1,6 @@
+design-system.getweave.com
+brand.getweave.com
+dev-mail.sg.getweave.com
+mail.sg.getweave.com
+marketing.sg.getweave.com
+partners.getweave.com

@@ -1,0 +1,7 @@
+mtv.mikee.dev
+passwords.mikee.dev
+skincache.mikee.dev
+mail.mikee.dev
+vsys.mikee.dev
+type.mikee.dev
+monitor.mikee.dev

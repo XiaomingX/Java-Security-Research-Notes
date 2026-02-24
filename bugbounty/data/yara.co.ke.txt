@@ -1,0 +1,2 @@
+pre.yara.co.ke
+int.yara.co.ke

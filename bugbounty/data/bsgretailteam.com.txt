@@ -1,0 +1,2 @@
+autodiscover.bsgretailteam.com
+mail.bsgretailteam.com

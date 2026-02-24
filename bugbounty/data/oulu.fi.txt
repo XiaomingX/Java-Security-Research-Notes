@@ -1,0 +1,6 @@
+www2.oulu.fi
+6gecosystem.oulu.fi
+teacher-training.oulu.fi
+version.oulu.fi
+6gflagship.oulu.fi
+ldap5.oulu.fi

@@ -1,0 +1,5 @@
+webmail.bow-group.com
+autodiscover.bow-group.com
+bowex.bow-group.com
+vpn.bow-group.com
+portal.bow-group.com

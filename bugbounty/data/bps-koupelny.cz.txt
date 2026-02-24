@@ -1,0 +1,4 @@
+tools.bps-koupelny.cz
+track.bps-koupelny.cz
+old.bps-koupelny.cz
+sariwa.bps-koupelny.cz

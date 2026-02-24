@@ -1,0 +1,7 @@
+cpcalendars.bogner.ro
+cpcontacts.bogner.ro
+externalsmtp.bogner.ro
+mail.bogner.ro
+webdisk.bogner.ro
+webmail.bogner.ro
+cpanel.bogner.ro

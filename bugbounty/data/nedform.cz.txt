@@ -1,0 +1,4 @@
+exchange.nedform.cz
+eshop.nedform.cz
+mail.nedform.cz
+autodiscover.nedform.cz

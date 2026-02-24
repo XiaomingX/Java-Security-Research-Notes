@@ -1,0 +1,5 @@
+dev.x.company
+draft.x.company
+blog.x.company
+alumni.x.company
+live.x.company

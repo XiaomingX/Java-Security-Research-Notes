@@ -1,4 +1,4 @@
-package me.threedr3am.bug.shiro.bypass.auth.controller;
+package me.security.bug.shiro.bypass.auth.controller;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;

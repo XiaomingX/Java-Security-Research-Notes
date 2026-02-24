@@ -7,7 +7,7 @@ import java.io.Serializable;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
-import ysoserial.payloads.ObjectPayload;
+import ysoserial.core.ObjectPayload;
 
 public class TestHarnessTest {
 	// make sure test harness fails properly

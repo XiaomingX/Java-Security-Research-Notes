@@ -1,0 +1,7 @@
+portal.machinefi.com
+test.machinefi.com
+demo.machinefi.com
+blog.machinefi.com
+portal-testnet.machinefi.com
+simulator.machinefi.com
+email.machinefi.com

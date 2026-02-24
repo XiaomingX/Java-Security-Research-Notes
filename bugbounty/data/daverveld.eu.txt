@@ -1,0 +1,4 @@
+server.daverveld.eu
+daverveld.eu.daverveld.eu
+mta-sts.daverveld.eu
+eu.daverveld.eu

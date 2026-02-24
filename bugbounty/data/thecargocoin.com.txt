@@ -1,0 +1,10 @@
+mail.thecargocoin.com
+t.thecargocoin.com
+cpanel.thecargocoin.com
+webdisk.thecargocoin.com
+mail.mail.thecargocoin.com
+_dmarc.thecargocoin.com
+autodiscover.thecargocoin.com
+cpcalendars.thecargocoin.com
+cpcontacts.thecargocoin.com
+webmail.thecargocoin.com

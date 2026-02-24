@@ -1,0 +1,5 @@
+autodiscover.aso-ohz.de
+boerse.aso-ohz.de
+mail.aso-ohz.de
+sbc.aso-ohz.de
+service.aso-ohz.de

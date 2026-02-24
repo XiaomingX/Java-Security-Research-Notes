@@ -1,0 +1,6 @@
+crm.polyflor.no
+remote.polyflor.no
+office.polyflor.no
+mail.polyflor.no
+ilo.polyflor.no
+old.polyflor.no

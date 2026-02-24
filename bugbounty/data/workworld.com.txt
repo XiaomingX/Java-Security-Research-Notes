@@ -1,0 +1,4 @@
+autodiscover.workworld.com
+mail.workworld.com
+portal.workworld.com
+rdg.workworld.com

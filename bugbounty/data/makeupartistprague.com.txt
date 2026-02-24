@@ -1,0 +1,2 @@
+mail.makeupartistprague.com
+mta-sts.mail.makeupartistprague.com

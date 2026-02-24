@@ -1,0 +1,2 @@
+mail.landonstark.com
+server1.landonstark.com

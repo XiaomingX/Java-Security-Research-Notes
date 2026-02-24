@@ -1,0 +1,3 @@
+media.joshuabrandt.de
+note.joshuabrandt.de
+req.joshuabrandt.de

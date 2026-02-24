@@ -1,0 +1,2 @@
+movies.themousery.cloud
+api.themousery.cloud

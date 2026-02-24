@@ -1,0 +1,11 @@
+docs.cardinalapp.io
+ask.cardinalapp.io
+slack.cardinalapp.io
+api.cardinalapp.io
+status.cardinalapp.io
+cardinal-stg.cardinalapp.io
+go.cardinalapp.io
+cardinal.stg.cardinalapp.io
+miro.stg.cardinalapp.io
+miro.cardinalapp.io
+miro-stg.cardinalapp.io

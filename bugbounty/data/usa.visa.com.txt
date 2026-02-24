@@ -1,0 +1,9 @@
+stage.usa.visa.com
+chatqa.usa.visa.com
+chat.usa.visa.com
+review.usa.visa.com
+apps.usa.visa.com
+review.apps.usa.visa.com
+app.usa.visa.com
+m.usa.visa.com
+signaturemail.usa.visa.com

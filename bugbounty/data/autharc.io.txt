@@ -1,0 +1,9 @@
+uat.autharc.io
+uatidp.autharc.io
+uatsso.autharc.io
+idam.autharc.io
+uatvams.autharc.io
+uatvisitor.autharc.io
+uatdemo.autharc.io
+uatvisitorhospital.autharc.io
+uatapi.autharc.io

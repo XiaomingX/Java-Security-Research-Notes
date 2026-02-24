@@ -1,0 +1,7 @@
+egd.software.egddev.com
+botcp.egddev.com
+college.egddev.com
+api.egddev.com
+mainwp.egddev.com
+code.egddev.com
+repo.egddev.com

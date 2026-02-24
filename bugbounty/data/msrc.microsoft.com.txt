@@ -1,0 +1,9 @@
+api.msrc.microsoft.com
+portal.msrc.microsoft.com
+aris.cpro.msrc.microsoft.com
+apiclientauth.msrc.microsoft.com
+blog.msrc.microsoft.com
+metrics.geneva.keyvault.msrc.microsoft.com
+file-service.api.msrc.microsoft.com
+aris.msrc.microsoft.com
+252fportal.msrc.microsoft.com

@@ -1,0 +1,5 @@
+earth.google.com.my
+translate.google.com.my
+trends.google.com.my
+maps.google.com.my
+scholar.google.com.my

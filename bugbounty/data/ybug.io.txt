@@ -1,0 +1,16 @@
+webdisk.ybug.io
+aws.ybug.io
+static.ybug.io
+cpanel.ybug.io
+widget.ybug.io
+status.ybug.io
+whm.ybug.io
+srazovnik.ybug.io
+blog.ybug.io
+cpcontacts.ybug.io
+cpcalendars.ybug.io
+webmail.ybug.io
+app.ybug.io
+proxy.ybug.io
+mail.ybug.io
+api.ybug.io

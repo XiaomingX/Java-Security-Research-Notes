@@ -1,0 +1,5 @@
+agents.humap.me
+assets-production.humap.me
+docs.humap.me
+status.humap.me
+go.humap.me

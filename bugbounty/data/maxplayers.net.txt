@@ -1,0 +1,12 @@
+mail.maxplayers.net
+ns2.maxplayers.net
+old.maxplayers.net
+s0.maxplayers.net
+s1.maxplayers.net
+stats.maxplayers.net
+bans-test.maxplayers.net
+zm.maxplayers.net
+mirror.maxplayers.net
+ns1.maxplayers.net
+bans.maxplayers.net
+control.maxplayers.net

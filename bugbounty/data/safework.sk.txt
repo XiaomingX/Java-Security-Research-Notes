@@ -1,0 +1,5 @@
+mails.safework.sk
+helpdesk.safework.sk
+reporter.safework.sk
+facebook.safework.sk
+beta.safework.sk

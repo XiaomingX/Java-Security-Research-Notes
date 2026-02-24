@@ -1,0 +1,6 @@
+media.dmarc.net
+stations.dmarc.net
+w.dmarc.net
+scottstudios.dmarc.net
+maestro.dmarc.net
+services.dmarc.net

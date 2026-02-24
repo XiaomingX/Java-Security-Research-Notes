@@ -1,0 +1,6 @@
+webmail.armando.nl
+mail.armando.nl
+webdisk.armando.nl
+mta-sts.armando.nl
+ipv6.armando.nl
+cpanel.armando.nl

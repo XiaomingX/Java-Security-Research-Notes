@@ -1,0 +1,9 @@
+ems.twohat.com
+blog.twohat.com
+vpn.twohat.com
+short.twohat.com
+ldaps.twohat.com
+ftp.twohat.com
+ww2.twohat.com
+short-test.twohat.com
+unifi.int.twohat.com

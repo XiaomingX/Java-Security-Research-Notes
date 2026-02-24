@@ -1,0 +1,13 @@
+mail1.mcarbon.com
+smtp.mcarbon.com
+ftp.mcarbon.com
+mail.mcarbon.com
+e.mcarbon.com
+webmail.mcarbon.com
+acm.mcarbon.com
+supportcenter.mcarbon.com
+servicedesk.mcarbon.com
+pop.mcarbon.com
+email.mcarbon.com
+imap.mcarbon.com
+confluence.mcarbon.com

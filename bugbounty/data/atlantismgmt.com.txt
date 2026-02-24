@@ -1,0 +1,4 @@
+autodiscover.atlantismgmt.com
+petronet.atlantismgmt.com
+remote.atlantismgmt.com
+mail.atlantismgmt.com

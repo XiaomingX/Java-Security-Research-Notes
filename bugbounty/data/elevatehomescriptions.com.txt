@@ -1,0 +1,15 @@
+accounts.elevatehomescriptions.com
+api.elevatehomescriptions.com
+api2.elevatehomescriptions.com
+chat.elevatehomescriptions.com
+cogent-app.elevatehomescriptions.com
+cogent.elevatehomescriptions.com
+customers-app.elevatehomescriptions.com
+customers.elevatehomescriptions.com
+email.mg.elevatehomescriptions.com
+go.elevatehomescriptions.com
+real-estate-app.elevatehomescriptions.com
+real-estate.elevatehomescriptions.com
+service-pros-app.elevatehomescriptions.com
+service-pros.elevatehomescriptions.com
+pay.elevatehomescriptions.com

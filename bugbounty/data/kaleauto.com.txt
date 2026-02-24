@@ -1,0 +1,8 @@
+mail.kaleauto.com
+webmail.kaleauto.com
+autodiscover.kaleauto.com
+cpcalendars.kaleauto.com
+cpcontacts.kaleauto.com
+webdisk.kaleauto.com
+mail1.kaleauto.com
+cpanel.kaleauto.com

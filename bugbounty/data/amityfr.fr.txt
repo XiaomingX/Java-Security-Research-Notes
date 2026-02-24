@@ -1,0 +1,9 @@
+api.amityfr.fr
+devlopment.amityfr.fr
+psql.amityfr.fr
+apimc.amityfr.fr
+beta-2.0.amityfr.fr
+beta.amityfr.fr
+mail.amityfr.fr
+repertoire.amityfr.fr
+roleplay.amityfr.fr

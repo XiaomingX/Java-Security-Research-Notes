@@ -1,0 +1,3 @@
+maps.google.kz
+consent.google.kz
+images.google.kz

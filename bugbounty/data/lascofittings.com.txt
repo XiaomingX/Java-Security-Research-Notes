@@ -1,0 +1,13 @@
+swivelconfigurator.lascofittings.com
+online.lascofittings.com
+archive.lascofittings.com
+vpn.lascofittings.com
+swingconfigurator.lascofittings.com
+tango.lascofittings.com
+echo.lascofittings.com
+bim.lascofittings.com
+autodiscover.lascofittings.com
+owa.lascofittings.com
+salesnet.lascofittings.com
+legacy.lascofittings.com
+mail.lascofittings.com

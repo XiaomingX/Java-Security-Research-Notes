@@ -1,0 +1,4 @@
+mail.my-personal.link
+autoconfig.my-personal.link
+webmail.my-personal.link
+autodiscover.my-personal.link

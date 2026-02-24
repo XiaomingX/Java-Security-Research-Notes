@@ -1,0 +1,4 @@
+autodiscover.stdair.com
+mail.stdair.com
+zabbix.stdair.com
+exchange2.stdair.com

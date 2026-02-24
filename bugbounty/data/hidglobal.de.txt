@@ -1,0 +1,7 @@
+rs-dev.hidglobal.de
+test.hidglobal.de
+dev.hidglobal.de
+rs-test.hidglobal.de
+fargo.hidglobal.de
+e-health-terminal.hidglobal.de
+w.hidglobal.de

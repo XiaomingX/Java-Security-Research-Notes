@@ -1,0 +1,9 @@
+business.westernunion.pl
+en.business.westernunion.pl
+pages.westernunion.pl
+trk.business.westernunion.pl
+trk.en.business.westernunion.pl
+www2.westernunion.pl
+openaicore.westernunion.pl
+w.westernunion.pl
+www-personal.westernunion.pl

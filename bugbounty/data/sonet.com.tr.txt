@@ -1,0 +1,14 @@
+uyari.sonet.com.tr
+cdn.sonet.com.tr
+hiztesti.sonet.com.tr
+ariza.sonet.com.tr
+report.sonet.com.tr
+inv.sonet.com.tr
+sys.sonet.com.tr
+sp.azeroth.sonet.com.tr
+oim.sonet.com.tr
+fts.sonet.com.tr
+sas.sonet.com.tr
+emerg.sonet.com.tr
+intr-sftp.sonet.com.tr
+mta-sts.sonet.com.tr

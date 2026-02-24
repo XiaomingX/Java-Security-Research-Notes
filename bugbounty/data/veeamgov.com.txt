@@ -1,0 +1,3 @@
+mail.veeamgov.com
+sso.veeamgov.com
+autodiscover.veeamgov.com

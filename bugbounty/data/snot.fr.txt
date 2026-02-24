@@ -1,0 +1,6 @@
+about.snot.fr
+api.snot.fr
+beta.snot.fr
+content.snot.fr
+mail.snot.fr
+mobile.snot.fr

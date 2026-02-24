@@ -1,0 +1,12 @@
+fops.finotex.com
+citrix.finotex.com
+citrix2.finotex.com
+cpanel.finotex.com
+cpcalendars.finotex.com
+cpcontacts.finotex.com
+ipv6.finotex.com
+mail.finotex.com
+powerservice.finotex.com
+sharepoint.finotex.com
+webdisk.finotex.com
+webmail.finotex.com

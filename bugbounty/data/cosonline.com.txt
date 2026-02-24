@@ -1,0 +1,11 @@
+benchmark.cosonline.com
+chamber.cosonline.com
+ftp.cosonline.com
+furniture.cosonline.com
+mail.cosonline.com
+phone.cosonline.com
+cpanel.cosonline.com
+cpcalendars.cosonline.com
+cpcontacts.cosonline.com
+webdisk.cosonline.com
+webmail.cosonline.com

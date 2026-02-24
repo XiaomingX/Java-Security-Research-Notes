@@ -1,0 +1,9 @@
+smtp.macemail.co.uk
+lam.macemail.co.uk
+signup.macemail.co.uk
+imap.macemail.co.uk
+mail.macemail.co.uk
+htpc.macemail.co.uk
+autodiscover.macemail.co.uk
+ad.macemail.co.uk
+vimbadmin.macemail.co.uk

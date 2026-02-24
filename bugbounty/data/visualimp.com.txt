@@ -1,0 +1,5 @@
+autodiscover.visualimp.com
+gifts.visualimp.com
+ishop.visualimp.com
+remote.visualimp.com
+shop.visualimp.com

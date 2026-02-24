@@ -1,0 +1,7 @@
+jacket.thejupiter.cloud
+dns.thejupiter.cloud
+pairdrop.thejupiter.cloud
+hass.thejupiter.cloud
+nginx.thejupiter.cloud
+vac.thejupiter.cloud
+proxmox.thejupiter.cloud

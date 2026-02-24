@@ -1,0 +1,4 @@
+email.elegantwf.com
+cpanel.elegantwf.com
+mail.elegantwf.com
+webdisk.elegantwf.com

@@ -1,0 +1,5 @@
+email.aireverie.com
+events.aireverie.com
+mapgen.aireverie.com
+info.aireverie.com
+infra.aireverie.com

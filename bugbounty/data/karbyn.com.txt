@@ -1,0 +1,13 @@
+blog.karbyn.com
+elite.karbyn.com
+careers.karbyn.com
+dev.blog.karbyn.com
+hub.karbyn.com
+blogs.karbyn.com
+aem.dt.karbyn.com
+tedor.karbyn.com
+wiki.karbyn.com
+aem.karbyn.com
+endicott.karbyn.com
+qa.karbyn.com
+redmine.karbyn.com

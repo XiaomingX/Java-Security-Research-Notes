@@ -1,0 +1,3 @@
+members.randkiszczecin.pl
+secure.randkiszczecin.pl
+support.randkiszczecin.pl

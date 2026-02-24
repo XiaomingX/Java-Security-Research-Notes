@@ -1,0 +1,3 @@
+dashboard.minutesapps.com
+sandbox.minutesapps.com
+console.minutesapps.com

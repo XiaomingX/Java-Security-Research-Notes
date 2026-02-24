@@ -1,0 +1,4 @@
+video.floort.net
+peek.floort.net
+ww.floort.net
+audio.floort.net

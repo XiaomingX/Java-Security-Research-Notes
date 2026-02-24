@@ -1,0 +1,4 @@
+mail.velocitybp.com
+webmail.velocitybp.com
+cpanel.velocitybp.com
+webdisk.velocitybp.com

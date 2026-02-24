@@ -1,0 +1,8 @@
+download.lackhove.de
+hassistant.lackhove.de
+media.lackhove.de
+bazarr.lackhove.de
+radarr.lackhove.de
+sonarr.lackhove.de
+nzbget.lackhove.de
+emby.lackhove.de

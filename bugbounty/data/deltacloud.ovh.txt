@@ -1,0 +1,14 @@
+bookstack.deltacloud.ovh
+wallabag.deltacloud.ovh
+bitwarden.deltacloud.ovh
+git.deltacloud.ovh
+alips.deltacloud.ovh
+portainer.deltacloud.ovh
+guacamole.deltacloud.ovh
+terminal.deltacloud.ovh
+pw.deltacloud.ovh
+rezept.deltacloud.ovh
+sebi.deltacloud.ovh
+jellyfin.deltacloud.ovh
+code.deltacloud.ovh
+ntfy.deltacloud.ovh

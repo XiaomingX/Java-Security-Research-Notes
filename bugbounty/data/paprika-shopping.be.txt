@@ -1,0 +1,5 @@
+clebez.paprika-shopping.be
+development.paprika-shopping.be
+metrics.paprika-shopping.be
+news.paprika-shopping.be
+staging.paprika-shopping.be

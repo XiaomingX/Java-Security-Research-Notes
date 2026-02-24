@@ -1,0 +1,3 @@
+webmail.dorellfabrics.com
+asnlabel.dorellfabrics.com
+portal.dorellfabrics.com

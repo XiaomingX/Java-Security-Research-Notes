@@ -1,0 +1,5 @@
+secure.amromusic.com
+autodiscover.amromusic.com
+live.amromusic.com
+mail.amromusic.com
+webmail.amromusic.com

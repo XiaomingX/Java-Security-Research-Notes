@@ -1,0 +1,9 @@
+market.boardgamegeek.com
+ph.boardgamegeek.com
+advertising-test.boardgamegeek.com
+geekspeak.boardgamegeek.com
+mail.boardgamegeek.com
+advertising.boardgamegeek.com
+rss.boardgamegeek.com
+images.boardgamegeek.com
+upgrade.boardgamegeek.com

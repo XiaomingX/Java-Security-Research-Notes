@@ -1,0 +1,6 @@
+test.www.gruenemsp.de
+mta-sts.gruenemsp.de
+test.gruenemsp.de
+mta-sts.lists.gruenemsp.de
+lists.gruenemsp.de
+mail.gruenemsp.de

@@ -1,0 +1,6 @@
+ru.baipanzio.hu
+pl.baipanzio.hu
+ro.baipanzio.hu
+it.baipanzio.hu
+en.baipanzio.hu
+de.baipanzio.hu

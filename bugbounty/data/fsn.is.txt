@@ -1,0 +1,12 @@
+moodle.fsn.is
+dev.fsn.is
+webmail.fsn.is
+m2.fsn.is
+autodiscover.fsn.is
+cpanel.fsn.is
+mail.fsn.is
+webdisk.fsn.is
+m3.fsn.is
+m4.fsn.is
+vefpostur.fsn.is
+myndir.fsn.is

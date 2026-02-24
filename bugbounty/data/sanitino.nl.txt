@@ -1,0 +1,4 @@
+t.targito.sanitino.nl
+cdn.targito.sanitino.nl
+sgtm.sanitino.nl
+dev.sanitino.nl

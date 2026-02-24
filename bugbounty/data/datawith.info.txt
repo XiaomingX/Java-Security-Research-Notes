@@ -1,0 +1,8 @@
+stash.datawith.info
+mail.datawith.info
+hass.datawith.info
+hmail.datawith.info
+mta-sts.datawith.info
+pubsub.datawith.info
+native.datawith.info
+conference.datawith.info

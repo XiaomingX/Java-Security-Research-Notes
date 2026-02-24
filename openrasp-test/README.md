@@ -10,10 +10,9 @@
 2. 危险的 OGNL 表达式
 3. ProcessBuilder 日志记录
 
-#### SQL 注入
+### 文档
 
-1. MySQL
-2. SQL Server
+详细的构建和使用说明，请参考 [HOWTO.md](HOWTO.md)。
 
 ### 如何使用
 

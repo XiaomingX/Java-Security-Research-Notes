@@ -1,0 +1,6 @@
+pop.coprosys.eu
+hostmaster.coprosys.eu
+mail.coprosys.eu
+mail11.coprosys.eu
+ms.coprosys.eu
+mx10.coprosys.eu

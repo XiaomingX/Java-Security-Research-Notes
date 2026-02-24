@@ -1,0 +1,7 @@
+dev.starbucks.com.kz
+card.starbucks.com.kz
+tst.starbucks.com.kz
+cms.starbucks.com.kz
+cards.starbucks.com.kz
+mobile.starbucks.com.kz
+app.starbucks.com.kz

@@ -1,0 +1,5 @@
+new-register.netnut.cn
+register.netnut.cn
+reports.netnut.cn
+stg.netnut.cn
+test.netnut.cn

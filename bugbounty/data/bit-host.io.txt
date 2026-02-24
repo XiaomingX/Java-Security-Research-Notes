@@ -1,0 +1,2 @@
+panel.bit-host.io
+testing.web01.bit-host.io

@@ -1,0 +1,6 @@
+webmail.tapdoctoronline.com
+cpanel.tapdoctoronline.com
+mail.tapdoctoronline.com
+webdisk.tapdoctoronline.com
+cpcalendars.tapdoctoronline.com
+cpcontacts.tapdoctoronline.com

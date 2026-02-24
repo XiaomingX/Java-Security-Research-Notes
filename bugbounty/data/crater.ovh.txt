@@ -1,0 +1,3 @@
+autoconfig.crater.ovh
+autodiscover.crater.ovh
+mail.crater.ovh

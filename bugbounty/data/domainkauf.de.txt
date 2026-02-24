@@ -1,0 +1,4 @@
+dev.domainkauf.de
+mail.domainkauf.de
+verkauf.domainkauf.de
+db.domainkauf.de

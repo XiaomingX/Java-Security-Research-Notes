@@ -1,0 +1,6 @@
+mail.paramountgems.com
+cpanel.paramountgems.com
+cpcalendars.paramountgems.com
+cpcontacts.paramountgems.com
+webdisk.paramountgems.com
+webmail.paramountgems.com

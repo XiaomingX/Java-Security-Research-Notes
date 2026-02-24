@@ -1,0 +1,3 @@
+sandbox.pureandgentlesoap.com
+staging.pureandgentlesoap.com
+store.pureandgentlesoap.com

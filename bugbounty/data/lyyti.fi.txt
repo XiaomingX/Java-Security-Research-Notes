@@ -1,0 +1,12 @@
+grafana.lyyti.fi
+portal.lyyti.fi
+w.lyyti.fi
+ilmo.lyyti.fi
+osoitteessawww.lyyti.fi
+beta.lyyti.fi
+op.lyyti.fi
+apu.lyyti.fi
+sentry.lyyti.fi
+prometheus.lyyti.fi
+proxy.lyyti.fi
+admin.lyyti.fi

@@ -1,0 +1,10 @@
+lists.gruenekoeln.de
+verteiler.gruenekoeln.de
+tools.gruenekoeln.de
+archiv.gruenekoeln.de
+alte.gruenekoeln.de
+matomo.gruenekoeln.de
+piwik.gruenekoeln.de
+listen.gruenekoeln.de
+zoomhelper.gruenekoeln.de
+staging.gruenekoeln.de

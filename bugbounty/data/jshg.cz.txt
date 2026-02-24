@@ -1,0 +1,7 @@
+autoconfig.jshg.cz
+autodiscover.jshg.cz
+mail.jshg.cz
+jitsi.jshg.cz
+element.jshg.cz
+matrix.jshg.cz
+turn.jshg.cz

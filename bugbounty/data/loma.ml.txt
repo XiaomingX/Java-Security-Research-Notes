@@ -1,0 +1,8 @@
+promo.loma.ml
+munin.loma.ml
+node.loma.ml
+mta-sts.loma.ml
+jabber.loma.ml
+p.loma.ml
+matomo.loma.ml
+mail.loma.ml

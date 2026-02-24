@@ -1,0 +1,7 @@
+autodiscover.calldoe.com
+fax.calldoe.com
+mail.calldoe.com
+pip.calldoe.com
+spam.calldoe.com
+sp.calldoe.com
+support.calldoe.com

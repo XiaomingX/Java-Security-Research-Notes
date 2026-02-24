@@ -1,0 +1,13 @@
+avatar.iopay.me
+nft.iopay.me
+api.iopay.me
+iopayproject.iopay.me
+web.iopay.me
+feedback.iopay.me
+coingecko-proxy.iopay.me
+static.iopay.me
+docs.iopay.me
+blog.iopay.me
+gateway.iopay.me
+campaign.iopay.me
+gateway-prod.iopay.me

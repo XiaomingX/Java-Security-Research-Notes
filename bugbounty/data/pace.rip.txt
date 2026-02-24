@@ -1,0 +1,4 @@
+io.pace.rip
+info.pace.rip
+music.pace.rip
+room.pace.rip

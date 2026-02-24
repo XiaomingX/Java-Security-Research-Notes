@@ -1,0 +1,10 @@
+assertinc.relenergy.com
+autodiscover.relenergy.com
+cpanel.relenergy.com
+cpcalendars.relenergy.com
+cpcontacts.relenergy.com
+mail.relenergy.com
+test.relenergy.com
+webdisk.relenergy.com
+webmail.relenergy.com
+gshomeinc.relenergy.com

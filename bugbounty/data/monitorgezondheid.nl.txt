@@ -1,0 +1,7 @@
+test.monitorgezondheid.nl
+acceptatie.monitorgezondheid.nl
+digitalevragenlijst.monitorgezondheid.nl
+staging.monitorgezondheid.nl
+demo.monitorgezondheid.nl
+w.monitorgezondheid.nl
+localhost.monitorgezondheid.nl

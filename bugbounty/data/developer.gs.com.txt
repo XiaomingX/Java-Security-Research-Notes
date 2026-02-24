@@ -1,0 +1,2 @@
+status.developer.gs.com
+qa.developer.gs.com

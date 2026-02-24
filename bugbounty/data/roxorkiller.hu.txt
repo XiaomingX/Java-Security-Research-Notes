@@ -1,0 +1,13 @@
+office.roxorkiller.hu
+main.roxorkiller.hu
+plex.roxorkiller.hu
+overseer.roxorkiller.hu
+stream.roxorkiller.hu
+ds.roxorkiller.hu
+torrent.roxorkiller.hu
+emby.roxorkiller.hu
+sd.roxorkiller.hu
+unifi.roxorkiller.hu
+ha.roxorkiller.hu
+ombi.roxorkiller.hu
+freenas.roxorkiller.hu

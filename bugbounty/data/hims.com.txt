@@ -1,0 +1,10 @@
+dev.hims.com
+support.hims.com
+investors.hims.com
+flow-server.hims.com
+links.alerts.hims.com
+link.app.hims.com
+news.hims.com
+links.news.hims.com
+app.hims.com
+master-staging.dev.hims.com

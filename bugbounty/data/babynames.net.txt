@@ -1,0 +1,9 @@
+staging.babynames.net
+babylist.babynames.net
+everydayhappy.babynames.net
+e.babynames.net
+test.babynames.net
+com.bogarsoft.babynames.net
+offers.babynames.net
+pop.babynames.net
+costcalc.babynames.net

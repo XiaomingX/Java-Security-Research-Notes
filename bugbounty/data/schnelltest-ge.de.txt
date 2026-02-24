@@ -1,0 +1,2 @@
+autoconfig.schnelltest-ge.de
+autodiscover.schnelltest-ge.de

@@ -1,0 +1,6 @@
+root.etika.ro
+ftp.etika.ro
+relay.etika.ro
+ns.etika.ro
+ns1.etika.ro
+mail.etika.ro

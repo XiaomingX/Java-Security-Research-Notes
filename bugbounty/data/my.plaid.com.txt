@@ -1,0 +1,2 @@
+api.my.plaid.com
+ap.my.plaid.com

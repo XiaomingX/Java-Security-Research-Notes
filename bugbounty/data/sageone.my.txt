@@ -1,0 +1,7 @@
+help.accounting.sageone.my
+accounting.sageone.my
+aws.accounting.sageone.my
+preproduction.accounting.sageone.my
+conversionpreprod.accounting.sageone.my
+stage.accounting.sageone.my
+test.sageone.my

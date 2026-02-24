@@ -1,0 +1,10 @@
+test1-internet.zeiss.ua
+stage-internet.zeiss.ua
+datapipeline.zeiss.ua
+preprod-internet.zeiss.ua
+development-internet.zeiss.ua
+test2-internet.zeiss.ua
+test3-internet.zeiss.ua
+autodiscover.zeiss.ua
+freedom.zeiss.ua
+gw-rig.zeiss.ua

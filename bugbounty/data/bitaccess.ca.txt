@@ -1,0 +1,8 @@
+lakediamond-comm.bitaccess.ca
+blog.bitaccess.ca
+location.bitaccess.ca
+search.bitaccess.ca
+pay.bitaccess.ca
+lakediamond-kyc.bitaccess.ca
+operator.bitaccess.ca
+docker-registry.bitaccess.ca

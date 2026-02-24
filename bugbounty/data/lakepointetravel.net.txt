@@ -1,0 +1,8 @@
+lptsrv01.lakepointetravel.net
+pbx.lakepointetravel.net
+mail.lakepointetravel.net
+webmail.lakepointetravel.net
+email.lakepointetravel.net
+mail1.lakepointetravel.net
+pbx1.lakepointetravel.net
+pay.lakepointetravel.net

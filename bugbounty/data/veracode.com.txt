@@ -1,0 +1,6 @@
+malachite.veracode.com
+test.surveys.veracode.com
+surveys.veracode.com
+login.malachite.veracode.com
+login.analysiscenter.veracode.com
+status.veracode.com

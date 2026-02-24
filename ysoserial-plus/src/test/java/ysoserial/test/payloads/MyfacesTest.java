@@ -25,7 +25,7 @@ import org.mockito.stubbing.Answer;
 
 import ysoserial.payloads.util.Reflections;
 import ysoserial.test.CustomDeserializer;
-import ysoserial.Deserializer;
+import ysoserial.core.Deserializer;
 
 
 /**

@@ -1,0 +1,8 @@
+stagingarchway.dentalcare.ca
+account-stage.dentalcare.ca
+account.dentalcare.ca
+archway.dentalcare.ca
+pg.dentalcare.ca
+stage.dentalcare.ca
+media.dentalcare.ca
+dev.dentalcare.ca

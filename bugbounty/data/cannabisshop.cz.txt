@@ -1,0 +1,4 @@
+mysql.cannabisshop.cz
+smtp.cannabisshop.cz
+admin.cannabisshop.cz
+mail.cannabisshop.cz

@@ -1,0 +1,12 @@
+next.yourls.org
+app.yourls.org
+docs.yourls.org
+awesome.yourls.org
+charts.yourls.org
+discourse.yourls.org
+xn--hh-bjab.yourls.org
+test.yourls.org
+api.yourls.org
+blog.yourls.org
+php7.yourls.org
+test.api.yourls.org

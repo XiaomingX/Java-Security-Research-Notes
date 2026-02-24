@@ -1,0 +1,8 @@
+training.prettigcontactmetdeoverheid.nl
+mail.prettigcontactmetdeoverheid.nl
+ftp.prettigcontactmetdeoverheid.nl
+smtp.prettigcontactmetdeoverheid.nl
+nieuws.prettigcontactmetdeoverheid.nl
+pop.prettigcontactmetdeoverheid.nl
+autoconfig.prettigcontactmetdeoverheid.nl
+autodiscover.prettigcontactmetdeoverheid.nl

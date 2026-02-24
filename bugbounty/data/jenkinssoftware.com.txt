@@ -1,0 +1,5 @@
+vwww.jenkinssoftware.com
+hostmaster.jenkinssoftware.com
+mail.jenkinssoftware.com
+mta-sts.mail.jenkinssoftware.com
+natpunch.jenkinssoftware.com

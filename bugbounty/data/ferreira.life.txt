@@ -1,0 +1,11 @@
+smtp.ferreira.life
+ftp.ferreira.life
+countdowns.ferreira.life
+pop.ferreira.life
+smtp.mc.ferreira.life
+timer.ferreira.life
+ftp.mc.ferreira.life
+mail.mc.ferreira.life
+mail.ferreira.life
+mc.ferreira.life
+pop.mc.ferreira.life

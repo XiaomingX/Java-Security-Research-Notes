@@ -1,0 +1,4 @@
+horizon-api.www.espaskincare.es
+sgtm.espaskincare.es
+checkout.espaskincare.es
+m.espaskincare.es

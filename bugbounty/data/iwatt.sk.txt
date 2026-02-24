@@ -1,0 +1,4 @@
+assets.iwatt.sk
+doverunliga.iwatt.sk
+partneri.iwatt.sk
+blog.iwatt.sk

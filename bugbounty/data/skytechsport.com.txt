@@ -1,0 +1,4 @@
+config.skytechsport.com
+la.skytechsport.com
+mideast.skytechsport.com
+config2.skytechsport.com

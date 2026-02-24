@@ -1,0 +1,2 @@
+mail.sporim-energii.cz
+mysql.sporim-energii.cz

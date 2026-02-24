@@ -1,0 +1,7 @@
+maxtel.positrex.com
+alan.positrex.com
+payments.positrex.com
+doc.positrex.com
+en.positrex.com
+m2m.positrex.com
+eshop.positrex.com

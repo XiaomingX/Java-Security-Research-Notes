@@ -1,0 +1,4 @@
+vpn.definitive.com
+cpanel.definitive.com
+webdisk.definitive.com
+webmail.definitive.com

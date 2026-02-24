@@ -1,0 +1,2 @@
+indega.com.pywww.indega.com.py
+mail.indega.com.py

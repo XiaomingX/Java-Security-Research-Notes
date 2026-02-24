@@ -1,0 +1,3 @@
+shop.linde.in
+golf.linde.in
+static.shop.linde.in

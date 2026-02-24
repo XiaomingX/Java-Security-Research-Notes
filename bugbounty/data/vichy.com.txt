@@ -1,0 +1,5 @@
+m.newsletters.vichy.com
+t.newsletters.vichy.com
+res.newsletters.vichy.com
+dermscience-summit.vichy.com
+newsletters.vichy.com

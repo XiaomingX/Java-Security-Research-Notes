@@ -1,0 +1,5 @@
+cdn.jefit.com
+support.jefit.com
+test.jefit.com
+local.jefit.com
+mb.jefit.com

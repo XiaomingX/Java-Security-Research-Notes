@@ -1,0 +1,5 @@
+mail.mail.ceskenemovitosti.cz
+autodiscover.mail.ceskenemovitosti.cz
+discover.mail.ceskenemovitosti.cz
+mail.ceskenemovitosti.cz
+autoconfig.mail.ceskenemovitosti.cz

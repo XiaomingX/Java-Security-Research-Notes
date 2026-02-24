@@ -1,0 +1,7 @@
+member-es.tucasaclub.com
+token.tucasaclub.com
+testaclub.tucasaclub.com
+promociones.tucasaclub.com
+api.tucasaclub.com
+mail.tucasaclub.com
+webmail.tucasaclub.com

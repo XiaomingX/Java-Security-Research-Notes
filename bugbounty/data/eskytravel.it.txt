@@ -1,0 +1,8 @@
+go.eskytravel.it
+secure.eskytravel.it
+wizzair.eskytravel.it
+www2.eskytravel.it
+www2.secure.eskytravel.it
+app.eskytravel.it
+etm.eskytravel.it
+autonoleggio.eskytravel.it

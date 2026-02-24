@@ -1,0 +1,4 @@
+kauppa.vuokatinranta.fi
+dev.vuokatinranta.fi
+build.vuokatinranta.fi
+autodiscover.vuokatinranta.fi

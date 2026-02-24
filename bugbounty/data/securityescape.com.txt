@@ -1,0 +1,9 @@
+mail.securityescape.com
+support.securityescape.com
+cpcontacts.securityescape.com
+webmail.securityescape.com
+cpcalendars.securityescape.com
+careers.securityescape.com
+cpanel.securityescape.com
+webdisk.securityescape.com
+autodiscover.securityescape.com

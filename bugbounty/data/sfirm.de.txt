@@ -1,0 +1,9 @@
+store.sfirm.de
+content.sfirm.de
+feedback.sfirm.de
+service.sfirm.de
+support.sfirm.de
+shop.sfirm.de
+download.sfirm.de
+hilfe.sfirm.de
+local.sfirm.de

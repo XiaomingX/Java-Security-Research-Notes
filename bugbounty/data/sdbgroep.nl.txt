@@ -1,0 +1,14 @@
+support.sdbgroep.nl
+durga.sdbgroep.nl
+blog.sdbgroep.nl
+cryptshare.sdbgroep.nl
+status.sdbgroep.nl
+opencve.sdbgroep.nl
+updates.sdbgroep.nl
+ptdag.sdbgroep.nl
+info.sdbgroep.nl
+staging.sdbgroep.nl
+mail.sdbgroep.nl
+stg.sdbgroep.nl
+eramba.sdbgroep.nl
+helpdesk.sdbgroep.nl

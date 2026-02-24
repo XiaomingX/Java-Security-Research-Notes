@@ -1,0 +1,9 @@
+autodiscover.cooksdirect.com
+beta.cooksdirect.com
+cd-bc.cooksdirect.com
+dev.cooksdirect.com
+e.cooksdirect.com
+mail.cooksdirect.com
+nav.cooksdirect.com
+remote.cooksdirect.com
+crm.cooksdirect.com

@@ -1,0 +1,10 @@
+smtp.trendingstuff.net
+imap.trendingstuff.net
+ftp.trendingstuff.net
+ww2.trendingstuff.net
+m.trendingstuff.net
+pop.trendingstuff.net
+demo.trendingstuff.net
+dev.trendingstuff.net
+admin.trendingstuff.net
+mail.trendingstuff.net

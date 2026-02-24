@@ -1,0 +1,6 @@
+partner.samsung-mygalaxy.com
+stgapplication.samsung-mygalaxy.com
+deepindexing-preprod.samsung-mygalaxy.com
+dev.samsung-mygalaxy.com
+stgpartner.samsung-mygalaxy.com
+stgvideos.samsung-mygalaxy.com

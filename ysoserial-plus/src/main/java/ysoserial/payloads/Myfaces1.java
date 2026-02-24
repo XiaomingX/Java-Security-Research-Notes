@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 
 
 import javax.el.ELContext;

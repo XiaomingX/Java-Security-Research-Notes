@@ -1,0 +1,2 @@
+checkout.shop.resmed.com
+api.shop.resmed.com

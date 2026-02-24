@@ -1,0 +1,2 @@
+beta.cyclonedx.org
+next.cyclonedx.org

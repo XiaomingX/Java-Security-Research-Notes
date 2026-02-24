@@ -1,0 +1,6 @@
+click.email.titanbrands.com
+cloud.email.titanbrands.com
+image.email.titanbrands.com
+manuals.titanbrands.com
+track.titanbrands.com
+view.email.titanbrands.com

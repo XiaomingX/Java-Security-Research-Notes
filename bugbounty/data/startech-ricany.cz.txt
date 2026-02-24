@@ -1,0 +1,3 @@
+intranet.startech-ricany.cz
+terminal.startech-ricany.cz
+mail.startech-ricany.cz

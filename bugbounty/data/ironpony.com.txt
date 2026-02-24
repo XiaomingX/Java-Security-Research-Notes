@@ -1,0 +1,8 @@
+autodiscover.ironpony.com
+mail.ironpony.com
+events.ironpony.com
+exchange.ironpony.com
+ipexch1.ironpony.com
+mobile.ironpony.com
+rdpca.ironpony.com
+wws5.ironpony.com

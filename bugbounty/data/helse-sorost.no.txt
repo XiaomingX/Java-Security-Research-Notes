@@ -1,0 +1,16 @@
+admininfo.helse-sorost.no
+selvbetjening.helse-sorost.no
+old.helse-sorost.no
+wiki.helse-sorost.no
+kurs.helse-sorost.no
+sip.helse-sorost.no
+kurskatalog.helse-sorost.no
+avtalespesialister.helse-sorost.no
+laeringsportalen.helse-sorost.no
+lyncdiscover.helse-sorost.no
+intranett.helse-sorost.no
+smtp2.helse-sorost.no
+smtp.helse-sorost.no
+kurs-preprod.helse-sorost.no
+kurs-test.helse-sorost.no
+kvalitet.helse-sorost.no

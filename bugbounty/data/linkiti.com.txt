@@ -1,0 +1,7 @@
+cpcalendars.linkiti.com
+cpcontacts.linkiti.com
+webmail.linkiti.com
+webdisk.linkiti.com
+cpanel.linkiti.com
+autodiscover.linkiti.com
+mail.linkiti.com

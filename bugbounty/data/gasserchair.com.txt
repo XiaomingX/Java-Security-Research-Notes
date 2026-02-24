@@ -1,0 +1,8 @@
+autodiscover.gasserchair.com
+link.gasserchair.com
+mail.gasserchair.com
+server.gasserchair.com
+utm.gasserchair.com
+vpn.gasserchair.com
+gc-exc-10.gasserchair.com
+oma.gasserchair.com

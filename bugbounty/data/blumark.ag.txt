@@ -1,0 +1,6 @@
+mail.blumark.ag
+ftp.blumark.ag
+smtp.blumark.ag
+netpass.blumark.ag
+webmail.blumark.ag
+m.blumark.ag

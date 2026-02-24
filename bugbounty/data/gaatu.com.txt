@@ -1,0 +1,4 @@
+odoo-v16.gaatu.com
+odoo.gaatu.com
+voip.gaatu.com
+odoo-sandbox.gaatu.com

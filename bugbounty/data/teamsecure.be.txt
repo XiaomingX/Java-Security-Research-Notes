@@ -1,0 +1,3 @@
+de.teamsecure.be
+fr.teamsecure.be
+en.teamsecure.be

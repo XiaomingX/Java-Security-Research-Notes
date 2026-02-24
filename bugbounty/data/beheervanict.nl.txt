@@ -1,0 +1,4 @@
+autoconfig.beheervanict.nl
+autodiscover.beheervanict.nl
+mail.beheervanict.nl
+srv.beheervanict.nl

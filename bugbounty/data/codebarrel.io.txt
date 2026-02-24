@@ -1,0 +1,7 @@
+nps-for-jira.codebarrel.io
+npm.codebarrel.io
+status.codebarrel.io
+docs.codebarrel.io
+blog.codebarrel.io
+trial.codebarrel.io
+automation.codebarrel.io

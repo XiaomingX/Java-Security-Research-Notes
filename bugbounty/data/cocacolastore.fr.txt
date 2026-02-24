@@ -1,0 +1,4 @@
+oldqa.cocacolastore.fr
+qa.cocacolastore.fr
+qa2.cocacolastore.fr
+em.cocacolastore.fr

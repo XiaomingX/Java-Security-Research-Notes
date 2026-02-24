@@ -1,0 +1,13 @@
+api.kite.trade
+api-mobile.kite.trade
+developers.kite.trade
+websocket.kite.trade
+ws.kite.trade
+api-partners.kite.trade
+api-sandbox.kite.trade
+api-uat.kite.trade
+uat.kite.trade
+ws-partners.kite.trade
+mock-api.kite.trade
+broker.kite.trade
+self.kite.trade

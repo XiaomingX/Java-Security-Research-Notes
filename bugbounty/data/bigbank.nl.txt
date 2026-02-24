@@ -1,0 +1,9 @@
+nl.bigbank.nl
+email.bigbank.nl
+welcome.bigbank.nl
+static.bigbank.nl
+banking.bigbank.nl
+selfservice-staging.bigbank.nl
+maintenance.bigbank.nl
+net.bigbank.nl
+www2.bigbank.nl

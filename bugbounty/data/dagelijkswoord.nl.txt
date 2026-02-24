@@ -1,0 +1,5 @@
+iphoneapp.dagelijkswoord.nl
+feed.dagelijkswoord.nl
+bijbel.dagelijkswoord.nl
+bounces.dagelijkswoord.nl
+mx.dagelijkswoord.nl

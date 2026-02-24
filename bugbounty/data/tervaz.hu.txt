@@ -1,0 +1,4 @@
+autodiscover.tervaz.hu
+remote.tervaz.hu
+mail.tervaz.hu
+bp.tervaz.hu

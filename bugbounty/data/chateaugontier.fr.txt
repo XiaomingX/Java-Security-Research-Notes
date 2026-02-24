@@ -1,0 +1,13 @@
+owncloud.chateaugontier.fr
+mediatheque.chateaugontier.fr
+urbanisme.chateaugontier.fr
+intranet.chateaugontier.fr
+sports.chateaugontier.fr
+culture.chateaugontier.fr
+sig.chateaugontier.fr
+patrimoine.chateaugontier.fr
+ddc.chateaugontier.fr
+ftp.owncloud.chateaugontier.fr
+loisirs.chateaugontier.fr
+scot.chateaugontier.fr
+emploi.chateaugontier.fr

@@ -1,0 +1,5 @@
+autodiscover.memphiscac.org
+mail.memphiscac.org
+w.memphiscac.org
+pay.memphiscac.org
+exchange12.memphiscac.org

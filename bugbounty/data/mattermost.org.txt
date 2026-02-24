@@ -1,0 +1,4 @@
+old.mattermost.org
+forum.mattermost.org
+docs.mattermost.org
+discourse.mattermost.org

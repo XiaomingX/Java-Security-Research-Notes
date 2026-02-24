@@ -1,0 +1,6 @@
+admin-ilg1.domainscope.com
+demo.domainscope.com
+m.domainscope.com
+admin.domainscope.com
+admin-brn1.domainscope.com
+verisign.domainscope.com

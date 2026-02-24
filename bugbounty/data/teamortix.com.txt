@@ -1,0 +1,6 @@
+files.teamortix.com
+dev.teamortix.com
+gitea.teamortix.com
+f.teamortix.com
+restic.teamortix.com
+blog.teamortix.com

@@ -1,0 +1,4 @@
+inetorders.fxtran.com
+syn2.fxtran.com
+synology2.fxtran.com
+xinternet.fxtran.com

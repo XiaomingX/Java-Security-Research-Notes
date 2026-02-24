@@ -1,0 +1,6 @@
+stage.sipeko.at
+link.sipeko.at
+webaccess.sipeko.at
+mail.sipeko.at
+remote.sipeko.at
+test-webaccess.sipeko.at

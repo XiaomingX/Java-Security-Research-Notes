@@ -1,0 +1,3 @@
+api.demodata.eu
+mta-sts.demodata.eu
+status.demodata.eu

@@ -1,0 +1,8 @@
+autodiscover.acdd.com
+crm.acdd.com
+forms.acdd.com
+mail.acdd.com
+mitel.acdd.com
+sagex3.acdd.com
+staging.acdd.com
+test.acdd.com

@@ -1,0 +1,15 @@
+gift.weekendesk.be
+testgift.weekendesk.be
+staging.weekendesk.be
+m-checkout.staging.weekendesk.be
+m-checkout.weekendesk.be
+circuits.weekendesk.be
+exclusive.staging.weekendesk.be
+exclusive.weekendesk.be
+preprod-exclusive.weekendesk.be
+preprod-m-checkout.weekendesk.be
+preprod-www.weekendesk.be
+lizgdj.weekendesk.be
+m.weekendesk.be
+staging-www.weekendesk.be
+notification.weekendesk.be

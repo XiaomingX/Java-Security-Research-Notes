@@ -1,0 +1,2 @@
+autodiscover.vanbreda-medius.be
+mta-sts.vanbreda-medius.be

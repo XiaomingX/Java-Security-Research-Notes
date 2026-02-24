@@ -1,0 +1,2 @@
+horizon-api.yardleylondon.co.uk
+checkout.yardleylondon.co.uk

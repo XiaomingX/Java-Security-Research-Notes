@@ -1,0 +1,7 @@
+mail.sagardefence.com
+webmail.sagardefence.com
+autodiscover.sagardefence.com
+cpanel.sagardefence.com
+cpcalendars.sagardefence.com
+cpcontacts.sagardefence.com
+webdisk.sagardefence.com

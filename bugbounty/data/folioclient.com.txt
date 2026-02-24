@@ -1,0 +1,8 @@
+dap.folioclient.com
+dev.folioclient.com
+maintenance.folioclient.com
+test.folioclient.com
+w.folioclient.com
+info.folioclient.com
+ww.folioclient.com
+prod.folioclient.com

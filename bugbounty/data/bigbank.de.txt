@@ -1,0 +1,10 @@
+banking.bigbank.de
+selfservice-staging.bigbank.de
+net.bigbank.de
+email.bigbank.de
+de.bigbank.de
+banking.staging.bigbank.de
+maintenance.bigbank.de
+welcome.bigbank.de
+static.bigbank.de
+openaicore.bigbank.de

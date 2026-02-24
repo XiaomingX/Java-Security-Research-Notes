@@ -1,0 +1,10 @@
+abonnementen.gefixt.nl
+staging.gefixt.nl
+cdn.gefixt.nl
+test.abonnementen.gefixt.nl
+mail.gefixt.nl
+staging.abonnementen.gefixt.nl
+acceptance.abonnementen.gefixt.nl
+delft.gefixt.nl
+service.gefixt.nl
+gouda.gefixt.nl

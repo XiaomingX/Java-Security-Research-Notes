@@ -1,0 +1,5 @@
+maas.fromdual.com
+webmail.fromdual.com
+support.fromdual.com
+mail.fromdual.com
+mail.webmail.fromdual.com

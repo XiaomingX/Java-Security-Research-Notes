@@ -1,0 +1,6 @@
+mail.evref.ch
+rds.evref.ch
+vpn.evref.ch
+webmail.evref.ch
+autodiscover.evref.ch
+ssl.evref.ch

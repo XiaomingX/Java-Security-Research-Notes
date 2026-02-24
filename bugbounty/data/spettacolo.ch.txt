@@ -1,0 +1,3 @@
+app.spettacolo.ch
+pickup.spettacolo.ch
+coupon.spettacolo.ch

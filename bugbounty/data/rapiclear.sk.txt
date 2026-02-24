@@ -1,0 +1,5 @@
+eshop.rapiclear.sk
+mailin1.rapiclear.sk
+mail.rapiclear.sk
+mailinbackup1.rapiclear.sk
+mailin2.rapiclear.sk

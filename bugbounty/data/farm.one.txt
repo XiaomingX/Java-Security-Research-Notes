@@ -1,0 +1,16 @@
+admin.farm.one
+app.farm.one
+go.farm.one
+my.farm.one
+portal.farm.one
+products.farm.one
+profile.farm.one
+sales.farm.one
+silo.farm.one
+store.farm.one
+cart.farm.one
+cartstaging.farm.one
+checkout.farm.one
+ice.farm.one
+track.farm.one
+tracker.farm.one

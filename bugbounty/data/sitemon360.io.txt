@@ -1,0 +1,2 @@
+app.sitemon360.io
+cdn.sitemon360.io

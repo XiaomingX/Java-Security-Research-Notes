@@ -1,0 +1,3 @@
+img.hplaptop.sk
+admin.hplaptop.sk
+mail.hplaptop.sk

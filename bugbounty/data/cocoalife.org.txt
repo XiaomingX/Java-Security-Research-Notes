@@ -1,0 +1,9 @@
+training-indonesia.cocoalife.org
+fr.cocoalife.org
+de.cocoalife.org
+pt.cocoalife.org
+es.cocoalife.org
+br.cocoalife.org
+ru.cocoalife.org
+tagging.cocoalife.org
+en.cocoalife.org

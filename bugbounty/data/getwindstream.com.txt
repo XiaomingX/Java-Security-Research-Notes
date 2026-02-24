@@ -1,0 +1,9 @@
+email.getwindstream.com
+ftp.getwindstream.com
+imap.getwindstream.com
+mail.getwindstream.com
+pda.getwindstream.com
+pop.getwindstream.com
+shop.getwindstream.com
+smtp.getwindstream.com
+webmail.getwindstream.com

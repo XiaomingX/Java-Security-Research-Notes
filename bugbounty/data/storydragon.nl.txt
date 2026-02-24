@@ -1,0 +1,14 @@
+muc.storydragon.nl
+xmpp-upload.storydragon.nl
+pad.storydragon.nl
+search.storydragon.nl
+send.storydragon.nl
+social.storydragon.nl
+sandbox-pad.storydragon.nl
+books.storydragon.nl
+write.storydragon.nl
+counter.storydragon.nl
+calender.storydragon.nl
+convert.storydragon.nl
+matrix.storydragon.nl
+git.storydragon.nl

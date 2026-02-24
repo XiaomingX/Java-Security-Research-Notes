@@ -1,0 +1,11 @@
+local.vapshop.cz
+webmail.vapshop.cz
+areabory.vapshop.cz
+img.vapshop.cz
+olympia.vapshop.cz
+pokladna.vapshop.cz
+cdn.vapshop.cz
+rokycanska.vapshop.cz
+aplikace.vapshop.cz
+admin.vapshop.cz
+svn.vapshop.cz

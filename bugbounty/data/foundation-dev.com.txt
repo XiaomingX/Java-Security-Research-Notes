@@ -1,0 +1,8 @@
+owa.foundation-dev.com
+remote.foundation-dev.com
+mail.foundation-dev.com
+autodiscover.foundation-dev.com
+bc2.foundation-dev.com
+exch2010.foundation-dev.com
+nav.foundation-dev.com
+bc.foundation-dev.com

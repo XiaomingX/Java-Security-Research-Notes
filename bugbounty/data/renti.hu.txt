@@ -1,0 +1,2 @@
+renti-uat.renti.hu
+renti-dev.renti.hu

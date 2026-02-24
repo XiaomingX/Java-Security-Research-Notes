@@ -1,0 +1,16 @@
+admin.edureka.co
+alumni.edureka.co
+blog.edureka.co
+careers.edureka.co
+cdn.edureka.co
+cloudlab.edureka.co
+cloudlabs.edureka.co
+enterprise.edureka.co
+fs-api.edureka.co
+fs-svc.edureka.co
+fs.edureka.co
+labs.edureka.co
+pages.edureka.co
+resources.edureka.co
+webinar.edureka.co
+bdlabs.edureka.co

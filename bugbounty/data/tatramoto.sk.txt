@@ -1,0 +1,6 @@
+eshop.tatramoto.sk
+mail.tatramoto.sk
+mailin1.tatramoto.sk
+mailin2.tatramoto.sk
+ns2.tatramoto.sk
+ns1.tatramoto.sk

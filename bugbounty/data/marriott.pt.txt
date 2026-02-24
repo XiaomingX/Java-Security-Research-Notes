@@ -1,0 +1,17 @@
+miram-uat01.marriott.pt
+swi-bpv.marriott.pt
+uat02.marriott.pt
+mysupport.marriott.pt
+airandcar.marriott.pt
+mi-ramdev001.marriott.pt
+uat07.marriott.pt
+ram-preprod.marriott.pt
+uat06.marriott.pt
+uat04.marriott.pt
+uat05.marriott.pt
+aries-prodreplica.marriott.pt
+uat03.marriott.pt
+ose-intdev2.marriott.pt
+crramstarwood.marriott.pt
+miat01.marriott.pt
+spg.marriott.pt

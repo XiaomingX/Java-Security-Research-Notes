@@ -28,18 +28,30 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 import ysoserial.*;
-import ysoserial.payloads.DynamicDependencies;
-import ysoserial.payloads.ObjectPayload;
-import ysoserial.test.CustomTest;
-import ysoserial.test.CustomDeserializer;
-import ysoserial.test.CustomPayloadArgs;
-import ysoserial.test.WrappedTest;
-import ysoserial.test.payloads.TestHarnessTest.ExecMockPayload;
-import ysoserial.test.payloads.TestHarnessTest.NoopMockPayload;
-import ysoserial.payloads.annotation.Dependencies;
-import ysoserial.payloads.annotation.PayloadTest;
-import ysoserial.payloads.util.ClassFiles;
-
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.payloads.DynamicDependencies;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.core.ObjectPayload;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.CustomTest;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.CustomDeserializer;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.CustomPayloadArgs;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.WrappedTest;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.payloads.TestHarnessTest.ExecMockPayload;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.test.payloads.TestHarnessTest.NoopMockPayload;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.payloads.annotation.Dependencies;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.payloads.annotation.PayloadTest;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;import ysoserial.payloads.util.ClassFiles;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;
 
 /*
  * tests each of the parameterize Payload classes by using a mock SecurityManager that throws

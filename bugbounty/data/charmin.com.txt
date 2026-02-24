@@ -1,0 +1,14 @@
+account.shop.charmin.com
+ca.charmin.com
+es.charmin.com
+fr.charmin.com
+get.charmin.com
+quiz.charmin.com
+rs.charmin.com
+rs.get.charmin.com
+rs.shop.charmin.com
+sandbox.account.shop.charmin.com
+shop.charmin.com
+test-www.charmin.com
+test.charmin.com
+news.charmin.com

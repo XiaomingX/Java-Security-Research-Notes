@@ -1,0 +1,2 @@
+ec2.gist.github.com
+api.gist.github.com

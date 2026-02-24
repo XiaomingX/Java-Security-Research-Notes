@@ -1,0 +1,8 @@
+owa.securitymy.name
+ww1.securitymy.name
+ww99.securitymy.name
+webmail.securitymy.name
+openpgpkey.securitymy.name
+www.securitymy.name
+mail.securitymy.name
+autodiscover.securitymy.name

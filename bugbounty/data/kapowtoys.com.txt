@@ -1,0 +1,4 @@
+mail.kapowtoys.com
+hostmaster.kapowtoys.com
+ww1.kapowtoys.com
+ww38.kapowtoys.com

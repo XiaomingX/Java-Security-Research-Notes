@@ -1,0 +1,5 @@
+autodiscover.edgemfg.com
+remote.edgemfg.com
+staging.edgemfg.com
+mail.edgemfg.com
+staging2.edgemfg.com

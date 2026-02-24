@@ -1,0 +1,7 @@
+autodiscover.workscapeinc.com
+client.workscapeinc.com
+mail.workscapeinc.com
+portal.workscapeinc.com
+wiki.workscapeinc.com
+client2.workscapeinc.com
+magento.workscapeinc.com

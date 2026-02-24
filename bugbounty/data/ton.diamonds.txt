@@ -1,0 +1,5 @@
+nft.ton.diamonds
+support.ton.diamonds
+testnet.ton.diamonds
+api.ton.diamonds
+mainnet.ton.diamonds

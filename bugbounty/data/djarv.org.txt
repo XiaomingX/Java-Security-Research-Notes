@@ -1,0 +1,15 @@
+w.djarv.org
+mail.djarv.org
+srv2.djarv.org
+reader.djarv.org
+home.djarv.org
+calendar.djarv.org
+srv.djarv.org
+familj.djarv.org
+delathus.djarv.org
+a.djarv.org
+vecka.djarv.org
+git.djarv.org
+dev.delathus.djarv.org
+checkip.djarv.org
+dev.djarv.org

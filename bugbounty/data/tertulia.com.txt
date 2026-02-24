@@ -1,0 +1,6 @@
+authors-dev.tertulia.com
+authors.tertulia.com
+join.tertulia.com
+shop.tertulia.com
+pages.tertulia.com
+shops.tertulia.com

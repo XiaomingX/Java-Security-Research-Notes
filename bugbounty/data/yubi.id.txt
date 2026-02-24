@@ -1,0 +1,2 @@
+email.yubi.id
+mail.yubi.id

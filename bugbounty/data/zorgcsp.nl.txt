@@ -1,0 +1,7 @@
+secure.zorgcsp.nl
+acceptatie.zorgcsp.nl
+test.zorgcsp.nl
+acceptatie.secure.zorgcsp.nl
+acceptatie.services.zorgcsp.nl
+services.zorgcsp.nl
+acc.zorgcsp.nl

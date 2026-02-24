@@ -1,0 +1,3 @@
+autodiscover.gibsonathletic.com
+pay.gibsonathletic.com
+remote.gibsonathletic.com

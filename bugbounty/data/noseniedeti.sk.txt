@@ -1,0 +1,4 @@
+m.noseniedeti.sk
+blog.noseniedeti.sk
+webftp.noseniedeti.sk
+admin.noseniedeti.sk

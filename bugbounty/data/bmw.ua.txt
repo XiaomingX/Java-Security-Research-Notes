@@ -1,0 +1,12 @@
+cdn.bmw.ua
+backend.bmw.ua
+trade-in.bmw.ua
+configure.bmw.ua
+ndb.bmw.ua
+warranty.bmw.ua
+data.bmw.ua
+bmw-forms.bmw.ua
+portal.bmw.ua
+sales.bmw.ua
+shop.bmw.ua
+ua.bmw.ua

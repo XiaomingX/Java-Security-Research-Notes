@@ -1,0 +1,12 @@
+haaleitisskoli.reykjanesbaer.is
+listasafn.reykjanesbaer.is
+sofn.reykjanesbaer.is
+webdisk.tonlistarskoli.reykjanesbaer.is
+mail.tonlistarskoli.reykjanesbaer.is
+webmail.tonlistarskoli.reykjanesbaer.is
+owa.reykjanesbaer.is
+autodiscover.reykjanesbaer.is
+tonlistarskoli.reykjanesbaer.is
+cpanel.tonlistarskoli.reykjanesbaer.is
+mail.reykjanesbaer.is
+autodiscover.tonlistarskoli.reykjanesbaer.is

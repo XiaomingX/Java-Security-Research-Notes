@@ -1,0 +1,14 @@
+autoconfig.elmaz.com
+new.elmaz.com
+img.elmaz.com
+email.elmaz.com
+mx-out.elmaz.com
+s1.elmaz.com
+s2.elmaz.com
+show.elmaz.com
+sio1.elmaz.com
+web5.elmaz.com
+m.elmaz.com
+rklm.elmaz.com
+ns.elmaz.com
+ads.elmaz.com

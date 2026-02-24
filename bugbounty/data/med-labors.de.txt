@@ -1,0 +1,2 @@
+autoconfig.med-labors.de
+autodiscover.med-labors.de

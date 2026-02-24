@@ -1,0 +1,13 @@
+avault.mdwestserve.com
+backup.mdwestserve.com
+dev.mdwestserve.com
+ftp.mdwestserve.com
+processing.mdwestserve.com
+vpn.mdwestserve.com
+app.mdwestserve.com
+zonemonitor.mdwestserve.com
+monkey.mdwestserve.com
+zm.mdwestserve.com
+ai.mdwestserve.com
+mdws2.mdwestserve.com
+mail.mdwestserve.com

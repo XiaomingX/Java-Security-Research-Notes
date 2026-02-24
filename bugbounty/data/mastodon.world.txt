@@ -1,0 +1,4 @@
+tickets.mastodon.world
+status.mastodon.world
+wiki.mastodon.world
+blog.mastodon.world

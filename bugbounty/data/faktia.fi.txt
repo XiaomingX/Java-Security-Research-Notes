@@ -1,0 +1,6 @@
+intra.faktia.fi
+verkkokauppa.faktia.fi
+web1.faktia.fi
+sumu.faktia.fi
+paja.faktia.fi
+webmail.faktia.fi

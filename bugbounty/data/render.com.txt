@@ -1,0 +1,5 @@
+app.render.com
+image-registry.internal.dev.render.com
+localhost.render.com
+api.render.com
+api-docs.render.com

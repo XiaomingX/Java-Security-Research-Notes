@@ -1,0 +1,6 @@
+stage-internet.zeissvisioncentre.com
+preprod-internet.zeissvisioncentre.com
+development-internet.zeissvisioncentre.com
+test3-internet.zeissvisioncentre.com
+test2-internet.zeissvisioncentre.com
+test1-internet.zeissvisioncentre.com

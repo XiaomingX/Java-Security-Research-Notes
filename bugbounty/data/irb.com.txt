@@ -1,0 +1,7 @@
+autodiscover.irb.com
+mail.irb.com
+rims2.irb.com
+sharepoint.irb.com
+webmail.irb.com
+wsws.irb.com
+rims.irb.com

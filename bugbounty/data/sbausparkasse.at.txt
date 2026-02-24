@@ -1,0 +1,4 @@
+consent.sbausparkasse.at
+uat.sbausparkasse.at
+servicesu.sbausparkasse.at
+services.sbausparkasse.at

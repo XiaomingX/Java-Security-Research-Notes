@@ -1,0 +1,6 @@
+business.appic.events
+company.appic.events
+pf.appic.events
+link.appic.events
+jobs.appic.events
+dev.appic.events

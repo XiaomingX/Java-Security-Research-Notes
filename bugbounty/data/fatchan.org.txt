@@ -1,0 +1,5 @@
+bibliogram.fatchan.org
+sync.fatchan.org
+nitter.fatchan.org
+searx.fatchan.org
+invidious.fatchan.org

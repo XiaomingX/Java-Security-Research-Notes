@@ -1,0 +1,3 @@
+m1.folose.com
+auth.folose.com
+my.folose.com

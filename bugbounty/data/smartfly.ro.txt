@@ -1,0 +1,5 @@
+etm.smartfly.ro
+mail.smartfly.ro
+secure.smartfly.ro
+ns2.smartfly.ro
+ns1.smartfly.ro

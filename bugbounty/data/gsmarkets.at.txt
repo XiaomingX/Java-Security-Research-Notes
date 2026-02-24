@@ -1,0 +1,7 @@
+qa.flatex.gsmarkets.at
+qa.gsmarkets.at
+unterwww.gsmarkets.at
+fls.gsmarkets.at
+dev.gsmarkets.at
+blog.gsmarkets.at
+flatex.gsmarkets.at

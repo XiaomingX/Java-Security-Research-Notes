@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.URLConnection;

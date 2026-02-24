@@ -1,0 +1,6 @@
+app.enii-nails.sk
+lh.enii-nails.sk
+test.enii-nails.sk
+admin.enii-nails.sk
+admi.enii-nails.sk
+wadmin.enii-nails.sk

@@ -1,0 +1,11 @@
+mail.pathikshoes.cz
+webmail.pathikshoes.cz
+email.pathikshoes.cz
+imap.pathikshoes.cz
+imap-mail.pathikshoes.cz
+securemail.pathikshoes.cz
+owa.pathikshoes.cz
+staging.pathikshoes.cz
+intelligence.pathikshoes.cz
+report.pathikshoes.cz
+visual.pathikshoes.cz

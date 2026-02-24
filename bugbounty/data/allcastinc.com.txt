@@ -1,0 +1,2 @@
+mail.allcastinc.com
+ftp.allcastinc.com

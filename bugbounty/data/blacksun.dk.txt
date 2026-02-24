@@ -1,0 +1,2 @@
+mail.blacksun.dk
+autodiscover.blacksun.dk

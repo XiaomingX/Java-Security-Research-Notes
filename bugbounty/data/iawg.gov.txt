@@ -1,0 +1,7 @@
+feds.iawg.gov
+test.iawg.gov
+members.iawg.gov
+fedsreport.iawg.gov
+test.feds.iawg.gov
+_dmarc.iawg.gov
+test.fedsreport.iawg.gov

@@ -1,0 +1,11 @@
+forms.bek.coop
+ftp.bek.coop
+ipgeolocations.bek.coop
+merch.bek.coop
+patriot-1.bek.coop
+patriot-2.bek.coop
+patriot.bek.coop
+ebill.bek.coop
+sms.bek.coop
+smx.bek.coop
+support.bek.coop

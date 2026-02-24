@@ -1,0 +1,9 @@
+seo.myownconference.com
+cp.myownconference.com
+cdn.myownconference.com
+app.myownconference.com
+status.myownconference.com
+support.myownconference.com
+live.myownconference.com
+go.myownconference.com
+app-assets.myownconference.com

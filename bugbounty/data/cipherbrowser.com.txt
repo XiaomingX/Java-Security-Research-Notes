@@ -1,0 +1,2 @@
+mainnet.cipherbrowser.com
+dapps.cipherbrowser.com

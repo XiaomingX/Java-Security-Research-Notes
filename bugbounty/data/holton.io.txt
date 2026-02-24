@@ -1,0 +1,12 @@
+test.holton.io
+movies.holton.io
+sonarr.holton.io
+nzb.holton.io
+files.holton.io
+dsm.holton.io
+tv.holton.io
+mail.holton.io
+radarr.holton.io
+johnny.holton.io
+photos.holton.io
+plex.holton.io

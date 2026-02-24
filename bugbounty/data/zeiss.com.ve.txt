@@ -1,0 +1,10 @@
+test3-internet.zeiss.com.ve
+datapipeline.zeiss.com.ve
+preprod-internet.zeiss.com.ve
+portal-test.zeiss.com.ve
+development-internet.zeiss.com.ve
+stage-internet.zeiss.com.ve
+test2-internet.zeiss.com.ve
+vision.zeiss.com.ve
+test1-internet.zeiss.com.ve
+portal.zeiss.com.ve

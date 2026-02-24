@@ -1,0 +1,4 @@
+mta-sts.otakuramen.com
+order.otakuramen.com
+staging.otakuramen.com
+hello.otakuramen.com

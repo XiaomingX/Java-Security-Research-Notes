@@ -1,0 +1,3 @@
+autodiscover.lmi.ca
+enterpriseenrollment.lmi.ca
+sip.lmi.ca

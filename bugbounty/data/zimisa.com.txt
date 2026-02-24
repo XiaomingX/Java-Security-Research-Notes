@@ -1,0 +1,7 @@
+acme.zimisa.com
+acme2.zimisa.com
+acme3.zimisa.com
+acme4.zimisa.com
+blog.zimisa.com
+label.zimisa.com
+chatur714.zimisa.com

@@ -1,0 +1,8 @@
+privacy.ibbu.com
+academy.ibbu.com
+status.ibbu.com
+info.ibbu.com
+landing.ibbu.com
+help.ibbu.com
+app.ibbu.com
+login.ibbu.com

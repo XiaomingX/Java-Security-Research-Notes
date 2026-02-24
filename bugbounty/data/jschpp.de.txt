@@ -1,0 +1,8 @@
+matrix.jschpp.de
+znc.jschpp.de
+webdav.jschpp.de
+mail.jschpp.de
+brief.jschpp.de
+id4.jschpp.de
+mx2.jschpp.de
+captiveportal.jschpp.de

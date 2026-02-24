@@ -1,0 +1,2 @@
+opendata.academyforinternationalrelations.nl
+feeds.academyforinternationalrelations.nl

@@ -1,0 +1,5 @@
+mail.routerlogin.app
+webdisk.routerlogin.app
+webmail.routerlogin.app
+cpcalendars.routerlogin.app
+cpanel.routerlogin.app

@@ -1,0 +1,12 @@
+b2b.coastalsunbelt.com
+descartes.coastalsunbelt.com
+dev.coastalsunbelt.com
+network.coastalsunbelt.com
+online.coastalsunbelt.com
+prod.coastalsunbelt.com
+autodiscover.coastalsunbelt.com
+citrix.coastalsunbelt.com
+email.coastalsunbelt.com
+mail.coastalsunbelt.com
+owa.coastalsunbelt.com
+qa.coastalsunbelt.com

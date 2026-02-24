@@ -1,0 +1,8 @@
+ablink.news.braun.jp
+account.braun.jp
+dev-ssr.braun.jp
+mail.braun.jp
+o4303.abmail.news.braun.jp
+stage-account.braun.jp
+abmail.news.braun.jp
+news.braun.jp

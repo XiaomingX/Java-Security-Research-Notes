@@ -1,0 +1,8 @@
+webmail.kleineuiltje.nl
+cpanel.kleineuiltje.nl
+sig.kleineuiltje.nl
+cpcontacts.kleineuiltje.nl
+autodiscover.kleineuiltje.nl
+mail.kleineuiltje.nl
+cpcalendars.kleineuiltje.nl
+webdisk.kleineuiltje.nl

@@ -1,0 +1,6 @@
+doc.flexycore.com
+source.flexycore.com
+mark.flexycore.com
+asp.flexycore.com
+eclipse.flexycore.com
+cvs.flexycore.com

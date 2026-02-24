@@ -37,7 +37,7 @@ public class ShiroConfig {
         bean.setLoginUrl("/login");
         bean.setSuccessUrl("/index");
         bean.setUnauthorizedUrl("/unauthorizedurl");
-        Map<String, String> map = new LinkedHashMap();
+        Map<String, String> map = new LinkedHashMap<>();
         map.put("/login", "anon");
         map.put("/aaaaa/**", "anon");
         map.put("/bypass", "authc");

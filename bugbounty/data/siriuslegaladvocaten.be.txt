@@ -1,0 +1,2 @@
+mailchimp.siriuslegaladvocaten.be
+dev.siriuslegaladvocaten.be

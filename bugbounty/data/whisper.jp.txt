@@ -1,0 +1,4 @@
+pg.whisper.jp
+registration.whisper.jp
+productdiagnosis.whisper.jp
+preview.whisper.jp

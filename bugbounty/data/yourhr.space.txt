@@ -1,0 +1,13 @@
+test.yourhr.space
+admin.yourhr.space
+mcgrath.yourhr.space
+master.yourhr.space
+api.yourhr.space
+app.yourhr.space
+mongogui.yourhr.space
+dev.yourhr.space
+launch.yourhr.space
+host.yourhr.space
+sales.yourhr.space
+cpcontacts.yourhr.space
+cpcalendars.yourhr.space

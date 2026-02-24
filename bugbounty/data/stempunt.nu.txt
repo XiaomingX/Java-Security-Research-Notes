@@ -1,0 +1,9 @@
+wsapi.stempunt.nu
+app.stempunt.nu
+portal.stempunt.nu
+demo.app.stempunt.nu
+nl.stempunt.nu
+test6.stempunt.nu
+ek2004.stempunt.nu
+test9.stempunt.nu
+wk2006.stempunt.nu

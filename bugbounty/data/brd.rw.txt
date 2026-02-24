@@ -1,0 +1,10 @@
+edu.brd.rw
+mail.brd.rw
+giriwawe.brd.rw
+hatana.brd.rw
+boardpad.brd.rw
+egf.brd.rw
+iwanjye.brd.rw
+ebanking.brd.rw
+minuza.brd.rw
+brd.brd.rw

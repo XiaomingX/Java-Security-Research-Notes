@@ -1,0 +1,8 @@
+securebin.pt4.tech
+stats.pt4.tech
+kibana.pt4.tech
+desafio.pt4.tech
+store.pt4.tech
+cfsectools2.pt4.tech
+cfsectools.pt4.tech
+openvas.pt4.tech

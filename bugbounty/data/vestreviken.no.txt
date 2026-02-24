@@ -1,0 +1,8 @@
+klagemodulen.vestreviken.no
+ehandbok.vestreviken.no
+sip.vestreviken.no
+lyncdiscover.vestreviken.no
+mx1.vestreviken.no
+mail1.vestreviken.no
+mail2.vestreviken.no
+mx2.vestreviken.no

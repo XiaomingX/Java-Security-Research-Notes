@@ -1,0 +1,6 @@
+autodiscover.ipmseattle.com
+host.ipmseattle.com
+mail.ipmseattle.com
+qbi.ipmseattle.com
+remote.ipmseattle.com
+schedule.ipmseattle.com

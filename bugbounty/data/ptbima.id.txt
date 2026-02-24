@@ -1,0 +1,17 @@
+apibimops.ptbima.id
+bi-get.ptbima.id
+bimart.ptbima.id
+bimops.ptbima.id
+bimopsreborn.ptbima.id
+bimpro.ptbima.id
+cpanel.ptbima.id
+cpcalendars.ptbima.id
+cpcontacts.ptbima.id
+dashboard.ptbima.id
+eproc.ptbima.id
+mail.ptbima.id
+my.ptbima.id
+webdisk.ptbima.id
+webmail.ptbima.id
+adminwilker.ptbima.id
+bimahukum.ptbima.id

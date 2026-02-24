@@ -1,0 +1,8 @@
+autodiscover.cooneybrothers.com
+cdn.cooneybrothers.com
+connector.cooneybrothers.com
+mail.cooneybrothers.com
+phocas.cooneybrothers.com
+ptvpn.cooneybrothers.com
+remote.cooneybrothers.com
+vpn.cooneybrothers.com

@@ -1,0 +1,11 @@
+cgi.techtv.com
+graphics.techtv.com
+origin.techtv.com
+stream.techtv.com
+ads.techtv.com
+cache.techtv.com
+personals.techtv.com
+20www.techtv.com
+adinsight.techtv.com
+app.techtv.com
+bbs.techtv.com

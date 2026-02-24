@@ -1,0 +1,11 @@
+lsgateway.shedmedia.com
+gpvpn.shedmedia.com
+mail.shedmedia.com
+autodiscover.shedmedia.com
+ns2.shedmedia.com
+vpn.shedmedia.com
+mail2.shedmedia.com
+mx1.shedmedia.com
+sip.shedmedia.com
+spam.shedmedia.com
+email.shedmedia.com

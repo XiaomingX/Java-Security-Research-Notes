@@ -1,0 +1,6 @@
+aide.glassdoor.fr
+resources.glassdoor.fr
+contentservice.glassdoor.fr
+static.glassdoor.fr
+contentsvc.glassdoor.fr
+employeurs.glassdoor.fr

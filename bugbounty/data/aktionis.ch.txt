@@ -1,0 +1,8 @@
+secfp.aktionis.ch
+api-iosapp.aktionis.ch
+business.aktionis.ch
+api-androidapp.aktionis.ch
+aktionis.aktionis.ch
+mitreden.aktionis.ch
+new.aktionis.ch
+legacy.aktionis.ch

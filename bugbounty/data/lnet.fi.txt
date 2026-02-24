@@ -1,0 +1,6 @@
+lumme.lnet.fi
+ssl1.srv.lnet.fi
+udb.srv.lnet.fi
+wlan-auth.lnet.fi
+wlctrl.srv.lnet.fi
+wlan-auth.srv.lnet.fi

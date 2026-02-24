@@ -1,0 +1,9 @@
+a.deepsee.io
+portal-api.deepsee.io
+api.deepsee.io
+staging.deepsee.io
+r2.deepsee.io
+accounts.deepsee.io
+clerk.deepsee.io
+billing.deepsee.io
+data.deepsee.io

@@ -1,0 +1,7 @@
+ip4.mail.footlocker.ae
+data.footlocker.ae
+ip1.mail.footlocker.ae
+ip2.mail.footlocker.ae
+links.mail.footlocker.ae
+drdtnj.footlocker.ae
+ip3.mail.footlocker.ae

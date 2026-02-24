@@ -1,0 +1,2 @@
+mail.nakupni-dum-praha.cz
+cdn.nakupni-dum-praha.cz

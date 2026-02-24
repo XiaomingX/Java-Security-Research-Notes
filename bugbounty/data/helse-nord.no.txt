@@ -1,0 +1,15 @@
+intranett.helse-nord.no
+discoverreceiver.helse-nord.no
+lyncdiscover.helse-nord.no
+gml-intranett.helse-nord.no
+staging.www.helse-nord.no
+sip.helse-nord.no
+campus.helse-nord.no
+gml-staging.intranett.helse-nord.no
+lyncdiscoverinternal.helse-nord.no
+m.helse-nord.no
+staging.intranett.helse-nord.no
+autodiscover.helse-nord.no
+arkiv.www.helse-nord.no
+mm.helse-nord.no
+wm.helse-nord.no

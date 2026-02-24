@@ -1,0 +1,7 @@
+intranett.pasientreiser.no
+veileder.pasientreiser.no
+sip.pasientreiser.no
+lyncdiscover.pasientreiser.no
+kurs.pasientreiser.no
+ekurs.pasientreiser.no
+nissy.pasientreiser.no

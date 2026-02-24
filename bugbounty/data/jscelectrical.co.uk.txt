@@ -1,0 +1,6 @@
+mail.jscelectrical.co.uk
+cpcalendars.jscelectrical.co.uk
+webmail.jscelectrical.co.uk
+webdisk.jscelectrical.co.uk
+cpanel.jscelectrical.co.uk
+cpcontacts.jscelectrical.co.uk

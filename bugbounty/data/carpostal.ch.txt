@@ -1,0 +1,9 @@
+int.carpostal.ch
+mobile.carpostal.ch
+app.carpostal.ch
+sip.carpostal.ch
+webshop.carpostal.ch
+autodiscover.carpostal.ch
+movimento.carpostal.ch
+robi.carpostal.ch
+lyncdiscover.carpostal.ch

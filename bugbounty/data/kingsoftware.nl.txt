@@ -1,0 +1,12 @@
+status.kingsoftware.nl
+apps.kingsoftware.nl
+staging.kingsoftware.nl
+payt.kingsoftware.nl
+support.kingsoftware.nl
+vpn.heemskerk.kingsoftware.nl
+vpn.rotterdam.kingsoftware.nl
+vpn.capelle.kingsoftware.nl
+temp.kingsoftware.nl
+rabo.kingsoftware.nl
+aangifteservice.kingsoftware.nl
+aangifteservice2.kingsoftware.nl

@@ -1,0 +1,12 @@
+hilfe.regenbogencloud.de
+oc.regenbogencloud.de
+office.regenbogencloud.de
+wwww.regenbogencloud.de
+docker.regenbogencloud.de
+test.regenbogencloud.de
+wartung.regenbogencloud.de
+on.regenbogencloud.de
+formular.regenbogencloud.de
+webmail.regenbogencloud.de
+domain.regenbogencloud.de
+registrierung.regenbogencloud.de

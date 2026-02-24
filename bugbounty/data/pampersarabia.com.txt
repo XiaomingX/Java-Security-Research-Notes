@@ -1,0 +1,10 @@
+login.pampersarabia.com
+stage.pampersarabia.com
+email.pampersarabia.com
+en.pampersarabia.com
+pg.pampersarabia.com
+fbapp.pampersarabia.com
+origprod.pampersarabia.com
+test-afd.pampersarabia.com
+dev.pampersarabia.com
+origstage.pampersarabia.com

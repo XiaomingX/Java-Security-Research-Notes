@@ -1,0 +1,7 @@
+fw-dongen.imwtilburg.nl
+fw.imwtilburg.nl
+mail.imwtilburg.nl
+mijnplan.imwtilburg.nl
+secure.imwtilburg.nl
+remote.imwtilburg.nl
+webmail.imwtilburg.nl

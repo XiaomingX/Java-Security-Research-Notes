@@ -1,0 +1,2 @@
+mail.bestguarder.cz
+ftp.bestguarder.cz

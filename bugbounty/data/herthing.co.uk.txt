@@ -1,0 +1,6 @@
+cpanel.herthing.co.uk
+mail.herthing.co.uk
+cpcalendars.herthing.co.uk
+webdisk.herthing.co.uk
+cpcontacts.herthing.co.uk
+webmail.herthing.co.uk

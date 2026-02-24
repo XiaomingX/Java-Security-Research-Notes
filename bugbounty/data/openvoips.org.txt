@@ -1,0 +1,16 @@
+cpanel.openvoips.org
+cpcalendars.openvoips.org
+cpcontacts.openvoips.org
+mail.openvoips.org
+ov500.openvoips.org
+ovproxy.openvoips.org
+pbx.openvoips.org
+portal.openvoips.org
+webdisk.openvoips.org
+webmail.openvoips.org
+autodiscover.openvoips.org
+blog.openvoips.org
+demo.openvoips.org
+my.openvoips.org
+ov400.openvoips.org
+themes.openvoips.org

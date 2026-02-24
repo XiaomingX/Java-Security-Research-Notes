@@ -1,0 +1,6 @@
+pritunl.moraycloud.com
+mc.moraycloud.com
+ns.moraycloud.com
+chat.moraycloud.com
+vpnshop.moraycloud.com
+webchat.moraycloud.com

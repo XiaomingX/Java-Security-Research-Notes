@@ -1,0 +1,8 @@
+test.partanengroup.de
+media.partanengroup.de
+collabora.partanengroup.de
+grafana.partanengroup.de
+pbs.partanengroup.de
+grocy.partanengroup.de
+vpn.partanengroup.de
+autoconfig.partanengroup.de

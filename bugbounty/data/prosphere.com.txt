@@ -1,0 +1,5 @@
+autodiscover.prosphere.com
+mail.prosphere.com
+sp.prosphere.com
+time.prosphere.com
+dep-m4800.prosphere.com

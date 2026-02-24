@@ -1,0 +1,3 @@
+api.socap.org
+careers.socap.org
+ccs.socap.org

@@ -1,0 +1,5 @@
+blog.koldasoft.cz
+public.koldasoft.cz
+rezervace.protravel.koldasoft.cz
+reference.koldasoft.cz
+fp.magnum.koldasoft.cz

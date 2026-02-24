@@ -1,0 +1,11 @@
+smtp.svox.com
+mail.svox.com
+__www.svox.com
+badcredithomeloan.svox.com
+spam.svox.com
+www2.svox.com
+stm.svox.com
+mx01.svox.com
+imap.svox.com
+mx.svox.com
+adamphillip.svox.com

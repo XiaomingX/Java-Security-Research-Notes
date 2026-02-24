@@ -1,0 +1,6 @@
+mysql.laskarduino.cz
+smtp.laskarduino.cz
+mail.laskarduino.cz
+admin.laskarduino.cz
+test.laskarduino.cz
+blog.laskarduino.cz

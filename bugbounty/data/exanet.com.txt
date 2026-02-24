@@ -1,0 +1,6 @@
+www-int.exanet.com
+kb.exanet.com
+nsas.exanet.com
+vpn.exanet.com
+services.exanet.com
+owa.exanet.com

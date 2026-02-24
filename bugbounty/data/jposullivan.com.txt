@@ -1,0 +1,3 @@
+autodiscover.jposullivan.com
+mail.jposullivan.com
+vpn.jposullivan.com

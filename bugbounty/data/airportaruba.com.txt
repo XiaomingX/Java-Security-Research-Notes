@@ -1,0 +1,7 @@
+portal.airportaruba.com
+pfc.airportaruba.com
+staging.airportaruba.com
+amsweb.airportaruba.com
+career.airportaruba.com
+e.airportaruba.com
+autodiscover.airportaruba.com

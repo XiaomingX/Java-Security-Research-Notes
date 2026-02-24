@@ -1,0 +1,2 @@
+api-amazon.alamaison.cz
+data.alamaison.cz

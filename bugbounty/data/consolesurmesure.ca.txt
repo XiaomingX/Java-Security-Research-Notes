@@ -1,0 +1,9 @@
+cpcalendars.consolesurmesure.ca
+courriel.consolesurmesure.ca
+webdisk.consolesurmesure.ca
+webmail.consolesurmesure.ca
+sitesurmesure.consolesurmesure.ca
+cpanel.consolesurmesure.ca
+cpcontacts.consolesurmesure.ca
+mail.consolesurmesure.ca
+mx.consolesurmesure.ca

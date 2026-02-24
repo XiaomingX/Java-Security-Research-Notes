@@ -1,0 +1,6 @@
+bcapi.wearcommando.com
+ftp.wearcommando.com
+i.wearcommando.com
+returns.wearcommando.com
+ssdatatag.wearcommando.com
+remote.wearcommando.com

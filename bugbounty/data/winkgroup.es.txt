@@ -1,0 +1,6 @@
+admin.winkgroup.es
+correoweb.winkgroup.es
+imap.winkgroup.es
+mail.winkgroup.es
+smtp.winkgroup.es
+webmail.winkgroup.es

@@ -1,0 +1,6 @@
+click.uniongreen.com
+development-na.uniongreen.com
+production-na.uniongreen.com
+staging-na.uniongreen.com
+media.uniongreen.com
+images.uniongreen.com

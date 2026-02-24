@@ -1,0 +1,2 @@
+archives.leolagrange.org
+staging.leolagrange.org

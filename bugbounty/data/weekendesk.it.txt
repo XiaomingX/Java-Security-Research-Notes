@@ -1,0 +1,15 @@
+m-checkout.staging.weekendesk.it
+staging.weekendesk.it
+discover.weekendesk.it
+m-checkout.weekendesk.it
+exclusive.staging.weekendesk.it
+exclusive.weekendesk.it
+preprod-exclusive.weekendesk.it
+preprod-www.weekendesk.it
+preprod-m-checkout.weekendesk.it
+rztnhc.weekendesk.it
+m.weekendesk.it
+giftcards.weekendesk.it
+magazine.weekendesk.it
+esperienze.weekendesk.it
+test-m-checkout.weekendesk.it

@@ -1,0 +1,7 @@
+mail.kycopywriting.com
+apps.kycopywriting.com
+sitemaps.kycopywriting.com
+sitemap.kycopywriting.com
+aaa.kycopywriting.com
+test.aaa.kycopywriting.com
+auth.aaa.kycopywriting.com

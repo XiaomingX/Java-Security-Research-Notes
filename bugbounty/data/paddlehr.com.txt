@@ -1,0 +1,17 @@
+client.paddlehr.com
+rogers.paddlehr.com
+youth-inclusion.paddlehr.com
+thearena.paddlehr.com
+info.paddlehr.com
+beta.paddlehr.com
+demo.paddlehr.com
+webapi-staging.paddlehr.com
+explore.paddlehr.com
+app.paddlehr.com
+microservice.paddlehr.com
+webapi.paddlehr.com
+calculator.paddlehr.com
+auth.paddlehr.com
+att.paddlehr.com
+links.paddlehr.com
+mysky.paddlehr.com

@@ -1,0 +1,4 @@
+akamai.accounts.newsbytesapp.com
+telugu.newsbytesapp.com
+japanese.newsbytesapp.com
+thai.newsbytesapp.com

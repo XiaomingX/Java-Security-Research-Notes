@@ -1,0 +1,6 @@
+test.www.gruene-artland.de
+lists.gruene-artland.de
+mta-sts.lists.gruene-artland.de
+mta-sts.gruene-artland.de
+test.gruene-artland.de
+mail.gruene-artland.de

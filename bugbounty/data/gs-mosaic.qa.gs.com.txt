@@ -1,0 +1,2 @@
+api.gs-mosaic.qa.gs.com
+help.gs-mosaic.qa.gs.com

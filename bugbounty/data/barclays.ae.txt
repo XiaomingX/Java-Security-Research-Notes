@@ -1,0 +1,12 @@
+assets.knowledgehub.barclays.ae
+knowledgehub.barclays.ae
+uat.corpbanking.barclays.ae
+personalbanking.barclays.ae
+admin.knowledgehub.barclays.ae
+corpbanking.barclays.ae
+corpbanking-sl.barclays.ae
+lct.inetbanking.barclays.ae
+corpbanking1.barclays.ae
+lct.icorpbanking.barclays.ae
+koanstudio.cgehub.barclays.ae
+corpbanking-gl.barclays.ae

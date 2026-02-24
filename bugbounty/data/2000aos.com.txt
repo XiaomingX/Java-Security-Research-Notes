@@ -1,0 +1,6 @@
+email.2000aos.com
+ftp.2000aos.com
+mail.2000aos.com
+pop.2000aos.com
+smtp.2000aos.com
+webmail.2000aos.com

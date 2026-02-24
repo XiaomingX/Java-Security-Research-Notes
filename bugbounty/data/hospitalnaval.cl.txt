@@ -1,0 +1,7 @@
+tablavirtual.hospitalnaval.cl
+induccion.hospitalnaval.cl
+tabla.hospitalnaval.cl
+rt.hospitalnaval.cl
+360.hospitalnaval.cl
+nube-ds.hospitalnaval.cl
+project.hospitalnaval.cl

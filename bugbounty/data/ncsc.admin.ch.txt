@@ -1,0 +1,10 @@
+report.ncsc.admin.ch
+security-hub-ref-rhos.ncsc.admin.ch
+report-t.ncsc.admin.ch
+survey-t.ncsc.admin.ch
+intranet.ncsc.admin.ch
+security-hub-int.ncsc.admin.ch
+security-hub.ncsc.admin.ch
+security-hub-ref.ncsc.admin.ch
+www-tmp.ncsc.admin.ch
+intranet-tmp.ncsc.admin.ch

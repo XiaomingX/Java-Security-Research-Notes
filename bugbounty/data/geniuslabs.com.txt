@@ -1,0 +1,6 @@
+email.geniuslabs.com
+ftp.geniuslabs.com
+mobilemail.geniuslabs.com
+pda.geniuslabs.com
+webmail.geniuslabs.com
+e.geniuslabs.com

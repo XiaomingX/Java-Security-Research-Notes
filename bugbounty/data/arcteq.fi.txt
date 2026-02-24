@@ -1,0 +1,3 @@
+support.arcteq.fi
+vpn.arcteq.fi
+configurator.arcteq.fi

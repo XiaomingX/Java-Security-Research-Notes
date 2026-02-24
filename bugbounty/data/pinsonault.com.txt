@@ -1,0 +1,2 @@
+secure.pinsonault.com
+mail.pinsonault.com

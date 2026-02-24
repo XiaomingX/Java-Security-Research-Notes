@@ -1,0 +1,5 @@
+api.droptalk.us
+api-stg.droptalk.us
+email.droptalk.us
+o2.email.droptalk.us
+ww21.droptalk.us

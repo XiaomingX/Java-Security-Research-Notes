@@ -1,0 +1,6 @@
+dev.api.kwsdose.be
+prod.web.kwsdose.be
+web.kwsdose.be
+api.kwsdose.be
+dev.web.kwsdose.be
+prod.api.kwsdose.be

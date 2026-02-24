@@ -1,0 +1,6 @@
+bw.forty-two.nl
+zimbra.forty-two.nl
+meet.forty-two.nl
+firewall.forty-two.nl
+nc.forty-two.nl
+sync.forty-two.nl

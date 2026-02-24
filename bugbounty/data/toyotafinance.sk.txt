@@ -1,0 +1,7 @@
+dmstest.toyotafinance.sk
+root.toyotafinance.sk
+private-sk-alb-dcm.toyotafinance.sk
+dms.toyotafinance.sk
+private-qa-sk-alb-dcm.toyotafinance.sk
+cnav.toyotafinance.sk
+cnavtest.toyotafinance.sk

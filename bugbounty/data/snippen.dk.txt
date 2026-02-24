@@ -1,0 +1,10 @@
+bridge.snippen.dk
+bridge128.snippen.dk
+turnhelp.snippen.dk
+bboalert.snippen.dk
+biddinghub.snippen.dk
+biddingserver.snippen.dk
+pokal.snippen.dk
+handeval.snippen.dk
+netbridge.snippen.dk
+bidding.snippen.dk

@@ -1,0 +1,3 @@
+autodiscover.can-can.ch
+autoconfig.can-can.ch
+mxhost1.can-can.ch

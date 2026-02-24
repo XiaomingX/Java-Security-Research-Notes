@@ -1,0 +1,2 @@
+autoconfig.kerk-asselt.nl
+autodiscover.kerk-asselt.nl

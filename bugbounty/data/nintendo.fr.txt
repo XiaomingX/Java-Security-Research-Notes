@@ -1,0 +1,9 @@
+dev.store.nintendo.fr
+filebox.nintendo.fr
+mail.nintendo.fr
+staging.store.nintendo.fr
+store-queue.nintendo.fr
+store.nintendo.fr
+cookie.nintendo.fr
+enterpriseregistration.nintendo.fr
+vpn.nintendo.fr

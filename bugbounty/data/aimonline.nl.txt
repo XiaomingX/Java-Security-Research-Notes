@@ -1,0 +1,5 @@
+aimopmaat.aimonline.nl
+aimopmaat.acceptatie.aimonline.nl
+acceptatie.aimonline.nl
+msoid.aimonline.nl
+autodiscover.aimonline.nl

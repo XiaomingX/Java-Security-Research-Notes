@@ -1,0 +1,10 @@
+ext.turckvilant.com
+support.turckvilant.com
+vault.turckvilant.com
+beta.turckvilant.com
+extsrv1.turckvilant.com
+hel2-rtr.turckvilant.com
+int.turckvilant.com
+sip.turckvilant.com
+enterpriseenrollment.turckvilant.com
+lan.turckvilant.com

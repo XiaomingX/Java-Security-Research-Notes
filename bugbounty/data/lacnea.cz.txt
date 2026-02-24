@@ -1,0 +1,6 @@
+domino.lacnea.cz
+vpn.lacnea.cz
+srv-eml-02.lacnea.cz
+praha.lacnea.cz
+mail.lacnea.cz
+srv-eml.lacnea.cz

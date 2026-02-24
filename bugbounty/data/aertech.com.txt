@@ -1,0 +1,4 @@
+azure.aertech.com
+blog.aertech.com
+info.aertech.com
+view.aertech.com

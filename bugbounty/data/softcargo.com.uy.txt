@@ -1,0 +1,3 @@
+api.softcargo.com.uy
+ts.softcargo.com.uy
+server.softcargo.com.uy

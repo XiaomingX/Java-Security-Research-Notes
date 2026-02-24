@@ -1,0 +1,8 @@
+de.mgiworld.com
+air.mgiworld.com
+cpaai.mgiworld.com
+mgidifference.mgiworld.com
+forumma.mgiworld.com
+preprod.mgiworld.com
+development.mgiworld.com
+umbraco.mgiworld.com

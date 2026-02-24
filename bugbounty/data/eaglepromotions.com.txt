@@ -1,0 +1,7 @@
+autodiscover.eaglepromotions.com
+cpanel.eaglepromotions.com
+fm.eaglepromotions.com
+mail.eaglepromotions.com
+remote.eaglepromotions.com
+webdisk.eaglepromotions.com
+epmail01.eagle.eaglepromotions.com

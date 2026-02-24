@@ -1,0 +1,13 @@
+autodiscover.precisionfabrics.com
+pfgvpn.precisionfabrics.com
+access.precisionfabrics.com
+appvirt.precisionfabrics.com
+av.precisionfabrics.com
+exowa.precisionfabrics.com
+lync.precisionfabrics.com
+lyncdiscover.precisionfabrics.com
+lyncweb.precisionfabrics.com
+pfgex2010.precisionfabrics.com
+pfglync.precisionfabrics.com
+sip.precisionfabrics.com
+webconf.precisionfabrics.com

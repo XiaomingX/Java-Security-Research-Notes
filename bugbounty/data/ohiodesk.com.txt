@@ -1,0 +1,8 @@
+autodiscover.ohiodesk.com
+cpanel.ohiodesk.com
+cpcalendars.ohiodesk.com
+cpcontacts.ohiodesk.com
+mail.ohiodesk.com
+mhedberg.ohiodesk.com
+webdisk.ohiodesk.com
+webmail.ohiodesk.com

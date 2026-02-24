@@ -1,0 +1,5 @@
+analytics.munchiespr.com
+app.munchiespr.com
+blog.munchiespr.com
+dashboard.munchiespr.com
+webapp.munchiespr.com

@@ -1,0 +1,8 @@
+demo.medfact.de
+notexistsdemo.medfact.de
+remote.medfact.de
+admin.medfact.de
+api.medfact.de
+notexistsadmin.medfact.de
+forums.demo.medfact.de
+fr.api.medfact.de

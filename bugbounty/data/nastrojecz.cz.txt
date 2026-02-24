@@ -1,0 +1,8 @@
+obchod.nastrojecz.cz
+smtp.nastrojecz.cz
+shop.nastrojecz.cz
+ordis.nastrojecz.cz
+eshop.nastrojecz.cz
+obchodk2.nastrojecz.cz
+postak.nastrojecz.cz
+webmail.nastrojecz.cz

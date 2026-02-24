@@ -1,0 +1,12 @@
+status.changetip.com
+info.changetip.com
+api.changetip.com
+blog.changetip.com
+control.changetip.com
+o1.email.changetip.com
+wp.changetip.com
+sexy.changetip.com
+email.changetip.com
+widgets.changetip.com
+cdn.changetip.com
+changedown.changetip.com

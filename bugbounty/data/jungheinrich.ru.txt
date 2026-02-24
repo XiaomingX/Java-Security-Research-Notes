@@ -1,0 +1,7 @@
+admin.parts.jungheinrich.ru
+parts.jungheinrich.ru
+news.jungheinrich.ru
+transfer.jungheinrich.ru
+multimedia.newsletter.jungheinrich.ru
+newsletter.jungheinrich.ru
+promo.jungheinrich.ru

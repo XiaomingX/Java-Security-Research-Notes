@@ -1,0 +1,12 @@
+certificatemonitor.spectreops.net
+scart-dk.spectreops.net
+scartmail.spectreops.net
+scart-fi.spectreops.net
+finance.spectreops.net
+uptime.spectreops.net
+relay.spectreops.net
+collabora2.spectreops.net
+fg.spectreops.net
+invoice.spectreops.net
+collabora.spectreops.net
+dns0.spectreops.net

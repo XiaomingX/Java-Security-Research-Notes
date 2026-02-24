@@ -1,0 +1,10 @@
+staging.zensorium.com
+api.zensorium.com
+blog.zensorium.com
+shop.zensorium.com
+dashboard.zensorium.com
+support.zensorium.com
+platform.zensorium.com
+devapi.zensorium.com
+mx2.zensorium.com
+mx1.zensorium.com

@@ -1,0 +1,12 @@
+openhab.robotjohn.com
+qsm.robotjohn.com
+blac.robotjohn.com
+402walsh.robotjohn.com
+testing.robotjohn.com
+ide.robotjohn.com
+lounge.robotjohn.com
+phone.robotjohn.com
+mc.robotjohn.com
+guac.robotjohn.com
+tools.robotjohn.com
+api.robotjohn.com

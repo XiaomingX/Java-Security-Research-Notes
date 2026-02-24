@@ -1,0 +1,5 @@
+webmail.nakladatelstvi-nol.cz
+mail.nakladatelstvi-nol.cz
+pop3.nakladatelstvi-nol.cz
+smtp.nakladatelstvi-nol.cz
+imap.nakladatelstvi-nol.cz

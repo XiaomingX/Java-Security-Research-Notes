@@ -1,0 +1,5 @@
+tools.kunstsammlungen.cloud
+op.kunstsammlungen.cloud
+wiki.kunstsammlungen.cloud
+en.kunstsammlungen.cloud
+de.kunstsammlungen.cloud

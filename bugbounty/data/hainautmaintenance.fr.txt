@@ -1,0 +1,6 @@
+siarb.hainautmaintenance.fr
+gtc.hainautmaintenance.fr
+autodiscover.hainautmaintenance.fr
+preprod.hainautmaintenance.fr
+siaptht.hainautmaintenance.fr
+remote.hainautmaintenance.fr

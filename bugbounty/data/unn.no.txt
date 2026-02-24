@@ -1,0 +1,13 @@
+pfft.unn.no
+kreft.unn.no
+arkiv.www.unn.no
+intranett.unn.no
+minebehandlingsvalg.unn.no
+sip.unn.no
+unn-intra.unn.no
+labhandbok.unn.no
+mail.tj.unn.no
+old.unn.no
+staging.intranett.unn.no
+lyncdiscover.unn.no
+staging.labhandbok.unn.no

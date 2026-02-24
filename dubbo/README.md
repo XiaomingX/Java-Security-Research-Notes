@@ -1,20 +1,37 @@
-# Apache Dubbo Hessian2 反序列化漏洞研究
+# Apache Dubbo Security Research
 
-## 项目简述
-本项目研究了 Apache Dubbo 在默认配置（使用 Hessian2 序列化）下存在的反序列化漏洞。包含了多种经典的 gadget 利用链。
+本目录专注于 Apache Dubbo 框架的安全研究，特别是其底层通信协议（如 Hessian2）中的反序列化漏洞。
 
-## 核心原理
-1. **Hessian2 序列化**: Dubbo 默认使用 Hessian2 进行协议传输。Hessian2 在处理复杂对象时，如果 classpath 中存在特定的易受攻击类，可能触发漏洞。
-2. **ToString 触发**: 许多利用链通过构造特定的 Map（如 `Hashtable` 或 `HashMap`）结构，在反序列化或后续处理中触发对象的 `toString()`、`equals()` 或 `hashCode()` 方法，从而开启利用链。
-3. **利用链示例**:
-   - **Resin**: 利用 `com.caucho.naming.QName` 实现 RCE。
-   - **Rome**: 利用 `com.rometools.rome.feed.impl.EqualsBean` 实现 RCE。
-   - **XBean**: 利用 `org.apache.xbean.naming.context.ContextUtil.ReadOnlyBinding` 实现 JNDI 注入。
+## 🔬 核心漏洞领域
 
-## 如何验证
-1. 编译项目: `mvn clean compile`
-2. 启动一个受漏洞影响的 Dubbo 服务提供者。
-3. 运行相应的 POC:
-   - Resin 链: `java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.dubbo.ResinPoc`
-   - Rome 链: `java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.dubbo.RomePoc`
-   - XBean 链: `java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.dubbo.XBeanPoc`
+### 1. Hessian2 反序列化 (RCE)
+Apache Dubbo 在默认配置下广泛使用 Hessian2 进行对象序列化。如果 Classpath 中包含已知的利用链（Gadget Chains），攻击者可以通过构造请求触发远程代码执行。
+
+**已知利用链:**
+- **Resin Chain**: 利用 `com.caucho.naming.QName` 实现。
+- **Rome Chain**: 利用 `com.rometools.rome.feed.impl.EqualsBean` 实现。
+- **XBean Chain**: 通过 JNDI 注入实现。
+
+### 2. 安全加固 (Dubbo-Hessian2-Safe-Reinforcement)
+本目录还包含了一个安全加固示例，演示如何通过底层的序列化拦截和白名单校验来缓解反序列化攻击。
+
+## 🚀 验证与复现
+
+### 项目结构
+- `src/`: 核心 POC 源码。
+- `dubbo-hessian2-safe-reinforcement/`: 安全增强组件。
+
+### 运行步骤
+1.  **编译项目**:
+    ```bash
+    mvn clean compile
+    ```
+2.  **运行各利用链 POC**:
+    ```bash
+    # 示例: 运行 Resin POC
+    java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.dubbo.ResinPoc
+    ```
+
+---
+> [!TIP]
+> 建议在实际生产环境中使用 Dubbo 的反序列化白名单功能，并保持 Hessian2 库至最新版本。

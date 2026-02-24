@@ -1,0 +1,3 @@
+api.dennies.co
+admin.dennies.co
+socket.dennies.co

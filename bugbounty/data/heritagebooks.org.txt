@@ -1,0 +1,2 @@
+remote.heritagebooks.org
+synology.heritagebooks.org

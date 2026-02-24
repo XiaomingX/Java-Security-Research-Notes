@@ -1,0 +1,15 @@
+pharmasys-api.sykehusinnkjop.no
+portal.sykehusinnkjop.no
+login.sykehusinnkjop.no
+leverandor.sykehusinnkjop.no
+hinas.sykehusinnkjop.no
+da.sykehusinnkjop.no
+hinas-no.hinas.sykehusinnkjop.no
+cpcontacts.hinas.sykehusinnkjop.no
+cpcalendars.hinas.sykehusinnkjop.no
+qms.sykehusinnkjop.no
+roger.hinas.sykehusinnkjop.no
+lyncdiscover.sykehusinnkjop.no
+sip.sykehusinnkjop.no
+jonas.hinas.sykehusinnkjop.no
+new.hinas.sykehusinnkjop.no

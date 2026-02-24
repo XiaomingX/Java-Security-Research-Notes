@@ -1,0 +1,4 @@
+blog.frilp.com
+metrics.frilp.com
+beta.frilp.com
+parse.frilp.com

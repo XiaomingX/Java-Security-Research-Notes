@@ -1,0 +1,3 @@
+api.legrandehealth.com
+portal.legrandehealth.com
+static-site.legrandehealth.com

@@ -1,0 +1,3 @@
+imap.kkizolace.cz
+pop3.kkizolace.cz
+smtp.kkizolace.cz

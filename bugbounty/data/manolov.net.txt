@@ -1,0 +1,9 @@
+webmail.manolov.net
+old.manolov.net
+cpcontacts.manolov.net
+cpcalendars.manolov.net
+ivan.manolov.net
+mail.manolov.net
+autodiscover.manolov.net
+cpanel.manolov.net
+webdisk.manolov.net

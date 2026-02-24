@@ -1,0 +1,8 @@
+webdisk.binisoft.org
+cpcontacts.binisoft.org
+mail.binisoft.org
+cpanel.binisoft.org
+autodiscover.binisoft.org
+cpcalendars.binisoft.org
+ftp.binisoft.org
+webmail.binisoft.org

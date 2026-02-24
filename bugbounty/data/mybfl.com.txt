@@ -1,0 +1,2 @@
+o2.email.mybfl.com
+server.mybfl.com

@@ -1,0 +1,5 @@
+bp.globalexpress.net
+mail.globalexpress.net
+webmail.globalexpress.net
+ftp.globalexpress.net
+asl.globalexpress.net

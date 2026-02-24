@@ -1,0 +1,2 @@
+feed.bskymc.com
+minecraft-ja.bskymc.com

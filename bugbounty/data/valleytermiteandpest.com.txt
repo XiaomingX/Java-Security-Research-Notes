@@ -1,0 +1,6 @@
+cpanel.valleytermiteandpest.com
+cpcalendars.valleytermiteandpest.com
+cpcontacts.valleytermiteandpest.com
+mail.valleytermiteandpest.com
+webdisk.valleytermiteandpest.com
+webmail.valleytermiteandpest.com

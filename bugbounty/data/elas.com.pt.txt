@@ -1,0 +1,6 @@
+origstagessr.elas.com.pt
+dev.elas.com.pt
+origprod.elas.com.pt
+preview.elas.com.pt
+origstage.elas.com.pt
+stagessr.elas.com.pt

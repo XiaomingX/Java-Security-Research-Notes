@@ -1,0 +1,5 @@
+ns1.professionail.sk
+ns2.professionail.sk
+img.professionail.sk
+partneri.professionail.sk
+mail.professionail.sk

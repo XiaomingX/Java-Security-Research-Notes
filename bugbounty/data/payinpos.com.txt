@@ -1,0 +1,12 @@
+autodiscover.payinpos.com
+cpanel.payinpos.com
+cpcalendars.payinpos.com
+cpcontacts.payinpos.com
+mail.payinpos.com
+media.payinpos.com
+systemcore.payinpos.com
+webdisk.payinpos.com
+webmail.payinpos.com
+whm.payinpos.com
+admin.payinpos.com
+merchant.payinpos.com

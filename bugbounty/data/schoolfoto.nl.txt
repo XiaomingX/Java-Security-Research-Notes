@@ -1,0 +1,6 @@
+plantool5-api.schoolfoto.nl
+betalen.schoolfoto.nl
+winkel.schoolfoto.nl
+trail.schoolfoto.nl
+fotos.schoolfoto.nl
+fotobox.schoolfoto.nl

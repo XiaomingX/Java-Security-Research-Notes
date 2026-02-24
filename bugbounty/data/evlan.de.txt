@@ -1,0 +1,15 @@
+bakkal.evlan.de
+php.evlan.de
+piwik.evlan.de
+sualios.evlan.de
+sualyeni.evlan.de
+two.evlan.de
+one.evlan.de
+inpar.evlan.de
+mta-sts.mail.evlan.de
+test.evlan.de
+data.evlan.de
+mysql.evlan.de
+tr.evlan.de
+word.evlan.de
+mail.evlan.de

@@ -1,0 +1,6 @@
+autodiscover.globalimpactfactor.com
+cpanel.globalimpactfactor.com
+webdisk.globalimpactfactor.com
+mail.globalimpactfactor.com
+webmail.globalimpactfactor.com
+ww2.globalimpactfactor.com

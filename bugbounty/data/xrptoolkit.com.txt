@@ -1,0 +1,7 @@
+lookup.xrptoolkit.com
+docs.xrptoolkit.com
+old.xrptoolkit.com
+xumm.xrptoolkit.com
+test.xrptoolkit.com
+experimental.xrptoolkit.com
+api.xrptoolkit.com

@@ -1,0 +1,10 @@
+cpanel.roza-ksa.com
+conversionapi.roza-ksa.com
+autodiscover.roza-ksa.com
+mail.roza-ksa.com
+ads.roza-ksa.com
+webdisk.roza-ksa.com
+cpcalendars.roza-ksa.com
+cpcontacts.roza-ksa.com
+old.roza-ksa.com
+webmail.roza-ksa.com

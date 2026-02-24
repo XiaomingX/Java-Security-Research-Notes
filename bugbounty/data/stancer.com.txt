@@ -1,0 +1,8 @@
+emile.stancer.com
+api.stancer.com
+manage.stancer.com
+docs.stancer.com
+blog.stancer.com
+errors.stancer.com
+status.stancer.com
+payment.stancer.com

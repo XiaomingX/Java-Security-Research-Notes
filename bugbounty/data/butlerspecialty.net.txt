@@ -1,0 +1,5 @@
+autodiscover.butlerspecialty.net
+cpanel.butlerspecialty.net
+mail.butlerspecialty.net
+webdisk.butlerspecialty.net
+webmail.butlerspecialty.net

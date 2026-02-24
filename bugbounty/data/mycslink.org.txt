@@ -1,0 +1,13 @@
+opensched-test.mycslink.org
+patients-stage.mycslink.org
+opensched.mycslink.org
+opensched-stage.mycslink.org
+google.mycslink.org
+opensched-dev.mycslink.org
+patients.mycslink.org
+app.mycslink.org
+patients-test.mycslink.org
+affiliates.mycslink.org
+patients-dev.mycslink.org
+oauth-test.mycslink.org
+oauth.mycslink.org

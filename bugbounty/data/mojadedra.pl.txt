@@ -1,0 +1,3 @@
+skwww.mojadedra.pl
+katalog.mojadedra.pl
+autodiscover.mojadedra.pl

@@ -1,0 +1,8 @@
+sub.gezondeschool.nl
+test.gezondeschool.nl
+jouw.gezondeschool.nl
+acceptatie.gezondeschool.nl
+acceptatie.drupal.gezondeschool.nl
+drupal.gezondeschool.nl
+preview.gezondeschool.nl
+wwww.gezondeschool.nl

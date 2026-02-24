@@ -1,0 +1,5 @@
+link.kifli.hu
+cdn.kifli.hu
+admin.ext.kifli.hu
+warehouse.ext.kifli.hu
+couriers-portal.kifli.hu

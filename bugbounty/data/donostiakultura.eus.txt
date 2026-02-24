@@ -1,0 +1,9 @@
+extranet.donostiakultura.eus
+api-pre.donostiakultura.eus
+api.donostiakultura.eus
+socios.donostiakultura.eus
+ws.donostiakultura.eus
+wsbeta.donostiakultura.eus
+h.donostiakultura.eus
+astenagusia.donostiakultura.eus
+irratia.donostiakultura.eus

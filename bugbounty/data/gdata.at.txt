@@ -1,0 +1,5 @@
+wwwdev2.gdata.at
+google.gdata.at
+this.google.gdata.at
+loc.gdata.at
+w.gdata.at

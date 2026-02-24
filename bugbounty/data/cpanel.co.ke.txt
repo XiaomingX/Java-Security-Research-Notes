@@ -1,0 +1,6 @@
+mail.cpanel.co.ke
+cpanel.cpanel.co.ke
+whm.cpanel.co.ke
+webmail.cpanel.co.ke
+webdisk.cpanel.co.ke
+autodiscover.cpanel.co.ke

@@ -1,0 +1,9 @@
+misp.tmbc.nl
+misp-spl.tmbc.nl
+blog.tmbc.nl
+cortex.tmbc.nl
+thehive.tmbc.nl
+login.tmbc.nl
+traefik.tmbc.nl
+backup.tmbc.nl
+stats.tmbc.nl

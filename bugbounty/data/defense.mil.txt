@@ -1,0 +1,5 @@
+scorpio.defense.mil
+zenfar.defense.mil
+deimos.defense.mil
+mypay.defense.mil
+secexp.edicts.defense.mil

@@ -1,0 +1,2 @@
+autodiscover.jubitu.com
+autoconfig.jubitu.com

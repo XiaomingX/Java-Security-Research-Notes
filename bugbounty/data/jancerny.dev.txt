@@ -1,0 +1,14 @@
+dl.jancerny.dev
+cors.jancerny.dev
+quartz.jancerny.dev
+work.jancerny.dev
+link.jancerny.dev
+panel.jancerny.dev
+status.jancerny.dev
+router.jancerny.dev
+dev.jancerny.dev
+fitness-api.jancerny.dev
+ocean.jancerny.dev
+server.jancerny.dev
+obsidian.jancerny.dev
+fitness.jancerny.dev

@@ -1,0 +1,4 @@
+old.gndiamond.com
+remote.gndiamond.com
+system6.gnoffice.gndiamond.com
+vpn.gndiamond.com

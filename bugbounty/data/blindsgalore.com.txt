@@ -1,0 +1,14 @@
+a.blindsgalore.com
+cpwrbr.blindsgalore.com
+d.email.blindsgalore.com
+e.email.blindsgalore.com
+mail.blindsgalore.com
+news.blindsgalore.com
+preferences.blindsgalore.com
+s.blindsgalore.com
+se.email.blindsgalore.com
+smetrics.blindsgalore.com
+stest.blindsgalore.com
+test.blindsgalore.com
+vpn.blindsgalore.com
+internal-vpn.blindsgalore.com

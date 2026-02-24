@@ -1,0 +1,6 @@
+oatm.vichy.com.mx
+image.mail.vichy.com.mx
+click.mail.vichy.com.mx
+cloud.mail.vichy.com.mx
+view.mail.vichy.com.mx
+pages.mail.vichy.com.mx

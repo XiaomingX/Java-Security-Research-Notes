@@ -1,0 +1,8 @@
+absensi.smpislamparlaungan.sch.id
+demowebsite.smpislamparlaungan.sch.id
+ispagram.smpislamparlaungan.sch.id
+kelulusan.smpislamparlaungan.sch.id
+mail.smpislamparlaungan.sch.id
+node.smpislamparlaungan.sch.id
+ujian.smpislamparlaungan.sch.id
+exam.smpislamparlaungan.sch.id

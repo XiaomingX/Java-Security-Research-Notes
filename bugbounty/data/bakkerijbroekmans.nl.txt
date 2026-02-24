@@ -1,0 +1,5 @@
+mail.bakkerijbroekmans.nl
+hostmaster.bakkerijbroekmans.nl
+mta-sts.mail.bakkerijbroekmans.nl
+weborder.bakkerijbroekmans.nl
+webshop.bakkerijbroekmans.nl

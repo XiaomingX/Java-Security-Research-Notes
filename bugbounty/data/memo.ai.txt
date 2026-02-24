@@ -1,0 +1,12 @@
+smtp.memo.ai
+http.memo.ai
+jenkins.memo.ai
+language.memo.ai
+1411880075163339636.memo.ai
+webmail.memo.ai
+mvideo.memo.ai
+my.memo.ai
+blog.memo.ai
+api.memo.ai
+help.memo.ai
+www1.memo.ai

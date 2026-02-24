@@ -1,0 +1,6 @@
+lyncdiscover.mtucanada.com
+meet.mtucanada.com
+sip.mtucanada.com
+remote1.mtucanada.com
+remote2.mtucanada.com
+remote.mtucanada.com

@@ -1,0 +1,2 @@
+test.petitesannonces-ocp.fr
+autodiscover.petitesannonces-ocp.fr

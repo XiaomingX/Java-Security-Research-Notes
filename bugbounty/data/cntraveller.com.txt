@@ -1,0 +1,16 @@
+permutive.cntraveller.com
+link.cntraveller.com
+secure.cntraveller.com
+subscribe.cntraveller.com
+booking.cntraveller.com
+skyscanner.cntraveller.com
+secretdeals.cntraveller.com
+c.cntraveller.com
+qc.cntraveller.com
+app.cntraveller.com
+ssc.cntraveller.com
+c2.cntraveller.com
+stag-media.cntraveller.com
+media.cntraveller.com
+stag.cntraveller.com
+prod.cntraveller.com

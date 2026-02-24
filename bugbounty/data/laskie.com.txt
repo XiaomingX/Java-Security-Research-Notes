@@ -1,0 +1,11 @@
+api.laskie.com
+app.laskie.com
+notes.laskie.com
+webmail.laskie.com
+smtp.laskie.com
+api-staging.laskie.com
+staging.laskie.com
+blog.laskie.com
+email.laskie.com
+imap.laskie.com
+ftp.laskie.com

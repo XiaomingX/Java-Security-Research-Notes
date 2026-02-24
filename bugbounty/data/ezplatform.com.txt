@@ -1,0 +1,10 @@
+discuss.ezplatform.com
+api.cloud.ezplatform.com
+cloud.ezplatform.com
+doc.ezplatform.com
+ezcommerce-demo.ezplatform.com
+staging-learning.ezplatform.com
+learning.ezplatform.com
+translation.ezplatform.com
+fastlytesting.ezplatform.com
+docs.ezplatform.com

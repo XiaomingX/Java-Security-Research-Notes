@@ -1,0 +1,4 @@
+feeds.advisorycouncilinternationalaffairs.nl
+opendata.advisorycouncilinternationalaffairs.nl
+magazinesintern.advisorycouncilinternationalaffairs.nl
+magazines.advisorycouncilinternationalaffairs.nl

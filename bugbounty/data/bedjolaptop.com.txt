@@ -1,0 +1,7 @@
+cpanel.bedjolaptop.com
+cpcalendars.bedjolaptop.com
+cpcontacts.bedjolaptop.com
+mail.bedjolaptop.com
+webdisk.bedjolaptop.com
+webmail.bedjolaptop.com
+autodiscover.bedjolaptop.com

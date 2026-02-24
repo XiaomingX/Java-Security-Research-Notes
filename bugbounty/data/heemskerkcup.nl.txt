@@ -1,0 +1,6 @@
+cpanel.heemskerkcup.nl
+demo.heemskerkcup.nl
+ipv6.heemskerkcup.nl
+mail.heemskerkcup.nl
+webmail.heemskerkcup.nl
+webdisk.heemskerkcup.nl

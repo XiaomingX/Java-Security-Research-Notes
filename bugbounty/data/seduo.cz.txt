@@ -1,0 +1,6 @@
+magazin.seduo.cz
+affil.seduo.cz
+firmy.seduo.cz
+tracking.seduo.cz
+student.seduo.cz
+studovna.seduo.cz

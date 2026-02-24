@@ -1,0 +1,8 @@
+bacchusmarsh.rijkzwaan.com.au
+cpanel.bacchusmarsh.rijkzwaan.com.au
+webdisk.bacchusmarsh.rijkzwaan.com.au
+autodiscover.bacchusmarsh.rijkzwaan.com.au
+cpcalendars.bacchusmarsh.rijkzwaan.com.au
+cpcontacts.bacchusmarsh.rijkzwaan.com.au
+mail.bacchusmarsh.rijkzwaan.com.au
+webmail.bacchusmarsh.rijkzwaan.com.au

@@ -1,0 +1,4 @@
+25let.ampo.cz
+mail.ampo.cz
+citrix.ampo.cz
+kerio.ampo.cz

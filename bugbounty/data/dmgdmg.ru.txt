@@ -1,0 +1,5 @@
+cloud.dmgdmg.ru
+mail.dmgdmg.ru
+mx.dmgdmg.ru
+ix.dmgdmg.ru
+ns.dmgdmg.ru

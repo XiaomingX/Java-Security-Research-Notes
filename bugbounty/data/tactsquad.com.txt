@@ -1,0 +1,8 @@
+cpanel.tactsquad.com
+cpcalendars.tactsquad.com
+cpcontacts.tactsquad.com
+design.tactsquad.com
+hanover.tactsquad.com
+mail.tactsquad.com
+webdisk.tactsquad.com
+webmail.tactsquad.com

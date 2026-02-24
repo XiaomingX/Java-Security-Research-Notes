@@ -1,0 +1,6 @@
+api.bugify.com
+blog.bugify.com
+demo.bugify.com
+beta.bugify.com
+promo.bugify.com
+support.bugify.com

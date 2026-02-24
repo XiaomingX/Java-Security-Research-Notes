@@ -1,0 +1,4 @@
+admin.cardmunch.com
+mail.cardmunch.com
+webmail.cardmunch.com
+m.cardmunch.com

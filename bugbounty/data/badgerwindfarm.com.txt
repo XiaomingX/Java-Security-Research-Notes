@@ -1,0 +1,2 @@
+staging.badgerwindfarm.com
+test.badgerwindfarm.com

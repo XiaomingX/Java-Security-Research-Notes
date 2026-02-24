@@ -1,0 +1,7 @@
+acceptatie.bodemloket.nl
+test.bodemloket.nl
+test-fe.bodemloket.nl
+pop.bodemloket.nl
+mail.bodemloket.nl
+prod.bodemloket.nl
+ww.bodemloket.nl

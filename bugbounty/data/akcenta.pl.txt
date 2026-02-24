@@ -1,0 +1,8 @@
+energy.akcenta.pl
+ib.akcenta.pl
+sale.akcenta.pl
+m.akcenta.pl
+nowa.akcenta.pl
+fx.akcenta.pl
+finance.akcenta.pl
+news.akcenta.pl

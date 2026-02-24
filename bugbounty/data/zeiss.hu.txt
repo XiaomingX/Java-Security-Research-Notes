@@ -1,0 +1,9 @@
+stage-internet.zeiss.hu
+test3-internet.zeiss.hu
+portal-test.zeiss.hu
+preprod-internet.zeiss.hu
+development-internet.zeiss.hu
+test2-internet.zeiss.hu
+test1-internet.zeiss.hu
+datapipeline.zeiss.hu
+portal.zeiss.hu

@@ -1,0 +1,10 @@
+mta-sts.waher.org
+mail.waher.org
+ns1.waher.org
+ns2.waher.org
+box.waher.org
+male.waher.org
+ns3.waher.org
+female.waher.org
+mmm.waher.org
+ns4.waher.org

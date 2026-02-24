@@ -1,0 +1,12 @@
+svext03.dahlberg.cologne
+cloud.dahlberg.cologne
+conference.dahlberg.cologne
+svext01.dahlberg.cologne
+gwext01.dahlberg.cologne
+mta-sts.dahlberg.cologne
+mail.dahlberg.cologne
+proxy.dahlberg.cologne
+gateway.dahlberg.cologne
+social.dahlberg.cologne
+svext02.dahlberg.cologne
+chat.dahlberg.cologne

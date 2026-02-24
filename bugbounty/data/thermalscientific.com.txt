@@ -1,0 +1,5 @@
+chairs.thermalscientific.com
+qa.thermalscientific.com
+beta.thermalscientific.com
+staging.thermalscientific.com
+store.thermalscientific.com

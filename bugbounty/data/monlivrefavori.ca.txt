@@ -1,0 +1,3 @@
+indago.monlivrefavori.ca
+tags.monlivrefavori.ca
+dev.monlivrefavori.ca

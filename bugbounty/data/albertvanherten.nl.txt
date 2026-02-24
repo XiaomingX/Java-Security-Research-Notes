@@ -1,0 +1,2 @@
+autodiscover.albertvanherten.nl
+autoconfig.albertvanherten.nl

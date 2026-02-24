@@ -1,0 +1,9 @@
+authoring.crickettas.com.au
+adfs.crickettas.com.au
+mail.crickettas.com.au
+mail2.crickettas.com.au
+matchcentre.premier.crickettas.com.au
+premier.crickettas.com.au
+sip.crickettas.com.au
+directors.crickettas.com.au
+staff.crickettas.com.au

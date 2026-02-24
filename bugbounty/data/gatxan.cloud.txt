@@ -1,0 +1,6 @@
+pop3.gatxan.cloud
+imap.gatxan.cloud
+mail.gatxan.cloud
+mx.gatxan.cloud
+fibraseg.gatxan.cloud
+track.sl.gatxan.cloud

@@ -1,0 +1,7 @@
+api.o-nexus.com
+dashboard.o-nexus.com
+testapi.o-nexus.com
+test3.o-nexus.com
+test-dev.o-nexus.com
+temp3.o-nexus.com
+temp.o-nexus.com

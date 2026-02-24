@@ -1,0 +1,8 @@
+foto.ender.icu
+mail.ender.icu
+vpn.ender.icu
+speedtest.ender.icu
+n.k.ender.icu
+nextcloud.k.ender.icu
+nextcloud.ender.icu
+gpt.ender.icu

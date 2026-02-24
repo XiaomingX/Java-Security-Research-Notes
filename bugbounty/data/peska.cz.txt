@@ -1,0 +1,5 @@
+shop.peska.cz
+zidle.peska.cz
+platby.peska.cz
+mailing.peska.cz
+vyroba.peska.cz

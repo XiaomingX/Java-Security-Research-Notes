@@ -1,0 +1,13 @@
+parts.jungheinrich.be
+admin.parts.jungheinrich.be
+jobs.jungheinrich.be
+admin.shop.jungheinrich.be
+shop.jungheinrich.be
+transfer.jungheinrich.be
+mail.jungheinrich.be
+news.jungheinrich.be
+catch-all-dns.jungheinrich.be
+vpn1.jungheinrich.be
+01.jungheinrich.be
+03.jungheinrich.be
+0_.jungheinrich.be

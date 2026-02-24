@@ -1,0 +1,7 @@
+admin.rcjapan.jp
+bsp-stg.rcjapan.jp
+bsp.rcjapan.jp
+sv.rcjapan.jp
+web1.bsp.rcjapan.jp
+stg.bsp-stg.rcjapan.jp
+web2.bsp.rcjapan.jp

@@ -1,0 +1,12 @@
+magazines.humanrightstulip.nl
+magazinesintern.humanrightstulip.nl
+feeds.humanrightstulip.nl
+opendata.humanrightstulip.nl
+vote.humanrightstulip.nl
+poczta.humanrightstulip.nl
+ns.humanrightstulip.nl
+a-www.humanrightstulip.nl
+mail2.humanrightstulip.nl
+_dmarc.humanrightstulip.nl
+mx.humanrightstulip.nl
+email.humanrightstulip.nl

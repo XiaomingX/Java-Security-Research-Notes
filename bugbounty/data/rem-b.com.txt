@@ -1,0 +1,3 @@
+staging.rem-b.com
+test.rem-b.com
+autodiscover.rem-b.com

@@ -18,6 +18,23 @@
 - `com.security.bug.fastjson.leak.seleniumBypassAutotype1_2_68`: 演示利用恶意异常类泄漏敏感系统信息。
 
 ## 如何验证
-1. 编译项目: `mvn clean compile`
-2. 运行特定的 POC 类。例如:
-   `java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar com.security.bug.fastjson.file.FileWriteBypassAutoType1_2_68`
+
+1. **编译项目**: 
+   ```bash
+   mvn clean compile
+   ```
+
+2. **运行文件写入 POC (1.2.68)**:
+   ```bash
+   java -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar:$(mvn dependency:build-classpath | grep -v '\[INFO\]' | tail -1) com.security.bug.fastjson.file.FileWriteBypassAutoType1_2_68
+   ```
+   *注意*: 运行后会在当前目录下创建名为 `dst` 的文件。
+
+   **Java 9+ 用户注意**:
+   如果遇到 `java.lang.reflect.InaccessibleObjectException`，需要添加 `--add-opens` 参数：
+   ```bash
+   java --add-opens java.base/java.io=ALL-UNNAMED -cp target/classes:../common/target/common-1.0-SNAPSHOT.jar:$(mvn dependency:build-classpath | grep -v '\[INFO\]' | tail -1) com.security.bug.fastjson.file.FileWriteBypassAutoType1_2_68
+   ```
+
+3. **依赖说明**:
+   项目依赖父目录下的 `common` 模块，请确保已安装 (`mvn install -f ../common/pom.xml`)。

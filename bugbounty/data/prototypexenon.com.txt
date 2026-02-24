@@ -1,0 +1,7 @@
+foundry.prototypexenon.com
+status.prototypexenon.com
+store.prototypexenon.com
+wiki.prototypexenon.com
+mail.prototypexenon.com
+discord.prototypexenon.com
+loungewiki.prototypexenon.com

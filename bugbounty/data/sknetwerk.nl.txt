@@ -1,0 +1,7 @@
+inloggen.sknetwerk.nl
+mail.sknetwerk.nl
+inlog.sknetwerk.nl
+autodiscover.sknetwerk.nl
+webdavs.sknetwerk.nl
+ipv6.sknetwerk.nl
+webmail.sknetwerk.nl

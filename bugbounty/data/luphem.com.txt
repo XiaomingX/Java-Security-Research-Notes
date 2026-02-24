@@ -1,0 +1,7 @@
+autodiscover.luphem.com
+cpanel.luphem.com
+cpcalendars.luphem.com
+cpcontacts.luphem.com
+mail.luphem.com
+webdisk.luphem.com
+webmail.luphem.com

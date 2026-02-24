@@ -1,0 +1,9 @@
+intra.nextgames.com
+cf-ssl45371-protected-www.nextgames.com
+ftp.nextgames.com
+status.nextgames.com
+jira.nextgames.com
+forums.nextgames.com
+cdn.nextgames.com
+beta.nextgames.com
+direct.nextgames.com

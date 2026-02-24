@@ -1,0 +1,17 @@
+api.koralapp.com
+studio.uat.koralapp.com
+opinion.uat.koralapp.com
+polls.uat.koralapp.com
+mail.koralapp.com
+bifrost.koralapp.com
+live-polls.koralapp.com
+winterfell.uat.koralapp.com
+live-polls.uat.koralapp.com
+bifrost.uat.koralapp.com
+mock.uat.koralapp.com
+studio.koralapp.com
+opinion.koralapp.com
+polls.koralapp.com
+phplist.koralapp.com
+polls-gcp.koralapp.com
+uat.koralapp.com

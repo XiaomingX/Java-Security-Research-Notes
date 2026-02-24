@@ -1,0 +1,14 @@
+forum.vectraklub.pl
+dolnoslaski.vectraklub.pl
+de.vectraklub.pl
+archiwum.vectraklub.pl
+poczta.vectraklub.pl
+mua.vectraklub.pl
+smtp.vectraklub.pl
+mx1.vectraklub.pl
+pop3.vectraklub.pl
+imap.vectraklub.pl
+wwww.vectraklub.pl
+ww.vectraklub.pl
+wwww.forum.vectraklub.pl
+ww.forum.vectraklub.pl

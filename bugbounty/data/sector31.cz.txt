@@ -1,0 +1,7 @@
+starwars.sector31.cz
+alagomera.sector31.cz
+cap.sector31.cz
+fnr.sector31.cz
+paintball.sector31.cz
+autodiscover.sector31.cz
+eproject.sector31.cz

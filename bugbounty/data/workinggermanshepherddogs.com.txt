@@ -1,0 +1,4 @@
+ftp.workinggermanshepherddogs.com
+m.workinggermanshepherddogs.com
+smtp.workinggermanshepherddogs.com
+webmail.workinggermanshepherddogs.com

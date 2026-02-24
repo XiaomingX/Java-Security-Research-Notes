@@ -1,0 +1,2 @@
+staging.yachak.com
+dev.yachak.com

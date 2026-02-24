@@ -1,0 +1,7 @@
+webmail.vegatrappa.no
+cpcontacts.vegatrappa.no
+autodiscover.vegatrappa.no
+cpcalendars.vegatrappa.no
+webdisk.vegatrappa.no
+cpanel.vegatrappa.no
+mail.vegatrappa.no

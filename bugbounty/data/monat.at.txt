@@ -1,0 +1,2 @@
+go.monat.at
+shop.monat.at

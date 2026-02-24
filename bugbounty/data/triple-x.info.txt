@@ -1,0 +1,2 @@
+mail.triple-x.info
+weblate.triple-x.info

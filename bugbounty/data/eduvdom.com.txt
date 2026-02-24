@@ -1,0 +1,5 @@
+wiki.eduvdom.com
+shop.eduvdom.com
+test.eduvdom.com
+zadaniya.eduvdom.com
+cdn.eduvdom.com

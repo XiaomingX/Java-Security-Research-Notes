@@ -1,0 +1,5 @@
+guida.peertube.uno
+alltubedownload.peertube.uno
+tubo.peertube.uno
+sepiasearch.peertube.uno
+mta-sts.peertube.uno

@@ -1,0 +1,4 @@
+es.mylingo.io
+fr.mylingo.io
+litepaper.mylingo.io
+zh.mylingo.io

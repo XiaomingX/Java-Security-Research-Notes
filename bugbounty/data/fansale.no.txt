@@ -1,0 +1,3 @@
+staging1.fansale.no
+sst.fansale.no
+staging2.fansale.no

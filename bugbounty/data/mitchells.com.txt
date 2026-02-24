@@ -1,0 +1,3 @@
+autodiscover.mitchells.com
+vpn.mitchells.com
+email.mitchells.com

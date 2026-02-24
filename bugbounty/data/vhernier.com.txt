@@ -1,0 +1,7 @@
+api-customizer.vhernier.com
+api.vhernier.com
+arxivar.vhernier.com
+customizer.vhernier.com
+dev.vhernier.com
+shop.vhernier.com
+welcome.vhernier.com

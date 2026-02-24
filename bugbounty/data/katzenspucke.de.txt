@@ -1,0 +1,6 @@
+cpcalendars.katzenspucke.de
+cpanel.katzenspucke.de
+webmail.katzenspucke.de
+mail.katzenspucke.de
+webdisk.katzenspucke.de
+cpcontacts.katzenspucke.de

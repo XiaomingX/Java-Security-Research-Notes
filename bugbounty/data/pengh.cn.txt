@@ -1,0 +1,4 @@
+g.pengh.cn
+auth.pengh.cn
+asset.pengh.cn
+node.pengh.cn

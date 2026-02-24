@@ -1,0 +1,2 @@
+staging.speakuptobeatcovid.uk
+dev.speakuptobeatcovid.uk

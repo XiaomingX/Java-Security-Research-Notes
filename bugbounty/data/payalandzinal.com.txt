@@ -1,0 +1,7 @@
+mailer.payalandzinal.com
+cpanel.payalandzinal.com
+cpcalendars.payalandzinal.com
+cpcontacts.payalandzinal.com
+mail.payalandzinal.com
+webdisk.payalandzinal.com
+webmail.payalandzinal.com

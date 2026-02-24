@@ -1,0 +1,3 @@
+ewallet.auth.skypicker.com
+csr.auth.skypicker.com
+poskytneme.auth.skypicker.com

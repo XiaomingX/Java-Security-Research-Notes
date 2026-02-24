@@ -1,0 +1,9 @@
+dev-crm.thepieslicer.com
+newui.thepieslicer.com
+support.thepieslicer.com
+aws-staging.thepieslicer.com
+stg.thepieslicer.com
+custom.thepieslicer.com
+tst.thepieslicer.com
+dbpma.thepieslicer.com
+api.thepieslicer.com

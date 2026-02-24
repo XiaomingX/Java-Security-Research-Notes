@@ -1,0 +1,4 @@
+backend.natpublicaffairs.com
+link.updates.natpublicaffairs.com
+email.updates.natpublicaffairs.com
+updates.natpublicaffairs.com

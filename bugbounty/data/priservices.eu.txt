@@ -1,0 +1,5 @@
+legal.priservices.eu
+zabbix.priservices.eu
+smtp.priservices.eu
+ftp.priservices.eu
+pop.priservices.eu

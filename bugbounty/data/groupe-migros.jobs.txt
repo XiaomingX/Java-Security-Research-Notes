@@ -1,0 +1,2 @@
+test.groupe-migros.jobs
+dev.groupe-migros.jobs

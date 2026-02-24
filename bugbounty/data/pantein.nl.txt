@@ -1,0 +1,14 @@
+qmanage.pantein.nl
+intranetcms-test.pantein.nl
+adfs.pantein.nl
+webmail.pantein.nl
+vsp.pantein.nl
+desktop.pantein.nl
+ftp.pantein.nl
+securemail.pantein.nl
+bestanden.pantein.nl
+babycam.pantein.nl
+vergaderen.pantein.nl
+mailing.pantein.nl
+basispgo.pantein.nl
+pre.basispgo.pantein.nl

@@ -1,0 +1,2 @@
+content.vulscan.com
+learn.vulscan.com

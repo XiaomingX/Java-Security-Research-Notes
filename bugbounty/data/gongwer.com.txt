@@ -1,0 +1,8 @@
+test.gongwer.com
+new.gongwer.com
+maint.gongwer.com
+app.gongwer.com
+intern.gongwer.com
+admin.gongwer.com
+ftp.gongwer.com
+mail.gongwer.com

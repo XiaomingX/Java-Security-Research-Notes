@@ -1,0 +1,9 @@
+dev.touchincentive.com
+shop.touchincentive.com
+staging.touchincentive.com
+develop.touchincentive.com
+ftp.touchincentive.com
+sftp.touchincentive.com
+autodiscover.touchincentive.com
+vpn.touchincentive.com
+support.touchincentive.com

@@ -1,0 +1,2 @@
+www-a.stripestatus.com
+qa2.stripestatus.com

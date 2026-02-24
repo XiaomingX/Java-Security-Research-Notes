@@ -1,0 +1,8 @@
+devdocstest.dev-zoom.us
+filecmrdev.dev-zoom.us
+nws.dev-zoom.us
+zurm.dev-zoom.us
+zurm-nginx.dev-zoom.us
+interopqa-va.dev-zoom.us
+interopqa.dev-zoom.us
+interopqa-svr1.dev-zoom.us

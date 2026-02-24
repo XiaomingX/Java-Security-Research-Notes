@@ -1,0 +1,4 @@
+smtps.kolazwebu.cz
+webmail.kolazwebu.cz
+mail.kolazwebu.cz
+m.kolazwebu.cz

@@ -1,0 +1,5 @@
+hostmaster.sgrp.ch
+mail.sgrp.ch
+ns1.sgrp.ch
+ns2.sgrp.ch
+mta-sts.mail.sgrp.ch

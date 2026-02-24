@@ -1,0 +1,6 @@
+be.joinhackshield.com
+global.acceptance.joinhackshield.com
+global.joinhackshield.com
+acceptance.joinhackshield.com
+locale.joinhackshield.com
+testing.joinhackshield.com

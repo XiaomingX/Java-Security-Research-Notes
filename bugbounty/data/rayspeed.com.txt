@@ -1,0 +1,17 @@
+cpanel.rayspeed.com
+cpcontacts.rayspeed.com
+mail.rayspeed.com
+shop-api.rayspeed.com
+test.rayspeed.com
+webdisk.rayspeed.com
+webmail.rayspeed.com
+api.rayspeed.com
+autodiscover.rayspeed.com
+cpcalendars.rayspeed.com
+googletest.rayspeed.com
+kurir.rayspeed.com
+mail2.rayspeed.com
+news.rayspeed.com
+paketinkangenmu.rayspeed.com
+stats.rayspeed.com
+mall.rayspeed.com

@@ -1,0 +1,2 @@
+stage.methodsfinder.com
+beta.methodsfinder.com

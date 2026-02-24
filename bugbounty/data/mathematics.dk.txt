@@ -1,0 +1,6 @@
+members.mathematics.dk
+bib.mathematics.dk
+dmf.mathematics.dk
+matnyt.mathematics.dk
+nationalkomite.mathematics.dk
+matilde.mathematics.dk

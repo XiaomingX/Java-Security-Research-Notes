@@ -1,0 +1,12 @@
+dm.persil-service.de
+crm.persil-service.de
+magazin.persil-service.de
+api.persil-service.de
+magazine.persil-service.de
+adm.persil-service.de
+anmeldung.persil-service.de
+mitglied.persil-service.de
+members.persil-service.de
+email.persil-service.de
+mail.persil-service.de
+stage.persil-service.de

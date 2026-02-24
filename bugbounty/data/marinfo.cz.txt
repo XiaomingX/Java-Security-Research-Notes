@@ -1,0 +1,2 @@
+server.marinfo.cz
+router.marinfo.cz

@@ -1,0 +1,12 @@
+webdisk.lucyonlocale.com
+cpcontacts.lucyonlocale.com
+mail.lucyonlocale.com
+bossladiesonlocale.lucyonlocale.com
+cpanel.lucyonlocale.com
+webmail.lucyonlocale.com
+cpcalendars.lucyonlocale.com
+autodiscover.lucyonlocale.com
+santorini-greece.lucyonlocale.com
+sorrento-italy.lucyonlocale.com
+tikal-guatemala.lucyonlocale.com
+paris-france.lucyonlocale.com

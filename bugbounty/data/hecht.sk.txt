@@ -1,0 +1,5 @@
+poukazy.hecht.sk
+data.hecht.sk
+devel.hecht.sk
+intranet.hecht.sk
+dotaznik.hecht.sk

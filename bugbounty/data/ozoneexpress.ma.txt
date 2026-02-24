@@ -1,0 +1,11 @@
+admin.ozoneexpress.ma
+cpanel.ozoneexpress.ma
+cpcalendars.ozoneexpress.ma
+cpcontacts.ozoneexpress.ma
+mail.ozoneexpress.ma
+org.ozoneexpress.ma
+webdisk.ozoneexpress.ma
+webmail.ozoneexpress.ma
+client.ozoneexpress.ma
+ozonexpress.ma.ozoneexpress.ma
+ozonlivraison.ma.ozoneexpress.ma

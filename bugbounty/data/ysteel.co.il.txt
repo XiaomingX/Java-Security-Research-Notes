@@ -1,0 +1,6 @@
+autodiscover.ysteel.co.il
+mail.ysteel.co.il
+primobile.ysteel.co.il
+vpn.ysteel.co.il
+ex-01.ysteel.co.il
+legacy.ysteel.co.il

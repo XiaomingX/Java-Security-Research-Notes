@@ -1,0 +1,5 @@
+media.headandshoulders.ph
+m1.headandshoulders.ph
+stage.headandshoulders.ph
+test.headandshoulders.ph
+prod.headandshoulders.ph

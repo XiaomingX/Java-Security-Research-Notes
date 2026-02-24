@@ -1,0 +1,2 @@
+cv.mossad.gov.il
+wildcard.mossad.gov.il

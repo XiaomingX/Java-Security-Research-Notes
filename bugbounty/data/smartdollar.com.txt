@@ -1,0 +1,17 @@
+sftp.smartdollar.com
+test.smartdollar.com
+qa.smartdollar.com
+pages.e.smartdollar.com
+go.smartdollar.com
+help.smartdollar.com
+blog.smartdollar.com
+view.e.smartdollar.com
+click.e.smartdollar.com
+help.test.smartdollar.com
+e.smartdollar.com
+mta.e.smartdollar.com
+origin.smartdollar.com
+segment.smartdollar.com
+prod.smartdollar.com
+segment.qa.smartdollar.com
+segment.test.smartdollar.com

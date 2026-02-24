@@ -1,0 +1,15 @@
+autodiscover.thinkesi.com
+mail-relay.thinkesi.com
+mail.thinkesi.com
+entouch.thinkesi.com
+demoanalytics.thinkesi.com
+ioadfsdev.thinkesi.com
+analytics03.thinkesi.com
+kdsib.thinkesi.com
+ioadfs.thinkesi.com
+ioib.thinkesi.com
+analytics.thinkesi.com
+demoadfs.thinkesi.com
+analytics01.thinkesi.com
+visuals.thinkesi.com
+analytics02.thinkesi.com

@@ -1,0 +1,5 @@
+debug.screensconnect.com
+userguide.screensconnect.com
+mail.screensconnect.com
+scs.screensconnect.com
+sc5.screensconnect.com

@@ -1,0 +1,4 @@
+links.mail.westelm.com.kw
+data.westelm.com.kw
+f.mail.westelm.com.kw
+mail.westelm.com.kw

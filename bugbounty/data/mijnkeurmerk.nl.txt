@@ -1,0 +1,3 @@
+beheer.mijnkeurmerk.nl
+api.mijnkeurmerk.nl
+portal.mijnkeurmerk.nl

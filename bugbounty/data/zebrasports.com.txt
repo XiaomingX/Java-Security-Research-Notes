@@ -1,0 +1,6 @@
+nexus-staging.zebrasports.com
+dns1.zebrasports.com
+dns2.zebrasports.com
+edge.zebrasports.com
+nexus.zebrasports.com
+nexus-dev.zebrasports.com

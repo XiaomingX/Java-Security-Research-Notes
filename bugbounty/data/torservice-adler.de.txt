@@ -1,0 +1,4 @@
+autodiscover.torservice-adler.de
+autoconfig.torservice-adler.de
+mail.torservice-adler.de
+mail2.torservice-adler.de

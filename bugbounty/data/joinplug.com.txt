@@ -1,0 +1,2 @@
+media.joinplug.com
+api.joinplug.com

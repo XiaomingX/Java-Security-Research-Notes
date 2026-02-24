@@ -1,0 +1,7 @@
+autodiscover.briouk.com
+mail.briouk.com
+s1._domainkey.briouk.com
+webmail.briouk.com
+s2._domainkey.briouk.com
+smtp.briouk.com
+msoid.briouk.com

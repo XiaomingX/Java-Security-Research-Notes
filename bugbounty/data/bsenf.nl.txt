@@ -1,0 +1,7 @@
+test.bsenf.nl
+mail.bsenf.nl
+mail2.bsenf.nl
+autodiscovery.bsenf.nl
+staging.bsenf.nl
+autodiscover.bsenf.nl
+remote.bsenf.nl

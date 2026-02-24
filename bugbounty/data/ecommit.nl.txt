@@ -1,0 +1,12 @@
+hedera-api.staging.ecommit.nl
+platform.ecommit.nl
+api.ecommit.nl
+dashboard.staging.ecommit.nl
+platform.staging.ecommit.nl
+dashboard.ecommit.nl
+order.ecommit.nl
+hedera-api.ecommit.nl
+api.staging.ecommit.nl
+staging.ecommit.nl
+purchase-platform.ecommit.nl
+supplier-dashboard.ecommit.nl

@@ -1,0 +1,16 @@
+test3-internet.zeiss.es
+med-shop.zeiss.es
+development-internet.zeiss.es
+preprod-internet.zeiss.es
+portal-stage.zeiss.es
+datapipeline.zeiss.es
+portal.zeiss.es
+stage-internet.zeiss.es
+test2-internet.zeiss.es
+outdoor.zeiss.es
+lohacemosvisible.zeiss.es
+shop.metrology.zeiss.es
+vision.zeiss.es
+mejor-vision.zeiss.es
+portal-test.zeiss.es
+test1-internet.zeiss.es

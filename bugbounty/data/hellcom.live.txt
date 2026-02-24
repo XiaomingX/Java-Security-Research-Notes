@@ -1,0 +1,5 @@
+autoconfig.hellcom.live
+radio.hellcom.live
+mail.hellcom.live
+bot.hellcom.live
+autodiscover.hellcom.live

@@ -1,0 +1,13 @@
+server.shalomint.com
+staging.shalomint.com
+testing.shalomint.com
+wholesale.shalomint.com
+cpanel.shalomint.com
+cpcalendars.shalomint.com
+cpcontacts.shalomint.com
+exchange.shalomint.com
+ipv6.shalomint.com
+mail.shalomint.com
+shalomex01.shalomint.com
+webdisk.shalomint.com
+webmail.shalomint.com

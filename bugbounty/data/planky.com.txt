@@ -1,0 +1,7 @@
+component.planky.com
+docs.planky.com
+preview.planky.com
+mail.planky.com
+cdn.planky.com
+customers.planky.com
+api.planky.com

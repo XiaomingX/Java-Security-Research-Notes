@@ -1,0 +1,10 @@
+blog.adbrain.com
+uat.adbrain.com
+autodiscover.adbrain.com
+qa.adbrain.com
+services.adbrain.com
+test.adbrain.com
+platform.adbrain.com
+qa.dashboard.adbrain.com
+assets.adbrain.com
+staging.adbrain.com

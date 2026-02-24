@@ -1,0 +1,6 @@
+mail.relvarsoft.com
+hostmaster.relvarsoft.com
+mail2.relvarsoft.com
+ns1.relvarsoft.com
+ns3.relvarsoft.com
+ns2.relvarsoft.com

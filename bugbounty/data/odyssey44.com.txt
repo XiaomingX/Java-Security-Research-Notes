@@ -1,0 +1,12 @@
+guestportal.odyssey44.com
+autodiscover.odyssey44.com
+dav.odyssey44.com
+vpn.odyssey44.com
+mail.odyssey44.com
+smtp.odyssey44.com
+efi.odyssey44.com
+expect-ct-report.odyssey44.com
+malydunaj.odyssey44.com
+mta-sts.odyssey44.com
+download.mail.odyssey44.com
+guestnetwork.odyssey44.com

@@ -1,0 +1,13 @@
+nevera.xarxanet.org
+dev.xarxanet.org
+jomarco07.xarxanet.org
+mail.blocs.xarxanet.org
+bloc.xarxanet.org
+blogs.xarxanet.org
+blocs.xarxanet.org
+ada.xarxanet.org
+nonprofit.xarxanet.org
+intranet.xarxanet.org
+prova.xarxanet.org
+otrs.xarxanet.org
+nonprofit.prova.xarxanet.org

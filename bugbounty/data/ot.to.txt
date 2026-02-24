@@ -1,0 +1,17 @@
+jsky.app.ot.to
+kitt.ot.to
+pao-jenkins.ot.to
+phabricator.ot.to
+api.ot.to
+testdrive.ot.to
+jenkins.ot.to
+wiki.ot.to
+apt.ot.to
+gizmo.ot.to
+blog.ot.to
+aws-vpn.ot.to
+signup.ot.to
+staging.ot.to
+ns.ot.to
+wp.ot.to
+sf1-vpn.ot.to

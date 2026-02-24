@@ -1,0 +1,4 @@
+shop.fischerhungary.hu
+webaruhaz.fischerhungary.hu
+autodiscover.fischerhungary.hu
+event.fischerhungary.hu

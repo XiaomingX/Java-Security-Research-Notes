@@ -1,0 +1,8 @@
+lyncdiscover.kirunabostader.se
+servicedesk.kirunabostader.se
+sip.kirunabostader.se
+portal.kirunabostader.se
+summarum.kirunabostader.se
+autodiscover.kirunabostader.se
+beta.kirunabostader.se
+bokning.kirunabostader.se

@@ -1,0 +1,2 @@
+platform.dmibelgium.be
+mail.dmibelgium.be

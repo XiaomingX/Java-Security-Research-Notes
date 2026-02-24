@@ -1,0 +1,5 @@
+affiliates.paddypartners.com
+support.paddypartners.com
+admin.paddypartners.com
+blog.paddypartners.com
+rss.paddypartners.com

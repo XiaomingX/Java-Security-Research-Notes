@@ -1,0 +1,11 @@
+maps.cstenero.ch
+prices-test.cstenero.ch
+maps-test.cstenero.ch
+reservation-test.cstenero.ch
+backend.cstenero.ch
+yourchoice.cstenero.ch
+reservation.cstenero.ch
+prices.cstenero.ch
+andermatt.cstenero.ch
+new.cstenero.ch
+bwww.cstenero.ch

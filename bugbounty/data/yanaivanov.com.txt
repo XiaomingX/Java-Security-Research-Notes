@@ -1,0 +1,6 @@
+cpanel.yanaivanov.com
+cpcontacts.yanaivanov.com
+webmail.yanaivanov.com
+webdisk.yanaivanov.com
+autodiscover.yanaivanov.com
+cpcalendars.yanaivanov.com

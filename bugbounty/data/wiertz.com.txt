@@ -1,0 +1,8 @@
+mijn.wiertz.com
+api.mijn.wiertz.com
+jobs.wiertz.com
+autodiscover.wiertz.com
+afspraak.wiertz.com
+link.wiertz.com
+ats.wiertz.com
+mta-sts.wiertz.com

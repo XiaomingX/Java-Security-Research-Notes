@@ -1,0 +1,4 @@
+gallery.std-service.de
+smtp.std-service.de
+helpdesk.std-service.de
+ns2.std-service.de

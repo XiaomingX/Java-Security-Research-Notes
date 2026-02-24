@@ -1,0 +1,2 @@
+nextcloud.k4lgx.com
+openpgpkey.k4lgx.com

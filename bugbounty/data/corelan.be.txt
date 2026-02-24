@@ -1,0 +1,7 @@
+redmine.corelan.be
+downloads.corelan.be
+homeassistant.corelan.be
+forum.corelan.be
+sync1.corelan.be
+pydoc.corelan.be
+ssl0x01.corelan.be

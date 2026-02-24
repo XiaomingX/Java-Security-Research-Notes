@@ -1,0 +1,7 @@
+cd-live.eton.edu.mx
+ds.eton.edu.mx
+eo.eton.edu.mx
+etonrsvp.eton.edu.mx
+test.eton.edu.mx
+vo.eton.edu.mx
+wa.eton.edu.mx

@@ -1,0 +1,7 @@
+helpdesk.ijburgcollege.nl
+mail.ijburgcollege.nl
+ticket.ijburgcollege.nl
+vpn.ijburgcollege.nl
+magister.ijburgcollege.nl
+track.sl.ijburgcollege.nl
+tool.ijburgcollege.nl

@@ -1,0 +1,4 @@
+hostmaster.bjosch.tk
+cloud.bjosch.tk
+mail.bjosch.tk
+mx7.bjosch.tk

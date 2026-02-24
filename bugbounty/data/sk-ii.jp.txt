@@ -1,0 +1,16 @@
+mb.sk-ii.jp
+dev-afd-api.sk-ii.jp
+m.sk-ii.jp
+linetest.sk-ii.jp
+nocompetition.sk-ii.jp
+stage-nocompetition.sk-ii.jp
+api-afd.sk-ii.jp
+line.sk-ii.jp
+piterafb.sk-ii.jp
+nocompetition-registration.sk-ii.jp
+email.sk-ii.jp
+media.sk-ii.jp
+media.m.sk-ii.jp
+skii-concierge.sk-ii.jp
+mail.sk-ii.jp
+stage.sk-ii.jp

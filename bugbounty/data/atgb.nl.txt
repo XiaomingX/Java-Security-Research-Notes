@@ -1,0 +1,7 @@
+cpcontacts.atgb.nl
+cpcalendars.atgb.nl
+autodiscover.atgb.nl
+cpanel.atgb.nl
+mail.atgb.nl
+webdisk.atgb.nl
+webmail.atgb.nl

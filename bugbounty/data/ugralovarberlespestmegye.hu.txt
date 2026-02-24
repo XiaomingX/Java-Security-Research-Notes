@@ -1,0 +1,6 @@
+cpanel.ugralovarberlespestmegye.hu
+webdisk.ugralovarberlespestmegye.hu
+cpcalendars.ugralovarberlespestmegye.hu
+cpcontacts.ugralovarberlespestmegye.hu
+webmail.ugralovarberlespestmegye.hu
+mail.ugralovarberlespestmegye.hu

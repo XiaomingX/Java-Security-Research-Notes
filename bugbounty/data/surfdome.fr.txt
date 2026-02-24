@@ -1,0 +1,5 @@
+dev.surfdome.fr
+help.surfdome.fr
+staging.surfdome.fr
+new.surfdome.fr
+old.surfdome.fr

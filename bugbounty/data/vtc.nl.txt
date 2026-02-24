@@ -1,0 +1,17 @@
+isst.vtc.nl
+autodiscover.vtc.nl
+remote.vtc.nl
+cpanel.vtc.nl
+cpcalendars.vtc.nl
+cpcontacts.vtc.nl
+mail.vtc.nl
+webdisk.vtc.nl
+webmail.vtc.nl
+acceptatie.vtc.nl
+acceptatie-vtc-nl.vtc.nl
+cpanel.acceptatie.vtc.nl
+cpcalendars.acceptatie.vtc.nl
+cpcontacts.acceptatie.vtc.nl
+mail.acceptatie.vtc.nl
+webdisk.acceptatie.vtc.nl
+webmail.acceptatie.vtc.nl

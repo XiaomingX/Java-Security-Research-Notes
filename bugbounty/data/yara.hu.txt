@@ -1,0 +1,12 @@
+pre.yara.hu
+kincskereso.yara.hu
+fpt.yara.hu
+int.yara.hu
+autodiscover.kincskereso.yara.hu
+mail.yara.hu
+webdisk.kincskereso.yara.hu
+cpanel.kincskereso.yara.hu
+webmail.kincskereso.yara.hu
+mail.kincskereso.yara.hu
+cpcalendars.kincskereso.yara.hu
+cpcontacts.kincskereso.yara.hu

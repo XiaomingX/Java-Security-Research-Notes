@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
 import org.jboss.interceptor.builder.InterceptionModelBuilder;
 import org.jboss.interceptor.builder.MethodReference;

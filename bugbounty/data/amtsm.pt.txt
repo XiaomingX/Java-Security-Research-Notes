@@ -1,0 +1,9 @@
+old.amtsm.pt
+avoltadovaledasvoltas.amtsm.pt
+mail.amtsm.pt
+cpcalendars.amtsm.pt
+protcivil.amtsm.pt
+cpanel.amtsm.pt
+webdisk.amtsm.pt
+cpcontacts.amtsm.pt
+webmail.amtsm.pt

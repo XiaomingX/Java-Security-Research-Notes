@@ -1,0 +1,3 @@
+autodiscover.filez.win
+mta-sts.filez.win
+autoconfig.filez.win

@@ -1,0 +1,12 @@
+www1.qiagen.com
+polarion-alm.qiagen.com
+qa.qiagen.com
+caf-qa.qiagen.com
+b2b-qa.qiagen.com
+qiaspace-qa.qiagen.com
+login-qa.qiagen.com
+origin-api-qa.qiagen.com
+qiastock-qa.qiagen.com
+api.qiasphere-qa.qiagen.com
+globalsolidtumorsummit.qiagen.com
+video.qiagen.com

@@ -1,0 +1,6 @@
+internal.dynstatus.com
+admin.dynstatus.com
+ns1.dynstatus.com
+varnish-01-lifmt.dynstatus.com
+varnish-02-lifmt.dynstatus.com
+ns2.dynstatus.com

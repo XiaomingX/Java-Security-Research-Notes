@@ -1,0 +1,4 @@
+mail.x-rave.com
+mx0.x-rave.com
+singapore.x-rave.com
+c80.x-rave.com

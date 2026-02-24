@@ -1,0 +1,6 @@
+testvr.registerforskning.se
+old.registerforskning.se
+utveckling.testvr.registerforskning.se
+rut.registerforskning.se
+utveckling.registerforskning.se
+tm.registerforskning.se

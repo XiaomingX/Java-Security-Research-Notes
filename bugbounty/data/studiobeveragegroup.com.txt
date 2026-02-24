@@ -1,0 +1,6 @@
+connect.studiobeveragegroup.com
+dev.studiobeveragegroup.com
+documentation.studiobeveragegroup.com
+lemtrail.studiobeveragegroup.com
+old.studiobeveragegroup.com
+api.studiobeveragegroup.com

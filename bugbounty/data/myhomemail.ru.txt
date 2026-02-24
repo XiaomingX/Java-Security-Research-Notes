@@ -1,0 +1,12 @@
+speedtest.myhomemail.ru
+webmail.myhomemail.ru
+vpn.myhomemail.ru
+imap.myhomemail.ru
+soft.myhomemail.ru
+smtp.myhomemail.ru
+autodiscover.myhomemail.ru
+mail.myhomemail.ru
+pop3.myhomemail.ru
+phpmyadmin.myhomemail.ru
+pop3s.myhomemail.ru
+pop.myhomemail.ru

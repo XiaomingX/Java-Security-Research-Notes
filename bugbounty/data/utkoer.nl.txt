@@ -1,0 +1,5 @@
+mail.utkoer.nl
+ftp.utkoer.nl
+mail.uzmanlarnakliye.commail.utkoer.nl
+pop.utkoer.nl
+smtp.utkoer.nl

@@ -1,0 +1,14 @@
+stage.myoconsult.zeiss.com.my
+api-stage.myoconsult.zeiss.com.my
+contact.zeiss.com.my
+datapipeline.zeiss.com.my
+preprod-internet.zeiss.com.my
+better-vision.zeiss.com.my
+development-internet.zeiss.com.my
+test1-internet.zeiss.com.my
+test3-internet.zeiss.com.my
+stage-internet.zeiss.com.my
+med-shop.zeiss.com.my
+test2-internet.zeiss.com.my
+portal-test.zeiss.com.my
+qa.myoconsult.zeiss.com.my

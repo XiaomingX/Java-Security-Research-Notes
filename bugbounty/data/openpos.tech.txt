@@ -1,0 +1,13 @@
+autoconfig.openpos.tech
+content.openpos.tech
+ecommerce.openpos.tech
+ftpopen.openpos.tech
+insight.openpos.tech
+insight.test.openpos.tech
+messageservice.openpos.tech
+newweb.openpos.tech
+openinsight.openpos.tech
+order.openpos.tech
+osreports.openpos.tech
+superofficeerp.openpos.tech
+minimac.openpos.tech

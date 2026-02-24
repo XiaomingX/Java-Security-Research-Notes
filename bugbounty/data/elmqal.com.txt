@@ -1,0 +1,4 @@
+mail.elmqal.com
+cdn.elmqal.com
+server.elmqal.com
+trend.elmqal.com

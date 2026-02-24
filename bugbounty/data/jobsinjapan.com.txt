@@ -1,0 +1,8 @@
+uploads.jobsinjapan.com
+blog.jobsinjapan.com
+forums.jobsinjapan.com
+wpdev.jobsinjapan.com
+ex.jobsinjapan.com
+uat.jobsinjapan.com
+mail.jobsinjapan.com
+utm.jobsinjapan.com

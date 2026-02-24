@@ -1,0 +1,5 @@
+alfa.firstshop.cz
+mail.firstshop.cz
+admin.firstshop.cz
+mysql.firstshop.cz
+smtp.firstshop.cz

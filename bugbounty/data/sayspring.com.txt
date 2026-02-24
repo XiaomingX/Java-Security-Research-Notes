@@ -1,0 +1,8 @@
+audio.sayspring.com
+voicegram.sayspring.com
+cdn.voicegram.sayspring.com
+staging1.sayspring.com
+support.sayspring.com
+app.sayspring.com
+staging.sayspring.com
+cdn.sayspring.com

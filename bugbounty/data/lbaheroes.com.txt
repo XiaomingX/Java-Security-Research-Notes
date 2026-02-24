@@ -1,0 +1,2 @@
+contest.lbaheroes.com
+remote.lbaheroes.com

@@ -1,0 +1,6 @@
+cpcalendars.yaraporsgrunn.com
+autodiscover.yaraporsgrunn.com
+webmail.yaraporsgrunn.com
+cpanel.yaraporsgrunn.com
+cpcontacts.yaraporsgrunn.com
+webdisk.yaraporsgrunn.com

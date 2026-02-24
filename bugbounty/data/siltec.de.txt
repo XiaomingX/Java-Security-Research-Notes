@@ -1,0 +1,9 @@
+owa.siltec.de
+apps.siltec.de
+autodiscover.siltec.de
+mobile.siltec.de
+webmail.siltec.de
+webshop.siltec.de
+shop.siltec.de
+mail.siltec.de
+portal.siltec.de

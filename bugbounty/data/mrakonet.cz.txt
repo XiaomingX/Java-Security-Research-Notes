@@ -1,0 +1,7 @@
+element.mrakonet.cz
+matrix.mrakonet.cz
+movim.mrakonet.cz
+xmpp.mrakonet.cz
+userdata.mrakonet.cz
+pubsub.mrakonet.cz
+conference.mrakonet.cz

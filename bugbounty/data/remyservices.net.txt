@@ -1,0 +1,9 @@
+dremy.remyservices.net
+photos.remyservices.net
+support.remyservices.net
+status.remyservices.net
+code.remyservices.net
+wedding.remyservices.net
+search.remyservices.net
+wiki.remyservices.net
+blog.remyservices.net

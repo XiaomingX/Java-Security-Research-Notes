@@ -1,0 +1,2 @@
+app.mixhalo.com
+ftp.mixhalo.com

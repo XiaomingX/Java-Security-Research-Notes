@@ -1,0 +1,6 @@
+jira.marketfactory.com
+blog.marketfactory.com
+info.marketfactory.com
+wps.marketfactory.com
+thesauce.marketfactory.com
+webdmz.marketfactory.com

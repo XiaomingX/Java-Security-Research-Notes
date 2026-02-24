@@ -1,0 +1,11 @@
+qa.partpic.com
+webdev.partpic.com
+ppapp.partpic.com
+dappir.partpic.com
+demo.partpic.com
+dev.partpic.com
+staging.partpic.com
+webdev01.partpic.com
+qa-aws.partpic.com
+partpicgpu1.partpic.com
+hostmaster.partpic.com

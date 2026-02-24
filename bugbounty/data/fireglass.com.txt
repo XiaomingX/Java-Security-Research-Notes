@@ -1,0 +1,16 @@
+autodiscover.fireglass.com
+owa.fireglass.com
+crm.fireglass.com
+vmexch02.fireglass.com
+link.fireglass.com
+access.fireglass.com
+tgps2.fireglass.com
+jrfourltd.fireglass.com
+sip.fireglass.com
+vpn.fireglass.com
+dev.fireglass.com
+auth.fireglass.com
+legacy.fireglass.com
+lyncdiscover.fireglass.com
+projects.fireglass.com
+mail.fireglass.com

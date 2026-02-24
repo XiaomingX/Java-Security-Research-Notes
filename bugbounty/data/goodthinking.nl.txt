@@ -1,0 +1,7 @@
+webshop.goodthinking.nl
+webmail.goodthinking.nl
+owncloud.goodthinking.nl
+nextcloud.goodthinking.nl
+ns1.goodthinking.nl
+webmaster.goodthinking.nl
+mail.goodthinking.nl

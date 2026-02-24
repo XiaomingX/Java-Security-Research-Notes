@@ -1,0 +1,15 @@
+app.salemove.eu
+turn2.salemove.eu
+turn3.salemove.eu
+turn.salemove.eu
+intelliflo.app.salemove.eu
+jb.salemove.eu
+site-assets.salemove.eu
+api.salemove.eu
+gateway.salemove.eu
+ldap.salemove.eu
+vpn.salemove.eu
+assets.salemove.eu
+ws.salemove.eu
+io-legacy.salemove.eu
+ldap2.salemove.eu

@@ -1,0 +1,4 @@
+custom.stand4socks.com
+support.stand4socks.com
+us.stand4socks.com
+ftp.stand4socks.com

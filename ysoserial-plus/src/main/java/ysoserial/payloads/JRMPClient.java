@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 
 import java.lang.reflect.Proxy;
 import java.rmi.registry.Registry;

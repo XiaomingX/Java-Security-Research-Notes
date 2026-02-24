@@ -1,0 +1,2 @@
+space.eggemann.tech
+git.eggemann.tech

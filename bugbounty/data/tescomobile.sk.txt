@@ -1,0 +1,9 @@
+eshop.tescomobile.sk
+moj.tescomobile.sk
+predeshop.tescomobile.sk
+predmoj.tescomobile.sk
+test.tescomobile.sk
+testeshop.tescomobile.sk
+testmoj.tescomobile.sk
+beta.tescomobile.sk
+m.tescomobile.sk

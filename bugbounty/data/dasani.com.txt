@@ -1,0 +1,14 @@
+secure.dasani.com
+password.dasani.com
+stage.dasani.com
+test.dasani.com
+staging.dasani.com
+test.api.dasani.com
+preview.dasani.com
+fbapps.dasani.com
+m.dasani.com
+preview.staging.dasani.com
+api.dasani.com
+w.dasani.com
+mail.dasani.com
+patrickscotttraining.cpassword.dasani.com

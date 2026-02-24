@@ -1,0 +1,9 @@
+status.bit.org
+nsauth3-fw.bit.org
+mx3.bit.org
+nsauth3.bit.org
+extmon2.bit.org
+cmsota.bit.org
+test.bit.org
+extmon.bit.org
+status.test.bit.org

@@ -1,0 +1,7 @@
+kobiety.life.ovh
+dina.life.ovh
+traefik.life.ovh
+nextcloud2.life.ovh
+nextcloud.life.ovh
+service.life.ovh
+dovydas.life.ovh

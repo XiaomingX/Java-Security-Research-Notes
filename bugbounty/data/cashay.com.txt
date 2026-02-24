@@ -1,0 +1,6 @@
+guce.cashay.com
+search.cashay.com
+stage.guce.cashay.com
+dev.search.cashay.com
+qa.search.cashay.com
+trunk.guce.cashay.com

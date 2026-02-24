@@ -1,0 +1,7 @@
+mail.plyconsulting.com
+cpcalendars.plyconsulting.com
+webmail.plyconsulting.com
+cpcontacts.plyconsulting.com
+cpanel.plyconsulting.com
+webdisk.plyconsulting.com
+autodiscover.plyconsulting.com

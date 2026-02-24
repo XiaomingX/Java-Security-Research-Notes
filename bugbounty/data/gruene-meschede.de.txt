@@ -1,0 +1,6 @@
+test.gruene-meschede.de
+mta-sts.lists.gruene-meschede.de
+mta-sts.gruene-meschede.de
+test.www.gruene-meschede.de
+lists.gruene-meschede.de
+mail.gruene-meschede.de

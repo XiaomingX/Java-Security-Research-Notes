@@ -1,0 +1,4 @@
+koulutus.stevena.fi
+sip.stevena.fi
+meet.stevena.fi
+lyncdiscover.stevena.fi

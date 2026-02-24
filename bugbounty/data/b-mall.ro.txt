@@ -1,0 +1,6 @@
+ipv6.b-mall.ro
+webdisk.b-mall.ro
+autodiscover.b-mall.ro
+webmail.b-mall.ro
+cpanel.b-mall.ro
+mail.b-mall.ro

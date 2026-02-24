@@ -1,0 +1,7 @@
+autodiscover.imagesourceteam.com
+mail.imagesourceteam.com
+sslvpn.imagesourceteam.com
+thrive.shop.imagesourceteam.com
+thriveshop.imagesourceteam.com
+remote.imagesourceteam.com
+shop.imagesourceteam.com

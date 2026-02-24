@@ -1,0 +1,4 @@
+rewards.bubly.com
+policy.bubly.com
+origin-www.bubly.com
+ar.bubly.com

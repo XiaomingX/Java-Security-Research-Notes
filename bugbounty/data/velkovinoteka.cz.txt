@@ -1,0 +1,3 @@
+cdn.velkovinoteka.cz
+storage.velkovinoteka.cz
+m.velkovinoteka.cz

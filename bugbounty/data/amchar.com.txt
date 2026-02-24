@@ -1,0 +1,5 @@
+api.amchar.com
+jobs.amchar.com
+sandbox.amchar.com
+ts.amchar.com
+ts2.amchar.com

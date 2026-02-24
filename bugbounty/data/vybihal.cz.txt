@@ -1,0 +1,5 @@
+cloud.vybihal.cz
+webmail.vybihal.cz
+intranet.vybihal.cz
+mail.vybihal.cz
+appengine.vybihal.cz

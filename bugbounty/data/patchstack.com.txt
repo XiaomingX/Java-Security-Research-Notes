@@ -1,0 +1,16 @@
+store.patchstack.com
+email.patchstack.com
+ctf.patchstack.com
+affiliates.patchstack.com
+triage.patchstack.com
+docs.patchstack.com
+academy.patchstack.com
+t1.patchstack.com
+staging.patchstack.com
+support.patchstack.com
+app.patchstack.com
+api.patchstack.com
+redteam.patchstack.com
+demo.patchstack.com
+denisemui.patchstack.com
+mx.patchstack.com

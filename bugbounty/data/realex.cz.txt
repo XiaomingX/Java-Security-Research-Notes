@@ -1,0 +1,6 @@
+gate.realex.cz
+mail.realex.cz
+remote.realex.cz
+zaloha.realex.cz
+img.realex.cz
+admin.realex.cz

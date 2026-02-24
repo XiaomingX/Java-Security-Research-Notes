@@ -1,0 +1,17 @@
+autodiscover.mardens.com
+cpanel.mardens.com
+cpcalendars.mardens.com
+cpcontacts.mardens.com
+hr.mardens.com
+mail.mardens.com
+perf.mardens.com
+webdisk.mardens.com
+webmail.mardens.com
+amazon.mardens.com
+bargainsofmaine.mardens.com
+fm.mardens.com
+fmt.mardens.com
+mardenscarpet.mardens.com
+outgoing.mardens.com
+remote.mardens.com
+weblink.mardens.com

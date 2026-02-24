@@ -1,0 +1,2 @@
+image.lichess1.org
+socket.lichess1.org

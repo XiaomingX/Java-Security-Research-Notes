@@ -1,0 +1,8 @@
+cdn-sea.zoloz.com
+demobiz.zoloz.com
+docs.zoloz.com
+cdn-sea-dev.zoloz.com
+cdn-sea-pre.zoloz.com
+connect.zoloz.com
+share.zoloz.com
+vpn.zoloz.com

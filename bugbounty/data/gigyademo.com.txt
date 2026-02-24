@@ -1,0 +1,6 @@
+sa.gigyademo.com
+alexey.gigyademo.com
+insurance.gigyademo.com
+rp.gigyademo.com
+staging.gigyademo.com
+dev.gigyademo.com

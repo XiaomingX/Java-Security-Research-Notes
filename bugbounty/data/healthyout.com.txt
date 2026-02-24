@@ -1,0 +1,5 @@
+mail.healthyout.com
+docs.healthyout.com
+landing.healthyout.com
+w.healthyout.com
+mobile.healthyout.com

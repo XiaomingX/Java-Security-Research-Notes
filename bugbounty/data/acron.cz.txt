@@ -1,0 +1,6 @@
+autodiscover.acron.cz
+autoconfig.acron.cz
+inet.acron.cz
+new.acron.cz
+mail.acron.cz
+newsletter.acron.cz

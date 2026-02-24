@@ -1,0 +1,7 @@
+tracking.visma.lt
+staging.visma.lt
+test2webred.visma.lt
+test2.visma.lt
+test.visma.lt
+testwebred.visma.lt
+webred.visma.lt

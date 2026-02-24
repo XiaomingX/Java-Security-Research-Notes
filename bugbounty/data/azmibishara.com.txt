@@ -1,0 +1,2 @@
+admin.azmibishara.com
+lb.azmibishara.com

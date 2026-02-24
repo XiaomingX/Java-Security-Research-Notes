@@ -1,0 +1,2 @@
+microservices.equifax.ec
+uat.microservices.equifax.ec

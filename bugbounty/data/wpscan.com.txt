@@ -1,0 +1,8 @@
+enterprise-data.wpscan.com
+blog.wpscan.com
+proxy.wpscan.com
+test-enterprise-data.wpscan.com
+scan.wpscan.com
+rabbitmq.wpscan.com
+status.wpscan.com
+sitemap.wpscan.com

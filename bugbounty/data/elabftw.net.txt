@@ -1,0 +1,4 @@
+demo.elabftw.net
+doc.elabftw.net
+jeditable.elabftw.net
+get.elabftw.net

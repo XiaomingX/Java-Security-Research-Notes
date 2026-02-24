@@ -1,0 +1,2 @@
+autoconfig.beihelsinki.de
+autodiscover.beihelsinki.de

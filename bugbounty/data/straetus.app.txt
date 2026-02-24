@@ -1,0 +1,17 @@
+dossier.straetus.app
+signature.straetus.app
+status.debtor-portal.straetus.app
+status.straetus.app
+pay.straetus.app
+status.dossier.straetus.app
+apis.straetus.app
+main-api.straetus.app
+files-eu.straetus.app
+files-us.straetus.app
+global-assets.straetus.app
+voip-api.eu.straetus.app
+api.straetus.app
+functions.straetus.app
+voip-api.straetus.app
+straetus-main.hetzner.straetus.app
+cms.straetus.app

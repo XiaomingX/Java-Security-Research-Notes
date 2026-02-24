@@ -1,0 +1,3 @@
+doc.educlasse.fr
+w.educlasse.fr
+app.educlasse.fr

@@ -1,0 +1,4 @@
+spatworks.twobigears.com
+mail.twobigears.com
+ftp.twobigears.com
+ssh.twobigears.com

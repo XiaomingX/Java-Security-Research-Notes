@@ -1,0 +1,7 @@
+email.tootris.com
+go.tootris.com
+help.tootris.com
+info.tootris.com
+join.tootris.com
+trail.tootris.com
+vpn.tootris.com

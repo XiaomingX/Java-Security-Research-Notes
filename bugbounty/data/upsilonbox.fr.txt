@@ -1,0 +1,7 @@
+iredadmin.upsilonbox.fr
+sites-recherche-emploi.upsilonbox.fr
+sogo.upsilonbox.fr
+netdata.upsilonbox.fr
+mail.upsilonbox.fr
+bcts.upsilonbox.fr
+roundcube.upsilonbox.fr

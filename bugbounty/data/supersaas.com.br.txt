@@ -1,0 +1,5 @@
+staging.supersaas.com.br
+m.supersaas.com.br
+imap.supersaas.com.br
+pop3.supersaas.com.br
+painel.supersaas.com.br

@@ -1,0 +1,6 @@
+demo.virnika.ai
+devtele.virnika.ai
+dlv.virnika.ai
+dashboard.virnika.ai
+dev.virnika.ai
+tele.virnika.ai

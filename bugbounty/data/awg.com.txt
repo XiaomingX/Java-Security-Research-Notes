@@ -1,0 +1,6 @@
+dev.awg.com
+microsoft.awg.com
+sit.awg.com
+hello.awg.com
+prep.awg.com
+inte.awg.com

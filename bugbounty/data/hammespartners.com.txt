@@ -1,0 +1,3 @@
+investors.hammespartners.com
+info.hammespartners.com
+rds.hammespartners.com

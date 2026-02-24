@@ -1,0 +1,2 @@
+autoconfig.etzler.net
+autodiscover.etzler.net

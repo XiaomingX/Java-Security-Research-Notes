@@ -1,0 +1,15 @@
+ws.beatsnbits.nl
+bovenbouw.beatsnbits.nl
+leerling.beatsnbits.nl
+onderbouw.beatsnbits.nl
+server01.beatsnbits.nl
+php8.beatsnbits.nl
+ws-dev.beatsnbits.nl
+ontwikkel2024.beatsnbits.nl
+chat-dev.beatsnbits.nl
+ontwikkel.beatsnbits.nl
+chat.beatsnbits.nl
+ontwikkel2.beatsnbits.nl
+toegang.beatsnbits.nl
+test.beatsnbits.nl
+phpmyadmin.beatsnbits.nl

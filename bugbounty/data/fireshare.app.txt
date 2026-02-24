@@ -1,0 +1,7 @@
+sitemaps.fireshare.app
+autoconfig.fireshare.app
+webmail.fireshare.app
+development.analytic.fireshare.app
+dash-beta.fireshare.app
+sitemap.fireshare.app
+www.fireshare.app

@@ -1,0 +1,14 @@
+aws.manulife.com.kh
+awsuat.manulife.com.kh
+cws.manulife.com.kh
+dev-ap.manulife.com.kh
+preprod-ap.manulife.com.kh
+ptk.manulife.com.kh
+sit-ap.manulife.com.kh
+stg-ap.manulife.com.kh
+green-ap.manulife.com.kh
+eclaim-ppd.manulife.com.kh
+eclaim.manulife.com.kh
+mail.manulife.com.kh
+new.manulife.com.kh
+ptkuat.manulife.com.kh

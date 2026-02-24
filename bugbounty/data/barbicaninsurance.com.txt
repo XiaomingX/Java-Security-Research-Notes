@@ -1,0 +1,11 @@
+bas.barbicaninsurance.com
+sentry.barbicaninsurance.com
+acordmsgsvc.barbicaninsurance.com
+remote.barbicaninsurance.com
+hybrid.barbicaninsurance.com
+remotebackup.barbicaninsurance.com
+remotedr.barbicaninsurance.com
+vsp.barbicaninsurance.com
+autodiscover.barbicaninsurance.com
+svrbarb52.barbicaninsurance.com
+mail.barbicaninsurance.com

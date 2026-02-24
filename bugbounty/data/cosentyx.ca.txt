@@ -1,0 +1,4 @@
+inte.fallstreak.cosentyx.ca
+prod.fallstreak.cosentyx.ca
+prep.fallstreak.cosentyx.ca
+qa.dol.cosentyx.ca

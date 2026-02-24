@@ -1,0 +1,2 @@
+uk.endnote.eu
+de.endnote.eu

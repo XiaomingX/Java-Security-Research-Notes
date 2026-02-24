@@ -1,0 +1,3 @@
+servicenow.diversey.co.tz
+support.diversey.co.tz
+stage.diversey.co.tz

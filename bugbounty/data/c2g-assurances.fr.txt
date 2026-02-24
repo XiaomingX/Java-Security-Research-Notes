@@ -1,0 +1,5 @@
+docs.c2g-assurances.fr
+extranet.c2g-assurances.fr
+nova.c2g-assurances.fr
+s.c2g-assurances.fr
+secure.c2g-assurances.fr

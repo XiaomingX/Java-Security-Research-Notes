@@ -1,0 +1,5 @@
+horizon-api.www.lookfantastic.fr
+checkout.lookfantastic.fr
+aide.lookfantastic.fr
+gslb.lookfantastic.fr
+m.lookfantastic.fr

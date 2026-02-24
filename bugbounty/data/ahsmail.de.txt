@@ -1,0 +1,6 @@
+mx02.ahsmail.de
+mx03.ahsmail.de
+mx11.ahsmail.de
+mxout02.ahsmail.de
+mxout11.ahsmail.de
+mx01.ahsmail.de

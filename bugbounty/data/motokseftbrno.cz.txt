@@ -1,0 +1,2 @@
+mail.motokseftbrno.cz
+smtp.motokseftbrno.cz

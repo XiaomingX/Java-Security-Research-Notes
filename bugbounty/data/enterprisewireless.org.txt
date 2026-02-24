@@ -1,0 +1,17 @@
+autodiscover.enterprisewireless.org
+connect.enterprisewireless.org
+cevogo-test.enterprisewireless.org
+model.enterprisewireless.org
+wwwtest.enterprisewireless.org
+retheme.enterprisewireless.org
+mail.enterprisewireless.org
+dev.enterprisewireless.org
+ewa.enterprisewireless.org
+myewa.enterprisewireless.org
+debug.enterprisewireless.org
+cevo.enterprisewireless.org
+cevogoapp.enterprisewireless.org
+wwwsoft.enterprisewireless.org
+civitest.enterprisewireless.org
+staging.enterprisewireless.org
+backdrop.enterprisewireless.org

@@ -1,0 +1,8 @@
+akademie.behrs.de
+info.behrs.de
+mellow.behrs.de
+qa.behrs.de
+news.behrs.de
+cloud.behrs.de
+mail.behrs.de
+hostmaster.behrs.de

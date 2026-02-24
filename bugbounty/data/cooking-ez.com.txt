@@ -1,0 +1,3 @@
+mobile.cooking-ez.com
+mail.cooking-ez.com
+mail.mobile.cooking-ez.com

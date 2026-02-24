@@ -1,0 +1,12 @@
+test.tactick.nl
+passwordshare.tactick.nl
+offerte.tactick.nl
+redirect.tactick.nl
+portal.tactick.nl
+hostmaster.tactick.nl
+support.tactick.nl
+invoice-engine.tactick.nl
+bot.tactick.nl
+webmail.tactick.nl
+cdn.tactick.nl
+survey.tactick.nl

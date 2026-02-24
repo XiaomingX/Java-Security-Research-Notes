@@ -1,0 +1,2 @@
+api.service-digitale-verwaltung.de
+portal.service-digitale-verwaltung.de

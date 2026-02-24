@@ -1,0 +1,3 @@
+panel.infusedpvp.org
+store.infusedpvp.org
+wings.infusedpvp.org

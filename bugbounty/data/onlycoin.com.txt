@@ -1,0 +1,12 @@
+blog.onlycoin.com
+vip.onlycoin.com
+support.onlycoin.com
+developer.onlycoin.com
+accounts.onlycoin.com
+developer-staging.onlycoin.com
+merchants.onlycoin.com
+www-staging.onlycoin.com
+accounts-staging.onlycoin.com
+preorder.onlycoin.com
+img.onlycoin.com
+supportcenter.onlycoin.com

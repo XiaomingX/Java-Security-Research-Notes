@@ -1,0 +1,5 @@
+sgtm.myprotein.sk
+horizon-api.www.myprotein.sk
+m.myprotein.sk
+checkout.myprotein.sk
+altitude.www.myprotein.sk

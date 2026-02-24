@@ -1,0 +1,5 @@
+airmini.resmed.ch
+autodiscover.resmed.ch
+eudev-www.resmed.ch
+mail.resmed.ch
+hostmaster.resmed.ch

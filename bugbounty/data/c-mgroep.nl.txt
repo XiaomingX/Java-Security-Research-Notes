@@ -1,0 +1,6 @@
+remote.c-mgroep.nl
+cpcalendars.c-mgroep.nl
+cpcontacts.c-mgroep.nl
+cpanel.c-mgroep.nl
+mail.c-mgroep.nl
+webmail.c-mgroep.nl

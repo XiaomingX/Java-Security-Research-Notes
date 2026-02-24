@@ -1,0 +1,6 @@
+marketing.egoi.page
+lp.egoi.page
+cdn.egoi.page
+mkt.egoi.page
+mkt-96.egoi.page
+dev-marketing.egoi.page

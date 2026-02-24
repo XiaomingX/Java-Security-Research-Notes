@@ -1,0 +1,7 @@
+webmail.masolovaros.hu
+cpcalendars.masolovaros.hu
+mail.masolovaros.hu
+webdisk.masolovaros.hu
+autodiscover.masolovaros.hu
+cpcontacts.masolovaros.hu
+cpanel.masolovaros.hu

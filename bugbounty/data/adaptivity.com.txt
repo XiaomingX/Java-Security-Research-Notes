@@ -1,0 +1,11 @@
+qa.adaptivity.com
+zap1.adaptivity.com
+ftp.adaptivity.com
+ext.adaptivity.com
+gateway.adaptivity.com
+gw.adaptivity.com
+support.adaptivity.com
+wip.adaptivity.com
+blog.adaptivity.com
+mail.adaptivity.com
+info.adaptivity.com

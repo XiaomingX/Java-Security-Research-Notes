@@ -1,0 +1,14 @@
+php.wijkconnect.com
+mail.wijkconnect.com
+server.wijkconnect.com
+beta.wijkconnect.com
+rotterdam.wijkconnect.com
+debug.wijkconnect.com
+static.wijkconnect.com
+demo.wijkconnect.com
+utrecht.wijkconnect.com
+test.wijkconnect.com
+api.wijkconnect.com
+ftp.wijkconnect.com
+domain.wijkconnect.com
+dev.wijkconnect.com

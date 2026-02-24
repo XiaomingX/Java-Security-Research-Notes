@@ -1,0 +1,7 @@
+business.shoogar.app
+cd.shoogar.app
+cden.shoogar.app
+ru.shoogar.app
+business.ru.shoogar.app
+shalash.shoogar.app
+miro.shoogar.app

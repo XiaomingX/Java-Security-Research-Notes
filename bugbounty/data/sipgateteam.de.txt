@@ -1,0 +1,9 @@
+signup.dev.sipgateteam.de
+new.sipgateteam.de
+cms4.sipgateteam.de
+signup.sipgateteam.de
+design.sipgateteam.de
+academy.sipgateteam.de
+dev.sipgateteam.de
+blog.sipgateteam.de
+stage.sipgateteam.de

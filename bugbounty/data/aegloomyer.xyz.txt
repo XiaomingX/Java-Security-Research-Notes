@@ -1,0 +1,4 @@
+ns1.aegloomyer.xyz
+ns2.aegloomyer.xyz
+aeg1.aegloomyer.xyz
+aeg2.aegloomyer.xyz

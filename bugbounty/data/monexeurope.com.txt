@@ -1,0 +1,8 @@
+itportal.monexeurope.com
+godev.monexeurope.com
+go.monexeurope.com
+dev.monexeurope.com
+osapi.monexeurope.com
+secure.monexeurope.com
+monexfit.monexeurope.com
+archive.monexeurope.com

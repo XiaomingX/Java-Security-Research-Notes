@@ -1,0 +1,2 @@
+klient.anetvm.cz
+voip.anetvm.cz

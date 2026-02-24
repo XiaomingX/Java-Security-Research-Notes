@@ -1,0 +1,6 @@
+pm.zendesk.com.br
+recursos.zendesk.com.br
+mc.zendesk.com.br
+web-assets.zendesk.com.br
+thankyoumachine.zendesk.com.br
+clickpos.zendesk.com.br

@@ -1,0 +1,2 @@
+mta-sts.mail.alpeti.cz
+mail.alpeti.cz

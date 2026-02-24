@@ -1,0 +1,2 @@
+docker.resnigg.ga
+kolarwp.resnigg.ga

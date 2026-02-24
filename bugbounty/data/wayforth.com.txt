@@ -1,0 +1,9 @@
+beta.portal.wayforth.com
+hs.wayforth.com
+info.wayforth.com
+move.wayforth.com
+portal.wayforth.com
+help.wayforth.com
+media-dev.wayforth.com
+media-qa.wayforth.com
+media.wayforth.com

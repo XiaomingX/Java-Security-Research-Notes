@@ -1,0 +1,6 @@
+autoconfig.nav.io
+autodiscover.nav.io
+box.nav.io
+mta-sts.box.nav.io
+mta-sts.nav.io
+test.nav.io

@@ -1,22 +1,49 @@
-# Pure JRE 8 RCE Deserialization gadget (JRE 8u20)
+# JRE 8u20 RCE Exploit Generator
 
-## 漏洞解析
-此项目演示了在 **JRE 8u20** 环境下，即使没有任何第三方依赖（如 CommonsCollections），也能实现远程代码执行（RCE）的反序列化利用链。
+Generator for the JRE 8u20 deserialization RCE gadget (CVE-2014-6593). This gadget exploits a vulnerability in `java.beans.beancontext.BeanContextSupport` and `sun.reflect.annotation.AnnotationInvocationHandler` to achieve code execution without requiring any third-party libraries (pure JDK).
 
-### 核心原理
-1. **Gadget Chain**: 利用 `LinkedHashSet` 触发 `TemplatesImpl.getOutputProperties()`。
-2. **绕过限制**: 为了绕过某些版本对 `AnnotationInvocationHandler` 的限制，使用了 `BeanContextSupport` 的特殊反序列化过程。
-3. **关键类**:
-   - `java.util.LinkedHashSet`
-   - `com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl`
-   - `java.beans.beancontext.BeanContextSupport`
-   - `sun.reflect.annotation.AnnotationInvocationHandler`
+## Requirements
 
-### 参考
-- https://gist.github.com/frohoff/24af7913611f8406eaf3
-- http://wouter.coekaerts.be/2015/annotationinvocationhandler
+- Java 8
+- Maven 3.x
 
-## 如何运行
-1. 确保环境为 Java 8u20。
-2. 使用 Maven 编译：`mvn clean compile`
-3. 运行生成 Payload：`java -cp target/classes ExploitGenerator`
+## Build
+
+```bash
+mvn clean package
+```
+
+The executable JAR will be created at `target/JRE8Exploit-1.0-SNAPSHOT.jar`.
+
+## Usage
+
+Generate a serialized payload that executes a specific command:
+
+```bash
+java -jar target/JRE8Exploit-1.0-SNAPSHOT.jar "open /System/Applications/Calculator.app"
+```
+
+### Note for Java 9+ users
+If you encounter `IllegalAccessError`, you need to open internal modules:
+
+```bash
+java --add-opens java.xml/com.sun.org.apache.xalan.internal.xsltc.trax=ALL-UNNAMED \
+     --add-opens java.xml/com.sun.org.apache.xalan.internal.xsltc.runtime=ALL-UNNAMED \
+     --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED \
+     --add-opens java.base/java.util=ALL-UNNAMED \
+     -jar target/JRE8Exploit-1.0-SNAPSHOT.jar "command"
+```
+
+This will create a file named `exploit.ser` in the current directory.
+
+## Implementation Details
+
+The exploit works by:
+1.  Creating a malicious `TemplatesImpl` object containing bytecode that executes the command.
+2.  Creating a `LinkedHashSet` (to enforce order).
+3.  Adding the `TemplatesImpl` and a dynamic Proxy to the set.
+4.  Using `AnnotationInvocationHandler` to trigger an exception during deserialization of the Proxy chain.
+5.  This exception allows bypassing standard checks and reaching the payload trigger.
+6.  The serialization stream is manually constructed and patched to ensure precise object references.
+
+**Note**: This exploit is specific to JRE 8u20. Newer versions patched `AnnotationInvocationHandler`.

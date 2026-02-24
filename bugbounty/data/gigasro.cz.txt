@@ -1,0 +1,6 @@
+autodiscover.gigasro.cz
+gate.gigasro.cz
+webmail.gigasro.cz
+fw01.gigasro.cz
+mail.gigasro.cz
+autodiscover.mail.gigasro.cz

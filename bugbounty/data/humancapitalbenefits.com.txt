@@ -1,0 +1,6 @@
+webdisk.humancapitalbenefits.com
+cpcontacts.humancapitalbenefits.com
+cpcalendars.humancapitalbenefits.com
+cpanel.humancapitalbenefits.com
+mail.humancapitalbenefits.com
+webmail.humancapitalbenefits.com

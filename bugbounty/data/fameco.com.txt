@@ -1,0 +1,2 @@
+mail.fameco.com
+autodiscover.fameco.com

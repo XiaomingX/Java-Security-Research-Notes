@@ -1,0 +1,17 @@
+mail.balsa.com
+updates.balsa.com
+tree.balsa.com
+wonderful-twentyeight.balsa.com
+email.balsa.com
+releases.balsa.com
+t.balsa.com
+app.balsa.com
+api.stytch.balsa.com
+useruploads.balsa.com
+p.balsa.com
+webmail.balsa.com
+org.workcraft.plugins.balsa.com
+support.balsa.com
+emu.balsa.com
+research.balsa.com
+a.balsa.com

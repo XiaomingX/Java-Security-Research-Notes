@@ -1,0 +1,10 @@
+autodiscover.beudelivery.com
+cpanel.beudelivery.com
+cpcalendars.beudelivery.com
+cpcontacts.beudelivery.com
+crm.beudelivery.com
+kpi.beudelivery.com
+mail.beudelivery.com
+webdisk.beudelivery.com
+webmail.beudelivery.com
+test.beudelivery.com

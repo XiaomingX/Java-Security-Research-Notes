@@ -1,0 +1,15 @@
+012il.servicefriend.com
+help.servicefriend.com
+learn.servicefriend.com
+learn-itrone.servicefriend.com
+rc-tier.servicefriend.com
+login.servicefriend.com
+sales.servicefriend.com
+prod.servicefriend.com
+rc-stable.servicefriend.com
+sb.servicefriend.com
+integration.servicefriend.com
+learn-bubblez.servicefriend.com
+docs.servicefriend.com
+status.servicefriend.com
+itr-one.servicefriend.com

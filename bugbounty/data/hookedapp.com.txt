@@ -1,0 +1,7 @@
+go.hookedapp.com
+staging.hookedapp.com
+admin.hookedapp.com
+admin-prod.hookedapp.com
+admin-staging.hookedapp.com
+graph-production.hookedapp.com
+graph-staging.hookedapp.com

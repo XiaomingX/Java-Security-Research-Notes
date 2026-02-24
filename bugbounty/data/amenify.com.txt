@@ -1,0 +1,4 @@
+tracking.amenify.com
+turnover-services.amenify.com
+blog.amenify.com
+partner.amenify.com

@@ -1,0 +1,16 @@
+autodiscover.stipmalang.ac.id
+cpanel.stipmalang.ac.id
+cpcalendars.stipmalang.ac.id
+cpcontacts.stipmalang.ac.id
+library.stipmalang.ac.id
+mail.stipmalang.ac.id
+opac.library.stipmalang.ac.id
+repository.stipmalang.ac.id
+repositorydokumen.stipmalang.ac.id
+siakad.stipmalang.ac.id
+sister.stipmalang.ac.id
+webdisk.stipmalang.ac.id
+webmail.stipmalang.ac.id
+batam.stipmalang.ac.id
+belajar.stipmalang.ac.id
+mail.belajar.stipmalang.ac.id

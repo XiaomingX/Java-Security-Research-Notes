@@ -1,0 +1,7 @@
+owncloud.beyeler.photo
+parents.beyeler.photo
+homeassistant.beyeler.photo
+nextcloud.beyeler.photo
+hassio.beyeler.photo
+share.beyeler.photo
+url.beyeler.photo

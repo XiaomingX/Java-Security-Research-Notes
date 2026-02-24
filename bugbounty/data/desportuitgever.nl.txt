@@ -1,0 +1,5 @@
+cpanel.desportuitgever.nl
+fietssport.desportuitgever.nl
+mail.desportuitgever.nl
+staging.desportuitgever.nl
+webmail.desportuitgever.nl

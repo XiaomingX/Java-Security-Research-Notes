@@ -1,0 +1,6 @@
+lct.barclays.mobi
+apps.barclays.mobi
+ibank.barclays.mobi
+pingit.barclays.mobi
+bmb.barclays.mobi
+tools.barclays.mobi

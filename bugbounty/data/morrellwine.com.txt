@@ -1,0 +1,3 @@
+link.morrellwine.com
+verify.morrellwine.com
+auctions.morrellwine.com

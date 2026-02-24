@@ -1,0 +1,10 @@
+autodiscover.turners.com
+dev.turners.com
+exchange.turners.com
+helpdesk.turners.com
+hunt.turners.com
+refresh.turners.com
+rmm.turners.com
+exchange-new.turners.com
+exchange-old.turners.com
+shop.turners.com

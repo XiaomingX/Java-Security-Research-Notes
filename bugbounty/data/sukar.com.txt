@@ -1,0 +1,17 @@
+plx.sukar.com
+ssl.sukar.com
+ssl.stg.sukar.com
+stg.sukar.com
+invitesinfo.sukar.com
+marketinginfo.sukar.com
+support.sukar.com
+static.sukar.com
+_dmarc.sukar.com
+makeover.sukar.com
+edge.ssl.sukar.com
+ssl.qe.sukar.com
+dailysugar.sukar.com
+e.sukar.com
+new.sukar.com
+ordersinfo.sukar.com
+blog.sukar.com

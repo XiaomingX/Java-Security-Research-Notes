@@ -1,0 +1,4 @@
+edit.tehrantimes.com
+event.tehrantimes.com
+media.tehrantimes.com
+webmail.tehrantimes.com

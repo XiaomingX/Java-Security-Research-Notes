@@ -1,0 +1,4 @@
+backoffice-api.heureka.health
+api.testing.heureka.health
+device.testing.heureka.health
+backoffice-api.testing.heureka.health

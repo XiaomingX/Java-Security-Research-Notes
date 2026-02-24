@@ -1,0 +1,7 @@
+eshop.haagclean.nl
+lc.haagclean.nl
+api.haagclean.nl
+kantoor.haagclean.nl
+cloud.haagclean.nl
+remote.haagclean.nl
+ftp.haagclean.nl

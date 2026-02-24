@@ -1,0 +1,5 @@
+monitoring.internal.freethought.services
+helpdesk.internal.freethought.services
+support.freethought.services
+remote.freethought.services
+dev.freethought.services

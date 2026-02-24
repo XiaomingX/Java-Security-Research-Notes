@@ -1,0 +1,17 @@
+allo-en-travail.allo-escort.com
+cdn.allo-escort.com
+s.allo-escort.com
+static.allo-escort.com
+cpanel.cdn.allo-escort.com
+cpanel.news.allo-escort.com
+mail.allo-escort.com
+mail.cdn.allo-escort.com
+mail.news.allo-escort.com
+news.allo-escort.com
+webdisk.allo-escort.com
+webdisk.cdn.allo-escort.com
+webdisk.news.allo-escort.com
+webmail.cdn.allo-escort.com
+webmail.news.allo-escort.com
+whm.cdn.allo-escort.com
+whm.news.allo-escort.com

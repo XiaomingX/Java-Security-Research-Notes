@@ -1,0 +1,4 @@
+admin.astralink.app
+dashboard.astralink.app
+recruitments-api.astralink.app
+redirect.astralink.app

@@ -1,0 +1,7 @@
+autodiscover.semshred.com
+click.semshred.com
+mail.semshred.com
+news.semshred.com
+owa.semshred.com
+semvpn.semshred.com
+vpn.semshred.com

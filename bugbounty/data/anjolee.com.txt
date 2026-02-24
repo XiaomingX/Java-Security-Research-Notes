@@ -1,0 +1,10 @@
+api.anjolee.com
+blog.anjolee.com
+cpanel.blog.anjolee.com
+j.blog.anjolee.com
+m.anjolee.com
+mail.blog.anjolee.com
+stage.anjolee.com
+stageapi.anjolee.com
+stagingmobile.anjolee.com
+webdisk.blog.anjolee.com

@@ -1,0 +1,4 @@
+dev.tv3.lv
+id.tv3.lv
+live.tv3.lv
+play.tv3.lv

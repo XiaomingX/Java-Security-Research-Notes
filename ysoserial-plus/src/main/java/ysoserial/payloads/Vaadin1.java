@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import javax.management.BadAttributeValueExpException;
 
 import com.vaadin.data.util.NestedMethodProperty;

@@ -1,0 +1,3 @@
+blog.connectedhq.com
+carddav.connectedhq.com
+bloglink.connectedhq.com

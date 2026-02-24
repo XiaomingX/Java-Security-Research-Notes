@@ -1,0 +1,13 @@
+autodiscover.pdpt-nusantara.org
+cpanel.pdpt-nusantara.org
+cpcalendars.pdpt-nusantara.org
+cpcontacts.pdpt-nusantara.org
+daftar.pdpt-nusantara.org
+journal.pdpt-nusantara.org
+mail.pdpt-nusantara.org
+moodboard.pdpt-nusantara.org
+pmc.pdpt-nusantara.org
+webdisk.pdpt-nusantara.org
+webmail.pdpt-nusantara.org
+e-journal.pdpt-nusantara.org
+panel.pdpt-nusantara.org

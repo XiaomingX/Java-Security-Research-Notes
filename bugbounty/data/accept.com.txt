@@ -1,0 +1,15 @@
+review.accept.com
+options.accept.com
+httpreq.accept.com
+com.bazl.dna.caseinfo.accept.com
+company.auth.accept.com
+from.to.accept.com
+additional.characters.to.accept.com
+icon.accept.com
+headers.accept.com
+request.header.x.accept.com
+succession.accept.com
+base.accept.com
+access.invite.accept.com
+editor.submission.decision.accept.com
+this.accept.com

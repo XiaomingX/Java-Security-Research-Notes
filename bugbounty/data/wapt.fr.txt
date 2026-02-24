@@ -1,0 +1,6 @@
+conference.wapt.fr
+lists.wapt.fr
+storemetiers.wapt.fr
+store.wapt.fr
+doc.wapt.fr
+medical.clients.wapt.fr

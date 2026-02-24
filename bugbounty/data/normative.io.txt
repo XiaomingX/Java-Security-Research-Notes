@@ -1,0 +1,2 @@
+benchmark.normative.io
+vertex-proxy.normative.io

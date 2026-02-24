@@ -1,0 +1,5 @@
+int.verwaltung.bund.de
+preprod.verwaltung.bund.de
+last.verwaltung.bund.de
+standby.verwaltung.bund.de
+m2m.verwaltung.bund.de

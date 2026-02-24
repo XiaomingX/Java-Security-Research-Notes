@@ -1,13 +1,13 @@
 package ysoserial.payloads.util;
-
+import ysoserial.core.ObjectPayload;
+import ysoserial.core.Serializer;
+import ysoserial.core.Deserializer;
 import java.util.concurrent.Callable;
 
-import ysoserial.Deserializer;
-import ysoserial.Serializer;
-import static ysoserial.Deserializer.deserialize;
-import static ysoserial.Serializer.serialize;
-import ysoserial.payloads.ObjectPayload;
-import ysoserial.payloads.ObjectPayload.Utils;
+import static ysoserial.core.Deserializer.deserialize;
+import static ysoserial.core.Serializer.serialize;
+import ysoserial.core.ObjectPayload;
+import ysoserial.core.ObjectPayload.Utils;
 import ysoserial.secmgr.ExecCheckingSecurityManager;
 
 /*

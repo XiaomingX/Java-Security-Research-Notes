@@ -1,0 +1,10 @@
+autodiscover.broncowine.com
+email.broncowine.com
+hoz.broncowine.com
+webmail.broncowine.com
+am.broncowine.com
+beta2.broncowine.com
+mobi.broncowine.com
+staging.broncowine.com
+traps.broncowine.com
+waf1.broncowine.com

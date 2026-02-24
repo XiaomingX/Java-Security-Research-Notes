@@ -1,0 +1,7 @@
+cpcalendars.granatads.com
+cpcontacts.granatads.com
+cpanel.granatads.com
+webdisk.granatads.com
+webmail.granatads.com
+autodiscover.granatads.com
+mail.granatads.com

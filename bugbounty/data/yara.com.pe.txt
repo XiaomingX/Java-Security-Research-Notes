@@ -1,0 +1,3 @@
+pre.yara.com.pe
+int.yara.com.pe
+vacaciones.yara.com.pe

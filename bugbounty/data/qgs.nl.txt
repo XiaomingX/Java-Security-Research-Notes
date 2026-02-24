@@ -1,0 +1,2 @@
+mail.qgs.nl
+mx.qgs.nl

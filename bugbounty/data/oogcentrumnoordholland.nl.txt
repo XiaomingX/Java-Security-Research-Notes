@@ -1,0 +1,5 @@
+remote.oogcentrumnoordholland.nl
+citrix.oogcentrumnoordholland.nl
+mail.oogcentrumnoordholland.nl
+autodiscover.oogcentrumnoordholland.nl
+webmail.oogcentrumnoordholland.nl

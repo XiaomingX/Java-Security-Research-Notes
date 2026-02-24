@@ -1,0 +1,17 @@
+magento.prod.phoenixmarketcity.com
+store.prod.phoenixmarketcity.com
+user.prod.phoenixmarketcity.com
+plumb5.phoenixmarketcity.com
+admin.demo.phoenixmarketcity.com
+admin.prod.phoenixmarketcity.com
+admin.uat.phoenixmarketcity.com
+admin.phoenixmarketcity.com
+magento.demo.phoenixmarketcity.com
+userservice.demo.phoenixmarketcity.com
+store.demo.phoenixmarketcity.com
+magento.phoenixmarketcity.com
+demo.phoenixmarketcity.com
+magento.test.phoenixmarketcity.com
+magento.uat.phoenixmarketcity.com
+user.phoenixmarketcity.com
+prod.phoenixmarketcity.com

@@ -107,6 +107,13 @@
       <artifactId>spring-webflow-client-repo</artifactId>
       <version>1.0.0</version>
     </dependency>
+
+    <!-- BouncyCastle 加密库，cryptacular 依赖此库 -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.70</version>
+    </dependency>
   </dependencies>
 
   <properties>

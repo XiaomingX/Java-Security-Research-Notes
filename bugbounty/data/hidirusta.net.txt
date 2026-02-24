@@ -1,0 +1,6 @@
+analytics.hidirusta.net
+catalog.hidirusta.net
+erp.hidirusta.net
+image.hidirusta.net
+ws.hidirusta.net
+ykb3d.hidirusta.net

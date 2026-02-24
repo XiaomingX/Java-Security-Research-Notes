@@ -1,0 +1,2 @@
+aws.cb.zone
+bi.cb.zone

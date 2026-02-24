@@ -1,0 +1,10 @@
+mail.snowboard-shop.cz
+webmail.snowboard-shop.cz
+koncerty.snowboard-shop.cz
+top.snowboard-shop.cz
+ns.snowboard-shop.cz
+imap.snowboard-shop.cz
+pop.snowboard-shop.cz
+pop3.snowboard-shop.cz
+smtp.snowboard-shop.cz
+ftp.snowboard-shop.cz

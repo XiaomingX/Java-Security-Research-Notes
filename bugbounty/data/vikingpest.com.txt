@@ -1,0 +1,5 @@
+autodiscover.vikingpest.com
+csc.vikingpest.com
+marketing.vikingpest.com
+offers.vikingpest.com
+thedailypest.vikingpest.com

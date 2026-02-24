@@ -1,0 +1,16 @@
+ard.mapesteralfauzan.sch.id
+autodiscover.mapesteralfauzan.sch.id
+ayotertib.mapesteralfauzan.sch.id
+cpanel.mapesteralfauzan.sch.id
+cpcalendars.mapesteralfauzan.sch.id
+cpcontacts.mapesteralfauzan.sch.id
+elearning.mapesteralfauzan.sch.id
+mail.mapesteralfauzan.sch.id
+pemilos.mapesteralfauzan.sch.id
+perpusdigital.mapesteralfauzan.sch.id
+rapat.mapesteralfauzan.sch.id
+rdm.mapesteralfauzan.sch.id
+siswa.mapesteralfauzan.sch.id
+surat.mapesteralfauzan.sch.id
+webdisk.mapesteralfauzan.sch.id
+webmail.mapesteralfauzan.sch.id

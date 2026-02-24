@@ -1,0 +1,6 @@
+autodiscover.iqcando.com
+beta.iqcando.com
+citrix.iqcando.com
+ftp.iqcando.com
+mail.iqcando.com
+reports.iqcando.com

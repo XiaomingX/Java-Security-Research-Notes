@@ -1,0 +1,11 @@
+angka.abangservis.id
+autodiscover.abangservis.id
+cpanel.abangservis.id
+cpcalendars.abangservis.id
+cpcontacts.abangservis.id
+mail.abangservis.id
+webdisk.abangservis.id
+webmail.abangservis.id
+clinic.abangservis.id
+drive.abangservis.id
+smarthome.abangservis.id

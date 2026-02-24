@@ -1,0 +1,5 @@
+webmail.infosec-handbook.eu
+ftp.infosec-handbook.eu
+cpanel.infosec-handbook.eu
+mail.infosec-handbook.eu
+contact.infosec-handbook.eu

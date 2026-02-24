@@ -1,0 +1,11 @@
+admin.malta.com
+shop.malta.com
+test.www.malta.com
+prod.www.malta.com
+secure.malta.com
+mail.malta.com
+subnetfor.malta.com
+domains.malta.com
+webmail.malta.com
+reserved.subnetfor.malta.com
+ecabs.malta.com

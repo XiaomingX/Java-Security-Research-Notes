@@ -1,0 +1,5 @@
+extapps2.oge.gov
+www2.oge.gov
+access.oge.gov
+int-prirds02.oge.gov
+education.oge.gov

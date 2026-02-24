@@ -1,0 +1,2 @@
+nextcloud.redfoxcloud.de
+cloud.redfoxcloud.de

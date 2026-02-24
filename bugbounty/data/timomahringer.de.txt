@@ -1,0 +1,9 @@
+wiki.timomahringer.de
+tools.timomahringer.de
+energy.timomahringer.de
+survey.timomahringer.de
+office.timomahringer.de
+git.timomahringer.de
+print.timomahringer.de
+stuttgart.timomahringer.de
+paperless.timomahringer.de

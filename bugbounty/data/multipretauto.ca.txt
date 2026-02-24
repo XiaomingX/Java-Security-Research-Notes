@@ -1,0 +1,10 @@
+ddc.multipretauto.ca
+cac.multipretauto.ca
+mail.multipretauto.ca
+pae.multipretauto.ca
+gtm.multipretauto.ca
+pretautogaranti.multipretauto.ca
+mail.pretautogaranti.multipretauto.ca
+pa.multipretauto.ca
+mail.pae.multipretauto.ca
+dac.multipretauto.ca

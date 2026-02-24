@@ -1,0 +1,5 @@
+en.polovnictvopalenik.sk
+sk.polovnictvopalenik.sk
+cs.polovnictvopalenik.sk
+mailin2.polovnictvopalenik.sk
+mailin1.polovnictvopalenik.sk

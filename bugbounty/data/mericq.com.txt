@@ -1,0 +1,14 @@
+nu.mericq.com
+dev.mericq.com
+communication.mericq.com
+portail.mericq.com
+analytics.mericq.com
+new.mericq.com
+blanc.mericq.com
+intranet.mericq.com
+blanc.test.mericq.com
+test.mericq.com
+meriscope.mericq.com
+test.new.mericq.com
+wiki.mericq.com
+billy.mericq.com

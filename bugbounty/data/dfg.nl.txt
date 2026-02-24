@@ -1,0 +1,15 @@
+farm.dfg.nl
+csrd.dfg.nl
+onlinebrandmanagement.dfg.nl
+topdesk.dfg.nl
+autodiscover.dfg.nl
+webmail.dfg.nl
+workspace.dfg.nl
+oud.dfg.nl
+edi.dfg.nl
+support.dfg.nl
+vpn.dfg.nl
+barracuda1.dfg.nl
+smtp-edi.edi.dfg.nl
+barracuda.dfg.nl
+visitekaartjes.dfg.nl

@@ -1,0 +1,8 @@
+cms.www.nic.ch
+w.nic.ch
+registrar.nic.ch
+wwws.nic.ch
+c.nic.ch
+domreg.nic.ch
+whois.nic.ch
+rdap.nic.ch

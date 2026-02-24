@@ -1,0 +1,9 @@
+admin.freedommunitions.com
+adminstaging.freedommunitions.com
+demo.freedommunitions.com
+m2.freedommunitions.com
+staging.freedommunitions.com
+cdn.freedommunitions.com
+enews.freedommunitions.com
+m1.freedommunitions.com
+webmail.freedommunitions.com

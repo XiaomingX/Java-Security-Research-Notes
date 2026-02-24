@@ -1,0 +1,2 @@
+mail.obnova.cz
+mx.obnova.cz

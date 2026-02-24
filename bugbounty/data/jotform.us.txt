@@ -1,0 +1,4 @@
+max.jotform.us
+secure.jotform.us
+submit.jotform.us
+form.jotform.us

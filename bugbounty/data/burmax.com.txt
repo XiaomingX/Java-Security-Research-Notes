@@ -1,0 +1,8 @@
+cloudvpsserver.qc.burmax.com
+crm.burmax.com
+images.burmax.com
+payments.burmax.com
+qc.burmax.com
+woodev.burmax.com
+dealer.burmax.com
+old.burmax.com

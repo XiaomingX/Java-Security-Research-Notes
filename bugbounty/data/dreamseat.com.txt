@@ -1,0 +1,11 @@
+autodiscover.dreamseat.com
+beta.dreamseat.com
+cpanel.dreamseat.com
+dreamseatauto.dreamseat.com
+mail.dreamseat.com
+vps.dreamseat.com
+webdisk.dreamseat.com
+webmail.dreamseat.com
+xzipit.dreamseat.com
+xzipitgallery.dreamseat.com
+xzipitpanels.dreamseat.com

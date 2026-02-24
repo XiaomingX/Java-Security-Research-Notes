@@ -1,0 +1,2 @@
+mail.fafard.com
+autodiscover.fafard.com

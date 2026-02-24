@@ -1,0 +1,4 @@
+pop.spellcheck.cloud
+smtp.spellcheck.cloud
+imap.spellcheck.cloud
+mail.spellcheck.cloud

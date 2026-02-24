@@ -1,0 +1,10 @@
+o1.ptr2120.paykun.com
+dashboard.paykun.com
+docs.paykun.com
+cdn.paykun.com
+app.paykun.com
+api.paykun.com
+support2.paykun.com
+checkout.paykun.com
+uatapi.paykun.com
+sandbox.paykun.com

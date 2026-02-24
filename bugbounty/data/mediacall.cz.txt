@@ -1,0 +1,4 @@
+ccdb-clients.mediacall.cz
+ccdb.mediacall.cz
+moodle.mediacall.cz
+mail.mediacall.cz

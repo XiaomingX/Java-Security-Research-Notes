@@ -1,0 +1,4 @@
+ws.thairomances.com
+server.thairomances.com
+blog.thairomances.com
+tracking.thairomances.com

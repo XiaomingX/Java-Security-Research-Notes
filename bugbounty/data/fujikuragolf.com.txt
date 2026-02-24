@@ -1,0 +1,3 @@
+mail.fujikuragolf.com
+remote.fujikuragolf.com
+vpn.fujikuragolf.com

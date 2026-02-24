@@ -1,0 +1,16 @@
+boh.horizonsoftware.com
+staging-boh.horizonsoftware.com
+resources.horizonsoftware.com
+replacement.boh.horizonsoftware.com
+community.horizonsoftware.com
+marketing.horizonsoftware.com
+learning.horizonsoftware.com
+api.qa.horizonsoftware.com
+devops.horizonsoftware.com
+vpn2.horizonsoftware.com
+2.horizonsoftware.com
+blog.horizonsoftware.com
+intranet.horizonsoftware.com
+mail.horizonsoftware.com
+www2.horizonsoftware.com
+getsupport.horizonsoftware.com

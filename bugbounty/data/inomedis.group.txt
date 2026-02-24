@@ -1,0 +1,12 @@
+seminar.inomedis.group
+work.inomedis.group
+guideline.inomedis.group
+roi.inomedis.group
+atlas.inomedis.group
+pplv.inomedis.group
+support.inomedis.group
+webinar.inomedis.group
+jet.inomedis.group
+voice.inomedis.group
+crm.inomedis.group
+mail.inomedis.group

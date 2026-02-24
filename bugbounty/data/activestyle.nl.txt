@@ -1,0 +1,6 @@
+autoconfig.activestyle.nl
+autodiscover.activestyle.nl
+mail.activestyle.nl
+ld.activestyle.nl
+web01.activestyle.nl
+dev.activestyle.nl

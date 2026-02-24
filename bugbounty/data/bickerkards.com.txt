@@ -1,0 +1,8 @@
+videos.bickerkards.com
+images.bickerkards.com
+meet.bickerkards.com
+syncthing.bickerkards.com
+mail.bickerkards.com
+matrix.bickerkards.com
+searx.bickerkards.com
+5etools.bickerkards.com

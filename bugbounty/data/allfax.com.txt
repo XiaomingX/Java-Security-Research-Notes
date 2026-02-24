@@ -1,0 +1,4 @@
+allfax.com.allfax.com
+allfaxph02.allfax.com
+allfaxvm02.allfax.com
+rt.allfax.com

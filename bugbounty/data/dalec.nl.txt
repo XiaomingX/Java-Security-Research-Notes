@@ -1,0 +1,7 @@
+nextcloud.dalec.nl
+webshop.dalec.nl
+mail.dalec.nl
+webmaster.dalec.nl
+ns1.dalec.nl
+owncloud.dalec.nl
+webmail.dalec.nl

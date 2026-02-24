@@ -1,0 +1,2 @@
+device-api.topside.bathyscope.io
+topside.bathyscope.io

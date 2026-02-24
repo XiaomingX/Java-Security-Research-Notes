@@ -1,0 +1,5 @@
+phone.paytech.com
+vpn.paytech.com
+vpn2.paytech.com
+sp.paytech.com
+wpdev.paytech.com

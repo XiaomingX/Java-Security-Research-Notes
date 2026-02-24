@@ -1,0 +1,3 @@
+kennisbank.airpress.nl
+dev.airpress.nl
+remote.airpress.nl

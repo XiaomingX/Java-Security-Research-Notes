@@ -1,0 +1,2 @@
+api.spritpreismonitor.de
+statistik.spritpreismonitor.de

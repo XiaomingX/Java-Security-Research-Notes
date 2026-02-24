@@ -1,0 +1,6 @@
+team.itsradio.nl
+studiodaisy.itsradio.nl
+vrienden.itsradio.nl
+cloud.itsradio.nl
+webmail.itsradio.nl
+stream.itsradio.nl

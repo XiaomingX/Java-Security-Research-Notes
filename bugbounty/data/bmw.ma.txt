@@ -1,0 +1,5 @@
+configure-next.bmw.ma
+bmw-forms.bmw.ma
+configure-previous.bmw.ma
+configure.bmw.ma
+mx.bmw.ma

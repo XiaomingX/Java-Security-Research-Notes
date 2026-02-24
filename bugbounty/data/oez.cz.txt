@@ -1,0 +1,12 @@
+jobs.oez.cz
+portal.oez.cz
+fk.oez.cz
+sw.oez.cz
+upload.oez.cz
+cc.oez.cz
+konfigurator.oez.cz
+pegas.oez.cz
+ftp.oez.cz
+afdd.test.oez.cz
+mail.oez.cz
+f-int-outside-in.oez.cz

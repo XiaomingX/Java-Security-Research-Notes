@@ -1,0 +1,3 @@
+staging2.fansale.ch
+staging1.fansale.ch
+sst.fansale.ch

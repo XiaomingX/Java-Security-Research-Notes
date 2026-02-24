@@ -1,0 +1,2 @@
+legacy.docs.alertlogic.com
+cloud.docs.alertlogic.com

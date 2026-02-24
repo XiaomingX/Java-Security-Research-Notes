@@ -1,0 +1,16 @@
+ns10.centralbaptist.com
+ns13.centralbaptist.com
+ns15.centralbaptist.com
+ns12.centralbaptist.com
+mail.centralbaptist.com
+live.centralbaptist.com
+autodiscover.centralbaptist.com
+ftp.centralbaptist.com
+pclive.centralbaptist.com
+ns14.centralbaptist.com
+ns11.centralbaptist.com
+legacy.centralbaptist.com
+secureserver.centralbaptist.com
+prayer.centralbaptist.com
+webmail.centralbaptist.com
+router.centralbaptist.com

@@ -1,0 +1,2 @@
+ca.astrogaming.ca
+prod.astrogaming.ca

@@ -1,0 +1,11 @@
+status.managed.fi
+raktomo.managed.fi
+dashboard.managed.fi
+monitor.managed.fi
+manage.managed.fi
+etappi.status.managed.fi
+slackbot.managed.fi
+ns2.managed.fi
+atk.managed.fi
+deployer.managed.fi
+ns1.managed.fi

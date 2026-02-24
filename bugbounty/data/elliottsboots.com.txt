@@ -1,0 +1,10 @@
+amazon.elliottsboots.com
+autodiscover.elliottsboots.com
+blog.elliottsboots.com
+img.email.elliottsboots.com
+m.elliottsboots.com
+mail.elliottsboots.com
+r.email.elliottsboots.com
+ts.elliottsboots.com
+webmail.elliottsboots.com
+rds.elliottsboots.com

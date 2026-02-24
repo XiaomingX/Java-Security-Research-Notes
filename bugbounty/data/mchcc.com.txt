@@ -1,0 +1,2 @@
+media.mchcc.com
+vpn.mchcc.com

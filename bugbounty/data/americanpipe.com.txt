@@ -1,0 +1,5 @@
+autodiscover.americanpipe.com
+mail.americanpipe.com
+webmail.americanpipe.com
+aps06.americanpipe.com
+m365.americanpipe.com

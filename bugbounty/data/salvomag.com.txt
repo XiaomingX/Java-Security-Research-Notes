@@ -1,0 +1,14 @@
+cpanel.salvomag.com
+host.salvomag.com
+old.salvomag.com
+t0d.salvomag.com
+2www.salvomag.com
+prod.salvomag.com
+blog.salvomag.com
+webmail.salvomag.com
+aaa.salvomag.com
+mail.salvomag.com
+ns1.salvomag.com
+ns2.salvomag.com
+webdisk.salvomag.com
+staging.salvomag.com

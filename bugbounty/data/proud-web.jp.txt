@@ -1,0 +1,12 @@
+stg.alaya.proud-web.jp
+adebis.proud-web.jp
+hb.proud-web.jp
+ar.proud-web.jp
+lp.proud-web.jp
+test.proud-web.jp
+develop-test.proud-web.jp
+sandbox.proud-web.jp
+cp.proud-web.jp
+mobile.proud-web.jp
+webtest01.proud-web.jp
+webst02.proud-web.jp

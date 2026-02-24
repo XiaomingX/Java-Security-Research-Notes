@@ -1,0 +1,5 @@
+domeinvan.compuserv.nl
+ontw.compuserv.nl
+beheer.compuserv.nl
+webmail.compuserv.nl
+mail.compuserv.nl

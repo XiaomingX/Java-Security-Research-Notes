@@ -1,0 +1,11 @@
+pdd.mirandabikeparts.com
+static.mirandabikeparts.com
+mautic.mirandabikeparts.com
+miranda.mirandabikeparts.com
+dev.mirandabikeparts.com
+mkt.mirandabikeparts.com
+xmod.mirandabikeparts.com
+assinatura.mirandabikeparts.com
+backoffice.mirandabikeparts.com
+backend.mirandabikeparts.com
+media.mirandabikeparts.com

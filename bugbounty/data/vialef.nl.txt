@@ -1,0 +1,9 @@
+mail.vialef.nl
+mx20.vialef.nl
+relay2.vialef.nl
+email.vialef.nl
+ms.vialef.nl
+zimbra.vialef.nl
+comune.vialef.nl
+smtp3.vialef.nl
+mailhost.vialef.nl

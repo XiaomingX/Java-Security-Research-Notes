@@ -1,0 +1,5 @@
+zeit.litschi.de
+root.litschi.de
+server2.litschi.de
+textilop.litschi.de
+nc.litschi.de

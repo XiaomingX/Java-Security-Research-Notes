@@ -1,0 +1,8 @@
+adfs.degkb.nl
+intranet.degkb.nl
+mijnkrediet.degkb.nl
+e.degkb.nl
+office.degkb.nl
+fallback.degkb.nl
+mdm.degkb.nl
+thuiswerken.degkb.nl

@@ -1,0 +1,11 @@
+blog.apportable.com
+docs.apportable.com
+static.apportable.com
+forum.apportable.com
+mail.apportable.com
+breakpad.apportable.com
+install.apportable.com
+dashboard.apportable.com
+phabricator.apportable.com
+forum.opensource.apportable.com
+cr.apportable.com

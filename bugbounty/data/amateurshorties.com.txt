@@ -1,0 +1,4 @@
+rt.amateurshorties.com
+vod.amateurshorties.com
+cluster.amateurshorties.com
+test.amateurshorties.com

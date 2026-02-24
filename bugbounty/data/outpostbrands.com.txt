@@ -1,0 +1,8 @@
+autodiscover.outpostbrands.com
+mail.outpostbrands.com
+cpanel.outpostbrands.com
+cpcalendars.outpostbrands.com
+cpcontacts.outpostbrands.com
+staging.outpostbrands.com
+webdisk.outpostbrands.com
+webmail.outpostbrands.com

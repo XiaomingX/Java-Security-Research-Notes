@@ -1,0 +1,5 @@
+collabora.medichcloud.com
+data.medichcloud.com
+blog.medichcloud.com
+onlyoffice.medichcloud.com
+build.medichcloud.com

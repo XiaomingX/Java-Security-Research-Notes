@@ -1,0 +1,15 @@
+api1.latampass.com
+api.latampass.com
+mqa.latampass.com
+qa.latampass.com
+blog.latampass.com
+aluguecarros.latampass.com
+dev.latampass.com
+image.mail.latampass.com
+desenvolvedores.latampass.com
+reservehoteisqa.latampass.com
+canjetiendasonlineqa.latampass.com
+canjetiendasonline.latampass.com
+reservehoteis.latampass.com
+troquepontos.latampass.com
+aluguecarrosqa.latampass.com

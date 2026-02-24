@@ -1,0 +1,8 @@
+domoticz.boomgaardonline.nl
+new.boomgaardonline.nl
+nextcloud.boomgaardonline.nl
+dakboard.boomgaardonline.nl
+stack.boomgaardonline.nl
+cpcalendars.boomgaardonline.nl
+cpcontacts.boomgaardonline.nl
+thuis.boomgaardonline.nl

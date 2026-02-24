@@ -1,0 +1,7 @@
+apps.phanum.com
+centro-sol.phanum.com
+analytics.phanum.com
+platoclinic.phanum.com
+plato.phanum.com
+centrosol.phanum.com
+mail.phanum.com

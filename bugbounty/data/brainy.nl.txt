@@ -1,0 +1,14 @@
+staging1.brainy.nl
+ipv6.brainy.nl
+mre.brainy.nl
+heinmeijer.brainy.nl
+autodiscover.brainy.nl
+cpcontacts.brainy.nl
+webdisk.brainy.nl
+cpanel.brainy.nl
+webmail.brainy.nl
+whm.brainy.nl
+cpcalendars.brainy.nl
+mail.brainy.nl
+front.brainy.nl
+max.brainy.nl

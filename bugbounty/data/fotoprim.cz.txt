@@ -1,0 +1,2 @@
+munin.fotoprim.cz
+photoextract.fotoprim.cz

@@ -1,0 +1,5 @@
+staging-na.titleist.ca
+development-na.titleist.ca
+production-na.titleist.ca
+images.titleist.ca
+click.titleist.ca

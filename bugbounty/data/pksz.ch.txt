@@ -1,0 +1,5 @@
+webmail.pksz.ch
+portal.pksz.ch
+portaltest.pksz.ch
+00www.pksz.ch
+mail.pksz.ch

@@ -1,0 +1,14 @@
+ide.novutech.ca
+router.novutech.ca
+stolen.novutech.ca
+git.novutech.ca
+software.novutech.ca
+archedekathleen.novutech.ca
+cloud.novutech.ca
+grocy.novutech.ca
+owncloud.novutech.ca
+dividend.novutech.ca
+mail.novutech.ca
+smtp.novutech.ca
+ftp.novutech.ca
+imap.novutech.ca

@@ -1,0 +1,3 @@
+cdn.textil-jimi.sk
+pop3.textil-jimi.sk
+smtp.textil-jimi.sk

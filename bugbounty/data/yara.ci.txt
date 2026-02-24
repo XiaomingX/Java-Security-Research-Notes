@@ -1,0 +1,2 @@
+pre.yara.ci
+int.yara.ci

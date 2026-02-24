@@ -1,0 +1,6 @@
+test.api.barqs.com
+preview.barqs.com
+api.barqs.com
+staging.barqs.com
+mail.barqs.com
+secure.barqs.com

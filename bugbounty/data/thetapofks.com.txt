@@ -1,0 +1,5 @@
+autodiscover.thetapofks.com
+vpn.thetapofks.com
+dev.thetapofks.com
+mail.thetapofks.com
+store.thetapofks.com

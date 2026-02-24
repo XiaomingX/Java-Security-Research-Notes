@@ -1,0 +1,7 @@
+images.stratasfoods.com
+myim.stratasfoods.com
+portal.stratasfoods.com
+sip.stratasfoods.com
+lyncdiscover.stratasfoods.com
+autodiscover.stratasfoods.com
+sipeu.stratasfoods.com

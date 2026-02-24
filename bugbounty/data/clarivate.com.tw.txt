@@ -1,0 +1,2 @@
+dev.clarivate.com.tw
+test.clarivate.com.tw

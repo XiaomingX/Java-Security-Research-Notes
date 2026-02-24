@@ -1,0 +1,10 @@
+cp.skirack.com
+rentals.skirack.com
+staging.skirack.com
+cpanel.rentals.skirack.com
+cpcalendars.rentals.skirack.com
+cpcontacts.rentals.skirack.com
+dev.skirack.com
+mail.rentals.skirack.com
+webdisk.rentals.skirack.com
+webmail.rentals.skirack.com

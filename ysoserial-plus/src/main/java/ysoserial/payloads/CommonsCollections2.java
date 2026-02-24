@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import java.util.PriorityQueue;
 import java.util.Queue;
 

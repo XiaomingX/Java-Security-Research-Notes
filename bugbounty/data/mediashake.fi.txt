@@ -1,0 +1,4 @@
+campaign.mediashake.fi
+gtm.mediashake.fi
+academy.mediashake.fi
+asiakkaat.mediashake.fi

@@ -1,0 +1,2 @@
+pay.shitcamp.shop
+localhost.shitcamp.shop

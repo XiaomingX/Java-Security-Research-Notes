@@ -1,0 +1,12 @@
+phonon.impulsonic.com
+downloads.impulsonic.com
+cpcalendars.impulsonic.com
+webmail.impulsonic.com
+gdc2015.impulsonic.com
+mail.impulsonic.com
+support.impulsonic.com
+ftp.impulsonic.com
+cpanel.impulsonic.com
+cpcontacts.impulsonic.com
+webdisk.impulsonic.com
+acoustect.impulsonic.com

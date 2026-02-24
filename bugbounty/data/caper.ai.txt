@@ -1,0 +1,13 @@
+cloud.uat.apps.caper.ai
+support.caper.ai
+zh.caper.ai
+cloud.dev.apps.caper.ai
+cloud.apps.caper.ai
+cloud.staging.apps.caper.ai
+cloud.beta.apps.caper.ai
+docs.caper.ai
+dev.apps.caper.ai
+en.caper.ai
+cartmanager.prod-na.apps.caper.ai
+cartmanager.stg-na.apps.caper.ai
+stg-na.apps.caper.ai

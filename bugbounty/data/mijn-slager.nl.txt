@@ -1,0 +1,8 @@
+webmail.mijn-slager.nl
+mail.mijn-slager.nl
+cpanel.mijn-slager.nl
+cpcalendars.mijn-slager.nl
+cpcontacts.mijn-slager.nl
+ipv6.mijn-slager.nl
+autodiscover.mijn-slager.nl
+webdisk.mijn-slager.nl

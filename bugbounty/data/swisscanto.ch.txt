@@ -1,0 +1,8 @@
+diar.swisscanto.ch
+diar-test.swisscanto.ch
+mail1.swisscanto.ch
+mail2.swisscanto.ch
+immofs.swisscanto.ch
+immoportal.swisscanto.ch
+immojira.swisscanto.ch
+static.swisscanto.ch

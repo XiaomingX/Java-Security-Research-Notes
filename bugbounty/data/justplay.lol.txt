@@ -1,0 +1,2 @@
+mail.justplay.lol
+library.justplay.lol

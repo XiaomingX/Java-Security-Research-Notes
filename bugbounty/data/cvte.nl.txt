@@ -1,0 +1,14 @@
+feeds.cvte.nl
+english.cvte.nl
+pushmail.cvte.nl
+magazinesintern.cvte.nl
+magazines.cvte.nl
+autodiscover.cvte.nl
+examenplein.cvte.nl
+magazines.english.cvte.nl
+denkmee.cvte.nl
+opendata.cvte.nl
+opendata.english.cvte.nl
+feeds.english.cvte.nl
+a-www.cvte.nl
+mx2.cvte.nl

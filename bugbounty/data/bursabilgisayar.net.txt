@@ -1,0 +1,2 @@
+mail.bursabilgisayar.net
+webmail.bursabilgisayar.net

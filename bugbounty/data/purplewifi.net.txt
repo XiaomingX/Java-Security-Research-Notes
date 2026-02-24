@@ -1,0 +1,4 @@
+stest.purplewifi.net
+support.purplewifi.net
+wifi.purplewifi.net
+o2.ptr9049.email.purplewifi.net

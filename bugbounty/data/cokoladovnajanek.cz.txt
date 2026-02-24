@@ -1,0 +1,3 @@
+partner.cokoladovnajanek.cz
+api.cokoladovnajanek.cz
+expedice.cokoladovnajanek.cz

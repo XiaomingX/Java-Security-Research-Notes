@@ -1,0 +1,5 @@
+host.exoticindiaart.com
+m.exoticindiaart.com
+mta-sts.exoticindiaart.com
+new.exoticindiaart.com
+old.exoticindiaart.com

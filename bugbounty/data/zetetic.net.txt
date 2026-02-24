@@ -1,0 +1,5 @@
+discuss.zetetic.net
+dev.zetetic.net
+license.zetetic.net
+combine.zetetic.net
+getstrip.zetetic.net

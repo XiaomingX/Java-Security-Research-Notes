@@ -1,0 +1,5 @@
+feeds.toegangspuntmobiliteit.nl
+opendata.toegangspuntmobiliteit.nl
+a-opendata.toegangspuntmobiliteit.nl
+a-feeds.toegangspuntmobiliteit.nl
+a-www.toegangspuntmobiliteit.nl

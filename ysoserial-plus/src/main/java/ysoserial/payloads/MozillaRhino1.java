@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
 import org.mozilla.javascript.*;
 import ysoserial.payloads.annotation.Authors;

@@ -1,0 +1,8 @@
+autodiscover.wendoverart.com
+mcprod.wendoverart.com
+mcstaging.wendoverart.com
+preprod.wendoverart.com
+prod.wendoverart.com
+vpn02.wendoverart.com
+legacy.wendoverart.com
+mail.wendoverart.com

@@ -1,0 +1,8 @@
+assistantto.cirruspath.com
+test.cirruspath.com
+l.cirruspath.com
+mail.cirruspath.com
+links.cirruspath.com
+demo.cirruspath.com
+meet.cirruspath.com
+email.cirruspath.com

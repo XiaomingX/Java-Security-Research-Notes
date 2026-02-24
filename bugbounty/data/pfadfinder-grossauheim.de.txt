@@ -1,0 +1,8 @@
+beitrag.pfadfinder-grossauheim.de
+cloud.pfadfinder-grossauheim.de
+run.pfadfinder-grossauheim.de
+zulip.pfadfinder-grossauheim.de
+autoconfig.pfadfinder-grossauheim.de
+entwicklung.pfadfinder-grossauheim.de
+meet.pfadfinder-grossauheim.de
+document.pfadfinder-grossauheim.de

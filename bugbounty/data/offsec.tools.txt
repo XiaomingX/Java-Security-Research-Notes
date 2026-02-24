@@ -1,0 +1,10 @@
+back.offsec.tools
+cpcalendars.offsec.tools
+cpcontacts.offsec.tools
+cdn.offsec.tools
+assets.offsec.tools
+autodiscover.offsec.tools
+mail.offsec.tools
+webdisk.offsec.tools
+webmail.offsec.tools
+cpanel.offsec.tools

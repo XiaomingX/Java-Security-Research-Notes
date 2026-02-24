@@ -196,5 +196,12 @@
       <version>2.7</version>
     </dependency>
 
+    <!-- Xalan 依赖，用于 Fastjson 反序列化 Gadget（替代 JDK 内部 API） -->
+    <dependency>
+      <groupId>xalan</groupId>
+      <artifactId>xalan</artifactId>
+      <version>2.7.2</version>
+    </dependency>
+
   </dependencies>
 </project>

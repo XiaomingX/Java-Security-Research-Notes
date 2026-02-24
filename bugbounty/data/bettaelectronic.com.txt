@@ -1,0 +1,5 @@
+edu.bettaelectronic.com
+server.bettaelectronic.com
+blog.bettaelectronic.com
+wiki.bettaelectronic.com
+obchod.bettaelectronic.com

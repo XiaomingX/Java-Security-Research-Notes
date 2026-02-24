@@ -1,0 +1,10 @@
+chantillyfirewall.koniag-gs.com
+chantillyvpn.koniag-gs.com
+mail.koniag-gs.com
+staging.koniag-gs.com
+cpanel.koniag-gs.com
+cpcalendars.koniag-gs.com
+cpcontacts.koniag-gs.com
+meraki.koniag-gs.com
+webdisk.koniag-gs.com
+webmail.koniag-gs.com

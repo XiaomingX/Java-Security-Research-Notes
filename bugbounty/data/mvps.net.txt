@@ -1,0 +1,7 @@
+jcc.mvps.net
+mirrors.mvps.net
+lawd.mvps.net
+api.mvps.net
+monitor.mvps.net
+vnc.mvps.net
+mail.mvps.net

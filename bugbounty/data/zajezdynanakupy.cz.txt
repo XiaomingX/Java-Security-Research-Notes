@@ -1,0 +1,3 @@
+autoconfig.zajezdynanakupy.cz
+mail.zajezdynanakupy.cz
+ftp.zajezdynanakupy.cz

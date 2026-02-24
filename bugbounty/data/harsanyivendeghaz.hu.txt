@@ -1,0 +1,4 @@
+ro.harsanyivendeghaz.hu
+pl.harsanyivendeghaz.hu
+en.harsanyivendeghaz.hu
+de.harsanyivendeghaz.hu

@@ -1,0 +1,4 @@
+neu.aquitronic.de
+mail.aquitronic.de
+autodiscover.aquitronic.de
+autoconfig.aquitronic.de

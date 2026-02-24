@@ -1,0 +1,9 @@
+admin.salaam.af
+agent.salaam.af
+api.salaam.af
+coc.salaam.af
+crm.salaam.af
+mail.salaam.af
+operations.salaam.af
+trustacc.salaam.af
+webmail.salaam.af

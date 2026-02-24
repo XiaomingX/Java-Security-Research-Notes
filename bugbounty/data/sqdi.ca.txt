@@ -1,0 +1,11 @@
+cpanel.sqdi.ca
+cpcalendars.sqdi.ca
+cpcontacts.sqdi.ca
+mail.sqdi.ca
+webdisk.sqdi.ca
+webmail.sqdi.ca
+consultations.sqdi.ca
+planification.sqdi.ca
+status.sqdi.ca
+beta.sqdi.ca
+autodiscover.sqdi.ca

@@ -1,0 +1,6 @@
+spanish-master.yara.es
+pre.yara.es
+int.yara.es
+int-spanish-master.yara.es
+pre-spanish-master.yara.es
+fpt.yara.es

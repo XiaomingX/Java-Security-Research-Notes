@@ -1,0 +1,8 @@
+legacy.staronline.org.uk
+w.staronline.org.uk
+helpdesk.staronline.org.uk
+qes-relay-live.staronline.org.uk
+staging.staronline.org.uk
+preview.staronline.org.uk
+qes.staronline.org.uk
+relay.staronline.org.uk

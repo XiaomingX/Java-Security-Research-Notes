@@ -1,0 +1,2 @@
+api.threatfabric.com
+www-test.threatfabric.com

@@ -1,0 +1,3 @@
+portal.flane.nl
+mail.flane.nl
+autodiscover.flane.nl

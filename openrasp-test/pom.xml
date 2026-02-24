@@ -16,7 +16,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -32,12 +32,12 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.5</version>
+            <version>3.14.0</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.0.23</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
         </dependency>
     </dependencies>
 
@@ -66,8 +66,8 @@
                         <manifest>
                         </manifest>
                         <manifestEntries>
-                            <Premain-Class>xxx.javaopenrasp.Agent</Premain-Class>
-                            <Agent-Class>xxx.javaopenrasp.Agent</Agent-Class>
+                            <Premain-Class>com.security.rasp.Agent</Premain-Class>
+                            <Agent-Class>com.security.rasp.Agent</Agent-Class>
                             <Boot-Class-Path>${project.build.finalName}.jar</Boot-Class-Path>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>

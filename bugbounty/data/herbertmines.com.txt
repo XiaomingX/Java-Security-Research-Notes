@@ -1,0 +1,6 @@
+autodiscover.herbertmines.com
+hma-exch2013.herbertmines.com
+slingshot.herbertmines.com
+ts.herbertmines.com
+hma-es07.herbertmines.com
+mail.herbertmines.com

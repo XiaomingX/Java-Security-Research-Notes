@@ -1,0 +1,16 @@
+staging-ibnl.informatiebeveiliging.nl
+mijn.informatiebeveiliging.nl
+testmijn.informatiebeveiliging.nl
+crm.informatiebeveiliging.nl
+mail.informatiebeveiliging.nl
+mijnadmin.informatiebeveiliging.nl
+redactie.informatiebeveiliging.nl
+team.informatiebeveiliging.nl
+testapi.informatiebeveiliging.nl
+new.informatiebeveiliging.nl
+phishing.informatiebeveiliging.nl
+training.informatiebeveiliging.nl
+autodiscover.informatiebeveiliging.nl
+kantoor.informatiebeveiliging.nl
+pentest.informatiebeveiliging.nl
+cdn.training.informatiebeveiliging.nl

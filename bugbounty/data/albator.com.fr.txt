@@ -1,0 +1,4 @@
+search.albator.com.fr
+top.albator.com.fr
+forum.albator.com.fr
+blog.albator.com.fr

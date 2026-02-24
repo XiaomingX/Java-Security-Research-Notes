@@ -1,0 +1,11 @@
+cdn.melonapp.com
+compose.melonapp.com
+staging.melonapp.com
+staging3.melonapp.com
+streaming.melonapp.com
+testrtc.melonapp.com
+turn.melonapp.com
+staging2.melonapp.com
+support.melonapp.com
+email.melonapp.com
+dev.melonapp.com

@@ -1,0 +1,12 @@
+immo.cbre.at
+preview.awards.cbre.at
+awards.cbre.at
+uat.immo.cbre.at
+uat-www.cbre.at
+workplace.cbre.at
+meet.cbre.at
+server.cbre.at
+dev-workplace.cbre.at
+test-workplace.cbre.at
+pes-workplace.cbre.at
+uat-workplace.cbre.at

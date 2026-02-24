@@ -1,0 +1,7 @@
+nc.aldolat.it
+likes.aldolat.it
+wiki.aldolat.it
+nextcloud.aldolat.it
+bookmarks.aldolat.it
+tweets.aldolat.it
+dev.aldolat.it

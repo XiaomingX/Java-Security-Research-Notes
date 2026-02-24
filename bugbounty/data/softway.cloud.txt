@@ -1,0 +1,5 @@
+bewerbung.softway.cloud
+teamwork.softway.cloud
+gateway.softway.cloud
+zeitapp.softway.cloud
+saz-bewerbung.softway.cloud

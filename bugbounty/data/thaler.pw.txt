@@ -1,0 +1,9 @@
+mail.thaler.pw
+orga.thaler.pw
+vault.thaler.pw
+git.thaler.pw
+devops.thaler.pw
+bit.thaler.pw
+kalendar.thaler.pw
+calendar.thaler.pw
+nas.thaler.pw

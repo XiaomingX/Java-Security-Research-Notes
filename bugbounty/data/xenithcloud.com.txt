@@ -1,0 +1,7 @@
+drive.xenithcloud.com
+casper.xenithcloud.com
+pod1.xenithcloud.com
+pod2.xenithcloud.com
+pod3.xenithcloud.com
+office.xenithcloud.com
+manage.xenithcloud.com

@@ -1,0 +1,3 @@
+blog.priorknowledge.com
+api.priorknowledge.com
+dev.priorknowledge.com

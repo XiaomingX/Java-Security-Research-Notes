@@ -1,0 +1,8 @@
+email.mail.boardco.com
+internal.boardco.com
+link.boardco.com
+sms.boardco.com
+admin.boardco.com
+clearance.boardco.com
+ssdata.boardco.com
+boats.boardco.com

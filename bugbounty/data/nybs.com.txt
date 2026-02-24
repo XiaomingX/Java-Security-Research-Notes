@@ -1,0 +1,7 @@
+autodiscover.nybs.com
+cpanel.nybs.com
+mail.nybs.com
+stac.nybs.com
+webdisk.nybs.com
+webmail.nybs.com
+whm.nybs.com

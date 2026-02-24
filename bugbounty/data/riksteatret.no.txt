@@ -1,0 +1,15 @@
+nyhetsbrev.riksteatret.no
+drapen.riksteatret.no
+adfs.riksteatret.no
+kl.riksteatret.no
+riksmobil.riksteatret.no
+riksplanen.riksteatret.no
+fotovideo.riksteatret.no
+arrweb.riksteatret.no
+utsendelse.riksteatret.no
+fotovideointern.riksteatret.no
+arkiv.riksteatret.no
+portal.riksteatret.no
+autodiscover.riksteatret.no
+mail.riksteatret.no
+rtmail.riksteatret.no

@@ -1,0 +1,14 @@
+krypt.ydre.se
+autodiscover.ydre.se
+evo-internet.ydre.se
+sip.ydre.se
+eservice.ydre.se
+intranat.ydre.se
+moln.ydre.se
+evo-meetingintegration.ydre.se
+webcat.ydre.se
+ydrebostader.ydre.se
+biblioteket.ydre.se
+minasidor.ydre.se
+fc.ydre.se
+bibliotek.ydre.se

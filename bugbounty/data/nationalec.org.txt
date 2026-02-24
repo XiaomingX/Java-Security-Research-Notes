@@ -1,0 +1,5 @@
+autodiscover.nationalec.org
+portal.nationalec.org
+remote.nationalec.org
+reservations.nationalec.org
+ts.nationalec.org

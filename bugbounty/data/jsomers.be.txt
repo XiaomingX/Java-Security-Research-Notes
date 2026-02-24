@@ -1,0 +1,2 @@
+hostmaster.jsomers.be
+blog.jsomers.be

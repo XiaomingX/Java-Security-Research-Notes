@@ -1,0 +1,3 @@
+sbinsights.paynetonline.ca
+secure.paynetonline.ca
+cm.paynetonline.ca

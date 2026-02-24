@@ -1,0 +1,4 @@
+ftp.vixion.id
+mail.vixion.id
+pop.vixion.id
+smtp.vixion.id

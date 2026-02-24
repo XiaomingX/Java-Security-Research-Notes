@@ -1,0 +1,10 @@
+mail.eunethta.eu
+webmail.eunethta.eu
+companionguide.eunethta.eu
+dev.eunethta.eu
+cpanel.eunethta.eu
+eun.eunethta.eu
+intranet.eunethta.eu
+webdisk.eunethta.eu
+conference.eunethta.eu
+registration.eunethta.eu

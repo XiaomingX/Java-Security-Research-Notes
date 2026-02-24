@@ -1,0 +1,7 @@
+mail.hnastroje.cz
+webdisk.hnastroje.cz
+cpcalendars.hnastroje.cz
+cpanel.hnastroje.cz
+autodiscover.hnastroje.cz
+webmail.hnastroje.cz
+cpcontacts.hnastroje.cz

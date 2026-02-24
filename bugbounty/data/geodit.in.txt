@@ -1,0 +1,7 @@
+api.geodit.in
+dev.api.geodit.in
+beta.geodit.in
+dev.geodit.in
+new.geodit.in
+old.geodit.in
+wri.geodit.in

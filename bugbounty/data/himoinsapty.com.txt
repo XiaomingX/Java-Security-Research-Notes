@@ -1,0 +1,10 @@
+cloud.himoinsapty.com
+share.himoinsapty.com
+cpcalendars.himoinsapty.com
+cpcontacts.himoinsapty.com
+mail.himoinsapty.com
+cpanel.himoinsapty.com
+webdisk.himoinsapty.com
+webmail.himoinsapty.com
+autodiscover.himoinsapty.com
+n.himoinsapty.com

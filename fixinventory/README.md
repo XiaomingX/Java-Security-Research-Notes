@@ -68,6 +68,11 @@ Fix Inventory 是一个由 Some Engineering 开发的开源项目。如有任何
 
 如有小改动，可直接在 [GitHub 上提 issue](https://github.com/someengineering/fixinventory/issues/new)。大的改动请先提 issue 讨论。遵循我们的[贡献指南](https://inventory.fix.security/development)开始贡献。
 
+
+## ⚠️ Known Issues
+
+- **Python 3.13 Compatibility**: The current version of `fixinventory` depends on `Pint` library which has compatibility issues with Python 3.13 (dataclasses error). Please use Python 3.10-3.12 for now.
+
 ## 🎟 许可协议
 
 请查看 [LICENSE](LICENSE) 获取详情。

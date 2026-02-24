@@ -1,0 +1,5 @@
+customer.roselosangeles.com
+learn.roselosangeles.com
+shop.roselosangeles.com
+support.roselosangeles.com
+staging.roselosangeles.com

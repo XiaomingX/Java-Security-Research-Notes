@@ -1,0 +1,7 @@
+demo.peerdom.ch
+nin.peerdom.ch
+nothing.peerdom.ch
+effinger.peerdom.ch
+bfa.peerdom.ch
+mail.peerdom.ch
+test.peerdom.ch

@@ -1,0 +1,7 @@
+autodiscover.scpdist.com
+pay.scpdist.com
+ad.scpdist.com
+amag.scpdist.com
+ldap.scpdist.com
+mail.scpdist.com
+unifi.scpdist.com

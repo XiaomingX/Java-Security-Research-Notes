@@ -1,0 +1,8 @@
+dcm.bonide.com
+ftp.bonide.com
+m.bonide.com
+mobile.bonide.com
+qr.bonide.com
+retailer.bonide.com
+signatures.bonide.com
+bpmail.bonide.com

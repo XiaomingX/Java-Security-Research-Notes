@@ -1,0 +1,2 @@
+links.mail.westelm.ae
+data.westelm.ae

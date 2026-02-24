@@ -1,0 +1,16 @@
+taster.zeiss.ch
+datapipeline.zeiss.ch
+preprod-internet.zeiss.ch
+portal-test.zeiss.ch
+stage-internet.zeiss.ch
+outdoor.zeiss.ch
+vision.zeiss.ch
+test1-internet.zeiss.ch
+development-internet.zeiss.ch
+shop.metrology.zeiss.ch
+test3-internet.zeiss.ch
+med-shop.zeiss.ch
+test2-internet.zeiss.ch
+portal-stage.zeiss.ch
+portal.zeiss.ch
+de.zeiss.ch

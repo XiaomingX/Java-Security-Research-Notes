@@ -1,0 +1,10 @@
+autodiscover.doverdowns.com
+mail.doverdowns.com
+onlinegaming.doverdowns.com
+reservations.doverdowns.com
+securemail.doverdowns.com
+cpfw1.doverdowns.com
+cpfw2.doverdowns.com
+ddfwmgt.doverdowns.com
+myaccount.doverdowns.com
+myaccounts.doverdowns.com

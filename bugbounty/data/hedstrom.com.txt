@@ -1,0 +1,4 @@
+autodiscover.hedstrom.com
+email.hedstrom.com
+remote.hedstrom.com
+xmail.hedstrom.com

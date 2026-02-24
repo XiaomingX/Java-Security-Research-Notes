@@ -1,0 +1,12 @@
+test.pasker.ru
+photo.pasker.ru
+shop.pasker.ru
+in.pasker.ru
+old.pasker.ru
+price.pasker.ru
+pad.pasker.ru
+sklad.pasker.ru
+service.pasker.ru
+api.pasker.ru
+new.pasker.ru
+board.pasker.ru

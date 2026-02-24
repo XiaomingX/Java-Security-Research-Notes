@@ -1,0 +1,12 @@
+assets.vans.eu
+careers.vans.eu
+collection.vans.eu
+files.vans.eu
+houseof.vans.eu
+prod.vans.eu
+prodeu.vans.eu
+stores.vans.eu
+surveys.vans.eu
+admin.houseof.vans.eu
+ecom.vans.eu
+m.vans.eu

@@ -1,0 +1,2 @@
+mail.arthurloyd-provence.com
+smtp.arthurloyd-provence.com

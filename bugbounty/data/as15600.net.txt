@@ -1,0 +1,3 @@
+lg.as15600.net
+autoconfig.as15600.net
+autodiscover.as15600.net

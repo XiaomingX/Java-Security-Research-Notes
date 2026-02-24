@@ -1,0 +1,4 @@
+blog.lggindustrial.com
+files.lggindustrial.com
+info.lggindustrial.com
+pay.lggindustrial.com

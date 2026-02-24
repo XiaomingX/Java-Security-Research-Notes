@@ -1,0 +1,6 @@
+cfu.zaproxy.org
+news.zaproxy.org
+tel.zaproxy.org
+alibaba.zaproxy.org
+aws.zaproxy.org
+2363f4c8.zaproxy.org

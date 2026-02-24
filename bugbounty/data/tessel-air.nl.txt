@@ -1,0 +1,7 @@
+mail.tessel-air.nl
+boeking.tessel-air.nl
+sst.tessel-air.nl
+pop.tessel-air.nl
+smtp.tessel-air.nl
+shop.tessel-air.nl
+ftp.tessel-air.nl

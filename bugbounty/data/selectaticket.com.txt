@@ -1,0 +1,6 @@
+buy.selectaticket.com
+checkout.selectaticket.com
+pay.selectaticket.com
+secure2.selectaticket.com
+admin.selectaticket.com
+secure.selectaticket.com

@@ -1,0 +1,8 @@
+test.sit.jewelpaymentech.com
+test2.jewelpaymentech.com
+sand.jewelpaymentech.com
+jpt-website.jewelpaymentech.com
+test.jewelpaymentech.com
+api.jewelpaymentech.com
+feedback.jewelpaymentech.com
+up.jewelpaymentech.com

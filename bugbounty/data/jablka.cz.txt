@@ -1,0 +1,6 @@
+intranet.jablka.cz
+eshop.jablka.cz
+smtp.jablka.cz
+pop3.jablka.cz
+webmail.jablka.cz
+imap.jablka.cz

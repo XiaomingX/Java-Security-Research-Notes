@@ -1,0 +1,4 @@
+cloud.cloud-home.ru
+autodiscover.cloud-home.ru
+owa.cloud-home.ru
+mail.cloud-home.ru

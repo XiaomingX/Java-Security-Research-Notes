@@ -1,0 +1,10 @@
+cpanel.sigapnews.co.id
+cpcalendars.sigapnews.co.id
+cpcontacts.sigapnews.co.id
+ipv6.sigapnews.co.id
+m.sigapnews.co.id
+mail.sigapnews.co.id
+riaupintar.com.sigapnews.co.id
+sigapnews.sigapnews.co.id
+webdisk.sigapnews.co.id
+webmail.sigapnews.co.id

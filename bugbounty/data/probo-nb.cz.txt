@@ -1,0 +1,3 @@
+mail.probo-nb.cz
+cdn.probo-nb.cz
+webmail.probo-nb.cz

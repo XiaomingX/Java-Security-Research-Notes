@@ -1,0 +1,13 @@
+rong.scandata.com
+mail.scandata.com
+webmail.scandata.com
+mail.files.scandata.com
+ftp.scandata.com
+d1.scandata.com
+cpcalendars.scandata.com
+files.scandata.com
+cpanel.scandata.com
+webdisk.scandata.com
+sdproxy.scandata.com
+support.scandata.com
+cpcontacts.scandata.com

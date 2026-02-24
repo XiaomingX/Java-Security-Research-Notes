@@ -1,0 +1,4 @@
+ir.franchisegrp.com
+af.franchisegrp.com
+prod.franchisegrp.com
+qa.franchisegrp.com

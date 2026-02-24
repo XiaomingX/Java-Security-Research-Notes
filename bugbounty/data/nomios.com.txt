@@ -1,0 +1,10 @@
+it.nomios.com
+img.nomios.com
+support.nomios.com
+jobs.nomios.com
+staging.nomios.com
+go.nomios.com
+cp.nomios.com
+dev.nomios.com
+lockpass.nomios.com
+hostmaster.nomios.com

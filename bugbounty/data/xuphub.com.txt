@@ -1,0 +1,5 @@
+keyuat.xuphub.com
+key-stage.xuphub.com
+dev.xuphub.com
+easypay.xuphub.com
+qa.xuphub.com

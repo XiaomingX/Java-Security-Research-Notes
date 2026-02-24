@@ -1,0 +1,12 @@
+autodiscover.waytekwire.com
+catalog.waytekwire.com
+info.waytekwire.com
+order.waytekwire.com
+fs.waytekwire.com
+helpdesk.waytekwire.com
+hybrid.waytekwire.com
+ithelpdesk.waytekwire.com
+mail.waytekwire.com
+remote.waytekwire.com
+rocket.waytekwire.com
+sonicwall.waytekwire.com

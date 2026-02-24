@@ -1,0 +1,3 @@
+mta-sts.vanbreda-ausloos.be
+autodiscover.vanbreda-ausloos.be
+_dmarc.vanbreda-ausloos.be

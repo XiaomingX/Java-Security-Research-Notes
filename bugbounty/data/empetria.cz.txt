@@ -1,0 +1,3 @@
+mail.empetria.cz
+webmail.empetria.cz
+smtp.empetria.cz

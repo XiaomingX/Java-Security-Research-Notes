@@ -1,0 +1,4 @@
+members.footjoy.jp
+memberstest.footjoy.jp
+fjs.footjoy.jp
+teaser.footjoy.jp

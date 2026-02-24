@@ -1,0 +1,7 @@
+mail.dtklima.hu
+webmail.dtklima.hu
+webdisk.dtklima.hu
+cpcalendars.dtklima.hu
+cpanel.dtklima.hu
+autodiscover.dtklima.hu
+cpcontacts.dtklima.hu

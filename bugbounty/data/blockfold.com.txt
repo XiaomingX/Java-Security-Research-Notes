@@ -1,0 +1,8 @@
+smtp.blockfold.com
+mx.blockfold.com
+jira.blockfold.com
+autoconfig.blockfold.com
+mailgate.blockfold.com
+sitemap.blockfold.com
+sitemaps.blockfold.com
+imap.blockfold.com

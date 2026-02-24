@@ -1,0 +1,3 @@
+docs.openbanking.ca
+production.openbanking.ca
+staging.openbanking.ca

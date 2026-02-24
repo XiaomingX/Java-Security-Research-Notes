@@ -1,0 +1,3 @@
+design-dev.merchantsfixture.com
+design.merchantsfixture.com
+remote.merchantsfixture.com

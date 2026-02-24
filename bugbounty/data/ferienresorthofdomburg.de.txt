@@ -1,0 +1,4 @@
+buchen1.ferienresorthofdomburg.de
+staging.ferienresorthofdomburg.de
+dev.ferienresorthofdomburg.de
+buchen2.ferienresorthofdomburg.de

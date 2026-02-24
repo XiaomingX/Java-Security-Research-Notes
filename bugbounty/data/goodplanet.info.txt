@@ -1,0 +1,9 @@
+forms.newsletter.goodplanet.info
+eye.newsletter.goodplanet.info
+landings.newsletter.goodplanet.info
+img.newsletter.goodplanet.info
+share.goodplanet.info
+old.goodplanet.info
+prep.goodplanet.info
+dev.goodplanet.info
+test.goodplanet.info

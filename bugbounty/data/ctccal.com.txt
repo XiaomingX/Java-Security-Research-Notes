@@ -1,0 +1,4 @@
+rds.ctccal.com
+ctctestinfo.ctccal.com
+ftp.ctccal.com
+ctcinfo.ctccal.com

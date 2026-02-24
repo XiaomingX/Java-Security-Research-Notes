@@ -1,0 +1,15 @@
+static.lab.footshop.it
+releases.footshop.it
+shop.footshop.it
+files.lab.footshop.it
+staging.footshop.it
+shop.lab.footshop.it
+lab.footshop.it
+files.footshop.it
+static.footshop.it
+sitemaps.footshop.it
+shop.staging.footshop.it
+sitemaps-lab.footshop.it
+presta.beta.footshop.it
+shop.beta.footshop.it
+shop-presta.beta.footshop.it

@@ -1,0 +1,8 @@
+app.garmentier.co
+client.garmentier.co
+client.staging.garmentier.co
+ext.garmentier.co
+legacy-api.staging.garmentier.co
+resources.garmentier.co
+staging.garmentier.co
+stylist.garmentier.co

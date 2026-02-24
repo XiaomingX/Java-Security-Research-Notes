@@ -1,0 +1,7 @@
+rise.igauge.in
+happiness.igauge.in
+chatbot.igauge.in
+fdp.igauge.in
+academy.igauge.in
+summit.igauge.in
+admin.igauge.in

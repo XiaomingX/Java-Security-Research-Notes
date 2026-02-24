@@ -1,0 +1,2 @@
+smtp.kamenprirodni.cz
+admin.kamenprirodni.cz

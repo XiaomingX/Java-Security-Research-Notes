@@ -1,0 +1,4 @@
+test.ptznetwork.org
+ns1.ptznetwork.org
+apps.ptznetwork.org
+ns2.ptznetwork.org

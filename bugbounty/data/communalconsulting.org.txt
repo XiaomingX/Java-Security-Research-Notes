@@ -1,0 +1,3 @@
+ns1.communalconsulting.org
+ns2.communalconsulting.org
+mta-sts.communalconsulting.org

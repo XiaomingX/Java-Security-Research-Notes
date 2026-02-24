@@ -1,0 +1,11 @@
+sip2.canon.ie
+store.canon.ie
+account-uat.canon.ie
+account.canon.ie
+lyncdiscover.canon.ie
+sip.canon.ie
+mailhost.canon.ie
+lyncdiscoverinternal.canon.ie
+prl.canon.ie
+customer.canon.ie
+tst.canon.ie

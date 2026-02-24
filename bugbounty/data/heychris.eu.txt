@@ -1,0 +1,7 @@
+autodiscover.heychris.eu
+g.heychris.eu
+tr-l.heychris.eu
+vrepo.heychris.eu
+vse.heychris.eu
+autoconfig.heychris.eu
+vmc.heychris.eu

@@ -1,0 +1,6 @@
+altitude.www.myprotein.no
+checkout.myprotein.no
+horizon-api.www.myprotein.no
+sgtm.myprotein.no
+m.myprotein.no
+gslb.myprotein.no

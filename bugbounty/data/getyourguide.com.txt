@@ -1,0 +1,9 @@
+supplier-public.getyourguide.com
+connectivity.getyourguide.com
+freelancer.getyourguide.com
+localization.getyourguide.com
+getconnected.getyourguide.com
+itsupport.getyourguide.com
+technology.getyourguide.com
+integrator.getyourguide.com
+partner.getyourguide.com

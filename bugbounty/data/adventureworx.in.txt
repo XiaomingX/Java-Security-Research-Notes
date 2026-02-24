@@ -1,0 +1,9 @@
+autodiscover.adventureworx.in
+cpanel.adventureworx.in
+cpcalendars.adventureworx.in
+cpcontacts.adventureworx.in
+demo.adventureworx.in
+mail.adventureworx.in
+staging.adventureworx.in
+webdisk.adventureworx.in
+webmail.adventureworx.in

@@ -1,0 +1,14 @@
+rider.deliveroo.fr
+careers.deliveroo.fr
+admin.deliveroo.fr
+foodscene.deliveroo.fr
+test.deliveroo.fr
+riders.deliveroo.fr
+staging.deliveroo.fr
+sandbox.deliveroo.fr
+crowdstrike.labaguette.commande.deliveroo.fr
+careers-staging.deliveroo.fr
+dtm.deliveroo.fr
+_sipfederationtls._tcp.announce.deliveroo.fr
+futurefood.deliveroo.fr
+cdn0.deliveroo.fr

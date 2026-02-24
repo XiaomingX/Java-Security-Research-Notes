@@ -1,0 +1,9 @@
+labentreprenor.appfarm.app
+akso.appfarm.app
+virke-agg.appfarm.app
+test.appfarm.app
+artistpartner.appfarm.app
+gratisfabrikken.dev.appfarm.app
+flyyt.appfarm.app
+minimer.appfarm.app
+dev.appfarm.app

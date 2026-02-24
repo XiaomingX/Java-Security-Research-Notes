@@ -1,0 +1,5 @@
+autodiscover.hahnauto.com
+connect.hahnauto.com
+legacy.hahnauto.com
+mail.hahnauto.com
+workspace.hahnauto.com

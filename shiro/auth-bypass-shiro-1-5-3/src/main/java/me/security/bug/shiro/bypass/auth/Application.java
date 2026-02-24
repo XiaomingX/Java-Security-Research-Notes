@@ -1,4 +1,4 @@
-package me.threedr3am.bug.shiro.bypass.auth;
+package me.security.bug.shiro.bypass.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

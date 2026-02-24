@@ -1,0 +1,12 @@
+login.royalcanin.co.jp
+mypage.royalcanin.co.jp
+book.royalcanin.co.jp
+test.v.royalcanin.co.jp
+test.royalcanin.co.jp
+v.royalcanin.co.jp
+stage.royalcanin.co.jp
+go.royalcanin.co.jp
+aws.test.v.royalcanin.co.jp
+test-v.royalcanin.co.jp
+mail.royalcanin.co.jp
+origin.test.v.royalcanin.co.jp

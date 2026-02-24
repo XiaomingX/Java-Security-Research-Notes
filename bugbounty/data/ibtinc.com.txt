@@ -1,0 +1,15 @@
+autodiscover.ibtinc.com
+dev.ibtinc.com
+email.ibtinc.com
+learn.ibtinc.com
+mobile1.ibtinc.com
+my.ibtinc.com
+primemover.ibtinc.com
+server.ibtinc.com
+testepx.ibtinc.com
+uptime.ibtinc.com
+ibt9p.ibtinc.com
+ibtcrm.ibtinc.com
+mail.ibtinc.com
+mobile.ibtinc.com
+p21print.ibtinc.com

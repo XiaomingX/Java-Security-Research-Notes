@@ -1,0 +1,2 @@
+wp.privatecore.com
+staging.privatecore.com

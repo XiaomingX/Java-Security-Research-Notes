@@ -1,0 +1,7 @@
+horizon-api.www.growgorgeous.de
+m.growgorgeous.de
+checkout.growgorgeous.de
+gslb.growgorgeous.de
+links.n.growgorgeous.de
+links.t.growgorgeous.de
+sgtm.growgorgeous.de

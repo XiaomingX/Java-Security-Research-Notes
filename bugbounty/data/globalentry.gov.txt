@@ -1,0 +1,2 @@
+_dmarc.globalentry.gov
+llwww.globalentry.gov

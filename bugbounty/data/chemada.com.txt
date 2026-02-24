@@ -1,0 +1,14 @@
+autodiscover.chemada.com
+any.chemada.com
+cpanel.chemada.com
+cpcalendars.chemada.com
+cpcontacts.chemada.com
+dev.chemada.com
+iispriority.chemada.com
+mail.chemada.com
+mobile.chemada.com
+new.chemada.com
+testpriority.chemada.com
+web.chemada.com
+webdisk.chemada.com
+webmail.chemada.com

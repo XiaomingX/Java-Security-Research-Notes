@@ -1,0 +1,9 @@
+beta.medarbeiderne.no
+minside.medarbeiderne.no
+app.beta.medarbeiderne.no
+staging.beta.medarbeiderne.no
+minside.beta.medarbeiderne.no
+app.medarbeiderne.no
+minside.test.medarbeiderne.no
+wp-tmp.medarbeiderne.no
+app.test.medarbeiderne.no

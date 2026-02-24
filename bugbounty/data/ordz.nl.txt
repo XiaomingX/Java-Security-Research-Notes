@@ -1,0 +1,11 @@
+magazines.english.ordz.nl
+magazinesintern.ordz.nl
+elearning.ordz.nl
+feeds.ordz.nl
+english.ordz.nl
+feeds.english.ordz.nl
+magazines.ordz.nl
+opendata.english.ordz.nl
+opendata.ordz.nl
+magazinesintern.english.ordz.nl
+acceptatie.ordz.nl

@@ -1,0 +1,4 @@
+searx.baloona.de
+cloud.baloona.de
+weechat.baloona.de
+meet.baloona.de

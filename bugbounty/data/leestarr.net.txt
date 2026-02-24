@@ -1,0 +1,5 @@
+cloud.leestarr.net
+smtp.leestarr.net
+webcam.leestarr.net
+mail.leestarr.net
+media.leestarr.net

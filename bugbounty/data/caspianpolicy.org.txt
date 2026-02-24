@@ -1,0 +1,13 @@
+autodiscover.caspianpolicy.org
+webmail.caspianpolicy.org
+caspianfoundation.caspianpolicy.org
+cpanel.caspianpolicy.org
+cpcalendars.caspianpolicy.org
+cpcontacts.caspianpolicy.org
+demo.caspianpolicy.org
+mail.caspianpolicy.org
+new.caspianpolicy.org
+trans-caspian.caspianpolicy.org
+transcaspian.caspianpolicy.org
+transcaspianforum.caspianpolicy.org
+webdisk.caspianpolicy.org

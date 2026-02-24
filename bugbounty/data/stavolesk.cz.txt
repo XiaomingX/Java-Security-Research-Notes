@@ -1,0 +1,5 @@
+imap.stavolesk.cz
+webmail.stavolesk.cz
+mail.stavolesk.cz
+smtp.stavolesk.cz
+webmail2.stavolesk.cz

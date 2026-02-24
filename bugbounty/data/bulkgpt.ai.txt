@@ -1,0 +1,3 @@
+dev-api.bulkgpt.ai
+api.bulkgpt.ai
+inst.bulkgpt.ai

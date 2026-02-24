@@ -1,0 +1,2 @@
+mailserver.pi-ct.com
+nas-pct-01.pi-ct.com

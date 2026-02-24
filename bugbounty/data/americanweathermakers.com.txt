@@ -1,0 +1,5 @@
+autodiscover.americanweathermakers.com
+nibbles.americanweathermakers.com
+origin.americanweathermakers.com
+nibblestest.americanweathermakers.com
+test.americanweathermakers.com

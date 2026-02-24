@@ -1,0 +1,2 @@
+webservices-prod.manadatech.com
+webservices.manadatech.com

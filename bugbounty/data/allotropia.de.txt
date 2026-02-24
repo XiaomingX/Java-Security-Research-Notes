@@ -1,0 +1,5 @@
+downloads.allotropia.de
+blog.allotropia.de
+crashreport.allotropia.de
+bbb.allotropia.de
+matrix.allotropia.de

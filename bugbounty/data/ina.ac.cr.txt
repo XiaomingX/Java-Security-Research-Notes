@@ -1,0 +1,7 @@
+autodiscover.ina.ac.cr
+correo1.ina.ac.cr
+correo1.corp.ina.ac.cr
+ruckus.corp.ina.ac.cr
+ruckus.ina.ac.cr
+ruckusina.corp.ina.ac.cr
+ruckusina01.corp.ina.ac.cr

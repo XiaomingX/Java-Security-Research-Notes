@@ -1,0 +1,8 @@
+holiday.optyx.com
+internal.optyx.com
+office.optyx.com
+promo.optyx.com
+remote.optyx.com
+scheduler.optyx.com
+server.optyx.com
+mail.optyx.com

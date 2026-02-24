@@ -1,0 +1,7 @@
+emphasis.adelard.com
+staging.adelard.com
+yokogawa.adelard.com
+support.adelard.com
+new.adelard.com
+wiki.adelard.com
+fasthost.adelard.com

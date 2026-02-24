@@ -1,0 +1,3 @@
+autodiscover.mybizcloud.at
+autodiscoverredirect.mybizcloud.at
+verify.mybizcloud.at

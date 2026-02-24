@@ -1,0 +1,7 @@
+account.oralb.se
+account-dev.oralb.se
+preview.oralb.se
+xmn.oralb.se
+ablink.email.oralb.se
+mail.oralb.se
+giftcard.oralb.se

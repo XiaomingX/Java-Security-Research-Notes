@@ -1,0 +1,10 @@
+return.qa.bring.nl
+prod.bring.nl
+test-cdn.bring.nl
+booking.bring.nl
+ftp.bring.nl
+return.bring.nl
+xp7.bring.nl
+zwijndrecht.bring.nl
+test.bring.nl
+qa.bring.nl

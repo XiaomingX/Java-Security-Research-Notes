@@ -1,0 +1,2 @@
+autoconfig.benvenutishoes.com
+autodiscover.benvenutishoes.com

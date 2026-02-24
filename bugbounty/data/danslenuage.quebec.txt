@@ -1,0 +1,6 @@
+dynapi.danslenuage.quebec
+mkt.danslenuage.quebec
+social.danslenuage.quebec
+support.danslenuage.quebec
+dev.danslenuage.quebec
+cloudflare-resolve-to.danslenuage.quebec

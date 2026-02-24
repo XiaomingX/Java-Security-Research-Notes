@@ -1,0 +1,8 @@
+survey.change-now.ch
+owncloud.change-now.ch
+alice.change-now.ch
+r.change-now.ch
+office2.change-now.ch
+mail.change-now.ch
+dev.change-now.ch
+office.change-now.ch

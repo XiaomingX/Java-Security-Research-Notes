@@ -1,0 +1,4 @@
+vpn.clayhr.com
+cdn.clayhr.com
+netbird.clayhr.com
+admin.clayhr.com

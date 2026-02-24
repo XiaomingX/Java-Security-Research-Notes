@@ -1,0 +1,4 @@
+surveys.scaleio.com
+scaleiopy.api.scaleio.com
+mail.scaleio.com
+ftp.scaleio.com

@@ -1,0 +1,4 @@
+ticketonline.kinohoudini.ch
+aktuell.kinohoudini.ch
+autodiscover.kinohoudini.ch
+mx01.kinohoudini.ch

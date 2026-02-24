@@ -1,0 +1,9 @@
+payment.vhprimary.com
+portal.vhprimary.com
+app.vhprimary.com
+cpcontacts.vhprimary.com
+cpcalendars.vhprimary.com
+rsn.vhprimary.com
+support.vhprimary.com
+mobile.vhprimary.com
+showcase.vhprimary.com

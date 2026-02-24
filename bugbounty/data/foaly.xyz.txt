@@ -1,0 +1,6 @@
+netflix.foaly.xyz
+torrent.foaly.xyz
+downloader.foaly.xyz
+zabbix.foaly.xyz
+dl.foaly.xyz
+dl-list.foaly.xyz

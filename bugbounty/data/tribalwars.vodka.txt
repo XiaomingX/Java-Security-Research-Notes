@@ -1,0 +1,5 @@
+yy1.tribalwars.vodka
+yy2.tribalwars.vodka
+yy3.tribalwars.vodka
+yy0.tribalwars.vodka
+m.tribalwars.vodka

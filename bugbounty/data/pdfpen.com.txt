@@ -1,0 +1,8 @@
+cgi.pdfpen.com
+host.pdfpen.com
+webdisk.pdfpen.com
+webmail.pdfpen.com
+cpcontacts.pdfpen.com
+mail.pdfpen.com
+cpcalendars.pdfpen.com
+autodiscover.pdfpen.com

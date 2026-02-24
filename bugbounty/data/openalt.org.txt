@@ -1,0 +1,2 @@
+lpd.openalt.org
+status.openalt.org

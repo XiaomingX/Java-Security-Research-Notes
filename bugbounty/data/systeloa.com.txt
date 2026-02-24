@@ -1,0 +1,7 @@
+autodiscover.systeloa.com
+e-info.systeloa.com
+link.systeloa.com
+meteraudit.systeloa.com
+mmm.systeloa.com
+shop.systeloa.com
+webmail.systeloa.com

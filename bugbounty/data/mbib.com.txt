@@ -1,0 +1,9 @@
+origdev.mbib.com
+origprod.mbib.com
+stage.mbib.com
+dev.mbib.com
+origstage.mbib.com
+rs.mbib.com
+www-cdn-aks.mbib.com
+www-cdn-akm.mbib.com
+www-cdn-ms.mbib.com

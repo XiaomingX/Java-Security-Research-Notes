@@ -1,0 +1,9 @@
+zavreni.spoluzaci.cz
+wap.spoluzaci.cz
+test-api.spoluzaci.cz
+doc.spoluzaci.cz
+autoconfig.spoluzaci.cz
+login.spoluzaci.cz
+m.spoluzaci.cz
+cmp.spoluzaci.cz
+im.spoluzaci.cz

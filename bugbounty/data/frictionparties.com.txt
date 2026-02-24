@@ -1,0 +1,8 @@
+e.frictionparties.com
+email.frictionparties.com
+mail.frictionparties.com
+smtp.frictionparties.com
+ftp.frictionparties.com
+pop.frictionparties.com
+webmail.frictionparties.com
+imap.frictionparties.com

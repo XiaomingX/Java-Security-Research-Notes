@@ -1,0 +1,2 @@
+url.t.promotique.fr
+next.promotique.fr

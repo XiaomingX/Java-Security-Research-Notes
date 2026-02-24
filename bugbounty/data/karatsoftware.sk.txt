@@ -1,0 +1,3 @@
+demo.karatsoftware.sk
+mail.karatsoftware.sk
+autodiscover.karatsoftware.sk

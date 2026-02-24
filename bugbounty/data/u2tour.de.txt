@@ -1,0 +1,5 @@
+suche.u2tour.de
+live.u2tour.de
+analytics.u2tour.de
+survey.u2tour.de
+irc.u2tour.de

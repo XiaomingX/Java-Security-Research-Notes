@@ -1,0 +1,5 @@
+ftp.kamenskalica.sk
+mailin1.kamenskalica.sk
+mailin2.kamenskalica.sk
+mailinbackup1.kamenskalica.sk
+lh.kamenskalica.sk

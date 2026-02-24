@@ -1,0 +1,3 @@
+ftp.basenet.com
+crm.basenet.com
+apps.basenet.com

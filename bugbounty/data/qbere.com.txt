@@ -1,0 +1,15 @@
+ftp.qbere.com
+life.qbere.com
+testext.life.qbere.com
+sip.qbere.com
+lyncdiscover.qbere.com
+preprod.life.qbere.com
+vip.life.qbere.com
+mycert-retire.qbere.com
+demo.life.qbere.com
+autodiscover.qbere.com
+email.qbere.com
+enterpriseregistration.qbere.com
+ph.qbere.com
+test.qbere.com
+enterpriseenrollment.qbere.com

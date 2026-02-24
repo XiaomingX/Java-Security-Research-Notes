@@ -1,0 +1,6 @@
+applaunch.spredle.com
+loreal.spredle.com
+demo.spredle.com
+servicedesk.spredle.com
+club.spredle.com
+intranet.spredle.com

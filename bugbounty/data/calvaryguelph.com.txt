@@ -1,0 +1,11 @@
+2020dev.calvaryguelph.com
+opencal.calvaryguelph.com
+cpcontacts.calvaryguelph.com
+cpanel.calvaryguelph.com
+webmail.calvaryguelph.com
+2015.calvaryguelph.com
+autodiscover.calvaryguelph.com
+guelphcbc-testing.calvaryguelph.com
+mail.calvaryguelph.com
+webdisk.calvaryguelph.com
+cpcalendars.calvaryguelph.com

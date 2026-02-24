@@ -1,0 +1,5 @@
+data.pandoraswift.com
+pandocash.com.pandoraswift.com
+savings.pandoraswift.com
+sales.pandoraswift.com
+test.pandoraswift.com

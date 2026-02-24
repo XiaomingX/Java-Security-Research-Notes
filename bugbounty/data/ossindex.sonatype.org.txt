@@ -1,0 +1,6 @@
+staging.ossindex.sonatype.org
+jdillon.ossindex.sonatype.org
+dev.ossindex.sonatype.org
+stage-ecs.ossindex.sonatype.org
+stage.ossindex.sonatype.org
+prod.ossindex.sonatype.org

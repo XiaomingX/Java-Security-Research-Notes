@@ -1,0 +1,8 @@
+api.bluetick.io
+app.bluetick.io
+apiwebapp.bluetick.io
+lp.bluetick.io
+support.bluetick.io
+mail.bluetick.io
+webmail.bluetick.io
+appdev.bluetick.io

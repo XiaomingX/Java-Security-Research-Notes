@@ -1,0 +1,2 @@
+qa.freepeopledirectory.com
+_dmarc.freepeopledirectory.com

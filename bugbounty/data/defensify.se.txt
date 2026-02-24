@@ -1,0 +1,11 @@
+siem.defensify.se
+send.defensify.se
+beta2.defensify.se
+mail.defensify.se
+beta.defensify.se
+cloud.defensify.se
+track.defensify.se
+ng.defensify.se
+ot.defensify.se
+wp.defensify.se
+scanner.defensify.se

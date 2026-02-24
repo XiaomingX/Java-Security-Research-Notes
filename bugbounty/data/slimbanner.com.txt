@@ -1,0 +1,4 @@
+payment.slimbanner.com
+geolocation.slimbanner.com
+assets.slimbanner.com
+store.slimbanner.com

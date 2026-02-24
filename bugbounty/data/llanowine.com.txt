@@ -1,0 +1,8 @@
+ftp.llanowine.com
+link.llanowine.com
+shop.llanowine.com
+autodiscover.llanowine.com
+cpanel.llanowine.com
+mail.llanowine.com
+webdisk.llanowine.com
+webmail.llanowine.com

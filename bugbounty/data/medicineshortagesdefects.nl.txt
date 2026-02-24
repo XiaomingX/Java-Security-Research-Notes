@@ -1,0 +1,4 @@
+magazines.medicineshortagesdefects.nl
+feeds.medicineshortagesdefects.nl
+magazinesintern.medicineshortagesdefects.nl
+opendata.medicineshortagesdefects.nl

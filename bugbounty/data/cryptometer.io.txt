@@ -1,0 +1,16 @@
+api.cryptometer.io
+api2.cryptometer.io
+cdn.cryptometer.io
+socket.cryptometer.io
+webhook.cryptometer.io
+bookserver01.cryptometer.io
+bookserver02.cryptometer.io
+cnd.cryptometer.io
+crypton.cryptometer.io
+hostrocket.cryptometer.io
+nano.cryptometer.io
+rocket.cryptometer.io
+server.cryptometer.io
+sockets.cryptometer.io
+tickers.cryptometer.io
+ticks.cryptometer.io

@@ -1,0 +1,2 @@
+smtp.dumporcelanu.cz
+data.dumporcelanu.cz

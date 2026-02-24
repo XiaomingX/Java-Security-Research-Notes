@@ -1,0 +1,8 @@
+remote.biovara.cz
+blog.biovara.cz
+staging.biovara.cz
+track.biovara.cz
+posta.biovara.cz
+partner.biovara.cz
+superset.biovara.cz
+autodiscover.biovara.cz

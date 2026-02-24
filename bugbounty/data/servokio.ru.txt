@@ -1,0 +1,4 @@
+dynmap.servokio.ru
+gateway.servokio.ru
+my.servokio.ru
+api.servokio.ru

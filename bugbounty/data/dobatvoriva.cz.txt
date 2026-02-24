@@ -1,0 +1,4 @@
+mail.dobatvoriva.cz
+cpanel.dobatvoriva.cz
+webmail.dobatvoriva.cz
+webdisk.dobatvoriva.cz

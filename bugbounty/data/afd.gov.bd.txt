@@ -1,0 +1,3 @@
+govtorder.afd.gov.bd
+mail.afd.gov.bd
+seminar.afd.gov.bd

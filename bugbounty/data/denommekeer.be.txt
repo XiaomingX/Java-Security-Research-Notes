@@ -1,0 +1,4 @@
+en.denommekeer.be
+cpcalendars.denommekeer.be
+cpcontacts.denommekeer.be
+dev.denommekeer.be

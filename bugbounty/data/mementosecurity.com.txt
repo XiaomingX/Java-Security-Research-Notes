@@ -1,0 +1,10 @@
+support.mementosecurity.com
+bluelight.mementosecurity.com
+mail.mementosecurity.com
+greenlight.mementosecurity.com
+aws.mementosecurity.com
+eks.mementosecurity.com
+dev.mementosecurity.com
+api.mementosecurity.com
+fna.mementosecurity.com
+cloud.mementosecurity.com

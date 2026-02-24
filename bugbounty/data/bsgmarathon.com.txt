@@ -1,0 +1,3 @@
+register.bsgmarathon.com
+tracker.bsgmarathon.com
+donate.bsgmarathon.com

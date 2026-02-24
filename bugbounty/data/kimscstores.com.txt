@@ -1,0 +1,6 @@
+autodiscover.kimscstores.com
+exchange.kimscstores.com
+helpdesk.kimscstores.com
+laserfiche.kimscstores.com
+support.kimscstores.com
+vpn.kimscstores.com

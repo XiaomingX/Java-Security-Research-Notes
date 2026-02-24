@@ -1,0 +1,4 @@
+katalog.knihovnakv.cz
+idp.knihovnakv.cz
+mail.knihovnakv.cz
+regionkv.knihovnakv.cz

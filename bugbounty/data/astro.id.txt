@@ -1,0 +1,5 @@
+mail.astro.id
+webdisk.astro.id
+technologiesdata.astro.id
+scope.astro.id
+data.astro.id

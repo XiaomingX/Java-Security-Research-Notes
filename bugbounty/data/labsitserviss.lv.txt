@@ -1,0 +1,17 @@
+pigmalions.labsitserviss.lv
+webdisk.labsitserviss.lv
+test1.labsitserviss.lv
+test2.labsitserviss.lv
+mail.labsitserviss.lv
+help.labsitserviss.lv
+cpanel.labsitserviss.lv
+cpcontacts.labsitserviss.lv
+gridasmeistars.labsitserviss.lv
+test3.labsitserviss.lv
+webmail.labsitserviss.lv
+cpcalendars.labsitserviss.lv
+pygmalion.labsitserviss.lv
+test.labsitserviss.lv
+static.labsitserviss.lv
+demo.labsitserviss.lv
+blog.labsitserviss.lv

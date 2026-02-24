@@ -1,0 +1,2 @@
+staging.srjbtkshetra.org
+uat-online.srjbtkshetra.org

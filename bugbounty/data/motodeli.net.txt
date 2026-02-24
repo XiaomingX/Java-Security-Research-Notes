@@ -1,0 +1,7 @@
+webdisk.mail.motodeli.net
+autodiscover.mail.motodeli.net
+mail.motodeli.net
+cpcalendars.mail.motodeli.net
+cpanel.mail.motodeli.net
+webmail.mail.motodeli.net
+cpcontacts.mail.motodeli.net

@@ -1,0 +1,4 @@
+dev.justinboots.com
+redeem.justinboots.com
+stg.justinboots.com
+tst.justinboots.com

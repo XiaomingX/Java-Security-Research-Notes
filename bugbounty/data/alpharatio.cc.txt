@@ -1,0 +1,9 @@
+earth.alpharatio.cc
+hades.alpharatio.cc
+hercules.alpharatio.cc
+i.alpharatio.cc
+irc.alpharatio.cc
+jupiter.alpharatio.cc
+tracker.alpharatio.cc
+z.alpharatio.cc
+test.alpharatio.cc

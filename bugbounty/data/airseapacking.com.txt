@@ -1,0 +1,6 @@
+mail.airseapacking.com
+remote.airseapacking.com
+autodiscover.airseapacking.com
+cheetah.airseapacking.com
+postmaster2.airseapacking.com
+postmaster3.airseapacking.com

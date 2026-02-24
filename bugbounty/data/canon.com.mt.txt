@@ -1,0 +1,3 @@
+account-uat.canon.com.mt
+prl.canon.com.mt
+account.canon.com.mt

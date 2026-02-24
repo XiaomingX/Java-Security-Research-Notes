@@ -1,0 +1,9 @@
+autodiscover.bielingcloud.de
+mta-sts.bielingcloud.de
+autoconfig.bielingcloud.de
+nc.bielingcloud.de
+nas.bielingcloud.de
+test.bielingcloud.de
+onlyoffice.bielingcloud.de
+cloud.bielingcloud.de
+latest.bielingcloud.de

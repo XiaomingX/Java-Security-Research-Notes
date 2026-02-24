@@ -1,0 +1,7 @@
+autodiscover.channelop.com
+mail.channelop.com
+cpanel.channelop.com
+cpcalendars.channelop.com
+cpcontacts.channelop.com
+webdisk.channelop.com
+webmail.channelop.com

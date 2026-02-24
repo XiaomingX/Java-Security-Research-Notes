@@ -1,0 +1,10 @@
+app.wealthflex.com
+hostmaster.www.wealthflex.com
+hostmaster.wealthflex.com
+hostmaster.staging.wealthflex.com
+hostmaster.hostmaster.staging.wealthflex.com
+hostmaster.hostmaster.staging.app.wealthflex.com
+mail.wealthflex.com
+staging.wealthflex.com
+staging.app.wealthflex.com
+hostmaster.staging.app.wealthflex.com

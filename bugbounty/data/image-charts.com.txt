@@ -1,0 +1,2 @@
+grafana.image-charts.com
+editor.image-charts.com

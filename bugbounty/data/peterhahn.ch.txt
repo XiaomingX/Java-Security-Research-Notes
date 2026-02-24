@@ -1,0 +1,5 @@
+service.peterhahn.ch
+newsletter.peterhahn.ch
+news.peterhahn.ch
+aruoyf.peterhahn.ch
+media.peterhahn.ch

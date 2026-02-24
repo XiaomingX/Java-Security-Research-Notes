@@ -1,0 +1,6 @@
+remote.hoppas.nl
+webmail.hoppas.nl
+autodiscover.hoppas.nl
+mail.hoppas.nl
+ftp.hoppas.nl
+cpanel.hoppas.nl

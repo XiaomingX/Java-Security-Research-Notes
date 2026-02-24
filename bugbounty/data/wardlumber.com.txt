@@ -1,0 +1,8 @@
+mail.wardlumber.com
+store.wardlumber.com
+cpanel.wardlumber.com
+cpcalendars.wardlumber.com
+cpcontacts.wardlumber.com
+server.wardlumber.com
+webdisk.wardlumber.com
+webmail.wardlumber.com

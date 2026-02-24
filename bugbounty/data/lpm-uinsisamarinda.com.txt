@@ -1,0 +1,3 @@
+lpm.lpm-uinsisamarinda.com
+mail.lpm-uinsisamarinda.com
+test.lpm-uinsisamarinda.com

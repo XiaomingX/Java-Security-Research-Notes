@@ -1,0 +1,5 @@
+autodiscover.coloradotimberline.com
+imap.coloradotimberline.com
+mail.coloradotimberline.com
+store.coloradotimberline.com
+wholesale.coloradotimberline.com

@@ -1,0 +1,7 @@
+jul.yara.dk
+fpt.yara.dk
+pre.yara.dk
+ind.yara.dk
+int.yara.dk
+beta.yara.dk
+fert.yara.dk

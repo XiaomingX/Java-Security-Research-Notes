@@ -1,0 +1,4 @@
+vpn.couponplus.ch
+secfp.couponplus.ch
+amag.couponplus.ch
+ext-domain.couponplus.ch

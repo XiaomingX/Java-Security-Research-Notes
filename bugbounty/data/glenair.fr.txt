@@ -1,0 +1,10 @@
+dev.glenair.fr
+autodiscover.glenair.fr
+ftp.glenair.fr
+mail.glenair.fr
+admin.glenair.fr
+gw.glenair.fr
+sip.glenair.fr
+ssh.glenair.fr
+db.glenair.fr
+pop.glenair.fr

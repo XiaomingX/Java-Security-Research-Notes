@@ -1,0 +1,12 @@
+webdisk.hrxbrand.com
+running.hrxbrand.com
+hrxathleteprogram.hrxbrand.com
+autodiscover.hrxbrand.com
+webmail.hrxbrand.com
+cpcontacts.hrxbrand.com
+cpanel.hrxbrand.com
+mail.hrxbrand.com
+u17.hrxbrand.com
+cdn.hrxbrand.com
+hrx-api.hrxbrand.com
+cpcalendars.hrxbrand.com

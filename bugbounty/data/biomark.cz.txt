@@ -1,0 +1,5 @@
+img.biomark.cz
+lh.biomark.cz
+admin.biomark.cz
+mail.biomark.cz
+_dmarc.biomark.cz

@@ -1,0 +1,5 @@
+dyn.edehsa.com
+eweb.edehsa.com
+mail.edehsa.com
+ec.edehsa.com
+intranet.edehsa.com

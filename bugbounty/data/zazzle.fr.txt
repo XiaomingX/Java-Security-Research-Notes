@@ -1,0 +1,5 @@
+forum.zazzle.fr
+cs.zazzle.fr
+zsock.zazzle.fr
+internal.zazzle.fr
+track.www.zazzle.fr

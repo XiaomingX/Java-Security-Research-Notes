@@ -1,0 +1,6 @@
+mail.huisartsenkwakersplein.nl
+cpcalendars.huisartsenkwakersplein.nl
+cpanel.huisartsenkwakersplein.nl
+webmail.huisartsenkwakersplein.nl
+cpcontacts.huisartsenkwakersplein.nl
+webdisk.huisartsenkwakersplein.nl

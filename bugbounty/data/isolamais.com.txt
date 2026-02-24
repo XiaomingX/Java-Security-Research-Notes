@@ -1,0 +1,4 @@
+webdisk.isolamais.com
+webmail.isolamais.com
+cpanel.isolamais.com
+mail.isolamais.com

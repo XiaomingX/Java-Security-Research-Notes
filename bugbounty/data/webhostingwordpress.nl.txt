@@ -1,0 +1,8 @@
+s001.webhostingwordpress.nl
+wiki.webhostingwordpress.nl
+smtp.webhostingwordpress.nl
+ftp.webhostingwordpress.nl
+pop.webhostingwordpress.nl
+portal.webhostingwordpress.nl
+mail.webhostingwordpress.nl
+dev.webhostingwordpress.nl

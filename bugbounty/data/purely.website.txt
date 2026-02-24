@@ -1,0 +1,8 @@
+mail.mautic.purely.website
+webmail.cp.purely.website
+phpmyadmin.cp.purely.website
+mautic.purely.website
+mail.ar.purely.website
+event.purely.website
+mail.event.purely.website
+ar.purely.website

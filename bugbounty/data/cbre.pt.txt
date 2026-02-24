@@ -1,0 +1,6 @@
+imoveis.cbre.pt
+uat-www.cbre.pt
+uat.imoveis.cbre.pt
+residential.cbre.pt
+news.cbre.pt
+noticias.cbre.pt

@@ -1,0 +1,4 @@
+affiliates-api.gypsyaff.com
+click.gypsyaff.com
+login.gypsyaff.com
+partners.gypsyaff.com

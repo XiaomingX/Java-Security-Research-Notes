@@ -1,0 +1,14 @@
+api.fruitfulyield.com
+app.fruitfulyield.com
+autodiscover.fruitfulyield.com
+autopilot.fruitfulyield.com
+dev.fruitfulyield.com
+dev2.fruitfulyield.com
+devapi.fruitfulyield.com
+devapp.fruitfulyield.com
+m2.dev.fruitfulyield.com
+testapi.fruitfulyield.com
+dev.api.fruitfulyield.com
+elastic.fruitfulyield.com
+m2.staging.fruitfulyield.com
+test.api.fruitfulyield.com

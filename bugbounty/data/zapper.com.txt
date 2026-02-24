@@ -1,0 +1,8 @@
+transcoder.zapper.com
+get.zapper.com
+bulkmail.zapper.com
+sendportal.zapper.com
+api.zapper.com
+lib.zapper.com
+server.zapper.com
+alg.zapper.com

@@ -1,0 +1,9 @@
+cpanel.thegfce.org
+ipv6.thegfce.org
+webmail.thegfce.org
+cpcalendars.thegfce.org
+mail.thegfce.org
+gfce.org.thegfce.org
+webdisk.thegfce.org
+cpcontacts.thegfce.org
+5030www.thegfce.org

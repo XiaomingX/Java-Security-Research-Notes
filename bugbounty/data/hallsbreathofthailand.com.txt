@@ -1,0 +1,5 @@
+mail.hallsbreathofthailand.com
+api.hallsbreathofthailand.com
+ftp.hallsbreathofthailand.com
+www.api.hallsbreathofthailand.com
+bgptools-wildcard-confirmed.hallsbreathofthailand.com

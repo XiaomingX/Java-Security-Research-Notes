@@ -1,0 +1,5 @@
+api.ringr.ai
+dev.panel.ringr.ai
+panel.ringr.ai
+prod.ringr.ai
+pre.ringr.ai

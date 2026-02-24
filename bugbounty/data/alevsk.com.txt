@@ -1,0 +1,4 @@
+blog.alevsk.com
+kirino.alevsk.com
+magento.alevsk.com
+prestashop.alevsk.com

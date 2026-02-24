@@ -1,0 +1,4 @@
+link.glfus.com
+mail.glfus.com
+rds.glfus.com
+vpn.glfus.com

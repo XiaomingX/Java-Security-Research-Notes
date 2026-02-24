@@ -1,0 +1,3 @@
+mbmd.perimeterhealthcare.com
+hcs.perimeterhealthcare.com
+filecloud.perimeterhealthcare.com

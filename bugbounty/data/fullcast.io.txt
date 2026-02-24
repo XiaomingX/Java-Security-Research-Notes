@@ -1,0 +1,7 @@
+auth.fullcast.io
+app-tmp.fullcast.io
+trust.fullcast.io
+status.fullcast.io
+support.fullcast.io
+pacific-beyond.fullcast.io
+go.fullcast.io

@@ -1,0 +1,6 @@
+ct.myprimusmarkets.com
+id-ct.myprimusmarkets.com
+copy-trading.myprimusmarkets.com
+staging.myprimusmarkets.com
+link.myprimusmarkets.com
+copy-trading-adm.myprimusmarkets.com

@@ -1,0 +1,16 @@
+api.priverevaux.com
+assets.priverevaux.com
+buy.priverevaux.com
+dev.priverevaux.com
+eu.priverevaux.com
+go.priverevaux.com
+help.priverevaux.com
+images.priverevaux.com
+mlbihm.priverevaux.com
+returns.priverevaux.com
+try.priverevaux.com
+magento.priverevaux.com
+production.priverevaux.com
+staging.co.priverevaux.com
+staging.priverevaux.com
+test.priverevaux.com

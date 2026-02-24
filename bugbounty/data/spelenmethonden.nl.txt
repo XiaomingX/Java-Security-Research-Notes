@@ -1,0 +1,2 @@
+mail.spelenmethonden.nl
+hostmaster.spelenmethonden.nl

@@ -1,0 +1,3 @@
+prod.threads.net
+someprod.threads.net
+trunkstable.threads.net

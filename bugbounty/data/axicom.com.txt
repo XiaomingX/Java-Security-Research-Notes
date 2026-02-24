@@ -1,0 +1,3 @@
+blog.axicom.com
+info.axicom.com
+stg.axicom.com

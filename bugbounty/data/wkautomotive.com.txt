@@ -1,0 +1,7 @@
+remote.wkautomotive.com
+mt.wkautomotive.com
+jira.wkautomotive.com
+mail.wkautomotive.com
+memoq.wkautomotive.com
+mx.wkautomotive.com
+ftp.wkautomotive.com

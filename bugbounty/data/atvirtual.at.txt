@@ -1,0 +1,10 @@
+mail.atvirtual.at
+_mta-sts.atvirtual.at
+go-thali.atvirtual.at
+park-and-fly.atvirtual.at
+ns0.atvirtual.at
+mta-sts.atvirtual.at
+whois.atvirtual.at
+ns1.atvirtual.at
+hoppe.atvirtual.at
+ipv6.atvirtual.at

@@ -1,0 +1,6 @@
+cpanel.hpvillage.com
+cpcalendars.hpvillage.com
+cpcontacts.hpvillage.com
+mail.hpvillage.com
+webdisk.hpvillage.com
+webmail.hpvillage.com

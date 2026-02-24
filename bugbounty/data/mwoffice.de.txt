@@ -1,0 +1,4 @@
+autodiscover.mwoffice.de
+sip.mwoffice.de
+sipem2.mwoffice.de
+dev.mwoffice.de

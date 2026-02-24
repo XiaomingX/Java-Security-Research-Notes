@@ -1,0 +1,5 @@
+secure.gdata.ch
+int.gdata.ch
+loc.gdata.ch
+w.gdata.ch
+live.gdata.ch

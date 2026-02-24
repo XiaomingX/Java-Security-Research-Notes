@@ -1,0 +1,10 @@
+autodiscover.framerica.com
+dev.framerica.com
+info.framerica.com
+mail.framerica.com
+plant.framerica.com
+remote.framerica.com
+cpanel.dev.framerica.com
+mail.dev.framerica.com
+webdisk.dev.framerica.com
+webmail.dev.framerica.com

@@ -1,0 +1,5 @@
+autodiscover.northernradiator.com
+link.northernradiator.com
+snipeit.northernradiator.com
+support.northernradiator.com
+zabbix.northernradiator.com

@@ -1,0 +1,7 @@
+assets.generalmobile.com
+cdn.generalmobile.com
+dacs.generalmobile.com
+proxy.generalmobile.com
+sqgz.generalmobile.com
+assests.generalmobile.com
+live.generalmobile.com

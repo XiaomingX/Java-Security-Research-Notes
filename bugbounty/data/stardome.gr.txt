@@ -1,0 +1,2 @@
+mail.stardome.gr
+cdn.stardome.gr

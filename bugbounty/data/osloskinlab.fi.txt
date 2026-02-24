@@ -1,0 +1,4 @@
+tralut.osloskinlab.fi
+prod.osloskinlab.fi
+s2s.osloskinlab.fi
+pin.osloskinlab.fi

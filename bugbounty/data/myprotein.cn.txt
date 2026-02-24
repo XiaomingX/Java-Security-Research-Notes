@@ -1,0 +1,8 @@
+checkout.myprotein.cn
+gb4.myprotein.cn
+m.myprotein.cn
+altitude.www.myprotein.cn
+horizon-api.www.myprotein.cn
+gb1.myprotein.cn
+eote-node.myprotein.cn
+sgtm.myprotein.cn

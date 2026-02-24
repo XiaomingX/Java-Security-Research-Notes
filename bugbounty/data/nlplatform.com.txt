@@ -1,0 +1,5 @@
+acc.nlplatform.com
+toolkit-acc.nlplatform.com
+test.nlplatform.com
+toolkit.nlplatform.com
+toolkit-tst.nlplatform.com

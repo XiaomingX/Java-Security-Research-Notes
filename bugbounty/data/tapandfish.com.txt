@@ -1,0 +1,9 @@
+status.tapandfish.com
+translate.tapandfish.com
+frontend.tapandfish.com
+old.tapandfish.com
+cdn.tapandfish.com
+svelte.tapandfish.com
+mail.tapandfish.com
+api.tapandfish.com
+admin.tapandfish.com

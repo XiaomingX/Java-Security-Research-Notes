@@ -1,0 +1,15 @@
+webmail.cynicaltechnology.com
+falcon.cynicaltechnology.com
+autodiscover.cynicaltechnology.com
+cpanel.cynicaltechnology.com
+enterpriseenrollment.cynicaltechnology.com
+webdisk.cynicaltechnology.com
+sip.cynicaltechnology.com
+t.cynicaltechnology.com
+enterpriseregistration.cynicaltechnology.com
+lyncdiscover.cynicaltechnology.com
+mail.cynicaltechnology.com
+localhost.cynicaltechnology.com
+gitlab.cynicaltechnology.com
+ftp.cynicaltechnology.com
+ctf2018.cynicaltechnology.com

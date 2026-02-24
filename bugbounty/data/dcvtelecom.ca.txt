@@ -1,0 +1,2 @@
+client.dcvtelecom.ca
+demo.wazo.dcvtelecom.ca

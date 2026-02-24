@@ -1,0 +1,9 @@
+feeds.programmalangerthuis.nl
+magazines.english.programmalangerthuis.nl
+english.programmalangerthuis.nl
+opendata.programmalangerthuis.nl
+magazinesintern.english.programmalangerthuis.nl
+opendata.english.programmalangerthuis.nl
+magazines.programmalangerthuis.nl
+feeds.english.programmalangerthuis.nl
+magazinesintern.programmalangerthuis.nl

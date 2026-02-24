@@ -1,0 +1,12 @@
+autodiscover.carolinabeveragegroup.com
+directaccess.carolinabeveragegroup.com
+lync.carolinabeveragegroup.com
+mail.carolinabeveragegroup.com
+support.carolinabeveragegroup.com
+vk1000.carolinabeveragegroup.com
+vpn.carolinabeveragegroup.com
+wc.carolinabeveragegroup.com
+lyncdiscover.carolinabeveragegroup.com
+lyncwebservices.carolinabeveragegroup.com
+sip.carolinabeveragegroup.com
+xenapp.carolinabeveragegroup.com

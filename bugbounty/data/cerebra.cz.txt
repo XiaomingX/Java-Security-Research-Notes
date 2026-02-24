@@ -1,0 +1,4 @@
+oldschool.cerebra.cz
+m.cerebra.cz
+jira.cerebra.cz
+confluence.cerebra.cz

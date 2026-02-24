@@ -1,0 +1,8 @@
+kod.wintech.cz
+portal.wintech.cz
+master.wintech.cz
+mrbs.wintech.cz
+eshop.wintech.cz
+ron.wintech.cz
+api.wintech.cz
+shop.wintech.cz

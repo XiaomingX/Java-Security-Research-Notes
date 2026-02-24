@@ -1,0 +1,3 @@
+services-misc.shanelawrence.ca
+lunchbot.shanelawrence.ca
+home.shanelawrence.ca

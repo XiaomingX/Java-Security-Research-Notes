@@ -1,0 +1,8 @@
+autodiscover.forwardspace.com
+go.forwardspace.com
+remote.forwardspace.com
+connect.forwardspace.com
+farm.forwardspace.com
+mobile.forwardspace.com
+mxb.forwardspace.com
+mxt.forwardspace.com

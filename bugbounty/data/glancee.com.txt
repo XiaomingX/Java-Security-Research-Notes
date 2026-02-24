@@ -1,0 +1,5 @@
+push.glancee.com
+api.glancee.com
+blog.glancee.com
+deck.glancee.com
+help.glancee.com

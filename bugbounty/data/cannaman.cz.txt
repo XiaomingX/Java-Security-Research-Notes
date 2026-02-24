@@ -1,0 +1,2 @@
+mail.cannaman.cz
+mta-sts.mail.cannaman.cz

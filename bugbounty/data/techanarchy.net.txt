@@ -1,0 +1,6 @@
+hazzy.techanarchy.net
+astrophotography.techanarchy.net
+beta.techanarchy.net
+isf-server.techanarchy.net
+chip-dfir.techanarchy.net
+attackerkb-slack.techanarchy.net

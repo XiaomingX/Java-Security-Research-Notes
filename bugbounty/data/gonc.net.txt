@@ -1,0 +1,4 @@
+epsilon.gonc.net
+ww2.gonc.net
+ns2.gonc.net
+ns1.gonc.net

@@ -1,0 +1,4 @@
+api.anytask.thesecurityteam.rocks
+payments.anytask.thesecurityteam.rocks
+socket.anytask.thesecurityteam.rocks
+test.anytask.thesecurityteam.rocks

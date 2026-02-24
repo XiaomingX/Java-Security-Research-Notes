@@ -1,0 +1,8 @@
+og.wamuengineering.org
+vpn.wamuengineering.org
+status.wamuengineering.org
+og-cmc.wamuengineering.org
+og-rcn.wamuengineering.org
+ogtx.wamuengineering.org
+fw-b.wamuengineering.org
+portal.wamuengineering.org

@@ -1,0 +1,8 @@
+blog.diamondcertified.org
+dev.diamondcertified.org
+m.diamondcertified.org
+stage.diamondcertified.org
+test.diamondcertified.org
+twilio.diamondcertified.org
+asg.diamondcertified.org
+beta.diamondcertified.org

@@ -1,0 +1,12 @@
+origstage.headandshoulders.fr
+staging.headandshoulders.fr
+prod.headandshoulders.fr
+dev.headandshoulders.fr
+origprod.headandshoulders.fr
+media.headandshoulders.fr
+preview.headandshoulders.fr
+m1.headandshoulders.fr
+stage2.headandshoulders.fr
+mail.headandshoulders.fr
+test.headandshoulders.fr
+localhost.headandshoulders.fr

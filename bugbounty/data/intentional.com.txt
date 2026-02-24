@@ -1,0 +1,8 @@
+jenkins.intentional.com
+rdp.intentional.com
+tfs.intentional.com
+tfstest.intentional.com
+store.intentional.com
+das.intentional.com
+ras.intentional.com
+intranet.intentional.com

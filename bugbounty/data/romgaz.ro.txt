@@ -1,0 +1,3 @@
+capsule.romgaz.ro
+ds.romgaz.ro
+intranet.romgaz.ro

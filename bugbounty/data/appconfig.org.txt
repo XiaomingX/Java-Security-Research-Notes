@@ -1,0 +1,1 @@
+grailsapplication.config.appconfig.org

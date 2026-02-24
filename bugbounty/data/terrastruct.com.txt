@@ -1,0 +1,9 @@
+ingest.terrastruct.com
+oss.terrastruct.com
+icons.terrastruct.com
+app.terrastruct.com
+mural.terrastruct.com
+tn.terrastruct.com
+affiliates.terrastruct.com
+status.terrastruct.com
+readme.terrastruct.com

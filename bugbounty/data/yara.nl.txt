@@ -1,0 +1,9 @@
+elearning.yara.nl
+testserver.yara.nl
+fert.yara.nl
+ind.yara.nl
+pensioenfonds.yara.nl
+purenutrient.yara.nl
+pre.yara.nl
+fpt.yara.nl
+int.yara.nl

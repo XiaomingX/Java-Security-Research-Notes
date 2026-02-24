@@ -1,0 +1,5 @@
+m.myprotein.ru
+checkout.myprotein.ru
+help.myprotein.ru
+horizon-api.www.myprotein.ru
+gslb.myprotein.ru

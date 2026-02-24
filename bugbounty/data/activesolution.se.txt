@@ -1,0 +1,8 @@
+campaign.activesolution.se
+toolbox.activesolution.se
+booking.activesolution.se
+am.activesolution.se
+new.activesolution.se
+game.activesolution.se
+ai.activesolution.se
+copilot.activesolution.se

@@ -1,0 +1,6 @@
+cpcontacts.pacificfish.eu
+mail.pacificfish.eu
+webmail.pacificfish.eu
+webdisk.pacificfish.eu
+cpcalendars.pacificfish.eu
+cpanel.pacificfish.eu

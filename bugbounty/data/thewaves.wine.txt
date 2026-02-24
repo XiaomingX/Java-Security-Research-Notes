@@ -1,0 +1,4 @@
+link.thewaves.wine
+staging.thewaves.wine
+prod.thewaves.wine
+uat.thewaves.wine

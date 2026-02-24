@@ -1,0 +1,6 @@
+rb.adamj.eu
+cfn-rss.adamj.eu
+demo.adamj.eu
+mail.adamj.eu
+workshops.adamj.eu
+quotes.adamj.eu

@@ -1,0 +1,6 @@
+cloud.tilosp.de
+git.tilosp.de
+bitwarden.tilosp.de
+office.tilosp.de
+jenkins.tilosp.de
+irc.tilosp.de

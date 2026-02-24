@@ -1,0 +1,2 @@
+next.swifto.com
+stage.swifto.com

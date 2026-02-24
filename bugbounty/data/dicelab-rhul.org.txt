@@ -1,0 +1,3 @@
+vacuumworld.dicelab-rhul.org
+agent-api.dicelab-rhul.org
+agent-auth.dicelab-rhul.org

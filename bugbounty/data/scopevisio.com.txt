@@ -1,0 +1,5 @@
+wservices.scopevisio.com
+dev.dev.environments.aws.scopevisio.com
+appload.dev.dev.environments.aws.scopevisio.com
+test-wservices.scopevisio.com
+media.scopevisio.com

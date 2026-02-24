@@ -1,0 +1,4 @@
+mail.ps-aruba.com
+ns1.ps-aruba.com
+preview.ps-aruba.com
+ns2.ps-aruba.com

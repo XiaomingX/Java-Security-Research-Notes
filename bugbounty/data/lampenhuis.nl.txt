@@ -1,0 +1,6 @@
+evi.lampenhuis.nl
+cpanel.lampenhuis.nl
+test.lampenhuis.nl
+webmail.lampenhuis.nl
+webdisk.lampenhuis.nl
+staging.lampenhuis.nl

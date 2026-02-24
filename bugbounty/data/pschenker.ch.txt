@@ -1,0 +1,4 @@
+home.pschenker.ch
+phpmyadmin.pschenker.ch
+git.pschenker.ch
+phabricator.pschenker.ch

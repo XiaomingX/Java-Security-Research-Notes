@@ -1,0 +1,2 @@
+cdn.findyourvoice.guru
+images.findyourvoice.guru

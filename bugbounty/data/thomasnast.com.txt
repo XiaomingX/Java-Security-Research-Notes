@@ -1,0 +1,3 @@
+int.thomasnast.com
+old.thomasnast.com
+staging.thomasnast.com

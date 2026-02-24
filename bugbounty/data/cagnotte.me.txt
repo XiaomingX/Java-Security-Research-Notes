@@ -1,0 +1,5 @@
+preprod.cagnotte.me
+homologation.cagnotte.me
+preprod2.cagnotte.me
+dev.cagnotte.me
+preprod1.cagnotte.me

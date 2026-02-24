@@ -1,0 +1,3 @@
+teams.payload-security.com
+mta-sts.payload-security.com
+team.payload-security.com

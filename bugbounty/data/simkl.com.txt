@@ -1,0 +1,11 @@
+passport.simkl.com
+auth.simkl.com
+tvus.simkl.com
+im.simkl.com
+m.simkl.com
+status.simkl.com
+api.simkl.com
+i.simkl.com
+support.simkl.com
+statusadmin.simkl.com
+tvapi.simkl.com

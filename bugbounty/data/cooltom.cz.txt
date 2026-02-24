@@ -1,0 +1,8 @@
+webmail2.cooltom.cz
+webmail.cooltom.cz
+imap.cooltom.cz
+smtp.cooltom.cz
+mail.cooltom.cz
+filip.cooltom.cz
+vshpatch.cooltom.cz
+endovia.cooltom.cz

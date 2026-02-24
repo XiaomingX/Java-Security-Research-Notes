@@ -1,0 +1,9 @@
+ftp.fabrikstyle.com
+local.fabrikstyle.com
+returns.fabrikstyle.com
+cpanel.local.fabrikstyle.com
+cpcalendars.local.fabrikstyle.com
+cpcontacts.local.fabrikstyle.com
+mail.local.fabrikstyle.com
+webdisk.local.fabrikstyle.com
+webmail.local.fabrikstyle.com

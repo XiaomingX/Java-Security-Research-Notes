@@ -1,0 +1,13 @@
+cloud.mail.kerastase.com.br
+loja.kerastase.com.br
+diagexpress.kerastase.com.br
+click.mail.kerastase.com.br
+image.mail.kerastase.com.br
+view.mail.kerastase.com.br
+pages.mail.kerastase.com.br
+oatm.kerastase.com.br
+encontre-seu-salao.kerastase.com.br
+staging.kerastase.com.br
+nutritive.kerastase.com.br
+mail.kerastase.com.br
+mta.mail.kerastase.com.br

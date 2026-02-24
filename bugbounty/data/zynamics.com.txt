@@ -1,0 +1,6 @@
+blog.zynamics.com
+bincrowd.zynamics.com
+storage.zynamics.com
+bugs.zynamics.com
+waw.zynamics.com
+com.google.security.zynamics.com

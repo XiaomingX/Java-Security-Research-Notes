@@ -1,0 +1,9 @@
+staging19.davantigroup.com
+staging2.davantigroup.com
+staging13.davantigroup.com
+staging3.davantigroup.com
+staging7.davantigroup.com
+radius.davantigroup.com
+staging6.davantigroup.com
+cloudflare-resolve-to.davantigroup.com
+lyncdiscover.davantigroup.com

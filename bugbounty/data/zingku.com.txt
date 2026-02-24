@@ -1,0 +1,5 @@
+my.zingku.com
+preview.zingku.com
+ha1-mailtmp.zingku.com
+intl.zingku.com
+blog.zingku.com

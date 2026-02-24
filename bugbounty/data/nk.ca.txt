@@ -1,0 +1,5 @@
+bluesky.nk.ca
+ns2.nk.ca
+pop3.nk.ca
+smtp.nk.ca
+mail.nk.ca

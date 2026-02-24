@@ -1,0 +1,4 @@
+ezmail.gonorthampton.com
+mail.gonorthampton.com
+cdn-0.gonorthampton.com
+mx.gonorthampton.com

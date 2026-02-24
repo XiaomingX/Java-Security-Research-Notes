@@ -1,0 +1,9 @@
+stage-internet.zeiss.rs
+portal-test.zeiss.rs
+preprod-internet.zeiss.rs
+development-internet.zeiss.rs
+test3-internet.zeiss.rs
+test2-internet.zeiss.rs
+test1-internet.zeiss.rs
+datapipeline.zeiss.rs
+portal.zeiss.rs

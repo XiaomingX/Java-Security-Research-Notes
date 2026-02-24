@@ -1,0 +1,2 @@
+reservation.pyrenees2vallees.com
+analytics.pyrenees2vallees.com

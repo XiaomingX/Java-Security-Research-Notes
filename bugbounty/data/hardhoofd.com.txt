@@ -1,0 +1,3 @@
+new.hardhoofd.com
+mail.hardhoofd.com
+staging.hardhoofd.com

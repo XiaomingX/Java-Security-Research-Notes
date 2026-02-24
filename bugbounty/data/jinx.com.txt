@@ -1,0 +1,3 @@
+vpn-gw.jinx.com
+wholesale.jinx.com
+news.jinx.com

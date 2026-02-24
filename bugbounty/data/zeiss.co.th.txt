@@ -1,0 +1,10 @@
+portal-test.zeiss.co.th
+datapipeline.zeiss.co.th
+test1-internet.zeiss.co.th
+stage-internet.zeiss.co.th
+shopvr.zeiss.co.th
+test2-internet.zeiss.co.th
+contact.zeiss.co.th
+preprod-internet.zeiss.co.th
+development-internet.zeiss.co.th
+test3-internet.zeiss.co.th

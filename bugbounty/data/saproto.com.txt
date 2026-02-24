@@ -1,0 +1,2 @@
+staticv2.saproto.com
+static.saproto.com

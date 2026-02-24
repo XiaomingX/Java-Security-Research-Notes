@@ -1,0 +1,3 @@
+gdb.votvot.tv
+ssc.votvot.tv
+tags.votvot.tv

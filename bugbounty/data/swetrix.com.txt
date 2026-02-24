@@ -1,0 +1,14 @@
+marketplace.swetrix.com
+blog.swetrix.com
+admin.swetrix.com
+url.swetrix.com
+utm.swetrix.com
+cdn.swetrix.com
+api.swetrix.com
+captcha.swetrix.com
+aiapi.swetrix.com
+cap.swetrix.com
+docs.swetrix.com
+chat.swetrix.com
+apistaging.swetrix.com
+fly.swetrix.com

@@ -1,0 +1,9 @@
+link.kymera.com
+autodiscover.kymera.com
+beta.kymera.com
+cpanel.kymera.com
+cpcalendars.kymera.com
+cpcontacts.kymera.com
+mail.kymera.com
+webdisk.kymera.com
+webmail.kymera.com

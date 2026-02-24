@@ -1,0 +1,7 @@
+odyssee.zfa-net.de
+test.moodle.zfa-net.de
+datenschutz.zfa-net.de
+backup.moodle.zfa-net.de
+backup.zfa-net.de
+moodle.zfa-net.de
+cloud.zfa-net.de

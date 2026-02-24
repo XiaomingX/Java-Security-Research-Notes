@@ -1,0 +1,3 @@
+img.fondu.com
+blog.fondu.com
+api.fondu.com

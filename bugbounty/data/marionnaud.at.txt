@@ -1,0 +1,15 @@
+api.marionnaud.at
+app.marionnaud.at
+autodiscover.marionnaud.at
+campaign.marionnaud.at
+ecom-data.marionnaud.at
+media.marionnaud.at
+mta-sts.marionnaud.at
+owa.marionnaud.at
+owa2.marionnaud.at
+paygtw.marionnaud.at
+prod-cc.marionnaud.at
+rpc.marionnaud.at
+api-cc.marionnaud.at
+app-cc.marionnaud.at
+job.marionnaud.at

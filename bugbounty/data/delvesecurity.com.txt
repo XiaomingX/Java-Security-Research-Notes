@@ -1,0 +1,14 @@
+support.delvesecurity.com
+internal.delvesecurity.com
+subdomain1.delvesecurity.com
+subdomain2.delvesecurity.com
+9ba3e58904.delvesecurity.com
+status.delvesecurity.com
+go.delvesecurity.com
+serious.delvesecurity.com
+batea.delvesecurity.com
+email.delvesecurity.com
+track.delvesecurity.com
+ftp.delvesecurity.com
+mail.delvesecurity.com
+hs1._domainkey.delvesecurity.com

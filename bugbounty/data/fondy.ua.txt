@@ -1,0 +1,7 @@
+gravdovgu.fondy.ua
+api.fondy.ua
+dev.fondy.ua
+id.fondy.ua
+blog.fondy.ua
+send.gravdovgu.fondy.ua
+esputnik._domainkey.gravdovgu.fondy.ua

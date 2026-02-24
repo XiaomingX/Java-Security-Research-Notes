@@ -1,0 +1,7 @@
+transfer.jungheinrich.es
+news.jungheinrich.es
+shop.jungheinrich.es
+parts.jungheinrich.es
+admin.parts.jungheinrich.es
+newsletter.jungheinrich.es
+www2.jungheinrich.es

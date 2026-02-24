@@ -1,0 +1,8 @@
+mta-sts.redfox-media.eu
+ns3.redfox-media.eu
+ns4.redfox-media.eu
+ns2.redfox-media.eu
+ns1.redfox-media.eu
+mx3.redfox-media.eu
+mx1.redfox-media.eu
+mx2.redfox-media.eu

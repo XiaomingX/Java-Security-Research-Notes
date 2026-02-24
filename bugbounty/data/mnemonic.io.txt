@@ -1,0 +1,7 @@
+static.mnemonic.io
+passivedns.mnemonic.io
+portal.mnemonic.io
+api.mnemonic.io
+docs.mnemonic.io
+static.pdns.mnemonic.io
+misp.mnemonic.io

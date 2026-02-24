@@ -1,0 +1,7 @@
+link.email.gsmarkets.de
+link.info.gsmarkets.de
+qa.gsmarkets.de
+qa.flatex.gsmarkets.de
+beta.gsmarkets.de
+flatex.gsmarkets.de
+info.gsmarkets.de

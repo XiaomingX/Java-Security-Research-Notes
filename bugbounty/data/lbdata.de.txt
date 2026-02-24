@@ -1,0 +1,7 @@
+cpcontacts.lbdata.de
+cpcalendars.lbdata.de
+autodiscover.lbdata.de
+cpanel.lbdata.de
+mail.lbdata.de
+webdisk.lbdata.de
+webmail.lbdata.de

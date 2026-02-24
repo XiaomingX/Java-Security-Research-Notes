@@ -1,0 +1,6 @@
+autodiscover.awma.com
+blog.awma.com
+connect.awma.com
+wholesale.awma.com
+remote.awma.com
+webmail.awma.com

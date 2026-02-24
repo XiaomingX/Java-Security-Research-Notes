@@ -1,0 +1,8 @@
+cpcalendars.tonervaros.hu
+mail.tonervaros.hu
+masolovaros.hu.tonervaros.hu
+autodiscover.tonervaros.hu
+cpanel.tonervaros.hu
+cpcontacts.tonervaros.hu
+webmail.tonervaros.hu
+webdisk.tonervaros.hu

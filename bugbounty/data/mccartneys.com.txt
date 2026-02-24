@@ -1,0 +1,2 @@
+autodiscover.mccartneys.com
+mail.mccartneys.com

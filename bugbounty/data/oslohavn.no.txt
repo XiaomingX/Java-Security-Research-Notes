@@ -1,0 +1,5 @@
+i.oslohavn.no
+l.oslohavn.no
+lyncdiscover.oslohavn.no
+devweb.oslohavn.no
+autodiscover.oslohavn.no

@@ -1,0 +1,5 @@
+manage.selphish.jp
+smtp.selphish.jp
+smtp2.selphish.jp
+www2.selphish.jp
+mail.selphish.jp

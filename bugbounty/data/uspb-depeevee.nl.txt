@@ -1,0 +1,5 @@
+mail.uspb-depeevee.nl
+mail2.uspb-depeevee.nl
+pop.uspb-depeevee.nl
+ftp.uspb-depeevee.nl
+autodiscover.uspb-depeevee.nl

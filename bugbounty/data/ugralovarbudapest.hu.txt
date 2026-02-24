@@ -1,0 +1,6 @@
+webdisk.ugralovarbudapest.hu
+cpcalendars.ugralovarbudapest.hu
+mail.ugralovarbudapest.hu
+webmail.ugralovarbudapest.hu
+cpanel.ugralovarbudapest.hu
+cpcontacts.ugralovarbudapest.hu

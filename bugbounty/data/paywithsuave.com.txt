@@ -1,0 +1,4 @@
+admin.paywithsuave.com
+es.paywithsuave.com
+dev.paywithsuave.com
+get.paywithsuave.com

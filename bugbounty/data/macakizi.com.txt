@@ -1,0 +1,4 @@
+cms.macakizi.com
+payment.macakizi.com
+ticket.macakizi.com
+mail.macakizi.com

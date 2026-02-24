@@ -1,0 +1,12 @@
+filr.bernrode.nl
+eoc.bernrode.nl
+mail.bernrode.nl
+opendag.bernrode.nl
+portal.bernrode.nl
+sip.bernrode.nl
+workspace.bernrode.nl
+wireless.bernrode.nl
+webmail.bernrode.nl
+localhost.bernrode.nl
+adfs.bernrode.nl
+magister.bernrode.nl

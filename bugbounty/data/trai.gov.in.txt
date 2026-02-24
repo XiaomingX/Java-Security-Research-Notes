@@ -1,0 +1,6 @@
+apimyspeed.trai.gov.in
+bccms.trai.gov.in
+dndapi.trai.gov.in
+myspeed.trai.gov.in
+tariff.trai.gov.in
+spp.trai.gov.in

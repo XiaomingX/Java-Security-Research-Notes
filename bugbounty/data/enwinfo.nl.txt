@@ -1,0 +1,2 @@
+server01.enwinfo.nl
+mail.enwinfo.nl

@@ -1,0 +1,4 @@
+wp.go-fresh.cz
+vps.go-fresh.cz
+office.go-fresh.cz
+stage.go-fresh.cz

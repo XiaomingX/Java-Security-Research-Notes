@@ -1,0 +1,3 @@
+contacts.8x8.id
+lookup.8x8.id
+verify.8x8.id

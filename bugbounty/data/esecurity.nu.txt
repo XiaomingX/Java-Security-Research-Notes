@@ -1,0 +1,4 @@
+spamproxy.esecurity.nu
+static.esecurity.nu
+owncloud.esecurity.nu
+mail.esecurity.nu

@@ -1,0 +1,2 @@
+api.belugasnooze.com
+ws.belugasnooze.com

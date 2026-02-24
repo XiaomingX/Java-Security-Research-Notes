@@ -1,0 +1,12 @@
+www2.trellia.com
+intranet.trellia.com
+webmail.trellia.com
+a.trellia.com
+dcvpn.trellia.com
+_dmarc.trellia.com
+mail.trellia.com
+vpn.trellia.com
+support.trellia.com
+beta.trellia.com
+_udp.trellia.com
+_tcp.trellia.com

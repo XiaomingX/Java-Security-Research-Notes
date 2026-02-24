@@ -1,0 +1,8 @@
+magazines.row-minvws.nl
+feeds.english.row-minvws.nl
+magazines.english.row-minvws.nl
+feeds.row-minvws.nl
+opendata.english.row-minvws.nl
+opendata.row-minvws.nl
+magazinesintern.row-minvws.nl
+english.row-minvws.nl

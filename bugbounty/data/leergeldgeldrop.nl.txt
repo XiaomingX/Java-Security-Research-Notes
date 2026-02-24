@@ -1,0 +1,3 @@
+webmail.leergeldgeldrop.nl
+intranet.leergeldgeldrop.nl
+mail.leergeldgeldrop.nl

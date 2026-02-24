@@ -1,0 +1,14 @@
+downloads.sectona.com
+remote1.sectona.com
+portal.sectona.com
+people.sectona.com
+testlabs.sectona.com
+resources.sectona.com
+books.sectona.com
+careers.sectona.com
+docs.sectona.com
+expense.sectona.com
+staging.sectona.com
+spark.sectona.com
+support.sectona.com
+mdc.sectona.com

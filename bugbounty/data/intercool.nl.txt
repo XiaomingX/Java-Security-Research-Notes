@@ -1,0 +1,5 @@
+staging.intercool.nl
+remote.intercool.nl
+webmail.intercool.nl
+autodiscover.intercool.nl
+webaccess.intercool.nl

@@ -1,0 +1,9 @@
+autodiscover.maingateinc.com
+secure.maingateinc.com
+tracking.maingateinc.com
+femail01.maingateinc.com
+legacy.maingateinc.com
+mail.maingateinc.com
+mail01.maingateinc.com
+mgmail.maingateinc.com
+ws.maingateinc.com

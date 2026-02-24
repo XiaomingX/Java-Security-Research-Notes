@@ -1,0 +1,8 @@
+autodiscover.dolldistributing.com
+reset.dolldistributing.com
+webmail.dolldistributing.com
+dsm-exch-01.dolldistributing.com
+dsmtrkwash.dolldistributing.com
+email.dolldistributing.com
+mailfilter.dolldistributing.com
+mailfilter2.dolldistributing.com

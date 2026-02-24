@@ -1,0 +1,6 @@
+lists.schneier.com
+mail.schneier.com
+webmail.schneier.com
+ftp.schneier.com
+mysql.schneier.com
+crypto-gram-list.schneier.com

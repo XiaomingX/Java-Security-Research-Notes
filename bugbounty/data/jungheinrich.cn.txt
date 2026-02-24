@@ -1,0 +1,5 @@
+admin.parts.jungheinrich.cn
+autodiscover.jungheinrich.cn
+parts.jungheinrich.cn
+newsletter.jungheinrich.cn
+qa.jungheinrich.cn

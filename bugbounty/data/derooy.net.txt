@@ -1,0 +1,16 @@
+radarr.derooy.net
+adguard.derooy.net
+prowlarr.derooy.net
+ha.derooy.net
+immich.derooy.net
+nextcloud.derooy.net
+files.derooy.net
+aio.derooy.net
+seafile.derooy.net
+paperless.derooy.net
+torrent.derooy.net
+sonarr.derooy.net
+overseerr.derooy.net
+ag.derooy.net
+notesfiles.derooy.net
+notes.derooy.net

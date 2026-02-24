@@ -1,0 +1,14 @@
+vdp.trustbank.sg
+api.stg.trustbank.sg
+prod.trustbank.sg
+api.trustbank.sg
+api.dev.trustbank.sg
+xbuckets.consumable.trustbank.sg
+consumable.trustbank.sg
+xnetworks.comsumable.trustbank.sg
+xekscomponents.comsumable.trustbank.sg
+xeksclusters.comsumable.trustbank.sg
+xnetworks.consumable.trustbank.sg
+xeksclusters.consumable.trustbank.sg
+xekscomponents.consumable.trustbank.sg
+xkubeobjects.consumable.trustbank.sg

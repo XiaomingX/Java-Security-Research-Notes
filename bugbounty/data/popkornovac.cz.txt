@@ -1,0 +1,6 @@
+dev.popkornovac.cz
+mysql.popkornovac.cz
+smtp.popkornovac.cz
+admin.popkornovac.cz
+new.popkornovac.cz
+myshoptet.com.popkornovac.cz

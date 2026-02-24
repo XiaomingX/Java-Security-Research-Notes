@@ -1,0 +1,5 @@
+autodiscover.hannawinery.com
+remote.hannawinery.com
+shop.hannawinery.com
+smtp.hannawinery.com
+mail.hannawinery.com

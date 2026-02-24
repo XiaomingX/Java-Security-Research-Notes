@@ -1,0 +1,2 @@
+agents.mydialogconnection.com
+userpanel.mydialogconnection.com

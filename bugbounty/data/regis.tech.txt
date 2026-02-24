@@ -1,0 +1,11 @@
+mta-sts.regis.tech
+static.regis.tech
+mail.regis.tech
+smtpout.regis.tech
+meh.dev.regis.tech
+mx1.regis.tech
+av.regis.tech
+mx2.regis.tech
+web4.regis.tech
+blah.dev.regis.tech
+wiki.regis.tech

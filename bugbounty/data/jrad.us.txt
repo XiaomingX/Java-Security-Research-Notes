@@ -1,0 +1,5 @@
+autodiscover.jrad.us
+jftp.jrad.us
+jradtime.jrad.us
+mail.jrad.us
+selfservice.jrad.us

@@ -1,0 +1,6 @@
+re.xrex.exchange
+referral.xrex.exchange
+app-lifecycle-api.xrex.exchange
+a2z-swap-app.xrex.exchange
+webview.xrex.exchange
+myxchange-api.xrex.exchange

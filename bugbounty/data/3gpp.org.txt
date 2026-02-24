@@ -1,0 +1,4 @@
+forge.3gpp.org
+isearch.3gpp.org
+portal.3gpp.org
+ftp.3gpp.org

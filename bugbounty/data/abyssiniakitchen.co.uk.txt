@@ -1,0 +1,7 @@
+_dmarc.abyssiniakitchen.co.uk
+mail.abyssiniakitchen.co.uk
+webdisk.abyssiniakitchen.co.uk
+cpcalendars.abyssiniakitchen.co.uk
+cpcontacts.abyssiniakitchen.co.uk
+cpanel.abyssiniakitchen.co.uk
+webmail.abyssiniakitchen.co.uk

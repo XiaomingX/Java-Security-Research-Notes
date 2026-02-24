@@ -1,0 +1,4 @@
+cpanel.techniprobsl.com
+mail.techniprobsl.com
+webdisk.techniprobsl.com
+webmail.techniprobsl.com

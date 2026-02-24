@@ -1,0 +1,7 @@
+status.qudini.com
+support.qudini.com
+failover.qudini.com
+samsung-collections.qudini.com
+tesco-staging-bookings.qudini.com
+tesco-pharmacy.qudini.com
+kiosk.qudini.com

@@ -1,0 +1,6 @@
+blog.averybrewing.com
+dev.averybrewing.com
+gear.averybrewing.com
+production.averybrewing.com
+shop.averybrewing.com
+vpn.averybrewing.com

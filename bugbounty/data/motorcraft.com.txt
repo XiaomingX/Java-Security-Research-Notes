@@ -1,0 +1,8 @@
+e.motorcraft.com
+origin.motorcraft.com
+wwwqa.motorcraft.com
+mackit.motorcraft.com
+warranty.motorcraft.com
+dc02.motorcraft.com
+s3-vm2.motorcraft.com
+web-dev2019-alpha-internal.motorcraft.com

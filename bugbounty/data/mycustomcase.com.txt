@@ -1,0 +1,15 @@
+emails.mycustomcase.com
+mail.mycustomcase.com
+d.mail.mycustomcase.com
+enews.mycustomcase.com
+metrics.mycustomcase.com
+cdn3.mycustomcase.com
+cdn.mycustomcase.com
+cdn1.mycustomcase.com
+cdn2.mycustomcase.com
+bb.mycustomcase.com
+se.mail.mycustomcase.com
+e.mail.mycustomcase.com
+bestbuy.mycustomcase.com
+mx1.mycustomcase.com
+mg.mail.mycustomcase.com

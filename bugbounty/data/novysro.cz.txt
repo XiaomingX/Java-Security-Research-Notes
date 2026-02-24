@@ -1,0 +1,4 @@
+autodiscover.novysro.cz
+admin.novysro.cz
+ws.novysro.cz
+in.novysro.cz

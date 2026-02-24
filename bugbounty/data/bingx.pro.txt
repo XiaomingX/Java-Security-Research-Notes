@@ -1,0 +1,13 @@
+swap.bingx.pro
+cards.bingx.pro
+agent.bingx.pro
+h5.bingx.pro
+hi.bingx.pro
+m.bingx.pro
+partner.bingx.pro
+tg.bingx.pro
+web-exchange.bingx.pro
+web-ext-mmap-qa4.bingx.pro
+wlf43.bingx.pro
+support.bingx.pro
+gray-agent.bingx.pro

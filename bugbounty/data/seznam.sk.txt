@@ -1,0 +1,10 @@
+dir.seznam.sk
+penize.seznam.sk
+slovnik.seznam.sk
+wwww.seznam.sk
+cmp.seznam.sk
+notifikace.seznam.sk
+login.seznam.sk
+search.seznam.sk
+suggest.seznam.sk
+dnes.seznam.sk

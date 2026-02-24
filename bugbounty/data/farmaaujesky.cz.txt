@@ -1,0 +1,2 @@
+mails.farmaaujesky.cz
+autodiscover.farmaaujesky.cz

@@ -1,0 +1,12 @@
+www2.zwemwater.nl
+register.zwemwater.nl
+pubgeo.zwemwater.nl
+acc.zwemwater.nl
+acc-inspiregeo.zwemwater.nl
+acc-ogcgeo.zwemwater.nl
+acc-pub.zwemwater.nl
+acc-pubgeo.zwemwater.nl
+acc-register.zwemwater.nl
+inspiregeo.zwemwater.nl
+ogcgeo.zwemwater.nl
+pre-pub.zwemwater.nl

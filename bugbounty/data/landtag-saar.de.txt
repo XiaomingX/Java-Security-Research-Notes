@@ -1,0 +1,4 @@
+portal.landtag-saar.de
+wlan.landtag-saar.de
+vpn.landtag-saar.de
+autodiscover.landtag-saar.de

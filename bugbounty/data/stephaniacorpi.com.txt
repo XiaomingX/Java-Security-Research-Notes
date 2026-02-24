@@ -1,0 +1,7 @@
+autodiscover.stephaniacorpi.com
+mail.stephaniacorpi.com
+webmail.stephaniacorpi.com
+cpcalendars.stephaniacorpi.com
+cpcontacts.stephaniacorpi.com
+cpanel.stephaniacorpi.com
+webdisk.stephaniacorpi.com

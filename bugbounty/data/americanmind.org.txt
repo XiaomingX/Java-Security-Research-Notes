@@ -1,0 +1,3 @@
+dev.americanmind.org
+old.americanmind.org
+staging.americanmind.org

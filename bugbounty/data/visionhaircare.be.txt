@@ -1,0 +1,9 @@
+mail.visionhaircare.be
+webdisk.visionhaircare.be
+cpcontacts.visionhaircare.be
+webmail.visionhaircare.be
+cpcalendars.visionhaircare.be
+cpanel.visionhaircare.be
+mta-sts.mail.visionhaircare.be
+mx20.visionhaircare.be
+mta-sts.mx20.visionhaircare.be

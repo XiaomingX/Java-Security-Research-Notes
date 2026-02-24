@@ -1,0 +1,10 @@
+zabbix.techbiz.dk
+grafana.techbiz.dk
+owncloud.techbiz.dk
+mobile.techbiz.dk
+webshop.techbiz.dk
+mail.techbiz.dk
+react.techbiz.dk
+tbhbk2.techbiz.dk
+tbhbk1.techbiz.dk
+vpn.techbiz.dk

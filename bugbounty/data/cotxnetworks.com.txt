@@ -1,0 +1,5 @@
+demo.cotxnetworks.com
+cloud-sr.cotxnetworks.com
+miner-api.cotxnetworks.com
+en.cotxnetworks.com
+support.cotxnetworks.com

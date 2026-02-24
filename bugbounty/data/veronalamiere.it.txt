@@ -1,0 +1,5 @@
+autodiscover.veronalamiere.it
+cloud.veronalamiere.it
+mail.veronalamiere.it
+mailgw.veronalamiere.it
+cyn.veronalamiere.it

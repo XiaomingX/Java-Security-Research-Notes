@@ -1,0 +1,3 @@
+gateway.shipstores.nl
+mail.shipstores.nl
+autodiscover.shipstores.nl

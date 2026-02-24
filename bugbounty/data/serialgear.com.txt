@@ -1,0 +1,3 @@
+dev.serialgear.com
+secure.serialgear.com
+devsecure.serialgear.com

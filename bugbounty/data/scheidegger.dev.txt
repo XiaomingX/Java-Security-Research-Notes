@@ -1,0 +1,12 @@
+plannungstool.scheidegger.dev
+dav.scheidegger.dev
+rssbridge.scheidegger.dev
+rss.scheidegger.dev
+blog.scheidegger.dev
+fulltextrss.scheidegger.dev
+shaarli.scheidegger.dev
+git.scheidegger.dev
+doodle.scheidegger.dev
+iptools.scheidegger.dev
+ttrss.scheidegger.dev
+upload.scheidegger.dev

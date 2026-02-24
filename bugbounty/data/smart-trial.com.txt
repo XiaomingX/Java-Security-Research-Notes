@@ -1,0 +1,7 @@
+updates.smart-trial.com
+files.smart-trial.com
+help.smart-trial.com
+www2.smart-trial.com
+lp.smart-trial.com
+cdn.smart-trial.com
+l.smart-trial.com

@@ -1,0 +1,6 @@
+info.rosettabio.com
+mail.rosettabio.com
+vulcan.rosettabio.com
+mysql.rosettabio.com
+ftp.rosettabio.com
+biosoftwarewww.rosettabio.com

@@ -1,0 +1,4 @@
+work.devsasmi.tk
+fronted.devsasmi.tk
+test.devsasmi.tk
+nextcloud.devsasmi.tk

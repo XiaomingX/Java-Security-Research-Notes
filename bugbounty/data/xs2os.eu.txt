@@ -1,0 +1,5 @@
+mail.xs2os.eu
+support.xs2os.eu
+oud.xs2os.eu
+support-archief.xs2os.eu
+woo.xs2os.eu

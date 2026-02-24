@@ -1,0 +1,4 @@
+auth.btstage.net
+qualification.btstage.net
+authreg.btstage.net
+va.btstage.net

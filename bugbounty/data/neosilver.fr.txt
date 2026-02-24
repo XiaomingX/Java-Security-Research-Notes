@@ -1,0 +1,5 @@
+residence.neosilver.fr
+blog.neosilver.fr
+partenaire.neosilver.fr
+admin.neosilver.fr
+carte.neosilver.fr

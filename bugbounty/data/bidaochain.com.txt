@@ -1,0 +1,5 @@
+ascend.bidaochain.com
+bridge-ascend.bidaochain.com
+launchpad-ascend.bidaochain.com
+rpc-ascend.bidaochain.com
+deposit.ascend.bidaochain.com

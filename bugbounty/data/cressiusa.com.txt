@@ -1,0 +1,7 @@
+account.cressiusa.com
+api.cressiusa.com
+b2b.cressiusa.com
+d2d.cressiusa.com
+gw.cressiusa.com
+gw2.cressiusa.com
+hub.cressiusa.com

@@ -1,0 +1,5 @@
+support.tokia.io
+wallet.tokia.io
+exchange.tokia.io
+mail.tokia.io
+alfa.tokia.io

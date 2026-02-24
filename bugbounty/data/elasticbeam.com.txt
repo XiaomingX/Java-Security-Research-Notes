@@ -1,0 +1,5 @@
+360.elasticbeam.com
+aws.elasticbeam.com
+download.elasticbeam.com
+ftp.elasticbeam.com
+test.elasticbeam.com

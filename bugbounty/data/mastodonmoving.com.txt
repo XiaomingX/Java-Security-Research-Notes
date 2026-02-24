@@ -1,0 +1,7 @@
+app.mastodonmoving.com
+blog.mastodonmoving.com
+staging.app.mastodonmoving.com
+api.mastodonmoving.com
+mastodon.fmi.mastodonmoving.com
+preview.mastodonmoving.com
+secure.mastodonmoving.com

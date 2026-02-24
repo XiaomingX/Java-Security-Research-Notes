@@ -1,0 +1,2 @@
+imap.mathiasschlachter.cloud
+smtp.mathiasschlachter.cloud

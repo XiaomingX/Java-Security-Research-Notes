@@ -1,0 +1,8 @@
+nc.flemingo.nl
+plex.flemingo.nl
+has.flemingo.nl
+bit.flemingo.nl
+doc.flemingo.nl
+code.flemingo.nl
+webmin.flemingo.nl
+cloud.flemingo.nl

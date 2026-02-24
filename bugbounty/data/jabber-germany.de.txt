@@ -1,0 +1,10 @@
+conference.jabber-germany.de
+odroid.jabber-germany.de
+ntfy.jabber-germany.de
+mail.jabber-germany.de
+upload.jabber-germany.de
+pop.jabber-germany.de
+socks.jabber-germany.de
+mta-sts.mail.jabber-germany.de
+mx.jabber-germany.de
+imap.jabber-germany.de

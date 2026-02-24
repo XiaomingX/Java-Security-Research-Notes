@@ -1,0 +1,5 @@
+sale.versadesk.com
+support.versadesk.com
+blog.versadesk.com
+checkout.versadesk.com
+info.versadesk.com

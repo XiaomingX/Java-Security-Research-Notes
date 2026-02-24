@@ -1,0 +1,2 @@
+nexus.originscannabis.com
+staging.originscannabis.com

@@ -1,0 +1,4 @@
+dac.gen.xyz
+dev.gen.xyz
+microservices.gen.xyz
+shop.gen.xyz

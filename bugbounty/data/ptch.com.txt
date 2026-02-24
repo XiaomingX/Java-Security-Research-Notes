@@ -1,0 +1,14 @@
+blog.ptch.com
+api.stage.ptch.com
+secure.ptch.com
+signup.ptch.com
+3sois.ptch.com
+login.stage.ptch.com
+stage.ptch.com
+api.ptch.com
+secure.stage.ptch.com
+signup.stage.ptch.com
+help.ptch.com
+login.ptch.com
+talk.ptch.com
+support.ptch.com

@@ -1,0 +1,7 @@
+cdn.viasana.nl
+intranet.viasana.nl
+rds.viasana.nl
+mail.viasana.nl
+webmail.viasana.nl
+zorg.viasana.nl
+mijn.viasana.nl

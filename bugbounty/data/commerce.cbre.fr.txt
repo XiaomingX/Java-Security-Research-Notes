@@ -1,0 +1,2 @@
+dev.blog.commerce.cbre.fr
+blog.commerce.cbre.fr

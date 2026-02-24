@@ -1,0 +1,2 @@
+app.coachizy.com
+meet.coachizy.com

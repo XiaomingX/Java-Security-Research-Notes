@@ -1,0 +1,6 @@
+autodiscover.weeks.com.au
+mail.weeks.com.au
+myhome.weeks.com.au
+mystyle.weeks.com.au
+api.mystyle.weeks.com.au
+cag.weeks.com.au

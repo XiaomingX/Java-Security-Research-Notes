@@ -1,0 +1,4 @@
+go.mxrs.dev
+freshworks.mxrs.dev
+to.mxrs.dev
+openpgpkey.mxrs.dev

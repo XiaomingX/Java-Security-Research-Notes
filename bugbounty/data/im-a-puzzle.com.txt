@@ -1,0 +1,10 @@
+video.im-a-puzzle.com
+stg.im-a-puzzle.com
+old.im-a-puzzle.com
+static.im-a-puzzle.com
+info.im-a-puzzle.com
+poc.im-a-puzzle.com
+staging.im-a-puzzle.com
+api.im-a-puzzle.com
+test.im-a-puzzle.com
+new.im-a-puzzle.com

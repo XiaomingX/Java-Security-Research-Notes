@@ -1,0 +1,4 @@
+social.lounge.place
+dev.lounge.place
+staging.lounge.place
+app.lounge.place

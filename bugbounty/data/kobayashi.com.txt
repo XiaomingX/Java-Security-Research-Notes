@@ -1,0 +1,6 @@
+adfsus.kobayashi.com
+cn.kobayashi.com
+helpdesk.kobayashi.com
+projects.kobayashi.com
+ossdev.kobayashi.com
+test.kobayashi.com

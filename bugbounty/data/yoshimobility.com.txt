@@ -1,0 +1,7 @@
+blog.yoshimobility.com
+get.yoshimobility.com
+pages.yoshimobility.com
+shop.yoshimobility.com
+beta.yoshimobility.com
+blog-staging.yoshimobility.com
+staging.yoshimobility.com

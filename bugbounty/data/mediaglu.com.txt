@@ -1,0 +1,3 @@
+app.mediaglu.com
+blogs.mediaglu.com
+ww2.mediaglu.com

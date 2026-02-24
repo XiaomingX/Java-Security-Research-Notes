@@ -1,0 +1,5 @@
+newsletters.topicdesk.com
+downloads.topicdesk.com
+feeds.topicdesk.com
+osx.topicdesk.com
+v5.topicdesk.com

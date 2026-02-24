@@ -1,0 +1,6 @@
+ipv4.getmyip.dev
+cdn.getmyip.dev
+smtp.getmyip.dev
+ftp.getmyip.dev
+pop.getmyip.dev
+ipv6.getmyip.dev

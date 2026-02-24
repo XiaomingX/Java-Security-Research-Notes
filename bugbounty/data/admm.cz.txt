@@ -1,0 +1,6 @@
+sentry.admm.cz
+traefik.infra.admm.cz
+adminer.infra.admm.cz
+gitlab.admm.cz
+rancher.infra.admm.cz
+registry.admm.cz

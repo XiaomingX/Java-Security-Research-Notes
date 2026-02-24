@@ -1,0 +1,4 @@
+mobile.askdsw.com
+ns.askdsw.com
+pay.askdsw.com
+testing.askdsw.com

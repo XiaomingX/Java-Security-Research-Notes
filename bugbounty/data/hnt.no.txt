@@ -1,0 +1,4 @@
+data.hnt.no
+timeavtale-blodbank.hnt.no
+v.hnt.no
+yaps.hnt.no

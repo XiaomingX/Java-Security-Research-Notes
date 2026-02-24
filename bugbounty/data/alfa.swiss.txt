@@ -1,0 +1,9 @@
+crm.alfa.swiss
+zeit.alfa.swiss
+data.alfa.swiss
+citrix.alfa.swiss
+social.alfa.swiss
+vpn.alfa.swiss
+desktop.alfa.swiss
+news.alfa.swiss
+event.alfa.swiss

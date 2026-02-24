@@ -1,0 +1,4 @@
+autodiscover.brightonbest.com
+link.mail.brightonbest.com
+webmail.brightonbest.com
+link.brightonbest.com

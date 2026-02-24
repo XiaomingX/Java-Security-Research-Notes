@@ -1,0 +1,8 @@
+b2b.gamesnstuff.com
+dev.gamesnstuff.com
+shop.gamesnstuff.com
+pop.gamesnstuff.com
+staging.b2b.gamesnstuff.com
+mail.gamesnstuff.com
+staging.gamesnstuff.com
+smtp.gamesnstuff.com

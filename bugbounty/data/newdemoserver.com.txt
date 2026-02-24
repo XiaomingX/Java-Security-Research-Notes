@@ -1,0 +1,2 @@
+klikrs.newdemoserver.com
+server.newdemoserver.com

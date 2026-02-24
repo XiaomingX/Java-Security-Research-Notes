@@ -1,0 +1,11 @@
+testlms.payatu.com
+static.payatu.com
+docs.payatu.com
+mysql.payatu.com
+trail.payatu.com
+calendar.payatu.com
+media.payatu.com
+ftp.payatu.com
+ctf.payatu.com
+mail.payatu.com
+studio.testlms.payatu.com

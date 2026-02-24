@@ -1,0 +1,4 @@
+mail.u-ga.ch
+mta-sts.mail.u-ga.ch
+test2.u-ga.ch
+abacus.u-ga.ch

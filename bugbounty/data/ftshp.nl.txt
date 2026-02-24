@@ -1,0 +1,7 @@
+sitemaps.ftshp.nl
+shop.lab.ftshp.nl
+lab.ftshp.nl
+sitemaps-lab.ftshp.nl
+shop.ftshp.nl
+files.ftshp.nl
+files.lab.ftshp.nl

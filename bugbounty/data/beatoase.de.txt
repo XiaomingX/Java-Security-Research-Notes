@@ -1,0 +1,3 @@
+mail.beatoase.de
+mx0.beatoase.de
+static.beatoase.de

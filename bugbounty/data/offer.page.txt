@@ -1,0 +1,16 @@
+api.offer.page
+c.offer.page
+docs.offer.page
+dev.offer.page
+seo.offer.page
+jenkins.offer.page
+docs.dev.offer.page
+app.offer.page
+api-v3.dev.offer.page
+show.offer.page
+this.props.offer.page
+app.dev.offer.page
+api.dev.offer.page
+data.offer.page
+app.data.offer.page
+pages.offer.page

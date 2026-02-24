@@ -1,0 +1,2 @@
+mail.plexicentrum.hu
+mta-sts.plexicentrum.hu

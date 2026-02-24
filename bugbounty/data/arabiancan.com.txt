@@ -1,0 +1,3 @@
+mail.arabiancan.com
+portal.arabiancan.com
+npm.portal.arabiancan.com

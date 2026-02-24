@@ -1,0 +1,4 @@
+cloud.erasmo.info
+galileo.erasmo.info
+mail.erasmo.info
+mta-sts.erasmo.info

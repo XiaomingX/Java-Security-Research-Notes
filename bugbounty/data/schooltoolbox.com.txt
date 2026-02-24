@@ -1,0 +1,10 @@
+autodiscover.schooltoolbox.com
+es.schooltoolbox.com
+mail.schooltoolbox.com
+cpanel.schooltoolbox.com
+cpcalendars.schooltoolbox.com
+cpcontacts.schooltoolbox.com
+sch.schooltoolbox.com
+test.schooltoolbox.com
+webdisk.schooltoolbox.com
+webmail.schooltoolbox.com

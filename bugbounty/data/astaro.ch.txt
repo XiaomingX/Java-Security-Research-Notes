@@ -1,0 +1,2 @@
+autodiscover.astaro.ch
+hostmaster.astaro.ch

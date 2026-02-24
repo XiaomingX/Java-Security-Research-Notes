@@ -1,0 +1,13 @@
+checkout.exirio.com
+support.exirio.com
+webapp.exirio.com
+backend.exirio.com
+dev.exirio.com
+staging.exirio.com
+mailcdn.exirio.com
+app.exirio.com
+api.exirio.com
+admin.exirio.com
+logos.exirio.com
+url5144.exirio.com
+api-admin.exirio.com

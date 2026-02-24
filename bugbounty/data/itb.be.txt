@@ -1,0 +1,9 @@
+mail.itb.be
+cpanel.itb.be
+webmail.itb.be
+br.edu.fieb.itb.be
+administratie.itb.be
+jobs.itb.be
+remote.itb.be
+ctx.itb.be
+webdisk.itb.be

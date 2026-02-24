@@ -1,0 +1,6 @@
+mail.mpcsturgis.com
+webdisk.mpcsturgis.com
+webmail.mpcsturgis.com
+cpanel.mpcsturgis.com
+cpcalendars.mpcsturgis.com
+cpcontacts.mpcsturgis.com

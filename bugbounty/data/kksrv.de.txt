@@ -1,0 +1,8 @@
+test.kksrv.de
+shop.kksrv.de
+daniel.kksrv.de
+cloud.kksrv.de
+survey.kksrv.de
+ti.kksrv.de
+home.kksrv.de
+mail.kksrv.de

@@ -1,0 +1,6 @@
+webmail.lola.pt
+cpanel.lola.pt
+cpcalendars.lola.pt
+cpcontacts.lola.pt
+mail.lola.pt
+webdisk.lola.pt

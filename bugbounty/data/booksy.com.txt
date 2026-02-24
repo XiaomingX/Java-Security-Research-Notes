@@ -1,0 +1,4 @@
+status-es.booksy.com
+intranet-gb.booksy.com
+biz.booksy.com
+brand.booksy.com

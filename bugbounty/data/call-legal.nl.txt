@@ -1,0 +1,7 @@
+dev.call-legal.nl
+cpcontacts.call-legal.nl
+cpanel.call-legal.nl
+cpcalendars.call-legal.nl
+mail.call-legal.nl
+webmail.call-legal.nl
+webdisk.call-legal.nl

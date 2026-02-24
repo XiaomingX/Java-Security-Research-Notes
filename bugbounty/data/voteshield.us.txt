@@ -1,0 +1,2 @@
+api.voteshield.us
+beta.voteshield.us

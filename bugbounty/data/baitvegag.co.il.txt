@@ -1,0 +1,7 @@
+pri.baitvegag.co.il
+autodiscover.baitvegag.co.il
+mail.baitvegag.co.il
+bayron.baitvegag.co.il
+remote.baitvegag.co.il
+ashmoret.baitvegag.co.il
+campaigns.baitvegag.co.il

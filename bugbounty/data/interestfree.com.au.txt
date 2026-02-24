@@ -1,0 +1,10 @@
+online.interestfree.com.au
+privacy.interestfree.com.au
+smetrics.interestfree.com.au
+verify.interestfree.com.au
+stats.interestfree.com.au
+email.interestfree.com.au
+test-verify.interestfree.com.au
+apply.interestfree.com.au
+stat.interestfree.com.au
+_dmarc.interestfree.com.au

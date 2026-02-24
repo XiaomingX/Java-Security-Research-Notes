@@ -1,0 +1,2 @@
+mail.dovecot.co.jp
+ftp.dovecot.co.jp

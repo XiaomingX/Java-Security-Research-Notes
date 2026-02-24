@@ -1,0 +1,9 @@
+staging.dovido.fr
+old.dovido.fr
+test.dovido.fr
+store.dovido.fr
+magento.dovido.fr
+demo.dovido.fr
+shop.dovido.fr
+mail.dovido.fr
+dev.dovido.fr

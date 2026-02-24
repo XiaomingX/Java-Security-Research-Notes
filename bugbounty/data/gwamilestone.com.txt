@@ -1,0 +1,2 @@
+autodiscover.gwamilestone.com
+test.gwamilestone.com

@@ -1,0 +1,2 @@
+api.originmaine.com
+campaigns.originmaine.com

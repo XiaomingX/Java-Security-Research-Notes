@@ -1,0 +1,2 @@
+staging.orsted.tw
+go.orsted.tw

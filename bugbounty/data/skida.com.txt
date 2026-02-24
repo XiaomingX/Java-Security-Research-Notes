@@ -1,0 +1,4 @@
+app.skida.com
+pay.skida.com
+wholesale.skida.com
+returns.skida.com

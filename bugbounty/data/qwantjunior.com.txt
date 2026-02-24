@@ -1,0 +1,9 @@
+mobile-secure.qwantjunior.com
+admin.dns.qwantjunior.com
+edu.qwantjunior.com
+unicef.qwantjunior.com
+extras.qwantjunior.com
+neoschool.qwantjunior.com
+beta.qwantjunior.com
+api.qwantjunior.com
+noel.qwantjunior.com

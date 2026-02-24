@@ -1,0 +1,4 @@
+autodiscover.aceatlas.com
+mail.aceatlas.com
+ts.aceatlas.com
+vpn.aceatlas.com

@@ -1,0 +1,16 @@
+beta.dcne.com
+dq.dcne.com
+inforbridge.dcne.com
+inforbridge.staging.dcne.com
+insite.staging.dcne.com
+middleware.dcne.com
+middleware.sandbox.dcne.com
+catalog.dcne.com
+cranston.dcne.com
+inriver.dcne.com
+malden.dcne.com
+plymouth.dcne.com
+salem.dcne.com
+vdi.dcne.com
+westbrook.dcne.com
+westwood.dcne.com

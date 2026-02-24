@@ -1,0 +1,9 @@
+app.dependabot.com
+ghe-test.dependabot.com
+github-redirect.dependabot.com
+api.dependabot.com
+pages.dependabot.com
+next.dependabot.com
+grafana.internal.dependabot.com
+artifactory.dependabot.com
+registry.dependabot.com

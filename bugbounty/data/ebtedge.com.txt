@@ -1,0 +1,12 @@
+ca.ebtedge.com
+dnweb-ebt.ebtedge.com
+dnweb1.ebtedge.com
+dnweb2.ebtedge.com
+dwweb.ebtedge.com
+fraudnavigator3.ebtedge.com
+mobile.ebtedge.com
+portal.ebtedge.com
+fraudnavigator3-dr.ebtedge.com
+h2h.ebtedge.com
+mobile2.ebtedge.com
+team.ebtedge.com

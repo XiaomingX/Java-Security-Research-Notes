@@ -1,0 +1,7 @@
+host.upcap.org
+mail.upcap.org
+cpanel.upcap.org
+cpcalendars.upcap.org
+cpcontacts.upcap.org
+webdisk.upcap.org
+webmail.upcap.org

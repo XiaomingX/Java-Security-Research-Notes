@@ -1,0 +1,5 @@
+api.usepropeller.com
+cpanel.usepropeller.com
+mail.usepropeller.com
+webdisk.usepropeller.com
+webmail.usepropeller.com

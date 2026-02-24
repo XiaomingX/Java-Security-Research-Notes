@@ -1,0 +1,4 @@
+mail.praxis.su
+mta-sts.mail.praxis.su
+mta-sts.praxis.su
+sibur.praxis.su

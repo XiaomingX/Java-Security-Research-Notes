@@ -1,0 +1,6 @@
+blog.bu.mp
+photos.bu.mp
+devblog.bu.mp
+internblog.bu.mp
+static.bu.mp
+email.bu.mp

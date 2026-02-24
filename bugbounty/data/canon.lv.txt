@@ -1,0 +1,5 @@
+account.canon.lv
+account-uat.canon.lv
+prl.canon.lv
+ibs.canon.lv
+dealer.canon.lv

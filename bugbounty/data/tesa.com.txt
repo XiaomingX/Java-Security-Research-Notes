@@ -1,0 +1,2 @@
+campaign.tesa.com
+auth-dev.tesa.com

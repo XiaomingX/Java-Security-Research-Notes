@@ -1,0 +1,5 @@
+meeting.wolkepur.de
+mta-sts.wolkepur.de
+traccar.wolkepur.de
+chat.wolkepur.de
+lists.wolkepur.de

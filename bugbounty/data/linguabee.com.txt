@@ -1,0 +1,16 @@
+assets.linguabee.com
+community.linguabee.com
+hive.linguabee.com
+insights.linguabee.com
+learn.linguabee.com
+nectar.linguabee.com
+stage.hive.linguabee.com
+stage.linguabee.com
+status.linguabee.com
+support.linguabee.com
+api.linguabee.com
+app.linguabee.com
+awareness.linguabee.com
+stage.api.linguabee.com
+stage.app.linguabee.com
+taste.linguabee.com

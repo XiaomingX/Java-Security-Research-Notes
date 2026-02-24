@@ -1,0 +1,15 @@
+autodiscover.si-lobster.com
+bimaspontren.si-lobster.com
+cpanel.si-lobster.com
+cpcalendars.si-lobster.com
+cpcontacts.si-lobster.com
+login.si-lobster.com
+mail.si-lobster.com
+surveytpg.si-lobster.com
+webdisk.si-lobster.com
+webmail.si-lobster.com
+demo.si-lobster.com
+kendal.si-lobster.com
+pontren.si-lobster.com
+v1.si-lobster.com
+vervalskbk.si-lobster.com

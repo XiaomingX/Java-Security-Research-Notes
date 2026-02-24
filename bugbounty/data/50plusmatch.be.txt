@@ -1,0 +1,7 @@
+fr.50plusmatch.be
+mobile.50plusmatch.be
+m.50plusmatch.be
+cdnl.fr.50plusmatch.be
+cdnl.50plusmatch.be
+static.50plusmatch.be
+static.fr.50plusmatch.be

@@ -1,0 +1,17 @@
+cpanel.grupoprimor.pt
+cpcalendars.grupoprimor.pt
+cpcontacts.grupoprimor.pt
+gplink.grupoprimor.pt
+loja.grupoprimor.pt
+mail.grupoprimor.pt
+portalcorporativo.grupoprimor.pt
+webdisk.grupoprimor.pt
+webmail.grupoprimor.pt
+wiki.grupoprimor.pt
+autodiscover.grupoprimor.pt
+centralcarnes.grupoprimor.pt
+devcorporate.grupoprimor.pt
+development.grupoprimor.pt
+form.grupoprimor.pt
+meattheplants.grupoprimor.pt
+teste.grupoprimor.pt

@@ -1,0 +1,5 @@
+reports-generation-qualif.pcm.eu
+qualif.pcm.eu
+autodiscover.pcm.eu
+pcmdesign.pcm.eu
+fr.pcm.eu

@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import org.apache.click.control.Column;
 import org.apache.click.control.Table;
 import ysoserial.payloads.annotation.Authors;

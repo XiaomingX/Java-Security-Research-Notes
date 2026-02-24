@@ -1,0 +1,4 @@
+cpanel.dgnite.com
+mail.dgnite.com
+webdisk.dgnite.com
+webmail.dgnite.com

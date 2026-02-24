@@ -1,0 +1,4 @@
+mg02.gbtnta.com
+mg01.gbtnta.com
+autodiscover.gbtnta.com
+ftp.gbtnta.com

@@ -1,0 +1,7 @@
+thissubdomainshouldonlyresolveifwildcard.advancater.xyz
+d.advancater.xyz
+mail.advancater.xyz
+ns2.advancater.xyz
+adv1.advancater.xyz
+adv2.advancater.xyz
+ns1.advancater.xyz

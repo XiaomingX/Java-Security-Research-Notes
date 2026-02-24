@@ -1,0 +1,6 @@
+arrivals.fenix.com
+tracker.fenix.com
+fax.fenix.com
+web2.fenix.com
+portal.fenix.com
+www2.fenix.com

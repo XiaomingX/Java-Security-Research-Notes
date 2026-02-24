@@ -1,0 +1,4 @@
+api-proxy.terve.fi
+assets.terve.fi
+blogit.terve.fi
+api.terve.fi

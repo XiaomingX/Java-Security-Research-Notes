@@ -1,0 +1,4 @@
+autodiscover.ahsnet.de
+monitoring.ahsnet.de
+ahscom01.rv.ahsnet.de
+wlan.ahsnet.de

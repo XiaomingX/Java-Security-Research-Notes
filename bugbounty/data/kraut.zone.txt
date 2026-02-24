@@ -1,0 +1,4 @@
+devblog.kraut.zone
+weboasis.kraut.zone
+blog.kraut.zone
+index.kraut.zone

@@ -1,0 +1,14 @@
+autodiscover.inapi.org
+brand.inapi.org
+cati.inapi.org
+cpanel.inapi.org
+cpcalendars.inapi.org
+cpcontacts.inapi.org
+efiling.inapi.org
+mail.inapi.org
+maintenance.inapi.org
+patent.inapi.org
+questionnaire.inapi.org
+webdisk.inapi.org
+webmail.inapi.org
+test.inapi.org

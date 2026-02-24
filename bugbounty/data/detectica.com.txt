@@ -1,0 +1,2 @@
+demo.detectica.com
+dev.detectica.com

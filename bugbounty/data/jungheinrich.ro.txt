@@ -1,0 +1,5 @@
+admin.parts.jungheinrich.ro
+news.jungheinrich.ro
+parts.jungheinrich.ro
+autodiscover.jungheinrich.ro
+qa.staging.jungheinrich.ro

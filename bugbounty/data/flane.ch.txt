@@ -1,0 +1,5 @@
+autodiscover.flane.ch
+portal.flane.ch
+eway.flane.ch
+collab-edge.flane.ch
+vcsxe.flane.ch

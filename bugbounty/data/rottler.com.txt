@@ -1,0 +1,9 @@
+autodiscover.rottler.com
+clypboard-staging.rottler.com
+clypboard.rottler.com
+leads.rottler.com
+mail.rottler.com
+myaccount.rottler.com
+seg.rottler.com
+services.rottler.com
+anywhere.rottler.com

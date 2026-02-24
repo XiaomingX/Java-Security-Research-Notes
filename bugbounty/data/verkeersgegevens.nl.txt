@@ -1,0 +1,2 @@
+smtp.verkeersgegevens.nl
+rws-oostnederland.verkeersgegevens.nl

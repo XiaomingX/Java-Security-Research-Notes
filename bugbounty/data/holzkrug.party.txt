@@ -1,0 +1,6 @@
+ssh.holzkrug.party
+smart.holzkrug.party
+cloud.holzkrug.party
+vault.holzkrug.party
+ubuntu.holzkrug.party
+browser.holzkrug.party

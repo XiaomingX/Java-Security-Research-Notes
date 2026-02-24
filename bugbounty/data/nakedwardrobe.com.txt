@@ -1,0 +1,3 @@
+account.nakedwardrobe.com
+admin.nakedwardrobe.com
+staging.nakedwardrobe.com

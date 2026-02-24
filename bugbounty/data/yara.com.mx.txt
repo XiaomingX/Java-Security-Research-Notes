@@ -1,0 +1,6 @@
+int.yara.com.mx
+pre.yara.com.mx
+cpanel.yara.com.mx
+webmail.yara.com.mx
+mail.yara.com.mx
+ftp.yara.com.mx

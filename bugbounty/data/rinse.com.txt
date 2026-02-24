@@ -1,0 +1,10 @@
+local.rinse.com
+numerical.rinse.com
+osrm.rinse.com
+processingbastion.rinse.com
+rucb5jen.rinse.com
+static.rinse.com
+test.rinse.com
+video.rinse.com
+secret-staging-mouse.rinse.com
+staging-3677.rinse.com

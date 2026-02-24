@@ -1,0 +1,7 @@
+cpanel.coolspringswines.com
+cpcalendars.coolspringswines.com
+cpcontacts.coolspringswines.com
+dev.coolspringswines.com
+mail.coolspringswines.com
+webdisk.coolspringswines.com
+webmail.coolspringswines.com

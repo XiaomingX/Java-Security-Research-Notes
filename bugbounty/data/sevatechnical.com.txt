@@ -1,0 +1,9 @@
+autodiscover.sevatechnical.com
+cpanel.sevatechnical.com
+cpcalendars.sevatechnical.com
+cpcontacts.sevatechnical.com
+cpproperties.sevatechnical.com
+sev.sevatechnical.com
+webdisk.sevatechnical.com
+mail.sevatechnical.com
+webmail.sevatechnical.com

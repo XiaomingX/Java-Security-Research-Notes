@@ -1,0 +1,7 @@
+domain.irpowerweb.com
+lv.irpowerweb.com
+mail.irpowerweb.com
+my.irpowerweb.com
+smtp.irpowerweb.com
+win14.irpowerweb.com
+mail.domain.irpowerweb.com

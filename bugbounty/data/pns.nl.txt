@@ -1,0 +1,6 @@
+portaal.pns.nl
+acceptatie.portaal.pns.nl
+login.portaal.pns.nl
+hielprikapp.pns.nl
+zmail.pns.nl
+login.acceptatie.portaal.pns.nl

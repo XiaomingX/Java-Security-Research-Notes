@@ -1,0 +1,8 @@
+mail.canon.si
+lyncdiscover.canon.si
+account-uat.canon.si
+account.canon.si
+sip.canon.si
+lyncdiscoverinternal.canon.si
+sip2.canon.si
+prl.canon.si

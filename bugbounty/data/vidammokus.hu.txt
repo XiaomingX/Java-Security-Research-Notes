@@ -1,0 +1,3 @@
+dev.vidammokus.hu
+admin.vidammokus.hu
+lh.vidammokus.hu

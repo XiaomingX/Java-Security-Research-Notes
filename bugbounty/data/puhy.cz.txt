@@ -1,0 +1,11 @@
+conradinvoices.puhy.cz
+static.puhy.cz
+backup.puhy.cz
+tms.puhy.cz
+zzz-backup.puhy.cz
+mailcz.puhy.cz
+webmail.puhy.cz
+firma.puhy.cz
+obchod.puhy.cz
+test.puhy.cz
+mailer.puhy.cz

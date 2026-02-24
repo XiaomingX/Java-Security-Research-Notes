@@ -1,0 +1,2 @@
+staging.edit.tosdr.org
+new.edit.tosdr.org

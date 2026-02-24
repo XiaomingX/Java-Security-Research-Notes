@@ -1,0 +1,5 @@
+cpanel.windsordermatology.com
+mail.windsordermatology.com
+webdisk.windsordermatology.com
+webmail.windsordermatology.com
+staging.windsordermatology.com

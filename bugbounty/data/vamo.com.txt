@@ -1,0 +1,6 @@
+blog.vamo.com
+cdn.vamo.com
+rabbit.ec2.vamo.com
+gapp.vamo.com
+ajax1-www.vamo.com
+ajax2-www.vamo.com

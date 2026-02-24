@@ -1,0 +1,10 @@
+autodiscover.hertzfurniture.com
+contact.hertzfurniture.com
+intradev.hertzfurniture.com
+intranet.hertzfurniture.com
+mail.hertz.hertzfurniture.com
+mail.hertzfurniture.com
+media.hertzfurniture.com
+exchange.hertz.hertzfurniture.com
+hertz.hertzfurniture.com
+hfsexch.hertzfurniture.com

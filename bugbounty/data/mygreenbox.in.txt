@@ -1,0 +1,9 @@
+webdisk.mygreenbox.in
+webmail.mygreenbox.in
+cpanel.mygreenbox.in
+cpcalendars.mygreenbox.in
+cpcontacts.mygreenbox.in
+mail.mygreenbox.in
+production.mygreenbox.in
+staging.mygreenbox.in
+autodiscover.mygreenbox.in

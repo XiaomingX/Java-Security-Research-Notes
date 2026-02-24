@@ -1,0 +1,4 @@
+bestellen.normandy-maastricht.com
+cpcontacts.normandy-maastricht.com
+cpcalendars.normandy-maastricht.com
+ipv6.normandy-maastricht.com

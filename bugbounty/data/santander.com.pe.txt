@@ -1,0 +1,11 @@
+bspsrvtkn.santander.com.pe
+bspvpn.santander.com.pe
+autodiscover.santander.com.pe
+bspowa.santander.com.pe
+bsprh85h.santander.com.pe
+bspsrvtransfinpro.santander.com.pe
+spbsp.santander.com.pe
+vpn-ssl.santander.com.pe
+vpn2-ssl.santander.com.pe
+vpnc-ssl.santander.com.pe
+vpnh-ssl.santander.com.pe

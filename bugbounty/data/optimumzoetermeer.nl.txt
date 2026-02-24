@@ -1,0 +1,3 @@
+smtp.optimumzoetermeer.nl
+mail.optimumzoetermeer.nl
+video.optimumzoetermeer.nl

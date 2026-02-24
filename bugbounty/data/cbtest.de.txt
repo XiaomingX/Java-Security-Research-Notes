@@ -1,0 +1,6 @@
+cf-ssltest.cbtest.de
+corporate.cbtest.de
+test.cbtest.de
+questtest.cbtest.de
+cdn.cbtest.de
+statusquo.cbtest.de

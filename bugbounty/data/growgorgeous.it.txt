@@ -1,0 +1,4 @@
+checkout.growgorgeous.it
+horizon-api.www.growgorgeous.it
+sgtm.growgorgeous.it
+gslb.growgorgeous.it

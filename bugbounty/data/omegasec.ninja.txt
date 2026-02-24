@@ -1,0 +1,9 @@
+office.omegasec.ninja
+phpmyadmin.omegasec.ninja
+dashboard.omegasec.ninja
+vertadmin.omegasec.ninja
+content.omegasec.ninja
+mta-sts.omegasec.ninja
+records.omegasec.ninja
+asset.omegasec.ninja
+prometheus.omegasec.ninja

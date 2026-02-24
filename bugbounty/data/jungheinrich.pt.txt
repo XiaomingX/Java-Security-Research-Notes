@@ -1,0 +1,10 @@
+parts.jungheinrich.pt
+transfer.jungheinrich.pt
+newsletter.jungheinrich.pt
+admin.parts.jungheinrich.pt
+qa.staging.jungheinrich.pt
+shop.jungheinrich.pt
+news.jungheinrich.pt
+admin.shop.jungheinrich.pt
+autodiscover.jungheinrich.pt
+www2.jungheinrich.pt

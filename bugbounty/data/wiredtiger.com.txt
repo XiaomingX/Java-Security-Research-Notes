@@ -1,0 +1,5 @@
+code.wiredtiger.com
+mail.wiredtiger.com
+source.wiredtiger.com
+build.wiredtiger.com
+hg.wiredtiger.com

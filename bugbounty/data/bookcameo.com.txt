@@ -1,0 +1,2 @@
+dev.bookcameo.com
+status.bookcameo.com

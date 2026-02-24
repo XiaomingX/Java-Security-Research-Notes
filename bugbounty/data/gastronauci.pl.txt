@@ -1,0 +1,12 @@
+assets0.gastronauci.pl
+ns.gastronauci.pl
+m.gastronauci.pl
+admin.mail.gastronauci.pl
+old.gastronauci.pl
+assets2.gastronauci.pl
+assets1.gastronauci.pl
+assets3.gastronauci.pl
+mail.gastronauci.pl
+beta.gastronauci.pl
+staging.gastronauci.pl
+trac.gastronauci.pl

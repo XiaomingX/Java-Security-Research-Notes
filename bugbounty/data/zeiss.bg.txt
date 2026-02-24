@@ -1,0 +1,8 @@
+test2-internet.zeiss.bg
+stage-internet.zeiss.bg
+test3-internet.zeiss.bg
+datapipeline.zeiss.bg
+preprod-internet.zeiss.bg
+test1-internet.zeiss.bg
+development-internet.zeiss.bg
+mail.zeiss.bg

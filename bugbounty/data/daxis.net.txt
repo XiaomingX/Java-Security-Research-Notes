@@ -1,0 +1,10 @@
+srv.daxis.net
+domains.daxis.net
+man.daxis.net
+junioren.daxis.net
+winkelplein.daxis.net
+kids.daxis.net
+vrouw.daxis.net
+senioren.daxis.net
+dummy.daxis.net
+scripts.daxis.net

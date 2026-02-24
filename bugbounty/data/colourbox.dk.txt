@@ -1,0 +1,3 @@
+load.stap.colourbox.dk
+signin.colourbox.dk
+stap.colourbox.dk

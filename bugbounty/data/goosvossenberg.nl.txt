@@ -1,0 +1,6 @@
+mail.goosvossenberg.nl
+cpanel.goosvossenberg.nl
+cpcontacts.goosvossenberg.nl
+webdisk.goosvossenberg.nl
+webmail.goosvossenberg.nl
+cpcalendars.goosvossenberg.nl

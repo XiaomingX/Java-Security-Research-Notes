@@ -1,0 +1,7 @@
+autodiscover.bukitpodomorojakarta.id
+cpanel.bukitpodomorojakarta.id
+cpcalendars.bukitpodomorojakarta.id
+cpcontacts.bukitpodomorojakarta.id
+mail.bukitpodomorojakarta.id
+webdisk.bukitpodomorojakarta.id
+webmail.bukitpodomorojakarta.id

@@ -1,0 +1,11 @@
+meet.hetzner2.obdev.at
+mail.obdev.at
+cs.obdev.at
+mastodon.obdev.at
+kg.obdev.at
+secure.obdev.at
+blog.obdev.at
+help.obdev.at
+sw-update.obdev.at
+forums.obdev.at
+ns2.obdev.at

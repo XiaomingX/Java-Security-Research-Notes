@@ -1,0 +1,2 @@
+acceptatie.kennisplatformveehouderij.nl
+localhost.kennisplatformveehouderij.nl

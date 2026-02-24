@@ -1,0 +1,4 @@
+admin.parts.jungheinrich.fi
+parts.jungheinrich.fi
+news.jungheinrich.fi
+transfer.jungheinrich.fi

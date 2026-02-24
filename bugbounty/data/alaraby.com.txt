@@ -1,0 +1,2 @@
+network.alaraby.com
+beta.alaraby.com

@@ -1,0 +1,9 @@
+oude-website.lomoz.org
+mail.lomoz.org
+develop.lomoz.org
+cpcalendars.lomoz.org
+webdisk.lomoz.org
+nieuw.lomoz.org
+webmail.lomoz.org
+cpcontacts.lomoz.org
+cpanel.lomoz.org

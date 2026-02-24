@@ -1,0 +1,11 @@
+s.evature.com
+push.evature.com
+docs.evature.com
+w.evature.com
+chat.evature.com
+chatblog.evature.com
+static.evature.com
+kibana.evature.com
+blog.evature.com
+freeapi.evature.com
+live.evature.com

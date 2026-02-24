@@ -1,0 +1,12 @@
+wiki.qiio.com
+dsm.qiio.com
+jenkins.qiio.com
+code.qiio.com
+openproject.qiio.com
+support.qiio.com
+swagger-editor.qiio.com
+swagger.qiio.com
+news.qiio.com
+ldap.qiio.com
+router.qiio.com
+opencve.qiio.com

@@ -1,0 +1,11 @@
+hf.vovsoft.com
+files.vovsoft.com
+news.vovsoft.com
+online.vovsoft.com
+mail.vovsoft.com
+es.vovsoft.com
+ns1.vovsoft.com
+jp.vovsoft.com
+de.vovsoft.com
+ns2.vovsoft.com
+fr.vovsoft.com

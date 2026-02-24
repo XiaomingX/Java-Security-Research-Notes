@@ -1,0 +1,3 @@
+admin.visitgallivare.se
+api.visitgallivare.se
+mail.visitgallivare.se

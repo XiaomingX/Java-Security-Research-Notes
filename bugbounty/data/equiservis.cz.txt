@@ -1,0 +1,9 @@
+data.equiservis.cz
+com.equiservis.cz
+admin.equiservis.cz
+m.equiservis.cz
+beta.equiservis.cz
+old.equiservis.cz
+poradna.equiservis.cz
+server.equiservis.cz
+server2.equiservis.cz

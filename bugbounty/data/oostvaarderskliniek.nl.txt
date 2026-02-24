@@ -1,0 +1,7 @@
+pop.oostvaarderskliniek.nl
+mail.oostvaarderskliniek.nl
+smtp.oostvaarderskliniek.nl
+ftp.oostvaarderskliniek.nl
+pvs.oostvaarderskliniek.nl
+feeds.oostvaarderskliniek.nl
+opendata.oostvaarderskliniek.nl

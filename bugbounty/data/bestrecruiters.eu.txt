@@ -1,0 +1,10 @@
+plattform.bestrecruiters.eu
+test.bestrecruiters.eu
+feedback-test.bestrecruiters.eu
+plattform-test.bestrecruiters.eu
+kundenportal.bestrecruiters.eu
+backend.bestrecruiters.eu
+feedback.bestrecruiters.eu
+undercover-hr-boss.bestrecruiters.eu
+admin.bestrecruiters.eu
+memory.bestrecruiters.eu

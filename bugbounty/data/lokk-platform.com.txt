@@ -1,0 +1,4 @@
+mail.lokk-platform.com
+app.lokk-platform.com
+api.lokk-platform.com
+auth.lokk-platform.com

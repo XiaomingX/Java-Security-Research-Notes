@@ -1,0 +1,7 @@
+cpanel.wichitabeer.com
+cpcalendars.wichitabeer.com
+cpcontacts.wichitabeer.com
+kenpo.wichitabeer.com
+retail.wichitabeer.com
+webdisk.wichitabeer.com
+webmail.wichitabeer.com

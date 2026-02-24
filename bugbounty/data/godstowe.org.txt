@@ -1,0 +1,15 @@
+mail.godstowe.org
+esva.godstowe.org
+sport.godstowe.org
+calendar.godstowe.org
+bursarysupport.godstowe.org
+camera.godstowe.org
+ns2.godstowe.org
+portal.godstowe.org
+rds.godstowe.org
+ftp.godstowe.org
+autodiscover.godstowe.org
+ns1.godstowe.org
+hostmaster.godstowe.org
+gps-srv-11.godstowe.org
+mail2.godstowe.org

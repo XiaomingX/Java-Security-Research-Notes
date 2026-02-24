@@ -1,0 +1,9 @@
+staging.fivl.it
+tracking.fivl.it
+mta-sts.fivl.it
+email.fivl.it
+wm.fivl.it
+vololibero.fivl.it
+d.fivl.it
+regionali.fivl.it
+d.vololibero.fivl.it

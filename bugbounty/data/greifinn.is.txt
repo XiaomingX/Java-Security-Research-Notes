@@ -1,0 +1,3 @@
+api.greifinn.is
+beta.greifinn.is
+vpn.greifinn.is

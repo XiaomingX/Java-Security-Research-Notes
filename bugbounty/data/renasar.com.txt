@@ -1,0 +1,5 @@
+autorization.renasar.com
+api.renasar.com
+api-staging.renasar.com
+chef.renasar.com
+developer.renasar.com

@@ -1,0 +1,3 @@
+logs.srv.stadsgehoorzaalkampen.nl
+monitoring.srv.stadsgehoorzaalkampen.nl
+snapshots.srv.stadsgehoorzaalkampen.nl

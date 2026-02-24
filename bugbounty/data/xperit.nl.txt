@@ -1,0 +1,7 @@
+support.xperit.nl
+webmail.xperit.nl
+projecten.xperit.nl
+ftp.xperit.nl
+sip.xperit.nl
+sc.xperit.nl
+enterpriseenrollment.xperit.nl

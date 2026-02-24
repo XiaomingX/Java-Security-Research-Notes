@@ -1,0 +1,8 @@
+wiki.cf-control.cz
+demo.cf-control.cz
+licence.cf-control.cz
+backup.cf-control.cz
+demo2.cf-control.cz
+check.cf-control.cz
+backup2.cf-control.cz
+cf-control.cf-control.cz

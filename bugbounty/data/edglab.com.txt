@@ -1,0 +1,10 @@
+iot.edglab.com
+apidocs.edglab.com
+portalsb.edglab.com
+uw-esc.edglab.com
+api.edglab.com
+server1.edglab.com
+edglink.edglab.com
+portal.edglab.com
+cpcalendars.edglab.com
+cpcontacts.edglab.com

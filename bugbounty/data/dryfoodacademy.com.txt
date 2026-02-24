@@ -1,0 +1,7 @@
+autodiscover.dryfoodacademy.com
+cpanel.dryfoodacademy.com
+cpcalendars.dryfoodacademy.com
+cpcontacts.dryfoodacademy.com
+mail.dryfoodacademy.com
+webdisk.dryfoodacademy.com
+webmail.dryfoodacademy.com

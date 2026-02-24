@@ -1,0 +1,8 @@
+sip.fiberstaden.se
+owncloud.fiberstaden.se
+ns.fiberstaden.se
+enterpriseregistration.fiberstaden.se
+lyncdiscover.fiberstaden.se
+meet.fiberstaden.se
+autodiscover.fiberstaden.se
+registry.fiberstaden.se

@@ -1,0 +1,16 @@
+cmkt.blablacar.it
+edge.blablacar.it
+m.blablacar.it
+booking.blablacar.it
+booking-demo.blablacar.it
+blog.blablacar.it
+auth.blablacar.it
+api.blablacar.it
+mobile.blablacar.it
+preprod.www.blablacar.it
+wwww.blablacar.it
+mail.blablacar.it
+ipv6.blablacar.it
+vpn.blablacar.it
+intranet.blablacar.it
+news.blablacar.it

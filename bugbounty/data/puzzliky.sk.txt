@@ -1,0 +1,4 @@
+admin.puzzliky.sk
+qr.puzzliky.sk
+pokladna.puzzliky.sk
+postavicky.puzzliky.sk

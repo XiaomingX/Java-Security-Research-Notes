@@ -1,0 +1,8 @@
+bundles.kleverness.com
+devdash.kleverness.com
+home.kleverness.com
+hospitality.kleverness.com
+setup.kleverness.com
+hdashboard.kleverness.com
+hdev.kleverness.com
+store.kleverness.com

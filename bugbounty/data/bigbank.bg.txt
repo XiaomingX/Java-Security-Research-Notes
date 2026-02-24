@@ -1,0 +1,12 @@
+bg.bigbank.bg
+welcome.bigbank.bg
+static.bigbank.bg
+email.bigbank.bg
+banking.bigbank.bg
+maintenance.bigbank.bg
+static-jobs.bigbank.bg
+selfservice-staging.bigbank.bg
+selfservice-test.bigbank.bg
+application.bigbank.bg
+welcome-service-test.bigbank.bg
+web-loan-application-staging.bigbank.bg

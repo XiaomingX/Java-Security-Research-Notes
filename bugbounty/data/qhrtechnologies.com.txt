@@ -1,0 +1,4 @@
+autodiscover.qhrtechnologies.com
+chat.qhrtechnologies.com
+info.qhrtechnologies.com
+old.qhrtechnologies.com

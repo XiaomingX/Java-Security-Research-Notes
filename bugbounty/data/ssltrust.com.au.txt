@@ -1,0 +1,4 @@
+certmanager.ssltrust.com.au
+cdn.ssltrust.com.au
+api.ssltrust.com.au
+manager.ssltrust.com.au

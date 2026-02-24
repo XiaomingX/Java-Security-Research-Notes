@@ -1,0 +1,2 @@
+library.eprcug.org
+mail.eprcug.org

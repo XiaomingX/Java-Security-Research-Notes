@@ -1,0 +1,2 @@
+cdn-datasets.hf-mirror.com
+alpha.hf-mirror.com

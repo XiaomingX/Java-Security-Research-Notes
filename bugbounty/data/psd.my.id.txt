@@ -1,0 +1,13 @@
+absensi.psd.my.id
+budialmukhtari.psd.my.id
+callback.psd.my.id
+demo.psd.my.id
+demoweb.psd.my.id
+lite.psd.my.id
+mankeu.psd.my.id
+masterv1.psd.my.id
+pendaftaran.psd.my.id
+terpadu.psd.my.id
+user.psd.my.id
+ypiassalam.psd.my.id
+zuper.psd.my.id

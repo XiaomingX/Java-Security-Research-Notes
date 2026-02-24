@@ -1,0 +1,5 @@
+beta.global-liquidity.gs.com
+mfa.global-liquidity.gs.com
+origin-qa.global-liquidity.gs.com
+origin.global-liquidity.gs.com
+pilot.global-liquidity.gs.com

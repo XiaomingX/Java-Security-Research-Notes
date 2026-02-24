@@ -1,0 +1,10 @@
+cpanel.infodata.jp
+opady.infodata.jp
+wsparcie.infodata.jp
+blog.infodata.jp
+mail.infodata.jp
+mnmlista.infodata.jp
+smtp.infodata.jp
+ftp.infodata.jp
+ip.infodata.jp
+pop.infodata.jp

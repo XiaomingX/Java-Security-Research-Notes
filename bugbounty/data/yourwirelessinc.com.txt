@@ -1,0 +1,7 @@
+autodiscover.yourwirelessinc.com
+cpanel.yourwirelessinc.com
+cpcalendars.yourwirelessinc.com
+cpcontacts.yourwirelessinc.com
+mail.yourwirelessinc.com
+webdisk.yourwirelessinc.com
+webmail.yourwirelessinc.com

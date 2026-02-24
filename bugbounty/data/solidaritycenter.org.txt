@@ -1,0 +1,4 @@
+tc.solidaritycenter.org
+owa.solidaritycenter.org
+webmail.solidaritycenter.org
+autodiscover.solidaritycenter.org

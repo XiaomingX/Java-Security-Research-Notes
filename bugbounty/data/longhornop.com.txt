@@ -1,0 +1,7 @@
+asu.longhornop.com
+cpanel.longhornop.com
+cpcalendars.longhornop.com
+cpcontacts.longhornop.com
+ssl.longhornop.com
+webdisk.longhornop.com
+webmail.longhornop.com

@@ -1,0 +1,4 @@
+preview.headandshoulders.it
+origprod.headandshoulders.it
+origstage.headandshoulders.it
+staging.headandshoulders.it

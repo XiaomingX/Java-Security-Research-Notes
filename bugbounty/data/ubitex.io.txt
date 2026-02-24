@@ -1,0 +1,9 @@
+autoconfig.ubitex.io
+autodiscover.ubitex.io
+lindir.ubitex.io
+mail.ubitex.io
+test.ubitex.io
+en.ubitex.io
+lkj.ubitex.io
+ru.ubitex.io
+tt.ubitex.io

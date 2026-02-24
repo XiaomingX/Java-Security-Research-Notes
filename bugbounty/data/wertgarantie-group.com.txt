@@ -1,0 +1,5 @@
+srv-ith-04.vm-ext.wertgarantie-group.com
+ovpn-01.wertgarantie-group.com
+website-prod.wertgarantie-group.com
+mediathek.wertgarantie-group.com
+bilddatenbank.wertgarantie-group.com

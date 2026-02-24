@@ -1,0 +1,2 @@
+app.helpwise.io
+staging.app.helpwise.io

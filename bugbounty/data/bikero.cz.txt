@@ -1,0 +1,4 @@
+cdn.bikero.cz
+beta.bikero.cz
+blog.bikero.cz
+m.bikero.cz

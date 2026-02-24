@@ -1,0 +1,4 @@
+test.bryggebladet.dk
+webmail.bryggebladet.dk
+mta-sts.bryggebladet.dk
+mail.bryggebladet.dk

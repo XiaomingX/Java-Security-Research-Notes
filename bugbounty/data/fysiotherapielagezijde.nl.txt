@@ -1,0 +1,9 @@
+webdisk.fysiotherapielagezijde.nl
+webmail.fysiotherapielagezijde.nl
+cpcalendars.fysiotherapielagezijde.nl
+cpanel.fysiotherapielagezijde.nl
+cpcontacts.fysiotherapielagezijde.nl
+mail.fysiotherapielagezijde.nl
+ipv6.fysiotherapielagezijde.nl
+autodiscover.fysiotherapielagezijde.nl
+webdisk.iktdisk.fysiotherapielagezijde.nl

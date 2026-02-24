@@ -1,0 +1,4 @@
+ftp.royalcloud.eu
+pop.royalcloud.eu
+mail.royalcloud.eu
+smtp.royalcloud.eu

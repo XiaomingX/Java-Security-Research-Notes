@@ -1,0 +1,12 @@
+updates.pangolinsecured.com
+updates-storage.pangolinsecured.com
+echo2.pangolinsecured.com
+echo1.pangolinsecured.com
+flower.pangolinsecured.com
+overdrive.pangolinsecured.com
+pubsub.pangolinsecured.com
+prometheus.pangolinsecured.com
+api.pangolinsecured.com
+intranet.pangolinsecured.com
+grafana.pangolinsecured.com
+cloud.pangolinsecured.com

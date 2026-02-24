@@ -1,0 +1,4 @@
+blog.uptrends.fr
+api.uptrends.fr
+app.uptrends.fr
+smtp.uptrends.fr

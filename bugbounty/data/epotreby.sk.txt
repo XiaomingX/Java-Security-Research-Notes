@@ -1,0 +1,2 @@
+cdn.epotreby.sk
+uat.epotreby.sk

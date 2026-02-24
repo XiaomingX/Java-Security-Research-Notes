@@ -1,0 +1,10 @@
+autodiscover.spectacleshoppe.com
+cpanel.spectacleshoppe.com
+cpcalendars.spectacleshoppe.com
+cpcontacts.spectacleshoppe.com
+mail.mail.spectacleshoppe.com
+vpn.spectacleshoppe.com
+webdisk.spectacleshoppe.com
+webmail.spectacleshoppe.com
+website-e1d54a79.spectacleshoppe.com
+wiki.spectacleshoppe.com

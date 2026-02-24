@@ -1,0 +1,10 @@
+webdisk.begraafplaatsenonline.nl
+cpanel.begraafplaatsenonline.nl
+autodiscover.begraafplaatsenonline.nl
+ipv6.begraafplaatsenonline.nl
+cpcalendars.begraafplaatsenonline.nl
+cpcontacts.begraafplaatsenonline.nl
+webmail.begraafplaatsenonline.nl
+secure.begraafplaatsenonline.nl
+whm.begraafplaatsenonline.nl
+mail.begraafplaatsenonline.nl

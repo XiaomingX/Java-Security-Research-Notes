@@ -1,0 +1,2 @@
+store.minvalco.com
+mvc-ts.minvalco.com

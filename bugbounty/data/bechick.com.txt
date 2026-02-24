@@ -1,0 +1,2 @@
+en.bechick.com
+cdn.bechick.com

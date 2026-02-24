@@ -1,0 +1,2 @@
+st1.eventmanager-online.com
+integ.eventmanager-online.com

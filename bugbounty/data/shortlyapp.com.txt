@@ -1,0 +1,13 @@
+comment.shortlyapp.com
+job.shortlyapp.com
+cv.shortlyapp.com
+faq.shortlyapp.com
+lhc.shortlyapp.com
+shc.shortlyapp.com
+shcb.shortlyapp.com
+useragreement.shortlyapp.com
+lhcb.shortlyapp.com
+haircut.shortlyapp.com
+tk.atna.shortlyapp.com
+test.shortlyapp.com
+org.deafsapps.shortlyapp.com

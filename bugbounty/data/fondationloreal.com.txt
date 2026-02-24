@@ -1,0 +1,5 @@
+dev.fondationloreal.com
+qa.fondationloreal.com
+oatm.fondationloreal.com
+reporting.fondationloreal.com
+admin.fondationloreal.com

@@ -1,0 +1,15 @@
+analiza.wellnessalbania.al
+mail.wellnessalbania.al
+webmail.wellnessalbania.al
+autodiscover.wellnessalbania.al
+cpanel.wellnessalbania.al
+cpcalendars.wellnessalbania.al
+cpcontacts.wellnessalbania.al
+klinika.wellnessalbania.al
+mjekesiasportive.wellnessalbania.al
+mjekupunes.wellnessalbania.al
+occupationalhealth.wellnessalbania.al
+stage.wellnessalbania.al
+staging.wellnessalbania.al
+test.wellnessalbania.al
+webdisk.wellnessalbania.al

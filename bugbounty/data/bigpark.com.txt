@@ -1,0 +1,5 @@
+ops.bigpark.com
+beta.bigpark.com
+microsoftjobs.bigpark.com
+ns.bigpark.com
+whois.bigpark.com

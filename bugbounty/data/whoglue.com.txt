@@ -1,0 +1,7 @@
+ftp.whoglue.com
+docs.whoglue.com
+polypol.whoglue.com
+support.whoglue.com
+codefish.whoglue.com
+email1.whoglue.com
+mail.whoglue.com

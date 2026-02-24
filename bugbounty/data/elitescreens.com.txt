@@ -1,0 +1,10 @@
+autodiscover.elitescreens.com
+cpanel.elitescreens.com
+host.elitescreens.com
+m.elitescreens.com
+mail.elitescreens.com
+shop.elitescreens.com
+webdisk.elitescreens.com
+webmail.elitescreens.com
+cpcalendars.elitescreens.com
+cpcontacts.elitescreens.com

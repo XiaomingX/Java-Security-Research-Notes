@@ -1,0 +1,15 @@
+explore.memrise.com
+links.memrise.com
+events.memrise.com
+reminders.memrise.com
+promos.memrise.com
+mail.memrise.com
+engineering.memrise.com
+community.memrise.com
+evs.analytics.memrise.com
+api.analytics.memrise.com
+blog.memrise.com
+reporting.memrise.com
+api.memrise.com
+static.memrise.com
+staging.memrise.com

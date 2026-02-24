@@ -1,0 +1,2 @@
+ftp.rx3.org
+git.rx3.org

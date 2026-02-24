@@ -1,0 +1,8 @@
+nextcloud.marcelbw.de
+proxmox.marcelbw.de
+opnsense.marcelbw.de
+autoconfig.marcelbw.de
+backup.marcelbw.de
+mail.marcelbw.de
+autodiscover.marcelbw.de
+pve3.marcelbw.de

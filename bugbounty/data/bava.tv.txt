@@ -1,0 +1,8 @@
+owncast.bava.tv
+cast.bava.tv
+peertubular.bava.tv
+demo.bava.tv
+live.bava.tv
+stream.bava.tv
+cpcontacts.stream.bava.tv
+cpcalendars.stream.bava.tv

@@ -1,0 +1,3 @@
+app.rebelnews.com
+donations.rebelnews.com
+premium.rebelnews.com

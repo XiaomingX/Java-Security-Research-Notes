@@ -1,0 +1,7 @@
+staging.asec.io
+app.canary.asec.io
+odin.asec.io
+appbh01.breachub.asec.io
+shop.asec.io
+appbh01.staging.breachub.asec.io
+app.asec.io

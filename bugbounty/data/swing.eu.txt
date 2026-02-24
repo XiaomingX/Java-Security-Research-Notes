@@ -1,0 +1,12 @@
+helpdesk.swing.eu
+demo.swing.eu
+uk.demo.swing.eu
+demo5.swing.eu
+ukdemo.swing.eu
+beta.swing.eu
+matomo.swing.eu
+uk.swing.eu
+global.swing.eu
+ballroom.swing.eu
+support.swing.eu
+de.swing.eu

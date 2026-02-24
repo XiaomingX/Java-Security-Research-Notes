@@ -1,0 +1,5 @@
+webmail.x10sion.de
+hair.x10sion.de
+new.x10sion.de
+mail.x10sion.de
+autodiscover.x10sion.de

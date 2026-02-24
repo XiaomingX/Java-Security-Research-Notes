@@ -1,0 +1,6 @@
+autodiscover.jifpak.com
+forecast.jifpak.com
+secure.jifpak.com
+mail.jifpak.com
+office.jifpak.com
+webapp.jifpak.com

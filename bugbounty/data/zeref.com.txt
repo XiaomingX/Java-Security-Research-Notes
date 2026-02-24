@@ -1,0 +1,2 @@
+paiement.zeref.com
+cb.zeref.com

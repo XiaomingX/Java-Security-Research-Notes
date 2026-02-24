@@ -1,0 +1,3 @@
+sidebygger.domene.shop
+sitebuilder.domene.shop
+subdomain.domene.shop

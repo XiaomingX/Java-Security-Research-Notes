@@ -1,0 +1,8 @@
+try.binare.io
+blog.binare.io
+demo.dashboard.binare.io
+management.binare.io
+join.binare.io
+dashboard.binare.io
+api.binare.io
+admin.binare.io

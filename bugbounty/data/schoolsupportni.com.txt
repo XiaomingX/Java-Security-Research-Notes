@@ -1,0 +1,8 @@
+cpanel.schoolsupportni.com
+cpcalendars.schoolsupportni.com
+webdisk.schoolsupportni.com
+ftp.schoolsupportni.com
+webmail.schoolsupportni.com
+autodiscover.schoolsupportni.com
+cpcontacts.schoolsupportni.com
+mail.schoolsupportni.com

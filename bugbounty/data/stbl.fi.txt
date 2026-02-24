@@ -1,0 +1,3 @@
+live.stbl.fi
+cpcalendars.stbl.fi
+cpcontacts.stbl.fi

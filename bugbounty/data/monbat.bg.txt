@@ -1,0 +1,4 @@
+mx1.monbat.bg
+ftp.monbat.bg
+webmail.monbat.bg
+mail.monbat.bg

@@ -1,0 +1,7 @@
+cpcontacts.raczmultiszervizkft.hu
+webdisk.raczmultiszervizkft.hu
+autodiscover.raczmultiszervizkft.hu
+cpanel.raczmultiszervizkft.hu
+mail.raczmultiszervizkft.hu
+webmail.raczmultiszervizkft.hu
+cpcalendars.raczmultiszervizkft.hu

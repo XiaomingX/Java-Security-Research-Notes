@@ -1,0 +1,3 @@
+shop.twomindsnyc.com
+staging.twomindsnyc.com
+stagingshop.twomindsnyc.com

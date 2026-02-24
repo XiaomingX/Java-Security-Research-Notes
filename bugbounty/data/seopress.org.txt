@@ -1,0 +1,6 @@
+newsroom.seopress.org
+tracking.seopress.org
+demo.seopress.org
+backup.seopress.org
+test.seopress.org
+staging.seopress.org

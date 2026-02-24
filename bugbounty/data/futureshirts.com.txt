@@ -1,0 +1,8 @@
+app.futureshirts.com
+hera.futureshirts.com
+iris.futureshirts.com
+loki.futureshirts.com
+priority1.futureshirts.com
+qa.futureshirts.com
+wiki.futureshirts.com
+s1.futureshirts.com

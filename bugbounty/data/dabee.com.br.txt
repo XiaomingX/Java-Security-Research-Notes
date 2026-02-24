@@ -1,0 +1,2 @@
+seal_getseal_host_name_www.dabee.com.br
+static.dabee.com.br

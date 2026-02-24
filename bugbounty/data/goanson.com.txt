@@ -1,0 +1,2 @@
+mail.goanson.com
+cdn-0.goanson.com

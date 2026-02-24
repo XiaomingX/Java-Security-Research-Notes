@@ -1,0 +1,6 @@
+horizon-api.www.myprotein.lv
+sgtm.myprotein.lv
+m.myprotein.lv
+checkout.myprotein.lv
+altitude.www.myprotein.lv
+gslb.myprotein.lv

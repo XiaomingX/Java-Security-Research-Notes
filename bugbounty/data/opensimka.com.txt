@@ -1,0 +1,2 @@
+dev.opensimka.com
+data.opensimka.com

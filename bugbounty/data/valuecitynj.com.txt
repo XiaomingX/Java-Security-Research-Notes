@@ -1,0 +1,11 @@
+autodiscover.valuecitynj.com
+blog.valuecitynj.com
+campaign.valuecitynj.com
+circular.valuecitynj.com
+deals.valuecitynj.com
+dr.remote.valuecitynj.com
+mail.valuecitynj.com
+remote.valuecitynj.com
+sv.valuecitynj.com
+vcf-ex2013.valuecitynj.com
+webmail.valuecitynj.com

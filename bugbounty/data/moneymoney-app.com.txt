@@ -1,0 +1,2 @@
+service.moneymoney-app.com
+git.moneymoney-app.com

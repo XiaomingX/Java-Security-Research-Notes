@@ -1,0 +1,6 @@
+magazines.cybersecurityraad.nl
+opendata.cybersecurityraad.nl
+sip.cybersecurityraad.nl
+feeds.cybersecurityraad.nl
+mail.cybersecurityraad.nl
+lyncdiscoverinternal.cybersecurityraad.nl

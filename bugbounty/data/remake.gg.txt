@@ -1,0 +1,3 @@
+app.remake.gg
+update.remake.gg
+matchmaking.remake.gg

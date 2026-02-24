@@ -1,0 +1,4 @@
+vnc.vpsag.com
+speedtest.vpsag.com
+min0.vpsag.com
+lawd.vpsag.com

@@ -1,0 +1,15 @@
+crm.maxxys.de
+dcmdm-enroll.maxxys.de
+dcmdm.maxxys.de
+demo-ag.maxxys.de
+demo.maxxys.de
+ldcsa.maxxys.de
+micloud-sentry.maxxys.de
+micore-sentry.maxxys.de
+micore.maxxys.de
+pam.maxxys.de
+rdp.maxxys.de
+security.maxxys.de
+support.maxxys.de
+enterpriseenrollment.micore.maxxys.de
+epm01.maxxys.de

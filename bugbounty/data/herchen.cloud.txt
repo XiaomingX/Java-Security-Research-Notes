@@ -1,0 +1,4 @@
+mail.herchen.cloud
+hostmaster.herchen.cloud
+ns2.herchen.cloud
+ns1.herchen.cloud

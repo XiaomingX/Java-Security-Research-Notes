@@ -1,0 +1,9 @@
+licensing.jibbigo.com
+mail.jibbigo.com
+speechtranslator.jibbigo.com
+developer.jibbigo.com
+store.jibbigo.com
+transcribers.jibbigo.com
+storage.jibbigo.com
+overview.jibbigo.com
+translators.jibbigo.com

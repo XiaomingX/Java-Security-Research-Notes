@@ -1,0 +1,7 @@
+account.scottevest.com
+blog.scottevest.com
+dev.scottevest.com
+enews.scottevest.com
+legacy.scottevest.com
+uboqfi.scottevest.com
+vpn.scottevest.com

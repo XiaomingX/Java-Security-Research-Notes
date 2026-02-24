@@ -1,0 +1,2 @@
+invoices.shopify.jp
+exchange.shopify.jp

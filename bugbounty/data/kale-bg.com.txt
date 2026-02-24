@@ -1,0 +1,5 @@
+mail.kale-bg.com
+galaxy.kale-bg.com
+mail1.kale-bg.com
+webmail.kale-bg.com
+cpanel.kale-bg.com

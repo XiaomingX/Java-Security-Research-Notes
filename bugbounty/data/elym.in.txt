@@ -1,0 +1,2 @@
+dev.elym.in
+qa.elym.in

@@ -1,0 +1,10 @@
+eu.livescribe.com
+k12store.livescribe.com
+kr.livescribe.com
+refer.livescribe.com
+store.livescribe.com
+uk.livescribe.com
+us.livescribe.com
+www-stage.livescribe.com
+www-test.livescribe.com
+www-qa.livescribe.com

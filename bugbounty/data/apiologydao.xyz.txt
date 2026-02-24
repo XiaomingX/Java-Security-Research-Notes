@@ -1,0 +1,3 @@
+app.apiologydao.xyz
+docs.apiologydao.xyz
+transfer.apiologydao.xyz

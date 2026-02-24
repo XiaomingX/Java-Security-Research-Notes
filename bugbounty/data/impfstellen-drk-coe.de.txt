@@ -1,0 +1,2 @@
+autoconfig.impfstellen-drk-coe.de
+autodiscover.impfstellen-drk-coe.de

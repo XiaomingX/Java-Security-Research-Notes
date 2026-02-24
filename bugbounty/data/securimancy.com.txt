@@ -1,0 +1,5 @@
+qb.securimancy.com
+vw.securimancy.com
+uptime.securimancy.com
+unifi.securimancy.com
+hajimari.securimancy.com

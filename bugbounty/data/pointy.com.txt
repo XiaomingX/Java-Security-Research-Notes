@@ -1,0 +1,14 @@
+blog.pointy.com
+help.pointy.com
+newblog.pointy.com
+services-staging.pointy.com
+get.pointy.com
+go-staging.pointy.com
+jobs.pointy.com
+services.pointy.com
+hello.pointy.com
+hwm-ireland.pointy.com
+mahesh-test.pointy.com
+metabase.pointy.com
+go.pointy.com
+me.kodysimpson.pointy.com

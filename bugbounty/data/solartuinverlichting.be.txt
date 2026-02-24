@@ -1,0 +1,6 @@
+cpcontacts.solartuinverlichting.be
+cpanel.solartuinverlichting.be
+cpcalendars.solartuinverlichting.be
+webdisk.solartuinverlichting.be
+mail.solartuinverlichting.be
+webmail.solartuinverlichting.be

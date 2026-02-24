@@ -1,0 +1,3 @@
+exch.mijncoronaprotocol.nl
+pop.mijncoronaprotocol.nl
+smtp.mijncoronaprotocol.nl

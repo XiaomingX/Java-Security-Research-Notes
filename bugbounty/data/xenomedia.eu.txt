@@ -1,0 +1,2 @@
+mail.xenomedia.eu
+ftp.xenomedia.eu

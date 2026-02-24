@@ -1,0 +1,3 @@
+ad-test.clvb.nl
+srv.clvb.nl
+autodiscover.clvb.nl

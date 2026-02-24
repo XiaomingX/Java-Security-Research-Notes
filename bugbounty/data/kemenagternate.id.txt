@@ -1,0 +1,8 @@
+autodiscover.kemenagternate.id
+cpanel.kemenagternate.id
+cpcalendars.kemenagternate.id
+cpcontacts.kemenagternate.id
+mail.kemenagternate.id
+webdisk.kemenagternate.id
+webmail.kemenagternate.id
+ipv6.kemenagternate.id

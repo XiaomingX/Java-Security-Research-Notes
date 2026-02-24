@@ -1,0 +1,6 @@
+app.mlc.gov.pk
+careers.mlc.gov.pk
+dev.mlc.gov.pk
+education.mlc.gov.pk
+etender.mlc.gov.pk
+git.mlc.gov.pk

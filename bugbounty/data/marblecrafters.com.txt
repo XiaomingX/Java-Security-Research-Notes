@@ -1,0 +1,3 @@
+autodiscover.marblecrafters.com
+mailbox.marblecrafters.com
+marble-exchange.hosting.corp.marblecrafters.com

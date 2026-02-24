@@ -1,0 +1,2 @@
+sip.fagerhult.pl
+lyncdiscover.fagerhult.pl

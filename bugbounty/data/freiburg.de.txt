@@ -1,0 +1,17 @@
+flink-workshop.datenraum-dev.freiburg.de
+event.freiburg.de
+innenstadt.freiburg.de
+wifi4fr.freiburg.de
+frost.datenraum-dev.freiburg.de
+flink-zeus.datenraum-dev.freiburg.de
+flink-frelo.datenraum-dev.freiburg.de
+flink-roxy.datenraum-dev.freiburg.de
+greencity.freiburg.de
+nsdoku.freiburg.de
+frauundberuf.freiburg.de
+stadtwerke.freiburg.de
+wegberater.freiburg.de
+planetarium.freiburg.de
+susi.freiburg.de
+flink-parkhausdaten.datenraum-dev.freiburg.de
+flink-yoio.datenraum-dev.freiburg.de

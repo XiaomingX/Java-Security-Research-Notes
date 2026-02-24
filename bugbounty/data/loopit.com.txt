@@ -1,0 +1,10 @@
+app.loopit.com
+business.loopit.com
+c.loopit.com
+ww43.loopit.com
+o1.ptr3514.loopit.com
+lpt.loopit.com
+m.loopit.com
+uat.loopit.com
+autodiscover.loopit.com
+uatmobile.loopit.com

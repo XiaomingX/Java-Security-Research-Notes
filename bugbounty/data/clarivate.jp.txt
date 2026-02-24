@@ -1,0 +1,6 @@
+resources.clarivate.jp
+interest.clarivate.jp
+dev.clarivate.jp
+test.clarivate.jp
+motool.incites.clarivate.jp
+info.clarivate.jp

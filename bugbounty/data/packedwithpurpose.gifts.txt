@@ -1,0 +1,6 @@
+dev.packedwithpurpose.gifts
+giving.packedwithpurpose.gifts
+help.packedwithpurpose.gifts
+info.packedwithpurpose.gifts
+shop.packedwithpurpose.gifts
+try.packedwithpurpose.gifts

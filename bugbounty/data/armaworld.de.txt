@@ -1,0 +1,5 @@
+archiv.armaworld.de
+clanliste.armaworld.de
+dev.armaworld.de
+eventreplay.armaworld.de
+neu.armaworld.de

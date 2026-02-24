@@ -1,0 +1,2 @@
+los-usrptl.tgb.in
+netbanking.tgb.in

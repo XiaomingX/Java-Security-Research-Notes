@@ -1,0 +1,4 @@
+autodiscover.ecdcom.com
+ecdexch.ecdcom.com
+exch.ecdcom.com
+igate.ecdcom.com

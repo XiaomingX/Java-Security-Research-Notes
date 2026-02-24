@@ -1,0 +1,4 @@
+affiliate.thehairshop.com
+cloudflare-resolve-to.thehairshop.com
+creators.thehairshop.com
+nav.thehairshop.com

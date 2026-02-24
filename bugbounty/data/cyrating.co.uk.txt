@@ -1,0 +1,2 @@
+blog.cyrating.co.uk
+mta-sts.cyrating.co.uk

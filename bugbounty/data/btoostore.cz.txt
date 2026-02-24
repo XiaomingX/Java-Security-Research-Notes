@@ -1,0 +1,8 @@
+img.btoostore.cz
+test.btoostore.cz
+secure.btoostore.cz
+admin.btoostore.cz
+imgext.btoostore.cz
+preprod.btoostore.cz
+preprod-admin.btoostore.cz
+test-admin.btoostore.cz

@@ -1,0 +1,8 @@
+link.pelagos.fo
+webdisk.pelagos.fo
+vpn.pelagos.fo
+hq.pelagos.fo
+cpanel.pelagos.fo
+nav.pelagos.fo
+portal.pelagos.fo
+srv-sql1.pelagos.fo

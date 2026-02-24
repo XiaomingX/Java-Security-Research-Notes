@@ -1,0 +1,2 @@
+srv.cloudvoor.eu
+dns02.cloudvoor.eu

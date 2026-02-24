@@ -1,0 +1,12 @@
+admin.raj-plysaku.cz
+staging.raj-plysaku.cz
+dev.raj-plysaku.cz
+poc-cicd.raj-plysaku.cz
+newsletter.raj-plysaku.cz
+notexistsmnewsletter.raj-plysaku.cz
+mail.raj-plysaku.cz
+notexistsnewsletter.raj-plysaku.cz
+checkout.raj-plysaku.cz
+notexistscheckout.raj-plysaku.cz
+mnewsletter.raj-plysaku.cz
+www.raj-plysaku.cz

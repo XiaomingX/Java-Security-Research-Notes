@@ -1,0 +1,2 @@
+secure.geo.com.pl
+ssl.geo.com.pl

@@ -1,0 +1,10 @@
+images.tunigo.com
+se.origin.tunigo.com
+se.test.tunigo.com
+se.tunigo.com
+publish.tunigo.com
+shopping.tunigo.com
+api.tunigo.com
+us.tunigo.com
+cdn.tunigo.com
+static.tunigo.com

@@ -1,0 +1,14 @@
+autodiscover.smpn10tanjungpinang.sch.id
+cpanel.smpn10tanjungpinang.sch.id
+cpcalendars.smpn10tanjungpinang.sch.id
+cpcontacts.smpn10tanjungpinang.sch.id
+elearning.smpn10tanjungpinang.sch.id
+kelulusan.smpn10tanjungpinang.sch.id
+mail.smpn10tanjungpinang.sch.id
+perpustakaan.smpn10tanjungpinang.sch.id
+webdisk.smpn10tanjungpinang.sch.id
+webmail.smpn10tanjungpinang.sch.id
+contoh.smpn10tanjungpinang.sch.id
+infokelulusan.smpn10tanjungpinang.sch.id
+ppdb.smpn10tanjungpinang.sch.id
+smpkatoliktanjungpinang.smpn10tanjungpinang.sch.id

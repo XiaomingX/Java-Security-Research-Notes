@@ -1,0 +1,3 @@
+intranett.hsr.as
+lyncdiscover.hsr.as
+sip.hsr.as

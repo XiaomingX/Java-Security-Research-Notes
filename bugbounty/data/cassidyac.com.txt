@@ -1,0 +1,4 @@
+autodiscover.cassidyac.com
+mail.cassidyac.com
+remote.cassidyac.com
+webmail.cassidyac.com

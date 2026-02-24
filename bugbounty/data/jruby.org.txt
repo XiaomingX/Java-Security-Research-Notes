@@ -1,0 +1,9 @@
+blog.jruby.org
+logs.jruby.org
+wiki.jruby.org
+bugs.jruby.org
+ci.jruby.org
+cms.jruby.org
+org.jruby.org
+chat.jruby.org
+mavengems.jruby.org

@@ -1,0 +1,5 @@
+smtp.bakkafrost.com
+job.bakkafrost.com
+old.bakkafrost.com
+gw.bakkafrost.com
+mail.bakkafrost.com

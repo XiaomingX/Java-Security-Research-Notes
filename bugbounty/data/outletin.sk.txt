@@ -1,0 +1,2 @@
+eliadmin.outletin.sk
+api.outletin.sk

@@ -1,0 +1,7 @@
+webmail.merkaandewinkel.nl
+cpcontacts.merkaandewinkel.nl
+cpcalendars.merkaandewinkel.nl
+autodiscover.merkaandewinkel.nl
+mail.merkaandewinkel.nl
+webdisk.merkaandewinkel.nl
+cpanel.merkaandewinkel.nl

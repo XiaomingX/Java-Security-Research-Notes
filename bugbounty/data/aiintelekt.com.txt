@@ -1,0 +1,4 @@
+helpcenter.aiintelekt.com
+icrm.aiintelekt.com
+trk.e.aiintelekt.com
+fioapi.aiintelekt.com

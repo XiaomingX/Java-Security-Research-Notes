@@ -1,0 +1,5 @@
+mirror.dameware.com
+support.dameware.com
+admin.dameware.com
+documentation.dameware.com
+forums.dameware.com

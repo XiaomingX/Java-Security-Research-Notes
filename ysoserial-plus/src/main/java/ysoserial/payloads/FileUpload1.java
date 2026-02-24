@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ReleaseableObjectPayload;import ysoserial.core.ObjectPayload;
 
 import java.io.File;
 import java.io.IOException;

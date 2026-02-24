@@ -1,0 +1,4 @@
+img.zofi.cz
+admin.zofi.cz
+infoprodukty.zofi.cz
+eshop.zofi.cz

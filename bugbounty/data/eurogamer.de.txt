@@ -1,0 +1,4 @@
+community.eurogamer.de
+eurogamer-de.eurogamer.de
+cmpsp.eurogamer.de
+preview.eurogamer.de

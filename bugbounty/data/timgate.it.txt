@@ -1,0 +1,10 @@
+amp.timgate.it
+author-stage.timgate.it
+author-stage-nvl.timgate.it
+timgate-stage.timgate.it
+codicesconto.timgate.it
+plc.timgate.it
+author.timgate.it
+timgate-stage-nvl.timgate.it
+pcl.timgate.it
+plc-stage.timgate.it

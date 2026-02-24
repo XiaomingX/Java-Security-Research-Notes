@@ -1,0 +1,12 @@
+absen.ptspkemenagmaluku.id
+cpanel.ptspkemenagmaluku.id
+cpcalendars.ptspkemenagmaluku.id
+cpcontacts.ptspkemenagmaluku.id
+mail.ptspkemenagmaluku.id
+silancar.ptspkemenagmaluku.id
+webdisk.ptspkemenagmaluku.id
+webmail.ptspkemenagmaluku.id
+agenda.ptspkemenagmaluku.id
+perencanaan.ptspkemenagmaluku.id
+surat.ptspkemenagmaluku.id
+suratambon.ptspkemenagmaluku.id

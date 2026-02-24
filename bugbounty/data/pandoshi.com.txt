@@ -1,0 +1,9 @@
+changelog.pandoshi.com
+docs.pandoshi.com
+explorer.pandoshi.com
+faucet.pandoshi.com
+swap.pandoshi.com
+test.pandoshi.com
+testnet-bridge.pandoshi.com
+testnet-rpc.pandoshi.com
+wallet.pandoshi.com

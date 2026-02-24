@@ -1,0 +1,16 @@
+dev.hotpotato.com
+cache.media.hotpotato.com
+me.bubbles.hotpotato.com
+blog.hotpotato.com
+cpanel.hotpotato.com
+me.avery246813579.hotpotato.com
+sxsw.hotpotato.com
+api.hotpotato.com
+de.rechergg.hotpotato.com
+autodiscover.hotpotato.com
+mail.hotpotato.com
+cn.lanink.hotpotato.com
+webdisk.hotpotato.com
+webmail.hotpotato.com
+scandinavian.hotpotato.com
+dev.tacker.hotpotato.com

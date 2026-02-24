@@ -1,0 +1,11 @@
+pay.paychess.com
+blog.paychess.com
+git.paychess.com
+mail.paychess.com
+ftp.paychess.com
+css.paychess.com
+b.mx.paychess.com
+a.ns.paychess.com
+c.ns.paychess.com
+b.ns.paychess.com
+a.mx.paychess.com

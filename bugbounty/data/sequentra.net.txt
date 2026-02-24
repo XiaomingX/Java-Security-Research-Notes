@@ -1,0 +1,2 @@
+cloud.sequentra.net
+us.sequentra.net

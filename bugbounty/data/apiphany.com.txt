@@ -1,0 +1,17 @@
+developer.flightlookup.apiphany.com
+kaplan.apiphany.com
+popvox.apiphany.com
+transitiq.apiphany.com
+weatherplanner.apiphany.com
+developer.wapo.apiphany.com
+api.nfldata.apiphany.com
+simpletix.apiphany.com
+api.weatherplanner.apiphany.com
+email.apiphany.com
+login.apiphany.com
+api.randomhouse.apiphany.com
+developer.ridemetro.apiphany.com
+flightlookup.apiphany.com
+ftp.apiphany.com
+developer.nfldata.apiphany.com
+kabbage.apiphany.com

@@ -1,0 +1,8 @@
+smtp.pharmapartners.nl
+mijn-test.pharmapartners.nl
+werkenbij.pharmapartners.nl
+portaal.pharmapartners.nl
+securelogin.pharmapartners.nl
+mail.pharmapartners.nl
+mijn.pharmapartners.nl
+werkplek.pharmapartners.nl

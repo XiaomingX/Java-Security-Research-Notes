@@ -1,0 +1,7 @@
+api.vaarweginformatie.nl
+tis.vaarweginformatie.nl
+acceptatie.vaarweginformatie.nl
+api.acceptatie.vaarweginformatie.nl
+vaarmelder.vaarweginformatie.nl
+mail.vaarweginformatie.nl
+ftp.vaarweginformatie.nl

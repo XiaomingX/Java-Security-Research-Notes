@@ -1,0 +1,5 @@
+80s.heardle.app
+api-staging.heardle.app
+api.heardle.app
+shop.heardle.app
+staging.heardle.app

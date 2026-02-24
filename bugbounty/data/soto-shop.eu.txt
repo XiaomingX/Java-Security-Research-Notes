@@ -1,0 +1,4 @@
+de.soto-shop.eu
+en.soto-shop.eu
+eu.soto-shop.eu
+sk.soto-shop.eu

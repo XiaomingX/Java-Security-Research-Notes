@@ -1,0 +1,4 @@
+beta.att.tv
+pre-www.att.tv
+tchosted.att.tv
+test.att.tv

@@ -1,0 +1,6 @@
+www2.merinova.fi
+vpn.merinova.fi
+remote.merinova.fi
+xeon.merinova.fi
+crm.merinova.fi
+merinovaservice.merinova.fi

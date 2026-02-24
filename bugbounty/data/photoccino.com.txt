@@ -1,0 +1,16 @@
+magic.photoccino.com
+api.photoccino.com
+thumb.photoccino.com
+sfly.photoccino.com
+atlantis.photoccino.com
+apl.photoccino.com
+cloudfront.photoccino.com
+products.photoccino.com
+sip.photoccino.com
+container.photoccino.com
+test.photoccino.com
+smarts.photoccino.com
+proxy.photoccino.com
+static.photoccino.com
+magicapi.photoccino.com
+magic-api.photoccino.com

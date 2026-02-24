@@ -1,0 +1,6 @@
+blog.generationtux.com
+components.generationtux.com
+go.generationtux.com
+status.generationtux.com
+try.generationtux.com
+universe.generationtux.com

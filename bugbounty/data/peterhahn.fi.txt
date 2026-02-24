@@ -1,0 +1,5 @@
+service.peterhahn.fi
+newsletter.peterhahn.fi
+news.peterhahn.fi
+media.peterhahn.fi
+prod.peterhahn.fi

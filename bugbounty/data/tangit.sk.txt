@@ -1,0 +1,2 @@
+mail.tangit.sk
+webmail.tangit.sk

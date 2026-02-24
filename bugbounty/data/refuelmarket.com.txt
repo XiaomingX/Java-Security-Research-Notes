@@ -1,0 +1,6 @@
+sslvpn.refuelmarket.com
+vpn.refuelmarket.com
+rf-ms-ad.refuelmarket.com
+rf-sc-ad.refuelmarket.com
+rf-ms-ad-new.refuelmarket.com
+rf-sc-ad-new.refuelmarket.com

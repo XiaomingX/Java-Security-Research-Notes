@@ -1,0 +1,11 @@
+erminka.riskcue.id
+wbs.riskcue.id
+assetsgn.riskcue.id
+autodiscover.riskcue.id
+cpanel.riskcue.id
+gcg.riskcue.id
+webmail.riskcue.id
+cpcalendars.riskcue.id
+mail.riskcue.id
+cpcontacts.riskcue.id
+webdisk.riskcue.id

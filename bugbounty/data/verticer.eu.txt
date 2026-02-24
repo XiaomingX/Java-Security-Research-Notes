@@ -1,0 +1,6 @@
+accept.verticer.eu
+email.verticer.eu
+smtp.accept.verticer.eu
+ftp.accept.verticer.eu
+mail.accept.verticer.eu
+pop.accept.verticer.eu

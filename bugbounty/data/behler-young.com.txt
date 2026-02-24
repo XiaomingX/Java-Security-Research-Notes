@@ -1,0 +1,12 @@
+acprod.behler-young.com
+acstage.behler-young.com
+autodiscover.behler-young.com
+beta.behler-young.com
+byremote.behler-young.com
+mail.behler-young.com
+portal.behler-young.com
+prophet21-ps.behler-young.com
+byapps.behler-young.com
+exchange01.behler-young.com
+exchange02.behler-young.com
+webapps.behler-young.com

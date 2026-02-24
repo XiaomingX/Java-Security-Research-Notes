@@ -1,0 +1,11 @@
+rc-enc01.roundcorner.com
+support.roundcorner.com
+rcteam.roundcorner.com
+foundationconnect.roundcorner.com
+jenkins.roundcorner.com
+cpanel.roundcorner.com
+artifactory.roundcorner.com
+internal.roundcorner.com
+mail.roundcorner.com
+www2.roundcorner.com
+vpn.roundcorner.com

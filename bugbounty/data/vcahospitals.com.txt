@@ -1,0 +1,15 @@
+autodiscover.vcahospitals.com
+emergency.vcahospitals.com
+local.vcahospitals.com
+m.vcahospitals.com
+marketing.vcahospitals.com
+newcats.vcahospitals.com
+newdogs.vcahospitals.com
+pets.vcahospitals.com
+prd101-cd.vcahospitals.com
+preview.vcahospitals.com
+qa.vcahospitals.com
+uat.vcahospitals.com
+uat101-cd.vcahospitals.com
+vets.vcahospitals.com
+dex.vcahospitals.com

@@ -1,0 +1,16 @@
+blog.dogdrop.co
+cms.dogdrop.co
+join.dogdrop.co
+marketing.dogdrop.co
+member.dogdrop.co
+shop.dogdrop.co
+v1.dogdrop.co
+v3-api.dogdrop.co
+db-sql.dogdrop.co
+diginixtest.dogdrop.co
+franchise.dogdrop.co
+freeday.dogdrop.co
+freeday.dogdrop.co.dogdrop.co
+member-test.dogdrop.co
+v2.dogdrop.co
+v3.dogdrop.co

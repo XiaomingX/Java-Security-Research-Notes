@@ -1,0 +1,8 @@
+reseller.apcom.eu
+store1.apcom.eu
+iphoto.apcom.eu
+stg.apcom.eu
+dev.apcom.eu
+shop.apcom.eu
+dealer.apcom.eu
+lokalizace.apcom.eu

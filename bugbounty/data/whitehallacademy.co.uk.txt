@@ -1,0 +1,2 @@
+mail.whitehallacademy.co.uk
+mta-sts.mail.whitehallacademy.co.uk

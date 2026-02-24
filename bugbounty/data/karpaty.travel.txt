@@ -1,0 +1,3 @@
+static.karpaty.travel
+test2.karpaty.travel
+test.karpaty.travel

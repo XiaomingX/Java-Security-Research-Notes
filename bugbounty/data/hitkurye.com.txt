@@ -1,0 +1,11 @@
+api.hitkurye.com
+app.hitkurye.com
+autodiscover.hitkurye.com
+cpanel.hitkurye.com
+mail.hitkurye.com
+server.hitkurye.com
+webdisk.hitkurye.com
+webmail.hitkurye.com
+blog.hitkurye.com
+cpcalendars.hitkurye.com
+cpcontacts.hitkurye.com

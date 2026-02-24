@@ -1,0 +1,7 @@
+data.fotobatohy.cz
+mail.fotobatohy.cz
+media.fotobatohy.cz
+analytika.fotobatohy.cz
+dotazy.fotobatohy.cz
+magazin.fotobatohy.cz
+status.fotobatohy.cz

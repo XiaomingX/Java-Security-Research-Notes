@@ -1,0 +1,4 @@
+exams.ee.oulu.fi
+w.ee.oulu.fi
+ww.ee.oulu.fi
+autodiscover.ee.oulu.fi

@@ -1,0 +1,8 @@
+isams.stjulians.com
+community.stjulians.com
+servicedesk.stjulians.com
+cpcalendars.stjulians.com
+cpcontacts.stjulians.com
+summerschool.stjulians.com
+alumni.stjulians.com
+elearning.stjulians.com

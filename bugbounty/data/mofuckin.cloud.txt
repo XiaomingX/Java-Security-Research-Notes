@@ -1,0 +1,8 @@
+docs.mofuckin.cloud
+auth.mofuckin.cloud
+autodiscover.mofuckin.cloud
+a.mofuckin.cloud
+p.mofuckin.cloud
+send.mofuckin.cloud
+notes-srv.mofuckin.cloud
+notes.mofuckin.cloud

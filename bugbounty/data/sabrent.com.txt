@@ -1,0 +1,8 @@
+b2b.sabrent.com
+cdn.sabrent.com
+downloads.sabrent.com
+family.sabrent.com
+landing.sabrent.com
+support.sabrent.com
+fcdn.sabrent.com
+matrix.sabrent.com

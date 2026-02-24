@@ -1,0 +1,10 @@
+whm.modernbow.com
+mail.modernbow.com
+_dc-mx.c280693ee8f8.modernbow.com
+ftp.modernbow.com
+shop.modernbow.com
+cpanel.modernbow.com
+webmail.modernbow.com
+autodiscover.modernbow.com
+webdisk.modernbow.com
+dc-89aaf333dd74.modernbow.com

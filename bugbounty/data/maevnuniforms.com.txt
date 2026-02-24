@@ -1,0 +1,10 @@
+api.maevnuniforms.com
+b2b.maevnuniforms.com
+b2bapi.maevnuniforms.com
+b2bprod.maevnuniforms.com
+ftps.maevnuniforms.com
+intra.maevnuniforms.com
+ticket.maevnuniforms.com
+uniformsolution.maevnuniforms.com
+dev.maevnuniforms.com
+ftp.maevnuniforms.com

@@ -1,0 +1,5 @@
+adminapio.bghuyu.com
+adminasdfsd.bghuyu.com
+api.bghuyu.com
+file.bghuyu.com
+reg.bghuyu.com

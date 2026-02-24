@@ -1,0 +1,3 @@
+venus.sendrot.com
+play.sendrot.com
+smtp.sendrot.com

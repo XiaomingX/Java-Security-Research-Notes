@@ -1,0 +1,12 @@
+stage-internet.zeissvisioncenter.com
+portal-test.zeissvisioncenter.com
+datapipeline.zeissvisioncenter.com
+jobs.zeissvisioncenter.com
+preprod-internet.zeissvisioncenter.com
+development-internet.zeissvisioncenter.com
+test3-internet.zeissvisioncenter.com
+test2-internet.zeissvisioncenter.com
+test1-internet.zeissvisioncenter.com
+portal.zeissvisioncenter.com
+cpcontacts.zeissvisioncenter.com
+cpcalendars.zeissvisioncenter.com

@@ -1,0 +1,8 @@
+docker.karwatzke.de
+mysql.karwatzke.de
+emby.karwatzke.de
+traefik.karwatzke.de
+omv.karwatzke.de
+pass.karwatzke.de
+dms.karwatzke.de
+hostmaster.karwatzke.de

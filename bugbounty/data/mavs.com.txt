@@ -1,0 +1,5 @@
+go.mavs.com
+iframe.mavs.com
+on.mavs.com
+showcase.mavs.com
+rewards.mavs.com

@@ -1,0 +1,5 @@
+connect.edtechplatform.net
+exam.edtechplatform.net
+cpanel.edtechplatform.net
+mail.edtechplatform.net
+webdisk.edtechplatform.net

@@ -1,0 +1,8 @@
+info.kennicott.com
+pre-production.kennicott.com
+prod.kennicott.com
+shop.kennicott.com
+sso.kennicott.com
+stg-pre-production.kennicott.com
+stg.kennicott.com
+support.kennicott.com

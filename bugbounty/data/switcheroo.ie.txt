@@ -1,0 +1,15 @@
+app.switcheroo.ie
+backend.switcheroo.ie
+calculator.switcheroo.ie
+crm.switcheroo.ie
+crmapi.switcheroo.ie
+dev.switcheroo.ie
+livecrm.switcheroo.ie
+myhome.switcheroo.ie
+myportal.switcheroo.ie
+portal.switcheroo.ie
+preference.switcheroo.ie
+api.switcheroo.ie
+developmentapi.switcheroo.ie
+myaccount.switcheroo.ie
+registration.switcheroo.ie

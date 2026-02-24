@@ -1,0 +1,3 @@
+demo.eraysistemyazilim.com
+eticaret.eraysistemyazilim.com
+test.eraysistemyazilim.com

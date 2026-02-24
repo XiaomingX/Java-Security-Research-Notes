@@ -1,0 +1,3 @@
+autoconfig.familyfriendly.ch
+api.familyfriendly.ch
+autodiscover.familyfriendly.ch

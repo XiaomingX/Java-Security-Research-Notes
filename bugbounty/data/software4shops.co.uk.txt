@@ -1,0 +1,2 @@
+mail.software4shops.co.uk
+ipv6.software4shops.co.uk

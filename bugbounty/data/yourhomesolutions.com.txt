@@ -1,0 +1,9 @@
+checkout.yourhomesolutions.com
+dev-payments.yourhomesolutions.com
+getstarted.yourhomesolutions.com
+hvac.yourhomesolutions.com
+payments.yourhomesolutions.com
+phs-qa.yourhomesolutions.com
+api.yourhomesolutions.com
+payment.yourhomesolutions.com
+qa.yourhomesolutions.com

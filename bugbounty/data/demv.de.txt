@@ -1,0 +1,9 @@
+dev.demv.de
+crm.demv.de
+makler.demv.de
+stage.demv.de
+design.demv.de
+gdvview.demv.de
+relaunch.demv.de
+test.demv.de
+_autodiscover._tcp.demv.de

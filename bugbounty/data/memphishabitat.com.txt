@@ -1,0 +1,5 @@
+forms.memphishabitat.com
+help.memphishabitat.com
+webmail.memphishabitat.com
+auction.memphishabitat.com
+give.memphishabitat.com

@@ -1,0 +1,14 @@
+autodiscover.gosigna.com
+cpanel.gosigna.com
+cpcalendars.gosigna.com
+cpcontacts.gosigna.com
+dev.gosigna.com
+mail.gosigna.com
+test.gosigna.com
+webdisk.gosigna.com
+webmail.gosigna.com
+hybrid.gosigna.com
+legacy.gosigna.com
+owa.gosigna.com
+remote.gosigna.com
+remotetech.gosigna.com

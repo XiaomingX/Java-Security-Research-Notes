@@ -1,0 +1,11 @@
+autodiscover.smktbtawangsari.sch.id
+bkk.smktbtawangsari.sch.id
+cpanel.smktbtawangsari.sch.id
+cpcalendars.smktbtawangsari.sch.id
+cpcontacts.smktbtawangsari.sch.id
+erapor.smktbtawangsari.sch.id
+lulus.smktbtawangsari.sch.id
+mail.smktbtawangsari.sch.id
+ppdb.smktbtawangsari.sch.id
+webdisk.smktbtawangsari.sch.id
+webmail.smktbtawangsari.sch.id

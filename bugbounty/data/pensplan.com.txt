@@ -1,0 +1,6 @@
+crm.pensplan.com
+gare.pensplan.com
+segnalazioni.pensplan.com
+sslvpn.pensplan.com
+trasparenza.pensplan.com
+academy.pensplan.com

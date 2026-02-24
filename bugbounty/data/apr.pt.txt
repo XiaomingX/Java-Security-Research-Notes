@@ -1,0 +1,4 @@
+hd.apr.pt
+marketing.apr.pt
+helpdesk.apr.pt
+portal.apr.pt

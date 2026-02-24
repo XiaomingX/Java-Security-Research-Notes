@@ -1,0 +1,16 @@
+miketuggle.agentiq.com
+c21joecrain.agentiq.com
+sample7.agentiq.com
+jp.agentiq.com
+capitalplace.agentiq.com
+access.agentiq.com
+product.agentiq.com
+demo-test.agentiq.com
+c.agentiq.com
+releasenotes.agentiq.com
+portal.agentiq.com
+learn.agentiq.com
+auth-okta-qae.agentiq.com
+rory.agentiq.com
+ericsvendsen.agentiq.com
+intranet.agentiq.com

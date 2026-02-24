@@ -1,0 +1,3 @@
+mail.dpstatus.com
+ns1.dpstatus.com
+ns2.dpstatus.com

@@ -1,0 +1,4 @@
+mail.mapa-turystyczna.pl
+server.mapa-turystyczna.pl
+cdn.mapa-turystyczna.pl
+blog.mapa-turystyczna.pl

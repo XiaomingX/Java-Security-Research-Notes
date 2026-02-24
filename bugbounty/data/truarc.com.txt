@@ -1,0 +1,3 @@
+mail.truarc.com
+ns1.truarc.com
+ns2.truarc.com

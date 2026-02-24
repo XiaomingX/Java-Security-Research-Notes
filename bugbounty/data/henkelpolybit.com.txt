@@ -1,0 +1,4 @@
+ar.henkelpolybit.com
+mta-4.mail.henkelpolybit.com
+mail.henkelpolybit.com
+multimedia.mail.henkelpolybit.com

@@ -1,0 +1,8 @@
+apacmail.dealreporter.com
+events.dealreporter.com
+try.dealreporter.com
+info.dealreporter.com
+aslive-info.dealreporter.com
+usamail.dealreporter.com
+auth.www.dealreporter.com
+notifications.dealreporter.com

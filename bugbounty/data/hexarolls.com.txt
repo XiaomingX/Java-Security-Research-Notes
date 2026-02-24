@@ -1,0 +1,4 @@
+subscription.hexarolls.com
+api.v2.hexarolls.com
+api.hexarolls.com
+mail.hexarolls.com

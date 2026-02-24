@@ -1,0 +1,12 @@
+biblioteca.aerdl.eu
+cpanel.aerdl.eu
+cpcalendars.aerdl.eu
+cpcontacts.aerdl.eu
+elearn.aerdl.eu
+inovar.aerdl.eu
+mail.aerdl.eu
+nsite.aerdl.eu
+webdisk.aerdl.eu
+webmail.aerdl.eu
+whm.aerdl.eu
+alunos.aerdl.eu

@@ -1,0 +1,6 @@
+webmail.dangancloud.ml
+cpanel.dangancloud.ml
+cpcalendars.dangancloud.ml
+cpcontacts.dangancloud.ml
+mail.dangancloud.ml
+webdisk.dangancloud.ml

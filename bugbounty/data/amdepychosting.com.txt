@@ -1,0 +1,6 @@
+cpanel.amdepychosting.com
+mail.amdepychosting.com
+cpcalendars.amdepychosting.com
+cpcontacts.amdepychosting.com
+webmail.amdepychosting.com
+webdisk.amdepychosting.com

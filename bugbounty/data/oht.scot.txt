@@ -1,0 +1,6 @@
+cpcalendars.oht.scot
+cpcontacts.oht.scot
+cpanel.oht.scot
+mail.oht.scot
+webdisk.oht.scot
+webmail.oht.scot

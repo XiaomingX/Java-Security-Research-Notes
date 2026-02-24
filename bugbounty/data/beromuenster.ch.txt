@@ -1,0 +1,5 @@
+mail.beromuenster.ch
+mitel.beromuenster.ch
+abacus.beromuenster.ch
+satelit.beromuenster.ch
+planauflage.beromuenster.ch

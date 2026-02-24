@@ -1,0 +1,3 @@
+secure.dominicusnet.nl
+webmail.dominicusnet.nl
+mail.dominicusnet.nl

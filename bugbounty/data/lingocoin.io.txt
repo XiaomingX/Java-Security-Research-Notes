@@ -1,0 +1,5 @@
+app.lingocoin.io
+waitlist.lingocoin.io
+waitlistadmin.lingocoin.io
+waitlistapi.lingocoin.io
+pass.lingocoin.io

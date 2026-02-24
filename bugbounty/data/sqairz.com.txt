@@ -1,0 +1,8 @@
+rightfit.sqairz.com
+zbphp.sqairz.com
+contest.sqairz.com
+dev.sqairz.com
+em.sqairz.com
+sm.sqairz.com
+staging16.sqairz.com
+staging3.sqairz.com

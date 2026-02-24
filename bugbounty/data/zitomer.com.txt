@@ -1,0 +1,8 @@
+myaccount.zitomer.com
+refills.zitomer.com
+dev.zitomer.com
+new.zitomer.com
+old.zitomer.com
+source.zitomer.com
+staging.zitomer.com
+upgrade.zitomer.com

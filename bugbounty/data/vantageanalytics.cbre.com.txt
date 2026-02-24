@@ -1,0 +1,2 @@
+training.vantageanalytics.cbre.com
+qa.vantageanalytics.cbre.com

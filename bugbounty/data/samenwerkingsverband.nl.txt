@@ -1,0 +1,7 @@
+telefonie.samenwerkingsverband.nl
+router.samenwerkingsverband.nl
+webmail.samenwerkingsverband.nl
+remote.samenwerkingsverband.nl
+autodiscover.samenwerkingsverband.nl
+exchange.samenwerkingsverband.nl
+mail.samenwerkingsverband.nl

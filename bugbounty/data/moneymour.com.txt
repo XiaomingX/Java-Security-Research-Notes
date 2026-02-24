@@ -1,0 +1,13 @@
+apistage.moneymour.com
+demostore.moneymour.com
+ml.moneymour.com
+csaas.moneymour.com
+merchant.moneymour.com
+cdn.moneymour.com
+stage.moneymour.com
+api.sandbox.moneymour.com
+api.stage.moneymour.com
+api.csaas.moneymour.com
+merchant.sandbox.moneymour.com
+api.moneymour.com
+sandbox.moneymour.com

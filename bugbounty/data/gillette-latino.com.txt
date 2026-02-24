@@ -1,0 +1,3 @@
+www-test.gillette-latino.com
+test.gillette-latino.com
+stage.gillette-latino.com

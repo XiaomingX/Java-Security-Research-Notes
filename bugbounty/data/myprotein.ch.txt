@@ -1,0 +1,9 @@
+horizon-api.www.myprotein.ch
+checkout.myprotein.ch
+m.myprotein.ch
+altitude.www.myprotein.ch
+sgtm.myprotein.ch
+gslb.myprotein.ch
+test.myprotein.ch
+origin-www.myprotein.ch
+uat.www.myprotein.ch

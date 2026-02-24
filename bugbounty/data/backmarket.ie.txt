@@ -1,0 +1,15 @@
+oauth2-prod-eu.backmarket.ie
+preprod.backmarket.ie
+analytics.backmarket.ie
+story.backmarket.ie
+accounts.backmarket.ie
+oauth2-prod.backmarket.ie
+oauth2-preprod-eu.backmarket.ie
+tr.backmarket.ie
+accounts.preprod.backmarket.ie
+staging.story.backmarket.ie
+oauth2-preprod.backmarket.ie
+oauth2-staging.backmarket.ie
+parcel-cdn.delivery.backmarket.ie
+parcel-api.delivery.backmarket.ie
+ppr.backmarket.ie

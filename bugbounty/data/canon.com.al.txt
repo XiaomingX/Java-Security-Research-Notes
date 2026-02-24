@@ -1,0 +1,3 @@
+account-uat.canon.com.al
+account.canon.com.al
+prl.canon.com.al

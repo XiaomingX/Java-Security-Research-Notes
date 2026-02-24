@@ -1,0 +1,12 @@
+be.dns.eu
+cz.dns.eu
+nl.dns.eu
+si.dns.eu
+w.dns.eu
+x.dns.eu
+y.dns.eu
+z.dns.eu
+uk.dns.eu
+it.dns.eu
+com.github.bfg.eureka.dns.eu
+arsoft.tools.net.dns.eu

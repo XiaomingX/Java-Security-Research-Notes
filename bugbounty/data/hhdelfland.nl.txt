@@ -1,0 +1,16 @@
+inloggen-preprod.hhdelfland.nl
+loket-preprod.hhdelfland.nl
+geoportaal.hhdelfland.nl
+inloggen.hhdelfland.nl
+beeldbank.hhdelfland.nl
+beeldbank-bo.hhdelfland.nl
+webmail.hhdelfland.nl
+samenveiligwerken.hhdelfland.nl
+forms.hhdelfland.nl
+loket.hhdelfland.nl
+watertoetsportaal.hhdelfland.nl
+tetewww.hhdelfland.nl
+e.hhdelfland.nl
+wbp6.hhdelfland.nl
+burgerloket.hhdelfland.nl
+geoportaal2.hhdelfland.nl

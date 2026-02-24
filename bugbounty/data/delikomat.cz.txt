@@ -1,0 +1,4 @@
+automaty.delikomat.cz
+karty.delikomat.cz
+okbase.delikomat.cz
+proxy.delikomat.cz

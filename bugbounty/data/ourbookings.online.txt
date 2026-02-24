@@ -1,0 +1,2 @@
+mysql.ourbookings.online
+oliverstern.ourbookings.online

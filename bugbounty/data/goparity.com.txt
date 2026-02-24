@@ -1,0 +1,12 @@
+app.goparity.com
+pre-test.beta.goparity.com
+knowledge.app.goparity.com
+pontoenergia.app.goparity.com
+solarcoin.app.goparity.com
+statistics.goparity.com
+beta.goparity.com
+websummit.goparity.com
+events-meetups.goparity.com
+criticalanniversary.goparity.com
+crowdfunding.goparity.com
+mail.crowdfunding.goparity.com

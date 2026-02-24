@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import static java.lang.Class.forName;
 
 import java.lang.reflect.Constructor;

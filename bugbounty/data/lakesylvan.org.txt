@@ -1,0 +1,7 @@
+autodiscover.lakesylvan.org
+cpanel.lakesylvan.org
+cpcalendars.lakesylvan.org
+cpcontacts.lakesylvan.org
+mail.lakesylvan.org
+webdisk.lakesylvan.org
+webmail.lakesylvan.org

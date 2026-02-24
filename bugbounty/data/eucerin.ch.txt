@@ -1,0 +1,13 @@
+de.eucerin.ch
+uat.de.eucerin.ch
+image.n.eucerin.ch
+uat.fr.eucerin.ch
+uat.eucerin.ch
+view.n.eucerin.ch
+cloud.n.eucerin.ch
+fr.eucerin.ch
+click.n.eucerin.ch
+pre-live.de.eucerin.ch
+pre-live.fr.eucerin.ch
+pre.de.eucerin.ch
+pre.fr.eucerin.ch

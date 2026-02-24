@@ -1,0 +1,15 @@
+mail.upnext.com
+webmail.upnext.com
+imap.upnext.com
+smtp.upnext.com
+sba3.upnext.com
+112998-www1.upnext.com
+ws2.upnext.com
+pop.upnext.com
+mx0.upnext.com
+securesmtp.upnext.com
+http.upnext.com
+cities.upnext.com
+mail1.upnext.com
+pop3.upnext.com
+mail2.upnext.com

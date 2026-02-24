@@ -1,0 +1,17 @@
+feeds.english.ceg.nl
+magazines.ceg.nl
+feeds.ceg.nl
+opendata.english.ceg.nl
+magazinesintern.ceg.nl
+opendata.ceg.nl
+old.ceg.nl
+dev.ceg.nl
+new.dev.ceg.nl
+testsite.ceg.nl
+english.ceg.nl
+magazines.english.ceg.nl
+magazinesintern.english.ceg.nl
+smtp.ceg.nl
+pop.ceg.nl
+ftp.ceg.nl
+mail.ceg.nl

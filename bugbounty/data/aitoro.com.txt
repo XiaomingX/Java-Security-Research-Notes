@@ -1,0 +1,4 @@
+autodiscover.aitoro.com
+mail.aitoro.com
+remote.aitoro.com
+store.aitoro.com

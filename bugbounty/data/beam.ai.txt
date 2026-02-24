@@ -1,0 +1,6 @@
+app.beam.ai
+security.beam.ai
+waitlist.beam.ai
+avi.app.beam.ai
+plan.beam.ai
+test.beam.ai

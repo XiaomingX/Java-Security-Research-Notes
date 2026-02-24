@@ -1,0 +1,4 @@
+blog.landhaus.schuleteufen.ch
+cloud.schuleteufen.ch
+blog.schuleteufen.ch
+extranet.schuleteufen.ch

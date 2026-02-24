@@ -1,0 +1,7 @@
+stage.gwg-wuppertal.de
+intranet.gwg-wuppertal.de
+intranet-live.gwg-wuppertal.de
+intranet-stage.gwg-wuppertal.de
+live.gwg-wuppertal.de
+vdi.gwg-wuppertal.de
+csg.gwg-wuppertal.de

@@ -1,0 +1,4 @@
+doc.oasis.sk
+backup.oasis.sk
+mios.oasis.sk
+mail.oasis.sk

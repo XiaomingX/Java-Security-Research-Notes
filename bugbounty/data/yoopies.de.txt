@@ -1,0 +1,4 @@
+dev-en.yoopies.de
+mamadarfalles.yoopies.de
+en.yoopies.de
+info.yoopies.de

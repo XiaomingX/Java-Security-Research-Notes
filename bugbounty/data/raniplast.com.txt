@@ -1,0 +1,14 @@
+launchpad.raniplast.com
+rrp.raniplast.com
+terminal.raniplast.com
+test.fiori.raniplast.com
+autodiscover.raniplast.com
+mail.raniplast.com
+ranint16.raniplast.com
+securegw.raniplast.com
+mobile.raniplast.com
+sts.raniplast.com
+uutiskirje.raniplast.com
+rrq.raniplast.com
+raniapp.raniplast.com
+raniguest.raniplast.com

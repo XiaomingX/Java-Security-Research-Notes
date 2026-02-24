@@ -1,0 +1,10 @@
+dev.engoo.com.br
+app.engoo.com.br
+master.dev.app.engoo.com.br
+subdir.dev.app.engoo.com.br
+api.subdir.dev.engoo.com.br
+dev.app.engoo.com.br
+api.subdir.dev.app.engoo.com.br
+api.engoo.com.br
+devsrv.engoo.com.br
+support.engoo.com.br

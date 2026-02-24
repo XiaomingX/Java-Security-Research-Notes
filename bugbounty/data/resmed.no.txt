@@ -1,0 +1,8 @@
+airmini.resmed.no
+autodiscover.resmed.no
+eudev-www.resmed.no
+mail.resmed.no
+narval.resmed.no
+origin.resmed.no
+_dmarc.resmed.no
+hostmaster.resmed.no

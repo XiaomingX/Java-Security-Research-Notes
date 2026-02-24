@@ -1,0 +1,8 @@
+stage.fleetboard.de
+test.fleetboard.de
+staging.fleetboard.de
+support.fleetboard.de
+app-summit.fleetboard.de
+piwik.fleetboard.de
+testing.fleetboard.de
+mail.fleetboard.de

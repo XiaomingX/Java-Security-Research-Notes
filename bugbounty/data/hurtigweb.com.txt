@@ -1,0 +1,11 @@
+webmail.hurtigweb.com
+mail.hurtigweb.com
+modc245.hurtigweb.com
+webmail2.hurtigweb.com
+autodiscover.hurtigweb.com
+autoconfig.hurtigweb.com
+modc242.hurtigweb.com
+test.hurtigweb.com
+modc241.hurtigweb.com
+maxishopbevtoft.hurtigweb.com
+dev.hurtigweb.com

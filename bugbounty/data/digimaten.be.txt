@@ -1,0 +1,8 @@
+nextcloud.digimaten.be
+cloud.digimaten.be
+mail.digimaten.be
+test02.digimaten.be
+test1.digimaten.be
+test.digimaten.be
+new.digimaten.be
+webmail.digimaten.be

@@ -1,0 +1,5 @@
+djheros.kodcast.com
+peertube.kodcast.com
+clocloud.kodcast.com
+blog.kodcast.com
+stream.kodcast.com

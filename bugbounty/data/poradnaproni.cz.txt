@@ -1,0 +1,3 @@
+smtp.poradnaproni.cz
+imap.poradnaproni.cz
+mail.poradnaproni.cz

@@ -1,0 +1,10 @@
+blog.kitcrm.com
+sendinblue.kitcrm.com
+staging-2-ewkjbf93478w.kitcrm.com
+r.sendinblue.kitcrm.com
+_dmarc.sendinblue.kitcrm.com
+ads.kitcrm.com
+ads-staging.kitcrm.com
+cdn.kitcrm.com
+email.messages.kitcrm.com
+staging-ellen-x3y2igp1.kitcrm.com

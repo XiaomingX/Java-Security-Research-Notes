@@ -1,0 +1,9 @@
+gts.corite.dev
+ff.corite.dev
+cloud.corite.dev
+git.corite.dev
+mta-sts.corite.dev
+demo.corite.dev
+is.corite.dev
+bird-verifier.corite.dev
+links.corite.dev

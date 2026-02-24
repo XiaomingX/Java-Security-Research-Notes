@@ -1,0 +1,3 @@
+addon-toendertagch.rkab.ch
+mail.rkab.ch
+ds.rkab.ch

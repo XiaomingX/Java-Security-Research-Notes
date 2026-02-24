@@ -1,0 +1,4 @@
+jobs.comsip.fr
+pop3.comsip.fr
+mail.comsip.fr
+imap.comsip.fr

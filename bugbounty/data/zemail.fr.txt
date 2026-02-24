@@ -1,0 +1,4 @@
+cb.zemail.fr
+paiement.zemail.fr
+notice.zemail.fr
+zimbra.zemail.fr

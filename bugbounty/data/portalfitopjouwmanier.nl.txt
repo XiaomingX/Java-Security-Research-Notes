@@ -1,0 +1,2 @@
+opendata.portalfitopjouwmanier.nl
+feeds.portalfitopjouwmanier.nl

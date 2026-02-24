@@ -1,0 +1,4 @@
+pix.jaycloud.de
+autoconfig.jaycloud.de
+autodiscover.jaycloud.de
+mail.jaycloud.de

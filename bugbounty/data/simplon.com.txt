@@ -1,0 +1,5 @@
+gtm.simplon.com
+configurator.simplon.com
+stage.simplon.com
+mail.simplon.com
+autodiscover.simplon.com

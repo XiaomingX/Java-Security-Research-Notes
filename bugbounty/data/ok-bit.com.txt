@@ -1,0 +1,7 @@
+guide.ok-bit.com
+api.ok-bit.com
+auth.ok-bit.com
+test.ok-bit.com
+test2.ok-bit.com
+ww38.ok-bit.com
+admin.ok-bit.com

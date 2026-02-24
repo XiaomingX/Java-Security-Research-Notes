@@ -1,0 +1,16 @@
+act.areswear.com
+blog.areswear.com
+catalog.areswear.com
+get.areswear.com
+inside.areswear.com
+jupiter.areswear.com
+jupiteradmin.areswear.com
+jupiteradmindev.areswear.com
+jupiterdev.areswear.com
+middleware.areswear.com
+shop.areswear.com
+sports.areswear.com
+store.areswear.com
+usa.areswear.com
+voip.areswear.com
+vpn.areswear.com

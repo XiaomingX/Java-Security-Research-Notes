@@ -1,0 +1,3 @@
+mta-sts.stacloud.de
+autoconfig.stacloud.de
+autodiscover.stacloud.de

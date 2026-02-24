@@ -1,0 +1,4 @@
+game-api.vextoria.com
+node.vextoria.com
+static.vextoria.com
+verify-bot-backend.vextoria.com

@@ -1,0 +1,10 @@
+opendata.oteam.nl
+english.oteam.nl
+feeds.english.oteam.nl
+opendata.english.oteam.nl
+feeds.oteam.nl
+magazines.english.oteam.nl
+a-www.oteam.nl
+magazines.oteam.nl
+magazinesintern.oteam.nl
+onderzoek-content-www.oteam.nl

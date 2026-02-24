@@ -1,0 +1,10 @@
+card.starbucks.in
+careers.starbucks.in
+dev.starbucks.in
+msr.app.starbucks.in
+rewards.starbucks.in
+share.starbucks.in
+uat.app.starbucks.in
+uat.mobileapp.starbucks.in
+mobileapp.starbucks.in
+crm.starbucks.in

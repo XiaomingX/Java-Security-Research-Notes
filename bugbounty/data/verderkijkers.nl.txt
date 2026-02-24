@@ -1,0 +1,10 @@
+feeds.verderkijkers.nl
+opendata.verderkijkers.nl
+poster.verderkijkers.nl
+english.verderkijkers.nl
+feeds.english.verderkijkers.nl
+magazines.english.verderkijkers.nl
+magazinesintern.english.verderkijkers.nl
+magazinesintern.verderkijkers.nl
+magazines.verderkijkers.nl
+opendata.english.verderkijkers.nl

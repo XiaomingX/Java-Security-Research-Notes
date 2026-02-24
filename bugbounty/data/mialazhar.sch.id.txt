@@ -1,0 +1,9 @@
+cpanel.mialazhar.sch.id
+cpcalendars.mialazhar.sch.id
+cpcontacts.mialazhar.sch.id
+jurnal.mialazhar.sch.id
+katana4d.mialazhar.sch.id
+mail.mialazhar.sch.id
+rdm.mialazhar.sch.id
+webdisk.mialazhar.sch.id
+webmail.mialazhar.sch.id

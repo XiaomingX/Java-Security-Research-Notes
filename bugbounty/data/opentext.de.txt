@@ -1,0 +1,8 @@
+resources.opentext.de
+businessnetwork.opentext.de
+websolutions.opentext.de
+connectivity.opentext.de
+prospects.opentext.de
+securemail.opentext.de
+blogs.opentext.de
+wwwqa.opentext.de

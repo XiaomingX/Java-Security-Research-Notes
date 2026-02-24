@@ -1,0 +1,6 @@
+onsite.letitbeartagency.com
+mail.letitbeartagency.com
+autodiscover.letitbeartagency.com
+cpanel.letitbeartagency.com
+webmail.letitbeartagency.com
+webdisk.letitbeartagency.com

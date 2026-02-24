@@ -1,0 +1,17 @@
+api.aspectiva.com
+internal2.aspectiva.com
+careers.aspectiva.com
+dashboard.aspectiva.com
+ftp.aspectiva.com
+content.aspectiva.com
+external.aspectiva.com
+sony.aspectiva.com
+static.aspectiva.com
+democreator.aspectiva.com
+api2.aspectiva.com
+internal.aspectiva.com
+widgets.aspectiva.com
+wp.aspectiva.com
+downloads.aspectiva.com
+shop.aspectiva.com
+cdn.content.aspectiva.com

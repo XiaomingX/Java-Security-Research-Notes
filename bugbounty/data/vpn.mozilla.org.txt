@@ -1,0 +1,2 @@
+benchmark.vpn.mozilla.org
+status.vpn.mozilla.org

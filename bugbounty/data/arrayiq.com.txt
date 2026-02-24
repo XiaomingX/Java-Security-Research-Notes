@@ -1,0 +1,3 @@
+mail.arrayiq.com
+smtp.arrayiq.com
+ftp.arrayiq.com

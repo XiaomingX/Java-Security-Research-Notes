@@ -1,0 +1,2 @@
+go.esmt.berlin
+staging.esmt.berlin

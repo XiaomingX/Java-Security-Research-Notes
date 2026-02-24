@@ -1,0 +1,3 @@
+api.v1.tamanschool.com
+api.v2.tamanschool.com
+cms.tamanschool.com

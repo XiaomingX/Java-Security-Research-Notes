@@ -1,0 +1,4 @@
+autodiscover.wayholding.com
+link.wayholding.com
+mail.wayholding.com
+mta-sts.wayholding.com

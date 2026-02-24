@@ -1,0 +1,10 @@
+test2-internet.zeissvision.co.kr
+preprod-internet.zeissvision.co.kr
+development-internet.zeissvision.co.kr
+portal-test.zeissvision.co.kr
+datapipeline.zeissvision.co.kr
+stage-internet.zeissvision.co.kr
+test3-internet.zeissvision.co.kr
+test1-internet.zeissvision.co.kr
+portal-stage.zeissvision.co.kr
+portal.zeissvision.co.kr

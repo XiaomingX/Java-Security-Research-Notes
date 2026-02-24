@@ -1,0 +1,10 @@
+status.wiidatabase.de
+comments.wiidatabase.de
+static.wiidatabase.de
+stats.wiidatabase.de
+id.wiidatabase.de
+riitag-preview.wiidatabase.de
+wiki.wiidatabase.de
+paste.wiidatabase.de
+defenderx.wiidatabase.de
+tut.wiidatabase.de

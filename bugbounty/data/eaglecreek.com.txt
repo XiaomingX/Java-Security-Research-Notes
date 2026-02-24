@@ -1,0 +1,14 @@
+parts.eaglecreek.com
+images.eaglecreek.com
+cloud.email.eaglecreek.com
+image.email.eaglecreek.com
+ecom.eaglecreek.com
+prod.eaglecreek.com
+partners.eaglecreek.com
+click.email.eaglecreek.com
+shop.eaglecreek.com
+link.eaglecreek.com
+test.eaglecreek.com
+blog.eaglecreek.com
+dev.eaglecreek.com
+promo.eaglecreek.com

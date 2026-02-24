@@ -1,0 +1,2 @@
+mcprod.standardfurniture.com
+mcstaging.standardfurniture.com

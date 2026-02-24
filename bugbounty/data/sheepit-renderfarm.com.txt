@@ -1,0 +1,3 @@
+down.sheepit-renderfarm.com
+phpmyadmin.shepherd-mn-usa.sheepit-renderfarm.com
+europe.sheepit-renderfarm.com

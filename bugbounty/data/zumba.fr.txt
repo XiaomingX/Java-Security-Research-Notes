@@ -1,0 +1,5 @@
+staging.zumba.fr
+zumbathon.zumba.fr
+international.zumba.fr
+academy.zumba.fr
+dvd.zumba.fr

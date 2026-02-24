@@ -1,0 +1,11 @@
+lyncdiscover.canon.gr
+sip.canon.gr
+sip2.canon.gr
+lyncdiscoverinternal.canon.gr
+prl.canon.gr
+account.canon.gr
+informa.canon.gr
+account-uat.canon.gr
+mail.canon.gr
+self.canon.gr
+tss.canon.gr

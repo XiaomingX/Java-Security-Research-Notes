@@ -1,0 +1,4 @@
+docs.fgsynerys.fr
+lc.sp.fgsynerys.fr
+lcdemo.fgsynerys.fr
+luxiome.fgsynerys.fr

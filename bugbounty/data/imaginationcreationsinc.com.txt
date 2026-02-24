@@ -1,0 +1,5 @@
+autodiscover.imaginationcreationsinc.com
+cpanel.imaginationcreationsinc.com
+mail.imaginationcreationsinc.com
+webdisk.imaginationcreationsinc.com
+webmail.imaginationcreationsinc.com

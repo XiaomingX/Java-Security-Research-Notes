@@ -1,0 +1,7 @@
+sgtm.lookfantastic.ro
+horizon-api.www.lookfantastic.ro
+m.lookfantastic.ro
+checkout.lookfantastic.ro
+links.n.lookfantastic.ro
+links.t.lookfantastic.ro
+gslb.lookfantastic.ro

@@ -1,0 +1,11 @@
+bento4d.alahliyah.sch.id
+cpanel.alahliyah.sch.id
+cpcalendars.alahliyah.sch.id
+cpcontacts.alahliyah.sch.id
+journal.alahliyah.sch.id
+jurnal.alahliyah.sch.id
+mail.alahliyah.sch.id
+web.alahliyah.sch.id
+webdisk.alahliyah.sch.id
+webmail.alahliyah.sch.id
+fastlabid.alahliyah.sch.id

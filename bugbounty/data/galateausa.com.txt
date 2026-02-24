@@ -1,0 +1,6 @@
+checkout.galateausa.com
+cms-uat.galateausa.com
+cms.galateausa.com
+m.galateausa.com
+mail.galateausa.com
+webmail.galateausa.com

@@ -1,0 +1,5 @@
+dev.finanzmuseum.ch
+qa.finanzmuseum.ch
+info.finanzmuseum.ch
+app.finanzmuseum.ch
+qa.six-paynet.com.finanzmuseum.ch

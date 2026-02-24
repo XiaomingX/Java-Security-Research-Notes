@@ -1,0 +1,4 @@
+opendata.caorijk.nl
+feeds.caorijk.nl
+static.caorijk.nl
+mail.caorijk.nl

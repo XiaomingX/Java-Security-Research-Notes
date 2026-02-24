@@ -1,0 +1,2 @@
+mail.gc-fuscht.rocks
+postfixadmin.gc-fuscht.rocks

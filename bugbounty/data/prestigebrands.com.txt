@@ -1,0 +1,12 @@
+autodiscover.prestigebrands.com
+crm.prestigebrands.com
+exchange.prestigebrands.com
+ir.prestigebrands.com
+mail.prestigebrands.com
+pbhnysp.prestigebrands.com
+pchnyexwyevm.prestigebrands.com
+webmail.prestigebrands.com
+collab-edge.prestigebrands.com
+pbxexpressway.prestigebrands.com
+vcsc.prestigebrands.com
+vcse.prestigebrands.com

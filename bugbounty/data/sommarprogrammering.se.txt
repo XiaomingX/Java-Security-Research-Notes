@@ -1,0 +1,3 @@
+survey.sommarprogrammering.se
+wiki.sommarprogrammering.se
+mooc.sommarprogrammering.se

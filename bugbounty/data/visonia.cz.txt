@@ -1,0 +1,2 @@
+mail.visonia.cz
+mta-sts.mail.visonia.cz

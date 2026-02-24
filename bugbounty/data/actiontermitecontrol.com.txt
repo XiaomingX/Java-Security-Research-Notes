@@ -1,0 +1,6 @@
+cpanel.actiontermitecontrol.com
+get.actiontermitecontrol.com
+mail.actiontermitecontrol.com
+webdisk.actiontermitecontrol.com
+webmail.actiontermitecontrol.com
+dev.actiontermitecontrol.com

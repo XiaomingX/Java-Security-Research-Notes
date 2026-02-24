@@ -1,0 +1,16 @@
+guide.vedi-express.com
+mag.vedi-express.com
+lux.vedi-express.com
+preprod16.vedi-express.com
+preprod1614.vedi-express.com
+faq.vedi-express.com
+ns2.vedi-express.com
+gallery.vedi-express.com
+forum.vedi-express.com
+news.vedi-express.com
+preprod15.vedi-express.com
+admin-rollup.vedi-express.com
+medias.vedi-express.com
+dev.vedi-express.com
+outils.vedi-express.com
+preprod.vedi-express.com

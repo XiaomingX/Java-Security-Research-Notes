@@ -1,0 +1,2 @@
+faucet.mintlayer.org
+wallet-meta.mintlayer.org

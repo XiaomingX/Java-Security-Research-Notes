@@ -1,0 +1,6 @@
+news.jungheinrich.si
+admin.parts.jungheinrich.si
+parts.jungheinrich.si
+www2.jungheinrich.si
+autodiscover.jungheinrich.si
+qa.staging.jungheinrich.si

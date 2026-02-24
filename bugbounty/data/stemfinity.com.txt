@@ -1,0 +1,2 @@
+marketing.stemfinity.com
+server.stemfinity.com

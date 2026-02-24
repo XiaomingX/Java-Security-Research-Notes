@@ -1,0 +1,5 @@
+dms.ea-foundation.org
+mail.ea-foundation.org
+old.ea-foundation.org
+dev.ea-foundation.org
+data.ea-foundation.org

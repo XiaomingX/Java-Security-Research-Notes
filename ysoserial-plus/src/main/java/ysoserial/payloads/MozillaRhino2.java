@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import org.mozilla.javascript.*;
 import org.mozilla.javascript.tools.shell.Environment;
 import ysoserial.payloads.annotation.Authors;

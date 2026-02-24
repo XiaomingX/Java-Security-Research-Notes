@@ -1,0 +1,11 @@
+my-int.bmw-motorrad.ru
+my-test.bmw-motorrad.ru
+shop.bmw-motorrad.ru
+m.bmw-motorrad.ru
+teaser.bmw-motorrad.ru
+configurator.bmw-motorrad.ru
+moto.bmw-motorrad.ru
+used.bmw-motorrad.ru
+configurator-int.bmw-motorrad.ru
+configurator-test.bmw-motorrad.ru
+my.bmw-motorrad.ru

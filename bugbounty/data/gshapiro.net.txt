@@ -1,0 +1,3 @@
+smtp.gshapiro.net
+imap.gshapiro.net
+ns.gshapiro.net

@@ -1,0 +1,2 @@
+mail.soulcandy.nl
+hostmaster.soulcandy.nl

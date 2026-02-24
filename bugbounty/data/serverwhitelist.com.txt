@@ -1,0 +1,4 @@
+status.serverwhitelist.com
+stats.serverwhitelist.com
+api.serverwhitelist.com
+fistofthewalrus.serverwhitelist.com

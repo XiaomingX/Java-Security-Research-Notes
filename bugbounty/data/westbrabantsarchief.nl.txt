@@ -1,0 +1,14 @@
+lyncdiscover.westbrabantsarchief.nl
+_sipfederationtls._tcp.westbrabantsarchief.nl
+_dmarc.westbrabantsarchief.nl
+enterpriseregistration.westbrabantsarchief.nl
+raadsnotulen.westbrabantsarchief.nl
+autodiscover.westbrabantsarchief.nl
+sip.westbrabantsarchief.nl
+_sip._tls.westbrabantsarchief.nl
+nas.westbrabantsarchief.nl
+enterpriseenrollment.westbrabantsarchief.nl
+msoid.westbrabantsarchief.nl
+periodieken.westbrabantsarchief.nl
+mail.westbrabantsarchief.nl
+bouwdossiers.westbrabantsarchief.nl

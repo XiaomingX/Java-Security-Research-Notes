@@ -1,0 +1,2 @@
+en.wasteels.hu
+hu.wasteels.hu

@@ -1,4 +1,4 @@
-package me.threedr3am.bug.shiro.bypass.auth.controller;
+package me.security.bug.shiro.bypass.auth.controller;
 
 import org.springframework.web.bind.annotation.*;
 

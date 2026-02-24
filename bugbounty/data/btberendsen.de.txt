@@ -1,0 +1,2 @@
+autodiscover.btberendsen.de
+autoconfig.btberendsen.de

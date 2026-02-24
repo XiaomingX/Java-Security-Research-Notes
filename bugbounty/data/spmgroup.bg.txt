@@ -1,0 +1,9 @@
+autodiscover.spmgroup.bg
+cp.spmgroup.bg
+cpanel.spmgroup.bg
+cpcalendars.spmgroup.bg
+cpcontacts.spmgroup.bg
+mail.spmgroup.bg
+spm.spmgroup.bg
+webdisk.spmgroup.bg
+webmail.spmgroup.bg

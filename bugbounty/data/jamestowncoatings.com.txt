@@ -1,0 +1,4 @@
+autodiscover.jamestowncoatings.com
+link.jamestowncoatings.com
+mail.jamestowncoatings.com
+remote.jamestowncoatings.com

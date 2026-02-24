@@ -1,0 +1,6 @@
+account.gatewayauto.co
+app.gatewayauto.co
+dev-api.gatewayauto.co
+intranet.gatewayauto.co
+leadfoot.gatewayauto.co
+api.gatewayauto.co

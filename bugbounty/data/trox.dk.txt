@@ -1,0 +1,13 @@
+lyncdiscover.trox.dk
+webmail.trox.dk
+sip.trox.dk
+autodiscover.trox.dk
+shop.trox.dk
+gateway.trox.dk
+efaktura.trox.dk
+troxgroup.dkwww.trox.dk
+mail.trox.dk
+docker-prod.trox.dk
+6633www.trox.dk
+owa.trox.dk
+33www.trox.dk

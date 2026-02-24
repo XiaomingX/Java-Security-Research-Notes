@@ -1,0 +1,2 @@
+server.matthaeus-cloud.de
+office.matthaeus-cloud.de

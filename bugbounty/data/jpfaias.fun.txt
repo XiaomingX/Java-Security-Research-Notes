@@ -1,0 +1,14 @@
+mdm.jpfaias.fun
+mail.jpfaias.fun
+proxmox.jpfaias.fun
+netflix.jpfaias.fun
+wordpress.jpfaias.fun
+pihole.jpfaias.fun
+glpi.jpfaias.fun
+cpanel.jpfaias.fun
+cloud.jpfaias.fun
+remotely.jpfaias.fun
+voip.jpfaias.fun
+mail.cpanel.jpfaias.fun
+pritunl.jpfaias.fun
+nas.jpfaias.fun

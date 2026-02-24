@@ -1,0 +1,16 @@
+account-srfsit.canon.se
+account-uat.canon.se
+store.canon.se
+api2.cbcservice.canon.se
+ftp.canon.se
+suppliesshop.canon.se
+api.cbcservice.canon.se
+cbcservice.canon.se
+app18.cbcservice.canbus.canon.se
+app22.cbcservice.canbus.canon.se
+lyncdiscover.canon.se
+lyncdiscoverinternal.canon.se
+sip2.canon.se
+sip.canon.se
+prl.canon.se
+autodiscover.canon.se

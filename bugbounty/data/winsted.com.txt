@@ -1,0 +1,9 @@
+autodiscover.winsted.com
+knowledge.winsted.com
+optics.winsted.com
+transfer.winsted.com
+wels.winsted.com
+welsdev.winsted.com
+mail.winsted.com
+win-untangle.winsted.com
+wordpress.winsted.com

@@ -1,0 +1,6 @@
+webmail.inspection.bike
+webdisk.inspection.bike
+mail.inspection.bike
+cpanel.inspection.bike
+cpcontacts.inspection.bike
+cpcalendars.inspection.bike

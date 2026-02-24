@@ -1,0 +1,7 @@
+ipv.rainfinity.com
+mail.rainfinity.com
+webserver.rainfinity.com
+63.rainfinity.com
+ftp.rainfinity.com
+ns3.rainfinity.com
+ns1.rainfinity.com

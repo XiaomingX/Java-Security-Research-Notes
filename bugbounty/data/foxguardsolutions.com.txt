@@ -1,0 +1,10 @@
+support.foxguardsolutions.com
+email.foxguardsolutions.com
+web.foxguardsolutions.com
+webmail.foxguardsolutions.com
+dispatchpronet.foxguardsolutions.com
+guest.foxguardsolutions.com
+autodiscover.foxguardsolutions.com
+link.foxguardsolutions.com
+spam.foxguardsolutions.com
+spam2.foxguardsolutions.com

@@ -1,0 +1,14 @@
+api.admovate.com
+a.admovate.com
+console.admovate.com
+fetchback.img.admovate.com
+opse.admovate.com
+img.admovate.com
+cdn.admovate.com
+api-demo.admovate.com
+bid-us-west.admovate.com
+autodiscover.admovate.com
+opsw.admovate.com
+mail.admovate.com
+a2.admovate.com
+bid-us-east.admovate.com

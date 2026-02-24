@@ -1,0 +1,2 @@
+office.vnd.cloud
+mail.vnd.cloud

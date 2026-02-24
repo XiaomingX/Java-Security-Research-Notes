@@ -1,0 +1,3 @@
+lists.gruene-teltow-flaeming.de
+mta-sts.lists.gruene-teltow-flaeming.de
+mta-sts.gruene-teltow-flaeming.de

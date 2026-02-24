@@ -1,0 +1,5 @@
+kovan.enjinx.cn
+cloud.enjinx.cn
+jumpnet.enjinx.cn
+api.enjinx.cn
+cdn.enjinx.cn

@@ -1,0 +1,4 @@
+jitsi.mailix.hbitc.eu
+ucs-sso.hbitc.eu
+uc-sso.hbitc.eu
+mailix.hbitc.eu

@@ -1,0 +1,10 @@
+cpcalendars.oucommons.com
+cpcontacts.oucommons.com
+ruwellfed.oucommons.com
+chriswaltonrealestate.oucommons.com
+webmail.oucommons.com
+ftp.oucommons.com
+cpanel.oucommons.com
+webdisk.oucommons.com
+mail.oucommons.com
+imap.oucommons.com

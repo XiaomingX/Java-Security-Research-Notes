@@ -1,0 +1,10 @@
+romeo.massar.ch
+gallery.massar.ch
+jeroen.massar.ch
+mta-sts.massar.ch
+smtp.massar.ch
+imap.massar.ch
+mine.massar.ch
+maildrop.massar.ch
+_mta-sts.massar.ch
+path.massar.ch

@@ -1,0 +1,5 @@
+dev.nightschoolstudio.com
+blog.nightschoolstudio.com
+docs.nightschoolstudio.com
+mail.nightschoolstudio.com
+calendar.nightschoolstudio.com

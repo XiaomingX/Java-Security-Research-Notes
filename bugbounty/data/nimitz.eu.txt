@@ -1,0 +1,10 @@
+plex.maples.nimitz.eu
+auth.maples.nimitz.eu
+maples.nimitz.eu
+burke.nimitz.eu
+phpmyadmin.nimitz.eu
+dns5.nimitz.eu
+ftp.nimitz.eu
+ftp-pass.nimitz.eu
+wasp.nimitz.eu
+myip.nimitz.eu

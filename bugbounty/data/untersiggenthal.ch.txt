@@ -1,0 +1,9 @@
+owa.untersiggenthal.ch
+rds.untersiggenthal.ch
+transfer.untersiggenthal.ch
+vpn.untersiggenthal.ch
+kommissionen.untersiggenthal.ch
+reservation.untersiggenthal.ch
+autodiscover.untersiggenthal.ch
+map.untersiggenthal.ch
+securemail.untersiggenthal.ch

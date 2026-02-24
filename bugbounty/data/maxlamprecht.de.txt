@@ -1,0 +1,10 @@
+home.maxlamprecht.de
+gitlab.maxlamprecht.de
+office.maxlamprecht.de
+musikbot1.maxlamprecht.de
+registry.gitlab.maxlamprecht.de
+telefon.maxlamprecht.de
+remote.maxlamprecht.de
+wptest.maxlamprecht.de
+ts3.maxlamprecht.de
+shishalampe.maxlamprecht.de

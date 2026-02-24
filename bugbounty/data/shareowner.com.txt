@@ -1,0 +1,15 @@
+fullservice.shareowner.com
+w.shareowner.com
+ftps.shareowner.com
+mta.email.shareowner.com
+mail.shareowner.com
+www-staging.shareowner.com
+email.shareowner.com
+gw.shareowner.com
+leapfrog.shareowner.com
+investments.shareowner.com
+w.investments.shareowner.com
+fw.shareowner.com
+ora.shareowner.com
+vpn.shareowner.com
+webtest.shareowner.com

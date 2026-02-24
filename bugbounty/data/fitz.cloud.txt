@@ -1,0 +1,3 @@
+vpn.fitz.cloud
+transmission.fitz.cloud
+notes.fitz.cloud

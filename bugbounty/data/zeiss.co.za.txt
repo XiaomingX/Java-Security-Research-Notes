@@ -1,0 +1,12 @@
+preprod-internet.zeiss.co.za
+portal-test.zeiss.co.za
+test1-internet.zeiss.co.za
+development-internet.zeiss.co.za
+datapipeline.zeiss.co.za
+test2-internet.zeiss.co.za
+better-vision.zeiss.co.za
+stage-internet.zeiss.co.za
+test3-internet.zeiss.co.za
+portal-stage.zeiss.co.za
+portal.zeiss.co.za
+visu360.zeiss.co.za

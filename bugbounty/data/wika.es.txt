@@ -1,0 +1,8 @@
+img.newsletter.wika.es
+newsletter.wika.es
+ns1.wika.es
+mailer.wika.es
+r.newsletter.wika.es
+blog.wika.es
+mail.exergy.wika.es
+post.wika.es

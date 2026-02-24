@@ -1,0 +1,6 @@
+bloombergdeals.momondo.ee
+travel.momondo.ee
+m.momondo.ee
+android.momondo.ee
+trip.momondo.ee
+cars.momondo.ee

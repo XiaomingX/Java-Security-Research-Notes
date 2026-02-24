@@ -1,0 +1,14 @@
+dimension.dgc.org
+stats1.dgc.org
+cloud.dgc.org
+openpgpkey.dgc.org
+nc.dgc.org
+cdoc-ticket.dgc.org
+stats.dgc.org
+fs.dgc.org
+matrix.dgc.org
+pwpusher.dgc.org
+jitsi.dgc.org
+element.dgc.org
+ir.dgc.org
+auth.dgc.org

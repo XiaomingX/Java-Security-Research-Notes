@@ -1,0 +1,13 @@
+foodscene.deliveroo.it
+test.deliveroo.it
+careers.deliveroo.it
+admin.deliveroo.it
+rider.deliveroo.it
+riders.deliveroo.it
+careers-staging.deliveroo.it
+sandbox.deliveroo.it
+staging.deliveroo.it
+ordine.deliveroo.it
+ordine-staging.deliveroo.it
+bachecasindacale.riders.deliveroo.it
+dtm.deliveroo.it

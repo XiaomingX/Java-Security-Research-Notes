@@ -1,3 +1,7 @@
+/*
+ * [业务问题]: Shiro 1.4.1 认证绕过漏洞配置。
+ * [实现逻辑]: 配置 Shiro 过滤器链，演示路径匹配缺陷导致的认证绕过。
+ */
 package com.security.bug.shiro.bypass.auth.config;
 
 import com.security.bug.shiro.bypass.auth.realm.MyRealm;
@@ -10,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * Shiro 配置类。
  */
 @Configuration
 public class ShiroConfig {
@@ -32,7 +37,7 @@ public class ShiroConfig {
         bean.setLoginUrl("/login");
         bean.setSuccessUrl("/index");
         bean.setUnauthorizedUrl("/unauthorizedurl");
-        Map<String, String> map = new LinkedHashMap();
+        Map<String, String> map = new LinkedHashMap<>();
         map.put("/login", "anon");
         map.put("/bypass", "authc");
         bean.setFilterChainDefinitionMap(map);

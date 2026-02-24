@@ -1,0 +1,6 @@
+cpcontacts.houseofpets.pt
+cpcalendars.houseofpets.pt
+cpanel.houseofpets.pt
+webdisk.houseofpets.pt
+mail.houseofpets.pt
+webmail.houseofpets.pt

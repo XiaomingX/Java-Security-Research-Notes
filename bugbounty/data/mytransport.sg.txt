@@ -1,0 +1,4 @@
+api.mytransport.sg
+datamall2.mytransport.sg
+apigee.mytransport.sg
+m.mytransport.sg

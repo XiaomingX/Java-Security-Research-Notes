@@ -1,0 +1,4 @@
+info.galloup.com
+preprod.galloup.com
+shop.galloup.com
+storefront.galloup.com

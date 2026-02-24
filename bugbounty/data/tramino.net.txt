@@ -1,0 +1,2 @@
+grafana.tramino.net
+storage.tramino.net

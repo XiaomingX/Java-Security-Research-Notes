@@ -1,0 +1,6 @@
+cpanel.algeratransport.eu
+cpcalendars.algeratransport.eu
+cpcontacts.algeratransport.eu
+mail.algeratransport.eu
+webdisk.algeratransport.eu
+webmail.algeratransport.eu

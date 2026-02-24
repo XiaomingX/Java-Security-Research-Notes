@@ -1,0 +1,6 @@
+cpcalendars.soyloca.com
+webdisk.soyloca.com
+cpcontacts.soyloca.com
+webmail.soyloca.com
+mail.soyloca.com
+cpanel.soyloca.com

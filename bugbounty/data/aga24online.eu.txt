@@ -1,0 +1,8 @@
+staging.aga24online.eu
+shop.aga24online.eu
+dev.aga24online.eu
+old.aga24online.eu
+test.aga24online.eu
+magento.aga24online.eu
+demo.aga24online.eu
+store.aga24online.eu

@@ -1,0 +1,4 @@
+autodiscover.turnerboone.com
+ftp.turnerboone.com
+remote.turnerboone.com
+webmail.turnerboone.com

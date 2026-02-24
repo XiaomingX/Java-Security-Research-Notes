@@ -1,0 +1,4 @@
+wpadmin.deindreiklang.de
+mta-sts.deindreiklang.de
+wp.deindreiklang.de
+db.deindreiklang.de

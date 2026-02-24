@@ -1,0 +1,4 @@
+go.serviops.ca
+lp.serviops.ca
+testlp.serviops.ca
+kube1.serviops.ca

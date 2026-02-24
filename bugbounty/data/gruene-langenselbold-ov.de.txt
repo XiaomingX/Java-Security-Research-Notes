@@ -1,0 +1,6 @@
+test.www.gruene-langenselbold-ov.de
+mta-sts.lists.gruene-langenselbold-ov.de
+test.gruene-langenselbold-ov.de
+mta-sts.gruene-langenselbold-ov.de
+lists.gruene-langenselbold-ov.de
+openpgpkey.gruene-langenselbold-ov.de

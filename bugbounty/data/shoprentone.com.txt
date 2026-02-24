@@ -1,0 +1,10 @@
+autodiscover.shoprentone.com
+connect.shoprentone.com
+gtm.shoprentone.com
+home.shoprentone.com
+jobs.shoprentone.com
+payments.shoprentone.com
+exchange.shoprentone.com
+mail.shoprentone.com
+secure.shoprentone.com
+support.shoprentone.com

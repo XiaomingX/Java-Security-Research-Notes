@@ -1,0 +1,4 @@
+integration-am.heidelberg-engineering.com
+academy.heidelberg-engineering.com
+mail.heidelberg-engineering.com
+web21.heidelberg-engineering.com

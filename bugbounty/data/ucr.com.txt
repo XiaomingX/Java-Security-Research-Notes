@@ -1,0 +1,7 @@
+url7406.mailing.ucr.com
+url7040.mailing.ucr.com
+fs.ucr.com
+nullmx.ucr.com
+autodiscover.ucr.com
+owa.ucr.com
+mail.ucr.com

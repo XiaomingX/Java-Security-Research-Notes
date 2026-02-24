@@ -1,0 +1,4 @@
+static.irccloud-cdn.com
+usercontent.irccloud-cdn.com
+usercontent-test.irccloud-cdn.com
+_dmarc.irccloud-cdn.com

@@ -1,0 +1,4 @@
+app.cloudtenna.com
+search.cloudtenna.com
+blog.cloudtenna.com
+guest.cloudtenna.com

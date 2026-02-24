@@ -1,0 +1,7 @@
+tools.aequivalent.ch
+app.aequivalent.ch
+imap.aequivalent.ch
+mail.aequivalent.ch
+pop.aequivalent.ch
+internal.azure.aequivalent.ch
+nas.aequivalent.ch

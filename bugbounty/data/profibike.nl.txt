@@ -1,0 +1,2 @@
+sgtm.profibike.nl
+staging.profibike.nl

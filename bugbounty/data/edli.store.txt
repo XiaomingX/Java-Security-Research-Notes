@@ -1,0 +1,4 @@
+chamo.edli.store
+lokito.edli.store
+ly.edli.store
+mmmm.edli.store

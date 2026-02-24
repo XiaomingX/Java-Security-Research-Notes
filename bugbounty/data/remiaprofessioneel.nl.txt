@@ -1,0 +1,5 @@
+mailings.remiaprofessioneel.nl
+staging.remiaprofessioneel.nl
+mailcoach.remiaprofessioneel.nl
+qr.remiaprofessioneel.nl
+secrets.remiaprofessioneel.nl

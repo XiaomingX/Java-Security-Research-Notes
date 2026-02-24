@@ -1,0 +1,8 @@
+cpanel.scs-denver.com
+cpcalendars.scs-denver.com
+cpcontacts.scs-denver.com
+mail.scs-denver.com
+remote.scs-denver.com
+web.scs-denver.com
+webdisk.scs-denver.com
+webmail.scs-denver.com

@@ -1,0 +1,7 @@
+autodiscover.bgrdc.com
+bgr-am.bgrdc.com
+cpanel.bgrdc.com
+mail.bgrdc.com
+remote.bgrdc.com
+webdisk.bgrdc.com
+webmail.bgrdc.com

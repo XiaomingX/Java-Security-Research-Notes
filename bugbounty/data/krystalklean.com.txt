@@ -1,0 +1,8 @@
+autodiscover.krystalklean.com
+remote.krystalklean.com
+reports.krystalklean.com
+imap.krystalklean.com
+m.krystalklean.com
+mail.krystalklean.com
+report.krystalklean.com
+reports2.krystalklean.com

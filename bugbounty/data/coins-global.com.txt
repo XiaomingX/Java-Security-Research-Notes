@@ -1,0 +1,11 @@
+conference.coins-global.com
+mail.coins-global.com
+fulmax.coins-global.com
+support.coins-global.com
+bim.coins-global.com
+mea.coins-global.com
+apac.coins-global.com
+citrix.coins-global.com
+ukire.coins-global.com
+us.coins-global.com
+login.coins-global.com

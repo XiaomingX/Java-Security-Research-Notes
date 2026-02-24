@@ -1,0 +1,6 @@
+reprise.zicethic.fr
+metrics.zicethic.fr
+pro.zicethic.fr
+aide.zicethic.fr
+blog.zicethic.fr
+uploads.zicethic.fr

@@ -1,0 +1,2 @@
+en.becustom.ca
+api.becustom.ca

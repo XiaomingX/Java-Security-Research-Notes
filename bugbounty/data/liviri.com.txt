@@ -1,0 +1,5 @@
+click.email.liviri.com
+mta.email.liviri.com
+image.email.liviri.com
+cloud.email.liviri.com
+view.email.liviri.com

@@ -1,0 +1,8 @@
+cpanel.mi-nurulhudakupang.sch.id
+cpcalendars.mi-nurulhudakupang.sch.id
+cpcontacts.mi-nurulhudakupang.sch.id
+mail.mi-nurulhudakupang.sch.id
+rdm.mi-nurulhudakupang.sch.id
+webdisk.mi-nurulhudakupang.sch.id
+webmail.mi-nurulhudakupang.sch.id
+ipv6.mi-nurulhudakupang.sch.id

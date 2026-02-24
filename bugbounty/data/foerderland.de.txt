@@ -1,0 +1,4 @@
+cp.foerderland.de
+mds.foerderland.de
+newsletter.foerderland.de
+dialog.foerderland.de

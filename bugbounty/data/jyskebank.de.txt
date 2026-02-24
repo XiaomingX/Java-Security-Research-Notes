@@ -1,0 +1,3 @@
+sip.jyskebank.de
+bankportal.jyskebank.de
+lyncdiscover.jyskebank.de

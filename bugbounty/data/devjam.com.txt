@@ -1,0 +1,4 @@
+files.devjam.com
+mail.devjam.com
+ftp.devjam.com
+dev-www.devjam.com

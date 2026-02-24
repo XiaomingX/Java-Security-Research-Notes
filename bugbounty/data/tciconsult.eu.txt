@@ -1,0 +1,6 @@
+sharepoint.tciconsult.eu
+newsletter.tciconsult.eu
+mail03.tciconsult.eu
+autodiscover.tciconsult.eu
+mail.tciconsult.eu
+mail02.tciconsult.eu

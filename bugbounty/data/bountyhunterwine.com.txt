@@ -1,0 +1,11 @@
+api.bountyhunterwine.com
+autodiscover.bountyhunterwine.com
+capig.bountyhunterwine.com
+crm.bountyhunterwine.com
+emlink.bountyhunterwine.com
+m.bountyhunterwine.com
+share.bountyhunterwine.com
+sv.bountyhunterwine.com
+test.bountyhunterwine.com
+testapi.bountyhunterwine.com
+cdn.bountyhunterwine.com

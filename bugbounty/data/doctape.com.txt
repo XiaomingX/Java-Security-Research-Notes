@@ -1,0 +1,7 @@
+developer.doctape.com
+my.doctape.com
+support.doctape.com
+api.doctape.com
+blog.doctape.com
+dc-one.doctape.com
+s.doctape.com

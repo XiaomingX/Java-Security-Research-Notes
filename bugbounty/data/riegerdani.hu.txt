@@ -1,0 +1,6 @@
+webmail.riegerdani.hu
+cpanel.riegerdani.hu
+cpcontacts.riegerdani.hu
+cpcalendars.riegerdani.hu
+webdisk.riegerdani.hu
+autodiscover.riegerdani.hu

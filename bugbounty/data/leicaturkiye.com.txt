@@ -1,0 +1,7 @@
+autodiscover.leicaturkiye.com
+mail.leicaturkiye.com
+webmail.leicaturkiye.com
+cpanel.leicaturkiye.com
+cpcalendars.leicaturkiye.com
+cpcontacts.leicaturkiye.com
+webdisk.leicaturkiye.com

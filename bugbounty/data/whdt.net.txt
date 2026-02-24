@@ -1,0 +1,7 @@
+imds.whdt.net
+m.whdt.net
+smtp.whdt.net
+mail.whdt.net
+ftp.whdt.net
+webmail.whdt.net
+inthepress.tplwww.whdt.net

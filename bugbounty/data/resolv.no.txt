@@ -1,0 +1,2 @@
+null.resolv.no
+test.resolv.no

@@ -1,0 +1,6 @@
+mx.sdcpublications.com
+webmaster.sdcpublications.com
+webadmin.sdcpublications.com
+static.sdcpublications.com
+_dmarc.sdcpublications.com
+downloads.sdcpublications.com

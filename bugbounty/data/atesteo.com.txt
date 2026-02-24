@@ -1,0 +1,5 @@
+userportal.atesteo.com
+staging.atesteo.com
+xmas.atesteo.com
+forum.atesteo.com
+karriere.atesteo.com

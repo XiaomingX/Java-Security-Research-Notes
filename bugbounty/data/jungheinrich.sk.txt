@@ -1,0 +1,10 @@
+autodiscover.jungheinrich.sk
+admin.shop.jungheinrich.sk
+news.jungheinrich.sk
+shop.jungheinrich.sk
+parts.jungheinrich.sk
+transfer.jungheinrich.sk
+newsletter.jungheinrich.sk
+admin.parts.jungheinrich.sk
+www2.jungheinrich.sk
+qa.staging.jungheinrich.sk

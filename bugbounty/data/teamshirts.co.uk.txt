@@ -1,0 +1,6 @@
+qa.teamshirts.co.uk
+release.teamshirts.co.uk
+staging.teamshirts.co.uk
+test.teamshirts.co.uk
+internal.teamshirts.co.uk
+wizard.teamshirts.co.uk

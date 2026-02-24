@@ -1,0 +1,10 @@
+webmail.guibock.net
+server.guibock.net
+mail.guibock.net
+cpanel.guibock.net
+ftp.guibock.net
+muz.guibock.net
+webdisk.guibock.net
+music.guibock.net
+cpcontacts.guibock.net
+cpcalendars.guibock.net

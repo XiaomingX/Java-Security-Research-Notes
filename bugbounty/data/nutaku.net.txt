@@ -1,0 +1,4 @@
+cdn1.images.nutaku.net
+docs.cross-promotion.nutaku.net
+play.nutaku.net
+store.nutaku.net

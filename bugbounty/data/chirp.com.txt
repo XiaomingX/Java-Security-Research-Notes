@@ -1,0 +1,14 @@
+com.zyq.chirp.com
+blog.chirp.com
+ns.chirp.com
+ww.chirp.com
+sch.chart.components.chirp.com
+tvcb1.chirp.com
+wwwb1.chirp.com
+feedback.chirp.com
+state.chirp.com
+wwwa1.chirp.com
+tvca1.chirp.com
+artemb2.chirp.com
+mail.chirp.com
+this.props.chirp.com

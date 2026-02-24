@@ -1,0 +1,14 @@
+akcija.kravasautomasinas.michelin.lv
+mlp.michelin.lv
+promo.michelin.lv
+mediaplatform.michelin.lv
+energysaver.michelin.lv
+programma.kravasautomasinas.michelin.lv
+programma.agro.michelin.lv
+mb.michelin.lv
+loterija.michelin.lv
+mks.michelin.lv
+agro-riepas.michelin.lv
+kampana.michelin.lv
+konkurss.michelin.lv
+ziemasriepas.michelin.lv

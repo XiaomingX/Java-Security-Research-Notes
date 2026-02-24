@@ -1,0 +1,2 @@
+sst.legacy.nu
+server.legacy.nu

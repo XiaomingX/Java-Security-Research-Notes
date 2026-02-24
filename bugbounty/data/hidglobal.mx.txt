@@ -1,0 +1,3 @@
+test.hidglobal.mx
+dev.hidglobal.mx
+ww.hidglobal.mx

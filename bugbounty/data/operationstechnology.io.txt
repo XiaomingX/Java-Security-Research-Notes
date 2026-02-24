@@ -1,0 +1,3 @@
+prometheus.esa.operationstechnology.io
+ebot7.guea.operationstechnology.io
+aws-api.operationstechnology.io

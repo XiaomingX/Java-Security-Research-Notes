@@ -1,0 +1,4 @@
+weboffice.sundolitt.com
+mail.sundolitt.com
+autodiscover.sundolitt.com
+legacy.sundolitt.com

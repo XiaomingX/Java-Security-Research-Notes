@@ -1,0 +1,3 @@
+materiality.prizepapers.de
+portal.prizepapers.de
+dev.prizepapers.de

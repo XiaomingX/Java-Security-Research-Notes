@@ -1,0 +1,7 @@
+oms-api-stg.coffeeandbagels.com
+oms-api.coffeeandbagels.com
+oms-api-qa.coffeeandbagels.com
+careers.coffeeandbagels.com
+locations.coffeeandbagels.com
+epay.coffeeandbagels.com
+catering.coffeeandbagels.com

@@ -1,0 +1,2 @@
+secure.teese.fi
+fs.adfs.teese.fi

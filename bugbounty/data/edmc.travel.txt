@@ -1,0 +1,7 @@
+autodiscover.edmc.travel
+cpanel.edmc.travel
+cpcalendars.edmc.travel
+cpcontacts.edmc.travel
+mail.edmc.travel
+webdisk.edmc.travel
+webmail.edmc.travel

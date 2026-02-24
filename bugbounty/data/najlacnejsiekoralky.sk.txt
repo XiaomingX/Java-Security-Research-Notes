@@ -1,0 +1,6 @@
+lh.najlacnejsiekoralky.sk
+mail.najlacnejsiekoralky.sk
+admin.najlacnejsiekoralky.sk
+smtp.najlacnejsiekoralky.sk
+mysql.najlacnejsiekoralky.sk
+blog.najlacnejsiekoralky.sk

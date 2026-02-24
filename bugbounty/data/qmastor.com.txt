@@ -1,0 +1,2 @@
+autodiscover.qmastor.com
+mail.qmastor.com

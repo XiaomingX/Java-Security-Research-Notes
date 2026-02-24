@@ -1,0 +1,2 @@
+mail.cityofroseburg.org
+vpn.cityofroseburg.org

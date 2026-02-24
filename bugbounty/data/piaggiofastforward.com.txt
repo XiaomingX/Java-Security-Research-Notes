@@ -1,0 +1,8 @@
+business.piaggiofastforward.com
+centra-dev.piaggiofastforward.com
+checkout.piaggiofastforward.com
+cloud.piaggiofastforward.com
+knowledge.piaggiofastforward.com
+podcast.piaggiofastforward.com
+shop.piaggiofastforward.com
+itsupport.piaggiofastforward.com

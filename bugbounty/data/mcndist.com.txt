@@ -1,0 +1,5 @@
+apptest.mcndist.com
+ec2.mcndist.com
+media.mcndist.com
+test.mcndist.com
+staging.mcndist.com

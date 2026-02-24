@@ -1,0 +1,15 @@
+back.sequo.es
+backup.sequo.es
+copia.sequo.es
+cpanel.sequo.es
+cpcalendars.sequo.es
+cpcontacts.sequo.es
+mail.backup.sequo.es
+nueva.sequo.es
+secuo.sequo.es
+webdisk.sequo.es
+webmail.sequo.es
+cliente.sequo.es
+clientes.sequo.es
+mail.sequo.es
+portal.sequo.es

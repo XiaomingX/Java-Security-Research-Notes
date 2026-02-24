@@ -1,0 +1,3 @@
+vpn.demcak.eu
+controll.demcak.eu
+portal.demcak.eu

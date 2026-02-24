@@ -1,0 +1,2 @@
+ecosystem.laravel.io
+paste.laravel.io

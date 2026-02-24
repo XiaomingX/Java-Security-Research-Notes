@@ -1,0 +1,10 @@
+aineisto.kktavastia.fi
+intra.kktavastia.fi
+zeus.kktavastia.fi
+adfs.kktavastia.fi
+pan.kktavastia.fi
+winhaweb.kktavastia.fi
+winha.kktavastia.fi
+moodle.kktavastia.fi
+student.kktavastia.fi
+studtent.kktavastia.fi

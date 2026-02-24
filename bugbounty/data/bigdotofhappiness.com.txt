@@ -1,0 +1,5 @@
+autodiscover.bigdotofhappiness.com
+blog.bigdotofhappiness.com
+ftp.bigdotofhappiness.com
+ordermanagement.bigdotofhappiness.com
+testsite.bigdotofhappiness.com

@@ -1,0 +1,11 @@
+mail.tiendaddvc.mx
+mcprod.tiendaddvc.mx
+mcstaging.tiendaddvc.mx
+cpanel.tiendaddvc.mx
+cpcalendars.tiendaddvc.mx
+cpcontacts.tiendaddvc.mx
+depositodental.tiendaddvc.mx
+test.tiendaddvc.mx
+webdisk.tiendaddvc.mx
+webmail.tiendaddvc.mx
+whm.tiendaddvc.mx

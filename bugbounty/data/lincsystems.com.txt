@@ -1,0 +1,9 @@
+autodiscover.lincsystems.com
+cim.lincsystems.com
+citrix.lincsystems.com
+mail.lincsystems.com
+rds.lincsystems.com
+social.lincsystems.com
+vpn-dr.lincsystems.com
+vpn.lincsystems.com
+lsysexchange.lincsystems.com

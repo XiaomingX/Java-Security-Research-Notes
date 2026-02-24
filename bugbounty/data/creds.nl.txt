@@ -1,0 +1,6 @@
+connect.creds.nl
+stats.creds.nl
+staging.creds.nl
+contact.creds.nl
+cdfc2.creds.nl
+vpn.creds.nl

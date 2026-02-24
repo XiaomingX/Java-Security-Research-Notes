@@ -1,0 +1,2 @@
+autoconfig.ultimatel.cz
+autodiscover.ultimatel.cz

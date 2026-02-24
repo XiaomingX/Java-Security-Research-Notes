@@ -1,0 +1,2 @@
+cloud.goertekusa.com
+ssl.goertekusa.com

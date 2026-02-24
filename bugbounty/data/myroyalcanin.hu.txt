@@ -1,0 +1,9 @@
+origin.stage.myroyalcanin.hu
+origin.stage.v2.myroyalcanin.hu
+stage.v2.myroyalcanin.hu
+origin.migration.myroyalcanin.hu
+origin.myroyalcanin.hu
+origin.preprod.myroyalcanin.hu
+preprod.myroyalcanin.hu
+stage.myroyalcanin.hu
+migration.myroyalcanin.hu

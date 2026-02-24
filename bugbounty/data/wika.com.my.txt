@@ -1,0 +1,2 @@
+email.wika.com.my
+autodiscover.wika.com.my

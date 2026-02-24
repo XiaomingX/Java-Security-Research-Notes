@@ -1,0 +1,15 @@
+gettingstarted.bimserver.org
+issues.bimserver.org
+ftp.bimserver.org
+foss4g.bimserver.org
+demo.bimserver.org
+breakfast.bimserver.org
+extend.bimserver.org
+dev.bimserver.org
+autoconfig.bimserver.org
+wiki.bimserver.org
+breakfast2011.bimserver.org
+support.bimserver.org
+tools.bimserver.org
+download.bimserver.org
+mail.bimserver.org

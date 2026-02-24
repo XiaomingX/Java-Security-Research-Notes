@@ -1,0 +1,6 @@
+gtm.bedandhome.gr
+old.bedandhome.gr
+mail.bedandhome.gr
+webdisk.bedandhome.gr
+cpanel.bedandhome.gr
+webmail.bedandhome.gr

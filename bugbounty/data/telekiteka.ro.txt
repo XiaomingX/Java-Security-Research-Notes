@@ -1,0 +1,6 @@
+cpanel.telekiteka.ro
+cpcalendars.telekiteka.ro
+cpcontacts.telekiteka.ro
+mail.telekiteka.ro
+webdisk.telekiteka.ro
+webmail.telekiteka.ro

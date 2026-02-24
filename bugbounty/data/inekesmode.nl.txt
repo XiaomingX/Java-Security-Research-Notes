@@ -1,0 +1,6 @@
+webdisk.inekesmode.nl
+shop.inekesmode.nl
+webmail.inekesmode.nl
+mta-sts.mail.inekesmode.nl
+mail.inekesmode.nl
+hostmaster.inekesmode.nl

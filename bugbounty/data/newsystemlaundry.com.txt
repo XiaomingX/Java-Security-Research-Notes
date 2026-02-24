@@ -1,0 +1,3 @@
+go.newsystemlaundry.com
+mbox.newsystemlaundry.com
+portal.newsystemlaundry.com

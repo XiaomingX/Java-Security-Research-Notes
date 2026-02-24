@@ -1,0 +1,4 @@
+acumatica.kimballinc.com
+dev.kimballinc.com
+link.kimballinc.com
+sandbox.kimballinc.com

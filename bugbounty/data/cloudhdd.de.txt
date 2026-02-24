@@ -1,0 +1,6 @@
+signal.cloudhdd.de
+talk.cloudhdd.de
+signaling.cloudhdd.de
+secure.cloudhdd.de
+stun.cloudhdd.de
+turn.cloudhdd.de

@@ -1,0 +1,7 @@
+stage.relaunch.evivamed.com
+tracking.evivamed.com
+files.evivamed.com
+stage-files.evivamed.com
+stage.evivamed.com
+mail.evivamed.com
+w1.evivamed.com

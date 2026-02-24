@@ -1,0 +1,8 @@
+autodiscover.strap.tech
+checkout.strap.tech
+mail.strap.tech
+cpanel.strap.tech
+pre-order.strap.tech
+stage.strap.tech
+webdisk.strap.tech
+webmail.strap.tech

@@ -1,0 +1,5 @@
+form.myjotform.com
+submit.myjotform.com
+dc-4a1b6ace.myjotform.com
+secure.myjotform.com
+max.myjotform.com

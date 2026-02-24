@@ -1,0 +1,5 @@
+content.beta.lahitapiola.fi
+dev.beta.lahitapiola.fi
+omar.beta.lahitapiola.fi
+test.beta.lahitapiola.fi
+uat.beta.lahitapiola.fi

@@ -1,0 +1,6 @@
+docs.cdap.io
+repository.cdap.io
+blog.cdap.io
+downloads.cdap.io
+hub.cdap.io
+mail.cdap.io

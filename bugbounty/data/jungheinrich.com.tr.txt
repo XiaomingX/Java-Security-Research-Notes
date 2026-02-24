@@ -1,0 +1,4 @@
+parts.jungheinrich.com.tr
+admin.parts.jungheinrich.com.tr
+newsletter.jungheinrich.com.tr
+www2.jungheinrich.com.tr

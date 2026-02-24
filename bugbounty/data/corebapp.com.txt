@@ -1,0 +1,3 @@
+mail.corebapp.com
+webmail.corebapp.com
+blog.corebapp.com

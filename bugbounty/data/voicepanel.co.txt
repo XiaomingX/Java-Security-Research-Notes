@@ -1,0 +1,3 @@
+app.voicepanel.co
+server.voicepanel.co
+preview.voicepanel.co

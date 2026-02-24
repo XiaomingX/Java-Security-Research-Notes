@@ -1,0 +1,5 @@
+cpanel.amazingcs.net
+cpcalendars.amazingcs.net
+cpcontacts.amazingcs.net
+webdisk.amazingcs.net
+webmail.amazingcs.net

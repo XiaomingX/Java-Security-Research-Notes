@@ -1,0 +1,6 @@
+origin.stage.v2.myroyalcanin.hr
+preprod.myroyalcanin.hr
+stage.myroyalcanin.hr
+origin.myroyalcanin.hr
+origin.stage.myroyalcanin.hr
+stage.v2.myroyalcanin.hr

@@ -1,0 +1,2 @@
+content.medical.olympusamerica.com
+m.medical.olympusamerica.com

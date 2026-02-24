@@ -1,0 +1,8 @@
+tech.houseoffun.com
+vipplus.houseoffun.com
+tech-ca1.houseoffun.com
+backoffice.houseoffun.com
+vipplus-akm.houseoffun.com
+hof-akm.houseoffun.com
+tech-preprod.houseoffun.com
+tech-va2.houseoffun.com

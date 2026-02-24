@@ -1,0 +1,7 @@
+stage.myroyalcanin.ro
+origin.preprod.myroyalcanin.ro
+origin.stage.myroyalcanin.ro
+origin.stage.v2.myroyalcanin.ro
+stage.v2.myroyalcanin.ro
+preprod.myroyalcanin.ro
+origin.myroyalcanin.ro

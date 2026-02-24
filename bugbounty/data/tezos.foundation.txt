@@ -1,0 +1,9 @@
+grants.tezos.foundation
+kyc-test.tezos.foundation
+prod.verification.tezos.foundation
+hello.app.verification.tezos.foundation
+backend.grants.tezos.foundation
+grants-dev.tezos.foundation
+verification.tezos.foundation
+grants-test.tezos.foundation
+grant-platform-backend.grants.tezos.foundation

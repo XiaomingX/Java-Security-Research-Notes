@@ -1,0 +1,6 @@
+mail.adamsgs.uk
+autodiscover.adamsgs.uk
+remote.adamsgs.uk
+download.mail.adamsgs.uk
+alumni.adamsgs.uk
+ftp.adamsgs.uk

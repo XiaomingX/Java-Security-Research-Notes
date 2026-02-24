@@ -1,0 +1,7 @@
+help.czgenepi.org
+api.staging.czgenepi.org
+oauth.dev.czgenepi.org
+galago-labs.czgenepi.org
+api.czgenepi.org
+staging.czgenepi.org
+galago.czgenepi.org

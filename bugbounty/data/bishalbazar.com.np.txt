@@ -1,0 +1,6 @@
+cpanel.bishalbazar.com.np
+demo.bishalbazar.com.np
+mail.bishalbazar.com.np
+webdisk.bishalbazar.com.np
+webmail.bishalbazar.com.np
+autodiscover.bishalbazar.com.np

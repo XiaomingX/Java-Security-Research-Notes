@@ -1,0 +1,2 @@
+api.flairfindr.ch
+cdn.flairfindr.ch

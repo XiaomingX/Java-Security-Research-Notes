@@ -1,0 +1,5 @@
+resources.mdic.org
+apf.mdic.org
+online.mdic.org
+www2.mdic.org
+archive.mdic.org

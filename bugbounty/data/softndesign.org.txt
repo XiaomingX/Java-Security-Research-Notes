@@ -1,0 +1,10 @@
+lists.softndesign.org
+secure.softndesign.org
+proxy.softndesign.org
+jitsi.softndesign.org
+jabber.softndesign.org
+www2.softndesign.org
+secure2.softndesign.org
+hmazet.softndesign.org
+babylon.softndesign.org
+visio.softndesign.org

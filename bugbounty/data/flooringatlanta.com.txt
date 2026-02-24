@@ -1,0 +1,7 @@
+mail.flooringatlanta.com
+autodiscover.flooringatlanta.com
+cpanel.flooringatlanta.com
+cpcalendars.flooringatlanta.com
+cpcontacts.flooringatlanta.com
+webdisk.flooringatlanta.com
+webmail.flooringatlanta.com

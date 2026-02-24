@@ -1,0 +1,11 @@
+bitscan.immogo.com
+old.immogo.com
+blog.immogo.com
+mail.immogo.com
+project.immogo.com
+admin.immogo.com
+munin.immogo.com
+gestion.immogo.com
+beheer.immogo.com
+mta-sts.mail.immogo.com
+postmaster.immogo.com

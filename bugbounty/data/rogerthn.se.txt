@@ -1,0 +1,10 @@
+www2.rogerthn.se
+mail2.rogerthn.se
+iloserver2016.rogerthn.se
+edgemax.rogerthn.se
+iloserver2016.hem.rogerthn.se
+grafana.rogerthn.se
+mail.rogerthn.se
+hem.rogerthn.se
+meet.hem.rogerthn.se
+ilo2.rogerthn.se

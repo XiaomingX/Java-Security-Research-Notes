@@ -1,0 +1,2 @@
+app.bostonbaybulls.com
+shop.bostonbaybulls.com

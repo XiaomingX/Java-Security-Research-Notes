@@ -1,0 +1,13 @@
+dd.footlocker.com.au
+help.footlocker.com.au
+launch.footlocker.com.au
+masterkey.footlocker.com.au
+sanl.footlocker.com.au
+stores.footlocker.com.au
+target.footlocker.com.au
+trk.bc.footlocker.com.au
+uat7.origin.footlocker.com.au
+dev.api.footlocker.com.au
+stage.api.footlocker.com.au
+test.api.footlocker.com.au
+uat.api.footlocker.com.au

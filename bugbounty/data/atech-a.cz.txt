@@ -1,0 +1,2 @@
+imap.atech-a.cz
+mail.atech-a.cz

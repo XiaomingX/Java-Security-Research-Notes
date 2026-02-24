@@ -1,0 +1,2 @@
+example.digitalassetlinks.org
+comptest4301.digitalassetlinks.org

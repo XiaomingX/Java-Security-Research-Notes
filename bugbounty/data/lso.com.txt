@@ -1,0 +1,7 @@
+beta.lso.com
+blog.lso.com
+gp.lso.com
+lso360ras01.lso.com
+secure.lso.com
+secured.lso.com
+terminal.lso.com

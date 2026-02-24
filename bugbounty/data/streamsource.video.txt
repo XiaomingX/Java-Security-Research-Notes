@@ -1,0 +1,3 @@
+invidious.streamsource.video
+new.streamsource.video
+mail.streamsource.video

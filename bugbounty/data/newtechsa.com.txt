@@ -1,0 +1,2 @@
+auth-1.local.newtechsa.com
+www2.newtechsa.com

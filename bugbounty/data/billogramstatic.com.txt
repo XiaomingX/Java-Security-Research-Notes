@@ -1,0 +1,2 @@
+site.billogramstatic.com
+sandbox.billogramstatic.com

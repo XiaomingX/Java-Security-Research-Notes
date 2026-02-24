@@ -1,0 +1,14 @@
+privelease.henriherman.nl
+beta.henriherman.nl
+images.henriherman.nl
+opel.henriherman.nl
+werkplaats.henriherman.nl
+exchange.henriherman.nl
+mail.werkplaats.henriherman.nl
+webmail.henriherman.nl
+mail1.henriherman.nl
+autodiscover.henriherman.nl
+remote.henriherman.nl
+_spf4.henriherman.nl
+_spf6.henriherman.nl
+mail.henriherman.nl

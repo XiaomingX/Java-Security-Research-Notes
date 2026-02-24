@@ -1,0 +1,5 @@
+mail.rinetplus.com
+webdisk.rinetplus.com
+webmail.rinetplus.com
+cpanel.rinetplus.com
+autodiscover.rinetplus.com

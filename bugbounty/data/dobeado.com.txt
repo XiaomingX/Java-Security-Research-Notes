@@ -1,0 +1,2 @@
+autodiscover.dobeado.com
+old.dobeado.com

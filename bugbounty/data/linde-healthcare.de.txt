@@ -1,0 +1,2 @@
+shop.linde-healthcare.de
+static.shop.linde-healthcare.de

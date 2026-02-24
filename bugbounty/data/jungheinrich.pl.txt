@@ -1,0 +1,4 @@
+admin.parts.jungheinrich.pl
+shop.jungheinrich.pl
+transfer.jungheinrich.pl
+www2.jungheinrich.pl

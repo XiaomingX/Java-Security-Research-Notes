@@ -1,0 +1,6 @@
+admin.twowaydirect.com
+app.twowaydirect.com
+blog.twowaydirect.com
+forms.twowaydirect.com
+login.twowaydirect.com
+web.twowaydirect.com

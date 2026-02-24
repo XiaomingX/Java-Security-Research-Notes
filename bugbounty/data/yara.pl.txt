@@ -1,0 +1,4 @@
+fpt.yara.pl
+beta.yara.pl
+pre.yara.pl
+int.yara.pl

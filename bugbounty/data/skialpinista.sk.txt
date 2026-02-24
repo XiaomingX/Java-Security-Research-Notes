@@ -1,0 +1,6 @@
+mail.skialpinista.sk
+smtp.skialpinista.sk
+mxin.skialpinista.sk
+m.skialpinista.sk
+mysql0.skialpinista.sk
+vvv.skialpinista.sk

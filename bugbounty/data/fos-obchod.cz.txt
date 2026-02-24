@@ -1,0 +1,2 @@
+partnersky.fos-obchod.cz
+autodiscover.fos-obchod.cz

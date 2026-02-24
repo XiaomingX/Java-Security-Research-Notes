@@ -1,0 +1,11 @@
+api.noizejeans.com
+cdn.noizejeans.com
+v2.noizejeans.com
+autodiscover.noizejeans.com
+bonus.noizejeans.com
+cpanel.noizejeans.com
+cpcalendars.noizejeans.com
+cpcontacts.noizejeans.com
+mail.noizejeans.com
+webdisk.noizejeans.com
+webmail.noizejeans.com

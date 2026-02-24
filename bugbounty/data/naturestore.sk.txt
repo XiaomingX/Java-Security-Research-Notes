@@ -1,0 +1,7 @@
+pspk.naturestore.sk
+cpcalendars.naturestore.sk
+webdisk.naturestore.sk
+cpcontacts.naturestore.sk
+webmail.naturestore.sk
+cpanel.naturestore.sk
+mail.naturestore.sk

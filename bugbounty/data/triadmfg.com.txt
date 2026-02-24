@@ -1,0 +1,11 @@
+autodiscover.triadmfg.com
+docs.triadmfg.com
+dsg.triadmfg.com
+exchange.triadmfg.com
+exchsrv.triadmfg.com
+letmein.triadmfg.com
+onboarding.triadmfg.com
+quotetracker.triadmfg.com
+vzsbcaas1.triadmfg.com
+vzsbcaas2.triadmfg.com
+triad-sl-exch.triadmfg.com

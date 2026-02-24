@@ -1,0 +1,17 @@
+exchange.satisfacts.com
+ssr.satisfacts.com
+login.satisfacts.com
+links.satisfacts.com
+mail.satisfacts.com
+support.satisfacts.com
+surveys.satisfacts.com
+ssnip.satisfacts.com
+dev.satisfacts.com
+ihelp.satisfacts.com
+blog.satisfacts.com
+optout.satisfacts.com
+sms-register.satisfacts.com
+thankyou.satisfacts.com
+rrg.satisfacts.com
+reports.satisfacts.com
+olr.satisfacts.com

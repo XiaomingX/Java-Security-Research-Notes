@@ -1,0 +1,5 @@
+almtexashhs.saas.microfocus.com
+supsspr-stg.microfocus.com
+prvssprs01.microfocus.com
+prvssprs02.microfocus.com
+www2.microfocus.com

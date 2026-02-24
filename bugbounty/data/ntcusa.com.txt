@@ -1,0 +1,7 @@
+smtp.ntcusa.com
+reports.ntcusa.com
+hglover.ntcusa.com
+ms.ntcusa.com
+demo.ntcusa.com
+hms.ntcusa.com
+jamestuggle.ntcusa.com

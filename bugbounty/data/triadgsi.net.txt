@@ -1,0 +1,3 @@
+access.triadgsi.net
+login.triadgsi.net
+forum.triadgsi.net

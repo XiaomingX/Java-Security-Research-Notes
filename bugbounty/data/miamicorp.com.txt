@@ -1,0 +1,8 @@
+autodiscover.miamicorp.com
+go.miamicorp.com
+go2.miamicorp.com
+mail.miamicorp.com
+p21.miamicorp.com
+p21api.miamicorp.com
+rds.miamicorp.com
+visualizer.miamicorp.com

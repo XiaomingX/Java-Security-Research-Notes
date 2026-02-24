@@ -1,0 +1,10 @@
+e-zine.nluug.nl
+archief-website.nluug.nl
+cfp.nluug.nl
+archief.nluug.nl
+ftp.nluug.nl
+www2.nluug.nl
+jitsi.nluug.nl
+leden.nluug.nl
+webdav.nluug.nl
+www-test.nluug.nl

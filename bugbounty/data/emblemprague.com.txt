@@ -1,0 +1,3 @@
+autodiscover.emblemprague.com
+dexter.emblemprague.com
+book.emblemprague.com

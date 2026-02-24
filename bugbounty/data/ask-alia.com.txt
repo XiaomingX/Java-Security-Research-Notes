@@ -1,0 +1,5 @@
+stg.ask-alia.com
+dev.ask-alia.com
+prod.ask-alia.com
+qa.ask-alia.com
+uat.ask-alia.com

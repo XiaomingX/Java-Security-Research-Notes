@@ -1,0 +1,15 @@
+uem.techpixels.de
+navi.techpixels.de
+srv2.techpixels.de
+wiki.techpixels.de
+gsst-server.techpixels.de
+ts.techpixels.de
+smtp.techpixels.de
+autodiscover.techpixels.de
+webmail.techpixels.de
+ticket.techpixels.de
+mc.techpixels.de
+firewall.techpixels.de
+horst.techpixels.de
+imap.techpixels.de
+gsst.techpixels.de

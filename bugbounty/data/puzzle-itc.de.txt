@@ -1,0 +1,11 @@
+time.puzzle-itc.de
+ansible.puzzle-itc.de
+meet.puzzle-itc.de
+conference.puzzle-itc.de
+learn.puzzle-itc.de
+m.puzzle-itc.de
+calendar.puzzle-itc.de
+files.puzzle-itc.de
+groups.puzzle-itc.de
+mail.puzzle-itc.de
+kalender.puzzle-itc.de

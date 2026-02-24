@@ -1,0 +1,5 @@
+autodiscover.stamfordjcc.org
+efinesstri.stamfordjcc.org
+mail.stamfordjcc.org
+old.stamfordjcc.org
+reg.stamfordjcc.org

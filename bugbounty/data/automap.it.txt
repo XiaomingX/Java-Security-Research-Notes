@@ -1,0 +1,2 @@
+cdn.automap.it
+mail.automap.it

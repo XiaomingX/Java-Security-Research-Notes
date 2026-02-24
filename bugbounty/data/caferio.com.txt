@@ -1,0 +1,10 @@
+tacoboutit.caferio.com
+bulkgiftcards.caferio.com
+crmsql01.caferio.com
+giftcards.caferio.com
+ninjio.caferio.com
+qa.caferio.com
+vcenter.caferio.com
+vmpscs01.caferio.com
+vpn.caferio.com
+wifi.caferio.com

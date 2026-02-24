@@ -1,0 +1,6 @@
+webdisk.clarefonda.net
+cpanel.clarefonda.net
+mail.clarefonda.net
+webmail.clarefonda.net
+cpcontacts.clarefonda.net
+cpcalendars.clarefonda.net

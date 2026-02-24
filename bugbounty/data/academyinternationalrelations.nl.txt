@@ -1,0 +1,4 @@
+feeds.academyinternationalrelations.nl
+magazinesintern.academyinternationalrelations.nl
+magazines.academyinternationalrelations.nl
+opendata.academyinternationalrelations.nl

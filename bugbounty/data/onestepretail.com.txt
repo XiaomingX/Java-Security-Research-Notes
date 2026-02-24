@@ -1,0 +1,10 @@
+autodiscover.onestepretail.com
+blog.onestepretail.com
+info.onestepretail.com
+kb.onestepretail.com
+legal.onestepretail.com
+mail.onestepretail.com
+psa1.onestepretail.com
+billpay.onestepretail.com
+email.onestepretail.com
+psadev.onestepretail.com

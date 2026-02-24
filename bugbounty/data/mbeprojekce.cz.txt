@@ -1,0 +1,2 @@
+mail.mbeprojekce.cz
+ftp.mbeprojekce.cz

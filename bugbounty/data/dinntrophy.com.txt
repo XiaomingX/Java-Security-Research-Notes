@@ -1,0 +1,4 @@
+dev.dinntrophy.com
+img.enews.dinntrophy.com
+r.enews.dinntrophy.com
+orchestrator.dinntrophy.com

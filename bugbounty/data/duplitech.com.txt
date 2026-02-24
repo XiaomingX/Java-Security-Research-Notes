@@ -1,0 +1,5 @@
+adfs.duplitech.com
+post.duplitech.com
+remote.duplitech.com
+ondemand.duplitech.com
+vpn.duplitech.com

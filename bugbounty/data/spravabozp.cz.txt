@@ -1,0 +1,9 @@
+reports.spravabozp.cz
+dev.spravabozp.cz
+test.spravabozp.cz
+doc.spravabozp.cz
+skoleni.spravabozp.cz
+crm.spravabozp.cz
+reporty.spravabozp.cz
+docepreco.mma.doc.spravabozp.cz
+smtp.spravabozp.cz

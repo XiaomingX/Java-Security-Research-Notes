@@ -1,0 +1,10 @@
+ads.homemakers.com
+blog.homemakers.com
+catalog.homemakers.com
+googletag.homemakers.com
+hractions.homemakers.com
+kiosk.homemakers.com
+launch.homemakers.com
+tableau.homemakers.com
+truckroute.homemakers.com
+tspot.homemakers.com

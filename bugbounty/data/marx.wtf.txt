@@ -1,0 +1,10 @@
+wg.marx.wtf
+ryf.marx.wtf
+vpn.marx.wtf
+tor-exit.marx.wtf
+tor.marx.wtf
+wifi.marx.wtf
+kibana.marx.wtf
+kritis.marx.wtf
+grafana.marx.wtf
+prometheus.marx.wtf

@@ -1,0 +1,4 @@
+alerts.edc.watergate.gr
+automation.watergate.gr
+erp.edc.watergate.gr
+ayachts.watergate.gr

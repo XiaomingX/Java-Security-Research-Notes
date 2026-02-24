@@ -1,0 +1,2 @@
+sfdc-assets.forspotify.com
+_dmarc.forspotify.com

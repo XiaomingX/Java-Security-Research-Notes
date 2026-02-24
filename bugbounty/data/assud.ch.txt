@@ -1,0 +1,2 @@
+autodiscover.assud.ch
+exchange.assud.ch

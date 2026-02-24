@@ -1,0 +1,2 @@
+server.suzukli.com
+mx.suzukli.com

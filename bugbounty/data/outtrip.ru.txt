@@ -1,0 +1,5 @@
+clouds.outtrip.ru
+ja.outtrip.ru
+gitlab.outtrip.ru
+cloud.outtrip.ru
+registry.outtrip.ru

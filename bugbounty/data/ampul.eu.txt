@@ -1,0 +1,10 @@
+server.ampul.eu
+mx.ampul.eu
+stats.ampul.eu
+mail.ampul.eu
+ftp.ampul.eu
+vps.ampul.eu
+vpn.ampul.eu
+host.ampul.eu
+webmail.ampul.eu
+smtp.ampul.eu

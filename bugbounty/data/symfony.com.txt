@@ -1,0 +1,3 @@
+blog.insight.symfony.com
+get.insight.symfony.com
+sandbox.cmf.symfony.com

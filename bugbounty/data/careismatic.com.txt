@@ -1,0 +1,9 @@
+bi.careismatic.com
+cbisftp2.careismatic.com
+click.emails.careismatic.com
+cloud.emails.careismatic.com
+image.emails.careismatic.com
+riteaid.careismatic.com
+view.emails.careismatic.com
+wmos972app01.careismatic.com
+wmos972app02.careismatic.com

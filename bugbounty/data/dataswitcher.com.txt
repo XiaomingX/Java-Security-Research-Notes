@@ -1,0 +1,9 @@
+quickbooks.dataswitcher.com
+vpn.dataswitcher.com
+dashboard.dataswitcher.com
+dashboard-acc.dataswitcher.com
+app.dataswitcher.com
+status.dataswitcher.com
+vps6.dataswitcher.com
+support.dataswitcher.com
+tijdelijk.dataswitcher.com

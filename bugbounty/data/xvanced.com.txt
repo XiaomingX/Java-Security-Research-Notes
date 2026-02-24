@@ -1,0 +1,7 @@
+test.xvanced.com
+extras.xvanced.com
+ibs-vermessung.preview.xvanced.com
+cdn.xvanced.com
+ziv.xvanced.com
+boilerplate.xvanced.com
+customizer.xvanced.com

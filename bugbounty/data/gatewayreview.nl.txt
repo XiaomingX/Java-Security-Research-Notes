@@ -1,0 +1,9 @@
+opendata.english.gatewayreview.nl
+magazines.english.gatewayreview.nl
+opendata.gatewayreview.nl
+feeds.english.gatewayreview.nl
+magazinesintern.gatewayreview.nl
+feeds.gatewayreview.nl
+magazinesintern.english.gatewayreview.nl
+english.gatewayreview.nl
+magazines.gatewayreview.nl

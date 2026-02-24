@@ -1,0 +1,8 @@
+updates.bearer.com
+design.bearer.com
+docs.bearer.com
+cloud.docs.bearer.com
+track.bearer.com
+bellyache.bearer.com
+help.bearer.com
+cloud-docs.bearer.com

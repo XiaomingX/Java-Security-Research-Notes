@@ -1,0 +1,9 @@
+magento.trepallini.hr
+shop.trepallini.hr
+store.trepallini.hr
+demo.trepallini.hr
+dev.trepallini.hr
+test.trepallini.hr
+mail.trepallini.hr
+old.trepallini.hr
+staging.trepallini.hr

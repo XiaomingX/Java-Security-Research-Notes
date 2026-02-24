@@ -1,0 +1,5 @@
+support.frontspin.com
+app.frontspin.com
+p2.frontspin.com
+status.frontspin.com
+beta.frontspin.com

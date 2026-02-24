@@ -1,0 +1,4 @@
+custmx.cscdns.net.bowkerbookdata.com
+mta-sts.custmx.cscdns.net.bowkerbookdata.com
+net.bowkerbookdata.com
+cscdns.net.bowkerbookdata.com

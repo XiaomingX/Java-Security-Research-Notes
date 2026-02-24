@@ -1,0 +1,4 @@
+loopback.ottermedia.com
+localhost.ottermedia.com
+autodiscover.ottermedia.com
+server.ottermedia.com

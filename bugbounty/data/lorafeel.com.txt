@@ -1,0 +1,4 @@
+test.lorafeel.com
+w.lorafeel.com
+m.lorafeel.com
+home.lorafeel.com

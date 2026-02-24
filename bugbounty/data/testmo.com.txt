@@ -1,0 +1,8 @@
+backend.testmo.com
+staging.backend.testmo.com
+manage.testmo.com
+staging.manage.testmo.com
+docs.testmo.com
+helpspot.testmo.com
+staging.www.testmo.com
+status.testmo.com

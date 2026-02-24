@@ -1,0 +1,6 @@
+status.robotemi.com
+email.robotemi.com
+market.robotemi.com
+training.robotemi.com
+developer.robotemi.com
+center.robotemi.com

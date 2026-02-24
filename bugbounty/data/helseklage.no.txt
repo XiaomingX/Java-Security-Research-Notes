@@ -1,0 +1,8 @@
+qa-minside2.helseklage.no
+dig.helseklage.no
+minside.helseklage.no
+qa-minside.helseklage.no
+minside2.helseklage.no
+lyncdiscover.helseklage.no
+sip.helseklage.no
+webext.helseklage.no

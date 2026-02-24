@@ -1,0 +1,15 @@
+airmini.resmed.co.uk
+autodiscover.resmed.co.uk
+eudev-www.resmed.co.uk
+euuat-www.resmed.co.uk
+mail.resmed.co.uk
+origin.resmed.co.uk
+gw.resmed.co.uk
+mx.resmed.co.uk
+cm._domainkey.resmed.co.uk
+vpn.resmed.co.uk
+_dmarc.resmed.co.uk
+hostmaster.resmed.co.uk
+ps.resmed.co.uk
+mysleep.resmed.co.uk
+airminisurvey.resmed.co.uk

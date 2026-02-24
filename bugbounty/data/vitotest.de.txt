@@ -1,0 +1,2 @@
+metabase.vitotest.de
+staging.vitotest.de

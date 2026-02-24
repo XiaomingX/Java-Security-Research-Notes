@@ -1,0 +1,5 @@
+stats.dombiny.at
+autodiscover.dombiny.at
+foundry.dombiny.at
+search.dombiny.at
+git.dombiny.at

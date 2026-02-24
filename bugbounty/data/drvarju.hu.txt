@@ -1,0 +1,8 @@
+cpanel.drvarju.hu
+webmail.drvarju.hu
+cpcalendars.drvarju.hu
+papaiugyved.drvarju.hu
+autodiscover.drvarju.hu
+mail.drvarju.hu
+webdisk.drvarju.hu
+cpcontacts.drvarju.hu

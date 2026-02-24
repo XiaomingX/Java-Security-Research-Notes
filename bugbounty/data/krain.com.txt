@@ -1,0 +1,10 @@
+controllerapi.krain.com
+gp.krain.com
+myblkr.krain.com
+myproex.krain.com
+old.krain.com
+sitemaster.krain.com
+support.krain.com
+test.myproex.krain.com
+test.krain.com
+mail.krain.com

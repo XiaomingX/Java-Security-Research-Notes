@@ -1,0 +1,4 @@
+com.pixonic.wwr.ch
+com.example.wwr.ch
+www.correo.thechocolw.wwr.ch
+webmail.wwr.ch

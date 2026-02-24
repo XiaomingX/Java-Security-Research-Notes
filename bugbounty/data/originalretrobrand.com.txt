@@ -1,0 +1,7 @@
+autodiscover.originalretrobrand.com
+mail.originalretrobrand.com
+cpanel.originalretrobrand.com
+cpcalendars.originalretrobrand.com
+cpcontacts.originalretrobrand.com
+webdisk.originalretrobrand.com
+webmail.originalretrobrand.com

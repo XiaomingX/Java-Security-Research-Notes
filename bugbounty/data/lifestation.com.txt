@@ -1,0 +1,7 @@
+autodiscover.lifestation.com
+buy.lifestation.com
+lspartner.lifestation.com
+mail.lifestation.com
+slmail.lifestation.com
+atlas.lifestation.com
+call.lifestation.com

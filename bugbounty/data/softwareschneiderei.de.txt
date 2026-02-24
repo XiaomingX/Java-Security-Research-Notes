@@ -1,0 +1,4 @@
+download.softwareschneiderei.de
+intranet.softwareschneiderei.de
+secret.softwareschneiderei.de
+alt.softwareschneiderei.de

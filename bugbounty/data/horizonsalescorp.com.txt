@@ -1,0 +1,16 @@
+autodiscover.horizonsalescorp.com
+backup.horizonsalescorp.com
+bitwarden.horizonsalescorp.com
+chat.horizonsalescorp.com
+cloud.horizonsalescorp.com
+elastic.horizonsalescorp.com
+es-transport.horizonsalescorp.com
+horizonconnect.horizonsalescorp.com
+mail.horizonsalescorp.com
+mail3.horizonsalescorp.com
+merchrd.horizonsalescorp.com
+mma.horizonsalescorp.com
+mta-sts.horizonsalescorp.com
+sync.horizonsalescorp.com
+ts2.horizonsalescorp.com
+zabbix.horizonsalescorp.com

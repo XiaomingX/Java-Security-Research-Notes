@@ -1,0 +1,9 @@
+account-uat.canon.sk
+lyncdiscover.canon.sk
+sip.canon.sk
+account.canon.sk
+sip2.canon.sk
+lyncdiscoverinternal.canon.sk
+prl.canon.sk
+mx.canon.sk
+webmail.canon.sk

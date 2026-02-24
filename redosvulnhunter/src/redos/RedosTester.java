@@ -17,124 +17,149 @@ import redos.regex.Matcher;
 import redos.regex.Pattern;
 
 public class RedosTester {
-	public static void vulValidation(String inputPath, String outputPath) throws IOException {
-		File attackInfo = new File(inputPath);
-		if (attackInfo.isFile()) {
-			FileInputStream inputStream = new FileInputStream(attackInfo.getPath());
-			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
-			String attackInfoJson = null;
-			String regex = null;
-			String prefix = null;
-			String attack_core = null;
-			String suffix = null;
-			int max_length = 128;
-			double threshold = 1e8;
+    private static final int DEFAULT_MAX_LENGTH = 128;
+    private static final double DEFAULT_THRESHOLD = 1e8;
 
-			File writeVul = new File(outputPath);
-			writeVul.createNewFile();
-			BufferedWriter outVul = new BufferedWriter(new FileWriter(writeVul));
+    public static void main(String[] args) throws Exception {
+        if (args.length == 0) {
+            testDataset();
+        } else if (args.length == 1) {
+            testSingleRegex(args[0]);
+        } else if (args.length == 2) {
+            vulValidation(args[0], args[1]);
+        } else {
+            printUsage();
+        }
+    }
 
-			while ((attackInfoJson = bufferedReader.readLine()) != null) {
-				JSONObject attackInfoObject = JSONObject.parseObject(attackInfoJson);
-				regex = attackInfoObject.getString("regex");
-				prefix = attackInfoObject.getString("prefix");
-				attack_core = attackInfoObject.getString("pump");
-				suffix = attackInfoObject.getString("suffix");
-				int repeat_cnt = (max_length - prefix.length() - suffix.length()) / attack_core.length();
-				String attack_string = "";
-				if (repeat_cnt < 1) {
-					attack_string = prefix + suffix;
-					if (attack_string.length() > max_length)
-						attack_string = attack_string.substring(0, max_length - 1);
-				} else {
-					String repeated = new String(new char[repeat_cnt]).replace("\0", attack_core);
-					attack_string = prefix + repeated + suffix;
-				}
-				System.out.print(regex + "\n");
+    private static void printUsage() {
+        System.out.println("Usage:");
+        System.out.println("  java -jar RedosVulnHunter.jar <regex>              # Test single regex");
+        System.out.println("  java -jar RedosVulnHunter.jar                      # Test dataset in 'data/'");
+        System.out.println("  java -jar RedosVulnHunter.jar <input> <output>     # Validate attack payloads");
+    }
 
-				JSONObject jsonObject = new JSONObject();
-				jsonObject.put("pattern", regex);
-				jsonObject.put("input", attack_string);
-				System.out.print(jsonObject + "\n");
+    public static void testSingleRegex(String regex) {
+        System.out.println("[*] Testing single regex: " + regex);
+        try {
+            Pattern p = Pattern.compile(regex);
+            Analyzer analyzer = new Analyzer(p, DEFAULT_MAX_LENGTH);
+            analyzer.doStaticAnalysis();
+            
+            try (BufferedWriter log = new BufferedWriter(new OutputStreamWriter(System.out))) {
+                analyzer.doDynamicAnalysis(log, -1, 1e5);
+                log.flush();
+            }
 
-				try {
-					Pattern p = Pattern.compile(regex);
-					Matcher m = p.matcher(attack_string, new Trace(threshold, false));
-					Trace t = m.find();
+            if (!analyzer.isVulnerable()) {
+                System.out.println("[-] No vulnerability detected.");
+            }
+        } catch (Exception e) {
+            System.err.println("[!] Error testing regex: " + e.getMessage());
+        }
+    }
 
-					System.out.print(t.getMatchSteps() + "\n");
-					if (t.getMatchSteps() > 1e5) {
-						outVul.write(regex + "\n");
-					}
-				} catch (Exception e) {
-					System.out.print("0\n");
-				}
-			}
+    public static void vulValidation(String inputPath, String outputPath) throws IOException {
+        File inputFile = new File(inputPath);
+        if (!inputFile.exists()) {
+            System.err.println("[!] Input file not found: " + inputPath);
+            return;
+        }
 
-			inputStream.close();
-			bufferedReader.close();
-			outVul.flush();
-			outVul.close();
-		}
-	}
+        System.out.println("[*] Validating vulnerabilities from: " + inputPath);
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile)));
+             BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath))) {
 
-	public static void testSingleRegex(String regex) throws Exception {
-		int max_length = 128;
-		double threshold = 1e5;
-		BufferedWriter log = new BufferedWriter(new OutputStreamWriter(System.out));
-		Pattern p = Pattern.compile(regex);
-		Analyzer redosAnalyzer = new Analyzer(p, max_length);
-		redosAnalyzer.doStaticAnalysis();
-		redosAnalyzer.doDynamicAnalysis(log, -1, threshold);
-		if (!redosAnalyzer.isVulnerable())
-			System.out.print("Contains no vulnerablity\n");
-		log.flush();
-	}
+            String line;
+            while ((line = reader.readLine()) != null) {
+                processValidationLine(line, writer);
+            }
+        }
+        System.out.println("[+] Validation complete. Results saved to: " + outputPath);
+    }
 
-	public static void testDataset() throws IOException {
-		File testDir = new File("data");
-		for (File file : testDir.listFiles()) {
-			File writeVul = new File("result/vul-" + file.toPath().getFileName());
-			writeVul.createNewFile();
-			BufferedWriter outVul = new BufferedWriter(new FileWriter(writeVul));
+    private static void processValidationLine(String line, BufferedWriter writer) {
+        try {
+            JSONObject obj = JSONObject.parseObject(line);
+            String regex = obj.getString("regex");
+            String prefix = obj.getString("prefix");
+            String pump = obj.getString("pump");
+            String suffix = obj.getString("suffix");
 
-			if (file.isFile()) {
-				FileInputStream inputStream = new FileInputStream(file.getPath());
-				BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String attackString = generateAttackString(prefix, pump, suffix, DEFAULT_MAX_LENGTH);
+            
+            System.out.println("[*] Validating: " + regex);
+            Pattern p = Pattern.compile(regex);
+            Matcher m = p.matcher(attackString, new Trace(DEFAULT_THRESHOLD, false));
+            Trace t = m.find();
 
-				String regex = null;
-				int max_length = 128;
-				double threshold = 1e5;
-				int cnt = 0;
-				while ((regex = bufferedReader.readLine()) != null) {
-					try {
-						System.out.print(regex + "\n");
-						Pattern p = Pattern.compile(regex);
-						Analyzer redosAnalyzer = new Analyzer(p, max_length);
-						redosAnalyzer.doStaticAnalysis();
-						redosAnalyzer.doDynamicAnalysis(outVul, cnt, threshold);
-					} catch (java.util.regex.PatternSyntaxException e) {}
-					cnt += 1;
-				}
+            if (t.getMatchSteps() > 1e5) {
+                writer.write(regex + "\n");
+                System.out.println("[!] VULNERABLE: steps=" + t.getMatchSteps());
+            }
+        } catch (Exception e) {
+            System.err.println("[!] Failed to process line: " + e.getMessage());
+        }
+    }
 
-				inputStream.close();
-				bufferedReader.close();
-			}
-			outVul.flush();
-			outVul.close();
+    private static String generateAttackString(String prefix, String pump, String suffix, int maxLength) {
+        int repeatCnt = (maxLength - prefix.length() - suffix.length()) / pump.length();
+        if (repeatCnt < 1) {
+            String combined = prefix + suffix;
+            return combined.length() > maxLength ? combined.substring(0, maxLength) : combined;
+        }
+        
+        StringBuilder sb = new StringBuilder(prefix);
+        for (int i = 0; i < repeatCnt; i++) {
+            sb.append(pump);
+        }
+        sb.append(suffix);
+        return sb.toString();
+    }
 
-		}
-		System.out.print("finished\n");
-	}
+    public static void testDataset() throws IOException {
+        File dataDir = new File("data");
+        if (!dataDir.exists() || !dataDir.isDirectory()) {
+            System.err.println("[!] 'data/' directory not found.");
+            return;
+        }
 
-	public static void main(String[] args) throws Exception {
-		if (args.length == 1)
-			RedosTester.testSingleRegex(args[0]);
-		else if (args.length == 2)
-			RedosTester.vulValidation(args[0], args[1]);
-		else
-			RedosTester.testDataset();
-	}
+        File[] files = dataDir.listFiles();
+        if (files == null) return;
 
+        for (File file : files) {
+            if (file.isFile()) {
+                processDatasetFile(file);
+            }
+        }
+        System.out.println("[+] Dataset testing finished.");
+    }
+
+    private static void processDatasetFile(File file) throws IOException {
+        String outputName = "result/vul-" + file.getName();
+        new File("result").mkdirs();
+        
+        System.out.println("[*] Processing file: " + file.getName());
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+             BufferedWriter writer = new BufferedWriter(new FileWriter(outputName))) {
+
+            String regex;
+            int count = 0;
+            while ((regex = reader.readLine()) != null) {
+                testAndLogRegex(regex, count++, writer);
+            }
+        }
+    }
+
+    private static void testAndLogRegex(String regex, int index, BufferedWriter writer) {
+        try {
+            Pattern p = Pattern.compile(regex);
+            Analyzer analyzer = new Analyzer(p, DEFAULT_MAX_LENGTH);
+            analyzer.doStaticAnalysis();
+            analyzer.doDynamicAnalysis(writer, index, 1e5);
+        } catch (Exception e) {
+            // Ignore syntax errors in datasets
+        }
+    }
 }

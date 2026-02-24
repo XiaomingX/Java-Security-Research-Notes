@@ -1,0 +1,4 @@
+notifications.mail.inframationnews.com
+alternate.inframationnews.com
+infralogic.inframationnews.com
+staging-aslive.inframationnews.com

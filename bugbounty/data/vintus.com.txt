@@ -1,0 +1,3 @@
+printportal.vintus.com
+remote.vintus.com
+wireless.vintus.com

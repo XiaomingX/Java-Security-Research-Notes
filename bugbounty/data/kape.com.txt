@@ -1,0 +1,2 @@
+api.jwks.kape.com
+login.kape.com

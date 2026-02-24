@@ -1,0 +1,9 @@
+redirect.hirschmann.com
+translate.hirschmann.com
+doc.hirschmann.com
+wiki.hirschmann.com
+convert.hirschmann.com
+sra.hirschmann.com
+status.sra.hirschmann.com
+edesk.hirschmann.com
+licenseportal.sra.hirschmann.com

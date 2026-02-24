@@ -1,0 +1,2 @@
+ns2.ariacloud.ca
+ns1.ariacloud.ca

@@ -1,0 +1,3 @@
+ftp.engineers-shop.cz
+mail.engineers-shop.cz
+autoconfig.engineers-shop.cz

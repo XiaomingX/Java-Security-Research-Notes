@@ -1,0 +1,5 @@
+blog.synapse.ai
+staging.synapse.ai
+tokensale.synapse.ai
+bot.synapse.ai
+presale.synapse.ai

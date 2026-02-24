@@ -1,0 +1,4 @@
+fuelportal.tristartn.com
+rs.tristartn.com
+staging.tristartn.com
+tristarcares.tristartn.com

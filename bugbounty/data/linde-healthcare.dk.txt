@@ -1,0 +1,2 @@
+shop.linde-healthcare.dk
+static.shop.linde-healthcare.dk

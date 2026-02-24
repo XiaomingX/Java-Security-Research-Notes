@@ -1,0 +1,6 @@
+sub.mycloud.co.at
+dokumanager.mycloud.co.at
+forms.mycloud.co.at
+nx.mycloud.co.at
+web.mycloud.co.at
+piwik.mycloud.co.at

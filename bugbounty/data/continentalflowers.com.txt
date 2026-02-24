@@ -1,0 +1,7 @@
+autodiscover.continentalflowers.com
+gp.continentalflowers.com
+mail.continentalflowers.com
+portal.continentalflowers.com
+rds.continentalflowers.com
+testing.continentalflowers.com
+webmail.continentalflowers.com

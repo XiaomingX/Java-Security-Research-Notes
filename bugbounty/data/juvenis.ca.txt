@@ -1,0 +1,3 @@
+new.juvenis.ca
+azure.juvenis.ca
+hostmaster.juvenis.ca

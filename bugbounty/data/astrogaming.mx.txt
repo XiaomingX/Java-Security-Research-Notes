@@ -1,0 +1,3 @@
+blog.astrogaming.mx
+catalog.astrogaming.mx
+prod.astrogaming.mx

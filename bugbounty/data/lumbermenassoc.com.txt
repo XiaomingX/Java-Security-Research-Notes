@@ -1,0 +1,2 @@
+remote.lumbermenassoc.com
+vpn.lumbermenassoc.com

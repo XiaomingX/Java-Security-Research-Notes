@@ -1,0 +1,11 @@
+foz-dev.fozzels.com
+l.fozzels.com
+stats.fozzels.com
+mt-link.fozzels.com
+status.fozzels.com
+woo.fozzels.com
+foz-hetzner.fozzels.com
+foz-staging.fozzels.com
+app.fozzels.com
+prelive.fozzels.com
+demo.fozzels.com

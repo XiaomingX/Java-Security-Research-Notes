@@ -1,0 +1,4 @@
+magazine.lorealprofessionnel.id
+oatm.lorealprofessionnel.id
+view.news.lorealprofessionnel.id
+pages.news.lorealprofessionnel.id

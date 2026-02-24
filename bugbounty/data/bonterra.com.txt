@@ -1,0 +1,3 @@
+mobile.bonterra.com
+shop.bonterra.com
+staging.bonterra.com

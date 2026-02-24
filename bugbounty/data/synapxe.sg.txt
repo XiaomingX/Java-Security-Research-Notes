@@ -1,0 +1,5 @@
+cms.synapxe.sg
+id-uat.synapxe.sg
+cm-uat.synapxe.sg
+careers-public-healthtech-jobs.synapxe.sg
+healthtech15.synapxe.sg

@@ -1,0 +1,3 @@
+static.qlika.com
+server.qlika.com
+cf-ssl45065-protected-static.qlika.com

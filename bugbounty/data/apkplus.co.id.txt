@@ -1,0 +1,7 @@
+cloud.apkplus.co.id
+hq.apkplus.co.id
+inventree.apkplus.co.id
+mailserver.apkplus.co.id
+cpcalendars.apkplus.co.id
+cpcontacts.apkplus.co.id
+cpanel.apkplus.co.id

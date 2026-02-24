@@ -1,0 +1,2 @@
+mail.dark.guru
+smtp.dark.guru

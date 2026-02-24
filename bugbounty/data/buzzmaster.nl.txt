@@ -1,0 +1,3 @@
+mail.buzzmaster.nl
+oud.buzzmaster.nl
+_sipfederationtls._tcp.buzzmaster.nl

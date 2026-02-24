@@ -1,0 +1,6 @@
+dev.purehaven.com
+extranet.purehaven.com
+shop.purehaven.com
+test.purehaven.com
+tools.purehaven.com
+vpn.purehaven.com

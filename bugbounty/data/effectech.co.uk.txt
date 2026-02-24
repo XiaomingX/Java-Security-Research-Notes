@@ -1,0 +1,7 @@
+smart.effectech.co.uk
+hubris.effectech.co.uk
+intranet.effectech.co.uk
+jabber.effectech.co.uk
+mail.effectech.co.uk
+hubris-dev.effectech.co.uk
+fserve.effectech.co.uk

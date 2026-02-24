@@ -1,0 +1,5 @@
+workday.databycloud.com
+dashboard.databycloud.com
+workday2.databycloud.com
+api.databycloud.com
+admin.databycloud.com

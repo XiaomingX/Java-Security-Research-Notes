@@ -1,0 +1,8 @@
+portal.us.riso.com
+pwreset.riso.com
+risovpn.riso.com
+servicedesk.riso.com
+us.riso.com
+vpn.riso.com
+clientauth.riso.com
+clientsign.riso.com

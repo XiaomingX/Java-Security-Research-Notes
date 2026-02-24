@@ -1,0 +1,6 @@
+cloud.rserver.cz
+prox.rserver.cz
+secure.rserver.cz
+galerie.rserver.cz
+backup.rserver.cz
+errpage.rserver.cz

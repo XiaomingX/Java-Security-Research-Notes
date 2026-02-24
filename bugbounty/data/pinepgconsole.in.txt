@@ -1,0 +1,2 @@
+mig.pinepgconsole.in
+uat.pinepgconsole.in

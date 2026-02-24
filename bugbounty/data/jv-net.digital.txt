@@ -1,0 +1,9 @@
+socialproof.jv-net.digital
+hit-tracker.jv-net.digital
+doodlecreator.jv-net.digital
+billing.jv-net.digital
+ww12.jv-net.digital
+helpdesk.jv-net.digital
+friendica.jv-net.digital
+webmail.jv-net.digital
+svc.jv-net.digital

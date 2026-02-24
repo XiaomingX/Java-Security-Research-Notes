@@ -1,0 +1,4 @@
+alt3.quiksee.com
+alpha.quiksee.com
+services.alpha.quiksee.com
+vs.quiksee.com

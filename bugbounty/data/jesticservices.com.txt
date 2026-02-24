@@ -1,0 +1,6 @@
+cpcontacts.jesticservices.com
+cpcalendars.jesticservices.com
+mail.jesticservices.com
+webdisk.jesticservices.com
+webmail.jesticservices.com
+cpanel.jesticservices.com

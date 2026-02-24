@@ -1,0 +1,2 @@
+api.data.independent.co.uk
+api.int.independent.co.uk

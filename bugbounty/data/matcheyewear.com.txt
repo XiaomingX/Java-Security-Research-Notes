@@ -1,0 +1,6 @@
+autodiscover.matcheyewear.com
+mail.matcheyewear.com
+remote.matcheyewear.com
+mew-ny-app01.corp.matcheyewear.com
+mew-ny-ts01.corp.matcheyewear.com
+mew-ny-ts02.corp.matcheyewear.com

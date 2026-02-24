@@ -1,0 +1,4 @@
+api.vorexlogin.com
+staging.vorexlogin.com
+apistaging.vorexlogin.com
+scheduler.vorexlogin.com

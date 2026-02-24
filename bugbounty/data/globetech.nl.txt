@@ -1,0 +1,2 @@
+remote.globetech.nl
+mail.globetech.nl

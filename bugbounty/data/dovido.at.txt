@@ -1,0 +1,5 @@
+store.dovido.at
+demo.dovido.at
+magento.dovido.at
+dev.dovido.at
+shop.dovido.at

@@ -1,0 +1,2 @@
+staging.hoornpas.nu
+test.hoornpas.nu

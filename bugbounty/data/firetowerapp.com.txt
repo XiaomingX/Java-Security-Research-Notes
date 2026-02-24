@@ -1,0 +1,2 @@
+blog.firetowerapp.com
+cdn.firetowerapp.com

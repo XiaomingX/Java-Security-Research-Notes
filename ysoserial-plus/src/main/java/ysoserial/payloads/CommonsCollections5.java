@@ -1,5 +1,5 @@
 package ysoserial.payloads;
-
+import ysoserial.core.ObjectPayload;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
 import java.util.HashMap;

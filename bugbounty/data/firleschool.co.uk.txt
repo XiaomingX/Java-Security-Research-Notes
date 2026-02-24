@@ -1,0 +1,4 @@
+cpanel.firleschool.co.uk
+webmail.firleschool.co.uk
+webdisk.firleschool.co.uk
+mail.firleschool.co.uk

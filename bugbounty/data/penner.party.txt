@@ -1,0 +1,5 @@
+groups.penner.party
+share.penner.party
+social.penner.party
+mta-sts.penner.party
+mail.penner.party

@@ -1,0 +1,8 @@
+cpcalendars.kfs.ro
+cpcontacts.kfs.ro
+externalsmtp.kfs.ro
+koenigfrankstahl.kfs.ro
+mail.kfs.ro
+webdisk.kfs.ro
+webmail.kfs.ro
+cpanel.kfs.ro

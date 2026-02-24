@@ -1,0 +1,4 @@
+cse.google.com.sl
+consent.google.com.sl
+images.google.com.sl
+maps.google.com.sl

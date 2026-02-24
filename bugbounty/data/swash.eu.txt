@@ -1,0 +1,6 @@
+webdisk.swash.eu
+mail.swash.eu
+cpanel.swash.eu
+cpcalendars.swash.eu
+cpcontacts.swash.eu
+webmail.swash.eu

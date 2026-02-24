@@ -1,0 +1,9 @@
+admin.plasbit.com
+img.plasbit.com
+api.plasbit.com
+mta-sts.plasbit.com
+app.plasbit.com
+test.plasbit.com
+superadmin-test.plasbit.com
+admin-test.plasbit.com
+scheduler-test.plasbit.com

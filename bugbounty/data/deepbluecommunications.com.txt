@@ -1,0 +1,17 @@
+accountmanager.deepbluecommunications.com
+landing.deepbluecommunications.com
+sandbox.deepbluecommunications.com
+resortnet.deepbluecommunications.com
+status.deepbluecommunications.com
+secure.deepbluecommunications.com
+outlook.deepbluecommunications.com
+lyncdiscover.deepbluecommunications.com
+welcome.deepbluecommunications.com
+maps.deepbluecommunications.com
+info.deepbluecommunications.com
+blog.deepbluecommunications.com
+autodiscover.deepbluecommunications.com
+sip.deepbluecommunications.com
+vpn.deepbluecommunications.com
+login.deepbluecommunications.com
+reset.deepbluecommunications.com

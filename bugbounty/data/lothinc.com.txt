@@ -1,0 +1,11 @@
+access.lothinc.com
+citrix.lothinc.com
+dialin.lothinc.com
+fs.lothinc.com
+hm.lothinc.com
+lyncdiscover.lothinc.com
+lyncweb.lothinc.com
+meet.lothinc.com
+mxt.lothinc.com
+remote.lothinc.com
+webconf.lothinc.com

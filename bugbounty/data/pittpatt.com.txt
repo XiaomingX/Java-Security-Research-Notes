@@ -1,0 +1,4 @@
+facemining.pittpatt.com
+webdemo.pittpatt.com
+demo.pittpatt.com
+connect.pittpatt.com

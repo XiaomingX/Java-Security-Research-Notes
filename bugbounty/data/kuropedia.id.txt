@@ -1,0 +1,17 @@
+biolinks.kuropedia.id
+cekid.kuropedia.id
+lacak.kuropedia.id
+lapakweb.kuropedia.id
+mail.kuropedia.id
+akunmafia.kuropedia.id
+contact.kuropedia.id
+contohweb.kuropedia.id
+darwin.kuropedia.id
+event.kuropedia.id
+ipv6.kuropedia.id
+movie.kuropedia.id
+profile.kuropedia.id
+store.kuropedia.id
+subdomain.kuropedia.id
+test.kuropedia.id
+win.kuropedia.id

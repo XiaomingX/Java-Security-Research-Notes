@@ -1,0 +1,2 @@
+raxstage.europe.priceless.com
+stage.perf.europe.priceless.com

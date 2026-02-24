@@ -1,0 +1,4 @@
+mail.cordless-delay.de
+mx0.cordless-delay.de
+divine.cordless-delay.de
+dj-domain.cordless-delay.de

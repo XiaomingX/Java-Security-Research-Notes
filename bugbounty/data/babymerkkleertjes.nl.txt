@@ -1,0 +1,12 @@
+staging.babymerkkleertjes.nl
+staging2.babymerkkleertjes.nl
+dev.babymerkkleertjes.nl
+mail.babymerkkleertjes.nl
+ftp.babymerkkleertjes.nl
+webmail.babymerkkleertjes.nl
+staging-2.babymerkkleertjes.nl
+mail.dev.babymerkkleertjes.nl
+smtp.babymerkkleertjes.nl
+test.babymerkkleertjes.nl
+magento.babymerkkleertjes.nl
+pop.babymerkkleertjes.nl

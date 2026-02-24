@@ -1,0 +1,10 @@
+fr.poc.dmarcian.org
+poc-fr1.poc.dmarcian.org
+ci.dmarcian.org
+mktg3.dmarcian.org
+mktg2.dmarcian.org
+mktg1.dmarcian.org
+tls.ci.dmarcian.org
+ci-app.ci.dmarcian.org
+ag.ci.dmarcian.org
+sources.util.dmarcian.org

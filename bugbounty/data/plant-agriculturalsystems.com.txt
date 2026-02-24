@@ -1,0 +1,5 @@
+ar.plant-agriculturalsystems.com
+de.plant-agriculturalsystems.com
+es.plant-agriculturalsystems.com
+fr.plant-agriculturalsystems.com
+nl.plant-agriculturalsystems.com

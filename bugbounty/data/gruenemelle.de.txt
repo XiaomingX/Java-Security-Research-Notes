@@ -1,0 +1,5 @@
+mta-sts.gruenemelle.de
+mta-sts.lists.gruenemelle.de
+test.www.gruenemelle.de
+test.gruenemelle.de
+lists.gruenemelle.de

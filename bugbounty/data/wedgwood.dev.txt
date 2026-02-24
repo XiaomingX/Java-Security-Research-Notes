@@ -1,0 +1,4 @@
+cloud.wedgwood.dev
+projects.wedgwood.dev
+oldcloud.wedgwood.dev
+newcloud.wedgwood.dev

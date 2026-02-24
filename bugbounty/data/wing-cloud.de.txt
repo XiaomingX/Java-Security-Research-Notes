@@ -1,0 +1,2 @@
+adminer.wing-cloud.de
+test.wing-cloud.de

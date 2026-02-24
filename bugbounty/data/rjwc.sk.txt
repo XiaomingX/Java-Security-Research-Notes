@@ -1,0 +1,4 @@
+mailin2.rjwc.sk
+smtp.rjwc.sk
+admin.rjwc.sk
+mailin1.rjwc.sk

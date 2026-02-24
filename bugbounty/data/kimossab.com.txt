@@ -1,0 +1,2 @@
+api.kimossab.com
+tracing.kimossab.com

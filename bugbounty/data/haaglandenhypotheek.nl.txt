@@ -1,0 +1,2 @@
+mail.haaglandenhypotheek.nl
+ftp.haaglandenhypotheek.nl

@@ -1,0 +1,4 @@
+solutions.sodexo.in
+delivery.sales.sodexo.in
+preprod.sodexo.in
+dev.sodexo.in

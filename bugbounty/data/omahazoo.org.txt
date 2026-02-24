@@ -1,0 +1,6 @@
+memcheck.omahazoo.org
+volunteers.omahazoo.org
+memcheck2.omahazoo.org
+stagingapi.omahazoo.org
+autodiscover.omahazoo.org
+post.omahazoo.org

@@ -1,0 +1,3 @@
+new.aisi.io
+platform.aisi.io
+resources.aisi.io

@@ -1,0 +1,9 @@
+cs1.lavireo.com
+stats.lavireo.com
+fe2.lavireo.com
+static.lavireo.com
+mail.lavireo.com
+fe1.lavireo.com
+cloud.lavireo.com
+dev.lavireo.com
+sso.lavireo.com

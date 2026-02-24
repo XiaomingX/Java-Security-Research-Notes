@@ -1,0 +1,17 @@
+achat.tryandjudge.com
+img.news.tryandjudge.com
+mail.tryandjudge.com
+news.tryandjudge.com
+r.news.tryandjudge.com
+rootadmin.tryandjudge.com
+statut.tryandjudge.com
+updateprice.tryandjudge.com
+vente.tryandjudge.com
+beta.tryandjudge.com
+betavente.tryandjudge.com
+cpanel.tryandjudge.com
+cpcalendars.tryandjudge.com
+cpcontacts.tryandjudge.com
+testupdatetonext.tryandjudge.com
+webdisk.tryandjudge.com
+webmail.tryandjudge.com

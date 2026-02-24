@@ -1,0 +1,7 @@
+ftp.smpn10bogor.sch.id
+kelulusan.smpn10bogor.sch.id
+mail.smpn10bogor.sch.id
+pop.smpn10bogor.sch.id
+puslib.smpn10bogor.sch.id
+smtp.smpn10bogor.sch.id
+sopinter.smpn10bogor.sch.id

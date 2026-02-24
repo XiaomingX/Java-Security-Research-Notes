@@ -1,0 +1,2 @@
+mail.gesdata-nextcloud.eu
+webmail.gesdata-nextcloud.eu

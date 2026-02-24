@@ -1,0 +1,5 @@
+portal.adwayusa.com
+api.adwayusa.com
+sibdev.adwayusa.com
+adw.adwayusa.com
+devportal.adwayusa.com

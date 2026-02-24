@@ -1,0 +1,8 @@
+easybusiness.thetford.com
+go.thetford.com
+servicerequest.thetford.com
+shop.thetford.com
+3cx.thetford.com
+mobile.thetford.com
+ncentral.thetford.com
+smtprelay.thetford.com

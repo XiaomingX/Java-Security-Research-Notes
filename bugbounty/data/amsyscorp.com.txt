@@ -1,0 +1,7 @@
+ideextra.amsyscorp.com
+test-fedsvc.amsyscorp.com
+lyncdiscover.amsyscorp.com
+autodiscover.amsyscorp.com
+sts.amsyscorp.com
+lyncdiscoverinternal.amsyscorp.com
+sip.amsyscorp.com

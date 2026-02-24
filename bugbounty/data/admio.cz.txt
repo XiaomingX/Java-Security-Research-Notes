@@ -1,0 +1,5 @@
+mail2.admio.cz
+helpdesk.admio.cz
+comsfd.admio.cz
+dane.admio.cz
+mail.admio.cz

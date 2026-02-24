@@ -1,0 +1,7 @@
+viphy.typestudio.co
+api.typestudio.co
+app.typestudio.co
+blog.typestudio.co
+api-stage.typestudio.co
+email.typestudio.co
+api-prod.typestudio.co

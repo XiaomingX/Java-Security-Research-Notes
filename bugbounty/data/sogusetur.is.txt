@@ -1,0 +1,6 @@
+mail.sogusetur.is
+cpanel.sogusetur.is
+cpcontacts.sogusetur.is
+webdisk.sogusetur.is
+webmail.sogusetur.is
+autodiscover.sogusetur.is

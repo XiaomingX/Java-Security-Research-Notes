@@ -1,0 +1,4 @@
+tpa.peertube.dk
+smtp.peertube.dk
+lt.peertube.dk
+cdn.peertube.dk

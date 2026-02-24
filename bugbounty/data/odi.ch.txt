@@ -1,0 +1,3 @@
+black.odi.ch
+netdata.odi.ch
+gandalf.odi.ch

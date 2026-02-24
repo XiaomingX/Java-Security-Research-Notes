@@ -1,0 +1,11 @@
+nugget.eguzki.es
+vnc.eguzki.es
+plex.eguzki.es
+mail.eguzki.es
+proxy.eguzki.es
+vpn.eguzki.es
+collabora.eguzki.es
+icinga.eguzki.es
+galway.eguzki.es
+office.eguzki.es
+wp.eguzki.es

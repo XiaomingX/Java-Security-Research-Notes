@@ -1,0 +1,10 @@
+blog.cb.dev
+directory-live.cb.dev
+devportal.cb.dev
+web-testbed.cb.dev
+testbed.cb.dev
+web.cb.dev
+ns2.cb.dev
+ns1.cb.dev
+app-coral.cb.dev
+app-testbed.cb.dev

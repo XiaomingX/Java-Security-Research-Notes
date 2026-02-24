@@ -1,0 +1,7 @@
+api-do-blr.koalalab.com
+app.koalalab.com
+api.koalalab.com
+cpanel.koalalab.com
+mail.koalalab.com
+webdisk.koalalab.com
+webmail.koalalab.com

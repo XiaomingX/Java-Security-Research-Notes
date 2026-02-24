@@ -1,0 +1,9 @@
+_dmarc.foodsafety.gov
+aka-www.foodsafety.gov
+akaprod-www.foodsafety.gov
+akastage-www.foodsafety.gov
+espanol.foodsafety.gov
+search.foodsafety.gov
+origin.foodsafety.gov
+2fwww.foodsafety.gov
+usad.foodsafety.gov

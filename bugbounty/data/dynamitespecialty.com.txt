@@ -1,0 +1,2 @@
+dev.dynamitespecialty.com
+host.dynamitespecialty.com

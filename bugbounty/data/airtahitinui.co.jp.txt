@@ -1,0 +1,4 @@
+pop.airtahitinui.co.jp
+smtp.airtahitinui.co.jp
+mail.airtahitinui.co.jp
+mx.airtahitinui.co.jp

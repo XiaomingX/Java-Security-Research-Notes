@@ -1,0 +1,5 @@
+one.teamsecure.io
+blog.teamsecure.io
+tools.teamsecure.io
+order.teamsecure.io
+dev.teamsecure.io

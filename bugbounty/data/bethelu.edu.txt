@@ -1,0 +1,6 @@
+become.bethelu.edu
+photo.bethelu.edu
+degree.bethelu.edu
+dualenrollment.bethelu.edu
+eportal.bethelu.edu
+bookstore.bethelu.edu

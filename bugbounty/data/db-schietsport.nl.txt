@@ -1,0 +1,4 @@
+cpcontacts.db-schietsport.nl
+cpcalendars.db-schietsport.nl
+pop.db-schietsport.nl
+smtp.db-schietsport.nl

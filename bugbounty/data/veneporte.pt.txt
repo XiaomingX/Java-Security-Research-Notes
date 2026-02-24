@@ -1,0 +1,13 @@
+srvesa.veneporte.pt
+vpn.veneporte.pt
+ws.veneporte.pt
+ftp.veneporte.pt
+mkt.veneporte.pt
+webmail.veneporte.pt
+portal.veneporte.pt
+static.veneporte.pt
+catalogo.veneporte.pt
+desktop.veneporte.pt
+mail.veneporte.pt
+material.veneporte.pt
+media.veneporte.pt

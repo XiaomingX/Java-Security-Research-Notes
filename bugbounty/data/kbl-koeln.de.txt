@@ -1,0 +1,7 @@
+shop.kbl-koeln.de
+testcloud.kbl-koeln.de
+meet.kbl-koeln.de
+meeting.kbl-koeln.de
+cloud.kbl-koeln.de
+wlan.kbl-koeln.de
+eap.kbl-koeln.de

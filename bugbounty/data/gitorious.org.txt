@@ -1,0 +1,17 @@
+qt.gitorious.org
+blog.gitorious.org
+ci.gitorious.org
+issues.gitorious.org
+new.gitorious.org
+secure.gitorious.org
+ssh.new.gitorious.org
+status.gitorious.org
+maemo.gitorious.org
+en.gitorious.org
+meego.gitorious.org
+v3.gitorious.org
+_status.gitorious.org
+git.gitorious.org
+ssh.gitorious.org
+wws.gitorious.org
+autocal.gitorious.org

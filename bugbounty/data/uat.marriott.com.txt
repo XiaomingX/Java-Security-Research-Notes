@@ -1,0 +1,2 @@
+micmt.uat.marriott.com
+micommissionmanagementtool.uat.marriott.com

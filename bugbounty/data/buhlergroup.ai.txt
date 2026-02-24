@@ -1,0 +1,16 @@
+cpa.buhlergroup.ai
+fmo.buhlergroup.ai
+squirro.buhlergroup.ai
+staging-mont-blanc.buhlergroup.ai
+drymate.buhlergroup.ai
+goldeneye.buhlergroup.ai
+gpt.buhlergroup.ai
+plant-companion.buhlergroup.ai
+squirro-dev.buhlergroup.ai
+selflearn.buhlergroup.ai
+staging-gpt.buhlergroup.ai
+depositor.buhlergroup.ai
+mont-blanc.buhlergroup.ai
+staging-act.buhlergroup.ai
+staging-cpa.buhlergroup.ai
+lca-calculator.buhlergroup.ai

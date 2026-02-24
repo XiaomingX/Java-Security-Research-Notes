@@ -1,0 +1,11 @@
+cpanel.senderosdecanarias.com
+ftp.senderosdecanarias.com
+mail.senderosdecanarias.com
+webmail.senderosdecanarias.com
+grancanaria.senderosdecanarias.com
+lapalmita.senderosdecanarias.com
+miel.senderosdecanarias.com
+lapalma.senderosdecanarias.com
+lagomera.senderosdecanarias.com
+elhierro.senderosdecanarias.com
+host.senderosdecanarias.com

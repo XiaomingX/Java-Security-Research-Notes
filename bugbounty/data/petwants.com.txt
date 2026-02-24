@@ -1,0 +1,11 @@
+cpanel.petwants.com
+digitalmud.petwants.com
+dmtraining.petwants.com
+mail.petwants.com
+old.petwants.com
+webdisk.petwants.com
+whatsfresh.petwants.com
+cpcalendars.petwants.com
+cpcontacts.petwants.com
+server.petwants.com
+webmail.petwants.com

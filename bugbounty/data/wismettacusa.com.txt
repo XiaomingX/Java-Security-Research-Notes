@@ -1,0 +1,17 @@
+cultureconnection.wismettacusa.com
+djangoapi.wismettacusa.com
+download.wismettacusa.com
+drftest.wismettacusa.com
+ecata10-tablet.wismettacusa.com
+ecatalog.wismettacusa.com
+econnect-dev.wismettacusa.com
+econnect-stg.wismettacusa.com
+econnect.wismettacusa.com
+iorder10.wismettacusa.com
+products.wismettacusa.com
+sales.econnect-dev.wismettacusa.com
+sales.econnect-stg.wismettacusa.com
+sales.econnect.wismettacusa.com
+store.wismettacusa.com
+webhosting.wismettacusa.com
+snsbotdev.wismettacusa.com

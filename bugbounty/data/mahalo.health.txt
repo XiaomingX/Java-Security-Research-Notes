@@ -1,0 +1,7 @@
+dev-toro.mahalo.health
+api-dev-gk.mahalo.health
+admin-demo.mahalo.health
+demo.mahalo.health
+api-demo.mahalo.health
+api-dev-toro.mahalo.health
+dev-gk.mahalo.health

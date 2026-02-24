@@ -1,0 +1,9 @@
+proquest.syndetics.com
+lib.syndetics.com
+librarian.syndetics.com
+unbound.syndetics.com
+origin.syndetics.com
+images.syndetics.com
+beta.syndetics.com
+plus.syndetics.com
+secure.syndetics.com

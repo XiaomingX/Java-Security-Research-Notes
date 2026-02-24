@@ -1,0 +1,3 @@
+pay.flagstopcarwash.com
+reviews.flagstopcarwash.com
+staging.flagstopcarwash.com

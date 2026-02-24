@@ -1,0 +1,9 @@
+autodiscover.highridgebrands.com
+hrb-bi.highridgebrands.com
+hrb-bi01.highridgebrands.com
+webmail.highridgebrands.com
+autodiscover.hrb01.highridgebrands.com
+hrb-exchange01.hrb01.highridgebrands.com
+hrb-exchange02.hrb01.highridgebrands.com
+jet.highridgebrands.com
+qlik.highridgebrands.com

@@ -1,0 +1,8 @@
+ctf.jsof-tech.com
+cyber.jsof-tech.com
+webinar.fuzzing.jsof-tech.com
+webinar-fuzzing.jsof-tech.com
+old.jsof-tech.com
+admin.jsof-tech.com
+schulung.fuzzing.jsof-tech.com
+cyber1.jsof-tech.com

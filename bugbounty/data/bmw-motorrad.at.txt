@@ -1,0 +1,16 @@
+mein-test.bmw-motorrad.at
+mein.bmw-motorrad.at
+konfigurator-test.bmw-motorrad.at
+teaser.bmw-motorrad.at
+mein-int.bmw-motorrad.at
+konfigurator-int.bmw-motorrad.at
+events.bmw-motorrad.at
+konfigurator.bmw-motorrad.at
+ecom.bmw-motorrad.at
+newsletter.bmw-motorrad.at
+help.bmw-motorrad.at
+community.bmw-motorrad.at
+ecomi.bmw-motorrad.at
+mx.bmw-motorrad.at
+ecom2.bmw-motorrad.at
+ecom2-int.bmw-motorrad.at

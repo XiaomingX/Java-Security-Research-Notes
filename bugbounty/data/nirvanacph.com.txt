@@ -1,0 +1,10 @@
+news.nirvanacph.com
+cpanel.nirvanacph.com
+cpcontacts.nirvanacph.com
+cpcalendars.nirvanacph.com
+mail.nirvanacph.com
+vpn.nirvanacph.com
+security.nirvanacph.com
+autodiscover.nirvanacph.com
+webdisk.nirvanacph.com
+webmail.nirvanacph.com

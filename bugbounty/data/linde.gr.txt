@@ -1,0 +1,2 @@
+salespartners.linde.gr
+test.salespartners.linde.gr

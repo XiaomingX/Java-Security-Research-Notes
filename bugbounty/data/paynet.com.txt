@@ -1,0 +1,4 @@
+blog.paynet.com
+go.paynet.com
+lp.paynet.com
+visit.paynet.com

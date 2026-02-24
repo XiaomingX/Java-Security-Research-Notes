@@ -1,0 +1,9 @@
+selfservice-staging.bigbank.at
+at.bigbank.at
+email.bigbank.at
+net.bigbank.at
+maintenance.bigbank.at
+static.bigbank.at
+welcome.bigbank.at
+banking.bigbank.at
+okd.bigbank.at

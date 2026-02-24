@@ -1,0 +1,14 @@
+alice.dahs.co.uk
+dahsapps.dahs.co.uk
+mail.dahs.co.uk
+mx2.dahs.co.uk
+server5.dahs.co.uk
+lp.dahs.co.uk
+intranet.dahs.co.uk
+edge.dahs.co.uk
+router.dahs.co.uk
+william.dahs.co.uk
+webmail.dahs.co.uk
+server.dahs.co.uk
+server4.dahs.co.uk
+teachers.dahs.co.uk

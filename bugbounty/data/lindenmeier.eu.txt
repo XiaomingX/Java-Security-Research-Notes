@@ -1,0 +1,4 @@
+autoconfig.lindenmeier.eu
+cloud.lindenmeier.eu
+autodiscover.lindenmeier.eu
+mail.lindenmeier.eu

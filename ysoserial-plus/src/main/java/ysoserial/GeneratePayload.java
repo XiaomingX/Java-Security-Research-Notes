@@ -2,9 +2,9 @@ package ysoserial;
 
 import java.io.PrintStream;
 import java.util.*;
-
-import ysoserial.payloads.ObjectPayload;
-import ysoserial.payloads.ObjectPayload.Utils;
+import ysoserial.util.Strings;import ysoserial.core.Serializer;
+import ysoserial.core.ObjectPayload;
+import ysoserial.core.ObjectPayload.Utils;
 import ysoserial.payloads.annotation.Authors;
 import ysoserial.payloads.annotation.Dependencies;
 

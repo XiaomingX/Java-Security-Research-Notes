@@ -1,0 +1,3 @@
+blog.pitusa.co
+ftp.pitusa.co
+returns.pitusa.co

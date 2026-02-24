@@ -1,0 +1,4 @@
+sgtm.sanitino.fr
+cdn.targito.sanitino.fr
+t.targito.sanitino.fr
+dev.sanitino.fr

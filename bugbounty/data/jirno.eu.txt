@@ -1,0 +1,2 @@
+dev.jirno.eu
+wordpress.jirno.eu

@@ -1,0 +1,4 @@
+net1.kenexnbi.com
+net2.kenexnbi.com
+net3.kenexnbi.com
+mail.kenexnbi.com

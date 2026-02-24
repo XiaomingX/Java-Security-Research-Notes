@@ -1,0 +1,10 @@
+cameras.tayse.com
+dev.tayse.com
+ftp.tayse.com
+inventory.tayse.com
+mail-administration.tayse.com
+mail-admins.tayse.com
+manage.tayse.com
+pdf-parser.tayse.com
+adahomedecor.tayse.com
+backup.tayse.com

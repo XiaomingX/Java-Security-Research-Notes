@@ -1,0 +1,8 @@
+mta-sts.posturographie.info
+autoconfig.posturographie.info
+autodiscover.posturographie.info
+imap.posturographie.info
+mail.posturographie.info
+pop3.posturographie.info
+smtp.posturographie.info
+webmail.posturographie.info

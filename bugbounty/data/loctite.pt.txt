@@ -1,0 +1,9 @@
+adesivos-estruturais.loctite.pt
+retentores.loctite.pt
+equipment.loctite.pt
+equipamentos.loctite.pt
+adesivos-instantaneos.loctite.pt
+fixadores-de-roscas.loctite.pt
+vedantes-de-roscas.loctite.pt
+consulta.fabrico.loctite.pt
+m.loctite.pt

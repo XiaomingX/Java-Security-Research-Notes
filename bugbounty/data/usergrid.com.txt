@@ -1,0 +1,4 @@
+blog.usergrid.com
+kii.usergrid.com
+api.usergrid.com
+kii-beta.usergrid.com

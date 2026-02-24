@@ -1,0 +1,5 @@
+secretariaat.ldpdonza.be
+static.ldpdonza.be
+tickets.ldpdonza.be
+old.ldpdonza.be
+v2.ldpdonza.be

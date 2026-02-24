@@ -1,0 +1,6 @@
+cmpsp.eurogamer.pl
+eurogamer-pl.eurogamer.pl
+community.eurogamer.pl
+static.eurogamer.pl
+staging.eurogamer.pl
+beta.eurogamer.pl

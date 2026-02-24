@@ -1,0 +1,9 @@
+autodiscover.surautv.com
+cpanel.surautv.com
+cpcalendars.surautv.com
+cpcontacts.surautv.com
+m.surautv.com
+mail.surautv.com
+mobile.surautv.com
+webdisk.surautv.com
+webmail.surautv.com

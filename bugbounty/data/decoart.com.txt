@@ -1,0 +1,5 @@
+secure.decoart.com
+shop.decoart.com
+admin.decoart.com
+artroom.decoart.com
+dash.decoart.com

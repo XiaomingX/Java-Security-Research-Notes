@@ -1,0 +1,3 @@
+mail.bekins.us
+newsletter.bekins.us
+vpnlogin.bekins.us

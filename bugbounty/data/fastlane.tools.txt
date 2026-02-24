@@ -1,0 +1,6 @@
+docs.fastlane.tools
+download.fastlane.tools
+enhancer.fastlane.tools
+refresher.fastlane.tools
+sleepy.fastlane.tools
+boarding.fastlane.tools

@@ -1,0 +1,6 @@
+oracle.wenping.ml
+openai.wenping.ml
+blogger.wenping.ml
+soar.wenping.ml
+bing.wenping.ml
+vless.wenping.ml

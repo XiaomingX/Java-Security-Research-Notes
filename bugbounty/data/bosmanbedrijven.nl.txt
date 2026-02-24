@@ -1,0 +1,10 @@
+vpn.leusden.bosmanbedrijven.nl
+login.bosmanbedrijven.nl
+servicedesk.bosmanbedrijven.nl
+exchange.bosmanbedrijven.nl
+portal.bosmanbedrijven.nl
+autodiscover.bosmanbedrijven.nl
+vpn.bosmanbedrijven.nl
+mail2.bosmanbedrijven.nl
+vpn.amersfoort.bosmanbedrijven.nl
+mail.bosmanbedrijven.nl

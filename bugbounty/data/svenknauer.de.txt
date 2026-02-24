@@ -1,0 +1,2 @@
+blog.svenknauer.de
+wetter.svenknauer.de

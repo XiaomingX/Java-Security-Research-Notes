@@ -1,0 +1,5 @@
+server.cloudbox.one
+ftp.cloudbox.one
+srv.cloudbox.one
+old.cloudbox.one
+next.cloudbox.one

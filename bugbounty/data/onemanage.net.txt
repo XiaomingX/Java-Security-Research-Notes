@@ -1,0 +1,2 @@
+demo.onemanage.net
+api.onemanage.net

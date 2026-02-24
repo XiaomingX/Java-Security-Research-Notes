@@ -1,0 +1,2 @@
+custom.greatlakescollection.com
+returns.greatlakescollection.com

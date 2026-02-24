@@ -1,0 +1,12 @@
+afval.slxh.nl
+ipfs.slxh.nl
+ipfs2.slxh.nl
+ipv4.slxh.nl
+ipv6.slxh.nl
+mta-sts.slxh.nl
+spam.slxh.nl
+www2.slxh.nl
+sub.slxh.nl
+smtp.slxh.nl
+mx2.slxh.nl
+mail.slxh.nl

@@ -1,0 +1,6 @@
+autodiscover.pacelighting.com
+blog.pacelighting.com
+legacy.pacelighting.com
+lights.pacelighting.com
+mail.pacelighting.com
+remote.pacelighting.com

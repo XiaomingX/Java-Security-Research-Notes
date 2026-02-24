@@ -8,6 +8,8 @@ RedosVulnHunter 基于 JDK 1.8 库中的正则表达式引擎实现。
 
 ### 快速开始
 
+有关详细的操作指南和原理说明，请参阅 [HOWTO.md](./HOWTO.md)。
+
 #### 构建项目
 
 RedosVulnHunter 使用 Maven 管理依赖，因此需要先安装 JDK (1.8) 和 Maven，然后运行：

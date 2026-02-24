@@ -1,0 +1,4 @@
+mysql.royzo.cz
+admin.royzo.cz
+smtp.royzo.cz
+mail.royzo.cz

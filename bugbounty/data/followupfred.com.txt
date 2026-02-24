@@ -1,0 +1,6 @@
+dev.followupfred.com
+app.followupfred.com
+mail.followupfred.com
+webdisk.followupfred.com
+webmail.followupfred.com
+cpanel.followupfred.com

@@ -1,0 +1,2 @@
+dev.duapuluhtiga.com
+myapp.duapuluhtiga.com

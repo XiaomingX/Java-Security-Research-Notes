@@ -1,0 +1,2 @@
+cms.promotrident.com
+api.promotrident.com

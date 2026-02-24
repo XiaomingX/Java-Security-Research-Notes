@@ -1,0 +1,14 @@
+ftp.inpuls.eu
+cpcontacts.inpuls.eu
+cpcalendars.inpuls.eu
+survey.inpuls.eu
+time-tracking.inpuls.eu
+autodiscover.inpuls.eu
+restyle.inpuls.eu
+cpanel.inpuls.eu
+webdisk.inpuls.eu
+dama.inpuls.eu
+crm.inpuls.eu
+mail.inpuls.eu
+webmail.inpuls.eu
+dataliteracy.inpuls.eu

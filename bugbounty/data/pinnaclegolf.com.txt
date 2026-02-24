@@ -1,0 +1,9 @@
+media.pinnaclegolf.com
+images.pinnaclegolf.com
+w.pinnaclegolf.com
+email.pinnaclegolf.com
+test.pinnaclegolf.com
+apps.pinnaclegolf.com
+mta.email.pinnaclegolf.com
+image.email.pinnaclegolf.com
+click.email.pinnaclegolf.com

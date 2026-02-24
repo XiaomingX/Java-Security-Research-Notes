@@ -1,0 +1,6 @@
+vpn.coradia.cz
+u-kiliana.coradia.cz
+web.coradia.cz
+dochazka.coradia.cz
+admin.coradia.cz
+shop.coradia.cz

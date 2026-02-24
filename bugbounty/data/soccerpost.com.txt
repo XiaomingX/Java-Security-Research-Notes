@@ -1,0 +1,8 @@
+account.soccerpost.com
+app.soccerpost.com
+community.soccerpost.com
+franchiseportal.soccerpost.com
+myuniform.soccerpost.com
+pay.soccerpost.com
+surf.soccerpost.com
+intranet.soccerpost.com

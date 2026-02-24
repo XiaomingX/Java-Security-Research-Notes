@@ -1,0 +1,7 @@
+test.scanner.frag-team-clean.at
+mitglied-at.frag-team-clean.at
+api.frag-team-clean.at
+api-test.scanner.frag-team-clean.at
+token.frag-team-clean.at
+scanner.frag-team-clean.at
+api.scanner.frag-team-clean.at

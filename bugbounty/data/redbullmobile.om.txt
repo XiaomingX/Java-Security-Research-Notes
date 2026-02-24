@@ -1,0 +1,8 @@
+api.redbullmobile.om
+apidev.redbullmobile.om
+rubyapi.redbullmobile.om
+stage-www.redbullmobile.om
+activation.redbullmobile.om
+games.redbullmobile.om
+gamesapi.redbullmobile.om
+gamesmedia.redbullmobile.om

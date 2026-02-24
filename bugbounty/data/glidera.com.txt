@@ -1,0 +1,3 @@
+alpha.glidera.com
+sandbox.glidera.com
+cf-ssl64226-protected-www.glidera.com

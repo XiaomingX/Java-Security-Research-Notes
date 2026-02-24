@@ -1,0 +1,4 @@
+smtp.fexi.cz
+lh.fexi.cz
+sign.fexi.cz
+mail.fexi.cz

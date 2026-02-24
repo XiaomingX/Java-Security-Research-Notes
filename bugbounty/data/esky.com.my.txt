@@ -1,0 +1,7 @@
+secure.esky.com.my
+etm.esky.com.my
+www2.esky.com.my
+mobile.esky.com.my
+www2.secure.esky.com.my
+sms.esky.com.my
+postmaster.esky.com.my

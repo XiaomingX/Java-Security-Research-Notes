@@ -1,0 +1,2 @@
+mail.gobertie.com
+cdn-0.gobertie.com

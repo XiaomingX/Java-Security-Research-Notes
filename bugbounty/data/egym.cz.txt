@@ -1,0 +1,2 @@
+autoconfig.egym.cz
+autodiscover.egym.cz

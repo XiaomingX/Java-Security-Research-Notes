@@ -1,0 +1,6 @@
+pop.shared01.ratioict.nl
+shared01.ratioict.nl
+mail.ratioict.nl
+mail.shared01.ratioict.nl
+smtp.shared01.ratioict.nl
+ftp.shared01.ratioict.nl

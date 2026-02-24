@@ -1,0 +1,8 @@
+beta.kyberturvallisuuskeskus.fi
+qawww.kyberturvallisuuskeskus.fi
+kellari.kyberturvallisuuskeskus.fi
+loisto.kyberturvallisuuskeskus.fi
+majakka.kyberturvallisuuskeskus.fi
+viitta.kyberturvallisuuskeskus.fi
+extranet-test.kyberturvallisuuskeskus.fi
+hyoky.kyberturvallisuuskeskus.fi

@@ -1,0 +1,10 @@
+sts.cvangeelbv.nl
+webmail.cvangeelbv.nl
+mx.cvangeelbv.nl
+vps.cvangeelbv.nl
+vpn.cvangeelbv.nl
+ftp.cvangeelbv.nl
+remote.cvangeelbv.nl
+mail.cvangeelbv.nl
+server.cvangeelbv.nl
+router.cvangeelbv.nl

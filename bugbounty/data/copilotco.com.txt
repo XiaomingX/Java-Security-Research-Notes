@@ -1,0 +1,7 @@
+webmail.copilotco.com
+redmine.aws.copilotco.com
+smtp.copilotco.com
+imap.copilotco.com
+ingress.aws.copilotco.com
+ns2.copilotco.com
+mail.copilotco.com

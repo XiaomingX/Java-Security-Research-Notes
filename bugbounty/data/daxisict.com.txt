@@ -1,0 +1,3 @@
+redirect.domainsforsale.daxisict.com
+domainsforsale.daxisict.com
+mta-sts.daxisict.com

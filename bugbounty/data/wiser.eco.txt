@@ -1,0 +1,2 @@
+extension.wiser.eco
+staging.wiser.eco

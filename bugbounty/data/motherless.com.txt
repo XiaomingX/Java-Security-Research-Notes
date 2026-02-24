@@ -1,0 +1,7 @@
+admin.motherless.com
+chat.motherless.com
+chat2.motherless.com
+dev.motherless.com
+gw.motherless.com
+im.motherless.com
+mail.motherless.com

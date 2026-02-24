@@ -1,0 +1,14 @@
+info.equalum.io
+webdisk.equalum.io
+demo.equalum.io
+partners.equalum.io
+cpcontacts.equalum.io
+try.equalum.io
+cpanel.equalum.io
+mail.equalum.io
+webmail.equalum.io
+cpcalendars.equalum.io
+autodiscover.equalum.io
+beam.equalum.io
+learn.equalum.io
+_sipfederationtls._tcp.equalum.io

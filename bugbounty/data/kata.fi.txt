@@ -1,0 +1,2 @@
+register.kata.fi
+app.kata.fi

@@ -1,0 +1,4 @@
+hut.opentext.fr
+resources.opentext.fr
+connectivity.opentext.fr
+wwwqa.opentext.fr

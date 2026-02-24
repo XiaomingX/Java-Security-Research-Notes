@@ -1,0 +1,6 @@
+test.www.oekosex.eu
+mta-sts.lists.oekosex.eu
+mta-sts.oekosex.eu
+lists.oekosex.eu
+test.oekosex.eu
+mail.oekosex.eu

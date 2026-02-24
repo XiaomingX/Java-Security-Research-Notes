@@ -1,0 +1,9 @@
+cv.yom.li
+mail.yom.li
+tools.yom.li
+apps.yom.li
+cloud.yom.li
+editions.yom.li
+dev.yom.li
+ml.yom.li
+code.yom.li

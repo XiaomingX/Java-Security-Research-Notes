@@ -1,0 +1,4 @@
+ftp.lpkpkntb.com
+mail.lpkpkntb.com
+pop.lpkpkntb.com
+smtp.lpkpkntb.com

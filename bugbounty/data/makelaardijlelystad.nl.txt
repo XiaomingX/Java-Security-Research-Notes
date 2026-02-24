@@ -1,0 +1,9 @@
+dev.makelaardijlelystad.nl
+mail.makelaardijlelystad.nl
+cpcalendars.makelaardijlelystad.nl
+cpanel.makelaardijlelystad.nl
+cpcontacts.makelaardijlelystad.nl
+webdisk.makelaardijlelystad.nl
+webmail.makelaardijlelystad.nl
+autodiscover.makelaardijlelystad.nl
+ipv6.makelaardijlelystad.nl

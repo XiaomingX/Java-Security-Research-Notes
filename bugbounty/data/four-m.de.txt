@@ -1,0 +1,2 @@
+nextcloud.four-m.de
+static.four-m.de

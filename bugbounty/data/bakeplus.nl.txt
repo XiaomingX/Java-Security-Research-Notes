@@ -1,0 +1,6 @@
+guest.bakeplus.nl
+webshop.bakeplus.nl
+connectors.bakeplus.nl
+smtp.bakeplus.nl
+mail.bakeplus.nl
+remote.bakeplus.nl

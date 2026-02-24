@@ -1,0 +1,4 @@
+webmail.goodshepherd.ie
+webdisk.goodshepherd.ie
+cpanel.goodshepherd.ie
+mail.goodshepherd.ie

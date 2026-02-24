@@ -1,0 +1,10 @@
+cdn.karakosuits.com
+ftp.karakosuits.com
+mail.karakosuits.com
+go.karakosuits.com
+host.karakosuits.com
+io.karakosuits.com
+pan.karakosuits.com
+test.karakosuits.com
+tethys.karakosuits.com
+titan.karakosuits.com

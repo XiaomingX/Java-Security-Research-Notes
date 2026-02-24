@@ -1,0 +1,8 @@
+s1.erik-tesar.com
+tag.erik-tesar.com
+vpn.erik-tesar.com
+dev.erik-tesar.com
+sso.erik-tesar.com
+s0.erik-tesar.com
+pm.erik-tesar.com
+email.erik-tesar.com

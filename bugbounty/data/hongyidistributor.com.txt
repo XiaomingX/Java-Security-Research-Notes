@@ -1,0 +1,13 @@
+cpanel.hongyidistributor.com
+cpcalendars.hongyidistributor.com
+cpcontacts.hongyidistributor.com
+ftp.hongyidistributor.com
+mail.hongyidistributor.com
+myconsole.hongyidistributor.com
+qdgb-pyro.hongyidistributor.com
+safetmade.hongyidistributor.com
+webdisk.hongyidistributor.com
+webmail.hongyidistributor.com
+view.hongyidistributor.com
+autodiscover.hongyidistributor.com
+waminder.hongyidistributor.com

@@ -1,0 +1,6 @@
+analytics.urbandictionary.store
+gcr.urbandictionary.store
+staging.urbandictionary.store
+staging.www.urbandictionary.store
+test.urbandictionary.store
+test.www.urbandictionary.store

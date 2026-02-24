@@ -1,0 +1,2 @@
+staging.getyourguide.nl
+test.getyourguide.nl

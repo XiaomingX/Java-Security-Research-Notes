@@ -1,0 +1,7 @@
+auktion.wasateater.fi
+programblad.wasateater.fi
+docs.wasateater.fi
+mail.wasateater.fi
+ns.wasateater.fi
+nyhetsbrev.wasateater.fi
+webmail.wasateater.fi

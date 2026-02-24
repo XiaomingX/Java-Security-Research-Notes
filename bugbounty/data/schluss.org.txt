@@ -1,0 +1,11 @@
+legacy.schluss.org
+analytics.schluss.org
+demo.schluss.org
+test.schluss.org
+lists.schluss.org
+dev.schluss.org
+schlussdb.schluss.org
+present.schluss.org
+mail.schluss.org
+vps.schluss.org
+cloud.schluss.org

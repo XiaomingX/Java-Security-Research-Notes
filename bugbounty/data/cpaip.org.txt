@@ -1,0 +1,2 @@
+mx20.cpaip.org
+certs-test-ssl-dv-geotrust-flex.cpaip.org

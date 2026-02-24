@@ -1,0 +1,14 @@
+fr.espanarural.com
+mail.espanarural.com
+autodiscover.espanarural.com
+es.espanarural.com
+nl.espanarural.com
+webmail.espanarural.com
+static.espanarural.com
+cpanel.espanarural.com
+webdisk.espanarural.com
+ftp.espanarural.com
+autoconfig.espanarural.com
+cpcalendars.espanarural.com
+cpcontacts.espanarural.com
+autodiscautodiscover.espanarural.com

@@ -1,0 +1,9 @@
+physio-gieseler.familieschlicht.de
+physio-schlicht-gieseler.familieschlicht.de
+schlicht.familieschlicht.de
+webmail.familieschlicht.de
+cpcalendars.familieschlicht.de
+mail.familieschlicht.de
+cpcontacts.familieschlicht.de
+webdisk.familieschlicht.de
+cpanel.familieschlicht.de

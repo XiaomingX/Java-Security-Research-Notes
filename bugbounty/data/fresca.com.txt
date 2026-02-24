@@ -1,0 +1,4 @@
+preview.fresca.com
+staging.fresca.com
+test.api.fresca.com
+api.fresca.com

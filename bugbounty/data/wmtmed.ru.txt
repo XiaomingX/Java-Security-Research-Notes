@@ -1,0 +1,9 @@
+autodiscover.wmtmed.ru
+cabinet.wmtmed.ru
+dev.wmtmed.ru
+flebolog.wmtmed.ru
+hair.wmtmed.ru
+health.wmtmed.ru
+statsionar.wmtmed.ru
+widget.wmtmed.ru
+mail.wmtmed.ru

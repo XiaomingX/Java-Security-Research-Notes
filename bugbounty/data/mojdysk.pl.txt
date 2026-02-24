@@ -1,0 +1,2 @@
+my.mojdysk.pl
+static.mojdysk.pl

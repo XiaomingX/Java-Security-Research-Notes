@@ -1,0 +1,2 @@
+opendata.compensationsns.nl
+feeds.compensationsns.nl

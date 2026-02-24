@@ -1,0 +1,12 @@
+blog.makeitrealplay.com
+app-temp.makeitrealplay.com
+cms-temp.makeitrealplay.com
+cms.makeitrealplay.com
+cpanel.makeitrealplay.com
+cpcalendars.makeitrealplay.com
+cpcontacts.makeitrealplay.com
+mail.makeitrealplay.com
+remote.makeitrealplay.com
+webdisk.makeitrealplay.com
+webmail.makeitrealplay.com
+wholesale.makeitrealplay.com

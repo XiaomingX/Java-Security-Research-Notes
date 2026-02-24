@@ -1,0 +1,2 @@
+hostmaster.administrateursmeteenplus.nl
+mta-sts.administrateursmeteenplus.nl

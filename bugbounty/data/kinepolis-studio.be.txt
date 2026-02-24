@@ -1,0 +1,4 @@
+lec2.kinepolis-studio.be
+lec.kinepolis-studio.be
+mail.kinepolis-studio.be
+server.kinepolis-studio.be

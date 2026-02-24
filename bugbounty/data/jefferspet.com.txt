@@ -1,0 +1,7 @@
+blog.jefferspet.com
+enews.jefferspet.com
+machws.jefferspet.com
+staging2.wp.jefferspet.com
+track.jefferspet.com
+wp.jefferspet.com
+beta.jefferspet.com

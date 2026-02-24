@@ -1,0 +1,2 @@
+mail.gohertford.com
+cdn-0.gohertford.com

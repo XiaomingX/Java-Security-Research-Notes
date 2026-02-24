@@ -1,0 +1,9 @@
+opendata.watkanmijhelpen.nl
+feeds.watkanmijhelpen.nl
+opendata.english.watkanmijhelpen.nl
+english.watkanmijhelpen.nl
+feeds.english.watkanmijhelpen.nl
+magazines.english.watkanmijhelpen.nl
+magazinesintern.watkanmijhelpen.nl
+magazines.watkanmijhelpen.nl
+magazinesintern.english.watkanmijhelpen.nl

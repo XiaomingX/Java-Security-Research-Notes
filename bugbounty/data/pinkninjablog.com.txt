@@ -1,0 +1,8 @@
+autodiscover.pinkninjablog.com
+cdn.pinkninjablog.com
+webmail.pinkninjablog.com
+cpanel.pinkninjablog.com
+cpcontacts.pinkninjablog.com
+cpcalendars.pinkninjablog.com
+webdisk.pinkninjablog.com
+staging.pinkninjablog.com

@@ -1,0 +1,8 @@
+web.veneta.com
+acceptancepro.veneta.com
+dk.veneta.com
+acceptance.veneta.com
+testpro.veneta.com
+status.veneta.com
+test.veneta.com
+cdn.veneta.com

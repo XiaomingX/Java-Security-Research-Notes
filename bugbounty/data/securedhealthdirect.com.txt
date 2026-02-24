@@ -1,0 +1,3 @@
+dev1.securedhealthdirect.com
+ns2.securedhealthdirect.com
+smtp.securedhealthdirect.com

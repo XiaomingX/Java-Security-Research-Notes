@@ -1,0 +1,10 @@
+api.dotykacka.pl
+manual.dotykacka.pl
+admin.dotykacka.pl
+wsparcie.dotykacka.pl
+zamowienie.dotykacka.pl
+media.dotykacka.pl
+moja.dotykacka.pl
+test.dotykacka.pl
+zaloha.dotykacka.pl
+now.dotykacka.pl

@@ -1,0 +1,8 @@
+post.kelipro.eu
+spam.kelipro.eu
+mx.kelipro.eu
+pop3.kelipro.eu
+poczta.kelipro.eu
+mx10.kelipro.eu
+relay2.kelipro.eu
+exchange.kelipro.eu

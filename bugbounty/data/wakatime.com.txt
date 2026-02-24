@@ -1,0 +1,6 @@
+eu.wakatime.com
+s.wakatime.com
+mail.wakatime.com
+api.wakatime.com
+status.wakatime.com
+email.mailgun.wakatime.com

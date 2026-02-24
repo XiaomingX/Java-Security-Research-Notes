@@ -1,0 +1,3 @@
+qa.stats.nba.com
+dev.stats.nba.com
+fantasy.stats.nba.com

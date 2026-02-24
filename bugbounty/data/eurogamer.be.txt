@@ -1,0 +1,3 @@
+gamers.eurogamer.be
+static.eurogamer.be
+beta-www.eurogamer.be

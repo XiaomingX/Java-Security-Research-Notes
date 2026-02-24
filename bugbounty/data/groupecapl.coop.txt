@@ -1,0 +1,6 @@
+coffre.groupecapl.coop
+playground.groupecapl.coop
+support.groupecapl.coop
+armoni.groupecapl.coop
+ftp.groupecapl.coop
+mail.groupecapl.coop

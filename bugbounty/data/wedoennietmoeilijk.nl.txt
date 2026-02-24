@@ -1,0 +1,8 @@
+cpanel.wedoennietmoeilijk.nl
+cpcontacts.wedoennietmoeilijk.nl
+webdisk.wedoennietmoeilijk.nl
+cpcalendars.wedoennietmoeilijk.nl
+mail.wedoennietmoeilijk.nl
+webmail.wedoennietmoeilijk.nl
+ipv6.wedoennietmoeilijk.nl
+autodiscover.wedoennietmoeilijk.nl

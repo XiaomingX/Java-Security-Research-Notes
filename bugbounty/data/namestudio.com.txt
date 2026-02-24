@@ -1,0 +1,4 @@
+ww38.namestudio.com
+api.namestudio.com
+smetrics.namestudio.com
+origin.namestudio.com

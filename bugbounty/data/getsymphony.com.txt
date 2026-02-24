@@ -1,0 +1,3 @@
+medium.getsymphony.com
+auth.getsymphony.com
+downloads.getsymphony.com

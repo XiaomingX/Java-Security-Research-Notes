@@ -1,0 +1,7 @@
+blog.thepartworks.com
+content.thepartworks.com
+marketing.thepartworks.com
+sandbox.thepartworks.com
+web.thepartworks.com
+checkout.thepartworks.com
+upgrade.thepartworks.com

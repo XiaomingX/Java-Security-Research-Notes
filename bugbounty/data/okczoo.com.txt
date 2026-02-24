@@ -1,0 +1,13 @@
+okczooemail.corp.okczoo.com
+fs.okczoo.com
+fmail.corp.okczoo.com
+autodiscover.corp.okczoo.com
+tickets.okczoo.com
+okczooexchange.corp.okczoo.com
+cheetah.okczoo.com
+mail2.okczoo.com
+mail.okczoo.com
+spamfilter.okczoo.com
+shop.okczoo.com
+autodiscover.okczoo.com
+webmail.okczoo.com

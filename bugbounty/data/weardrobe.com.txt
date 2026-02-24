@@ -1,0 +1,8 @@
+mail.weardrobe.com
+nyc.weardrobe.com
+wwww.weardrobe.com
+assets1.weardrobe.com
+assets2.weardrobe.com
+assets3.weardrobe.com
+assets0.weardrobe.com
+blog.weardrobe.com

@@ -1,0 +1,3 @@
+smtp.rjonkers.nl
+mta-sts.rjonkers.nl
+mail.rjonkers.nl

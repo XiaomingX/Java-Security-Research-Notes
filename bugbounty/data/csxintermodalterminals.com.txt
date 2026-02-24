@@ -1,0 +1,5 @@
+uat.csxintermodalterminals.com
+prod.csxintermodalterminals.com
+migr.csxintermodalterminals.com
+migr-uat.csxintermodalterminals.com
+dev.csxintermodalterminals.com

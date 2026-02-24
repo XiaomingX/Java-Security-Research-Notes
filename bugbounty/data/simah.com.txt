@@ -1,0 +1,13 @@
+autodiscover.simah.com
+eregistration.simah.com
+mail-dr.simah.com
+mail.simah.com
+publictest.simah.com
+services.simah.com
+webmail-dr.simah.com
+benefitbh.simah.com
+campaign.simah.com
+quarantine.simah.com
+replycert.simah.com
+webmail.simah.com
+whatsapp.simah.com

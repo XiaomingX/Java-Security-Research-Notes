@@ -1,0 +1,7 @@
+assets.nrs.com
+community.nrs.com
+newsletter.nrs.com
+star.nrs.com
+cms.nrs.com
+search.nrs.com
+wrsi.nrs.com

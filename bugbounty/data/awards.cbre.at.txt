@@ -1,0 +1,2 @@
+preview.awards.cbre.at
+api.awards.cbre.at

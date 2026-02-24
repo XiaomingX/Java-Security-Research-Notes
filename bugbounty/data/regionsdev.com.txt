@@ -1,0 +1,13 @@
+quickdeposit.regionsdev.com
+m1.regionsdev.com
+rego-proxy-qa-v1.api.regionsdev.com
+testdnscaaapp.regionsdev.com
+images.regionsdev.com
+m2.regionsdev.com
+testdnscaa.regionsdev.com
+end.regionsdev.com
+m4.regionsdev.com
+m3.regionsdev.com
+eapi.sbox.ib.regionsdev.com
+expresstrade.regionsdev.com
+spf1.regionsdev.com

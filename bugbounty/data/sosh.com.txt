@@ -1,0 +1,10 @@
+beta.sosh.com
+search.sosh.com
+events.sosh.com
+ns1.sosh.com
+email.sosh.com
+secure.sosh.com
+sha2.sosh.com
+admin.sosh.com
+wwww.sosh.com
+zimbra.sosh.com

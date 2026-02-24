@@ -1,0 +1,12 @@
+id.royalcanin.pt
+smtp.royalcanin.pt
+my.royalcanin.pt
+profissionais.royalcanin.pt
+portal.royalcanin.pt
+esterilizacao.royalcanin.pt
+forms.royalcanin.pt
+contacto.royalcanin.pt
+crescimento.royalcanin.pt
+multifunction.royalcanin.pt
+testid.royalcanin.pt
+vetservices.royalcanin.pt

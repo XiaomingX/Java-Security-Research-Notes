@@ -1,0 +1,2 @@
+mail.or-trading.ch
+autodiscover.or-trading.ch

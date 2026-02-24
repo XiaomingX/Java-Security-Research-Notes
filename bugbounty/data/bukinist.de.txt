@@ -1,0 +1,9 @@
+book.bukinist.de
+accounting.bukinist.de
+nestor.bukinist.de
+accdev.bukinist.de
+pitanie.bukinist.de
+youtrack.bukinist.de
+dev.bukinist.de
+new.bukinist.de
+server1.bukinist.de

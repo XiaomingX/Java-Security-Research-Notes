@@ -1,0 +1,5 @@
+autodiscover.zapcerto.com
+cpanel.zapcerto.com
+mail.zapcerto.com
+webdisk.zapcerto.com
+webmail.zapcerto.com

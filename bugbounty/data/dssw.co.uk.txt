@@ -1,0 +1,6 @@
+store.dssw.co.uk
+version.dssw.co.uk
+mta-sts.dssw.co.uk
+reseller.dssw.co.uk
+incident.dssw.co.uk
+my.dssw.co.uk

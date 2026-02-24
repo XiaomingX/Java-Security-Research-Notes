@@ -1,0 +1,6 @@
+qa.sykehusapoteket.no
+autodiscover.sykehusapoteket.no
+lyncdiscover.sykehusapoteket.no
+sip.sykehusapoteket.no
+enterpriseregistration.sykehusapoteket.no
+data.sykehusapoteket.no

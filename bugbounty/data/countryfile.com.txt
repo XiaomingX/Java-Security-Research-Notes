@@ -1,0 +1,15 @@
+staging.countryfile.com
+i.countryfile.com
+try.countryfile.com
+consent.countryfile.com
+e.countryfile.com
+permutive.countryfile.com
+subscribe.countryfile.com
+m.countryfile.com
+imagecompetition.countryfile.com
+release.countryfile.com
+dev.countryfile.com
+test.countryfile.com
+cdn.countryfile.com
+cdn2.countryfile.com
+cdn3.countryfile.com

@@ -1,0 +1,12 @@
+community.confessionsofahomeschooler.com
+store.confessionsofahomeschooler.com
+go.confessionsofahomeschooler.com
+cdn.confessionsofahomeschooler.com
+cdn2.confessionsofahomeschooler.com
+shared.confessionsofahomeschooler.com
+webmaster.confessionsofahomeschooler.com
+cdn1.confessionsofahomeschooler.com
+ns1.confessionsofahomeschooler.com
+mail.confessionsofahomeschooler.com
+ns2.confessionsofahomeschooler.com
+smtp.confessionsofahomeschooler.com

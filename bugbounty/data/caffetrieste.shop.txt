@@ -1,0 +1,15 @@
+share.caffetrieste.shop
+ping.caffetrieste.shop
+publish.caffetrieste.shop
+public.caffetrieste.shop
+media.caffetrieste.shop
+post.caffetrieste.shop
+promotion.caffetrieste.shop
+bookmark.caffetrieste.shop
+add.caffetrieste.shop
+link.caffetrieste.shop
+plus.caffetrieste.shop
+pin.caffetrieste.shop
+social.caffetrieste.shop
+superset.caffetrieste.shop
+like.caffetrieste.shop

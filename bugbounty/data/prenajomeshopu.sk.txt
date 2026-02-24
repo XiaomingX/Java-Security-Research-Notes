@@ -1,0 +1,11 @@
+blog.prenajomeshopu.sk
+eshop.prenajomeshopu.sk
+shop.prenajomeshopu.sk
+pop3.prenajomeshopu.sk
+store.prenajomeshopu.sk
+asmart.prenajomeshopu.sk
+imap.prenajomeshopu.sk
+obchod.prenajomeshopu.sk
+e-shop.prenajomeshopu.sk
+admin.prenajomeshopu.sk
+smtp.prenajomeshopu.sk

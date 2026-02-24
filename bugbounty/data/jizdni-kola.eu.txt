@@ -1,0 +1,2 @@
+ftp.jizdni-kola.eu
+mail.jizdni-kola.eu

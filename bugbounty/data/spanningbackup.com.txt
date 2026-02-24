@@ -1,0 +1,15 @@
+us.spanningbackup.com
+o365-us.spanningbackup.com
+o365.spanningbackup.com
+api.spanningbackup.com
+o365-docs.spanningbackup.com
+api-eu.spanningbackup.com
+bs-a-p-blb.spanningbackup.com
+api-us.spanningbackup.com
+archive.spanningbackup.com
+blog.spanningbackup.com
+sf-us.spanningbackup.com
+bs-d-p-wlb.spanningbackup.com
+cwood.spanningbackup.com
+sf.spanningbackup.com
+burn.spanningbackup.com

@@ -1,0 +1,5 @@
+vpn-asa.benninghoven.com
+mail.benninghoven.com
+news.benninghoven.com
+ucws.benninghoven.com
+autodiscover.benninghoven.com

@@ -1,0 +1,4 @@
+preprod.senninger.com
+info.senninger.com
+gateway.senninger.com
+communications.senninger.com

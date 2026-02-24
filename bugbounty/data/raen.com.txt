@@ -1,0 +1,8 @@
+join.raen.com
+mccntp.raen.com
+returns.raen.com
+script.raen.com
+szrpr.raen.com
+try.raen.com
+trybeforeyoubuy.raen.com
+trydev.raen.com

@@ -1,0 +1,12 @@
+img.medscape.fr
+click.newsletter.medscape.fr
+staging.medscape.fr
+mta.newsletter.medscape.fr
+iad1.medscape.fr
+www1.medscape.fr
+newsletter.medscape.fr
+www2.medscape.fr
+as.medscape.fr
+com.cse.medscape.fr
+proddev.medscape.fr
+qa00.medscape.fr

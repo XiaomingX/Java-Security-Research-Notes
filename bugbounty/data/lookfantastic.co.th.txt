@@ -1,0 +1,2 @@
+checkout.lookfantastic.co.th
+horizon-api.www.lookfantastic.co.th

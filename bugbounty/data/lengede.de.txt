@@ -1,0 +1,4 @@
+email.lengede.de
+cms.lengede.de
+webmail.lengede.de
+sync.lengede.de

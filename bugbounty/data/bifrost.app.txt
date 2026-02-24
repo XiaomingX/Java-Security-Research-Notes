@@ -1,0 +1,11 @@
+api.bifrost.app
+crowdloan.bifrost.app
+dot-api.bifrost.app
+referrer.bifrost.app
+stats.bifrost.app
+dot.bifrost.app
+explorer.bifrost.app
+ref.bifrost.app
+test.bifrost.app
+explore.bifrost.app
+test888.bifrost.app

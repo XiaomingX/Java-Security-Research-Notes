@@ -1,0 +1,4 @@
+faucet.kitchensync.pro
+ads.kitchensync.pro
+zones.kitchensync.pro
+parse.kitchensync.pro

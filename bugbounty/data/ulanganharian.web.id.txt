@@ -1,0 +1,10 @@
+autodiscover.ulanganharian.web.id
+cpanel.ulanganharian.web.id
+cpcalendars.ulanganharian.web.id
+cpcontacts.ulanganharian.web.id
+kassa.ulanganharian.web.id
+lms-smkbpp.ulanganharian.web.id
+mail.ulanganharian.web.id
+webdisk.ulanganharian.web.id
+webmail.ulanganharian.web.id
+onlinetes.ulanganharian.web.id

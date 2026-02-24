@@ -1,0 +1,7 @@
+autodiscover.saadtradinginc.com
+cpanel.saadtradinginc.com
+mail.saadtradinginc.com
+webdisk.saadtradinginc.com
+cpcalendars.saadtradinginc.com
+cpcontacts.saadtradinginc.com
+webmail.saadtradinginc.com

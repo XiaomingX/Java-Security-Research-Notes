@@ -1,0 +1,3 @@
+cpcalendars.acvtje.be
+cpcontacts.acvtje.be
+ipv6.acvtje.be

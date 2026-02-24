@@ -1,0 +1,3 @@
+bmw-forms.bmw.is
+form.bmw.is
+verd.bmw.is

@@ -1,0 +1,9 @@
+stage-internet.zeiss.pt
+test3-internet.zeiss.pt
+development-internet.zeiss.pt
+preprod-internet.zeiss.pt
+portal-test.zeiss.pt
+test2-internet.zeiss.pt
+test1-internet.zeiss.pt
+datapipeline.zeiss.pt
+portal.zeiss.pt

@@ -1,0 +1,15 @@
+certauth.saml.survice.com
+certauth.wsfs.survice.com
+enterpriseregistration.survice.com
+fs.survice.com
+github.survice.com
+saml.survice.com
+support.survice.com
+wsfs.survice.com
+deviceregistration.survice.com
+downloads.mail.survice.com
+gsa.survice.com
+gsadev.survice.com
+metrologydev.survice.com
+pmc.survice.com
+wwwdev.survice.com

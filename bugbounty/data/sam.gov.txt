@@ -1,0 +1,15 @@
+api.sam.gov
+reporting.sam.gov
+fbohome.sam.gov
+charlie.sam.gov
+vpn.coop.sam.gov
+designsystem.sam.gov
+wdolhome.sam.gov
+api-alpha.sam.gov
+alpha.sam.gov
+icharlie.sam.gov
+rddev.sam.gov
+utest.sam.gov
+beta.sam.gov
+udev.sam.gov
+iuat.sam.gov

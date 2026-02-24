@@ -1,0 +1,10 @@
+preview.fuzebev.com
+staging.fuzebev.com
+tumblr.fuzebev.com
+fuzefridays.fuzebev.com
+api.fuzebev.com
+test.api.fuzebev.com
+test.fuzefridays.fuzebev.com
+stgw1.fuzebev.com
+selft.fuzebev.com
+origin.fuzebev.com

@@ -1,0 +1,9 @@
+autodiscover.sportscorptravel.com
+b2c.sportscorptravel.com
+cpanel.sportscorptravel.com
+cpcalendars.sportscorptravel.com
+cpcontacts.sportscorptravel.com
+mail.sportscorptravel.com
+webdisk.sportscorptravel.com
+webmail.sportscorptravel.com
+old.sportscorptravel.com

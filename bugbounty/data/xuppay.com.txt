@@ -1,0 +1,4 @@
+developer.xuppay.com
+staging3.developer.xuppay.com
+vpn.xuppay.com
+autodiscover.xuppay.com

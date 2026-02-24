@@ -1,0 +1,7 @@
+webmail.scorpionhosting.nl
+joomlaupdate.scorpionhosting.nl
+mail.scorpionhosting.nl
+pop.scorpionhosting.nl
+smtp.scorpionhosting.nl
+ftp.scorpionhosting.nl
+joomlaupdates.scorpionhosting.nl

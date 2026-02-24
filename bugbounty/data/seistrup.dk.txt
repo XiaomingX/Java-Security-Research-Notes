@@ -1,0 +1,17 @@
+mail.seistrup.dk
+calendar.seistrup.dk
+autodiscover.seistrup.dk
+autoconfig.seistrup.dk
+openpgpkey.seistrup.dk
+klaus.seistrup.dk
+linda.seistrup.dk
+annemette.seistrup.dk
+rasmus.seistrup.dk
+hanne.seistrup.dk
+ann-sophie.seistrup.dk
+bent.seistrup.dk
+ingelise.seistrup.dk
+mta-sts.seistrup.dk
+default.seistrup.dk
+blog.seistrup.dk
+cdn.seistrup.dk

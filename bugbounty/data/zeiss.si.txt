@@ -1,0 +1,8 @@
+datapipeline.zeiss.si
+preprod-internet.zeiss.si
+stage-internet.zeiss.si
+test1-internet.zeiss.si
+portal-test.zeiss.si
+test3-internet.zeiss.si
+test2-internet.zeiss.si
+development-internet.zeiss.si

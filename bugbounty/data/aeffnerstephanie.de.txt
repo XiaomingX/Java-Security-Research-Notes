@@ -1,0 +1,6 @@
+lists.aeffnerstephanie.de
+mta-sts.aeffnerstephanie.de
+mta-sts.lists.aeffnerstephanie.de
+user.aeffnerstephanie.de
+cloud.aeffnerstephanie.de
+collabora.aeffnerstephanie.de

@@ -1,0 +1,9 @@
+cpanel.euphix.org
+preview.euphix.org
+webmail.euphix.org
+mail.euphix.org
+productie.euphix.org
+webdisk.euphix.org
+cpcalendars.euphix.org
+cpcontacts.euphix.org
+test.euphix.org

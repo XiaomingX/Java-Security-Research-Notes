@@ -1,0 +1,6 @@
+mail.xxxdani.com
+cpcontacts.xxxdani.com
+cpcalendars.xxxdani.com
+webdisk.xxxdani.com
+webmail.xxxdani.com
+cpanel.xxxdani.com

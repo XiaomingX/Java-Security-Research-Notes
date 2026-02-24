@@ -1,0 +1,3 @@
+remote.henlowacademy.co.uk
+mail.henlowacademy.co.uk
+mta-sts.mail.henlowacademy.co.uk

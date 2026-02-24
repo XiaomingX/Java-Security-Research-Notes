@@ -1,0 +1,3 @@
+shop.desertdoor.com
+cargo.desertdoor.com
+mail.shop.desertdoor.com

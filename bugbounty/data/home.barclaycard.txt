@@ -1,0 +1,3 @@
+paymentsapply.home.barclaycard
+qa.home.barclaycard
+gem.home.barclaycard

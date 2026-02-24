@@ -1,0 +1,8 @@
+sip.studioistolia.com
+web.studioistolia.com
+enterpriseenrollment.studioistolia.com
+lyncdiscover.studioistolia.com
+dns2.studioistolia.com
+dns3.studioistolia.com
+dns1.studioistolia.com
+dns4.studioistolia.com

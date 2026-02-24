@@ -1,0 +1,8 @@
+portal.smeets.ag
+dev.smeets.ag
+webmail.smeets.ag
+ipv6.portal.smeets.ag
+cpanel.smeets.ag
+mail.smeets.ag
+remotedesktop.smeets.ag
+webdisk.smeets.ag

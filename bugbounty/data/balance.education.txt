@@ -1,0 +1,9 @@
+autodiscover.balance.education
+vps.balance.education
+pop3.balance.education
+webmail.balance.education
+smtp.balance.education
+mail.balance.education
+imap.balance.education
+autoconfig.balance.education
+mta-sts.balance.education

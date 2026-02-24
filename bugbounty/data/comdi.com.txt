@@ -1,0 +1,16 @@
+autodiscover.comdi.com
+b24.comdi.com
+b24test.comdi.com
+broadcast.comdi.com
+cdn.comdi.com
+file.comdi.com
+lp.comdi.com
+lp.www.comdi.com
+origin-ixc2-4.comdi.com
+owa.comdi.com
+project.comdi.com
+mts.comdi.com
+autodiscover.mts.comdi.com
+mail.comdi.com
+mail.mts.comdi.com
+owa.mts.comdi.com

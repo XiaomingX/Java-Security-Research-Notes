@@ -1,0 +1,3 @@
+labunei.petrom.md
+wifi.petrom.md
+webmail.petrom.md

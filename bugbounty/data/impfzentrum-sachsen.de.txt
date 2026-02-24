@@ -1,0 +1,2 @@
+support.impfzentrum-sachsen.de
+gate.impfzentrum-sachsen.de

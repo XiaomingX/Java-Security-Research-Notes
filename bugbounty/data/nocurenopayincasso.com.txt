@@ -1,0 +1,2 @@
+mail.nocurenopayincasso.com
+mta-sts.mail.nocurenopayincasso.com

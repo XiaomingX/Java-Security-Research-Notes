@@ -1,0 +1,4 @@
+ftp.forum2000.cz
+mail.forum2000.cz
+autodiscover.forum2000.cz
+w.forum2000.cz

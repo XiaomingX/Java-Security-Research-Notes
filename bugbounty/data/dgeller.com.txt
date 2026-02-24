@@ -1,0 +1,6 @@
+link.dgeller.com
+shop.dgeller.com
+cpanel.shop.dgeller.com
+mail.shop.dgeller.com
+webdisk.shop.dgeller.com
+webmail.shop.dgeller.com

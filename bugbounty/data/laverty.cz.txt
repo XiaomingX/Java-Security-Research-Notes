@@ -1,0 +1,8 @@
+autoconfig.laverty.cz
+mail.laverty.cz
+store.laverty.cz
+demo.laverty.cz
+staging.laverty.cz
+autodiscover.laverty.cz
+shop.laverty.cz
+old.laverty.cz

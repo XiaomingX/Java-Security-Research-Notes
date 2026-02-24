@@ -1,0 +1,2 @@
+webhook.gamebillet.com
+host.gamebillet.com

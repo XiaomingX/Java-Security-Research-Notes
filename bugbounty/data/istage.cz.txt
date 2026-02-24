@@ -1,0 +1,2 @@
+mail.istage.cz
+ftp.istage.cz

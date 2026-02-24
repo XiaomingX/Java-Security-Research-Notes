@@ -1,0 +1,2 @@
+veranstaltungen.dwt-sgw.de
+autodiscover.dwt-sgw.de

@@ -1,0 +1,3 @@
+api.beatfantasy.com
+beta.beatfantasy.com
+masters.beatfantasy.com

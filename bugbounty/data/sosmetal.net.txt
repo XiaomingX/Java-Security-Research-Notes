@@ -1,0 +1,12 @@
+autodiscover.sosmetal.net
+cpanel.sosmetal.net
+cpcalendars.sosmetal.net
+cpcontacts.sosmetal.net
+mail.sosmetal.net
+secureuploads.sosmetal.net
+smpdistrib.sosmetal.net
+sosmetalcatalog.sosmetal.net
+webdisk.sosmetal.net
+webmail.sosmetal.net
+sosmetalcom.sosmetal.net
+sosmetaltlc.sosmetal.net

@@ -1,0 +1,4 @@
+bcs.building-controls.com
+info.building-controls.com
+persiscopedemo.building-controls.com
+vpn.building-controls.com

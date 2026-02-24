@@ -1,0 +1,4 @@
+uata.peoplefront.in
+thirdpartyapi.peoplefront.in
+usermanagement.peoplefront.in
+app.peoplefront.in

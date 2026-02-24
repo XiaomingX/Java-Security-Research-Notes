@@ -1,0 +1,14 @@
+team.yardcap.com
+myadmin.yardcap.com
+helpadmin.yardcap.com
+vc.yardcap.com
+admin.vc.yardcap.com
+blog.yardcap.com
+ns2.yardcap.com
+ns1.yardcap.com
+hr.yardcap.com
+apps.yardcap.com
+app.yardcap.com
+help.yardcap.com
+corp.yardcap.com
+cp.yardcap.com

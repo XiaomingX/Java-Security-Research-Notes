@@ -1,0 +1,11 @@
+admin.parts.jungheinrich.ua
+news.jungheinrich.ua
+autodiscover.jungheinrich.ua
+jungheinrich.uawww.jungheinrich.ua
+shop.jungheinrich.ua
+static.shop.jungheinrich.ua
+qa.staging.jungheinrich.ua
+www2.jungheinrich.ua
+parts.jungheinrich.ua
+03.jungheinrich.ua
+01.jungheinrich.ua

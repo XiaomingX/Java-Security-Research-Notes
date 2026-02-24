@@ -1,0 +1,6 @@
+cpanel.thecarpetshoppe.com
+cpcalendars.thecarpetshoppe.com
+cpcontacts.thecarpetshoppe.com
+mail.thecarpetshoppe.com
+webdisk.thecarpetshoppe.com
+webmail.thecarpetshoppe.com

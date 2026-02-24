@@ -1,0 +1,4 @@
+github.cobbler.io
+identity.cobbler.io
+admin.cobbler.io
+trust.cobbler.io

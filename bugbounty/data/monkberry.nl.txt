@@ -1,0 +1,8 @@
+webdisk.monkberry.nl
+mailgate.monkberry.nl
+mboxfw2.monkberry.nl
+autodiscover.monkberry.nl
+cpanel.monkberry.nl
+mail.monkberry.nl
+mboxfw1.monkberry.nl
+webmail.monkberry.nl

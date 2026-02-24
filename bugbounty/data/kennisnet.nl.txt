@@ -1,0 +1,3 @@
+bks.kennisnet.nl
+artifactory.bks.kennisnet.nl
+nv.kennisnet.nl

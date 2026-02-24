@@ -1,0 +1,5 @@
+mail.wimmi.cloud
+office.wimmi.cloud
+vpn.wimmi.cloud
+autodiscover.wimmi.cloud
+autoconfig.wimmi.cloud

@@ -1,0 +1,8 @@
+api.promissa.nl
+autoconfig.promissa.nl
+autodiscover.promissa.nl
+support.promissa.nl
+ical.promissa.nl
+autoconfig.portal.promissa.nl
+autodiscover.portal.promissa.nl
+portal.promissa.nl

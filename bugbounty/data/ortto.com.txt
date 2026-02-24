@@ -1,0 +1,10 @@
+help.ortto.com
+lp.ortto.com
+website-cloudfront.preprod.ortto.com
+help-files.ortto.com
+preprod.ortto.com
+roadmap.ortto.com
+t.ortto.com
+apollo.ortto.com
+o.ortto.com
+r.ortto.com

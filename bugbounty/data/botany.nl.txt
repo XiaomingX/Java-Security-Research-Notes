@@ -1,0 +1,6 @@
+ftp.botany.nl
+pop.botany.nl
+mail.botany.nl
+autodiscover.botany.nl
+smtp.botany.nl
+remote.botany.nl

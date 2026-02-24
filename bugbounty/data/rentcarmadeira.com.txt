@@ -1,0 +1,6 @@
+bookings.rentcarmadeira.com
+partners.rentcarmadeira.com
+webmail.rentcarmadeira.com
+webdisk.rentcarmadeira.com
+cpanel.rentcarmadeira.com
+mail.rentcarmadeira.com

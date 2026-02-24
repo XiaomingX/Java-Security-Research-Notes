@@ -1,0 +1,3 @@
+webmail.igain.finance
+ig-legacy.igain.finance
+medialand.igain.finance

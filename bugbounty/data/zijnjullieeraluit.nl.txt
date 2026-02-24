@@ -1,0 +1,9 @@
+opendata.english.zijnjullieeraluit.nl
+magazinesintern.zijnjullieeraluit.nl
+opendata.zijnjullieeraluit.nl
+magazines.english.zijnjullieeraluit.nl
+feeds.english.zijnjullieeraluit.nl
+english.zijnjullieeraluit.nl
+feeds.zijnjullieeraluit.nl
+magazines.zijnjullieeraluit.nl
+magazinesintern.english.zijnjullieeraluit.nl

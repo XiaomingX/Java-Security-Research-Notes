@@ -1,0 +1,7 @@
+shop.pferdinternational.de
+mailing.pferdinternational.de
+alt.pferdinternational.de
+ww.pferdinternational.de
+tickets.pferdinternational.de
+store.pferdinternational.de
+sst.pferdinternational.de

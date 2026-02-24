@@ -1,0 +1,6 @@
+server.bizmerlin.com
+trkv3.bizmerlin.com
+ftp.bizmerlin.com
+support.bizmerlin.com
+mail.bizmerlin.com
+bmwebstatic.bizmerlin.com

@@ -1,0 +1,4 @@
+status.umob.app
+helpcenter.umob.app
+beta.umob.app
+app.umob.app

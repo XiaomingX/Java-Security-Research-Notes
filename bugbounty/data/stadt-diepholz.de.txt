@@ -1,0 +1,9 @@
+ferien.stadt-diepholz.de
+owncloud.stadt-diepholz.de
+jobaid.stadt-diepholz.de
+geo.stadt-diepholz.de
+service.stadt-diepholz.de
+ors.stadt-diepholz.de
+osmobile.stadt-diepholz.de
+sitzungsdienst.stadt-diepholz.de
+bewerbung.stadt-diepholz.de

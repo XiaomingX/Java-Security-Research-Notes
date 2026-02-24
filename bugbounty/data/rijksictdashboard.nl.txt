@@ -1,0 +1,11 @@
+acc.beheer.rijksictdashboard.nl
+acc.rijksictdashboard.nl
+beheer.rijksictdashboard.nl
+test.beheer.rijksictdashboard.nl
+test.rijksictdashboard.nl
+w.rijksictdashboard.nl
+mail.rijksictdashboard.nl
+auth-tst.rijksictdashboard.nl
+admin.rijksictdashboard.nl
+auth-acc.rijksictdashboard.nl
+auth.rijksictdashboard.nl

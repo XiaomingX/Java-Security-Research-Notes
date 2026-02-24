@@ -1,0 +1,2 @@
+mail.matrace-trutnov.cz
+cdn.matrace-trutnov.cz

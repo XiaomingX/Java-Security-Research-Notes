@@ -1,0 +1,5 @@
+green.binaryws.com
+frontend.binaryws.com
+blue.binaryws.com
+canary.binaryws.com
+ws.binaryws.com

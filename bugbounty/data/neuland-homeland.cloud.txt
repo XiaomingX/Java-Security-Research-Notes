@@ -1,0 +1,5 @@
+opendesk.neuland-homeland.cloud
+minio.neuland-homeland.cloud
+meet.neuland-homeland.cloud
+latex.neuland-homeland.cloud
+ozgsec.neuland-homeland.cloud

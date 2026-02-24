@@ -1,0 +1,16 @@
+careers.xyzreality.com
+storage.staging.xyzreality.com
+cloud.xyzreality.com
+campaigns.xyzreality.com
+university.xyzreality.com
+training.xyzreality.com
+staging.xyzreality.com
+webinar.xyzreality.com
+sales.xyzreality.com
+storage.cloud.xyzreality.com
+support.xyzreality.com
+blog.xyzreality.com
+pages.xyzreality.com
+demo.xyzreality.com
+hub.xyzreality.com
+testprototype.xyzreality.com

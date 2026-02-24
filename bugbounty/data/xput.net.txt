@@ -1,0 +1,4 @@
+ina.xput.net
+mail.xput.net
+autoconfig.xput.net
+autodiscover.xput.net

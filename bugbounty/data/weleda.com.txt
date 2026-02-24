@@ -1,0 +1,17 @@
+buy.weleda.com
+de.uat.weleda.com
+email.weleda.com
+metrics.weleda.com
+uat.weleda.com
+us.uat.weleda.com
+usa.weleda.com
+weask.weleda.com
+admin.weleda.com
+cms.weleda.com
+dev.opengarden.weleda.com
+opengarden.weleda.com
+preview.opengarden.weleda.com
+profiler.weleda.com
+qa.opengarden.weleda.com
+testing.weleda.com
+weask-dev.weleda.com

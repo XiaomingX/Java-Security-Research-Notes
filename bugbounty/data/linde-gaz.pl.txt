@@ -1,0 +1,2 @@
+psg.linde-gaz.pl
+static.www.linde-gaz.pl

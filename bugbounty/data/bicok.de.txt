@@ -1,0 +1,4 @@
+wiki.bicok.de
+zammad.bicok.de
+app.bicok.de
+ticket.bicok.de

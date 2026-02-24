@@ -1,0 +1,8 @@
+joomlaupdate.scorpioncomputers.be
+mta-sts.scorpioncomputers.be
+ftp.scorpioncomputers.be
+smtp.scorpioncomputers.be
+mail.scorpioncomputers.be
+webmail.scorpioncomputers.be
+pop.scorpioncomputers.be
+joomlaupdates.scorpioncomputers.be

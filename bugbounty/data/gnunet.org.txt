@@ -1,0 +1,17 @@
+bib.gnunet.org
+bootstrap.gnunet.org
+bugs.gnunet.org
+buildbot.gnunet.org
+docs.gnunet.org
+fcfs.gnunet.org
+gana.gnunet.org
+git.gnunet.org
+lsd.gnunet.org
+merchant.gnunet.org
+reclaim.gnunet.org
+rest.gnunet.org
+stage.gnunet.org
+taldir.gnunet.org
+v21.gnunet.org
+de.gnunet.org
+drone.gnunet.org

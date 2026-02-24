@@ -1,0 +1,4 @@
+autodiscover.chesacorv.com
+mail.chesacorv.com
+imap.chesacorv.com
+smtp.chesacorv.com

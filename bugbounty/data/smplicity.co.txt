@@ -1,0 +1,8 @@
+test.smplicity.co
+cpanel.smplicity.co
+cpcalendars.smplicity.co
+cpcontacts.smplicity.co
+whm.smplicity.co
+webdisk.smplicity.co
+webmail.smplicity.co
+mail.smplicity.co

@@ -1,0 +1,10 @@
+staging.naturalcosmeticsinc.com
+webdisk.naturalcosmeticsinc.com
+cpanel.naturalcosmeticsinc.com
+eshots.naturalcosmeticsinc.com
+webmail.naturalcosmeticsinc.com
+cpcontacts.naturalcosmeticsinc.com
+eshot.naturalcosmeticsinc.com
+mail.naturalcosmeticsinc.com
+test.naturalcosmeticsinc.com
+cpcalendars.naturalcosmeticsinc.com

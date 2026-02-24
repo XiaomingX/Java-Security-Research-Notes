@@ -1,0 +1,8 @@
+admin.cwcglobal.com
+api.cwcglobal.com
+stub.cwcglobal.com
+testapi.cwcglobal.com
+admin-staging.cwcglobal.com
+pull01.cwcglobal.com
+pull02.cwcglobal.com
+staging.cwcglobal.com

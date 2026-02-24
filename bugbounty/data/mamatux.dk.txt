@@ -1,0 +1,9 @@
+ircstats.mamatux.dk
+gw.mamatux.dk
+babytux.mamatux.dk
+beta.mamatux.dk
+blog.mamatux.dk
+svn.mamatux.dk
+gallery.mamatux.dk
+old.mamatux.dk
+sysinfo.mamatux.dk

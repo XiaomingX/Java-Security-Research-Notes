@@ -1,0 +1,5 @@
+emailmarketing.thegoodcollective.com
+returns.thegoodcollective.com
+sv.thegoodcollective.com
+t.thegoodcollective.com
+wholesale.thegoodcollective.com

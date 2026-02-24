@@ -1,0 +1,6 @@
+cpanel.guesthousegrimaud.nl
+cpcalendars.guesthousegrimaud.nl
+cpcontacts.guesthousegrimaud.nl
+mail.guesthousegrimaud.nl
+webdisk.guesthousegrimaud.nl
+webmail.guesthousegrimaud.nl

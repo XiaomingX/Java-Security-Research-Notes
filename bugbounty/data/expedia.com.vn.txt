@@ -1,0 +1,15 @@
+apim.expedia.com.vn
+widgets.partners.expedia.com.vn
+access.expedia.com.vn
+apim.uswest2.expedia.com.vn
+car-rental.expedia.com.vn
+w.expedia.com.vn
+m.expedia.com.vn
+ww.expedia.com.vn
+apim.useast1.expedia.com.vn
+apim.int.expedia.com.vn
+service.expedia.com.vn
+support.expedia.com.vn
+testpartners.expedia.com.vn
+wwch.expedia.com.vn
+faq.expedia.com.vn

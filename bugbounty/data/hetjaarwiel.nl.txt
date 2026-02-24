@@ -1,0 +1,6 @@
+cpanel.hetjaarwiel.nl
+cpcalendars.hetjaarwiel.nl
+cpcontacts.hetjaarwiel.nl
+mail.hetjaarwiel.nl
+webdisk.hetjaarwiel.nl
+webmail.hetjaarwiel.nl
